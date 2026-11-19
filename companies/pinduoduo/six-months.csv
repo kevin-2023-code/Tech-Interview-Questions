@@ -1,21 +1,21 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
-LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,,2026-10-01,https://trueinterview.io/questions/lru-cache
-"Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,,2026-09-02,https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors
-Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,,2026-09,https://trueinterview.io/questions/valid-parentheses
-Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
-Present Evidence for Professional Strengths and Weaknesses,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-08-22,https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses
-Spiral Matrix (LC 54) + Follow-Ups,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-08-16,https://trueinterview.io/questions/spiral-matrix-traversal
-Minesweeper (LC 529),Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,,2026-08-10,https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529
-Project Deep Dive & Behavioral,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08-04,https://trueinterview.io/questions/project-deep-dive-and-bq-2
-Describe toughest project experience,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/describe-toughest-project-experience
-Find longest uniform substring after k replacements,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,,2026-08,https://trueinterview.io/questions/find-longest-uniform-substring-after-k-replacements
-Spiral Matrix Generation,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/spiral-matrix-generation
-Validate Binary Search Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6,,2026-08,https://trueinterview.io/questions/validate-binary-search-tree
-Search from the end in a sorted array (variant),Algorithm,Medium,Phone screen,Junior / Mid; Senior,7,,2026-08,https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb
-Resume-Driven Language & Database Fundamentals,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-07-17,https://trueinterview.io/questions/resume-driven-language-database-fundamentals
-Count Longest Increasing Subsequences,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2026-07-17,https://trueinterview.io/questions/count-longest-increasing-subsequences
-Design a Simplified Twitter Feed,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44
-Perfect Squares Decomposition,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84
-Longest Repeating Character Replacement,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,,2026-07,https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714
-Spiral Matrix,Algorithm,Medium,Phone screen,Junior / Mid,2,,2026-07,https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
+LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,0,2026-10-01,https://trueinterview.io/questions/lru-cache
+"Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,1,2026-09-02,https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors
+Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,0,2026-09,https://trueinterview.io/questions/valid-parentheses
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,0,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+Present Evidence for Professional Strengths and Weaknesses,Behavioral / Knowledge,,Phone screen,Senior,1,1,2026-08-22,https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses
+Spiral Matrix (LC 54) + Follow-Ups,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,1,2026-08-16,https://trueinterview.io/questions/spiral-matrix-traversal
+Minesweeper (LC 529),Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,2,2026-08-10,https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529
+Project Deep Dive & Behavioral,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08-04,https://trueinterview.io/questions/project-deep-dive-and-bq-2
+Describe toughest project experience,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/describe-toughest-project-experience
+Find longest uniform substring after k replacements,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,1,2026-08,https://trueinterview.io/questions/find-longest-uniform-substring-after-k-replacements
+Spiral Matrix Generation,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/spiral-matrix-generation
+Validate Binary Search Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6,0,2026-08,https://trueinterview.io/questions/validate-binary-search-tree
+Search from the end in a sorted array (variant),Algorithm,Medium,Phone screen,Junior / Mid; Senior,7,0,2026-08,https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb
+Resume-Driven Language & Database Fundamentals,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,2,2026-07-17,https://trueinterview.io/questions/resume-driven-language-database-fundamentals
+Count Longest Increasing Subsequences,Algorithm,Hard,Onsite / virtual onsite,Senior,1,0,2026-07-17,https://trueinterview.io/questions/count-longest-increasing-subsequences
+Design a Simplified Twitter Feed,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44
+Perfect Squares Decomposition,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84
+Longest Repeating Character Replacement,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-07,https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714
+Spiral Matrix,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-07,https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286

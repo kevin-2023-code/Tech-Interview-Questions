@@ -6,20 +6,22 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (10)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Design Employee-to-Employee Distance](https://trueinterview.io/questions/design-employee-to-employee-distance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-04-23 |
-| [Implement Rate-Limited Wikipedia Crawler](https://trueinterview.io/questions/implement-rate-limited-wikipedia-crawler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-23 |
-| [Search Words in a Character Grid](https://trueinterview.io/questions/search-words-in-a-character-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 2 | 2026-04-15 |
-| [Find the Kth Largest in Two Sorted Arrays](https://trueinterview.io/questions/find-the-kth-largest-in-two-sorted-arrays?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-04-01 |
-| [Implement 2048 Game Logic](../../questions/object-oriented-programming/implement-2048-game-logic/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-03-01 |
-| [What are sum expectation and variance?](https://trueinterview.io/questions/what-are-sum-expectation-and-variance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 2026-01-11 |
-| [How to measure product success?](https://trueinterview.io/questions/how-to-measure-product-success?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-01-11 |
-| [Simulate document assignment to indexers](https://trueinterview.io/questions/simulate-document-assignment-to-indexers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 2025-11-19 |
-| [Reason about MAU error after user ID rehash](https://trueinterview.io/questions/reason-about-mau-error-after-user-id-rehash?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2025-11-10 |
-| [Compute DAU and rolling MAU with zero days](../../questions/sql/compute-dau-and-rolling-mau-with-zero-days/README.md) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | 2025-11-10 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Design Employee-to-Employee Distance](https://trueinterview.io/questions/design-employee-to-employee-distance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-23 |
+| [Implement Rate-Limited Wikipedia Crawler](https://trueinterview.io/questions/implement-rate-limited-wikipedia-crawler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-23 |
+| [Search Words in a Character Grid](https://trueinterview.io/questions/search-words-in-a-character-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 2 | 0 | 2026-04-15 |
+| [Find the Kth Largest in Two Sorted Arrays](https://trueinterview.io/questions/find-the-kth-largest-in-two-sorted-arrays?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-04-01 |
+| [Implement 2048 Game Logic](../../questions/object-oriented-programming/implement-2048-game-logic/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-03-01 |
+| [What are sum expectation and variance?](https://trueinterview.io/questions/what-are-sum-expectation-and-variance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-11 |
+| [How to measure product success?](https://trueinterview.io/questions/how-to-measure-product-success?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-11 |
+| [Simulate document assignment to indexers](https://trueinterview.io/questions/simulate-document-assignment-to-indexers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-19 |
+| [Reason about MAU error after user ID rehash](https://trueinterview.io/questions/reason-about-mau-error-after-user-id-rehash?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2025-11-10 |
+| [Compute DAU and rolling MAU with zero days](../../questions/sql/compute-dau-and-rolling-mau-with-zero-days/README.md) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-10 |
 
 ---
 

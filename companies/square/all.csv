@@ -1,57 +1,57 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Count 2×2 Blocks by Number of Black Cells,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/c57f6683-c2e9-530c-95cb-318c91844476
-Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/booking-system-design
-Markov Chain Next-Word Prediction & Sentence Generation,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-07-21,https://trueinterview.io/questions/markov-chain-next-word-prediction
-"Hiring Manager Screen: Project Deep Dive, Tech Debt & Money Movement",Behavioral / Knowledge,,Phone screen,Staff+,1,,2026-07-16,https://trueinterview.io/questions/hiring-manager-money-movement-screen
-AI Native Workflow Screen,Behavioral / Knowledge,,Phone screen,Staff+,1,,2026-07-16,https://trueinterview.io/questions/ai-native-workflow-screen
-Build a Trust-Aware BIN Database,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/build-a-trust-aware-bin-database
-Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,4,,2026-06,https://trueinterview.io/questions/design-a-stock-order-trade-management-system
-Design Connect Four,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,3,,2026-05-24,https://trueinterview.io/questions/board-game-ood
-Lead a High-Leverage Project in a Regulated Legacy System,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-04-27,https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system
-Explain an AI-Assisted Engineering Workflow You Can Defend,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-04-27,https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend
-Stock Trading Agent System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,2,,2026-04-06,https://trueinterview.io/questions/stock-trading-agent-system-design
-Connect Four with Configurable Win Length,Object-Oriented Programming,Easy,Phone screen,Junior / Mid,1,,2025-11-11,https://trueinterview.io/questions/connect-four-configurable-win
-Racing Points and Winner,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2025-11-11,https://trueinterview.io/questions/racing-points-and-winner
-Product Price Query System,Object-Oriented Programming,Easy,Phone screen,Junior / Mid; Senior,1,,2025-11-11,https://trueinterview.io/questions/product-price-query-system
-Pig Latin Sentence Converter,Algorithm,Medium,Phone screen,New grad; Junior / Mid,2,,2025-11-11,https://trueinterview.io/questions/pig-latin-sentence-converter
-Find Valid Sock Pairs,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2025-11-11,https://trueinterview.io/questions/find-valid-sock-pairs
-Find Nearest Exit in Maze,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2025-11-11,https://trueinterview.io/questions/find-nearest-exit-in-maze
-Design an Interactive Paginator,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2025-11-11,https://trueinterview.io/questions/design-an-interactive-paginator
-Black Cell Covering Block List,Algorithm,Easy,Phone screen,New grad; Junior / Mid,1,,2025-11-11,https://trueinterview.io/questions/black-cell-covering-block-list
-Implement transaction network queries,Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,,2025-10-19,https://trueinterview.io/questions/implement-transaction-network-queries
-Assign Adjacent Seats in a Venue Grid,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/venue-seat-assignment-grid
-Simulate a Simplified Two-Player Card Game,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/two-player-uno-simulation
-Pick Two Books That Use a Voucher Exactly With Least Weight,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/two-books-exact-voucher-spend
-Sparse Merchant-by-Category Sales Matrix Class,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/sparse-sales-matrix-ops
-Merge Staff Shifts Into Who-Is-On-Duty Time Slots,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/shift-overlap-time-segments
-Decode Numbers From a Faulty Seven-Segment Display,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/seven-segment-broken-display-read
-"Server Log Parsing, Per-Service Counts and Error Spike Detection",Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/server-log-level-aggregation
-Randomized Two-Match Schedule Builder for a League,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/round-robin-team-schedule
-Randomized Partner Matching Across Repeated Rounds,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/rotating-people-pairing
-"Boatman, Fox, Chicken and Grain River Crossing Planner",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/river-crossing-puzzle
-Variable-Length Bit Code Decoder,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/prefix-code-bitstring-decoder
-Round-Robin Match Simulation With Power and ID Tiebreaks,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/power-based-tournament-bracket
-"Planet Distance, Blast Simulation and Cheapest Way to Clear Them All",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/planet-weapon-targeting
-Word Rewriter That Keeps Punctuation in Place,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/pig-latin-word-transform
-MotoGP Season Points and Championship Clinch Check,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/motogp-season-points-ranking
-Mutual Like Counts and Best-Friend Recommendation,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/likes-count-friend-recommendation
-Frequency-Based Binary Encoding Pipeline,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/letter-frequency-huffman-tree
-Design a Hotel Room Reservation Service,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/hotel-room-reservation-design
-"Grid Board With a Turning, Moving Player",Object-Oriented Programming,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/grid-board-player-movement
-"Five-Card Hand Scoring: Suit, Pairs and Fifteens",Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/five-card-hand-scoring
-Ancestor and Descendant Queries on Parent Records,Object-Oriented Programming,Easy,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/family-relationship-checker
-Crop Purchasing and Reinvestment Under a Budget,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/crop-budget-profit-maximization
-Coin Flip Duel: Simulate HH Against HT,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/coin-flip-race-simulation
-Route Class with Comparable Climbing Grades,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/climbing-route-ratings
-Shortest Walking Distance on a Circular Park Graph,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/circular-park-walking-time
-Cat Weight and Height Query Filters,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/cat-measurements-sql
-Build a Maze from a Bit String and Find Its Exits,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/binary-string-maze-grid
-Decode Pulse Runs Into an English Sentence,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/binary-signal-morse-decoding
-Single-Player Battleship Game Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/battleship-game-implementation
-Counting Plants That Propagate Weekly After Maturity,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/basil-propagation-growth-count
-Two-Player Ball Throwing Game Simulation,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/ball-throwing-turn-probability
-"Expression Calculator with Parentheses, abs and sqrt",Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/arithmetic-calculator-abs-sqrt
-Ranking Players by Animal Counts With Tie Averaging,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/animal-collection-owing-game
-Round Trips and Happiest Route Over Flight Pairs,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/airport-route-destination-query
-Single-Runway Flight Scheduler With Rescheduling,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/airline-departure-scheduling
-Build Binary Tree From Character Counts,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,,,https://trueinterview.io/questions/build-binary-tree-from-character-counts-2
+Count 2×2 Blocks by Number of Black Cells,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/c57f6683-c2e9-530c-95cb-318c91844476
+Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,0,2026-09,https://trueinterview.io/questions/booking-system-design
+Markov Chain Next-Word Prediction & Sentence Generation,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-07-21,https://trueinterview.io/questions/markov-chain-next-word-prediction
+"Hiring Manager Screen: Project Deep Dive, Tech Debt & Money Movement",Behavioral / Knowledge,,Phone screen,Staff+,1,0,2026-07-16,https://trueinterview.io/questions/hiring-manager-money-movement-screen
+AI Native Workflow Screen,Behavioral / Knowledge,,Phone screen,Staff+,1,0,2026-07-16,https://trueinterview.io/questions/ai-native-workflow-screen
+Build a Trust-Aware BIN Database,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/build-a-trust-aware-bin-database
+Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,4,0,2026-06,https://trueinterview.io/questions/design-a-stock-order-trade-management-system
+Design Connect Four,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,3,1,2026-05-24,https://trueinterview.io/questions/board-game-ood
+Lead a High-Leverage Project in a Regulated Legacy System,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-27,https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system
+Explain an AI-Assisted Engineering Workflow You Can Defend,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-27,https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend
+Stock Trading Agent System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-04-06,https://trueinterview.io/questions/stock-trading-agent-system-design
+Connect Four with Configurable Win Length,Object-Oriented Programming,Easy,Phone screen,Junior / Mid,1,0,2025-11-11,https://trueinterview.io/questions/connect-four-configurable-win
+Racing Points and Winner,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-11-11,https://trueinterview.io/questions/racing-points-and-winner
+Product Price Query System,Object-Oriented Programming,Easy,Phone screen,Junior / Mid; Senior,1,0,2025-11-11,https://trueinterview.io/questions/product-price-query-system
+Pig Latin Sentence Converter,Algorithm,Medium,Phone screen,New grad; Junior / Mid,2,0,2025-11-11,https://trueinterview.io/questions/pig-latin-sentence-converter
+Find Valid Sock Pairs,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-11-11,https://trueinterview.io/questions/find-valid-sock-pairs
+Find Nearest Exit in Maze,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-11-11,https://trueinterview.io/questions/find-nearest-exit-in-maze
+Design an Interactive Paginator,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-11-11,https://trueinterview.io/questions/design-an-interactive-paginator
+Black Cell Covering Block List,Algorithm,Easy,Phone screen,New grad; Junior / Mid,1,0,2025-11-11,https://trueinterview.io/questions/black-cell-covering-block-list
+Implement transaction network queries,Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,0,2025-10-19,https://trueinterview.io/questions/implement-transaction-network-queries
+Assign Adjacent Seats in a Venue Grid,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/venue-seat-assignment-grid
+Simulate a Simplified Two-Player Card Game,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/two-player-uno-simulation
+Pick Two Books That Use a Voucher Exactly With Least Weight,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/two-books-exact-voucher-spend
+Sparse Merchant-by-Category Sales Matrix Class,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/sparse-sales-matrix-ops
+Merge Staff Shifts Into Who-Is-On-Duty Time Slots,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/shift-overlap-time-segments
+Decode Numbers From a Faulty Seven-Segment Display,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/seven-segment-broken-display-read
+"Server Log Parsing, Per-Service Counts and Error Spike Detection",Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/server-log-level-aggregation
+Randomized Two-Match Schedule Builder for a League,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/round-robin-team-schedule
+Randomized Partner Matching Across Repeated Rounds,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/rotating-people-pairing
+"Boatman, Fox, Chicken and Grain River Crossing Planner",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/river-crossing-puzzle
+Variable-Length Bit Code Decoder,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/prefix-code-bitstring-decoder
+Round-Robin Match Simulation With Power and ID Tiebreaks,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/power-based-tournament-bracket
+"Planet Distance, Blast Simulation and Cheapest Way to Clear Them All",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/planet-weapon-targeting
+Word Rewriter That Keeps Punctuation in Place,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/pig-latin-word-transform
+MotoGP Season Points and Championship Clinch Check,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/motogp-season-points-ranking
+Mutual Like Counts and Best-Friend Recommendation,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/likes-count-friend-recommendation
+Frequency-Based Binary Encoding Pipeline,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/letter-frequency-huffman-tree
+Design a Hotel Room Reservation Service,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/hotel-room-reservation-design
+"Grid Board With a Turning, Moving Player",Object-Oriented Programming,Easy,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/grid-board-player-movement
+"Five-Card Hand Scoring: Suit, Pairs and Fifteens",Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/five-card-hand-scoring
+Ancestor and Descendant Queries on Parent Records,Object-Oriented Programming,Easy,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/family-relationship-checker
+Crop Purchasing and Reinvestment Under a Budget,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/crop-budget-profit-maximization
+Coin Flip Duel: Simulate HH Against HT,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/coin-flip-race-simulation
+Route Class with Comparable Climbing Grades,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/climbing-route-ratings
+Shortest Walking Distance on a Circular Park Graph,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/circular-park-walking-time
+Cat Weight and Height Query Filters,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/cat-measurements-sql
+Build a Maze from a Bit String and Find Its Exits,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/binary-string-maze-grid
+Decode Pulse Runs Into an English Sentence,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/binary-signal-morse-decoding
+Single-Player Battleship Game Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/battleship-game-implementation
+Counting Plants That Propagate Weekly After Maturity,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/basil-propagation-growth-count
+Two-Player Ball Throwing Game Simulation,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/ball-throwing-turn-probability
+"Expression Calculator with Parentheses, abs and sqrt",Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/arithmetic-calculator-abs-sqrt
+Ranking Players by Animal Counts With Tie Averaging,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/animal-collection-owing-game
+Round Trips and Happiest Route Over Flight Pairs,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/airport-route-destination-query
+Single-Runway Flight Scheduler With Rescheduling,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/airline-departure-scheduling
+Build Binary Tree From Character Counts,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/build-binary-tree-from-character-counts-2

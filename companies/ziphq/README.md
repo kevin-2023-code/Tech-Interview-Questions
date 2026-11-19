@@ -6,16 +6,18 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (2) · [all](all.csv) (6)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](../../questions/algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-09-17 |
-| [Track Repeated Approval Alerts and Safely Update Alert Levels](https://trueinterview.io/questions/track-repeated-approval-alerts-and-safely-update-alert-levels?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-09-05 |
-| [Find shortest path on infinite grid](../../questions/algorithm/find-shortest-path-on-infinite-grid/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-03-11 |
-| [Implement a Vending Machine](https://trueinterview.io/questions/implement-a-vending-machine?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-01-28 |
-| [Maximize non-adjacent sum on an N-ary tree](https://trueinterview.io/questions/maximize-non-adjacent-sum-on-an-n-ary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2025-12-26 |
-| [Find flush and straight groups in cards](https://trueinterview.io/questions/find-flush-and-straight-groups-in-cards?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-11-28 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](../../questions/algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-17 |
+| [Track Repeated Approval Alerts and Safely Update Alert Levels](https://trueinterview.io/questions/track-repeated-approval-alerts-and-safely-update-alert-levels?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-05 |
+| [Find shortest path on infinite grid](../../questions/algorithm/find-shortest-path-on-infinite-grid/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-03-11 |
+| [Implement a Vending Machine](https://trueinterview.io/questions/implement-a-vending-machine?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-28 |
+| [Maximize non-adjacent sum on an N-ary tree](https://trueinterview.io/questions/maximize-non-adjacent-sum-on-an-n-ary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-26 |
+| [Find flush and straight groups in cards](https://trueinterview.io/questions/find-flush-and-straight-groups-in-cards?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-28 |
 
 ---
 

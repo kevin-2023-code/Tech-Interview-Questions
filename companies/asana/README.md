@@ -6,21 +6,23 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (11)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 6 | 2026-07 |
-| [Design and Solve a Rotatable Jigsaw Puzzle](../../questions/object-oriented-programming/design-and-solve-a-rotatable-jigsaw-puzzle/README.md) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-04-13 |
-| [Design a 2048 Game](https://trueinterview.io/questions/design-a-2048-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-02 |
-| [Design a Collaborative Todo List](https://trueinterview.io/questions/design-a-collaborative-todo-list?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-04-02 |
-| [Implement an ASCII Art Printer](https://trueinterview.io/questions/implement-an-ascii-art-printer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-02 |
-| [Answer Manager Behavioral Prompts](https://trueinterview.io/questions/answer-manager-behavioral-prompts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 2026-04-02 |
-| [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 2026-03 |
-| [Explain code complexity and design two games](https://trueinterview.io/questions/explain-code-complexity-and-design-two-games?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-02-08 |
-| [Design a Twitter-like microblogging service](../../questions/system-design/design-a-twitter-like-microblogging-service/README.md) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 2026-02-08 |
-| [Implement core puzzle/array/grid routines](https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-01-07 |
-| [Find frequent IPs from a huge file](https://trueinterview.io/questions/find-frequent-ips-from-a-huge-file?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-01-07 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 6 | 0 | 2026-07 |
+| [Design and Solve a Rotatable Jigsaw Puzzle](../../questions/object-oriented-programming/design-and-solve-a-rotatable-jigsaw-puzzle/README.md) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-04-13 |
+| [Design a 2048 Game](https://trueinterview.io/questions/design-a-2048-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-02 |
+| [Design a Collaborative Todo List](https://trueinterview.io/questions/design-a-collaborative-todo-list?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-02 |
+| [Implement an ASCII Art Printer](https://trueinterview.io/questions/implement-an-ascii-art-printer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-02 |
+| [Answer Manager Behavioral Prompts](https://trueinterview.io/questions/answer-manager-behavioral-prompts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-04-02 |
+| [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 1 | 2026-03 |
+| [Explain code complexity and design two games](https://trueinterview.io/questions/explain-code-complexity-and-design-two-games?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-02-08 |
+| [Design a Twitter-like microblogging service](../../questions/system-design/design-a-twitter-like-microblogging-service/README.md) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-02-08 |
+| [Implement core puzzle/array/grid routines](https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-07 |
+| [Find frequent IPs from a huge file](https://trueinterview.io/questions/find-frequent-ips-from-a-huge-file?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-07 |
 
 ---
 

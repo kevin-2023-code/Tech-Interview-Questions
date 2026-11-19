@@ -1,9 +1,9 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Audit and Extend a Time-Series ML Pipeline,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-14,https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline
-Earliest Time with Maximum Running Processes,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61
-Count Palindromic Substrings,Algorithm,Medium,Online assessment,Junior / Mid,3,,2026-08,https://trueinterview.io/questions/palindromic-substrings
-Flipping Balls with Moving Marked Positions,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190
-Row and Column Sums: Square Matrices and Nilpotence,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,2026-06-27,https://trueinterview.io/questions/row-and-column-sums-square-matrices-and-nilpotence
-Return Words in Repeated Anagram Groups,Algorithm,Medium,Phone screen,Intern; New grad; Junior / Mid,1,,2026-06-27,https://trueinterview.io/questions/return-words-in-repeated-anagram-groups
-Reason About Train and Test Loss Under Regularization and More Data,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-06-27,https://trueinterview.io/questions/reason-about-train-and-test-loss-under-regularization-and-more-data
-Bound R-Squared for Individual and Combined OLS Regressions,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,2026-06-27,https://trueinterview.io/questions/bound-r-squared-for-individual-and-combined-ols-regressions
+Audit and Extend a Time-Series ML Pipeline,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-09-14,https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline
+Earliest Time with Maximum Running Processes,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61
+Count Palindromic Substrings,Algorithm,Medium,Online assessment,Junior / Mid,3,2,2026-08,https://trueinterview.io/questions/palindromic-substrings
+Flipping Balls with Moving Marked Positions,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190
+Row and Column Sums: Square Matrices and Nilpotence,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-06-27,https://trueinterview.io/questions/row-and-column-sums-square-matrices-and-nilpotence
+Return Words in Repeated Anagram Groups,Algorithm,Medium,Phone screen,Intern; New grad; Junior / Mid,1,0,2026-06-27,https://trueinterview.io/questions/return-words-in-repeated-anagram-groups
+Reason About Train and Test Loss Under Regularization and More Data,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-06-27,https://trueinterview.io/questions/reason-about-train-and-test-loss-under-regularization-and-more-data
+Bound R-Squared for Individual and Combined OLS Regressions,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-06-27,https://trueinterview.io/questions/bound-r-squared-for-individual-and-combined-ols-regressions

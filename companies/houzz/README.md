@@ -6,11 +6,13 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (1)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Convert a Column Number to an Excel-Style Label](https://trueinterview.io/questions/convert-a-column-number-to-an-excel-style-label?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 2026-09-18 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Convert a Column Number to an Excel-Style Label](https://trueinterview.io/questions/convert-a-column-number-to-an-excel-style-label?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | 2026-09-18 |
 
 ---
 

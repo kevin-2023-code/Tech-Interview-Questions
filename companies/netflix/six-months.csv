@@ -1,36 +1,36 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Key-Value Store with TTL,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/66384c98-64ab-5912-91f2-4f21bd58d645
-Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
-Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
-ML Research Orals (Self-Attention / LoRA / Optimizers),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/ml-research-orals
-Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
-MLE Intern OA: ML Fundamentals,Behavioral / Knowledge,,Online assessment,Intern,1,,2026-09-23,https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals
-Design a Non-Repeating Movie Playlist with Score Updates,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/2c8e5b00-2a5f-55b3-ac02-28fe784868b4
-Sparse Matrix Multiplication,Algorithm,Medium,Phone screen,Intern,2,,2026-09,https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication
-Meeting Rooms,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-09,https://trueinterview.io/questions/meeting-rooms-2
-Timed Cache / Expiring Key-Value Cache,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/0259cb6a-dad1-597f-9f83-2b825ffde92f
-Weighted Cache,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/weighted-cache
-Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,,2026-09,https://trueinterview.io/questions/basic-calculator-2
-Contains Duplicate III,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/contains-duplicate-iii
-Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
-Tree Depth Calculation,Algorithm,Easy,Online assessment,Senior,2,,2026-09,https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c
-Netflix Culture / Domain Manager Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds
-First Missing Positive,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/first-missing-positive
-Homepage Billboard Rotation,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/homepage-billboard-rotation
-Contains Duplicate II,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/contains-duplicate-ii
-Model Direct-Sold DSP Orders,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-08,https://trueinterview.io/questions/model-direct-sold-dsp-orders
-How do you give and receive feedback?,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/how-do-you-give-and-receive-feedback
-Build a Recommendation System and Conversational Interface from Scratch,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-08,https://trueinterview.io/questions/build-a-recommendation-system-and-conversational-interface-from-scratch
-Fastest Broadcast Path to All Cities,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/d737ace9-680b-5116-8b0c-c4db8074b66a
-Count Intervals Covering Point,Algorithm,Medium,Phone screen,Junior / Mid,2,,2026-08,https://trueinterview.io/questions/count-intervals-covering-point-2
-Maximum Interval Overlap Count,Algorithm,Medium,Phone screen,Junior / Mid,2,,2026-08,https://trueinterview.io/questions/maximum-interval-overlap-count
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
-Command Executor with Execute and Undo,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,,2026-08,https://trueinterview.io/questions/3dd213c6-509e-4a61-b664-1bd24a8ed968
-Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,8,,2026-08,https://trueinterview.io/questions/design-youtube
-DFS: Print Each Node's Level and Whether It Is Balanced,Algorithm,Medium,Phone screen,Senior,1,,2026-08,https://trueinterview.io/questions/d91d2480-fd9d-4e2b-a5a6-afb3d5b4de42
-Design and Implement an In-Memory Cache with Eviction and Memory Bound,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-08,https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374
-Design an Ads Frequency Cap System,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-08,https://trueinterview.io/questions/design-an-ads-frequency-cap-system
-Auto-Expire Cache,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/auto-expire-cache
-Parallel Courses III,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-08,https://trueinterview.io/questions/parallel-courses-iii
-Answer Netflix Culture Screen Questions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-06,https://trueinterview.io/questions/answer-netflix-culture-screen-questions
-Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles),Algorithm,Medium,Phone screen,Junior / Mid,2,,2026-06,https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f
+Key-Value Store with TTL,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-10,https://trueinterview.io/questions/66384c98-64ab-5912-91f2-4f21bd58d645
+Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,13,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
+Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
+ML Research Orals (Self-Attention / LoRA / Optimizers),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/ml-research-orals
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
+MLE Intern OA: ML Fundamentals,Behavioral / Knowledge,,Online assessment,Intern,1,1,2026-09-23,https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals
+Design a Non-Repeating Movie Playlist with Score Updates,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,1,2026-09,https://trueinterview.io/questions/2c8e5b00-2a5f-55b3-ac02-28fe784868b4
+Sparse Matrix Multiplication,Algorithm,Medium,Phone screen,Intern,2,0,2026-09,https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication
+Meeting Rooms,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/meeting-rooms-2
+Timed Cache / Expiring Key-Value Cache,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/0259cb6a-dad1-597f-9f83-2b825ffde92f
+Weighted Cache,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/weighted-cache
+Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,0,2026-09,https://trueinterview.io/questions/basic-calculator-2
+Contains Duplicate III,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/contains-duplicate-iii
+Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
+Tree Depth Calculation,Algorithm,Easy,Online assessment,Senior,2,0,2026-09,https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c
+Netflix Culture / Domain Manager Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,16,2026-09,https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds
+First Missing Positive,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,1,2026-09,https://trueinterview.io/questions/first-missing-positive
+Homepage Billboard Rotation,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/homepage-billboard-rotation
+Contains Duplicate II,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/contains-duplicate-ii
+Model Direct-Sold DSP Orders,System Design,Hard,Onsite / virtual onsite,Senior,1,2,2026-08,https://trueinterview.io/questions/model-direct-sold-dsp-orders
+How do you give and receive feedback?,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/how-do-you-give-and-receive-feedback
+Build a Recommendation System and Conversational Interface from Scratch,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08,https://trueinterview.io/questions/build-a-recommendation-system-and-conversational-interface-from-scratch
+Fastest Broadcast Path to All Cities,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/d737ace9-680b-5116-8b0c-c4db8074b66a
+Count Intervals Covering Point,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-08,https://trueinterview.io/questions/count-intervals-covering-point-2
+Maximum Interval Overlap Count,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-08,https://trueinterview.io/questions/maximum-interval-overlap-count
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Command Executor with Execute and Undo,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,0,2026-08,https://trueinterview.io/questions/3dd213c6-509e-4a61-b664-1bd24a8ed968
+Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,8,0,2026-08,https://trueinterview.io/questions/design-youtube
+DFS: Print Each Node's Level and Whether It Is Balanced,Algorithm,Medium,Phone screen,Senior,1,0,2026-08,https://trueinterview.io/questions/d91d2480-fd9d-4e2b-a5a6-afb3d5b4de42
+Design and Implement an In-Memory Cache with Eviction and Memory Bound,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-08,https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374
+Design an Ads Frequency Cap System,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-08,https://trueinterview.io/questions/design-an-ads-frequency-cap-system
+Auto-Expire Cache,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/auto-expire-cache
+Parallel Courses III,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-08,https://trueinterview.io/questions/parallel-courses-iii
+Answer Netflix Culture Screen Questions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,3,2026-06,https://trueinterview.io/questions/answer-netflix-culture-screen-questions
+Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles),Algorithm,Medium,Phone screen,Junior / Mid,2,1,2026-06,https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f

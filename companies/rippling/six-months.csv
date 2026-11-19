@@ -1,28 +1,28 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
-Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
-Design Raw and Computed Spreadsheet Views,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-18,https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views
-Explain Your Reason for Changing Roles and Your Interest in the Team,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-13,https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team
-Explain Your Current and Previous Engineering Roles,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,,2026-09-13,https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles
-Explain the Scope and Impact of Your Most Important Project,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-13,https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project
-Explain How AI Supports Your Design and Coding Work,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-09-13,https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work
-Bill Deliveries with Historical Rates and Deferred Rounding,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-09-13,https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding
-"Design News Pull Scheduling, Article Storage, and Topic Reads",System Design,Medium,Phone screen,Senior; Staff+,1,,2026-09-10,https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads
-Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/booking-system-design
-Design a Logger with Independent Handlers,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-08-21,https://trueinterview.io/questions/design-a-logger-with-independent-handlers
-Propagate Task Filtering Through Ancestors,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-08-17,https://trueinterview.io/questions/propagate-task-filtering-through-ancestors
-Clarify and Solve Currency Conversion Queries with a Maximum-Amount Follow-up,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/clarify-and-solve-currency-conversion-queries-with-a-maximum-amount-follow-up
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
-Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
-Design Google News,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,4,,2026-07,https://trueinterview.io/questions/google-news-aggregator
-Delivery Cost Problem,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/bff10176-f542-49a7-972c-e05025a0460d
-Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,,2026-07,https://trueinterview.io/questions/design-news-feed
-User Behavior / Metrics Monitoring Aggregator,System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,,2026-06-28,https://trueinterview.io/questions/user-behavior-monitoring-aggregator
-Project Deep Dive / HM BQ,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-06-26,https://trueinterview.io/questions/project-deep-dive-and-bq
-Expense System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-06-18,https://trueinterview.io/questions/expense-rules-engine
-Delivery Cost Calculate,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-06-18,https://trueinterview.io/questions/delivery-billing-system
-Logger System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-06-09,https://trueinterview.io/questions/logger-system-ood
-Design a News Aggregation Feed,System Design,Hard,Phone screen,Junior / Mid; Senior,2,,2026-06,https://trueinterview.io/questions/design-a-news-aggregation-feed
-Task Management Filtering and Sorting,Algorithm,Medium,Phone screen,Junior / Mid,2,,2026-06,https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823
-Camel Cards (Simplified Poker),Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-05-29,https://trueinterview.io/questions/camel-cards-simplified-poker
-Design Article System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-05-25,https://trueinterview.io/questions/web-api-for-article-voting-system
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,0,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
+Design Raw and Computed Spreadsheet Views,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-18,https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views
+Explain Your Reason for Changing Roles and Your Interest in the Team,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-09-13,https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team
+Explain Your Current and Previous Engineering Roles,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-09-13,https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles
+Explain the Scope and Impact of Your Most Important Project,Behavioral / Knowledge,,Phone screen,Senior,1,1,2026-09-13,https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project
+Explain How AI Supports Your Design and Coding Work,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-13,https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work
+Bill Deliveries with Historical Rates and Deferred Rounding,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09-13,https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding
+"Design News Pull Scheduling, Article Storage, and Topic Reads",System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-10,https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads
+Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,0,2026-09,https://trueinterview.io/questions/booking-system-design
+Design a Logger with Independent Handlers,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2026-08-21,https://trueinterview.io/questions/design-a-logger-with-independent-handlers
+Propagate Task Filtering Through Ancestors,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-17,https://trueinterview.io/questions/propagate-task-filtering-through-ancestors
+Clarify and Solve Currency Conversion Queries with a Maximum-Amount Follow-up,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/clarify-and-solve-currency-conversion-queries-with-a-maximum-amount-follow-up
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+Design Google News,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,4,0,2026-07,https://trueinterview.io/questions/google-news-aggregator
+Delivery Cost Problem,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/bff10176-f542-49a7-972c-e05025a0460d
+Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,0,2026-07,https://trueinterview.io/questions/design-news-feed
+User Behavior / Metrics Monitoring Aggregator,System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-06-28,https://trueinterview.io/questions/user-behavior-monitoring-aggregator
+Project Deep Dive / HM BQ,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,12,2026-06-26,https://trueinterview.io/questions/project-deep-dive-and-bq
+Expense System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,7,2026-06-18,https://trueinterview.io/questions/expense-rules-engine
+Delivery Cost Calculate,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-06-18,https://trueinterview.io/questions/delivery-billing-system
+Logger System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-06-09,https://trueinterview.io/questions/logger-system-ood
+Design a News Aggregation Feed,System Design,Hard,Phone screen,Junior / Mid; Senior,2,0,2026-06,https://trueinterview.io/questions/design-a-news-aggregation-feed
+Task Management Filtering and Sorting,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823
+Camel Cards (Simplified Poker),Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-05-29,https://trueinterview.io/questions/camel-cards-simplified-poker
+Design Article System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,7,2026-05-25,https://trueinterview.io/questions/web-api-for-article-voting-system

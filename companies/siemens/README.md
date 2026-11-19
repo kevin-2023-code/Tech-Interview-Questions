@@ -6,14 +6,16 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (4) · [all](all.csv) (4)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-09-04 |
-| [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](../../questions/algorithm/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-09-04 |
-| [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-09-04 |
-| [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-09-04 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-04 |
+| [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](../../questions/algorithm/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-04 |
+| [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-04 |
+| [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-04 |
 
 ---
 

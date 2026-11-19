@@ -1,5 +1,5 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design a Chat Application with Durable Conversation History,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-15,https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history
-Find Duplicate Files While Handling Symbolic-Link Cycles,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-09-01,https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles
-Design and Evaluate a Retrieval-Augmented Generation Pipeline,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-01,https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline
-Allocate Unique File Names in an In-Memory Vault,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09-01,https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault
+Design a Chat Application with Durable Conversation History,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history
+Find Duplicate Files While Handling Symbolic-Link Cycles,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-09-01,https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles
+Design and Evaluate a Retrieval-Augmented Generation Pipeline,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-01,https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline
+Allocate Unique File Names in an In-Memory Vault,Algorithm,Medium,Onsite / virtual onsite,Senior,1,2,2026-09-01,https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault

@@ -1,13 +1,13 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Make Cache Fetch Thread-Safe and Single-Flight,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-02-16,https://trueinterview.io/questions/make-cache-fetch-thread-safe-and-single-flight
-Execute TTL Cache Operations with Fetch-on-Miss,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-02-16,https://trueinterview.io/questions/execute-ttl-cache-operations-with-fetch-on-miss
-Thumbnail Selection for a Streaming Catalog,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-02-10,https://trueinterview.io/questions/ml-system-design-thumbnail-selection-for-a-streaming-catalog
-"Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,,2026-02-10,https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings
-Weighted Random Sampling by Index,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-02-10,https://trueinterview.io/questions/weighted-random-sampling-by-index
-Implement K-Means and compare with GMM,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-01-28,https://trueinterview.io/questions/implement-k-means-and-compare-with-gmm
-Explain ML basics and recommender tuning,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-01-28,https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning
-Measure Super Bowl ad impact with causal design,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/measure-super-bowl-ad-impact-with-causal-design
-Explain p‑values to a product manager,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/explain-pvalues-to-a-product-manager
-Diagnose and fix selection bias in experiments,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/diagnose-and-fix-selection-bias-in-experiments
-Determine A/B test sample size drivers,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/determine-a-b-test-sample-size-drivers
-Compute daily net users from event logs,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-daily-net-users-from-event-logs
+Make Cache Fetch Thread-Safe and Single-Flight,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-02-16,https://trueinterview.io/questions/make-cache-fetch-thread-safe-and-single-flight
+Execute TTL Cache Operations with Fetch-on-Miss,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-02-16,https://trueinterview.io/questions/execute-ttl-cache-operations-with-fetch-on-miss
+Thumbnail Selection for a Streaming Catalog,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-02-10,https://trueinterview.io/questions/ml-system-design-thumbnail-selection-for-a-streaming-catalog
+"Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-02-10,https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings
+Weighted Random Sampling by Index,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-02-10,https://trueinterview.io/questions/weighted-random-sampling-by-index
+Implement K-Means and compare with GMM,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-01-28,https://trueinterview.io/questions/implement-k-means-and-compare-with-gmm
+Explain ML basics and recommender tuning,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-01-28,https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning
+Measure Super Bowl ad impact with causal design,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/measure-super-bowl-ad-impact-with-causal-design
+Explain p‑values to a product manager,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/explain-pvalues-to-a-product-manager
+Diagnose and fix selection bias in experiments,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/diagnose-and-fix-selection-bias-in-experiments
+Determine A/B test sample size drivers,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/determine-a-b-test-sample-size-drivers
+Compute daily net users from event logs,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-daily-net-users-from-event-logs

@@ -1,14 +1,14 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,8,,2026-08,https://trueinterview.io/questions/design-youtube
-Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
-Recipe Manager,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,4,,2026-06,https://trueinterview.io/questions/recipe-manager
-Design a Task Assignment System,Object-Oriented Programming,Medium,Online assessment,Junior / Mid; Senior,4,,2026-05-21,https://trueinterview.io/questions/design-a-task-assignment-system
-Most Frequent Substring,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,,2026-01-19,https://trueinterview.io/questions/most-frequent-substring
-Maximum Concurrent Calls,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-01-19,https://trueinterview.io/questions/maximum-concurrent-calls
-Evaluate JSON Expression Tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-01-19,https://trueinterview.io/questions/evaluate-json-expression-tree
-Company Role Assignment,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2026-01-19,https://trueinterview.io/questions/company-role-assignment
-Best Meeting Date by Country,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-01-19,https://trueinterview.io/questions/best-meeting-date-by-country
-Design an hourly weather crawling service,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2025-12-15,https://trueinterview.io/questions/design-an-hourly-weather-crawling-service
-"Find a special person using knows(a,b)",Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2025-12-15,https://trueinterview.io/questions/find-a-special-person-using-knows-a-b
-Snippet Vault,Object-Oriented Programming,Medium,Online assessment,New grad,3,,2025-12,https://trueinterview.io/questions/snippet-vault
-Design In-memory Database with Backup,Object-Oriented Programming,Easy,Online assessment; Onsite / virtual onsite,Intern; New grad; Junior / Mid,5,,,https://trueinterview.io/questions/design-in-memory-database-with-backup-2
+Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,8,0,2026-08,https://trueinterview.io/questions/design-youtube
+Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
+Recipe Manager,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,4,0,2026-06,https://trueinterview.io/questions/recipe-manager
+Design a Task Assignment System,Object-Oriented Programming,Medium,Online assessment,Junior / Mid; Senior,4,0,2026-05-21,https://trueinterview.io/questions/design-a-task-assignment-system
+Most Frequent Substring,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,0,2026-01-19,https://trueinterview.io/questions/most-frequent-substring
+Maximum Concurrent Calls,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-01-19,https://trueinterview.io/questions/maximum-concurrent-calls
+Evaluate JSON Expression Tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-19,https://trueinterview.io/questions/evaluate-json-expression-tree
+Company Role Assignment,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-01-19,https://trueinterview.io/questions/company-role-assignment
+Best Meeting Date by Country,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-01-19,https://trueinterview.io/questions/best-meeting-date-by-country
+Design an hourly weather crawling service,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-15,https://trueinterview.io/questions/design-an-hourly-weather-crawling-service
+"Find a special person using knows(a,b)",Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-12-15,https://trueinterview.io/questions/find-a-special-person-using-knows-a-b
+Snippet Vault,Object-Oriented Programming,Medium,Online assessment,New grad,3,0,2025-12,https://trueinterview.io/questions/snippet-vault
+Design In-memory Database with Backup,Object-Oriented Programming,Easy,Online assessment; Onsite / virtual onsite,Intern; New grad; Junior / Mid,5,0,,https://trueinterview.io/questions/design-in-memory-database-with-backup-2

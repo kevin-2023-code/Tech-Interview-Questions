@@ -1,17 +1,17 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Write monthly new-vs-returning requests SQL,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-01,https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql
-Test regional response-rate differences rigorously,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/test-regional-response-rate-differences-rigorously
-Lead XFN decision under tight timeline,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/lead-xfn-decision-under-tight-timeline
-Implement TF–IDF with sparse matrices,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/implement-tfidf-with-sparse-matrices
-Explain power drivers and resolve unexpected A/B results,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/explain-power-drivers-and-resolve-unexpected-a-b-results
-Detail NLP preprocessing and n‑gram choices,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/detail-nlp-preprocessing-and-ngram-choices
-Design streaming new-vs-returning monthly metrics,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/design-streaming-new-vs-returning-monthly-metrics
-Design cross-validation; explain bias–variance,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,,,https://trueinterview.io/questions/design-cross-validation-explain-biasvariance
-Demonstrate rapid analysis and stakeholder debrief,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/demonstrate-rapid-analysis-and-stakeholder-debrief
-Define success metrics for Instant Book,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/define-success-metrics-for-instant-book
-Compare list/dict; parse JSON/CSV at scale,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compare-list-dict-parse-json-csv-at-scale
-Choose clustering vs regression; explain KNN,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/choose-clustering-vs-regression-explain-knn
-Compute weighted response rates by job category,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,,,https://trueinterview.io/questions/compute-weighted-response-rates-by-job-category
-Compute weekly 3-week rolling sums in SQL,SQL,Medium,Phone screen,Senior,1,,,https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql
-Explain a project and justify choices,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/explain-a-project-and-justify-choices
-Design a robust pro-ranking A/B test,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test
+Write monthly new-vs-returning requests SQL,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01,https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql
+Test regional response-rate differences rigorously,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/test-regional-response-rate-differences-rigorously
+Lead XFN decision under tight timeline,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/lead-xfn-decision-under-tight-timeline
+Implement TF–IDF with sparse matrices,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/implement-tfidf-with-sparse-matrices
+Explain power drivers and resolve unexpected A/B results,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/explain-power-drivers-and-resolve-unexpected-a-b-results
+Detail NLP preprocessing and n‑gram choices,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/detail-nlp-preprocessing-and-ngram-choices
+Design streaming new-vs-returning monthly metrics,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-streaming-new-vs-returning-monthly-metrics
+Design cross-validation; explain bias–variance,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,,https://trueinterview.io/questions/design-cross-validation-explain-biasvariance
+Demonstrate rapid analysis and stakeholder debrief,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/demonstrate-rapid-analysis-and-stakeholder-debrief
+Define success metrics for Instant Book,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/define-success-metrics-for-instant-book
+Compare list/dict; parse JSON/CSV at scale,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compare-list-dict-parse-json-csv-at-scale
+Choose clustering vs regression; explain KNN,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/choose-clustering-vs-regression-explain-knn
+Compute weighted response rates by job category,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,,https://trueinterview.io/questions/compute-weighted-response-rates-by-job-category
+Compute weekly 3-week rolling sums in SQL,SQL,Medium,Phone screen,Senior,1,0,,https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql
+Explain a project and justify choices,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/explain-a-project-and-justify-choices
+Design a robust pro-ranking A/B test,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test

@@ -1,16 +1,16 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Hiring Manager + Behavioral Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/hm-and-bq-rounds
-Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,,2026-10,https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec
-Track Top-K Frequent Elements from an Unbounded Stream,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream
-Design an Idempotent Payment Processing Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform
-Implement Merge Sort and Explain Its Recursion Tree,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4
-Convert a Sorted Doubly Linked List to an In-Place Balanced BST,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7
-Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8
-String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
-Coffee Ordering System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/coffee-ordering-system
-Maximum Requests in a Time Window,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/maximum-requests-in-time-window
-Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/design-tinyurl
-Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
-LFU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/lfu-cache
-Minimum One-Character Word Transformations,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-08-24,https://trueinterview.io/questions/minimum-word-transformation-steps
-Find the Celebrity,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-08-24,https://trueinterview.io/questions/find-the-celebrity
+Hiring Manager + Behavioral Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/hm-and-bq-rounds
+Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,8,2026-10,https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec
+Track Top-K Frequent Elements from an Unbounded Stream,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream
+Design an Idempotent Payment Processing Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform
+Implement Merge Sort and Explain Its Recursion Tree,Algorithm,Medium,Phone screen,Senior,1,1,2026-09,https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4
+Convert a Sorted Doubly Linked List to an In-Place Balanced BST,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7
+Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
+Coffee Ordering System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/coffee-ordering-system
+Maximum Requests in a Time Window,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/maximum-requests-in-time-window
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/design-tinyurl
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,0,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+LFU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/lfu-cache
+Minimum One-Character Word Transformations,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-08-24,https://trueinterview.io/questions/minimum-word-transformation-steps
+Find the Celebrity,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2026-08-24,https://trueinterview.io/questions/find-the-celebrity

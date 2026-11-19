@@ -1,14 +1,14 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Hiring-Manager / Project Chat + AI Philosophy,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/hm-project-and-ai-philosophy
-Evaluate Role-Based Access with Deny Precedence,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-08-20,https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence
-Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
-Concurrent Simple Bank System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-06-24,https://trueinterview.io/questions/concurrent-simple-bank-system
-CD Rental System (Java DSA / LLD),Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-06-24,https://trueinterview.io/questions/cd-rental-system
-Reverse Substrings Between Each Pair of Parentheses,Algorithm,Medium,Phone screen,Senior,1,,2026-06-24,https://trueinterview.io/questions/reverse-substrings-in-parentheses
-Array Duplication — O(n) and Memory Trade-offs,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-06-02,https://trueinterview.io/questions/array-deduplication
-"Python + SQL Technical Round (Typing, Debugging, Joins)",Algorithm,Easy,Onsite / virtual onsite,Senior,1,,2026-04-20,https://trueinterview.io/questions/python-sql-debugging-round
-Validate IPv4 Addresses in an Array,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Senior,1,,2026-04-20,https://trueinterview.io/questions/ipv4-validation
-Build an Auth0-based MCP Server (Hands-on),AI Coding,Hard,Online assessment,New grad,1,,2025-11-22,https://trueinterview.io/questions/oa-mcp-auth0-server
-Memory Allocator (Allocate / Free),Algorithm,Medium,Phone screen,Senior,1,,2025-11-05,https://trueinterview.io/questions/memory-allocator-3
-Dependency Cycle Detection (Deadlock),Algorithm,Medium,Phone screen,Senior,1,,2025-11-05,https://trueinterview.io/questions/dependency-cycle-detection
-Unique Paths,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed
+Hiring-Manager / Project Chat + AI Philosophy,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/hm-project-and-ai-philosophy
+Evaluate Role-Based Access with Deny Precedence,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-20,https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+Concurrent Simple Bank System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-06-24,https://trueinterview.io/questions/concurrent-simple-bank-system
+CD Rental System (Java DSA / LLD),Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-06-24,https://trueinterview.io/questions/cd-rental-system
+Reverse Substrings Between Each Pair of Parentheses,Algorithm,Medium,Phone screen,Senior,1,0,2026-06-24,https://trueinterview.io/questions/reverse-substrings-in-parentheses
+Array Duplication — O(n) and Memory Trade-offs,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-06-02,https://trueinterview.io/questions/array-deduplication
+"Python + SQL Technical Round (Typing, Debugging, Joins)",Algorithm,Easy,Onsite / virtual onsite,Senior,1,0,2026-04-20,https://trueinterview.io/questions/python-sql-debugging-round
+Validate IPv4 Addresses in an Array,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Senior,1,1,2026-04-20,https://trueinterview.io/questions/ipv4-validation
+Build an Auth0-based MCP Server (Hands-on),AI Coding,Hard,Online assessment,New grad,1,0,2025-11-22,https://trueinterview.io/questions/oa-mcp-auth0-server
+Memory Allocator (Allocate / Free),Algorithm,Medium,Phone screen,Senior,1,0,2025-11-05,https://trueinterview.io/questions/memory-allocator-3
+Dependency Cycle Detection (Deadlock),Algorithm,Medium,Phone screen,Senior,1,0,2025-11-05,https://trueinterview.io/questions/dependency-cycle-detection
+Unique Paths,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed

@@ -1,51 +1,51 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Number-Line Block Placement,Algorithm,Hard,Online assessment,New grad,1,,2026-10-02,https://trueinterview.io/questions/number-line-block-placement
-Matrix Pattern Matching,Algorithm,Medium,Online assessment,New grad,1,,2026-10-02,https://trueinterview.io/questions/matrix-pattern-matching
-Count Arithmetic Triplets After Each Query,Algorithm,Medium,Phone screen,Staff+,1,,2026-10,https://trueinterview.io/questions/ff10e415-447b-5ca5-9793-e7714cddfbe6
-Driver Dataset Exploratory Analysis,Algorithm,Easy,Online assessment,New grad,1,,2026-10,https://trueinterview.io/questions/dca94c12-e6ad-549e-a6a9-18a195ab3cb6
-Build Driver-Level Feature Dataset,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/b5547eb7-b2ec-535d-8ffd-9ab383cfd6cd
-Build Blocks and Check Interval Availability,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/b529e40c-262f-538d-bc01-16fd7b1936b5
-Evaluate Arithmetic Equations,Algorithm,Easy,Online assessment,Staff+,1,,2026-10,https://trueinterview.io/questions/8baff98d-9bad-50cd-b485-13c9134feb8f
-Find the Branch with the Most Files,Algorithm,Easy,Online assessment,Staff+,1,,2026-10,https://trueinterview.io/questions/6807588b-6890-55e5-80ed-0528f4a857aa
-First Element With Two Strictly Larger Neighbors,Algorithm,Easy,Online assessment,New grad,1,,2026-10,https://trueinterview.io/questions/5eb6637f-25b4-54af-9e85-461ab882a0c1
-Predict Driver Class,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/27d3daec-8a20-5bd2-9364-86cf2bf8d72c
-Preprocess Driver Classification Data,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/15af0c8a-dc55-54c3-9403-fc710f60b51a
-"Design Credit-Card Authorization, Limit Decisions, and Reporting",System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting
-Find an Exact Submatrix Pattern,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/021c67f3-e24d-578b-b212-4b0fac4c2b8d
-Sort Cyclic Shift Absolute-Difference Costs,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,,2026-10,https://trueinterview.io/questions/4eae3ac8-e1a0-53a3-9a12-577db977b6df
-Sort Colors,Algorithm,Medium,Phone screen,Senior,2,,2026-10,https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd
-Rotate Matrix Over Diagonals,Algorithm,Medium,Phone screen,Staff+,1,,2026-10,https://trueinterview.io/questions/660e4c62-f166-4841-ad96-71010100f126
-Power Day Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/power-day-behavioral
-Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,3,,2026-10,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
-Virtual Credit Card Validator (Case Study),Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/virtual-credit-card-validator
-Team Ranking Based on Scores and Goal Difference,Algorithm,Medium,Online assessment,Junior / Mid,1,,2026-09-16,https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79
-Find Repeated-Value Patterns in a Matrix,Algorithm,Medium,Online assessment,New grad,1,,2026-09-07,https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix
-Distinct Border Sum of Maximum-Sum Frames,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/f11dcc38-131a-5006-8491-5901149f2b1c
-Sort Adjacent Pairs,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/e1df60be-6bb1-509d-9712-ff7307b30a41
-Number of Subarrays That Match a Pattern I,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a
-Count Subarrays with k Disjoint Equal Pairs,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/b20602c4-59a0-5cbf-a27b-9cb267be58b2
-Brightest Position on Street,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/469ca8df-793b-5227-8594-1f6e070523b7
-Wait Time for the Next Bus,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/42f3cdf3-4a06-58ee-a380-18e59733cf65
-Explain How AI Supports Your Engineering Work,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/explain-how-ai-supports-your-engineering-work
-Check Whether a Board Fits Between Blockers,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/e10f0996-651a-5155-859a-9eb69a7ce8fa
-Check Alternating Peaks and Valleys in a Circular Array,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/2a51b3dc-6f2d-5830-89b2-7515275b4bad
-Count Pairs Matchable by One Digit Swap,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc
-Outside-In String Reordering,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/outside-in-string-reordering
-Train Schedule Nearest Departure,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/train-schedule-nearest-departure
-Bank Class OOD: Deposit / Withdraw / Transfer,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Senior,1,,2026-09,https://trueinterview.io/questions/bank-class-ood-transactions
-Banking System with Transaction Activity,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75
-NYC Green Taxi Data Science Challenge,Behavioral / Knowledge,,Take-home,Intern,1,,2026-08-28,https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge
-Resolve a Mismatch Between Regression and Classification Metrics,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,,2026-08-20,https://trueinterview.io/questions/resolve-a-mismatch-between-regression-and-classification-metrics
-Apply Leakage-Safe Imputation and Ordinal Encoding,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,,2026-08-20,https://trueinterview.io/questions/apply-leakage-safe-imputation-and-ordinal-encoding
-Deep-dive XGBoost handling and overfitting,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/deep-dive-xgboost-handling-and-overfitting
-Answer motivation and teamwork questions,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/answer-motivation-and-teamwork-questions
-Even Digit Count,Algorithm,Easy,Online assessment,Junior / Mid,2,,2026-08,https://trueinterview.io/questions/even-digit-count
-W-D-L Outcome Reordering,Algorithm,Easy,Online assessment,New grad,1,,2026-07-19,https://trueinterview.io/questions/wdl-cyclic-reordering
-"Cover HR screen: role, motivation, comp, immigration, location",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,,2026-07,https://trueinterview.io/questions/cover-hr-screen-role-motivation-comp-immigration-location
-Deliver self-intro and justify move and company fit,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/deliver-self-intro-and-justify-move-and-company-fit
-Online Banking Application,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/online-banking-application
-Matrix Border Sort & Clockwise Fill,Algorithm,Medium,Online assessment,New grad,1,,2026-07,https://trueinterview.io/questions/matrix-border-sort-clockwise-fill
-Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
-Dynamic Two-Array Pair Sum Queries,Algorithm,Medium,Online assessment,New grad,1,,2026-06-05,https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries
-Longest Same-Character Run,Algorithm,Easy,Online assessment,New grad,1,,2026-05-31,https://trueinterview.io/questions/longest-same-character-run
-House Segments After Deletions,Algorithm,Medium,Online assessment,New grad,2,,2026-05-31,https://trueinterview.io/questions/house-segments-after-deletions
+Number-Line Block Placement,Algorithm,Hard,Online assessment,New grad,1,2,2026-10-02,https://trueinterview.io/questions/number-line-block-placement
+Matrix Pattern Matching,Algorithm,Medium,Online assessment,New grad,1,0,2026-10-02,https://trueinterview.io/questions/matrix-pattern-matching
+Count Arithmetic Triplets After Each Query,Algorithm,Medium,Phone screen,Staff+,1,1,2026-10,https://trueinterview.io/questions/ff10e415-447b-5ca5-9793-e7714cddfbe6
+Driver Dataset Exploratory Analysis,Algorithm,Easy,Online assessment,New grad,1,0,2026-10,https://trueinterview.io/questions/dca94c12-e6ad-549e-a6a9-18a195ab3cb6
+Build Driver-Level Feature Dataset,Algorithm,Medium,Phone screen,New grad,1,1,2026-10,https://trueinterview.io/questions/b5547eb7-b2ec-535d-8ffd-9ab383cfd6cd
+Build Blocks and Check Interval Availability,Algorithm,Medium,Phone screen,New grad,1,0,2026-10,https://trueinterview.io/questions/b529e40c-262f-538d-bc01-16fd7b1936b5
+Evaluate Arithmetic Equations,Algorithm,Easy,Online assessment,Staff+,1,0,2026-10,https://trueinterview.io/questions/8baff98d-9bad-50cd-b485-13c9134feb8f
+Find the Branch with the Most Files,Algorithm,Easy,Online assessment,Staff+,1,1,2026-10,https://trueinterview.io/questions/6807588b-6890-55e5-80ed-0528f4a857aa
+First Element With Two Strictly Larger Neighbors,Algorithm,Easy,Online assessment,New grad,1,1,2026-10,https://trueinterview.io/questions/5eb6637f-25b4-54af-9e85-461ab882a0c1
+Predict Driver Class,Algorithm,Medium,Phone screen,New grad,1,0,2026-10,https://trueinterview.io/questions/27d3daec-8a20-5bd2-9364-86cf2bf8d72c
+Preprocess Driver Classification Data,Algorithm,Medium,Phone screen,New grad,1,1,2026-10,https://trueinterview.io/questions/15af0c8a-dc55-54c3-9403-fc710f60b51a
+"Design Credit-Card Authorization, Limit Decisions, and Reporting",System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting
+Find an Exact Submatrix Pattern,Algorithm,Medium,Phone screen,New grad,1,0,2026-10,https://trueinterview.io/questions/021c67f3-e24d-578b-b212-4b0fac4c2b8d
+Sort Cyclic Shift Absolute-Difference Costs,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/4eae3ac8-e1a0-53a3-9a12-577db977b6df
+Sort Colors,Algorithm,Medium,Phone screen,Senior,2,2,2026-10,https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd
+Rotate Matrix Over Diagonals,Algorithm,Medium,Phone screen,Staff+,1,1,2026-10,https://trueinterview.io/questions/660e4c62-f166-4841-ad96-71010100f126
+Power Day Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/power-day-behavioral
+Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,3,4,2026-10,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
+Virtual Credit Card Validator (Case Study),Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,10,2026-10,https://trueinterview.io/questions/virtual-credit-card-validator
+Team Ranking Based on Scores and Goal Difference,Algorithm,Medium,Online assessment,Junior / Mid,1,1,2026-09-16,https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79
+Find Repeated-Value Patterns in a Matrix,Algorithm,Medium,Online assessment,New grad,1,0,2026-09-07,https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix
+Distinct Border Sum of Maximum-Sum Frames,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/f11dcc38-131a-5006-8491-5901149f2b1c
+Sort Adjacent Pairs,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/e1df60be-6bb1-509d-9712-ff7307b30a41
+Number of Subarrays That Match a Pattern I,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a
+Count Subarrays with k Disjoint Equal Pairs,Algorithm,Medium,Phone screen,New grad,1,1,2026-09,https://trueinterview.io/questions/b20602c4-59a0-5cbf-a27b-9cb267be58b2
+Brightest Position on Street,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/469ca8df-793b-5227-8594-1f6e070523b7
+Wait Time for the Next Bus,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/42f3cdf3-4a06-58ee-a380-18e59733cf65
+Explain How AI Supports Your Engineering Work,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/explain-how-ai-supports-your-engineering-work
+Check Whether a Board Fits Between Blockers,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/e10f0996-651a-5155-859a-9eb69a7ce8fa
+Check Alternating Peaks and Valleys in a Circular Array,Algorithm,Easy,Online assessment,New grad,1,1,2026-09,https://trueinterview.io/questions/2a51b3dc-6f2d-5830-89b2-7515275b4bad
+Count Pairs Matchable by One Digit Swap,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc
+Outside-In String Reordering,Algorithm,Easy,Online assessment,New grad,1,2,2026-09,https://trueinterview.io/questions/outside-in-string-reordering
+Train Schedule Nearest Departure,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/train-schedule-nearest-departure
+Bank Class OOD: Deposit / Withdraw / Transfer,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Senior,1,0,2026-09,https://trueinterview.io/questions/bank-class-ood-transactions
+Banking System with Transaction Activity,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,7,2026-09,https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75
+NYC Green Taxi Data Science Challenge,Behavioral / Knowledge,,Take-home,Intern,1,1,2026-08-28,https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge
+Resolve a Mismatch Between Regression and Classification Metrics,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,0,2026-08-20,https://trueinterview.io/questions/resolve-a-mismatch-between-regression-and-classification-metrics
+Apply Leakage-Safe Imputation and Ordinal Encoding,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,0,2026-08-20,https://trueinterview.io/questions/apply-leakage-safe-imputation-and-ordinal-encoding
+Deep-dive XGBoost handling and overfitting,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/deep-dive-xgboost-handling-and-overfitting
+Answer motivation and teamwork questions,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,2,2026-08,https://trueinterview.io/questions/answer-motivation-and-teamwork-questions
+Even Digit Count,Algorithm,Easy,Online assessment,Junior / Mid,2,0,2026-08,https://trueinterview.io/questions/even-digit-count
+W-D-L Outcome Reordering,Algorithm,Easy,Online assessment,New grad,1,1,2026-07-19,https://trueinterview.io/questions/wdl-cyclic-reordering
+"Cover HR screen: role, motivation, comp, immigration, location",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,0,2026-07,https://trueinterview.io/questions/cover-hr-screen-role-motivation-comp-immigration-location
+Deliver self-intro and justify move and company fit,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/deliver-self-intro-and-justify-move-and-company-fit
+Online Banking Application,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,5,2026-07,https://trueinterview.io/questions/online-banking-application
+Matrix Border Sort & Clockwise Fill,Algorithm,Medium,Online assessment,New grad,1,2,2026-07,https://trueinterview.io/questions/matrix-border-sort-clockwise-fill
+Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
+Dynamic Two-Array Pair Sum Queries,Algorithm,Medium,Online assessment,New grad,1,0,2026-06-05,https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries
+Longest Same-Character Run,Algorithm,Easy,Online assessment,New grad,1,0,2026-05-31,https://trueinterview.io/questions/longest-same-character-run
+House Segments After Deletions,Algorithm,Medium,Online assessment,New grad,2,0,2026-05-31,https://trueinterview.io/questions/house-segments-after-deletions

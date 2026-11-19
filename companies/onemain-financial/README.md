@@ -6,22 +6,24 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (12)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 5 | 2026-06 |
-| [Walk through a DS project end-to-end](https://trueinterview.io/questions/walk-through-a-ds-project-end-to-end?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-04 |
-| [Present a project to non-technical leaders](https://trueinterview.io/questions/present-a-project-to-non-technical-leaders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-03 |
-| [Explain decision trees and tree ensembles](https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2025-12-01 |
-| [Detect and address multicollinearity](https://trueinterview.io/questions/detect-and-address-multicollinearity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2025-12-01 |
-| [Evaluate shift from branch to digital channel](https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2025-10-07 |
-| [Select and tune XGBoost hyperparameters](https://trueinterview.io/questions/select-and-tune-xgboost-hyperparameters?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
-| [Optimize SaaS pricing and profit](https://trueinterview.io/questions/optimize-saas-pricing-and-profit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
-| [Handle missing data and outliers robustly](https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
-| [Differentiate and control Type I/II errors](https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | — |
-| [Write SQL for cohort retention and ARPU](https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | — |
-| [Transform clickstream with pandas sessionization](../../questions/algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 5 | 0 | 2026-06 |
+| [Walk through a DS project end-to-end](https://trueinterview.io/questions/walk-through-a-ds-project-end-to-end?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-04 |
+| [Present a project to non-technical leaders](https://trueinterview.io/questions/present-a-project-to-non-technical-leaders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-03 |
+| [Explain decision trees and tree ensembles](https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-01 |
+| [Detect and address multicollinearity](https://trueinterview.io/questions/detect-and-address-multicollinearity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-01 |
+| [Evaluate shift from branch to digital channel](https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2025-10-07 |
+| [Select and tune XGBoost hyperparameters](https://trueinterview.io/questions/select-and-tune-xgboost-hyperparameters?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
+| [Optimize SaaS pricing and profit](https://trueinterview.io/questions/optimize-saas-pricing-and-profit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
+| [Handle missing data and outliers robustly](https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
+| [Differentiate and control Type I/II errors](https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
+| [Write SQL for cohort retention and ARPU](https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
+| [Transform clickstream with pandas sessionization](../../questions/algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 
 ---
 

@@ -1,28 +1,28 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-09-17,https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders
-House Robber Series,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,5,,2026-09,https://trueinterview.io/questions/house-robber-series
-Longest Palindromic Substring,Algorithm,Medium,Phone screen,New grad; Senior,4,,2026-08,https://trueinterview.io/questions/longest-palindromic-substring
-Rotate a Matrix by 90 Degrees In Place,Algorithm,Medium,Phone screen,Intern; Junior / Mid,4,,2026-07,https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56
-Find Largest Sum Contiguous Subarray,Algorithm,Easy,Online assessment,Intern; New grad,1,,2026-02,https://trueinterview.io/questions/f29c0c29-2a76-42d9-9ece-3eeaa42c017b
-Look-and-Say Sequence,Algorithm,Easy,Online assessment,Junior / Mid,2,,2025-09-29,https://trueinterview.io/questions/look-and-say-sequence
-Linked List Binary to Decimal,Algorithm,Easy,Online assessment,Intern; New grad,1,,2025-09-06,https://trueinterview.io/questions/linked-list-binary-to-decimal
-Minimum Insertions / Deletions Password Update,Algorithm,Medium,Online assessment,Junior / Mid,1,,2025-09-06,https://trueinterview.io/questions/minimum-insertions-deletions-password-update
-Add Two Reversed Digit Lists,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,2025-09-06,https://trueinterview.io/questions/add-two-reversed-digit-lists
-Row Maximum / Column Minimum,Algorithm,Easy,Online assessment,Senior,1,,2025-09-04,https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84
-Minimum Swaps for Even / Odd Partition,Algorithm,Easy,Online assessment,Intern; New grad,1,,2025-09-04,https://trueinterview.io/questions/minimum-swaps-even-odd-partition
-Alternating String Merge,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,2025-09-04,https://trueinterview.io/questions/alternating-string-merge
-Nested Pattern String Expansion,Algorithm,Hard,Online assessment,New grad; Junior / Mid,1,,2025-08-26,https://trueinterview.io/questions/nested-pattern-string-expansion
-Compress Consecutive Ranges,Algorithm,Easy,Online assessment,Junior / Mid,1,,2025-08-26,https://trueinterview.io/questions/compress-consecutive-ranges
-Matrix Zig-Zag Traversal,Algorithm,Medium,Online assessment,New grad,1,,2025-08-25,https://trueinterview.io/questions/matrix-zig-zag-traversal
-Find Out Prime or Composite,Algorithm,Easy,Online assessment,Junior / Mid,1,,2025-08,https://trueinterview.io/questions/bb654baa-42a6-45a5-9b96-fa99e3789184
-Maximum Non-Adjacent Chocolates,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,,2025-07-17,https://trueinterview.io/questions/3c880993-3030-4a5c-8474-3e74e89d32f3
-Word Search in Rows and Columns,Algorithm,Medium,Online assessment,New grad,1,,2025-07-17,https://trueinterview.io/questions/word-search-rows-columns
-Maximum Drop Points in One Line,Algorithm,Easy,Online assessment,Intern; New grad,1,,2025-07-17,https://trueinterview.io/questions/maximum-drop-points-in-one-line
-Find Last Cell,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2025-07,https://trueinterview.io/questions/7edbbd51-ddcd-4562-b9af-114fdaabb8c3
-Count Numbers with Sum of Digits,Algorithm,Easy,Online assessment,Intern; New grad,1,,,https://trueinterview.io/questions/c17c4233-5a37-452b-933f-4a3994c7295f
-Chessboard Piece Placement with Opposite Color Constraints,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/d4eb414f-978e-4cea-acc3-df07a404c79f
-Identify the Non-Twin Person,Algorithm,Easy,Online assessment,Intern; New grad,1,,,https://trueinterview.io/questions/61ccd7ec-3ff5-4114-8e18-d910c7dc001e
-Process Queries to Find Critical Nodes,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/3be3ddff-6db5-49c0-916c-299316bc4912
-Minimum Steps to Achieve Target State,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/06061640-c929-4879-9ba9-f3b90aac35e1
-Find Minimum Cost to Shift Machines,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/71de7e3c-61cc-4603-a234-49b9aef8e4ad
-Maximum Subarray,Algorithm,Easy,Online assessment,New grad; Junior / Mid,7,,,https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9
+Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-17,https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders
+House Robber Series,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,5,0,2026-09,https://trueinterview.io/questions/house-robber-series
+Longest Palindromic Substring,Algorithm,Medium,Phone screen,New grad; Senior,4,0,2026-08,https://trueinterview.io/questions/longest-palindromic-substring
+Rotate a Matrix by 90 Degrees In Place,Algorithm,Medium,Phone screen,Intern; Junior / Mid,4,0,2026-07,https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56
+Find Largest Sum Contiguous Subarray,Algorithm,Easy,Online assessment,Intern; New grad,1,0,2026-02,https://trueinterview.io/questions/f29c0c29-2a76-42d9-9ece-3eeaa42c017b
+Look-and-Say Sequence,Algorithm,Easy,Online assessment,Junior / Mid,2,0,2025-09-29,https://trueinterview.io/questions/look-and-say-sequence
+Linked List Binary to Decimal,Algorithm,Easy,Online assessment,Intern; New grad,1,0,2025-09-06,https://trueinterview.io/questions/linked-list-binary-to-decimal
+Minimum Insertions / Deletions Password Update,Algorithm,Medium,Online assessment,Junior / Mid,1,0,2025-09-06,https://trueinterview.io/questions/minimum-insertions-deletions-password-update
+Add Two Reversed Digit Lists,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,2025-09-06,https://trueinterview.io/questions/add-two-reversed-digit-lists
+Row Maximum / Column Minimum,Algorithm,Easy,Online assessment,Senior,1,0,2025-09-04,https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84
+Minimum Swaps for Even / Odd Partition,Algorithm,Easy,Online assessment,Intern; New grad,1,0,2025-09-04,https://trueinterview.io/questions/minimum-swaps-even-odd-partition
+Alternating String Merge,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,2025-09-04,https://trueinterview.io/questions/alternating-string-merge
+Nested Pattern String Expansion,Algorithm,Hard,Online assessment,New grad; Junior / Mid,1,0,2025-08-26,https://trueinterview.io/questions/nested-pattern-string-expansion
+Compress Consecutive Ranges,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-08-26,https://trueinterview.io/questions/compress-consecutive-ranges
+Matrix Zig-Zag Traversal,Algorithm,Medium,Online assessment,New grad,1,0,2025-08-25,https://trueinterview.io/questions/matrix-zig-zag-traversal
+Find Out Prime or Composite,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-08,https://trueinterview.io/questions/bb654baa-42a6-45a5-9b96-fa99e3789184
+Maximum Non-Adjacent Chocolates,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,0,2025-07-17,https://trueinterview.io/questions/3c880993-3030-4a5c-8474-3e74e89d32f3
+Word Search in Rows and Columns,Algorithm,Medium,Online assessment,New grad,1,0,2025-07-17,https://trueinterview.io/questions/word-search-rows-columns
+Maximum Drop Points in One Line,Algorithm,Easy,Online assessment,Intern; New grad,1,0,2025-07-17,https://trueinterview.io/questions/maximum-drop-points-in-one-line
+Find Last Cell,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-07,https://trueinterview.io/questions/7edbbd51-ddcd-4562-b9af-114fdaabb8c3
+Count Numbers with Sum of Digits,Algorithm,Easy,Online assessment,Intern; New grad,1,0,,https://trueinterview.io/questions/c17c4233-5a37-452b-933f-4a3994c7295f
+Chessboard Piece Placement with Opposite Color Constraints,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/d4eb414f-978e-4cea-acc3-df07a404c79f
+Identify the Non-Twin Person,Algorithm,Easy,Online assessment,Intern; New grad,1,0,,https://trueinterview.io/questions/61ccd7ec-3ff5-4114-8e18-d910c7dc001e
+Process Queries to Find Critical Nodes,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/3be3ddff-6db5-49c0-916c-299316bc4912
+Minimum Steps to Achieve Target State,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/06061640-c929-4879-9ba9-f3b90aac35e1
+Find Minimum Cost to Shift Machines,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/71de7e3c-61cc-4603-a234-49b9aef8e4ad
+Maximum Subarray,Algorithm,Easy,Online assessment,New grad; Junior / Mid,7,0,,https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9

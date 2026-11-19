@@ -1,9 +1,9 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
-Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
-Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,,2026-10,https://trueinterview.io/questions/design-chatgpt
-Render Nested JSON in a Code-Style Viewer,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer
-Load and Display a React List with useEffect,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect
-Implement an Asynchronous React Typeahead,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead
-Design a Collaborative Document Editor,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-15,https://trueinterview.io/questions/design-a-collaborative-document-editor
-Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
+Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
+Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,5,2026-10,https://trueinterview.io/questions/design-chatgpt
+Render Nested JSON in a Code-Style Viewer,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer
+Load and Display a React List with useEffect,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect
+Implement an Asynchronous React Typeahead,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead
+Design a Collaborative Document Editor,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/design-a-collaborative-document-editor
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,0,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit

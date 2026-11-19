@@ -1,21 +1,21 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
-Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/payment-platform-design
-Photo Album System Design,System Design,Medium,Onsite / virtual onsite,Senior,2,,2026-10,https://trueinterview.io/questions/photo-album-frontend-design
-Recruiter / HR Screen,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/recruiter-hr-screen
-Find the Top Ten Words When a Book Exceeds Memory,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-09-17,https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory
-Design a Task Scheduler,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-17,https://trueinterview.io/questions/design-a-task-scheduler
-Design an iOS Timer App with Consistent State and Asynchronous UI Updates,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates
-Define and Calculate Employee Referral Counts,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-09-04,https://trueinterview.io/questions/define-and-calculate-employee-referral-counts
-Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
-Clone a Graph,Algorithm,Medium,Phone screen,Junior / Mid,2,,2026-09,https://trueinterview.io/questions/9b3c28be-4683-47bc-97a0-ed6cf56e5398
-Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
-My Calendar I,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/my-calendar-i
-Design a secure trading app on AWS,System Design,Hard,Phone screen,Senior,1,,2026-08,https://trueinterview.io/questions/design-a-secure-trading-app-on-aws
-Role Privilege System,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,,2026-08,https://trueinterview.io/questions/role-privilege-inheritance
-Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,2,,2026-08,https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system
-Critique a Recent Engineering Project and Explain What You Would Redo,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-07-17,https://trueinterview.io/questions/critique-a-recent-engineering-project-and-explain-what-you-would-redo
-Project Deep Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/project-deep-dive-3
-Design Coinbase Explore,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-07,https://trueinterview.io/questions/sd-coinbase-explore-realtime-price
-Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,,2026-07,https://trueinterview.io/questions/design-news-feed
-Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,4,,2026-06,https://trueinterview.io/questions/design-a-stock-order-trade-management-system
+Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,4,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
+Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,40,2026-10,https://trueinterview.io/questions/payment-platform-design
+Photo Album System Design,System Design,Medium,Onsite / virtual onsite,Senior,2,0,2026-10,https://trueinterview.io/questions/photo-album-frontend-design
+Recruiter / HR Screen,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,2,17,2026-10,https://trueinterview.io/questions/recruiter-hr-screen
+Find the Top Ten Words When a Book Exceeds Memory,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-17,https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory
+Design a Task Scheduler,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-17,https://trueinterview.io/questions/design-a-task-scheduler
+Design an iOS Timer App with Consistent State and Asynchronous UI Updates,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates
+Define and Calculate Employee Referral Counts,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-09-04,https://trueinterview.io/questions/define-and-calculate-employee-referral-counts
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Clone a Graph,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-09,https://trueinterview.io/questions/9b3c28be-4683-47bc-97a0-ed6cf56e5398
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,0,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+My Calendar I,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/my-calendar-i
+Design a secure trading app on AWS,System Design,Hard,Phone screen,Senior,1,2,2026-08,https://trueinterview.io/questions/design-a-secure-trading-app-on-aws
+Role Privilege System,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-08,https://trueinterview.io/questions/role-privilege-inheritance
+Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,2,8,2026-08,https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system
+Critique a Recent Engineering Project and Explain What You Would Redo,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-07-17,https://trueinterview.io/questions/critique-a-recent-engineering-project-and-explain-what-you-would-redo
+Project Deep Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/project-deep-dive-3
+Design Coinbase Explore,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-07,https://trueinterview.io/questions/sd-coinbase-explore-realtime-price
+Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,0,2026-07,https://trueinterview.io/questions/design-news-feed
+Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,4,0,2026-06,https://trueinterview.io/questions/design-a-stock-order-trade-management-system

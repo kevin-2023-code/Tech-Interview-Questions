@@ -1,10 +1,10 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Linear Interpolation,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/qr-oa-linear-interpolator
-Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/top-k-largest-elements
-Prediction task,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-prediction-task
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
-Stock Max Profit (Single or Multiple Transactions),Algorithm,Easy,Online assessment,Senior,2,,2026-08,https://trueinterview.io/questions/7b157f40-79a0-48dd-a935-b4e27d6a6d0a
-Univariate OLS Regression Through Origin,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/qr-oa-efficient-univariate-ols
-In-Memory SQL-Like Database,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46
-Maximum Throughput,Algorithm,Medium,Online assessment,New grad; Junior / Mid,4,,2026-06,https://trueinterview.io/questions/maximum-throughput
-Exchange Order Matching Engine,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,2,,2026-06,https://trueinterview.io/questions/exchange-order-matching-engine
+Linear Interpolation,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,4,2026-10,https://trueinterview.io/questions/qr-oa-linear-interpolator
+Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/top-k-largest-elements
+Prediction task,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,1,2026-08,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-prediction-task
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Stock Max Profit (Single or Multiple Transactions),Algorithm,Easy,Online assessment,Senior,2,0,2026-08,https://trueinterview.io/questions/7b157f40-79a0-48dd-a935-b4e27d6a6d0a
+Univariate OLS Regression Through Origin,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/qr-oa-efficient-univariate-ols
+In-Memory SQL-Like Database,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46
+Maximum Throughput,Algorithm,Medium,Online assessment,New grad; Junior / Mid,4,7,2026-06,https://trueinterview.io/questions/maximum-throughput
+Exchange Order Matching Engine,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,2,0,2026-06,https://trueinterview.io/questions/exchange-order-matching-engine

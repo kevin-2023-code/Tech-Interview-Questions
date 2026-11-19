@@ -1,7 +1,7 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Lowest Common Manager in an Org Chart (Binary-Tree LCA Family),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,2,,2026-10-01,https://trueinterview.io/questions/lowest-common-manager-org-chart
-Smaller Angle Between Clock Hands,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,,2026-10,https://trueinterview.io/questions/61dbdcbb-6345-50de-a0cf-3d6b0fa8c46c
-Credo Behavioral and Customer Engagement,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/credo-behavioral-and-customer-engagement
-Design and Simulate a Four-Player Card Game,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-08-26,https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game
-Transformer Attention Mask and Heads Coding,AI Coding,Hard,Phone screen; Onsite / virtual onsite,Senior,2,,2026-06-16,https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding
-Task Processor: Dependencies and Deadlines,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-06-14,https://trueinterview.io/questions/task-processor-dependencies-and-deadlines
+Lowest Common Manager in an Org Chart (Binary-Tree LCA Family),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,2,0,2026-10-01,https://trueinterview.io/questions/lowest-common-manager-org-chart
+Smaller Angle Between Clock Hands,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/61dbdcbb-6345-50de-a0cf-3d6b0fa8c46c
+Credo Behavioral and Customer Engagement,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/credo-behavioral-and-customer-engagement
+Design and Simulate a Four-Player Card Game,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-26,https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game
+Transformer Attention Mask and Heads Coding,AI Coding,Hard,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-06-16,https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding
+Task Processor: Dependencies and Deadlines,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-06-14,https://trueinterview.io/questions/task-processor-dependencies-and-deadlines

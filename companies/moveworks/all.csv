@@ -1,7 +1,7 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design a car rental booking system,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-05,https://trueinterview.io/questions/design-a-car-rental-booking-system
-Compute Jaccard similarity between two strings,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-03,https://trueinterview.io/questions/compute-jaccard-similarity-between-two-strings
-"Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate",Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-03,https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1
-Find a secret word via match feedback,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,2,,2025-12-15,https://trueinterview.io/questions/find-a-secret-word-via-match-feedback
-Find Maximum Number of Strings,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/3e15b4f6-57e4-466f-a91d-f7ce9dd81019
-Get Minimum Operations to Sort Array,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c
+Design a car rental booking system,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-05,https://trueinterview.io/questions/design-a-car-rental-booking-system
+Compute Jaccard similarity between two strings,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/compute-jaccard-similarity-between-two-strings
+"Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate",Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1
+Find a secret word via match feedback,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2025-12-15,https://trueinterview.io/questions/find-a-secret-word-via-match-feedback
+Find Maximum Number of Strings,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/3e15b4f6-57e4-466f-a91d-f7ce9dd81019
+Get Minimum Operations to Sort Array,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c

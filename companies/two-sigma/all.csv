@@ -1,51 +1,51 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Linear Interpolation,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/qr-oa-linear-interpolator
-Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/top-k-largest-elements
-Prediction task,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-prediction-task
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
-Stock Max Profit (Single or Multiple Transactions),Algorithm,Easy,Online assessment,Senior,2,,2026-08,https://trueinterview.io/questions/7b157f40-79a0-48dd-a935-b4e27d6a6d0a
-Univariate OLS Regression Through Origin,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/qr-oa-efficient-univariate-ols
-In-Memory SQL-Like Database,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46
-Maximum Throughput,Algorithm,Medium,Online assessment,New grad; Junior / Mid,4,,2026-06,https://trueinterview.io/questions/maximum-throughput
-Exchange Order Matching Engine,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,2,,2026-06,https://trueinterview.io/questions/exchange-order-matching-engine
-GenAI Quant SWE Manager Deep Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-05-12,https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive
-NYC Temperature Regression Analysis,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-05-10,https://trueinterview.io/questions/qr-oa-nyc-temperature-regression
-Greedy feature selection,Algorithm,Medium,Online assessment,New grad,1,,2026-05,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-greedy-feature-selection
-Similarity analysis,Algorithm,Medium,Online assessment,New grad,1,,2026-05,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-similarity-analysis
-Volatility analysis,Algorithm,Medium,Online assessment,New grad,1,,2026-05,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-volatility-analysis
-Evaluate piecewise linear function at x,Algorithm,Medium,Online assessment,New grad,1,,2026-05,https://trueinterview.io/questions/evaluate-piecewise-linear-function-at-x
-QR Statistics / Domain Knowledge Oral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-05,https://trueinterview.io/questions/qr-statistics-domain-oral
-No-intercept linear regression,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-04-21,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-no-intercept-linear-regression
-Jump Game Series,Algorithm,Medium,Phone screen,Senior,2,,2026-04,https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8
-Sewer Connectivity / Reachability in a Grid (DFS),Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,,2026-04,https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364
-IPO Share Allocation,Algorithm,Hard,Online assessment,New grad; Junior / Mid,2,,2026-04,https://trueinterview.io/questions/swe-oa-ipo-share-allocation
-Split Drainage Tree,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2026-03-25,https://trueinterview.io/questions/swe-oa-sewer-tree-partition
-Minimum Operations to Reduce to Zero,Algorithm,Hard,Online assessment,New grad; Junior / Mid; Senior,1,,2026-03-21,https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero
-Explain why the t-statistic helps,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-03-13,https://trueinterview.io/questions/explain-why-the-t-statistic-helps
-Predict bike demand and avoid overfitting,System Design,Medium,Phone screen,Junior / Mid,1,,2026-03-13,https://trueinterview.io/questions/predict-bike-demand-and-avoid-overfitting
-How detect duplicate card records?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-02-26,https://trueinterview.io/questions/how-detect-duplicate-card-records
-Implement merge sort and largest 1-rectangle,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-02-26,https://trueinterview.io/questions/implement-merge-sort-and-largest-1-rectangle
-QR Data Analysis Prediction Case,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-02-18,https://trueinterview.io/questions/qr-data-analysis-prediction-case
-Add Two Strings with a Single-Digit Adder,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,2,,2026-02-18,https://trueinterview.io/questions/add-two-strings-with-single-digit-adder
-Merge Intervals,Algorithm,Medium,Phone screen,,16,,2026-02-04,https://trueinterview.io/questions/merge-intervals
-How to prepare for a hiring manager round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-01-22,https://trueinterview.io/questions/how-to-prepare-for-a-hiring-manager-round
-Answer four core statistics questions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2025-12-15,https://trueinterview.io/questions/answer-four-core-statistics-questions
-Huffman-Style Binary Encode / Decode,Algorithm,Hard,Phone screen,Junior / Mid,1,,2025-12-15,https://trueinterview.io/questions/huffman-style-binary-encode-decode
-Predicting Stock Prices from Twitter Data,System Design,Hard,Phone screen,Junior / Mid,1,,2025-12-02,https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data
-Expected Number of Good Pairs in a Randomly Weighted Complete Graph,Algorithm,Hard,Phone screen,Junior / Mid,1,,2025-12-02,https://trueinterview.io/questions/expected-number-of-good-pairs-in-a-randomly-weighted-complete-graph
-Data Analysis on New York Housing Prices,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2025-12,https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7
-Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2025-11-28,https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal
-Smallest Palindrome Strictly Greater Than K,Algorithm,Hard,Phone screen,Junior / Mid,1,,2025-11-28,https://trueinterview.io/questions/smallest-palindrome-strictly-greater-than-k
-Assign 2n Workers to Two Tasks to Minimize Total Time,Algorithm,Hard,Phone screen,Junior / Mid,1,,2025-11-28,https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time
-Maximum Independent Set on a Tree,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2025-11-18,https://trueinterview.io/questions/maximum-independent-set-on-tree
-Implement Univariate Linear Regression with Ordinary Least Squares,Algorithm,Medium,Onsite / virtual onsite,New grad; Senior,1,,2025-11-15,https://trueinterview.io/questions/implement-univariate-linear-regression-with-ordinary-least-squares
-Count Distinct Island Shapes in a Binary Grid,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2025-11-15,https://trueinterview.io/questions/count-distinct-island-shapes-in-a-binary-grid
-HashMap from Scratch,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2025-11-13,https://trueinterview.io/questions/hashmap-from-scratch
-Predict a Company's Stock Price from Six Years of Web Search Logs,System Design,Hard,Phone screen,Junior / Mid,1,,2025-11-02,https://trueinterview.io/questions/predict-a-companys-stock-price-from-six-years-of-web-search-logs
-How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?,Behavioral / Knowledge,,Phone screen,Senior,1,,2025-11,https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks
-Directed Acyclic Graph (DAG) Algorithm Problem,Algorithm,Medium,Phone screen,Senior,1,,2025-11,https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf
-Calculate y/x using Patch,Algorithm,Easy,Online assessment,Senior,1,,2025-11,https://trueinterview.io/questions/08463bd2-ae87-4cda-9a87-de246d9df796
-Palindrome Warmup + Two-Task Worker Scheduling,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2025-10-09,https://trueinterview.io/questions/palindrome-and-task-scheduling-round
-Maximum Product Path in a Complete Directed Graph,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2025-10-09,https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph
-Redundant Connection: Underground Pipes,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-10,https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8
-Analyze NYC taxi trips efficiently over last 7 days,SQL,Medium,Online assessment,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/analyze-nyc-taxi-trips-efficiently-over-last-7-days
+Linear Interpolation,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,4,2026-10,https://trueinterview.io/questions/qr-oa-linear-interpolator
+Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/top-k-largest-elements
+Prediction task,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,1,2026-08,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-prediction-task
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Stock Max Profit (Single or Multiple Transactions),Algorithm,Easy,Online assessment,Senior,2,0,2026-08,https://trueinterview.io/questions/7b157f40-79a0-48dd-a935-b4e27d6a6d0a
+Univariate OLS Regression Through Origin,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/qr-oa-efficient-univariate-ols
+In-Memory SQL-Like Database,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46
+Maximum Throughput,Algorithm,Medium,Online assessment,New grad; Junior / Mid,4,7,2026-06,https://trueinterview.io/questions/maximum-throughput
+Exchange Order Matching Engine,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,2,0,2026-06,https://trueinterview.io/questions/exchange-order-matching-engine
+GenAI Quant SWE Manager Deep Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-05-12,https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive
+NYC Temperature Regression Analysis,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-05-10,https://trueinterview.io/questions/qr-oa-nyc-temperature-regression
+Greedy feature selection,Algorithm,Medium,Online assessment,New grad,1,0,2026-05,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-greedy-feature-selection
+Similarity analysis,Algorithm,Medium,Online assessment,New grad,1,0,2026-05,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-similarity-analysis
+Volatility analysis,Algorithm,Medium,Online assessment,New grad,1,1,2026-05,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-volatility-analysis
+Evaluate piecewise linear function at x,Algorithm,Medium,Online assessment,New grad,1,0,2026-05,https://trueinterview.io/questions/evaluate-piecewise-linear-function-at-x
+QR Statistics / Domain Knowledge Oral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05,https://trueinterview.io/questions/qr-statistics-domain-oral
+No-intercept linear regression,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-04-21,https://trueinterview.io/questions/analyze-temperatures-and-update-regression-no-intercept-linear-regression
+Jump Game Series,Algorithm,Medium,Phone screen,Senior,2,0,2026-04,https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8
+Sewer Connectivity / Reachability in a Grid (DFS),Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364
+IPO Share Allocation,Algorithm,Hard,Online assessment,New grad; Junior / Mid,2,0,2026-04,https://trueinterview.io/questions/swe-oa-ipo-share-allocation
+Split Drainage Tree,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,2,2026-03-25,https://trueinterview.io/questions/swe-oa-sewer-tree-partition
+Minimum Operations to Reduce to Zero,Algorithm,Hard,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-03-21,https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero
+Explain why the t-statistic helps,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-03-13,https://trueinterview.io/questions/explain-why-the-t-statistic-helps
+Predict bike demand and avoid overfitting,System Design,Medium,Phone screen,Junior / Mid,1,0,2026-03-13,https://trueinterview.io/questions/predict-bike-demand-and-avoid-overfitting
+How detect duplicate card records?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-02-26,https://trueinterview.io/questions/how-detect-duplicate-card-records
+Implement merge sort and largest 1-rectangle,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-02-26,https://trueinterview.io/questions/implement-merge-sort-and-largest-1-rectangle
+QR Data Analysis Prediction Case,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-18,https://trueinterview.io/questions/qr-data-analysis-prediction-case
+Add Two Strings with a Single-Digit Adder,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-02-18,https://trueinterview.io/questions/add-two-strings-with-single-digit-adder
+Merge Intervals,Algorithm,Medium,Phone screen,,16,0,2026-02-04,https://trueinterview.io/questions/merge-intervals
+How to prepare for a hiring manager round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-01-22,https://trueinterview.io/questions/how-to-prepare-for-a-hiring-manager-round
+Answer four core statistics questions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-12-15,https://trueinterview.io/questions/answer-four-core-statistics-questions
+Huffman-Style Binary Encode / Decode,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-12-15,https://trueinterview.io/questions/huffman-style-binary-encode-decode
+Predicting Stock Prices from Twitter Data,System Design,Hard,Phone screen,Junior / Mid,1,0,2025-12-02,https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data
+Expected Number of Good Pairs in a Randomly Weighted Complete Graph,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-12-02,https://trueinterview.io/questions/expected-number-of-good-pairs-in-a-randomly-weighted-complete-graph
+Data Analysis on New York Housing Prices,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2025-12,https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7
+Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2025-11-28,https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal
+Smallest Palindrome Strictly Greater Than K,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-11-28,https://trueinterview.io/questions/smallest-palindrome-strictly-greater-than-k
+Assign 2n Workers to Two Tasks to Minimize Total Time,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-11-28,https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time
+Maximum Independent Set on a Tree,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2025-11-18,https://trueinterview.io/questions/maximum-independent-set-on-tree
+Implement Univariate Linear Regression with Ordinary Least Squares,Algorithm,Medium,Onsite / virtual onsite,New grad; Senior,1,0,2025-11-15,https://trueinterview.io/questions/implement-univariate-linear-regression-with-ordinary-least-squares
+Count Distinct Island Shapes in a Binary Grid,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2025-11-15,https://trueinterview.io/questions/count-distinct-island-shapes-in-a-binary-grid
+HashMap from Scratch,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2025-11-13,https://trueinterview.io/questions/hashmap-from-scratch
+Predict a Company's Stock Price from Six Years of Web Search Logs,System Design,Hard,Phone screen,Junior / Mid,1,0,2025-11-02,https://trueinterview.io/questions/predict-a-companys-stock-price-from-six-years-of-web-search-logs
+How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?,Behavioral / Knowledge,,Phone screen,Senior,1,1,2025-11,https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks
+Directed Acyclic Graph (DAG) Algorithm Problem,Algorithm,Medium,Phone screen,Senior,1,0,2025-11,https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf
+Calculate y/x using Patch,Algorithm,Easy,Online assessment,Senior,1,0,2025-11,https://trueinterview.io/questions/08463bd2-ae87-4cda-9a87-de246d9df796
+Palindrome Warmup + Two-Task Worker Scheduling,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-10-09,https://trueinterview.io/questions/palindrome-and-task-scheduling-round
+Maximum Product Path in a Complete Directed Graph,Algorithm,Hard,Onsite / virtual onsite,Senior,1,0,2025-10-09,https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph
+Redundant Connection: Underground Pipes,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-10,https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8
+Analyze NYC taxi trips efficiently over last 7 days,SQL,Medium,Online assessment,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/analyze-nyc-taxi-trips-efficiently-over-last-7-days

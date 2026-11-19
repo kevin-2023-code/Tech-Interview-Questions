@@ -1,10 +1,10 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
-Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
-Prioritize Critical Findings in a High-Load Batch Processor Review,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-17,https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review
-Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,8,,2026-08,https://trueinterview.io/questions/design-youtube
-File System Deletion,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-07,https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518
-Minimum Path Sum,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-06,https://trueinterview.io/questions/2f51777e-365c-5674-ab6a-8941f98594b7
-Implement Binary Focal Loss,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc
-Implement Grouped Query Attention Forward Pass,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7
-Implement a Snowflake Query Client (Start Query & Get Query Status),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,0,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+Prioritize Critical Findings in a High-Load Batch Processor Review,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-17,https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review
+Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,8,0,2026-08,https://trueinterview.io/questions/design-youtube
+File System Deletion,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-07,https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518
+Minimum Path Sum,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,1,2026-06,https://trueinterview.io/questions/2f51777e-365c-5674-ab6a-8941f98594b7
+Implement Binary Focal Loss,Algorithm,Easy,Online assessment,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc
+Implement Grouped Query Attention Forward Pass,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7
+Implement a Snowflake Query Client (Start Query & Get Query Status),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053

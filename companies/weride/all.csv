@@ -1,23 +1,23 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/top-k-largest-elements
-Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,,2026-09,https://trueinterview.io/questions/valid-parentheses
-In-Flight Movie Pair (Two Sum Variant),Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,7,,2026-08,https://trueinterview.io/questions/in-flight-movie-pair-two-sum
-Trie Implementation / Trie-based String Operations,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-05,https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c
-Matrix Multiplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,3,,2026-05,https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82
-Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,,2026-05,https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87
-Fast Exponentiation,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-12,https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e
-Delete Node in a Linked List,Algorithm,Easy,Online assessment,Intern; Senior,2,,2025-12,https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576
-Modified Basic Calculator,Algorithm,Medium,Phone screen,Senior,3,,2025-11,https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197
-Minimize Cost to Make Blocks Unique,Algorithm,Hard,Phone screen,Intern,1,,2025-11,https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37
-Shortest Path to Collect All Coins,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-11,https://trueinterview.io/questions/ebc36290-8e59-49ee-aba8-88d6ce49f1cb
-Preprocess Dates,Algorithm,Easy,Online assessment,Intern,2,,2025-11,https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099
-Implement matrix multiplication and fast exponentiation,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2025-10-02,https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation
-Graph Coloring Problem,Algorithm,Medium,Phone screen,New grad,1,,2025-03,https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66
-Minimum Total Cost for Image Filters,Algorithm,Medium,Phone screen,New grad,1,,2025-03,https://trueinterview.io/questions/77f1b3c9-7371-4741-89d1-60814bdbdbe1
-Graph Traversal Problem,Algorithm,Easy,Online assessment,New grad,1,,2025-03,https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3
-Implement Power Function,Algorithm,Medium,Phone screen,Junior / Mid,4,,2025-03,https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae
-Meetup Schedule,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb
-Checking Your Route,Algorithm,Hard,Phone screen,Senior,1,,,https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa
-Is Bipartite Graph,Algorithm,Medium,Phone screen,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455
-Long Break,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/908737d5-1e10-4ed9-b0f6-e6c280b24347
-Fibonacci Matrix Exponentiation,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010
+Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/top-k-largest-elements
+Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,0,2026-09,https://trueinterview.io/questions/valid-parentheses
+In-Flight Movie Pair (Two Sum Variant),Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,7,0,2026-08,https://trueinterview.io/questions/in-flight-movie-pair-two-sum
+Trie Implementation / Trie-based String Operations,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-05,https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c
+Matrix Multiplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,3,0,2026-05,https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82
+Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-05,https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87
+Fast Exponentiation,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e
+Delete Node in a Linked List,Algorithm,Easy,Online assessment,Intern; Senior,2,1,2025-12,https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576
+Modified Basic Calculator,Algorithm,Medium,Phone screen,Senior,3,0,2025-11,https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197
+Minimize Cost to Make Blocks Unique,Algorithm,Hard,Phone screen,Intern,1,0,2025-11,https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37
+Shortest Path to Collect All Coins,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-11,https://trueinterview.io/questions/ebc36290-8e59-49ee-aba8-88d6ce49f1cb
+Preprocess Dates,Algorithm,Easy,Online assessment,Intern,2,0,2025-11,https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099
+Implement matrix multiplication and fast exponentiation,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-10-02,https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation
+Graph Coloring Problem,Algorithm,Medium,Phone screen,New grad,1,0,2025-03,https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66
+Minimum Total Cost for Image Filters,Algorithm,Medium,Phone screen,New grad,1,0,2025-03,https://trueinterview.io/questions/77f1b3c9-7371-4741-89d1-60814bdbdbe1
+Graph Traversal Problem,Algorithm,Easy,Online assessment,New grad,1,0,2025-03,https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3
+Implement Power Function,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2025-03,https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae
+Meetup Schedule,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb
+Checking Your Route,Algorithm,Hard,Phone screen,Senior,1,0,,https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa
+Is Bipartite Graph,Algorithm,Medium,Phone screen,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455
+Long Break,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/908737d5-1e10-4ed9-b0f6-e6c280b24347
+Fibonacci Matrix Exponentiation,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010

@@ -1,6 +1,6 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Split a Chunked Text Stream into Line-Balanced Parts,Algorithm,Medium,Phone screen,Senior,1,,2026-09-15,https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts
-Investigate a Server Saturated by Logging,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-15,https://trueinterview.io/questions/investigate-a-server-saturated-by-logging
-Diagnose Storage I/O Performance and Identify the Workload,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload
-Diagnose Slow Network Throughput Including Containers,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-15,https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers
-Diagnose CPU Performance Problems on a Linux Server,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server
+Split a Chunked Text Stream into Line-Balanced Parts,Algorithm,Medium,Phone screen,Senior,1,0,2026-09-15,https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts
+Investigate a Server Saturated by Logging,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/investigate-a-server-saturated-by-logging
+Diagnose Storage I/O Performance and Identify the Workload,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload
+Diagnose Slow Network Throughput Including Containers,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers
+Diagnose CPU Performance Problems on a Linux Server,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server

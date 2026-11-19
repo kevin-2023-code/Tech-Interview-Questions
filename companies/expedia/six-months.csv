@@ -1,18 +1,18 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/payment-platform-design
-Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/booking-system-design
-Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
-House Robber Series,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,5,,2026-09,https://trueinterview.io/questions/house-robber-series
-Minimum Machines for Task Scheduling,Algorithm,Medium,Online assessment,Junior / Mid,2,,2026-07,https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36
-Find Round-Trip Flight Itineraries,Algorithm,Medium,Phone screen,Senior,1,,2026-07,https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0
-Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,5,,2026-07,https://trueinterview.io/questions/ml-system-design-notifications-ctr
-Design Google News,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,4,,2026-07,https://trueinterview.io/questions/google-news-aggregator
-Number of Provinces,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,,2026-06,https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2
-Maximize Hole in Prison Gate,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817
-Merge One Linked List Into Another Between Two Indices,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69
-Count Strongly Connected Components Using Kosaraju's Algorithm,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6
-Beautiful Towers II,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9
-Count Number of Nice Subarrays,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,,2026-06,https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19
-Range Negate Data Updates,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,,2026-05-30,https://trueinterview.io/questions/range-negate-data-updates
-Count Dropped Requests,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-05-30,https://trueinterview.io/questions/count-dropped-requests
-Card Packets with Identical Distribution,Algorithm,Medium,Online assessment,Intern; New grad,2,,2026-05-30,https://trueinterview.io/questions/card-packets-with-identical-distribution
+Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,40,2026-10,https://trueinterview.io/questions/payment-platform-design
+Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,0,2026-09,https://trueinterview.io/questions/booking-system-design
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,0,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+House Robber Series,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,5,0,2026-09,https://trueinterview.io/questions/house-robber-series
+Minimum Machines for Task Scheduling,Algorithm,Medium,Online assessment,Junior / Mid,2,0,2026-07,https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36
+Find Round-Trip Flight Itineraries,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0
+Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,5,0,2026-07,https://trueinterview.io/questions/ml-system-design-notifications-ctr
+Design Google News,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,4,0,2026-07,https://trueinterview.io/questions/google-news-aggregator
+Number of Provinces,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2
+Maximize Hole in Prison Gate,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817
+Merge One Linked List Into Another Between Two Indices,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69
+Count Strongly Connected Components Using Kosaraju's Algorithm,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6
+Beautiful Towers II,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9
+Count Number of Nice Subarrays,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,2,2026-06,https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19
+Range Negate Data Updates,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,0,2026-05-30,https://trueinterview.io/questions/range-negate-data-updates
+Count Dropped Requests,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-05-30,https://trueinterview.io/questions/count-dropped-requests
+Card Packets with Identical Distribution,Algorithm,Medium,Online assessment,Intern; New grad,2,0,2026-05-30,https://trueinterview.io/questions/card-packets-with-identical-distribution

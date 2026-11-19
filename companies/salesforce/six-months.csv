@@ -1,34 +1,34 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Hiring Manager + Behavioral Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/hm-and-bq-rounds
-Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,,2026-10,https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec
-Track Top-K Frequent Elements from an Unbounded Stream,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream
-Design an Idempotent Payment Processing Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform
-Implement Merge Sort and Explain Its Recursion Tree,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4
-Convert a Sorted Doubly Linked List to an In-Place Balanced BST,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7
-Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8
-String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
-Coffee Ordering System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/coffee-ordering-system
-Maximum Requests in a Time Window,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/maximum-requests-in-time-window
-Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/design-tinyurl
-Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
-LFU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/lfu-cache
-Minimum One-Character Word Transformations,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-08-24,https://trueinterview.io/questions/minimum-word-transformation-steps
-Find the Celebrity,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-08-24,https://trueinterview.io/questions/find-the-celebrity
-Design an Enterprise Messaging / Collaboration System,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-08-16,https://trueinterview.io/questions/enterprise-messaging-collaboration-system
-Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-08-16,https://trueinterview.io/questions/valid-word-abbreviation
-Lowest Common Ancestor with Parent Pointers (LeetCode 1650),Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-08-16,https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers
-Kth Smallest in a BST (LeetCode 230) with Follow-Ups,Algorithm,Hard,Onsite / virtual onsite,Senior,2,,2026-08-16,https://trueinterview.io/questions/kth-smallest-bst-follow-ups
-Diameter of an Acyclic Undirected Graph,Algorithm,Medium,Phone screen,Senior,1,,2026-08,https://trueinterview.io/questions/a43fc01e-fd8b-5a89-b87c-d2b5aa8f84ca
-Path Sum in a Binary Tree,Algorithm,Easy,Online assessment,Senior,1,,2026-08,https://trueinterview.io/questions/47b63952-31a7-5519-a5d6-16d0eecff233
-Determine Whether a Date Falls on a Weekend,Algorithm,Easy,Online assessment,New grad,1,,2026-08,https://trueinterview.io/questions/4445f526-42ef-5256-bc53-b6614133cfc3
-Average Deal Size,SQL,Easy,Phone screen,Intern; New grad; Junior / Mid,1,,2026-07-26,https://trueinterview.io/questions/average-deal-size
-Optimal Account Balancing (LeetCode 465),Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-07-25,https://trueinterview.io/questions/optimal-account-balancing
-"Delete One Character Type, Minimize Unique-Character Segments",Algorithm,Medium,Online assessment,New grad,1,,2026-07-25,https://trueinterview.io/questions/delete-character-minimize-unique-segments
-Project Architecture Deep Dive (AI Engineer / Backend),Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-07-17,https://trueinterview.io/questions/project-deep-dive-ai-engineer
-Maximal Rectangle (LeetCode 85),Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2026-07-17,https://trueinterview.io/questions/maximal-rectangle
-Maximal Square (LeetCode 221),Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-07-17,https://trueinterview.io/questions/maximal-square
-Order a Nearly Sorted UDP Packet Stream,Algorithm,Medium,Phone screen,Senior,1,,2026-07,https://trueinterview.io/questions/0a8df541-f4ba-5b5d-9256-54c178f3c866
-Finding the Longest Increasing Subsequence,Algorithm,Hard,Phone screen,Junior / Mid,3,,2026-07,https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e
-Minimum Knight Moves,Algorithm,Medium,Online assessment,Senior,3,,2026-07,https://trueinterview.io/questions/minimum-knight-moves
-Campaign Cost Weekly Partition,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-06-22,https://trueinterview.io/questions/campaign-cost-weekly-partition
-Split Array into K Parts with Minimum Sum of Maxima,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/54c46fcb-af9b-4954-80f6-8f6bd2449d00
+Hiring Manager + Behavioral Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/hm-and-bq-rounds
+Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,8,2026-10,https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec
+Track Top-K Frequent Elements from an Unbounded Stream,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream
+Design an Idempotent Payment Processing Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform
+Implement Merge Sort and Explain Its Recursion Tree,Algorithm,Medium,Phone screen,Senior,1,1,2026-09,https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4
+Convert a Sorted Doubly Linked List to an In-Place Balanced BST,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7
+Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
+Coffee Ordering System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/coffee-ordering-system
+Maximum Requests in a Time Window,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/maximum-requests-in-time-window
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/design-tinyurl
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,0,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+LFU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/lfu-cache
+Minimum One-Character Word Transformations,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-08-24,https://trueinterview.io/questions/minimum-word-transformation-steps
+Find the Celebrity,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2026-08-24,https://trueinterview.io/questions/find-the-celebrity
+Design an Enterprise Messaging / Collaboration System,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-08-16,https://trueinterview.io/questions/enterprise-messaging-collaboration-system
+Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant,Algorithm,Medium,Onsite / virtual onsite,Senior,1,1,2026-08-16,https://trueinterview.io/questions/valid-word-abbreviation
+Lowest Common Ancestor with Parent Pointers (LeetCode 1650),Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-08-16,https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers
+Kth Smallest in a BST (LeetCode 230) with Follow-Ups,Algorithm,Hard,Onsite / virtual onsite,Senior,2,1,2026-08-16,https://trueinterview.io/questions/kth-smallest-bst-follow-ups
+Diameter of an Acyclic Undirected Graph,Algorithm,Medium,Phone screen,Senior,1,1,2026-08,https://trueinterview.io/questions/a43fc01e-fd8b-5a89-b87c-d2b5aa8f84ca
+Path Sum in a Binary Tree,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/47b63952-31a7-5519-a5d6-16d0eecff233
+Determine Whether a Date Falls on a Weekend,Algorithm,Easy,Online assessment,New grad,1,1,2026-08,https://trueinterview.io/questions/4445f526-42ef-5256-bc53-b6614133cfc3
+Average Deal Size,SQL,Easy,Phone screen,Intern; New grad; Junior / Mid,1,0,2026-07-26,https://trueinterview.io/questions/average-deal-size
+Optimal Account Balancing (LeetCode 465),Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/optimal-account-balancing
+"Delete One Character Type, Minimize Unique-Character Segments",Algorithm,Medium,Online assessment,New grad,1,0,2026-07-25,https://trueinterview.io/questions/delete-character-minimize-unique-segments
+Project Architecture Deep Dive (AI Engineer / Backend),Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-07-17,https://trueinterview.io/questions/project-deep-dive-ai-engineer
+Maximal Rectangle (LeetCode 85),Algorithm,Hard,Onsite / virtual onsite,Senior,1,0,2026-07-17,https://trueinterview.io/questions/maximal-rectangle
+Maximal Square (LeetCode 221),Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-07-17,https://trueinterview.io/questions/maximal-square
+Order a Nearly Sorted UDP Packet Stream,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/0a8df541-f4ba-5b5d-9256-54c178f3c866
+Finding the Longest Increasing Subsequence,Algorithm,Hard,Phone screen,Junior / Mid,3,0,2026-07,https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e
+Minimum Knight Moves,Algorithm,Medium,Online assessment,Senior,3,1,2026-07,https://trueinterview.io/questions/minimum-knight-moves
+Campaign Cost Weekly Partition,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-06-22,https://trueinterview.io/questions/campaign-cost-weekly-partition
+Split Array into K Parts with Minimum Sum of Maxima,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/54c46fcb-af9b-4954-80f6-8f6bd2449d00

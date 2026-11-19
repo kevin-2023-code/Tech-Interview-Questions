@@ -1,6 +1,6 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Explain a Project and Its Hardest Engineering Challenge,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/explain-a-project-and-its-hardest-engineering-challenge
-How a C++ Mutex Protects Shared State,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-04-26,https://trueinterview.io/questions/how-a-cplusplus-mutex-protects-shared-state
-"C++ Atomics, Memory Ordering, and Safe Publication",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-04-26,https://trueinterview.io/questions/cplusplus-atomics-memory-ordering-and-safe-publication
-How do you explain work to non-technical partners?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,,2026-02-12,https://trueinterview.io/questions/how-do-you-explain-work-to-non-technical-partners
-Debug missing output in Python async HTTP flow,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2025-10-24,https://trueinterview.io/questions/debug-missing-output-in-python-async-http-flow
+Explain a Project and Its Hardest Engineering Challenge,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/explain-a-project-and-its-hardest-engineering-challenge
+How a C++ Mutex Protects Shared State,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-26,https://trueinterview.io/questions/how-a-cplusplus-mutex-protects-shared-state
+"C++ Atomics, Memory Ordering, and Safe Publication",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-26,https://trueinterview.io/questions/cplusplus-atomics-memory-ordering-and-safe-publication
+How do you explain work to non-technical partners?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,0,2026-02-12,https://trueinterview.io/questions/how-do-you-explain-work-to-non-technical-partners
+Debug missing output in Python async HTTP flow,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-10-24,https://trueinterview.io/questions/debug-missing-output-in-python-async-http-flow

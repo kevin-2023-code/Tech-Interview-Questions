@@ -1,46 +1,46 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design Feature Flag,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,,2026-10,https://trueinterview.io/questions/design-feature-flag-2
-Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,,2026-10,https://trueinterview.io/questions/word-search-ii
-Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
-Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
-Hiring-Manager Domain Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/hiring-manager-domain-round
-Cross-Functional & PM Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/cross-functional-pm-bq
-Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
-Explain and Reduce Position Bias in Ranking,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-08-23,https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking
-Design Content Moderation System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-08,https://trueinterview.io/questions/content-moderation-system-design
-Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
-Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,5,,2026-07,https://trueinterview.io/questions/ml-system-design-notifications-ctr
-Moderator List Hierarchy,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-06-23,https://trueinterview.io/questions/moderator-list-hierarchy
-Tennis Scoring II,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-06-12,https://trueinterview.io/questions/tennis-match-scoring
-Pseudo-Memcached Protocol Server,Algorithm,Medium,Onsite / virtual onsite,New grad,1,,2026-06-12,https://trueinterview.io/questions/pseudo-memcached-protocol
-Chat Message Range Merge,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid,1,,2026-06-12,https://trueinterview.io/questions/merge-chat-message-windows
-Design Reddit Comments Ranking System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-06,https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system
-Post Click Prediction,AI Coding,Medium,Phone screen,Junior / Mid; Senior,1,,2026-05-30,https://trueinterview.io/questions/post-click-prediction
-Word Search in a Straight Line,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-05-12,https://trueinterview.io/questions/phone-screen-word-search-straight-line
-Design Tennis Scoring with Pluggable Rules,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-05-06,https://trueinterview.io/questions/design-tennis-scoring-with-pluggable-rules
-Debug and Improve a Load Balancer,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-05-06,https://trueinterview.io/questions/debug-and-improve-a-load-balancer
-Design A Personalized Search Ranking System,System Design,Medium,Onsite / virtual onsite,Senior,6,,2026-05,https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d
-ML Fundamentals,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-05,https://trueinterview.io/questions/ml-fundamentals
-Reconstruct Billing Status,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Senior,1,,2026-05,https://trueinterview.io/questions/billing-status-replay-ood
-Design Online Game Leaderboard,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-05,https://trueinterview.io/questions/design-a-gaming-leaderboard-service
-Feature Store,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-05,https://trueinterview.io/questions/feature-store
-Product Sense: Improve Reddit Onboarding,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-03-23,https://trueinterview.io/questions/product-sense-improve-onboarding
-Shortest Palindrome,Algorithm,Medium,Phone screen,Senior,1,,2026-03,https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705
-Odd Even Linked List,Algorithm,Medium,Phone screen,Senior,4,,2026-03,https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a
-Logger Rate Limiter,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-03,https://trueinterview.io/questions/logger-rate-limiter
-Report Chain,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-02-17,https://trueinterview.io/questions/report-chain
-Model y from x and interpret distributions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-02-12,https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions
-Describe a failure and a success,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-02-12,https://trueinterview.io/questions/describe-a-failure-and-a-success
-Bill Status,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-02,https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444
-Video Recommendation,System Design,Hard,Onsite / virtual onsite,Senior,2,,2026-02,https://trueinterview.io/questions/video-recommendation
-Related Communities Finder,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-01-23,https://trueinterview.io/questions/related-communities-finder
-Merge JSON Event Logs,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,2026-01-23,https://trueinterview.io/questions/merge-json-event-logs
-Prioritize competing engineering requests,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,2025-12-11,https://trueinterview.io/questions/prioritize-competing-engineering-requests
-Collaborate with PM and Eng as DS,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2025-12-11,https://trueinterview.io/questions/collaborate-with-pm-and-eng-as-ds
-Design comment-likelihood prediction platform,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,,2025-12,https://trueinterview.io/questions/design-comment-likelihood-prediction-platform
-Tennis Scoring,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-12,https://trueinterview.io/questions/b30fcfc7-0dd6-4ac0-822e-39e316e02870
-Dictionary Word Transformation Path,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2025-07-21,https://trueinterview.io/questions/dictionary-word-transformation-path
-Justify synthetic control and handle inference,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/justify-synthetic-control-and-handle-inference
-Design a causal evaluation without A/B testing,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing
-Communicate and de-risk a non-experimental launch,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/communicate-and-de-risk-a-non-experimental-launch
-Design A Video Recommendation System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,4,,,https://trueinterview.io/questions/design-a-video-recommendation-system-2
+Design Feature Flag,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-10,https://trueinterview.io/questions/design-feature-flag-2
+Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Hiring-Manager Domain Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,5,2026-09,https://trueinterview.io/questions/hiring-manager-domain-round
+Cross-Functional & PM Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/cross-functional-pm-bq
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,0,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Explain and Reduce Position Bias in Ranking,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-08-23,https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking
+Design Content Moderation System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-08,https://trueinterview.io/questions/content-moderation-system-design
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,5,0,2026-07,https://trueinterview.io/questions/ml-system-design-notifications-ctr
+Moderator List Hierarchy,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-06-23,https://trueinterview.io/questions/moderator-list-hierarchy
+Tennis Scoring II,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-06-12,https://trueinterview.io/questions/tennis-match-scoring
+Pseudo-Memcached Protocol Server,Algorithm,Medium,Onsite / virtual onsite,New grad,1,0,2026-06-12,https://trueinterview.io/questions/pseudo-memcached-protocol
+Chat Message Range Merge,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid,1,0,2026-06-12,https://trueinterview.io/questions/merge-chat-message-windows
+Design Reddit Comments Ranking System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06,https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system
+Post Click Prediction,AI Coding,Medium,Phone screen,Junior / Mid; Senior,1,2,2026-05-30,https://trueinterview.io/questions/post-click-prediction
+Word Search in a Straight Line,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-05-12,https://trueinterview.io/questions/phone-screen-word-search-straight-line
+Design Tennis Scoring with Pluggable Rules,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-05-06,https://trueinterview.io/questions/design-tennis-scoring-with-pluggable-rules
+Debug and Improve a Load Balancer,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-05-06,https://trueinterview.io/questions/debug-and-improve-a-load-balancer
+Design A Personalized Search Ranking System,System Design,Medium,Onsite / virtual onsite,Senior,6,3,2026-05,https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d
+ML Fundamentals,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05,https://trueinterview.io/questions/ml-fundamentals
+Reconstruct Billing Status,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-05,https://trueinterview.io/questions/billing-status-replay-ood
+Design Online Game Leaderboard,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,5,2026-05,https://trueinterview.io/questions/design-a-gaming-leaderboard-service
+Feature Store,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05,https://trueinterview.io/questions/feature-store
+Product Sense: Improve Reddit Onboarding,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-03-23,https://trueinterview.io/questions/product-sense-improve-onboarding
+Shortest Palindrome,Algorithm,Medium,Phone screen,Senior,1,0,2026-03,https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705
+Odd Even Linked List,Algorithm,Medium,Phone screen,Senior,4,0,2026-03,https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a
+Logger Rate Limiter,Algorithm,Easy,Online assessment,Junior / Mid,1,2,2026-03,https://trueinterview.io/questions/logger-rate-limiter
+Report Chain,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-17,https://trueinterview.io/questions/report-chain
+Model y from x and interpret distributions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions
+Describe a failure and a success,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-02-12,https://trueinterview.io/questions/describe-a-failure-and-a-success
+Bill Status,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02,https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444
+Video Recommendation,System Design,Hard,Onsite / virtual onsite,Senior,2,0,2026-02,https://trueinterview.io/questions/video-recommendation
+Related Communities Finder,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-23,https://trueinterview.io/questions/related-communities-finder
+Merge JSON Event Logs,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-23,https://trueinterview.io/questions/merge-json-event-logs
+Prioritize competing engineering requests,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,2025-12-11,https://trueinterview.io/questions/prioritize-competing-engineering-requests
+Collaborate with PM and Eng as DS,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-11,https://trueinterview.io/questions/collaborate-with-pm-and-eng-as-ds
+Design comment-likelihood prediction platform,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/design-comment-likelihood-prediction-platform
+Tennis Scoring,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/b30fcfc7-0dd6-4ac0-822e-39e316e02870
+Dictionary Word Transformation Path,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2025-07-21,https://trueinterview.io/questions/dictionary-word-transformation-path
+Justify synthetic control and handle inference,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/justify-synthetic-control-and-handle-inference
+Design a causal evaluation without A/B testing,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing
+Communicate and de-risk a non-experimental launch,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/communicate-and-de-risk-a-non-experimental-launch
+Design A Video Recommendation System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,4,0,,https://trueinterview.io/questions/design-a-video-recommendation-system-2

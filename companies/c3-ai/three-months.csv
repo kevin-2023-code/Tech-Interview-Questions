@@ -1,11 +1,11 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Star Sum: Best k-Star Sum in a Graph,Algorithm,Medium,Online assessment,New grad,1,,2026-10-04,https://trueinterview.io/questions/oa-star-sum-best-k-star
-Analyze the Time Complexity of Nested Loops,Behavioral / Knowledge,,Onsite / virtual onsite,New grad,1,,2026-10,https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413
-Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,,2026-10,https://trueinterview.io/questions/word-search-ii
-Versioned Key-Value Store With Point-in-Time Reads,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,,2026-09,https://trueinterview.io/questions/time-based-key-value-store-3
-Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/three-sum
-Evaluate a Retrieval-Augmented Generation System,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-08-21,https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system
-Keep Gradient Descent from Stalling at Poor Solutions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-08-21,https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions
-Connect Bias-Variance Trade-offs to Bagging and Boosting,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-08-21,https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting
-Compare Transformers and RNNs and Derive Attention Complexity,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-08-21,https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity
-Forecast Food Stocking Needs Under Waste and Stockout Costs,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-08-21,https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs
+Star Sum: Best k-Star Sum in a Graph,Algorithm,Medium,Online assessment,New grad,1,0,2026-10-04,https://trueinterview.io/questions/oa-star-sum-best-k-star
+Analyze the Time Complexity of Nested Loops,Behavioral / Knowledge,,Onsite / virtual onsite,New grad,1,0,2026-10,https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413
+Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
+Versioned Key-Value Store With Point-in-Time Reads,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,0,2026-09,https://trueinterview.io/questions/time-based-key-value-store-3
+Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/three-sum
+Evaluate a Retrieval-Augmented Generation System,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-08-21,https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system
+Keep Gradient Descent from Stalling at Poor Solutions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-08-21,https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions
+Connect Bias-Variance Trade-offs to Bagging and Boosting,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-08-21,https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting
+Compare Transformers and RNNs and Derive Attention Complexity,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-08-21,https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity
+Forecast Food Stocking Needs Under Waste and Stockout Costs,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-08-21,https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs

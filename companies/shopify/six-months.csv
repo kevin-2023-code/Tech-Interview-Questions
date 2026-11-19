@@ -1,7 +1,7 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,,2026-10-01,https://trueinterview.io/questions/lru-cache
-Bank Account Simulation Class With Self-Written Tests at 90% Coverage,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09-07,https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage
-Life Story / Values Interview,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-07-10,https://trueinterview.io/questions/life-story-values-interview
-Explain your career and flagship project,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-07,https://trueinterview.io/questions/explain-your-career-and-flagship-project
-Design search autocomplete ML system,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-07,https://trueinterview.io/questions/design-search-autocomplete-ml-system
-In-Memory Unix File System,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,3,,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
+LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,0,2026-10-01,https://trueinterview.io/questions/lru-cache
+Bank Account Simulation Class With Self-Written Tests at 90% Coverage,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-07,https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage
+Life Story / Values Interview,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-07-10,https://trueinterview.io/questions/life-story-values-interview
+Explain your career and flagship project,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-07,https://trueinterview.io/questions/explain-your-career-and-flagship-project
+Design search autocomplete ML system,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07,https://trueinterview.io/questions/design-search-autocomplete-ml-system
+In-Memory Unix File System,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system

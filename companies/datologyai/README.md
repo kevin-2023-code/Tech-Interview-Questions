@@ -6,11 +6,13 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (1)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](../../questions/object-oriented-programming/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-10-14 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](../../questions/object-oriented-programming/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-14 |
 
 ---
 

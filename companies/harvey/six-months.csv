@@ -1,14 +1,14 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design a Chat Application with Durable Conversation History,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-15,https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history
-Find Duplicate Files While Handling Symbolic-Link Cycles,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-09-01,https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles
-Design and Evaluate a Retrieval-Augmented Generation Pipeline,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-01,https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline
-Allocate Unique File Names in an In-Memory Vault,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09-01,https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault
-Citation Highlighting,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08-09,https://trueinterview.io/questions/citation-highlighting
-Spreadsheet with Cell Dependencies,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies
-Design Vault (Google Drive-Style File Storage),System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-07,https://trueinterview.io/questions/design-vault-google-drive-style-file-storage
-Harvey Values / Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-02,https://trueinterview.io/questions/harvey-values-behavioral
-Citation Problem,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e
-Tag Exact-Matched Sources in a Document and Provide Citations,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9
-Design a Law Firm Memo Q&A AI Agent,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07,https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent
-In-Memory Unix File System,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,3,,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
-Implement a Simple RAG in a Notebook,AI Coding,Medium,Onsite / virtual onsite,Senior,1,,2026-06-11,https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook
+Design a Chat Application with Durable Conversation History,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history
+Find Duplicate Files While Handling Symbolic-Link Cycles,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-09-01,https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles
+Design and Evaluate a Retrieval-Augmented Generation Pipeline,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-01,https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline
+Allocate Unique File Names in an In-Memory Vault,Algorithm,Medium,Onsite / virtual onsite,Senior,1,2,2026-09-01,https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault
+Citation Highlighting,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,10,2026-08-09,https://trueinterview.io/questions/citation-highlighting
+Spreadsheet with Cell Dependencies,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies
+Design Vault (Google Drive-Style File Storage),System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,8,2026-07-07,https://trueinterview.io/questions/design-vault-google-drive-style-file-storage
+Harvey Values / Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07-02,https://trueinterview.io/questions/harvey-values-behavioral
+Citation Problem,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,4,2026-07,https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e
+Tag Exact-Matched Sources in a Document and Provide Citations,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9
+Design a Law Firm Memo Q&A AI Agent,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-07,https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent
+In-Memory Unix File System,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
+Implement a Simple RAG in a Notebook,AI Coding,Medium,Onsite / virtual onsite,Senior,1,0,2026-06-11,https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook

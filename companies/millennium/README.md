@@ -6,15 +6,17 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (5)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Explain a Project and Its Hardest Engineering Challenge](https://trueinterview.io/questions/explain-a-project-and-its-hardest-engineering-challenge?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 2026-09 |
-| [How a C++ Mutex Protects Shared State](https://trueinterview.io/questions/how-a-cplusplus-mutex-protects-shared-state?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-26 |
-| [C++ Atomics, Memory Ordering, and Safe Publication](https://trueinterview.io/questions/cplusplus-atomics-memory-ordering-and-safe-publication?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-26 |
-| [How do you explain work to non-technical partners?](https://trueinterview.io/questions/how-do-you-explain-work-to-non-technical-partners?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 2026-02-12 |
-| [Debug missing output in Python async HTTP flow](https://trueinterview.io/questions/debug-missing-output-in-python-async-http-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-10-24 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Explain a Project and Its Hardest Engineering Challenge](https://trueinterview.io/questions/explain-a-project-and-its-hardest-engineering-challenge?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09 |
+| [How a C++ Mutex Protects Shared State](https://trueinterview.io/questions/how-a-cplusplus-mutex-protects-shared-state?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-26 |
+| [C++ Atomics, Memory Ordering, and Safe Publication](https://trueinterview.io/questions/cplusplus-atomics-memory-ordering-and-safe-publication?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-26 |
+| [How do you explain work to non-technical partners?](https://trueinterview.io/questions/how-do-you-explain-work-to-non-technical-partners?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 0 | 2026-02-12 |
+| [Debug missing output in Python async HTTP flow](https://trueinterview.io/questions/debug-missing-output-in-python-async-http-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-24 |
 
 ---
 

@@ -1,25 +1,25 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-LRU Cache + Thread-Safe Follow-up,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,,2026-10,https://trueinterview.io/questions/coding-lru-cache-multithread
-Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
-Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
-Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
-Course Schedule Cycle Detection,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,,2026-10,https://trueinterview.io/questions/course-schedule-cycle-detection
-Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,,2026-10,https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360
-Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
-Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
-Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,,2026-10,https://trueinterview.io/questions/rate-limiter
-Render an Organization Chart and Find Skip-Level Pairs,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-09-09,https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs
-Explain Neural-Network Regularization and Dropout,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-09,https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout
-Compare Batch Normalization and Layer Normalization,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Senior,1,,2026-09-09,https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization
-Choose Labels and Losses for Multiple Engagement Outcomes,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-09,https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes
-Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
-Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
-Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,,2026-09,https://trueinterview.io/questions/basic-calculator-2
-Find Median from Data Stream,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/find-median-from-data-stream
-Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/design-tinyurl
-Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
-Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
-Design and Implement a Thread-Safe LRU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-08-28,https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache
-Find the Smallest Range Covering K Sorted Lists,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-08-28,https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists
-Design a Pre-Login Risk and Challenge Service,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-22,https://trueinterview.io/questions/design-a-pre-login-risk-and-challenge-service
+LRU Cache + Thread-Safe Follow-up,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,12,2026-10,https://trueinterview.io/questions/coding-lru-cache-multithread
+Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,4,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
+Course Schedule Cycle Detection,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,10,2026-10,https://trueinterview.io/questions/course-schedule-cycle-detection
+Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
+Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
+Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
+Render an Organization Chart and Find Skip-Level Pairs,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs
+Explain Neural-Network Regularization and Dropout,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout
+Compare Batch Normalization and Layer Normalization,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Senior,1,0,2026-09-09,https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization
+Choose Labels and Losses for Multiple Engagement Outcomes,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes
+Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,0,2026-09,https://trueinterview.io/questions/basic-calculator-2
+Find Median from Data Stream,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/find-median-from-data-stream
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/design-tinyurl
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,0,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,0,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+Design and Implement a Thread-Safe LRU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08-28,https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache
+Find the Smallest Range Covering K Sorted Lists,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-28,https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists
+Design a Pre-Login Risk and Challenge Service,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-22,https://trueinterview.io/questions/design-a-pre-login-risk-and-challenge-service

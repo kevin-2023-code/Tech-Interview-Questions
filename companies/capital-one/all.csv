@@ -1,214 +1,214 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Number-Line Block Placement,Algorithm,Hard,Online assessment,New grad,1,,2026-10-02,https://trueinterview.io/questions/number-line-block-placement
-Matrix Pattern Matching,Algorithm,Medium,Online assessment,New grad,1,,2026-10-02,https://trueinterview.io/questions/matrix-pattern-matching
-Count Arithmetic Triplets After Each Query,Algorithm,Medium,Phone screen,Staff+,1,,2026-10,https://trueinterview.io/questions/ff10e415-447b-5ca5-9793-e7714cddfbe6
-Driver Dataset Exploratory Analysis,Algorithm,Easy,Online assessment,New grad,1,,2026-10,https://trueinterview.io/questions/dca94c12-e6ad-549e-a6a9-18a195ab3cb6
-Build Driver-Level Feature Dataset,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/b5547eb7-b2ec-535d-8ffd-9ab383cfd6cd
-Build Blocks and Check Interval Availability,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/b529e40c-262f-538d-bc01-16fd7b1936b5
-Evaluate Arithmetic Equations,Algorithm,Easy,Online assessment,Staff+,1,,2026-10,https://trueinterview.io/questions/8baff98d-9bad-50cd-b485-13c9134feb8f
-Find the Branch with the Most Files,Algorithm,Easy,Online assessment,Staff+,1,,2026-10,https://trueinterview.io/questions/6807588b-6890-55e5-80ed-0528f4a857aa
-First Element With Two Strictly Larger Neighbors,Algorithm,Easy,Online assessment,New grad,1,,2026-10,https://trueinterview.io/questions/5eb6637f-25b4-54af-9e85-461ab882a0c1
-Predict Driver Class,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/27d3daec-8a20-5bd2-9364-86cf2bf8d72c
-Preprocess Driver Classification Data,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/15af0c8a-dc55-54c3-9403-fc710f60b51a
-"Design Credit-Card Authorization, Limit Decisions, and Reporting",System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting
-Find an Exact Submatrix Pattern,Algorithm,Medium,Phone screen,New grad,1,,2026-10,https://trueinterview.io/questions/021c67f3-e24d-578b-b212-4b0fac4c2b8d
-Sort Cyclic Shift Absolute-Difference Costs,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,,2026-10,https://trueinterview.io/questions/4eae3ac8-e1a0-53a3-9a12-577db977b6df
-Sort Colors,Algorithm,Medium,Phone screen,Senior,2,,2026-10,https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd
-Rotate Matrix Over Diagonals,Algorithm,Medium,Phone screen,Staff+,1,,2026-10,https://trueinterview.io/questions/660e4c62-f166-4841-ad96-71010100f126
-Power Day Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/power-day-behavioral
-Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,3,,2026-10,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
-Virtual Credit Card Validator (Case Study),Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/virtual-credit-card-validator
-Team Ranking Based on Scores and Goal Difference,Algorithm,Medium,Online assessment,Junior / Mid,1,,2026-09-16,https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79
-Find Repeated-Value Patterns in a Matrix,Algorithm,Medium,Online assessment,New grad,1,,2026-09-07,https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix
-Distinct Border Sum of Maximum-Sum Frames,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/f11dcc38-131a-5006-8491-5901149f2b1c
-Sort Adjacent Pairs,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/e1df60be-6bb1-509d-9712-ff7307b30a41
-Number of Subarrays That Match a Pattern I,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a
-Count Subarrays with k Disjoint Equal Pairs,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/b20602c4-59a0-5cbf-a27b-9cb267be58b2
-Brightest Position on Street,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/469ca8df-793b-5227-8594-1f6e070523b7
-Wait Time for the Next Bus,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/42f3cdf3-4a06-58ee-a380-18e59733cf65
-Explain How AI Supports Your Engineering Work,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/explain-how-ai-supports-your-engineering-work
-Check Whether a Board Fits Between Blockers,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/e10f0996-651a-5155-859a-9eb69a7ce8fa
-Check Alternating Peaks and Valleys in a Circular Array,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/2a51b3dc-6f2d-5830-89b2-7515275b4bad
-Count Pairs Matchable by One Digit Swap,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc
-Outside-In String Reordering,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/outside-in-string-reordering
-Train Schedule Nearest Departure,Algorithm,Easy,Online assessment,New grad,1,,2026-09,https://trueinterview.io/questions/train-schedule-nearest-departure
-Bank Class OOD: Deposit / Withdraw / Transfer,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Senior,1,,2026-09,https://trueinterview.io/questions/bank-class-ood-transactions
-Banking System with Transaction Activity,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75
-NYC Green Taxi Data Science Challenge,Behavioral / Knowledge,,Take-home,Intern,1,,2026-08-28,https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge
-Resolve a Mismatch Between Regression and Classification Metrics,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,,2026-08-20,https://trueinterview.io/questions/resolve-a-mismatch-between-regression-and-classification-metrics
-Apply Leakage-Safe Imputation and Ordinal Encoding,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,,2026-08-20,https://trueinterview.io/questions/apply-leakage-safe-imputation-and-ordinal-encoding
-Deep-dive XGBoost handling and overfitting,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/deep-dive-xgboost-handling-and-overfitting
-Answer motivation and teamwork questions,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/answer-motivation-and-teamwork-questions
-Even Digit Count,Algorithm,Easy,Online assessment,Junior / Mid,2,,2026-08,https://trueinterview.io/questions/even-digit-count
-W-D-L Outcome Reordering,Algorithm,Easy,Online assessment,New grad,1,,2026-07-19,https://trueinterview.io/questions/wdl-cyclic-reordering
-"Cover HR screen: role, motivation, comp, immigration, location",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,,2026-07,https://trueinterview.io/questions/cover-hr-screen-role-motivation-comp-immigration-location
-Deliver self-intro and justify move and company fit,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/deliver-self-intro-and-justify-move-and-company-fit
-Online Banking Application,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/online-banking-application
-Matrix Border Sort & Clockwise Fill,Algorithm,Medium,Online assessment,New grad,1,,2026-07,https://trueinterview.io/questions/matrix-border-sort-clockwise-fill
-Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
-Dynamic Two-Array Pair Sum Queries,Algorithm,Medium,Online assessment,New grad,1,,2026-06-05,https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries
-Longest Same-Character Run,Algorithm,Easy,Online assessment,New grad,1,,2026-05-31,https://trueinterview.io/questions/longest-same-character-run
-House Segments After Deletions,Algorithm,Medium,Online assessment,New grad,2,,2026-05-31,https://trueinterview.io/questions/house-segments-after-deletions
-Wheat Harvest Optimisation Case,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-05-13,https://trueinterview.io/questions/wheat-harvest-case
-Amusement Park Profitability Case,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-05-13,https://trueinterview.io/questions/amusement-park-profitability-case
-Evaluate Two Partnerships with Unit Economics and Break-Even Analysis,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-05-04,https://trueinterview.io/questions/evaluate-two-partnerships-with-unit-economics-and-break-even-analysis
-"Data Challenge: Presentation + Coding (Python, Data Processing)",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-05,https://trueinterview.io/questions/f63e89db-acce-46ac-9ee8-4b85820078e0
-Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,,2026-05,https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87
-Tetris-Style Figure Placement,Algorithm,Medium,Online assessment,New grad,1,,2026-04-29,https://trueinterview.io/questions/tetris-figure-placement
-Repeated Leading-Nonzero Subtraction,Algorithm,Medium,Online assessment,New grad,1,,2026-04-25,https://trueinterview.io/questions/repeated-subtraction-zeroing
-Cumulative Views Reach Target Day,Algorithm,Easy,Online assessment,New grad,1,,2026-04-25,https://trueinterview.io/questions/cumulative-views-target-day
-Beautify Houses to Strict Monotone,Algorithm,Medium,Online assessment,New grad,1,,2026-04-25,https://trueinterview.io/questions/beautify-houses-monotone
-Solve Four Coding Assessment Tasks,Algorithm,Hard,Online assessment,New grad,1,,2026-04-13,https://trueinterview.io/questions/solve-four-coding-assessment-tasks
-Pair Concatenation to Target,Algorithm,Medium,Online assessment,Intern; New grad,1,,2026-04-08,https://trueinterview.io/questions/pair-concatenation-to-target
-Warehouse Round-Robin Allocation with Closures,Algorithm,Medium,Online assessment,New grad,1,,2026-04-08,https://trueinterview.io/questions/warehouse-round-robin-allocation
-Symmetric Triplets,Algorithm,Easy,Online assessment,New grad,1,,2026-04-08,https://trueinterview.io/questions/symmetric-triplets
-AR Panel Talk Project Deep-Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-04,https://trueinterview.io/questions/ar-panel-talk-deep-dive
-Model Risk: VaR & Monte Carlo Orals,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-03-15,https://trueinterview.io/questions/model-risk-quant-orals
-Evaluate credit-limit increase profitability,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-03-01,https://trueinterview.io/questions/evaluate-credit-limit-increase-profitability
-Describe a project you’re most proud of,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-03,https://trueinterview.io/questions/describe-a-project-youre-most-proud-of
-Answer leadership scenarios with STAR,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-03,https://trueinterview.io/questions/answer-leadership-scenarios-with-star
-Answer conflict and ambiguity with STAR stories,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-03-01,https://trueinterview.io/questions/answer-conflict-and-ambiguity-with-star-stories
-Write SQL using joins and window functions,SQL,Medium,Phone screen,Junior / Mid,1,,2026-03-01,https://trueinterview.io/questions/write-sql-using-joins-and-window-functions
-DS Role-Play: Explain Model Regression to PM,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-02-27,https://trueinterview.io/questions/ds-role-play-pm-explanation
-DS Business Analyst Case (P&L Decomposition),Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-02-27,https://trueinterview.io/questions/ds-business-analyst-case-study
-Battery Usage with Recharge Cycle,Algorithm,Medium,Online assessment,Junior / Mid,2,,2026-02-18,https://trueinterview.io/questions/battery-recharge-cycle
-Find Lowest Prices for Highly Rated Categories,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-02-15,https://trueinterview.io/questions/find-lowest-prices-for-highly-rated-categories
-Chatbot Case Study,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-02-13,https://trueinterview.io/questions/chatbot-case-study
-"Describe projects, conflicts, and tough stakeholders",Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,,2026-02-12,https://trueinterview.io/questions/describe-projects-conflicts-and-tough-stakeholders
-Answer learning and challenge behavioral prompts,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-02-12,https://trueinterview.io/questions/answer-learning-and-challenge-behavioral-prompts
-Solve multiple algorithmic interview questions,Algorithm,Hard,Online assessment,New grad; Junior / Mid; Senior,1,,2026-02-12,https://trueinterview.io/questions/solve-multiple-algorithmic-interview-questions
-MLE ML Knowledge Orals (Set A),Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-02-04,https://trueinterview.io/questions/mle-ml-knowledge-orals
-MLE Deployment & Latency (Set B),System Design,Easy,Onsite / virtual onsite,Senior,1,,2026-02-04,https://trueinterview.io/questions/mle-deployment-and-latency
-Print All Root-to-Leaf Tree Paths,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-02-04,https://trueinterview.io/questions/print-tree-paths
-Assess card rewards profitability and break-even spend,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-02,https://trueinterview.io/questions/assess-card-rewards-profitability-and-break-even-spend
-Linear Regression from Scratch,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-02,https://trueinterview.io/questions/ml-coding-linear-regression
-Top-p (Nucleus) Sampling with Logits or Probabilities,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-02,https://trueinterview.io/questions/ml-coding-top-p-sampling
-How would you design delay and watchlist models?,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-01-30,https://trueinterview.io/questions/how-would-you-design-delay-and-watchlist-models
-Lunar Phase State Lookup,Algorithm,Medium,Online assessment,Intern; New grad,1,,2026-01-27,https://trueinterview.io/questions/lunar-phase-state
-AP Replacement Rounds,Algorithm,Medium,Online assessment,Intern; New grad,1,,2026-01-27,https://trueinterview.io/questions/ap-replacement-rounds
-Account Balance & Cross-Region Event Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-01-24,https://trueinterview.io/questions/account-balance-cross-region-events
-Vowel-Wrapped Substring Middle Reverse,Algorithm,Medium,Online assessment,New grad,1,,2026-01-19,https://trueinterview.io/questions/vowel-wrap-reverse-middle
-Sawtooth (Alternating Parity) Subarray Count,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,,2026-01-19,https://trueinterview.io/questions/sawtooth-subarray-count
-Matrix Expression Max Value,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2026-01-19,https://trueinterview.io/questions/matrix-expression-max-value
-Matrix Commands: Reverse / Swap / Rotate,Algorithm,Medium,Online assessment,Intern; New grad,1,,2026-01-19,https://trueinterview.io/questions/matrix-commands-reverse-swap-rotate
-How would you choose between shows?,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-01-09,https://trueinterview.io/questions/how-would-you-choose-between-shows
-Color Match-Three Grid,Algorithm,Medium,Online assessment,New grad,1,,2026-01-09,https://trueinterview.io/questions/color-match-three-grid
-Explain why join C1 and your impact,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-01,https://trueinterview.io/questions/explain-why-join-c1-and-your-impact
-Describe best team and complex project,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-01,https://trueinterview.io/questions/describe-best-team-and-complex-project
-Ordered Fragment Pairs String-Counting Problem,Algorithm,Medium,Phone screen,New grad,1,,2026-01,https://trueinterview.io/questions/8584e53e-8871-4009-a423-69c8fbed330c
-Round-robin Server Simulation,Algorithm,Medium,Phone screen,New grad,1,,2026-01,https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f
-Design a Transaction Class,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-01,https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e
-Implement Test Harness,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-01,https://trueinterview.io/questions/1ed1ee1c-e0e3-404e-ae31-959a0593f0b6
-Design a highly reliable account balance system,System Design,Hard,Onsite / virtual onsite,Senior,1,,2025-12-25,https://trueinterview.io/questions/design-a-highly-reliable-account-balance-system
-Design a cross-region event processing platform,System Design,Hard,Onsite / virtual onsite,Senior,1,,2025-12-25,https://trueinterview.io/questions/design-a-cross-region-event-processing-platform
-Describe leadership challenges and managing a difficult report,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,,2025-12-25,https://trueinterview.io/questions/describe-leadership-challenges-and-managing-a-difficult-report
-Describe resolving ambiguity under pressure,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2025-12,https://trueinterview.io/questions/describe-resolving-ambiguity-under-pressure
-Process Execution Time (Merge Inclusive Intervals),Algorithm,Medium,Online assessment,Junior / Mid,2,,2025-11-03,https://trueinterview.io/questions/process-execution-time-merge-intervals
-Use data to resolve an ambiguous problem,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/use-data-to-resolve-an-ambiguous-problem
-Sketch function from derivatives and limits,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/sketch-function-from-derivatives-and-limits
-Segment 500k users into three groups,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/segment-500k-users-into-three-groups
-Quantify database bug cost/benefit,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/quantify-database-bug-cost-benefit
-Quantify and optimize team-match funnel,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/quantify-and-optimize-team-match-funnel
-Prioritize six improvements for a favorite app,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/prioritize-six-improvements-for-a-favorite-app
-Prevent data registration outage and reduce loss,System Design,Hard,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/prevent-data-registration-outage-and-reduce-loss
-Present and defend your data challenge end-to-end,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/present-and-defend-your-data-challenge-end-to-end
-Present and critique an airline delay analysis,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/present-and-critique-an-airline-delay-analysis
-Optimize theme park queues and revenue,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/optimize-theme-park-queues-and-revenue
-Optimize profitability for coding contract decisions,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/optimize-profitability-for-coding-contract-decisions
-"Optimize amusement park pricing, capacity, and testing",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/optimize-amusement-park-pricing-capacity-and-testing
-Model network-service unit economics and breakeven,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/model-network-service-unit-economics-and-breakeven
-Match Year-2 profit to Year-1,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/match-year-2-profit-to-year-1
-Match Netflix profit; derive required subscribers,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/match-netflix-profit-derive-required-subscribers
-Map stakeholders and influence routes,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/map-stakeholders-and-influence-routes
-Interpret regression metrics and assumptions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/interpret-regression-metrics-and-assumptions
-Identify and mitigate risks to break-even,System Design,Hard,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/identify-and-mitigate-risks-to-break-even
-Handle an irate passenger after flight delay,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,,,https://trueinterview.io/questions/handle-an-irate-passenger-after-flight-delay
-Graph WTP vs content and explain cap,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/graph-wtp-vs-content-and-explain-cap
-Fix failing tests and refactor code,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/fix-failing-tests-and-refactor-code
-Find minimal a for PSD of 3x3 matrix,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/find-minimal-a-for-psd-of-3x3-matrix
-"Explain MSE vs MAE, AUC, and imbalance handling",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/explain-mse-vs-mae-auc-and-imbalance-handling
-Explain how helping others helped you,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/explain-how-helping-others-helped-you
-Explain helping-others trade-offs with evidence,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/explain-helping-others-trade-offs-with-evidence
-Evaluate ROI and payback for renewables,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/evaluate-roi-and-payback-for-renewables
-Evaluate merchant partnership for high-value customers,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/evaluate-merchant-partnership-for-high-value-customers
-Evaluate and monitor a credit risk model,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/evaluate-and-monitor-a-credit-risk-model
-Evaluate a credit-card acquisition partnership,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/evaluate-a-credit-card-acquisition-partnership
-Draft a non-pushy follow-up email,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/draft-a-non-pushy-follow-up-email
-Dissect a failure and corrective actions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/dissect-a-failure-and-corrective-actions
-Differentiate fixed and variable costs with examples,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/differentiate-fixed-and-variable-costs-with-examples
-Diagnose profit drop via mix decomposition,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/diagnose-profit-drop-via-mix-decomposition
-Diagnose and optimize shared workspace marketplace conversion,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/diagnose-and-optimize-shared-workspace-marketplace-conversion
-Diagnose and fix a flight-delay modeling setup,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/diagnose-and-fix-a-flight-delay-modeling-setup
-Design theme-park profit model and bid decision,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-theme-park-profit-model-and-bid-decision
-Design profit evaluation for loyalty program,System Design,Hard,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-profit-evaluation-for-loyalty-program
-Design metrics and an A/B test for an app,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-metrics-and-an-a-b-test-for-an-app
-Design late-tolerant streaming window aggregator,Object-Oriented Programming,Hard,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-late-tolerant-streaming-window-aggregator
-Design fundraising experiment and guardrails,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/design-fundraising-experiment-and-guardrails
-Design and analyze an SBA mini case experiment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-and-analyze-an-sba-mini-case-experiment
-Design and analyze ads A/B test this week,Behavioral / Knowledge,,Online assessment,Senior; Staff+,1,,,https://trueinterview.io/questions/design-and-analyze-ads-a-b-test-this-week
-Design and analyze ad A/B test,Behavioral / Knowledge,,Online assessment,Senior; Staff+,1,,,https://trueinterview.io/questions/design-and-analyze-ad-a-b-test
-Design a profit growth strategy,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-profit-growth-strategy
-Design a production face recognition system,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-production-face-recognition-system
-Design a better water bottle and test it,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-better-water-bottle-and-test-it
-Describe your best team and your role,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/describe-your-best-team-and-your-role
-Describe handling an urgent ad-hoc request,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/describe-handling-an-urgent-ad-hoc-request
-Demonstrate ownership and navigate challenges,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/demonstrate-ownership-and-navigate-challenges
-"Demonstrate leadership, innovation, and learning via STAR",Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/demonstrate-leadership-innovation-and-learning-via-star
-Demonstrate advanced techniques and ethical judgment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/demonstrate-advanced-techniques-and-ethical-judgment
-Define and validate an airline profitability metric,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/define-and-validate-an-airline-profitability-metric
-Decide whether to sell both SKUs,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/decide-whether-to-sell-both-skus
-Decide content volume and price under uncertainty,System Design,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/decide-content-volume-and-price-under-uncertainty
-Decide and test Groupon program incrementality,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/decide-and-test-groupon-program-incrementality
-Critique a product interface and propose fixes,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/critique-a-product-interface-and-propose-fixes
-Compute unit economics and insurance break-even,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-unit-economics-and-insurance-break-even
-Compute two conditional probability scenarios,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-two-conditional-probability-scenarios
-Compute profit and surge break‑even price,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-profit-and-surge-breakeven-price
-Compute partnership profit and break-even population,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-partnership-profit-and-break-even-population
-Compute optimal stopping in a die-rolling game,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-optimal-stopping-in-a-die-rolling-game
-"Compute incremental profit, breakeven, and revenue sensitivity",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-incremental-profit-and-breakeven
-Compute gala vs online break-even donors,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-gala-vs-online-break-even-donors
-Compute expansion profits and expected value,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-expansion-profits-and-expected-value
-Compute current annual profit,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-current-annual-profit
-Compute and interpret 95% confidence intervals,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-and-interpret-95percent-confidence-intervals
-Compare average profit across mix scenarios,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compare-average-profit-across-mix-scenarios
-Choose cashback segment and model post-launch impact,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/choose-cashback-segment-and-model-post-launch-impact
-Choose and justify ML algorithms for tabular prediction,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/choose-and-justify-ml-algorithms-for-tabular-prediction
-Challenge and validate assumptions,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/challenge-and-validate-assumptions
-Calculate break-even new customers for a 30% Rent-a-Home discount,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/calculate-break-even-new-customers-for-30percent-discount
-Build and evaluate donation propensity model,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/build-and-evaluate-donation-propensity-model
-Build a causal ML pipeline end-to-end,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/build-a-causal-ml-pipeline-end-to-end
-Assess transition and profitability under fossil-fuel constraints,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/assess-transition-and-profitability-under-fossil-fuel-constraints
-Analyze your favorite app and improve it,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/analyze-your-favorite-app-and-improve-it
-Analyze failed gym-collab credit card launch,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/analyze-failed-gym-collab-credit-card-launch
-Analyze ad watch-time with Excel pivots,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/analyze-ad-watch-time-with-excel-pivots
-Address face recognition concerns with stakeholders,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/address-face-recognition-concerns-with-stakeholders
-Write SQL to quantify outage revenue loss,SQL,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/write-sql-to-quantify-outage-revenue-loss
-Write SQL to find top net-revenue products,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/write-sql-to-find-top-net-revenue-products
-Write SQL to compute campaign net revenue,SQL,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/write-sql-to-compute-campaign-net-revenue
-Write SQL for theme-park revenue and visits,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/write-sql-for-theme-park-revenue-and-visits
-Reconcile ledgers with SQL/Python and late events,SQL,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/reconcile-ledgers-with-sql-python-and-late-events
-Optimize invites under capacity constraints,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/optimize-invites-under-capacity-constraints
-Merge seven tables into one clean DataFrame,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/merge-seven-tables-into-one-clean-dataframe
-Merge ad CSVs and compute CTR,SQL,Hard,Online assessment,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/merge-ad-csvs-and-compute-ctr
-"Impute, join, and upsert using SQL and Python",SQL,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/impute-join-and-upsert-using-sql-and-python
-Identify country with highest sunny-day probability,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/identify-country-with-highest-sunny-day-probability
-Fix dash dates and aggregate watch time,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/fix-dash-dates-and-aggregate-watch-time
-Find top category per region in Aug 2025,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/find-top-category-per-region-in-aug-2025
-Design a reproducible data pipeline for modeling,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/design-a-reproducible-data-pipeline-for-modeling
-Audit flight data quality from metadata,SQL,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/audit-flight-data-quality-from-metadata
-Maintain profit margin with new product line,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/maintain-profit-margin-with-new-product-line
-Handle extended team-matching uncertainty,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/handle-extended-team-matching-uncertainty
-Design A/B test for credit card offer,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-b-test-for-credit-card-offer
-"Describe accomplishment, failure, and helping others",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,,,https://trueinterview.io/questions/describe-accomplishment-failure-and-helping-others
-Demonstrate cross-functional leadership with data and reflection,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/demonstrate-cross-functional-leadership-with-data-and-reflection
-Compute Groupon unit economics and break-even,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-groupon-unit-economics-and-break-even
-Compute energy needed for 10% ROI,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-energy-needed-for-10percent-roi
-Compare solar vs biomass paybacks and recommend,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compare-solar-vs-biomass-paybacks-and-recommend
-Choose and compute correct t-test,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/choose-and-compute-correct-t-test
-Calculate profit and break-even across pricing models,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/calculate-profit-and-break-even-across-pricing-models
-Build and evaluate airline delay prediction model,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/build-and-evaluate-airline-delay-prediction-model
-Aggregate exam scores with NULL handling,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/aggregate-exam-scores-with-null-handling
-Decide on vegan-burger R&D investment,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/decide-on-vegan-burger-randd-investment
-Articulate your most significant achievement,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/articulate-your-most-significant-achievement
-Find the First Dictionary Word Matchable as a Reusable-Character Subsequence,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/283a18eb-b75e-5b60-9dd6-f18b79b6033b
-Fraud Detection Algorithm for Credit Card Transactions,Algorithm,Easy,Online assessment,Intern; New grad,1,,,https://trueinterview.io/questions/86a950f4-60b5-454a-90e5-d8e02a13e342
+Number-Line Block Placement,Algorithm,Hard,Online assessment,New grad,1,2,2026-10-02,https://trueinterview.io/questions/number-line-block-placement
+Matrix Pattern Matching,Algorithm,Medium,Online assessment,New grad,1,0,2026-10-02,https://trueinterview.io/questions/matrix-pattern-matching
+Count Arithmetic Triplets After Each Query,Algorithm,Medium,Phone screen,Staff+,1,1,2026-10,https://trueinterview.io/questions/ff10e415-447b-5ca5-9793-e7714cddfbe6
+Driver Dataset Exploratory Analysis,Algorithm,Easy,Online assessment,New grad,1,0,2026-10,https://trueinterview.io/questions/dca94c12-e6ad-549e-a6a9-18a195ab3cb6
+Build Driver-Level Feature Dataset,Algorithm,Medium,Phone screen,New grad,1,1,2026-10,https://trueinterview.io/questions/b5547eb7-b2ec-535d-8ffd-9ab383cfd6cd
+Build Blocks and Check Interval Availability,Algorithm,Medium,Phone screen,New grad,1,0,2026-10,https://trueinterview.io/questions/b529e40c-262f-538d-bc01-16fd7b1936b5
+Evaluate Arithmetic Equations,Algorithm,Easy,Online assessment,Staff+,1,0,2026-10,https://trueinterview.io/questions/8baff98d-9bad-50cd-b485-13c9134feb8f
+Find the Branch with the Most Files,Algorithm,Easy,Online assessment,Staff+,1,1,2026-10,https://trueinterview.io/questions/6807588b-6890-55e5-80ed-0528f4a857aa
+First Element With Two Strictly Larger Neighbors,Algorithm,Easy,Online assessment,New grad,1,1,2026-10,https://trueinterview.io/questions/5eb6637f-25b4-54af-9e85-461ab882a0c1
+Predict Driver Class,Algorithm,Medium,Phone screen,New grad,1,0,2026-10,https://trueinterview.io/questions/27d3daec-8a20-5bd2-9364-86cf2bf8d72c
+Preprocess Driver Classification Data,Algorithm,Medium,Phone screen,New grad,1,1,2026-10,https://trueinterview.io/questions/15af0c8a-dc55-54c3-9403-fc710f60b51a
+"Design Credit-Card Authorization, Limit Decisions, and Reporting",System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting
+Find an Exact Submatrix Pattern,Algorithm,Medium,Phone screen,New grad,1,0,2026-10,https://trueinterview.io/questions/021c67f3-e24d-578b-b212-4b0fac4c2b8d
+Sort Cyclic Shift Absolute-Difference Costs,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/4eae3ac8-e1a0-53a3-9a12-577db977b6df
+Sort Colors,Algorithm,Medium,Phone screen,Senior,2,2,2026-10,https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd
+Rotate Matrix Over Diagonals,Algorithm,Medium,Phone screen,Staff+,1,1,2026-10,https://trueinterview.io/questions/660e4c62-f166-4841-ad96-71010100f126
+Power Day Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/power-day-behavioral
+Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,3,4,2026-10,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
+Virtual Credit Card Validator (Case Study),Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,10,2026-10,https://trueinterview.io/questions/virtual-credit-card-validator
+Team Ranking Based on Scores and Goal Difference,Algorithm,Medium,Online assessment,Junior / Mid,1,1,2026-09-16,https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79
+Find Repeated-Value Patterns in a Matrix,Algorithm,Medium,Online assessment,New grad,1,0,2026-09-07,https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix
+Distinct Border Sum of Maximum-Sum Frames,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/f11dcc38-131a-5006-8491-5901149f2b1c
+Sort Adjacent Pairs,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/e1df60be-6bb1-509d-9712-ff7307b30a41
+Number of Subarrays That Match a Pattern I,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a
+Count Subarrays with k Disjoint Equal Pairs,Algorithm,Medium,Phone screen,New grad,1,1,2026-09,https://trueinterview.io/questions/b20602c4-59a0-5cbf-a27b-9cb267be58b2
+Brightest Position on Street,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/469ca8df-793b-5227-8594-1f6e070523b7
+Wait Time for the Next Bus,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/42f3cdf3-4a06-58ee-a380-18e59733cf65
+Explain How AI Supports Your Engineering Work,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/explain-how-ai-supports-your-engineering-work
+Check Whether a Board Fits Between Blockers,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/e10f0996-651a-5155-859a-9eb69a7ce8fa
+Check Alternating Peaks and Valleys in a Circular Array,Algorithm,Easy,Online assessment,New grad,1,1,2026-09,https://trueinterview.io/questions/2a51b3dc-6f2d-5830-89b2-7515275b4bad
+Count Pairs Matchable by One Digit Swap,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc
+Outside-In String Reordering,Algorithm,Easy,Online assessment,New grad,1,2,2026-09,https://trueinterview.io/questions/outside-in-string-reordering
+Train Schedule Nearest Departure,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/train-schedule-nearest-departure
+Bank Class OOD: Deposit / Withdraw / Transfer,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Senior,1,0,2026-09,https://trueinterview.io/questions/bank-class-ood-transactions
+Banking System with Transaction Activity,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,7,2026-09,https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75
+NYC Green Taxi Data Science Challenge,Behavioral / Knowledge,,Take-home,Intern,1,1,2026-08-28,https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge
+Resolve a Mismatch Between Regression and Classification Metrics,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,0,2026-08-20,https://trueinterview.io/questions/resolve-a-mismatch-between-regression-and-classification-metrics
+Apply Leakage-Safe Imputation and Ordinal Encoding,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,0,2026-08-20,https://trueinterview.io/questions/apply-leakage-safe-imputation-and-ordinal-encoding
+Deep-dive XGBoost handling and overfitting,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/deep-dive-xgboost-handling-and-overfitting
+Answer motivation and teamwork questions,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,2,2026-08,https://trueinterview.io/questions/answer-motivation-and-teamwork-questions
+Even Digit Count,Algorithm,Easy,Online assessment,Junior / Mid,2,0,2026-08,https://trueinterview.io/questions/even-digit-count
+W-D-L Outcome Reordering,Algorithm,Easy,Online assessment,New grad,1,1,2026-07-19,https://trueinterview.io/questions/wdl-cyclic-reordering
+"Cover HR screen: role, motivation, comp, immigration, location",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,0,2026-07,https://trueinterview.io/questions/cover-hr-screen-role-motivation-comp-immigration-location
+Deliver self-intro and justify move and company fit,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/deliver-self-intro-and-justify-move-and-company-fit
+Online Banking Application,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,5,2026-07,https://trueinterview.io/questions/online-banking-application
+Matrix Border Sort & Clockwise Fill,Algorithm,Medium,Online assessment,New grad,1,2,2026-07,https://trueinterview.io/questions/matrix-border-sort-clockwise-fill
+Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
+Dynamic Two-Array Pair Sum Queries,Algorithm,Medium,Online assessment,New grad,1,0,2026-06-05,https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries
+Longest Same-Character Run,Algorithm,Easy,Online assessment,New grad,1,0,2026-05-31,https://trueinterview.io/questions/longest-same-character-run
+House Segments After Deletions,Algorithm,Medium,Online assessment,New grad,2,0,2026-05-31,https://trueinterview.io/questions/house-segments-after-deletions
+Wheat Harvest Optimisation Case,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-05-13,https://trueinterview.io/questions/wheat-harvest-case
+Amusement Park Profitability Case,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,1,2026-05-13,https://trueinterview.io/questions/amusement-park-profitability-case
+Evaluate Two Partnerships with Unit Economics and Break-Even Analysis,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-05-04,https://trueinterview.io/questions/evaluate-two-partnerships-with-unit-economics-and-break-even-analysis
+"Data Challenge: Presentation + Coding (Python, Data Processing)",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,1,2026-05,https://trueinterview.io/questions/f63e89db-acce-46ac-9ee8-4b85820078e0
+Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-05,https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87
+Tetris-Style Figure Placement,Algorithm,Medium,Online assessment,New grad,1,1,2026-04-29,https://trueinterview.io/questions/tetris-figure-placement
+Repeated Leading-Nonzero Subtraction,Algorithm,Medium,Online assessment,New grad,1,0,2026-04-25,https://trueinterview.io/questions/repeated-subtraction-zeroing
+Cumulative Views Reach Target Day,Algorithm,Easy,Online assessment,New grad,1,1,2026-04-25,https://trueinterview.io/questions/cumulative-views-target-day
+Beautify Houses to Strict Monotone,Algorithm,Medium,Online assessment,New grad,1,0,2026-04-25,https://trueinterview.io/questions/beautify-houses-monotone
+Solve Four Coding Assessment Tasks,Algorithm,Hard,Online assessment,New grad,1,0,2026-04-13,https://trueinterview.io/questions/solve-four-coding-assessment-tasks
+Pair Concatenation to Target,Algorithm,Medium,Online assessment,Intern; New grad,1,0,2026-04-08,https://trueinterview.io/questions/pair-concatenation-to-target
+Warehouse Round-Robin Allocation with Closures,Algorithm,Medium,Online assessment,New grad,1,0,2026-04-08,https://trueinterview.io/questions/warehouse-round-robin-allocation
+Symmetric Triplets,Algorithm,Easy,Online assessment,New grad,1,0,2026-04-08,https://trueinterview.io/questions/symmetric-triplets
+AR Panel Talk Project Deep-Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,2,2026-04,https://trueinterview.io/questions/ar-panel-talk-deep-dive
+Model Risk: VaR & Monte Carlo Orals,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-03-15,https://trueinterview.io/questions/model-risk-quant-orals
+Evaluate credit-limit increase profitability,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-03-01,https://trueinterview.io/questions/evaluate-credit-limit-increase-profitability
+Describe a project you’re most proud of,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-03,https://trueinterview.io/questions/describe-a-project-youre-most-proud-of
+Answer leadership scenarios with STAR,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-03,https://trueinterview.io/questions/answer-leadership-scenarios-with-star
+Answer conflict and ambiguity with STAR stories,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-03-01,https://trueinterview.io/questions/answer-conflict-and-ambiguity-with-star-stories
+Write SQL using joins and window functions,SQL,Medium,Phone screen,Junior / Mid,1,1,2026-03-01,https://trueinterview.io/questions/write-sql-using-joins-and-window-functions
+DS Role-Play: Explain Model Regression to PM,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-02-27,https://trueinterview.io/questions/ds-role-play-pm-explanation
+DS Business Analyst Case (P&L Decomposition),Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-02-27,https://trueinterview.io/questions/ds-business-analyst-case-study
+Battery Usage with Recharge Cycle,Algorithm,Medium,Online assessment,Junior / Mid,2,0,2026-02-18,https://trueinterview.io/questions/battery-recharge-cycle
+Find Lowest Prices for Highly Rated Categories,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-02-15,https://trueinterview.io/questions/find-lowest-prices-for-highly-rated-categories
+Chatbot Case Study,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-02-13,https://trueinterview.io/questions/chatbot-case-study
+"Describe projects, conflicts, and tough stakeholders",Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/describe-projects-conflicts-and-tough-stakeholders
+Answer learning and challenge behavioral prompts,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-02-12,https://trueinterview.io/questions/answer-learning-and-challenge-behavioral-prompts
+Solve multiple algorithmic interview questions,Algorithm,Hard,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/solve-multiple-algorithmic-interview-questions
+MLE ML Knowledge Orals (Set A),Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-04,https://trueinterview.io/questions/mle-ml-knowledge-orals
+MLE Deployment & Latency (Set B),System Design,Easy,Onsite / virtual onsite,Senior,1,0,2026-02-04,https://trueinterview.io/questions/mle-deployment-and-latency
+Print All Root-to-Leaf Tree Paths,Algorithm,Medium,Onsite / virtual onsite,Senior,1,1,2026-02-04,https://trueinterview.io/questions/print-tree-paths
+Assess card rewards profitability and break-even spend,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,1,2026-02,https://trueinterview.io/questions/assess-card-rewards-profitability-and-break-even-spend
+Linear Regression from Scratch,Algorithm,Medium,Onsite / virtual onsite,Senior,1,1,2026-02,https://trueinterview.io/questions/ml-coding-linear-regression
+Top-p (Nucleus) Sampling with Logits or Probabilities,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-02,https://trueinterview.io/questions/ml-coding-top-p-sampling
+How would you design delay and watchlist models?,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-01-30,https://trueinterview.io/questions/how-would-you-design-delay-and-watchlist-models
+Lunar Phase State Lookup,Algorithm,Medium,Online assessment,Intern; New grad,1,0,2026-01-27,https://trueinterview.io/questions/lunar-phase-state
+AP Replacement Rounds,Algorithm,Medium,Online assessment,Intern; New grad,1,0,2026-01-27,https://trueinterview.io/questions/ap-replacement-rounds
+Account Balance & Cross-Region Event Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,1,2026-01-24,https://trueinterview.io/questions/account-balance-cross-region-events
+Vowel-Wrapped Substring Middle Reverse,Algorithm,Medium,Online assessment,New grad,1,0,2026-01-19,https://trueinterview.io/questions/vowel-wrap-reverse-middle
+Sawtooth (Alternating Parity) Subarray Count,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,0,2026-01-19,https://trueinterview.io/questions/sawtooth-subarray-count
+Matrix Expression Max Value,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-01-19,https://trueinterview.io/questions/matrix-expression-max-value
+Matrix Commands: Reverse / Swap / Rotate,Algorithm,Medium,Online assessment,Intern; New grad,1,0,2026-01-19,https://trueinterview.io/questions/matrix-commands-reverse-swap-rotate
+How would you choose between shows?,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-01-09,https://trueinterview.io/questions/how-would-you-choose-between-shows
+Color Match-Three Grid,Algorithm,Medium,Online assessment,New grad,1,0,2026-01-09,https://trueinterview.io/questions/color-match-three-grid
+Explain why join C1 and your impact,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-01,https://trueinterview.io/questions/explain-why-join-c1-and-your-impact
+Describe best team and complex project,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,1,2026-01,https://trueinterview.io/questions/describe-best-team-and-complex-project
+Ordered Fragment Pairs String-Counting Problem,Algorithm,Medium,Phone screen,New grad,1,0,2026-01,https://trueinterview.io/questions/8584e53e-8871-4009-a423-69c8fbed330c
+Round-robin Server Simulation,Algorithm,Medium,Phone screen,New grad,1,0,2026-01,https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f
+Design a Transaction Class,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-01,https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e
+Implement Test Harness,Algorithm,Easy,Online assessment,Junior / Mid,1,1,2026-01,https://trueinterview.io/questions/1ed1ee1c-e0e3-404e-ae31-959a0593f0b6
+Design a highly reliable account balance system,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2025-12-25,https://trueinterview.io/questions/design-a-highly-reliable-account-balance-system
+Design a cross-region event processing platform,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2025-12-25,https://trueinterview.io/questions/design-a-cross-region-event-processing-platform
+Describe leadership challenges and managing a difficult report,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,0,2025-12-25,https://trueinterview.io/questions/describe-leadership-challenges-and-managing-a-difficult-report
+Describe resolving ambiguity under pressure,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12,https://trueinterview.io/questions/describe-resolving-ambiguity-under-pressure
+Process Execution Time (Merge Inclusive Intervals),Algorithm,Medium,Online assessment,Junior / Mid,2,0,2025-11-03,https://trueinterview.io/questions/process-execution-time-merge-intervals
+Use data to resolve an ambiguous problem,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/use-data-to-resolve-an-ambiguous-problem
+Sketch function from derivatives and limits,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/sketch-function-from-derivatives-and-limits
+Segment 500k users into three groups,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/segment-500k-users-into-three-groups
+Quantify database bug cost/benefit,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/quantify-database-bug-cost-benefit
+Quantify and optimize team-match funnel,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/quantify-and-optimize-team-match-funnel
+Prioritize six improvements for a favorite app,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/prioritize-six-improvements-for-a-favorite-app
+Prevent data registration outage and reduce loss,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/prevent-data-registration-outage-and-reduce-loss
+Present and defend your data challenge end-to-end,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/present-and-defend-your-data-challenge-end-to-end
+Present and critique an airline delay analysis,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/present-and-critique-an-airline-delay-analysis
+Optimize theme park queues and revenue,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/optimize-theme-park-queues-and-revenue
+Optimize profitability for coding contract decisions,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/optimize-profitability-for-coding-contract-decisions
+"Optimize amusement park pricing, capacity, and testing",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/optimize-amusement-park-pricing-capacity-and-testing
+Model network-service unit economics and breakeven,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/model-network-service-unit-economics-and-breakeven
+Match Year-2 profit to Year-1,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/match-year-2-profit-to-year-1
+Match Netflix profit; derive required subscribers,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/match-netflix-profit-derive-required-subscribers
+Map stakeholders and influence routes,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/map-stakeholders-and-influence-routes
+Interpret regression metrics and assumptions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/interpret-regression-metrics-and-assumptions
+Identify and mitigate risks to break-even,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/identify-and-mitigate-risks-to-break-even
+Handle an irate passenger after flight delay,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,0,,https://trueinterview.io/questions/handle-an-irate-passenger-after-flight-delay
+Graph WTP vs content and explain cap,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/graph-wtp-vs-content-and-explain-cap
+Fix failing tests and refactor code,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/fix-failing-tests-and-refactor-code
+Find minimal a for PSD of 3x3 matrix,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/find-minimal-a-for-psd-of-3x3-matrix
+"Explain MSE vs MAE, AUC, and imbalance handling",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/explain-mse-vs-mae-auc-and-imbalance-handling
+Explain how helping others helped you,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/explain-how-helping-others-helped-you
+Explain helping-others trade-offs with evidence,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/explain-helping-others-trade-offs-with-evidence
+Evaluate ROI and payback for renewables,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/evaluate-roi-and-payback-for-renewables
+Evaluate merchant partnership for high-value customers,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/evaluate-merchant-partnership-for-high-value-customers
+Evaluate and monitor a credit risk model,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/evaluate-and-monitor-a-credit-risk-model
+Evaluate a credit-card acquisition partnership,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/evaluate-a-credit-card-acquisition-partnership
+Draft a non-pushy follow-up email,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/draft-a-non-pushy-follow-up-email
+Dissect a failure and corrective actions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/dissect-a-failure-and-corrective-actions
+Differentiate fixed and variable costs with examples,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/differentiate-fixed-and-variable-costs-with-examples
+Diagnose profit drop via mix decomposition,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/diagnose-profit-drop-via-mix-decomposition
+Diagnose and optimize shared workspace marketplace conversion,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/diagnose-and-optimize-shared-workspace-marketplace-conversion
+Diagnose and fix a flight-delay modeling setup,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/diagnose-and-fix-a-flight-delay-modeling-setup
+Design theme-park profit model and bid decision,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-theme-park-profit-model-and-bid-decision
+Design profit evaluation for loyalty program,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-profit-evaluation-for-loyalty-program
+Design metrics and an A/B test for an app,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-metrics-and-an-a-b-test-for-an-app
+Design late-tolerant streaming window aggregator,Object-Oriented Programming,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-late-tolerant-streaming-window-aggregator
+Design fundraising experiment and guardrails,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-fundraising-experiment-and-guardrails
+Design and analyze an SBA mini case experiment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-and-analyze-an-sba-mini-case-experiment
+Design and analyze ads A/B test this week,Behavioral / Knowledge,,Online assessment,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-and-analyze-ads-a-b-test-this-week
+Design and analyze ad A/B test,Behavioral / Knowledge,,Online assessment,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-and-analyze-ad-a-b-test
+Design a profit growth strategy,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-profit-growth-strategy
+Design a production face recognition system,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-production-face-recognition-system
+Design a better water bottle and test it,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-better-water-bottle-and-test-it
+Describe your best team and your role,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/describe-your-best-team-and-your-role
+Describe handling an urgent ad-hoc request,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/describe-handling-an-urgent-ad-hoc-request
+Demonstrate ownership and navigate challenges,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/demonstrate-ownership-and-navigate-challenges
+"Demonstrate leadership, innovation, and learning via STAR",Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/demonstrate-leadership-innovation-and-learning-via-star
+Demonstrate advanced techniques and ethical judgment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/demonstrate-advanced-techniques-and-ethical-judgment
+Define and validate an airline profitability metric,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/define-and-validate-an-airline-profitability-metric
+Decide whether to sell both SKUs,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/decide-whether-to-sell-both-skus
+Decide content volume and price under uncertainty,System Design,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/decide-content-volume-and-price-under-uncertainty
+Decide and test Groupon program incrementality,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/decide-and-test-groupon-program-incrementality
+Critique a product interface and propose fixes,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/critique-a-product-interface-and-propose-fixes
+Compute unit economics and insurance break-even,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-unit-economics-and-insurance-break-even
+Compute two conditional probability scenarios,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-two-conditional-probability-scenarios
+Compute profit and surge break‑even price,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-profit-and-surge-breakeven-price
+Compute partnership profit and break-even population,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-partnership-profit-and-break-even-population
+Compute optimal stopping in a die-rolling game,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-optimal-stopping-in-a-die-rolling-game
+"Compute incremental profit, breakeven, and revenue sensitivity",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-incremental-profit-and-breakeven
+Compute gala vs online break-even donors,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-gala-vs-online-break-even-donors
+Compute expansion profits and expected value,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-expansion-profits-and-expected-value
+Compute current annual profit,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-current-annual-profit
+Compute and interpret 95% confidence intervals,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-and-interpret-95percent-confidence-intervals
+Compare average profit across mix scenarios,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compare-average-profit-across-mix-scenarios
+Choose cashback segment and model post-launch impact,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/choose-cashback-segment-and-model-post-launch-impact
+Choose and justify ML algorithms for tabular prediction,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/choose-and-justify-ml-algorithms-for-tabular-prediction
+Challenge and validate assumptions,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/challenge-and-validate-assumptions
+Calculate break-even new customers for a 30% Rent-a-Home discount,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/calculate-break-even-new-customers-for-30percent-discount
+Build and evaluate donation propensity model,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/build-and-evaluate-donation-propensity-model
+Build a causal ML pipeline end-to-end,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/build-a-causal-ml-pipeline-end-to-end
+Assess transition and profitability under fossil-fuel constraints,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/assess-transition-and-profitability-under-fossil-fuel-constraints
+Analyze your favorite app and improve it,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/analyze-your-favorite-app-and-improve-it
+Analyze failed gym-collab credit card launch,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/analyze-failed-gym-collab-credit-card-launch
+Analyze ad watch-time with Excel pivots,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/analyze-ad-watch-time-with-excel-pivots
+Address face recognition concerns with stakeholders,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/address-face-recognition-concerns-with-stakeholders
+Write SQL to quantify outage revenue loss,SQL,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-to-quantify-outage-revenue-loss
+Write SQL to find top net-revenue products,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-to-find-top-net-revenue-products
+Write SQL to compute campaign net revenue,SQL,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-to-compute-campaign-net-revenue
+Write SQL for theme-park revenue and visits,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-for-theme-park-revenue-and-visits
+Reconcile ledgers with SQL/Python and late events,SQL,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/reconcile-ledgers-with-sql-python-and-late-events
+Optimize invites under capacity constraints,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/optimize-invites-under-capacity-constraints
+Merge seven tables into one clean DataFrame,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/merge-seven-tables-into-one-clean-dataframe
+Merge ad CSVs and compute CTR,SQL,Hard,Online assessment,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/merge-ad-csvs-and-compute-ctr
+"Impute, join, and upsert using SQL and Python",SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/impute-join-and-upsert-using-sql-and-python
+Identify country with highest sunny-day probability,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/identify-country-with-highest-sunny-day-probability
+Fix dash dates and aggregate watch time,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/fix-dash-dates-and-aggregate-watch-time
+Find top category per region in Aug 2025,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/find-top-category-per-region-in-aug-2025
+Design a reproducible data pipeline for modeling,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/design-a-reproducible-data-pipeline-for-modeling
+Audit flight data quality from metadata,SQL,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/audit-flight-data-quality-from-metadata
+Maintain profit margin with new product line,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/maintain-profit-margin-with-new-product-line
+Handle extended team-matching uncertainty,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/handle-extended-team-matching-uncertainty
+Design A/B test for credit card offer,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-b-test-for-credit-card-offer
+"Describe accomplishment, failure, and helping others",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,0,,https://trueinterview.io/questions/describe-accomplishment-failure-and-helping-others
+Demonstrate cross-functional leadership with data and reflection,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/demonstrate-cross-functional-leadership-with-data-and-reflection
+Compute Groupon unit economics and break-even,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-groupon-unit-economics-and-break-even
+Compute energy needed for 10% ROI,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-energy-needed-for-10percent-roi
+Compare solar vs biomass paybacks and recommend,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compare-solar-vs-biomass-paybacks-and-recommend
+Choose and compute correct t-test,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/choose-and-compute-correct-t-test
+Calculate profit and break-even across pricing models,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/calculate-profit-and-break-even-across-pricing-models
+Build and evaluate airline delay prediction model,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/build-and-evaluate-airline-delay-prediction-model
+Aggregate exam scores with NULL handling,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/aggregate-exam-scores-with-null-handling
+Decide on vegan-burger R&D investment,System Design,Medium,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/decide-on-vegan-burger-randd-investment
+Articulate your most significant achievement,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/articulate-your-most-significant-achievement
+Find the First Dictionary Word Matchable as a Reusable-Character Subsequence,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/283a18eb-b75e-5b60-9dd6-f18b79b6033b
+Fraud Detection Algorithm for Credit Card Transactions,Algorithm,Easy,Online assessment,Intern; New grad,1,0,,https://trueinterview.io/questions/86a950f4-60b5-454a-90e5-d8e02a13e342

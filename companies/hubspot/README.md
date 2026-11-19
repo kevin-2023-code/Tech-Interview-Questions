@@ -6,23 +6,25 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (3) · [all](all.csv) (13)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Design Youtube](https://trueinterview.io/questions/design-youtube?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Senior | 8 | 2026-08 |
-| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 6 | 2026-07 |
-| [Recipe Manager](https://trueinterview.io/questions/recipe-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad, Junior / Mid, Senior | 4 | 2026-06 |
-| [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | Junior / Mid, Senior | 4 | 2026-05-21 |
-| [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 2026-01-19 |
-| [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 2026-01-19 |
-| [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-01-19 |
-| [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 2026-01-19 |
-| [Best Meeting Date by Country](https://trueinterview.io/questions/best-meeting-date-by-country?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 2026-01-19 |
-| [Design an hourly weather crawling service](https://trueinterview.io/questions/design-an-hourly-weather-crawling-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-12-15 |
-| [Find a special person using knows(a,b)](https://trueinterview.io/questions/find-a-special-person-using-knows-a-b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 2025-12-15 |
-| [Snippet Vault](https://trueinterview.io/questions/snippet-vault?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad | 3 | 2025-12 |
-| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Online assessment, Onsite / virtual onsite | Intern, New grad, Junior / Mid | 5 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Design Youtube](https://trueinterview.io/questions/design-youtube?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Senior | 8 | 0 | 2026-08 |
+| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 6 | 0 | 2026-07 |
+| [Recipe Manager](https://trueinterview.io/questions/recipe-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad, Junior / Mid, Senior | 4 | 0 | 2026-06 |
+| [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | Junior / Mid, Senior | 4 | 0 | 2026-05-21 |
+| [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 0 | 2026-01-19 |
+| [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-19 |
+| [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-19 |
+| [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-01-19 |
+| [Best Meeting Date by Country](https://trueinterview.io/questions/best-meeting-date-by-country?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-19 |
+| [Design an hourly weather crawling service](https://trueinterview.io/questions/design-an-hourly-weather-crawling-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-15 |
+| [Find a special person using knows(a,b)](https://trueinterview.io/questions/find-a-special-person-using-knows-a-b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-15 |
+| [Snippet Vault](https://trueinterview.io/questions/snippet-vault?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad | 3 | 0 | 2025-12 |
+| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Online assessment, Onsite / virtual onsite | Intern, New grad, Junior / Mid | 5 | 0 | — |
 
 ---
 

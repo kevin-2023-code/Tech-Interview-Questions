@@ -1,10 +1,10 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
-Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/payment-platform-design
-Find Redeemable Offers,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Senior,1,,2026-08-12,https://trueinterview.io/questions/find-redeemable-offers
-Aggregate Recent Transactions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-08-07,https://trueinterview.io/questions/aggregate-recent-transactions
-Group Loans by Top-Level Company,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-08-06,https://trueinterview.io/questions/group-loans-by-top-level-company
-Describe your highest-impact project,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,2026-08,https://trueinterview.io/questions/describe-your-highest-impact-project
-Design Card Game,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,,2026-08,https://trueinterview.io/questions/design-card-game
-Live Fraud Detector,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-08-01,https://trueinterview.io/questions/live-fraud-detector
-Evaluate String Expression,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-06-10,https://trueinterview.io/questions/nested-function-expression-evaluator
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,40,2026-10,https://trueinterview.io/questions/payment-platform-design
+Find Redeemable Offers,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-08-12,https://trueinterview.io/questions/find-redeemable-offers
+Aggregate Recent Transactions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-07,https://trueinterview.io/questions/aggregate-recent-transactions
+Group Loans by Top-Level Company,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-06,https://trueinterview.io/questions/group-loans-by-top-level-company
+Describe your highest-impact project,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,2026-08,https://trueinterview.io/questions/describe-your-highest-impact-project
+Design Card Game,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-08,https://trueinterview.io/questions/design-card-game
+Live Fraud Detector,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,1,2026-08-01,https://trueinterview.io/questions/live-fraud-detector
+Evaluate String Expression,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-06-10,https://trueinterview.io/questions/nested-function-expression-evaluator

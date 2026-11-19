@@ -1,8 +1,8 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Build a Nested Comment Tree from Flat Records,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,,2026-08-13,https://trueinterview.io/questions/build-nested-comment-tree
-Implement comment sorting and nesting,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-04-09,https://trueinterview.io/questions/implement-comment-sorting-and-nesting
-How do you debug slowness and bugs?,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-04-09,https://trueinterview.io/questions/how-do-you-debug-slowness-and-bugs
-Design comments and async image generation,System Design,Medium,Phone screen,Senior,1,,2026-04-09,https://trueinterview.io/questions/design-comments-and-async-image-generation
-Design a client-side comment system,System Design,Medium,Phone screen,Senior,1,,2026-04,https://trueinterview.io/questions/design-a-client-side-comment-system
-Filter nested comments and keep only matched nodes and their descendants,Algorithm,Medium,Phone screen,Senior,1,,2026-04,https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f
-Add sorting to a comment list with persistence across refresh,Algorithm,Easy,Online assessment,Senior,1,,2026-04,https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5
+Build a Nested Comment Tree from Flat Records,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,4,2026-08-13,https://trueinterview.io/questions/build-nested-comment-tree
+Implement comment sorting and nesting,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-04-09,https://trueinterview.io/questions/implement-comment-sorting-and-nesting
+How do you debug slowness and bugs?,Behavioral / Knowledge,,Phone screen,Senior,1,1,2026-04-09,https://trueinterview.io/questions/how-do-you-debug-slowness-and-bugs
+Design comments and async image generation,System Design,Medium,Phone screen,Senior,1,1,2026-04-09,https://trueinterview.io/questions/design-comments-and-async-image-generation
+Design a client-side comment system,System Design,Medium,Phone screen,Senior,1,0,2026-04,https://trueinterview.io/questions/design-a-client-side-comment-system
+Filter nested comments and keep only matched nodes and their descendants,Algorithm,Medium,Phone screen,Senior,1,1,2026-04,https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f
+Add sorting to a comment list with persistence across refresh,Algorithm,Easy,Online assessment,Senior,1,0,2026-04,https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5

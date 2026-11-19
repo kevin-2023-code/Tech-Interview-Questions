@@ -1,6 +1,6 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design an API for Pascal Triangle,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-04-10,https://trueinterview.io/questions/design-an-api-for-pascal-triangle
-Print Pascal's Triangle (Symmetric Formatting),Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-04,https://trueinterview.io/questions/a2b7d03b-7a0d-459a-90fc-b9a502e3c3a3
-Peak Capacity Overlapping Events (Line Sweep),Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-04,https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8
-Funnel Algorithm Problem,Algorithm,Hard,Phone screen,Junior / Mid,1,,2025-05,https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2
-Sliding Window Problem,Algorithm,Easy,Online assessment,Junior / Mid,1,,2022-04,https://trueinterview.io/questions/d11caa89-857e-4682-9d73-d5df09ca2782
+Design an API for Pascal Triangle,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,1,2026-04-10,https://trueinterview.io/questions/design-an-api-for-pascal-triangle
+Print Pascal's Triangle (Symmetric Formatting),Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/a2b7d03b-7a0d-459a-90fc-b9a502e3c3a3
+Peak Capacity Overlapping Events (Line Sweep),Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8
+Funnel Algorithm Problem,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-05,https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2
+Sliding Window Problem,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2022-04,https://trueinterview.io/questions/d11caa89-857e-4682-9d73-d5df09ca2782

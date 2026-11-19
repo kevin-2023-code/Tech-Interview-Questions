@@ -1,48 +1,48 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Data Pipeline Design (Data Engineer),System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,,2026-10-08,https://trueinterview.io/questions/data-pipeline-design-data-engineer
-"Data Engineer Tech Questions: LLM Prompting, Data Quality & Security",Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Senior,1,,2026-10-08,https://trueinterview.io/questions/data-engineer-llm-prompting-and-data-quality
-Data Engineer Hiring Manager & Panel Behavioral,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10-08,https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral
-"SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)",Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-14,https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral
-Discuss Your Proudest Project and Interest in a Role,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-09-08,https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role
-"Discuss Terraform, Infrastructure as Code, and AWS Experience",Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-09-08,https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience
-Implement a Set from Scratch (Java),Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/implement-set-without-hashing
-Thread-Safe Buffered Batch Writer for Streaming Records into a Database,Object-Oriented Programming,Hard,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database
-Design a Flash Sale / Ticket Booking System with a Virtual Queue,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-08-20,https://trueinterview.io/questions/design-flash-sale-virtual-queue
-AI Product Intern: Product Sense for Parks & Disney+,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-07-14,https://trueinterview.io/questions/ai-product-intern-product-sense
-"Pair and Triplet Target Sums (LC 1, 167, 15)",Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-06,https://trueinterview.io/questions/two-sum-variants-and-three-sum
-Reverse a String In Place (LC 344),Algorithm,Easy,Phone screen,Senior,1,,2026-06,https://trueinterview.io/questions/reverse-string-in-place
-Generate All Valid Combinations of Balanced Parentheses,Algorithm,Medium,Online assessment,Senior,1,,2026-03-27,https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses
-Single-Rule Ad Filter,Object-Oriented Programming,Medium,Phone screen,Senior,1,,2026-01-12,https://trueinterview.io/questions/single-rule-ad-filter
-Design a Twitter-Like Platform (Data Model + Curated Feed),System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-01-12,https://trueinterview.io/questions/design-twitter-like-platform
-Movie List with Sort and Search,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,,2026-01,https://trueinterview.io/questions/frontend-movie-list-sort-search
-"Python Basics, Moving Points, Naive Bayes Spam Classifier",Algorithm,Hard,Online assessment,New grad,1,,2025-12-18,https://trueinterview.io/questions/mle-oa-python-moving-points-naive-bayes
-Shopping Cart,System Design,Medium,Onsite / virtual onsite,Senior,1,,2025-12,https://trueinterview.io/questions/frontend-shopping-cart-design
-Feature Flags,System Design,Medium,Onsite / virtual onsite,Senior,1,,2025-12,https://trueinterview.io/questions/frontend-feature-flags-design
-How would you run a mentoring-focused code review?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2025-12,https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review
-How do you manage collaboration and stakeholders?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2025-12,https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders
-Determine if chasing points will meet,Algorithm,Hard,Phone screen,New grad,1,,2025-12,https://trueinterview.io/questions/determine-if-chasing-points-will-meet
-Build Naive Bayes spam classifier with F1,Algorithm,Medium,Phone screen,New grad,1,,2025-12,https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1
-Design a frontend shopping cart and feature flags,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2025-11-24,https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags
-Convert an Integer to Binary,Algorithm,Easy,Online assessment; Phone screen,Junior / Mid,1,,2025-10-28,https://trueinterview.io/questions/integer-to-binary-hackerrank
-In-Memory Workspace of Nested Files and Folders,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/workspace-resource-tree
-Production Text Classifier for Posts and Emails,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/text-classification-system-design
-Spring MVC Endpoint for the Most Enrolled Course,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/spring-mvc-course-most-students
-Session Manager with Sliding Token Expiry,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/session-token-sliding-expiry
-Minutes Until Every Orange Rots in a Grid,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/rotting-oranges-lc-994
-Reverse Behavioral: Traits You Would Hire For as a Manager,Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,,,https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit
-Getting Productive Fast in a Large Unfamiliar Codebase,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/ramping-on-unfamiliar-codebase
-End-to-End Personalized Recommendation Platform Design,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/personalized-recommendation-system
-Low-Latency Recommendation Serving With ANN Retrieval and Ranking,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/online-recommendation-serving
-Safe Model Rollout and Feature-Cost Reduction for ML Serving,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/mlops-model-validation-ab-testing
-Dependency-Aware Health Monitoring for a Microservice Fleet,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/microservices-health-check-aggregator
-"How Java Reclaims Memory: Generations, Collectors and Roots",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/java-garbage-collection
-Check Reachability Between Two Graph Nodes,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/graph-path-exists-bfs
-Design a Multi-Game Ranking Service at Scale,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/global-game-leaderboard
-Layered S3 Pipeline Feeding a Feature Store,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/feature-store-ingestion-layers
-Designing Product Browsing and Faceted Search for an Online Store,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/ecommerce-browse-and-search-design
-Rank Vectors by Cosine Similarity to a Query,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/cosine-similarity-vector-ranking
-Design a Two-Runway Airport Traffic Scheduler,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/airport-two-runway-operations-design
-Airport Runway Scheduling: Assign Each Flight a Runway,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/airport-runway-assignment
-Diagnose and decide on watch-time drop,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/diagnose-and-decide-on-watch-time-drop
-Demonstrate influential product leadership under ambiguity,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/demonstrate-influential-product-leadership-under-ambiguity
-Compute sample size and plan experiment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/compute-sample-size-and-plan-experiment
+Data Pipeline Design (Data Engineer),System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-10-08,https://trueinterview.io/questions/data-pipeline-design-data-engineer
+"Data Engineer Tech Questions: LLM Prompting, Data Quality & Security",Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-10-08,https://trueinterview.io/questions/data-engineer-llm-prompting-and-data-quality
+Data Engineer Hiring Manager & Panel Behavioral,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-08,https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral
+"SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)",Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-14,https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral
+Discuss Your Proudest Project and Interest in a Role,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,1,2026-09-08,https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role
+"Discuss Terraform, Infrastructure as Code, and AWS Experience",Behavioral / Knowledge,,Phone screen,Junior / Mid,1,1,2026-09-08,https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience
+Implement a Set from Scratch (Java),Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/implement-set-without-hashing
+Thread-Safe Buffered Batch Writer for Streaming Records into a Database,Object-Oriented Programming,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database
+Design a Flash Sale / Ticket Booking System with a Virtual Queue,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-08-20,https://trueinterview.io/questions/design-flash-sale-virtual-queue
+AI Product Intern: Product Sense for Parks & Disney+,Behavioral / Knowledge,,Phone screen,Senior,1,1,2026-07-14,https://trueinterview.io/questions/ai-product-intern-product-sense
+"Pair and Triplet Target Sums (LC 1, 167, 15)",Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-06,https://trueinterview.io/questions/two-sum-variants-and-three-sum
+Reverse a String In Place (LC 344),Algorithm,Easy,Phone screen,Senior,1,0,2026-06,https://trueinterview.io/questions/reverse-string-in-place
+Generate All Valid Combinations of Balanced Parentheses,Algorithm,Medium,Online assessment,Senior,1,0,2026-03-27,https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses
+Single-Rule Ad Filter,Object-Oriented Programming,Medium,Phone screen,Senior,1,1,2026-01-12,https://trueinterview.io/questions/single-rule-ad-filter
+Design a Twitter-Like Platform (Data Model + Curated Feed),System Design,Medium,Onsite / virtual onsite,Senior,1,1,2026-01-12,https://trueinterview.io/questions/design-twitter-like-platform
+Movie List with Sort and Search,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,1,2026-01,https://trueinterview.io/questions/frontend-movie-list-sort-search
+"Python Basics, Moving Points, Naive Bayes Spam Classifier",Algorithm,Hard,Online assessment,New grad,1,0,2025-12-18,https://trueinterview.io/questions/mle-oa-python-moving-points-naive-bayes
+Shopping Cart,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2025-12,https://trueinterview.io/questions/frontend-shopping-cart-design
+Feature Flags,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2025-12,https://trueinterview.io/questions/frontend-feature-flags-design
+How would you run a mentoring-focused code review?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2025-12,https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review
+How do you manage collaboration and stakeholders?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2025-12,https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders
+Determine if chasing points will meet,Algorithm,Hard,Phone screen,New grad,1,0,2025-12,https://trueinterview.io/questions/determine-if-chasing-points-will-meet
+Build Naive Bayes spam classifier with F1,Algorithm,Medium,Phone screen,New grad,1,0,2025-12,https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1
+Design a frontend shopping cart and feature flags,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-24,https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags
+Convert an Integer to Binary,Algorithm,Easy,Online assessment; Phone screen,Junior / Mid,1,0,2025-10-28,https://trueinterview.io/questions/integer-to-binary-hackerrank
+In-Memory Workspace of Nested Files and Folders,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/workspace-resource-tree
+Production Text Classifier for Posts and Emails,System Design,Medium,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/text-classification-system-design
+Spring MVC Endpoint for the Most Enrolled Course,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/spring-mvc-course-most-students
+Session Manager with Sliding Token Expiry,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/session-token-sliding-expiry
+Minutes Until Every Orange Rots in a Grid,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/rotting-oranges-lc-994
+Reverse Behavioral: Traits You Would Hire For as a Manager,Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,0,,https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit
+Getting Productive Fast in a Large Unfamiliar Codebase,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/ramping-on-unfamiliar-codebase
+End-to-End Personalized Recommendation Platform Design,System Design,Medium,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/personalized-recommendation-system
+Low-Latency Recommendation Serving With ANN Retrieval and Ranking,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/online-recommendation-serving
+Safe Model Rollout and Feature-Cost Reduction for ML Serving,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/mlops-model-validation-ab-testing
+Dependency-Aware Health Monitoring for a Microservice Fleet,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/microservices-health-check-aggregator
+"How Java Reclaims Memory: Generations, Collectors and Roots",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/java-garbage-collection
+Check Reachability Between Two Graph Nodes,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/graph-path-exists-bfs
+Design a Multi-Game Ranking Service at Scale,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/global-game-leaderboard
+Layered S3 Pipeline Feeding a Feature Store,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/feature-store-ingestion-layers
+Designing Product Browsing and Faceted Search for an Online Store,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/ecommerce-browse-and-search-design
+Rank Vectors by Cosine Similarity to a Query,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/cosine-similarity-vector-ranking
+Design a Two-Runway Airport Traffic Scheduler,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/airport-two-runway-operations-design
+Airport Runway Scheduling: Assign Each Flight a Runway,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/airport-runway-assignment
+Diagnose and decide on watch-time drop,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/diagnose-and-decide-on-watch-time-drop
+Demonstrate influential product leadership under ambiguity,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/demonstrate-influential-product-leadership-under-ambiguity
+Compute sample size and plan experiment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/compute-sample-size-and-plan-experiment

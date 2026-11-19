@@ -1,8 +1,8 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Find the Maximum Value in a Binary Tree Recursively,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,2026-08-26,https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively
-Evaluate a Hexadecimal Bitwise AND,Behavioral / Knowledge,,Phone screen,Intern; New grad; Junior / Mid,1,,2026-08-26,https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and
-Array Frequency Sort,Algorithm,Easy,Online assessment,Junior / Mid,3,,2026-07-29,https://trueinterview.io/questions/array-frequency-sort
-Exchange Order Matching Engine,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,2,,2026-06,https://trueinterview.io/questions/exchange-order-matching-engine
-Cloud Resource Utilization Dashboard,SQL,Easy,Online assessment,Junior / Mid,1,,2026-05-25,https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard
-Portfolio Rebalancer,Object-Oriented Programming,Medium,Online assessment,Junior / Mid,1,,2026-05-25,https://trueinterview.io/questions/portfolio-rebalancer
-Maximum Difference Across Connected Components,Algorithm,Medium,Online assessment,Junior / Mid,1,,2026-05-25,https://trueinterview.io/questions/maximum-difference-connected-components
+Find the Maximum Value in a Binary Tree Recursively,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-26,https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively
+Evaluate a Hexadecimal Bitwise AND,Behavioral / Knowledge,,Phone screen,Intern; New grad; Junior / Mid,1,0,2026-08-26,https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and
+Array Frequency Sort,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-07-29,https://trueinterview.io/questions/array-frequency-sort
+Exchange Order Matching Engine,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,2,0,2026-06,https://trueinterview.io/questions/exchange-order-matching-engine
+Cloud Resource Utilization Dashboard,SQL,Easy,Online assessment,Junior / Mid,1,1,2026-05-25,https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard
+Portfolio Rebalancer,Object-Oriented Programming,Medium,Online assessment,Junior / Mid,1,0,2026-05-25,https://trueinterview.io/questions/portfolio-rebalancer
+Maximum Difference Across Connected Components,Algorithm,Medium,Online assessment,Junior / Mid,1,0,2026-05-25,https://trueinterview.io/questions/maximum-difference-connected-components

@@ -6,28 +6,30 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (9) · [all](all.csv) (18)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 2026-10 |
-| [Design Payment System](https://trueinterview.io/questions/payment-platform-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 2026-10 |
-| [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Senior | 1 | 2026-08-12 |
-| [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-08-07 |
-| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-08-06 |
-| [Describe your highest-impact project](https://trueinterview.io/questions/describe-your-highest-impact-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 2026-08 |
-| [Design Card Game](https://trueinterview.io/questions/design-card-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 2 | 2026-08 |
-| [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 2026-08-01 |
-| [Evaluate String Expression](../../questions/algorithm/nested-function-expression-evaluator/README.md) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2026-06-10 |
-| [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid | 5 | 2026-05 |
-| [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 2026-04-19 |
-| [Detect Fraud by Propagating Suspicious PII](https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-04-19 |
-| [Sum of Islands Max](https://trueinterview.io/questions/sum-of-islands-max?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
-| [Prefix to Postfix](https://trueinterview.io/questions/prefix-to-postfix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Intern, New grad, Junior / Mid | 1 | — |
-| [Persistent Stack](https://trueinterview.io/questions/persistent-stack?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | — |
-| [High Correlation Seller](https://trueinterview.io/questions/high-correlation-seller?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid | 1 | — |
-| [End Of Day Balance](https://trueinterview.io/questions/end-of-day-balance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Onsite / virtual onsite | Intern, New grad, Junior / Mid | 1 | — |
-| [Count Reversing Triples](https://trueinterview.io/questions/count-reversing-triples?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Intern, New grad, Junior / Mid | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 14 | 2026-10 |
+| [Design Payment System](https://trueinterview.io/questions/payment-platform-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 40 | 2026-10 |
+| [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Senior | 1 | 0 | 2026-08-12 |
+| [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-07 |
+| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-06 |
+| [Describe your highest-impact project](https://trueinterview.io/questions/describe-your-highest-impact-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 0 | 2026-08 |
+| [Design Card Game](https://trueinterview.io/questions/design-card-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 2 | 0 | 2026-08 |
+| [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 1 | 2026-08-01 |
+| [Evaluate String Expression](../../questions/algorithm/nested-function-expression-evaluator/README.md) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-06-10 |
+| [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid | 5 | 0 | 2026-05 |
+| [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-04-19 |
+| [Detect Fraud by Propagating Suspicious PII](https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-19 |
+| [Sum of Islands Max](https://trueinterview.io/questions/sum-of-islands-max?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
+| [Prefix to Postfix](https://trueinterview.io/questions/prefix-to-postfix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Intern, New grad, Junior / Mid | 1 | 0 | — |
+| [Persistent Stack](https://trueinterview.io/questions/persistent-stack?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
+| [High Correlation Seller](https://trueinterview.io/questions/high-correlation-seller?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid | 1 | 0 | — |
+| [End Of Day Balance](https://trueinterview.io/questions/end-of-day-balance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Onsite / virtual onsite | Intern, New grad, Junior / Mid | 1 | 0 | — |
+| [Count Reversing Triples](https://trueinterview.io/questions/count-reversing-triples?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Intern, New grad, Junior / Mid | 1 | 0 | — |
 
 ---
 

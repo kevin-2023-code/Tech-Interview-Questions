@@ -1,8 +1,8 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Rotten Oranges / Grid Infection BFS,Algorithm,Medium,Online assessment; Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/rotten-oranges-grid-bfs
-Design a 1-to-1 Chat System,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/design-a-1-to-1-chat-system
-Explain Project Ownership and Collaboration with Colleagues,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-08,https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues
-Design a Globally Versioned Key-Value Store,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09-08,https://trueinterview.io/questions/design-a-globally-versioned-key-value-store
-Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/charity-donation-system
-Hand-Written K-Means,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,2,,2026-09,https://trueinterview.io/questions/handwritten-k-means
-Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Rotten Oranges / Grid Infection BFS,Algorithm,Medium,Online assessment; Phone screen; Onsite / virtual onsite,Junior / Mid,1,14,2026-10,https://trueinterview.io/questions/rotten-oranges-grid-bfs
+Design a 1-to-1 Chat System,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/design-a-1-to-1-chat-system
+Explain Project Ownership and Collaboration with Colleagues,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,1,2026-09-08,https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues
+Design a Globally Versioned Key-Value Store,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-09-08,https://trueinterview.io/questions/design-a-globally-versioned-key-value-store
+Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/charity-donation-system
+Hand-Written K-Means,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,2,0,2026-09,https://trueinterview.io/questions/handwritten-k-means
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design

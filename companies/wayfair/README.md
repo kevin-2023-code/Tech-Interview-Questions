@@ -6,17 +6,19 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (5) · [all](all.csv) (7)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-09-10 |
-| [Set Bids for Search Advertising from Business Value](../../questions/system-design/set-bids-for-search-advertising-from-business-value/README.md) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-09-10 |
-| [Rank Homepage Modules for an E-Commerce Product](../../questions/system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-09-10 |
-| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-09-10 |
-| [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-09-09 |
-| [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 2026-02-16 |
-| [How to improve complaint resolution](https://trueinterview.io/questions/how-to-improve-complaint-resolution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 2026-02-16 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-10 |
+| [Set Bids for Search Advertising from Business Value](../../questions/system-design/set-bids-for-search-advertising-from-business-value/README.md) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-10 |
+| [Rank Homepage Modules for an E-Commerce Product](../../questions/system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-10 |
+| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-10 |
+| [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
+| [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 1 | 2026-02-16 |
+| [How to improve complaint resolution](https://trueinterview.io/questions/how-to-improve-complaint-resolution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-16 |
 
 ---
 

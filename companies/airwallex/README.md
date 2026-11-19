@@ -6,23 +6,25 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (6) · [all](all.csv) (13)
 
+Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
+
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Level | Companies | Last reported |
-| :-- | :-- | :-: | :-- | :-- | --: | :-- |
-| [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-09-10 |
-| [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-09-10 |
-| [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-09-10 |
-| [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-09-02 |
-| [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 2026-09-01 |
-| [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-08-09 |
-| [Largest Rectangle in Histogram](../../questions/algorithm/largest-rectangle-histogram/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | New grad | 2 | 2026-01-29 |
-| [Investigate Harassment Surge and Mitigation](https://trueinterview.io/questions/investigate-harassment-surge-and-mitigation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-11-14 |
-| [Monthly violation-type distribution.](https://trueinterview.io/questions/compute-moderation-view-metrics-monthly-violation-type-distribution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-11-14 |
-| [Compute Moderation View Metrics](../../questions/sql/compute-moderation-view-metrics/README.md) | SQL | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-11-14 |
-| [How do you resolve partner conflict?](https://trueinterview.io/questions/how-do-you-resolve-partner-conflict?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-10-24 |
-| [How would you test swapping two CTA buttons?](https://trueinterview.io/questions/how-would-you-test-swapping-two-cta-buttons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-10-14 |
-| [Diagnose a dip in approval/conversion rate](https://trueinterview.io/questions/diagnose-a-dip-in-approval-conversion-rate?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-10-14 |
+| Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-10 |
+| [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-10 |
+| [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-10 |
+| [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-02 |
+| [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-09-01 |
+| [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-09 |
+| [Largest Rectangle in Histogram](../../questions/algorithm/largest-rectangle-histogram/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | New grad | 2 | 0 | 2026-01-29 |
+| [Investigate Harassment Surge and Mitigation](https://trueinterview.io/questions/investigate-harassment-surge-and-mitigation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-14 |
+| [Monthly violation-type distribution.](https://trueinterview.io/questions/compute-moderation-view-metrics-monthly-violation-type-distribution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-14 |
+| [Compute Moderation View Metrics](../../questions/sql/compute-moderation-view-metrics/README.md) | SQL | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-14 |
+| [How do you resolve partner conflict?](https://trueinterview.io/questions/how-do-you-resolve-partner-conflict?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-10-24 |
+| [How would you test swapping two CTA buttons?](https://trueinterview.io/questions/how-would-you-test-swapping-two-cta-buttons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-10-14 |
+| [Diagnose a dip in approval/conversion rate](https://trueinterview.io/questions/diagnose-a-dip-in-approval-conversion-rate?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-10-14 |
 
 ---
 

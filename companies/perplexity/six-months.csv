@@ -1,8 +1,8 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Design a Long-Running Query Service,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/design-a-long-running-query-service
-Design Typehead Suggestion,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,7,,2026-09,https://trueinterview.io/questions/sd-typeahead-autocomplete
-GPU Credits II,Algorithm,Hard,Phone screen,Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/gpu-credit-tracker
-Design In-Memory File System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,4,,2026-08-31,https://trueinterview.io/questions/design-in-memory-file-system
-Behavioral and Project Deep-Dive,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Senior; Staff+,1,,2026-07,https://trueinterview.io/questions/behavioral-and-project-deep-dive
-In-Memory Unix File System,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,3,,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
-ToDo List with Task Dependencies,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-05-26,https://trueinterview.io/questions/todo-list-with-task-dependencies-ood
+Design a Long-Running Query Service,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-01,https://trueinterview.io/questions/design-a-long-running-query-service
+Design Typehead Suggestion,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,7,10,2026-09,https://trueinterview.io/questions/sd-typeahead-autocomplete
+GPU Credits II,Algorithm,Hard,Phone screen,Junior / Mid; Senior,2,15,2026-09,https://trueinterview.io/questions/gpu-credit-tracker
+Design In-Memory File System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,4,0,2026-08-31,https://trueinterview.io/questions/design-in-memory-file-system
+Behavioral and Project Deep-Dive,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Senior; Staff+,1,1,2026-07,https://trueinterview.io/questions/behavioral-and-project-deep-dive
+In-Memory Unix File System,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
+ToDo List with Task Dependencies,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,4,2026-05-26,https://trueinterview.io/questions/todo-list-with-task-dependencies-ood

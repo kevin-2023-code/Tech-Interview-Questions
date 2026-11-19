@@ -1,20 +1,20 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Describe a proud project and handling credit conflict,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,,2026-10,https://trueinterview.io/questions/describe-a-proud-project-and-handling-credit-conflict
-First Unique Element III,Algorithm,Easy,Phone screen,New grad; Junior / Mid,2,,2026-10,https://trueinterview.io/questions/first-unique-character
-"Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-13,https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture
-Cache Trade-offs and a Constant-Time Least-Recently-Used Cache,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-09-13,https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache
-Maximize Covariance from Known Variances,Behavioral / Knowledge,,Online assessment,Intern; New grad; Junior / Mid,1,,2026-09-02,https://trueinterview.io/questions/maximize-covariance-from-known-variances
-Integrate a Two-Sided Exponential Density,Behavioral / Knowledge,,Online assessment,Junior / Mid,1,,2026-09-02,https://trueinterview.io/questions/integrate-a-two-sided-exponential-density
-Infer BA When AB Is the Identity,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid; Senior,1,,2026-09-02,https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity
-Expected Number of Runs in Coin Tosses,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,,2026-09-02,https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses
-Compute the Arc Length of a Curve,Behavioral / Knowledge,,Online assessment,Junior / Mid,1,,2026-09-02,https://trueinterview.io/questions/compute-the-arc-length-of-a-curve
-Bound the Rank of BA Given Rank of AB,Behavioral / Knowledge,,Online assessment,Junior / Mid,1,,2026-09-02,https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab
-Design a Ten-Minute In-Memory Notification Deduplication Engine,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine
-Staircase Search in a Sorted 2D Matrix,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/dbd4755b-bf74-5377-b3ca-42bb7bdc22e8
-Maximum Rock Collection Path in a Grid,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/d2cd1228-3f9d-563d-adb7-4d5f86c1af78
-Frequency of the Most Frequent Element,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/341d7cdd-b278-57d7-9f6c-203d53b500ce
-Dungeon Health,Algorithm,Hard,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/2a9a0a9f-e0b8-5bea-89c7-dbc1cba4dfcc
-Maze Path Finding,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643
-Insert Delete GetRandom O(1),Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/insert-delete-getrandom-o-1
-First Missing Positive,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/first-missing-positive
-Trapping Rain Water,Algorithm,Hard,Phone screen,Junior / Mid; Senior; Staff+,8,,2026-09,https://trueinterview.io/questions/trapping-rain-water
+Describe a proud project and handling credit conflict,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/describe-a-proud-project-and-handling-credit-conflict
+First Unique Element III,Algorithm,Easy,Phone screen,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/first-unique-character
+"Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,1,2026-09-13,https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture
+Cache Trade-offs and a Constant-Time Least-Recently-Used Cache,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-09-13,https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache
+Maximize Covariance from Known Variances,Behavioral / Knowledge,,Online assessment,Intern; New grad; Junior / Mid,1,0,2026-09-02,https://trueinterview.io/questions/maximize-covariance-from-known-variances
+Integrate a Two-Sided Exponential Density,Behavioral / Knowledge,,Online assessment,Junior / Mid,1,1,2026-09-02,https://trueinterview.io/questions/integrate-a-two-sided-exponential-density
+Infer BA When AB Is the Identity,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-09-02,https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity
+Expected Number of Runs in Coin Tosses,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,1,2026-09-02,https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses
+Compute the Arc Length of a Curve,Behavioral / Knowledge,,Online assessment,Junior / Mid,1,0,2026-09-02,https://trueinterview.io/questions/compute-the-arc-length-of-a-curve
+Bound the Rank of BA Given Rank of AB,Behavioral / Knowledge,,Online assessment,Junior / Mid,1,0,2026-09-02,https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab
+Design a Ten-Minute In-Memory Notification Deduplication Engine,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine
+Staircase Search in a Sorted 2D Matrix,Algorithm,Medium,Phone screen,Senior,1,2,2026-09,https://trueinterview.io/questions/dbd4755b-bf74-5377-b3ca-42bb7bdc22e8
+Maximum Rock Collection Path in a Grid,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/d2cd1228-3f9d-563d-adb7-4d5f86c1af78
+Frequency of the Most Frequent Element,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/341d7cdd-b278-57d7-9f6c-203d53b500ce
+Dungeon Health,Algorithm,Hard,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/2a9a0a9f-e0b8-5bea-89c7-dbc1cba4dfcc
+Maze Path Finding,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643
+Insert Delete GetRandom O(1),Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,4,11,2026-09,https://trueinterview.io/questions/insert-delete-getrandom-o-1
+First Missing Positive,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,1,2026-09,https://trueinterview.io/questions/first-missing-positive
+Trapping Rain Water,Algorithm,Hard,Phone screen,Junior / Mid; Senior; Staff+,8,13,2026-09,https://trueinterview.io/questions/trapping-rain-water
