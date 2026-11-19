@@ -4,60 +4,60 @@
 
 48 questions reported at Lyft, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (9) · [all](all.csv) (48)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (21) · [all](all.csv) (48)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-08 |
-| [Design a Globally Versioned Key-Value Store](https://trueinterview.io/questions/design-a-globally-versioned-key-value-store) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-09-08 |
-| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-07-29 |
-| [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-07-29 |
-| [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | 3 | 2026-06-29 |
-| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-06-16 |
-| [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Onsite / virtual onsite | 4 | 2026-06-16 |
-| [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | System Design | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-06-02 |
-| [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability) | Blog | — | Phone screen | 1 | 2026-05-30 |
-| [Design Driver Location Heatmap](https://trueinterview.io/questions/onsite-sd-driver-location-heatmap) | System Design | Medium | Onsite / virtual onsite | 3 | 2026-05-15 |
-| [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | Onsite / virtual onsite | 4 | 2026-05-12 |
-| [Rotten Oranges / Grid Infection BFS](https://trueinterview.io/questions/rotten-oranges-grid-bfs) | Algorithm | Medium | Online assessment, Phone screen, Onsite / virtual onsite | 1 | 2026-05-12 |
-| [Reconstruct a BST from Preorder Traversal](https://trueinterview.io/questions/reconstruct-a-bst-from-preorder-traversal) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-14 |
-| [Project, Conflict, Failure, and DEI](https://trueinterview.io/questions/behavioral-project-conflict-and-dei) | Blog | — | Onsite / virtual onsite | 1 | 2026-04-10 |
-| [Solve substring and worker assignment](https://trueinterview.io/questions/solve-substring-and-worker-assignment) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-02 |
-| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
-| [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis) | Algorithm | Medium | Phone screen | 1 | 2026-03-21 |
-| [Explain Transformer and Fine-Tuning Basics](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics) | Blog | — | Phone screen | 1 | 2026-03-12 |
-| [Explain Python and Systems Fundamentals](https://trueinterview.io/questions/explain-python-and-systems-fundamentals) | Blog | — | Phone screen | 1 | 2026-03-12 |
-| [Design an HR Document AI Platform](https://trueinterview.io/questions/design-an-hr-document-ai-platform) | System Design | Hard | Phone screen | 1 | 2026-03-12 |
-| [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-02-26 |
-| [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-02-13 |
-| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
-| [Query Pagination](https://trueinterview.io/questions/query-pagination) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | 2026-02-04 |
-| [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Onsite / virtual onsite | 7 | 2026-01-22 |
-| [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-01-14 |
-| [How to Target Coupon Users](https://trueinterview.io/questions/how-to-target-coupon-users) | Blog | — | Phone screen | 1 | 2025-12-16 |
-| [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-11-17 |
-| [Frontend Autocomplete Component](https://trueinterview.io/questions/frontend-autocomplete-component) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-11-17 |
-| [Minesweeper Game Logic](https://trueinterview.io/questions/minesweeper-game-logic) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-10-16 |
-| [Implement Cache and Key-Value Store](../../questions/object-oriented-programming/implement-cache-and-key-value-store/README.md) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-10-05 |
-| [Design experiments for marketplace balance](https://trueinterview.io/questions/design-experiments-for-marketplace-balance) | System Design | Hard | Onsite / virtual onsite | 1 | — |
-| [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2) | Blog | — | Onsite / virtual onsite | 1 | — |
-| [Compute Poisson supply–demand match probability](https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability) | Blog | — | Onsite / virtual onsite | 1 | — |
-| [Query and transform marketplace data in SQL/Python](https://trueinterview.io/questions/query-and-transform-marketplace-data-in-sql-python) | SQL | Medium | Onsite / virtual onsite | 1 | — |
-| [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0) | Object Oriented Programming | Hard | Onsite / virtual onsite | 2 | — |
-| [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
-| [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | Onsite / virtual onsite | 8 | — |
-| [MultiStream Reader](https://trueinterview.io/questions/multistream-reader) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | — |
-| [Asteroid Collision - Different Speed](https://trueinterview.io/questions/asteroid-collision-different-speed) | Algorithm | Medium | Phone screen | 1 | — |
-| [Alien Base Attack](https://trueinterview.io/questions/alien-base-attack) | Object Oriented Programming | Medium | Phone screen | 1 | — |
-| [Web Crawler with Communication Constraint](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) | System Design | Medium | Onsite / virtual onsite | 1 | — |
-| [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | Onsite / virtual onsite | 2 | — |
-| [Implement Stratified K-Fold Cross Validation](https://trueinterview.io/questions/603347d9-9ef4-4b27-be30-a00814f1b728) | Algorithm | Medium | Phone screen | 1 | — |
-| [Find All Shortest Paths in Word Ladder](../../questions/algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Algorithm | Hard | Phone screen | 1 | — |
-| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | Onsite / virtual onsite | 17 | — |
-| [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Object Oriented Programming | Hard | Onsite / virtual onsite | 2 | — |
-| [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | 8 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Rotten Oranges / Grid Infection BFS](https://trueinterview.io/questions/rotten-oranges-grid-bfs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment, Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 2026-10 |
+| [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2026-10 |
+| [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-09-08 |
+| [Design a Globally Versioned Key-Value Store](https://trueinterview.io/questions/design-a-globally-versioned-key-value-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-09-08 |
+| [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 4 | 2026-09 |
+| [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Intern, Junior / Mid | 2 | 2026-09 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 16 | 2026-09 |
+| [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 8 | 2026-08 |
+| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 17 | 2026-08 |
+| [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 8 | 2026-08 |
+| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 6 | 2026-08 |
+| [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior, Staff+ | 3 | 2026-08 |
+| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07-29 |
+| [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07-29 |
+| [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2026-07 |
+| [Project, Conflict, Failure, and DEI](https://trueinterview.io/questions/behavioral-project-conflict-and-dei?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07 |
+| [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 4 | 2026-07 |
+| [Design News Feed](https://trueinterview.io/questions/design-news-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 16 | 2026-07 |
+| [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 2 | 2026-06 |
+| [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2026-06 |
+| [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Intern, Junior / Mid | 2 | 2026-06 |
+| [Design Driver Location Heatmap](https://trueinterview.io/questions/onsite-sd-driver-location-heatmap?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2026-05-15 |
+| [Query and transform marketplace data in SQL/Python](https://trueinterview.io/questions/query-and-transform-marketplace-data-in-sql-python?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-05 |
+| [Implement Stratified K-Fold Cross Validation](https://trueinterview.io/questions/603347d9-9ef4-4b27-be30-a00814f1b728?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-05 |
+| [Design Instagram](https://trueinterview.io/questions/design-instagram?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 7 | 2026-05 |
+| [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2026-05 |
+| [Reconstruct a BST from Preorder Traversal](https://trueinterview.io/questions/reconstruct-a-bst-from-preorder-traversal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-14 |
+| [Solve substring and worker assignment](https://trueinterview.io/questions/solve-substring-and-worker-assignment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-02 |
+| [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03-21 |
+| [Explain Transformer and Fine-Tuning Basics](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Intern, New grad | 1 | 2026-03-12 |
+| [Explain Python and Systems Fundamentals](https://trueinterview.io/questions/explain-python-and-systems-fundamentals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-03-12 |
+| [Design an HR Document AI Platform](https://trueinterview.io/questions/design-an-hr-document-ai-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-03-12 |
+| [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern | 2 | 2026-03 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | — | 16 | 2026-02-04 |
+| [Query Pagination](https://trueinterview.io/questions/query-pagination?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2026-02-04 |
+| [How to Target Coupon Users](https://trueinterview.io/questions/how-to-target-coupon-users?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2025-12-16 |
+| [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 2025-11-17 |
+| [Frontend Autocomplete Component](https://trueinterview.io/questions/frontend-autocomplete-component?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2025-11-17 |
+| [Minesweeper Game Logic](https://trueinterview.io/questions/minesweeper-game-logic?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2025-10-16 |
+| [Implement Cache and Key-Value Store](../../questions/object-oriented-programming/implement-cache-and-key-value-store/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2025-10-05 |
+| [Find All Shortest Paths in Word Ladder](../../questions/algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Algorithm | Hard | Phone screen | Senior | 1 | 2025-03 |
+| [Design experiments for marketplace balance](https://trueinterview.io/questions/design-experiments-for-marketplace-balance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
+| [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 1 | — |
+| [Compute Poisson supply–demand match probability](https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
+| [MultiStream Reader](https://trueinterview.io/questions/multistream-reader?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | — |
+| [Asteroid Collision - Different Speed](https://trueinterview.io/questions/asteroid-collision-different-speed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Alien Base Attack](https://trueinterview.io/questions/alien-base-attack?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Web Crawler with Communication Constraint](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
 
 ---
 

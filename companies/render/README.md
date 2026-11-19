@@ -6,12 +6,12 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (2)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Rate Limit an API During a Traffic Attack](../../questions/object-oriented-programming/rate-limit-an-api-during-a-traffic-attack/README.md) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-09-17 |
-| [Count Blocked Rate-Limited Requests](../../questions/algorithm/count-blocked-rate-limited-requests/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-02-26 |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Rate Limit an API During a Traffic Attack](../../questions/object-oriented-programming/rate-limit-an-api-during-a-traffic-attack/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-09-17 |
+| [Count Blocked Rate-Limited Requests](../../questions/algorithm/count-blocked-rate-limited-requests/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-02-26 |
 
 ---
 

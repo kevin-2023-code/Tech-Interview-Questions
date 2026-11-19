@@ -1,42 +1,42 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-LRU Cache,AI Coding,Medium,Phone screen,10,2026-10-01,https://trueinterview.io/questions/lru-cache
-Bank Account Simulation Class With Self-Written Tests at 90% Coverage,Object Oriented Programming,Medium,Phone screen,1,2026-09-07,https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage
-Life Story / Values Interview,Blog,,Phone screen; Onsite / virtual onsite,1,2026-07-10,https://trueinterview.io/questions/life-story-values-interview
-In-Memory Unix File System,Object Oriented Programming,Medium,Phone screen,3,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
-Word Guessing Game (Wordle-style),Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-05-12,https://trueinterview.io/questions/word-guessing-game
-Product Categorization / Taxonomy,System Design,Hard,Onsite / virtual onsite,1,2026-05-10,https://trueinterview.io/questions/ml-system-design-product-categorization
-ML Modeling Round (Forecasting / Targeting / Fraud),Blog,,Onsite / virtual onsite,1,2026-05-10,https://trueinterview.io/questions/ml-modeling-round
-Use AI Responsibly During SQL Pair Programming,Blog,,Phone screen,1,2026-05-05,https://trueinterview.io/questions/use-ai-responsibly-during-sql-pair-programming
-Choose Between Batch and Streaming for a Data Pipeline,System Design,Hard,Phone screen,1,2026-05-05,https://trueinterview.io/questions/choose-between-batch-and-streaming-for-a-data-pipeline
-Design a Product Photography Upload Service,System Design,Medium,Onsite / virtual onsite,1,2026-04-28,https://trueinterview.io/questions/design-a-product-photography-upload-service
-Compute Jaccard Similarity for Lists,Algorithm,Easy,Phone screen,1,2026-04-28,https://trueinterview.io/questions/compute-jaccard-similarity-for-lists
-Analyze Pirated Theme Usage Impact,SQL,Medium,Phone screen,1,2026-04-28,https://trueinterview.io/questions/analyze-pirated-theme-usage-impact
-LRU Cache with Expiration,Object Oriented Programming,Medium,Onsite / virtual onsite,2,2026-04-14,https://trueinterview.io/questions/lru-cache-with-expiration
-Diagnose Weekly Session Conversion Anomalies,Blog,,Onsite / virtual onsite,1,2026-04-03,https://trueinterview.io/questions/diagnose-weekly-session-conversion-anomalies
-Design Personalized Product Feeds,System Design,Medium,Onsite / virtual onsite,1,2026-04-01,https://trueinterview.io/questions/design-personalized-product-feeds
-Explain your career and flagship project,Blog,,Phone screen,1,2026-03-01,https://trueinterview.io/questions/explain-your-career-and-flagship-project
-Design search autocomplete ML system,System Design,Hard,Onsite / virtual onsite,1,2026-02-18,https://trueinterview.io/questions/design-search-autocomplete-ml-system
-Build model to predict package delivery time,System Design,Medium,Onsite / virtual onsite,1,2026-02-18,https://trueinterview.io/questions/build-model-to-predict-package-delivery-time
-Answer Product DS HR Screen,Blog,,Phone screen,1,2026-02-01,https://trueinterview.io/questions/answer-product-ds-hr-screen
-How would you improve AI-generated code?,Blog,,Phone screen,1,2026-01-27,https://trueinterview.io/questions/how-would-you-improve-ai-generated-code
-Present Piracy Trends to a PM,Blog,,Phone screen,1,2026-01-12,https://trueinterview.io/questions/present-piracy-trends-to-a-pm
-Word Search,Algorithm,Medium,Phone screen,4,2026-01-05,https://trueinterview.io/questions/word-search
-Measure App Store success and debug funnel anomaly,Blog,,Phone screen,1,2025-11-21,https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly
-"Ruby only, ~10 min",Algorithm,Easy,Online assessment,1,2025-08-29,https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min
-"C++ only, ~10 min",Algorithm,Easy,Online assessment,1,2025-08-29,https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min
-"Dynamic programming, ~45 min, any language",Algorithm,Medium,Online assessment,1,2025-08-29,https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language
-Paint House,Algorithm,Medium,Online assessment,1,2025-08-29,https://trueinterview.io/questions/swe-intern-coding-oa
-Cows and Bulls (Guess the Number),Algorithm,Medium,Onsite / virtual onsite,1,2025-06-19,https://trueinterview.io/questions/cows-and-bulls
-Justify and harden your analytics and BI stack,System Design,Hard,Phone screen,1,,https://trueinterview.io/questions/justify-and-harden-your-analytics-and-bi-stack
-Perform no-calculator math accurately and fast,Blog,,Phone screen,1,,https://trueinterview.io/questions/perform-no-calculator-math-accurately-and-fast
-Infer and justify non-trivial sequence patterns,Blog,,Phone screen,1,,https://trueinterview.io/questions/infer-and-justify-non-trivial-sequence-patterns
-"Explain life story, project leadership, and negotiation",Blog,,Phone screen,1,,https://trueinterview.io/questions/explain-life-story-project-leadership-and-negotiation
-Explain life-story choices and pre-read insights,Blog,,Phone screen,1,,https://trueinterview.io/questions/explain-life-story-choices-and-pre-read-insights
-Design robust experiment for ambiguous core change,Blog,,Phone screen,1,,https://trueinterview.io/questions/design-robust-experiment-for-ambiguous-core-change
-Describe toughest project and align stakeholders remotely,Blog,,Phone screen,1,,https://trueinterview.io/questions/describe-toughest-project-and-align-stakeholders-remotely
-Assess and push back on ideology-heavy interviews,Blog,,Phone screen,1,,https://trueinterview.io/questions/assess-and-push-back-on-ideology-heavy-interviews
-Design a 2D Robot with Turning and Movement + CLI,Object Oriented Programming,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/a917e16a-22aa-4528-9a7f-f579c8782e91
-Design an Extensible Text Editor with Multiple Renderers,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/96a826d5-6b64-5148-835c-9aa999e35b15
-Simulate a Robot Following Commands on a Grid,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/800f318f-3aba-4c06-9eef-ee7b1da55f6d
-Implement a URL Shortener in an Existing Repository,AI Coding,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/04c6601b-0cc8-4e2e-91d7-d33ada872e01
-Terminal Robot Simulator with Multiple Robots,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/5aa25c82-81de-5056-8e63-c7125c1306be
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,,2026-10-01,https://trueinterview.io/questions/lru-cache
+Bank Account Simulation Class With Self-Written Tests at 90% Coverage,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09-07,https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage
+Life Story / Values Interview,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-07-10,https://trueinterview.io/questions/life-story-values-interview
+Explain your career and flagship project,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-07,https://trueinterview.io/questions/explain-your-career-and-flagship-project
+Design search autocomplete ML system,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-07,https://trueinterview.io/questions/design-search-autocomplete-ml-system
+In-Memory Unix File System,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,3,,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
+Word Guessing Game (Wordle-style),Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-05-12,https://trueinterview.io/questions/word-guessing-game
+Product Categorization / Taxonomy,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-05-10,https://trueinterview.io/questions/ml-system-design-product-categorization
+ML Modeling Round (Forecasting / Targeting / Fraud),Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-05-10,https://trueinterview.io/questions/ml-modeling-round
+Use AI Responsibly During SQL Pair Programming,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-05-05,https://trueinterview.io/questions/use-ai-responsibly-during-sql-pair-programming
+Choose Between Batch and Streaming for a Data Pipeline,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-05-05,https://trueinterview.io/questions/choose-between-batch-and-streaming-for-a-data-pipeline
+Word Search,Algorithm,Medium,Phone screen,Intern; Junior / Mid; Senior,4,,2026-05,https://trueinterview.io/questions/word-search
+Design a Product Photography Upload Service,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-04-28,https://trueinterview.io/questions/design-a-product-photography-upload-service
+Compute Jaccard Similarity for Lists,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,2026-04-28,https://trueinterview.io/questions/compute-jaccard-similarity-for-lists
+Analyze Pirated Theme Usage Impact,SQL,Medium,Phone screen,Senior; Staff+,1,,2026-04-28,https://trueinterview.io/questions/analyze-pirated-theme-usage-impact
+LRU Cache with Expiration,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,,2026-04-14,https://trueinterview.io/questions/lru-cache-with-expiration
+Diagnose Weekly Session Conversion Anomalies,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-04-03,https://trueinterview.io/questions/diagnose-weekly-session-conversion-anomalies
+Design Personalized Product Feeds,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-04-01,https://trueinterview.io/questions/design-personalized-product-feeds
+Build model to predict package delivery time,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-02-18,https://trueinterview.io/questions/build-model-to-predict-package-delivery-time
+Answer Product DS HR Screen,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-02-01,https://trueinterview.io/questions/answer-product-ds-hr-screen
+How would you improve AI-generated code?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-01-27,https://trueinterview.io/questions/how-would-you-improve-ai-generated-code
+Present Piracy Trends to a PM,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-01-12,https://trueinterview.io/questions/present-piracy-trends-to-a-pm
+Measure App Store success and debug funnel anomaly,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2025-11-21,https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly
+"Ruby only, ~10 min",Algorithm,Easy,Online assessment,Intern; New grad,1,,2025-08-29,https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min
+"C++ only, ~10 min",Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,2025-08-29,https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min
+"Dynamic programming, ~45 min, any language",Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,,2025-08-29,https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language
+Paint House,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2025-08-29,https://trueinterview.io/questions/swe-intern-coding-oa
+Cows and Bulls (Guess the Number),Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2025-06-19,https://trueinterview.io/questions/cows-and-bulls
+Justify and harden your analytics and BI stack,System Design,Hard,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/justify-and-harden-your-analytics-and-bi-stack
+Perform no-calculator math accurately and fast,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/perform-no-calculator-math-accurately-and-fast
+Infer and justify non-trivial sequence patterns,Behavioral / Knowledge,,Phone screen,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/infer-and-justify-non-trivial-sequence-patterns
+"Explain life story, project leadership, and negotiation",Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/explain-life-story-project-leadership-and-negotiation
+Explain life-story choices and pre-read insights,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/explain-life-story-choices-and-pre-read-insights
+Design robust experiment for ambiguous core change,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-robust-experiment-for-ambiguous-core-change
+Describe toughest project and align stakeholders remotely,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/describe-toughest-project-and-align-stakeholders-remotely
+Assess and push back on ideology-heavy interviews,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/assess-and-push-back-on-ideology-heavy-interviews
+Design a 2D Robot with Turning and Movement + CLI,Object-Oriented Programming,Easy,Onsite / virtual onsite,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/a917e16a-22aa-4528-9a7f-f579c8782e91
+Design an Extensible Text Editor with Multiple Renderers,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/96a826d5-6b64-5148-835c-9aa999e35b15
+Simulate a Robot Following Commands on a Grid,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/800f318f-3aba-4c06-9eef-ee7b1da55f6d
+Implement a URL Shortener in an Existing Repository,AI Coding,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/04c6601b-0cc8-4e2e-91d7-d33ada872e01
+Terminal Robot Simulator with Multiple Robots,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/5aa25c82-81de-5056-8e63-c7125c1306be

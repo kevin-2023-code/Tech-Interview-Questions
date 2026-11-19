@@ -1,21 +1,21 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Compute specialty spend share and top age band,SQL,Medium,Phone screen,1,2025-10-17,https://trueinterview.io/questions/compute-specialty-spend-share-and-top-age-band
-Lead structured response to accuracy incident,Blog,,Phone screen,1,,https://trueinterview.io/questions/lead-structured-response-to-accuracy-incident
-Launch and measure a TV campaign,System Design,Hard,Phone screen,1,,https://trueinterview.io/questions/launch-and-measure-a-tv-campaign
-Handle challenges in MMM/MMX,Blog,,Phone screen,1,,https://trueinterview.io/questions/handle-challenges-in-mmm-mmx
-Explain your top strengths concretely,Blog,,Phone screen,1,,https://trueinterview.io/questions/explain-your-top-strengths-concretely
-Explain p-value and choose correct test,Blog,,Phone screen,1,,https://trueinterview.io/questions/explain-p-value-and-choose-correct-test
-Diagnose a failing campaign,Blog,,Phone screen,1,,https://trueinterview.io/questions/diagnose-a-failing-campaign
-Design classification under missingness and imbalance,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/design-classification-under-missingness-and-imbalance
-Design an email flu-shot experiment,Blog,,Phone screen,1,,https://trueinterview.io/questions/design-an-email-flu-shot-experiment
-Design a flu-shot A/B/n campaign experiment,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/design-a-flu-shot-a-b-n-campaign-experiment
-Describe handling pressure and stakeholder conflicts,Blog,,Phone screen,1,,https://trueinterview.io/questions/describe-handling-pressure-and-stakeholder-conflicts
-Calculate CI and Test Correlation Under Normality,Blog,,Online assessment,1,,https://trueinterview.io/questions/calculate-ci-and-test-correlation-under-normality
-Build an uplift model for targeting,Blog,,Phone screen,1,,https://trueinterview.io/questions/build-an-uplift-model-for-targeting
-Write SQL for dedup and purchase shares,SQL,Medium,Phone screen,1,,https://trueinterview.io/questions/write-sql-for-dedup-and-purchase-shares
-"Use pandas to aggregate, pivot, and label",AI Coding,Medium,Phone screen,1,,https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label
-"Create Views, Insert, and Update Correctly",SQL,Medium,Online assessment,1,,https://trueinterview.io/questions/create-views-insert-and-update-correctly
-Create and query an e-commerce schema,SQL,Medium,Online assessment,1,,https://trueinterview.io/questions/create-and-query-an-e-commerce-schema
-Compute age-band spend and YoY in Georgia,SQL,Medium,Phone screen,1,,https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia
-Calculate annual percentages and YoY by cohorts,SQL,Medium,Phone screen,1,,https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts
-"Compute A/B significance, CI, and power",Blog,,Online assessment,1,,https://trueinterview.io/questions/compute-a-b-significance-ci-and-power
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Compute specialty spend share and top age band,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/compute-specialty-spend-share-and-top-age-band
+Create and query an e-commerce schema,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/create-and-query-an-e-commerce-schema
+Describe handling pressure and stakeholder conflicts,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,2026-07,https://trueinterview.io/questions/describe-handling-pressure-and-stakeholder-conflicts
+Lead structured response to accuracy incident,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/lead-structured-response-to-accuracy-incident
+Launch and measure a TV campaign,System Design,Hard,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/launch-and-measure-a-tv-campaign
+Handle challenges in MMM/MMX,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/handle-challenges-in-mmm-mmx
+Explain your top strengths concretely,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/explain-your-top-strengths-concretely
+Explain p-value and choose correct test,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/explain-p-value-and-choose-correct-test
+Diagnose a failing campaign,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/diagnose-a-failing-campaign
+Design classification under missingness and imbalance,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-classification-under-missingness-and-imbalance
+Design an email flu-shot experiment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-an-email-flu-shot-experiment
+Design a flu-shot A/B/n campaign experiment,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-flu-shot-a-b-n-campaign-experiment
+Calculate CI and Test Correlation Under Normality,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/calculate-ci-and-test-correlation-under-normality
+Build an uplift model for targeting,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/build-an-uplift-model-for-targeting
+Write SQL for dedup and purchase shares,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/write-sql-for-dedup-and-purchase-shares
+"Use pandas to aggregate, pivot, and label",AI Coding,Medium,Phone screen,New grad; Junior / Mid,1,,,https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label
+"Create Views, Insert, and Update Correctly",SQL,Medium,Online assessment,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/create-views-insert-and-update-correctly
+Compute age-band spend and YoY in Georgia,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia
+Calculate annual percentages and YoY by cohorts,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts
+"Compute A/B significance, CI, and power",Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-a-b-significance-ci-and-power

@@ -1,24 +1,24 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Design a Chat Application with Durable Conversation History,System Design,Medium,Onsite / virtual onsite,1,2026-09-15,https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history
-Find Duplicate Files While Handling Symbolic-Link Cycles,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles
-Design and Evaluate a Retrieval-Augmented Generation Pipeline,System Design,Medium,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline
-Allocate Unique File Names in an In-Memory Vault,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault
-Citation Highlighting,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-08-09,https://trueinterview.io/questions/citation-highlighting
-Design Vault (Google Drive-Style File Storage),System Design,Medium,Onsite / virtual onsite,1,2026-07-07,https://trueinterview.io/questions/design-vault-google-drive-style-file-storage
-Harvey Values / Behavioral,Blog,,Onsite / virtual onsite,1,2026-07-02,https://trueinterview.io/questions/harvey-values-behavioral
-Design a Law Firm Memo Q&A AI Agent,System Design,Medium,Onsite / virtual onsite,1,2026-07,https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent
-Spreadsheet with Cell Dependencies,Object Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,1,2026-07,https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies
-In-Memory Unix File System,Object Oriented Programming,Medium,Phone screen,3,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
-Implement a Simple RAG in a Notebook,AI Coding,Medium,Onsite / virtual onsite,1,2026-06-11,https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook
-Implement a DB Connection Pool,Object Oriented Programming,Medium,Onsite / virtual onsite,2,2026-04-30,https://trueinterview.io/questions/implement-a-db-connection-pool
-Design a Cloud File Storage Service,System Design,Hard,Phone screen,1,2026-04-12,https://trueinterview.io/questions/design-a-cloud-file-storage-service-2
-Describe Leading a Technical Project,Blog,,Phone screen,1,2026-04-12,https://trueinterview.io/questions/describe-leading-a-technical-project
-Implement a Hierarchical File System,Object Oriented Programming,Medium,Phone screen,1,2026-04-12,https://trueinterview.io/questions/implement-a-hierarchical-file-system
-Design a Text Editor,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-04,https://trueinterview.io/questions/design-a-text-editor
-Resolve conflict across teams,Blog,,Onsite / virtual onsite,1,2026-02-18,https://trueinterview.io/questions/resolve-conflict-across-teams
-Implement tag matcher and filesystem,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-02-18,https://trueinterview.io/questions/implement-tag-matcher-and-filesystem
-Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like),Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb
-Citation Problem,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e
-Word Level Match and Tagging,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce
-Evaluate Symbols in an Expression Map (with Cycle Detection),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2
-Tag Exact-Matched Sources in a Document and Provide Citations,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design a Chat Application with Durable Conversation History,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-15,https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history
+Find Duplicate Files While Handling Symbolic-Link Cycles,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-09-01,https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles
+Design and Evaluate a Retrieval-Augmented Generation Pipeline,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-01,https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline
+Allocate Unique File Names in an In-Memory Vault,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09-01,https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault
+Citation Highlighting,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08-09,https://trueinterview.io/questions/citation-highlighting
+Spreadsheet with Cell Dependencies,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies
+Design Vault (Google Drive-Style File Storage),System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-07,https://trueinterview.io/questions/design-vault-google-drive-style-file-storage
+Harvey Values / Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-02,https://trueinterview.io/questions/harvey-values-behavioral
+Citation Problem,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e
+Tag Exact-Matched Sources in a Document and Provide Citations,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9
+Design a Law Firm Memo Q&A AI Agent,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07,https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent
+In-Memory Unix File System,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,3,,2026-06-15,https://trueinterview.io/questions/in-memory-unix-file-system
+Implement a Simple RAG in a Notebook,AI Coding,Medium,Onsite / virtual onsite,Senior,1,,2026-06-11,https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook
+Implement a Hierarchical File System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-05,https://trueinterview.io/questions/implement-a-hierarchical-file-system
+Evaluate Symbols in an Expression Map (with Cycle Detection),Algorithm,Medium,Phone screen,Senior,1,,2026-05,https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2
+Implement a DB Connection Pool,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,,2026-04-30,https://trueinterview.io/questions/implement-a-db-connection-pool
+Design a Cloud File Storage Service,System Design,Hard,Phone screen,Senior,1,,2026-04-12,https://trueinterview.io/questions/design-a-cloud-file-storage-service-2
+Describe Leading a Technical Project,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-04-12,https://trueinterview.io/questions/describe-leading-a-technical-project
+Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like),Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-04,https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb
+Design a Text Editor,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-04,https://trueinterview.io/questions/design-a-text-editor
+Resolve conflict across teams,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-03,https://trueinterview.io/questions/resolve-conflict-across-teams
+Implement tag matcher and filesystem,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-03,https://trueinterview.io/questions/implement-tag-matcher-and-filesystem
+Word Level Match and Tagging,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-03,https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce

@@ -1,29 +1,29 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Zero Compaction Array Coding,Algorithm,Easy,Onsite / virtual onsite,1,2026-06-23,https://trueinterview.io/questions/zero-compaction-array-coding
-Super Day Behavioral Round,Blog,,Onsite / virtual onsite,1,2026-06-23,https://trueinterview.io/questions/superday-behavioral-round
-Shopping Cart Latency and Inventory,System Design,Hard,Onsite / virtual onsite,1,2026-06-23,https://trueinterview.io/questions/shopping-cart-latency-and-inventory
-Interval Consolidation,Algorithm,Medium,Online assessment,1,2026-06-23,https://trueinterview.io/questions/interval-consolidation-oa
-Explain Core ML Concepts,Blog,,Phone screen,1,2026-04-24,https://trueinterview.io/questions/explain-core-ml-concepts-5
-Implement Integer Square Root,Algorithm,Medium,Phone screen,1,2026-04-24,https://trueinterview.io/questions/implement-integer-square-root
-Design a Reliable Bank Payment System,System Design,Hard,Onsite / virtual onsite,1,2026-04-23,https://trueinterview.io/questions/design-a-reliable-bank-payment-system
-URL Shortener With Click Tracking,System Design,Medium,Onsite / virtual onsite,1,2026-04-22,https://trueinterview.io/questions/url-shortener-with-click-tracking
-Process Scheduler II,Algorithm,Medium,Online assessment,1,2026-03-31,https://trueinterview.io/questions/minimum-cpu-cores
-Minimize Operations to Balance Shipments,Algorithm,Medium,Online assessment,1,2026-03-21,https://trueinterview.io/questions/minimize-operations-to-balance-shipments
-Course Schedule,Algorithm,Medium,Phone screen,11,2026-03-20,https://trueinterview.io/questions/course-schedule
-Explain Daily Signal Construction and a Prediction Workflow,Blog,,Phone screen,1,2026-03-18,https://trueinterview.io/questions/explain-daily-signal-construction-and-a-prediction-workflow
-Minimum Anagram Edits,Algorithm,Hard,Online assessment; Phone screen,1,2026-03-18,https://trueinterview.io/questions/minimum-anagram-edits
-Table of Contents from Markdown Headings II,Algorithm,Easy,Online assessment,1,2026-03-14,https://trueinterview.io/questions/markdown-table-of-contents
-Grouped Binary Substrings,Algorithm,Medium,Online assessment,2,2026-03-14,https://trueinterview.io/questions/grouped-binary-substrings
-Describe a proud project and conflict,Blog,,Onsite / virtual onsite,1,2026-03-10,https://trueinterview.io/questions/describe-a-proud-project-and-conflict
-Property Rental Search System,System Design,Medium,Onsite / virtual onsite,1,2026-02-08,https://trueinterview.io/questions/property-rental-search-system
-Quant Probability and Statistics Orals,Blog,,Phone screen; Onsite / virtual onsite,1,2026-01-15,https://trueinterview.io/questions/quant-probability-and-statistics-orals
-Domino Tiling Recurrences,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-01-15,https://trueinterview.io/questions/domino-tiling-recurrences
-C++ Virtual / Destructor / Pointer Review,Blog,,Onsite / virtual onsite,1,2026-01-15,https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review
-Count substrings and generate TOC,Algorithm,Hard,Phone screen,1,2026-01-13,https://trueinterview.io/questions/count-substrings-and-generate-toc
-Minimum Swaps to Sort (Cycle Decomposition),Algorithm,Medium,Online assessment,2,2025-12-20,https://trueinterview.io/questions/minimum-swaps-to-sort-cycle
-Interval Sign Flips,Algorithm,Medium,Online assessment,1,2025-11-19,https://trueinterview.io/questions/interval-sign-flips
-Split Array: Left Sum Greater,Algorithm,Easy,Online assessment,1,2025-09-05,https://trueinterview.io/questions/split-array-left-sum-greater
-Delete-One-Character Positions,Algorithm,Easy,Online assessment; Phone screen,1,2025-07-29,https://trueinterview.io/questions/delete-one-character-positions
-Circular Active Computers Window,Algorithm,Medium,Online assessment; Phone screen,1,2025-07-29,https://trueinterview.io/questions/circular-active-computers-window
-Alphanumeric Vowel / Consonant Count,Algorithm,Easy,Online assessment,1,2025-06-30,https://trueinterview.io/questions/alphanumeric-vowel-consonant-count
-Million-User Flash Sale System,System Design,Hard,Onsite / virtual onsite,1,2025-06-21,https://trueinterview.io/questions/million-user-flash-sale-system
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
+Super Day Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/superday-behavioral-round
+Grouped Binary Substrings,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,,2026-09,https://trueinterview.io/questions/grouped-binary-substrings
+Describe a proud project and conflict,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/describe-a-proud-project-and-conflict
+Zero Compaction Array Coding,Algorithm,Easy,Onsite / virtual onsite,Senior,1,,2026-06-23,https://trueinterview.io/questions/zero-compaction-array-coding
+Shopping Cart Latency and Inventory,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-06-23,https://trueinterview.io/questions/shopping-cart-latency-and-inventory
+Interval Consolidation,Algorithm,Medium,Online assessment,Senior,1,,2026-06-23,https://trueinterview.io/questions/interval-consolidation-oa
+Explain Core ML Concepts,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-04-24,https://trueinterview.io/questions/explain-core-ml-concepts-5
+Implement Integer Square Root,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-04-24,https://trueinterview.io/questions/implement-integer-square-root
+Design a Reliable Bank Payment System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-04-23,https://trueinterview.io/questions/design-a-reliable-bank-payment-system
+URL Shortener With Click Tracking,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-04-22,https://trueinterview.io/questions/url-shortener-with-click-tracking
+Process Scheduler II,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2026-03-31,https://trueinterview.io/questions/minimum-cpu-cores
+Minimize Operations to Balance Shipments,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2026-03-21,https://trueinterview.io/questions/minimize-operations-to-balance-shipments
+Explain Daily Signal Construction and a Prediction Workflow,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-03-18,https://trueinterview.io/questions/explain-daily-signal-construction-and-a-prediction-workflow
+Minimum Anagram Edits,Algorithm,Hard,Online assessment; Phone screen,Junior / Mid,1,,2026-03-18,https://trueinterview.io/questions/minimum-anagram-edits
+Table of Contents from Markdown Headings II,Algorithm,Easy,Online assessment,New grad,1,,2026-03-14,https://trueinterview.io/questions/markdown-table-of-contents
+Property Rental Search System,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-02-08,https://trueinterview.io/questions/property-rental-search-system
+Quant Probability and Statistics Orals,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-01-15,https://trueinterview.io/questions/quant-probability-and-statistics-orals
+Domino Tiling Recurrences,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-01-15,https://trueinterview.io/questions/domino-tiling-recurrences
+C++ Virtual / Destructor / Pointer Review,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-01-15,https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review
+Count substrings and generate TOC,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-01-13,https://trueinterview.io/questions/count-substrings-and-generate-toc
+Minimum Swaps to Sort (Cycle Decomposition),Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,,2025-12-20,https://trueinterview.io/questions/minimum-swaps-to-sort-cycle
+Circular Active Computers Window,Algorithm,Medium,Online assessment; Phone screen,Junior / Mid; Senior,1,,2025-12,https://trueinterview.io/questions/circular-active-computers-window
+Interval Sign Flips,Algorithm,Medium,Online assessment,Junior / Mid,1,,2025-11-19,https://trueinterview.io/questions/interval-sign-flips
+Split Array: Left Sum Greater,Algorithm,Easy,Online assessment,New grad,1,,2025-09-05,https://trueinterview.io/questions/split-array-left-sum-greater
+Delete-One-Character Positions,Algorithm,Easy,Online assessment; Phone screen,Junior / Mid,1,,2025-07-29,https://trueinterview.io/questions/delete-one-character-positions
+Alphanumeric Vowel / Consonant Count,Algorithm,Easy,Online assessment,New grad,1,,2025-06-30,https://trueinterview.io/questions/alphanumeric-vowel-consonant-count
+Million-User Flash Sale System,System Design,Hard,Onsite / virtual onsite,Senior,1,,2025-06-21,https://trueinterview.io/questions/million-user-flash-sale-system

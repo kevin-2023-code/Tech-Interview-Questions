@@ -1,56 +1,56 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Star Sum: Best k-Star Sum in a Graph,Algorithm,Medium,Online assessment,1,2026-10-04,https://trueinterview.io/questions/oa-star-sum-best-k-star
-Evaluate a Retrieval-Augmented Generation System,System Design,Medium,Phone screen,1,2026-08-21,https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system
-Keep Gradient Descent from Stalling at Poor Solutions,Blog,,Phone screen,1,2026-08-21,https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions
-Connect Bias-Variance Trade-offs to Bagging and Boosting,Blog,,Phone screen,1,2026-08-21,https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting
-Compare Transformers and RNNs and Derive Attention Complexity,Blog,,Phone screen,1,2026-08-21,https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity
-Forecast Food Stocking Needs Under Waste and Stockout Costs,System Design,Hard,Phone screen,1,2026-08-21,https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs
-Explain an End-to-End ML Project to Mixed Audiences,Blog,,Onsite / virtual onsite,1,2026-08-15,https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences
-Find the Intersection of Two Linked Chains,Algorithm,Medium,Onsite / virtual onsite,1,2026-08-15,https://trueinterview.io/questions/find-the-intersection-of-two-linked-chains
-Odd Even Linked List,Algorithm,Medium,Phone screen,4,2026-03,https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a
-Word Search II,Algorithm,Hard,Phone screen,7,2026-02-19,https://trueinterview.io/questions/word-search-ii
-Design a restaurant reservation system,System Design,Medium,Onsite / virtual onsite,1,2025-11-07,https://trueinterview.io/questions/design-a-restaurant-reservation-system
-Library Book Management System Design and API Architecture,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/c51674da-fe87-4c8a-ae4c-953716a356b6
-Analyze the Time Complexity of Nested Loops,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413
-Find Sizes of Connected Components in Undirected Graph,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/af13d587-fd07-4ba9-b6f6-86a9f4b405ac
-Alternating Iterator Over Two Lists,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/zigzag-interleaving-iterator
-Nearest Gate Distances in a Grid of Rooms,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/walls-and-gates
-Check Whether a Binary Tree Obeys Search-Tree Ordering,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/validate-bst
-Streaming Frequent-Event Tracker With a Fixed K,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/top-k-heavy-hitters-stream
-Counting Countdown Timers After N Days,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/timer-reset-population-growth
-Versioned Key-Value Store With Point-in-Time Reads,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/time-based-key-value-store-3
-Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,4,,https://trueinterview.io/questions/three-sum
-Greedy Line Wrapping with Even Word Spacing,Algorithm,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/text-justification
-Design a Sparse Vector Class With a Fast Dot Product,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/sparse-vector-dot-product
-Pairing Tracks With Minute-Aligned Total Length,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/song-pairs-divisible-by-60
-Versioned Array With Cheap Snapshots and Historical Reads,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/snapshot-array
-Cutting a Metal Sheet into Squares for Maximum Revenue,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/sheet-metal-cutting-max-value
-"Build a Sortable, Filterable Paginated Table in React",Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/react-paginated-product-table
-Shortest Substring Covering All Characters of a Pattern,Algorithm,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/minimum-window-substring-4
-Combine Many Pre-Sorted Lists Into One,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/merge-k-sorted-arrays
-Maximum Score Taking Cards From Either End,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/max-points-from-cards
-Longest Equal-Step Subsequence in an Integer Array,Algorithm,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/longest-arithmetic-subsequence
-Design a Multi-Branch Library Database for Books and E-books,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/library-management-db-design
-Nearest K Points to the Origin,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/k-closest-points-to-origin
-Count Days a Temperature Stays the Maximum,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/highest-temperature-span
-Bucket Words That Share the Same Letters,Algorithm,Easy,Phone screen,1,,https://trueinterview.io/questions/group-anagrams-2
-Reachability on a Height Grid With a Climb Limit,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/grid-jump-reachability
-Enumerate All Balanced Bracket Strings for N Pairs,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/generate-parentheses
-Two-Basket Fruit Picking Along a Tree Row,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/fruit-into-baskets
-Iterator Over Arbitrarily Nested Integer Lists,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/flatten-nested-list-iterator
-Spot the Repeated Value in a Constrained Array,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/find-duplicate-number
-Compute Ratios From Variable Equations,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/evaluate-division-2
-Company Org Chart Queries From a Manager Link List,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/employee-hierarchy-tree
-Design a Multi-Car Elevator Dispatch and Control System,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/elevator-system-design
-Predictive Early Warning System for Service Outages,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/downtime-early-warning-system
-Live Leaderboard of Company Share Totals,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/company-shares-top-k
-Enumerate Fixed-Size Selections Preserving Array Order,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/combinations-of-length-k
-Tab History with Back and Forward Navigation,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/browser-history
-Nodes Visible When Viewing a Binary Tree From One Side,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/binary-tree-right-side-view-2
-Path Between Two Nodes in a Binary Tree,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/binary-tree-path-between-nodes
-Count Binary Subarrays Hitting a Target Sum,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/binary-subarrays-with-sum
-Minimum Total Manhattan Travel to a Shared Meeting Cell,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/best-meeting-point
-Design an ATM Authentication and PIN Security Flow,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/atm-design-pin-handling
-Build a Reduce Polyfill and a Stoppable Repeating Timer,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/array-reduce-and-cancellable-interval
-Count Distinct Value Pairs With a Fixed Difference,Algorithm,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/k-diff-pairs
-"Describe challenge, influence, and mentorship outcomes",Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Star Sum: Best k-Star Sum in a Graph,Algorithm,Medium,Online assessment,New grad,1,,2026-10-04,https://trueinterview.io/questions/oa-star-sum-best-k-star
+Analyze the Time Complexity of Nested Loops,Behavioral / Knowledge,,Onsite / virtual onsite,New grad,1,,2026-10,https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413
+Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,,2026-10,https://trueinterview.io/questions/word-search-ii
+Versioned Key-Value Store With Point-in-Time Reads,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,,2026-09,https://trueinterview.io/questions/time-based-key-value-store-3
+Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/three-sum
+Evaluate a Retrieval-Augmented Generation System,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-08-21,https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system
+Keep Gradient Descent from Stalling at Poor Solutions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-08-21,https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions
+Connect Bias-Variance Trade-offs to Bagging and Boosting,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-08-21,https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting
+Compare Transformers and RNNs and Derive Attention Complexity,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-08-21,https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity
+Forecast Food Stocking Needs Under Waste and Stockout Costs,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-08-21,https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs
+Explain an End-to-End ML Project to Mixed Audiences,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-15,https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences
+Find the Intersection of Two Linked Chains,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-08-15,https://trueinterview.io/questions/find-the-intersection-of-two-linked-chains
+Enumerate All Balanced Bracket Strings for N Pairs,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-06,https://trueinterview.io/questions/generate-parentheses
+Odd Even Linked List,Algorithm,Medium,Phone screen,Senior,4,,2026-03,https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a
+Design a restaurant reservation system,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2025-11-07,https://trueinterview.io/questions/design-a-restaurant-reservation-system
+Library Book Management System Design and API Architecture,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2025-03,https://trueinterview.io/questions/c51674da-fe87-4c8a-ae4c-953716a356b6
+Shortest Substring Covering All Characters of a Pattern,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2025-03,https://trueinterview.io/questions/minimum-window-substring-4
+Find Sizes of Connected Components in Undirected Graph,Algorithm,Easy,Online assessment,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/af13d587-fd07-4ba9-b6f6-86a9f4b405ac
+Alternating Iterator Over Two Lists,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/zigzag-interleaving-iterator
+Nearest Gate Distances in a Grid of Rooms,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/walls-and-gates
+Check Whether a Binary Tree Obeys Search-Tree Ordering,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/validate-bst
+Streaming Frequent-Event Tracker With a Fixed K,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/top-k-heavy-hitters-stream
+Counting Countdown Timers After N Days,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/timer-reset-population-growth
+Greedy Line Wrapping with Even Word Spacing,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/text-justification
+Design a Sparse Vector Class With a Fast Dot Product,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/sparse-vector-dot-product
+Pairing Tracks With Minute-Aligned Total Length,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/song-pairs-divisible-by-60
+Versioned Array With Cheap Snapshots and Historical Reads,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/snapshot-array
+Cutting a Metal Sheet into Squares for Maximum Revenue,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/sheet-metal-cutting-max-value
+"Build a Sortable, Filterable Paginated Table in React",Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/react-paginated-product-table
+Combine Many Pre-Sorted Lists Into One,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/merge-k-sorted-arrays
+Maximum Score Taking Cards From Either End,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/max-points-from-cards
+Longest Equal-Step Subsequence in an Integer Array,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/longest-arithmetic-subsequence
+Design a Multi-Branch Library Database for Books and E-books,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/library-management-db-design
+Nearest K Points to the Origin,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/k-closest-points-to-origin
+Count Days a Temperature Stays the Maximum,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/highest-temperature-span
+Bucket Words That Share the Same Letters,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/group-anagrams-2
+Reachability on a Height Grid With a Climb Limit,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/grid-jump-reachability
+Two-Basket Fruit Picking Along a Tree Row,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/fruit-into-baskets
+Iterator Over Arbitrarily Nested Integer Lists,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/flatten-nested-list-iterator
+Spot the Repeated Value in a Constrained Array,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/find-duplicate-number
+Compute Ratios From Variable Equations,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/evaluate-division-2
+Company Org Chart Queries From a Manager Link List,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/employee-hierarchy-tree
+Design a Multi-Car Elevator Dispatch and Control System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/elevator-system-design
+Predictive Early Warning System for Service Outages,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/downtime-early-warning-system
+Live Leaderboard of Company Share Totals,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/company-shares-top-k
+Enumerate Fixed-Size Selections Preserving Array Order,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/combinations-of-length-k
+Tab History with Back and Forward Navigation,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/browser-history
+Nodes Visible When Viewing a Binary Tree From One Side,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/binary-tree-right-side-view-2
+Path Between Two Nodes in a Binary Tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/binary-tree-path-between-nodes
+Count Binary Subarrays Hitting a Target Sum,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/binary-subarrays-with-sum
+Minimum Total Manhattan Travel to a Shared Meeting Cell,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/best-meeting-point
+Design an ATM Authentication and PIN Security Flow,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/atm-design-pin-handling
+Build a Reduce Polyfill and a Stoppable Repeating Timer,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/array-reduce-and-cancellable-interval
+Count Distinct Value Pairs With a Fixed Difference,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/k-diff-pairs
+"Describe challenge, influence, and mentorship outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes

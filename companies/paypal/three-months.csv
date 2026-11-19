@@ -1,2 +1,4 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-LRU Cache,AI Coding,Medium,Phone screen,10,2026-10-01,https://trueinterview.io/questions/lru-cache
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,,2026-10-01,https://trueinterview.io/questions/lru-cache
+Lowest Common Ancestor of a Binary Tree,Algorithm,Easy,Phone screen,Intern; Junior / Mid; Senior,8,,2026-09,https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree
+Bank System,Object-Oriented Programming,Hard,Online assessment,Junior / Mid,3,,2026-09,https://trueinterview.io/questions/bank-system

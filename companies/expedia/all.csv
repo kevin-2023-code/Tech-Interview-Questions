@@ -1,42 +1,42 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Design Google News,System Design,Medium,Phone screen; Onsite / virtual onsite,4,2026-06-28,https://trueinterview.io/questions/google-news-aggregator
-Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,10,2026-06-17,https://trueinterview.io/questions/booking-system-design
-Range Negate Data Updates,Algorithm,Medium,Online assessment,1,2026-05-30,https://trueinterview.io/questions/range-negate-data-updates
-Count Dropped Requests,Algorithm,Medium,Phone screen,1,2026-05-30,https://trueinterview.io/questions/count-dropped-requests
-Card Packets with Identical Distribution,Algorithm,Medium,Online assessment,2,2026-05-30,https://trueinterview.io/questions/card-packets-with-identical-distribution
-Design Notification System,System Design,Easy,Onsite / virtual onsite,13,2026-04-12,https://trueinterview.io/questions/design-a-notification-system-for-reddit
-Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,5,2026-04-09,https://trueinterview.io/questions/ml-system-design-notifications-ctr
-Distributed Rate Limiter,Algorithm,Medium,Onsite / virtual onsite,5,2026-04-01,https://trueinterview.io/questions/distributed-rate-limiter
-Design Access Management System,System Design,Medium,Onsite / virtual onsite,8,2026-02-22,https://trueinterview.io/questions/role-and-resource-access-system
-How do you learn new knowledge quickly?,Blog,,Onsite / virtual onsite,1,2026-01-06,https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly
-Describe when you distrusted a colleague,Blog,,Phone screen,1,2026-01-06,https://trueinterview.io/questions/describe-when-you-distrusted-a-colleague
-Solve three interview coding problems,Algorithm,Hard,Phone screen,1,2026-01-06,https://trueinterview.io/questions/solve-three-interview-coding-problems
-Design Payment System,System Design,Hard,Onsite / virtual onsite,10,2025-12-10,https://trueinterview.io/questions/payment-platform-design
-House Robber Series,Algorithm,Medium,Phone screen; Onsite / virtual onsite,5,2025-11-18,https://trueinterview.io/questions/house-robber-series
-Design a listing connectivity ingestion service,System Design,Medium,Phone screen,1,2025-11-05,https://trueinterview.io/questions/design-a-listing-connectivity-ingestion-service
-How do you use AI for coding?,Blog,,Phone screen,1,2025-10-29,https://trueinterview.io/questions/how-do-you-use-ai-for-coding
-Validate and monitor ranking model end-to-end,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end
-Lead alignment under ambiguity and pressure,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/lead-alignment-under-ambiguity-and-pressure
-Choose KPIs and prove impact with experiments,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments
-Audit and onboard unfamiliar datasets safely,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/audit-and-onboard-unfamiliar-datasets-safely
-Longest Common Subsequence-Substring,Algorithm,Medium,Online assessment; Onsite / virtual onsite,2,,https://trueinterview.io/questions/longest-common-subsequence-substring-2
-Calculate Triangle Area from Three Coordinate Points,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/f13e1f46-76a9-4caa-b697-ffdd9abcd68e
-Minimum Machines for Task Scheduling,Algorithm,Medium,Online assessment,2,,https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36
-Minimum Steps to Reorder Layers,Algorithm,Hard,Online assessment,1,,https://trueinterview.io/questions/b99ee58c-743f-4caf-a4f4-751b8ca48ecc
-Get Maximum Efficiency,Algorithm,Hard,Phone screen,2,,https://trueinterview.io/questions/b2ff328c-50ce-40b3-b37a-3301dc7c3f58
-Rank Songs by Popularity,Algorithm,Medium,Online assessment,2,,https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49
-Count Groups with Maximum Language Relationships,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/60045377-fc3f-4505-9688-a3134b5faa33
-Minimum Additional Capabilities to Equalize Team Work Hours,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/5c1401d7-3928-496a-b8ac-cd5bba5b5587
-Number of Provinces,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2
-Maximize Hole in Prison Gate,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817
-Merge One Linked List Into Another Between Two Indices,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69
-Scattered Palindrome Substring Count (Swappable to Palindrome),Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d
-Parse a JSON string and extract required information (open-ended),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/8a6ac321-b88a-4686-abf2-851967bbfbce
-Restore String with Target Digit Sum,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f
-Implement a Basic Tokenizer and Train a Simple LLM-like Model in a Notebook Case Study,AI Coding,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/3fce3482-1d0c-4a6c-b134-e4ac6a07601b
-Count Strongly Connected Components Using Kosaraju's Algorithm,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6
-Beautiful Towers II,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9
-Find Round-Trip Flight Itineraries,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0
-Counting Subsequence with Same Character Frequency,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c
-Count Number of Nice Subarrays,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19
-House Robber (Large Inputs),Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/251a1e5d-072f-491a-b8c2-95730c39f8e5
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/payment-platform-design
+Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/booking-system-design
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+House Robber Series,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,5,,2026-09,https://trueinterview.io/questions/house-robber-series
+Minimum Machines for Task Scheduling,Algorithm,Medium,Online assessment,Junior / Mid,2,,2026-07,https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36
+Find Round-Trip Flight Itineraries,Algorithm,Medium,Phone screen,Senior,1,,2026-07,https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0
+Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,5,,2026-07,https://trueinterview.io/questions/ml-system-design-notifications-ctr
+Design Google News,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,4,,2026-07,https://trueinterview.io/questions/google-news-aggregator
+Number of Provinces,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,,2026-06,https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2
+Maximize Hole in Prison Gate,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817
+Merge One Linked List Into Another Between Two Indices,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69
+Count Strongly Connected Components Using Kosaraju's Algorithm,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6
+Beautiful Towers II,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9
+Count Number of Nice Subarrays,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,,2026-06,https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19
+Range Negate Data Updates,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,,2026-05-30,https://trueinterview.io/questions/range-negate-data-updates
+Count Dropped Requests,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-05-30,https://trueinterview.io/questions/count-dropped-requests
+Card Packets with Identical Distribution,Algorithm,Medium,Online assessment,Intern; New grad,2,,2026-05-30,https://trueinterview.io/questions/card-packets-with-identical-distribution
+Implement a Basic Tokenizer and Train a Simple LLM-like Model in a Notebook Case Study,AI Coding,Medium,Onsite / virtual onsite,Senior,1,,2026-05,https://trueinterview.io/questions/3fce3482-1d0c-4a6c-b134-e4ac6a07601b
+House Robber (Large Inputs),Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,,2026-05,https://trueinterview.io/questions/251a1e5d-072f-491a-b8c2-95730c39f8e5
+Design Access Management System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,8,,2026-04,https://trueinterview.io/questions/role-and-resource-access-system
+Distributed Rate Limiter,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-04-01,https://trueinterview.io/questions/distributed-rate-limiter
+Describe when you distrusted a colleague,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-03,https://trueinterview.io/questions/describe-when-you-distrusted-a-colleague
+Scattered Palindrome Substring Count (Swappable to Palindrome),Algorithm,Hard,Phone screen,Senior,1,,2026-03,https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d
+Restore String with Target Digit Sum,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-03,https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f
+How do you use AI for coding?,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-02,https://trueinterview.io/questions/how-do-you-use-ai-for-coding
+Parse a JSON string and extract required information (open-ended),Algorithm,Medium,Phone screen,Senior,1,,2026-02,https://trueinterview.io/questions/8a6ac321-b88a-4686-abf2-851967bbfbce
+How do you learn new knowledge quickly?,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-01-06,https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly
+Solve three interview coding problems,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,,2026-01-06,https://trueinterview.io/questions/solve-three-interview-coding-problems
+Design a listing connectivity ingestion service,System Design,Medium,Phone screen,Senior; Staff+,1,,2025-11-05,https://trueinterview.io/questions/design-a-listing-connectivity-ingestion-service
+Counting Subsequence with Same Character Frequency,Algorithm,Hard,Phone screen,New grad,1,,2025-03,https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c
+Validate and monitor ranking model end-to-end,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end
+Lead alignment under ambiguity and pressure,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/lead-alignment-under-ambiguity-and-pressure
+Choose KPIs and prove impact with experiments,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments
+Audit and onboard unfamiliar datasets safely,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/audit-and-onboard-unfamiliar-datasets-safely
+Longest Common Subsequence-Substring,Algorithm,Medium,Online assessment; Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,,,https://trueinterview.io/questions/longest-common-subsequence-substring-2
+Calculate Triangle Area from Three Coordinate Points,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/f13e1f46-76a9-4caa-b697-ffdd9abcd68e
+Minimum Steps to Reorder Layers,Algorithm,Hard,Online assessment,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/b99ee58c-743f-4caf-a4f4-751b8ca48ecc
+Get Maximum Efficiency,Algorithm,Hard,Phone screen,Junior / Mid; Senior,2,,,https://trueinterview.io/questions/b2ff328c-50ce-40b3-b37a-3301dc7c3f58
+Rank Songs by Popularity,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,,,https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49
+Count Groups with Maximum Language Relationships,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/60045377-fc3f-4505-9688-a3134b5faa33
+Minimum Additional Capabilities to Equalize Team Work Hours,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/5c1401d7-3928-496a-b8ac-cd5bba5b5587

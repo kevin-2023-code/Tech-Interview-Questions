@@ -1,6 +1,6 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-SongShuffler with Cooldown to Prevent Recent Repeats,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/f2ece2d0-63e8-4cff-8b0b-adcbdb3fd61a
-Restaurant Recipe and Inventory Management,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/ccad3380-939d-5dd7-80f7-ec94b71f9272
-Priority-Based Rate-Limited Web Crawler Design,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/b03b2470-1381-490c-9ac6-cd85d1245d22
-Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/6dfaaed2-150f-436b-9d6d-d5977f06ec21
-Median and Percentile from a Data Stream,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Median and Percentile from a Data Stream,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993
+Restaurant Recipe and Inventory Management,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/ccad3380-939d-5dd7-80f7-ec94b71f9272
+Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-03,https://trueinterview.io/questions/6dfaaed2-150f-436b-9d6d-d5977f06ec21
+SongShuffler with Cooldown to Prevent Recent Repeats,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/f2ece2d0-63e8-4cff-8b0b-adcbdb3fd61a
+Priority-Based Rate-Limited Web Crawler Design,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/b03b2470-1381-490c-9ac6-cd85d1245d22

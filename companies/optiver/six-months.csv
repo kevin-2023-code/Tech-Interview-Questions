@@ -1,3 +1,11 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Build Binary Tree from Edges / S-Expression,Algorithm,Hard,Online assessment; Take-home,1,2026-06-15,https://trueinterview.io/questions/binary-tree-from-edges
-Thread-Safe Buy/Sell Without Overselling,Object Oriented Programming,Medium,Phone screen,1,2026-05-30,https://trueinterview.io/questions/multithreaded-buy-sell-lock
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Trading Betting Game (EV / Market-Making),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/trading-betting-game
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Zap-N Reaction & Memory Mini-Games,Behavioral / Knowledge,,Online assessment,Intern; New grad; Junior / Mid,1,,2026-08,https://trueinterview.io/questions/zap-n-reaction-games
+HR / Behavioral Phone Screen,Behavioral / Knowledge,,Phone screen,Intern; New grad; Junior / Mid,1,,2026-08,https://trueinterview.io/questions/hr-behavioral-screen
+Currency Exchange,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-08,https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971
+Koko Eating Bananas,Algorithm,Medium,Phone screen,Senior,4,,2026-08,https://trueinterview.io/questions/koko-eating-bananas
+Answer why SWE and why Optiver,Behavioral / Knowledge,,Onsite / virtual onsite,Intern,1,,2026-07,https://trueinterview.io/questions/answer-why-swe-and-why-optiver
+Build Binary Tree from Edges / S-Expression,Algorithm,Hard,Online assessment; Take-home,New grad; Senior,1,,2026-06-15,https://trueinterview.io/questions/binary-tree-from-edges
+Days Between Dates (Days Between 3.0 V2),Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2026-06,https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6
+Thread-Safe Buy/Sell Without Overselling,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-05-30,https://trueinterview.io/questions/multithreaded-buy-sell-lock

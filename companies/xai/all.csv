@@ -1,43 +1,43 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Render Nested JSON in a Code-Style Viewer,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-09-15,https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer
-Load and Display a React List with useEffect,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-15,https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect
-Implement an Asynchronous React Typeahead,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-15,https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead
-Design a Collaborative Document Editor,System Design,Hard,Onsite / virtual onsite,1,2026-09-15,https://trueinterview.io/questions/design-a-collaborative-document-editor
-Tweets' Rolling Averages,SQL,Medium,Phone screen,1,2026-07-22,https://trueinterview.io/questions/tweets-rolling-averages
-Most Challenging Project + Why xAI,Blog,,Phone screen,1,2026-06-19,https://trueinterview.io/questions/most-challenging-project-why-xai
-Dasher Payment Model,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,2,2026-06-11,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
-Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,4,2026-05-26,https://trueinterview.io/questions/design-chatgpt
-Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,14,2026-05,https://trueinterview.io/questions/sliding-window-rate-limiter
-Design Notification System,System Design,Easy,Onsite / virtual onsite,13,2026-04-12,https://trueinterview.io/questions/design-a-notification-system-for-reddit
-Multithreaded BankAccount Race-Condition Bug Hunt,Object Oriented Programming,Medium,Phone screen,1,2026-04-04,https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt
-Data Parallel & FSDP Matrix Multiplication,AI Coding,Hard,Phone screen,1,2026-04-04,https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication
-Resumable Iterator with Save / Restore State,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-04-02,https://trueinterview.io/questions/resumable-iterator-design
-In-Memory Database — Levels 1–4 (TTL + Backup/Restore),Object Oriented Programming,Hard,Online assessment; Take-home,1,2026-04-01,https://trueinterview.io/questions/in-memory-database-ttl-backup
-Distributed Rate Limiter,Algorithm,Medium,Onsite / virtual onsite,5,2026-04-01,https://trueinterview.io/questions/distributed-rate-limiter
-Nested Structure Flatten and Unflatten,Algorithm,Medium,Phone screen,1,2026-02-26,https://trueinterview.io/questions/nested-structure-flatten-and-unflatten
-Answer technical-challenge and motivation questions,Blog,,Online assessment,1,2026-02-07,https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions
-Weighted LRU Cache,Object Oriented Programming,Medium,Phone screen,10,2026-02-01,https://trueinterview.io/questions/weighted-lru-cache-2
-Agentic Workflow for 1-Hour Movie Generation,System Design,Medium,Phone screen,1,2026-01-29,https://trueinterview.io/questions/agentic-one-hour-movie-generation
-Rate Limiter — Inbound + Outbound,System Design,Medium,Take-home; Onsite / virtual onsite,1,2026-01-28,https://trueinterview.io/questions/rate-limiter-design
-Twitter Insight Platform,AI Coding,Hard,Online assessment; Take-home,1,2026-01-28,https://trueinterview.io/questions/twitter-insight-platform-take-home
-Process vs Thread (Verbal CS Fundamentals),Blog,,Phone screen,1,2026-01-27,https://trueinterview.io/questions/process-vs-thread-verbal
-Checkers Game,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-01-26,https://trueinterview.io/questions/checkers-backend-design
-Twitter Spaces Active Time,Algorithm,Medium,Onsite / virtual onsite,1,2026-01-26,https://trueinterview.io/questions/twitter-spaces-active-time
-Design a schema for server engagement,SQL,Medium,Phone screen,1,2026-01-17,https://trueinterview.io/questions/design-a-schema-for-server-engagement
-Implement two string utility functions,Algorithm,Easy,Phone screen,1,2026-01-17,https://trueinterview.io/questions/implement-two-string-utility-functions
-Multithreaded Array Sort,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-01-15,https://trueinterview.io/questions/parallel-integer-sort
-Maximum Number of Distinct Elements After Operations,Algorithm,Medium,Phone screen,1,2026-01-15,https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations
-K-th Element on a Streaming Time Window,Algorithm,Hard,Onsite / virtual onsite,1,2026-01-14,https://trueinterview.io/questions/kth-element-streaming-window
-Dynamic Batch Inference,Object Oriented Programming,Medium,Phone screen,1,2025-12-14,https://trueinterview.io/questions/dynamic-batch-inference
-Find Bad GPU Nodes,Algorithm,Hard,Phone screen,1,2025-12-14,https://trueinterview.io/questions/group-test-gpu-nodes
-How Would You Prevent Hallucinations in an LLM-Based System?,Blog,,Phone screen,1,2025-11-21,https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system
-N-gram Split,Algorithm,Medium,Phone screen; Onsite / virtual onsite,2,,https://trueinterview.io/questions/n-gram-split-2
-Transactional Key-Value Store,Object Oriented Programming,Hard,Onsite / virtual onsite,2,,https://trueinterview.io/questions/transactional-key-value-store
-Design Token Limiter,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73
-Design a RAG System,System Design,Easy,Onsite / virtual onsite,3,,https://trueinterview.io/questions/design-a-rag-system
-Radix Cache,Object Oriented Programming,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/radix-cache
-Durable KV Cache,Object Oriented Programming,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/durable-kv-cache
-In-Memory Key-Value Store with Transactions,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/in-memory-key-value-store-with-transactions
-Handwrite parallelized sort,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac
-Design a Distributed KV Store,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-a-distributed-kv-store
-Design a Rate Limiter with Variable User Quotas,System Design,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
+Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
+Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,,2026-10,https://trueinterview.io/questions/design-chatgpt
+Render Nested JSON in a Code-Style Viewer,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer
+Load and Display a React List with useEffect,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect
+Implement an Asynchronous React Typeahead,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-15,https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead
+Design a Collaborative Document Editor,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-15,https://trueinterview.io/questions/design-a-collaborative-document-editor
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+Tweets' Rolling Averages,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,2026-07-22,https://trueinterview.io/questions/tweets-rolling-averages
+Most Challenging Project + Why xAI,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-06-19,https://trueinterview.io/questions/most-challenging-project-why-xai
+Transactional Key-Value Store,Object-Oriented Programming,Hard,Onsite / virtual onsite,Intern; Junior / Mid,2,,2026-06,https://trueinterview.io/questions/transactional-key-value-store
+Multithreaded BankAccount Race-Condition Bug Hunt,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-04-04,https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt
+Data Parallel & FSDP Matrix Multiplication,AI Coding,Hard,Phone screen,Junior / Mid,1,,2026-04-04,https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication
+Resumable Iterator with Save / Restore State,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Senior,1,,2026-04-02,https://trueinterview.io/questions/resumable-iterator-design
+Answer technical-challenge and motivation questions,Behavioral / Knowledge,,Online assessment,Senior,1,,2026-04,https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions
+In-Memory Database — Levels 1–4 (TTL + Backup/Restore),Object-Oriented Programming,Hard,Online assessment; Take-home,New grad; Junior / Mid; Senior,1,,2026-04-01,https://trueinterview.io/questions/in-memory-database-ttl-backup
+Design Token Limiter,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-04,https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73
+Design a Distributed KV Store,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-04,https://trueinterview.io/questions/design-a-distributed-kv-store
+Distributed Rate Limiter,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-04-01,https://trueinterview.io/questions/distributed-rate-limiter
+Design a RAG System,System Design,Easy,Onsite / virtual onsite,Senior,3,,2026-03,https://trueinterview.io/questions/design-a-rag-system
+Nested Structure Flatten and Unflatten,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-02-26,https://trueinterview.io/questions/nested-structure-flatten-and-unflatten
+Agentic Workflow for 1-Hour Movie Generation,System Design,Medium,Phone screen,Senior,1,,2026-01-29,https://trueinterview.io/questions/agentic-one-hour-movie-generation
+Rate Limiter — Inbound + Outbound,System Design,Medium,Take-home; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-01-28,https://trueinterview.io/questions/rate-limiter-design
+Twitter Insight Platform,AI Coding,Hard,Online assessment; Take-home,Junior / Mid; Senior,1,,2026-01-28,https://trueinterview.io/questions/twitter-insight-platform-take-home
+Process vs Thread (Verbal CS Fundamentals),Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-01-27,https://trueinterview.io/questions/process-vs-thread-verbal
+Checkers Game,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-01-26,https://trueinterview.io/questions/checkers-backend-design
+Twitter Spaces Active Time,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-01-26,https://trueinterview.io/questions/twitter-spaces-active-time
+Design a schema for server engagement,SQL,Medium,Phone screen,Junior / Mid; Senior,1,,2026-01-17,https://trueinterview.io/questions/design-a-schema-for-server-engagement
+Implement two string utility functions,Algorithm,Easy,Phone screen,New grad; Junior / Mid,1,,2026-01-17,https://trueinterview.io/questions/implement-two-string-utility-functions
+Multithreaded Array Sort,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-01-15,https://trueinterview.io/questions/parallel-integer-sort
+Maximum Number of Distinct Elements After Operations,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-01-15,https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations
+K-th Element on a Streaming Time Window,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-01-14,https://trueinterview.io/questions/kth-element-streaming-window
+In-Memory Key-Value Store with Transactions,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,,2026-01,https://trueinterview.io/questions/in-memory-key-value-store-with-transactions
+Handwrite parallelized sort,Algorithm,Medium,Phone screen,Senior,1,,2026-01,https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac
+Dynamic Batch Inference,Object-Oriented Programming,Medium,Phone screen,Senior,1,,2025-12-14,https://trueinterview.io/questions/dynamic-batch-inference
+Find Bad GPU Nodes,Algorithm,Hard,Phone screen,Senior,1,,2025-12-14,https://trueinterview.io/questions/group-test-gpu-nodes
+How Would You Prevent Hallucinations in an LLM-Based System?,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2025-11-21,https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system
+N-gram Split,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,,,https://trueinterview.io/questions/n-gram-split-2
+Radix Cache,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/radix-cache
+Durable KV Cache,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/durable-kv-cache
+Design a Rate Limiter with Variable User Quotas,System Design,Easy,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas

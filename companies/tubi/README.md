@@ -6,22 +6,22 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (12)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Make Cache Fetch Thread-Safe and Single-Flight](https://trueinterview.io/questions/make-cache-fetch-thread-safe-and-single-flight) | System Design | Hard | Phone screen | 1 | 2026-02-16 |
-| [Execute TTL Cache Operations with Fetch-on-Miss](../../questions/algorithm/execute-ttl-cache-operations-with-fetch-on-miss/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-02-16 |
-| [Thumbnail Selection for a Streaming Catalog](https://trueinterview.io/questions/ml-system-design-thumbnail-selection-for-a-streaming-catalog) | System Design | Hard | Phone screen | 1 | 2026-02-10 |
-| [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) | Blog | — | Phone screen | 1 | 2026-02-10 |
-| [Weighted Random Sampling by Index](https://trueinterview.io/questions/weighted-random-sampling-by-index) | Algorithm | Medium | Phone screen | 1 | 2026-02-10 |
-| [Implement K-Means and compare with GMM](https://trueinterview.io/questions/implement-k-means-and-compare-with-gmm) | Algorithm | Medium | Phone screen | 1 | 2026-01-28 |
-| [Explain ML basics and recommender tuning](https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning) | Blog | — | Phone screen | 1 | 2026-01-28 |
-| [Measure Super Bowl ad impact with causal design](https://trueinterview.io/questions/measure-super-bowl-ad-impact-with-causal-design) | Blog | — | Phone screen | 1 | — |
-| [Explain p‑values to a product manager](https://trueinterview.io/questions/explain-pvalues-to-a-product-manager) | Blog | — | Phone screen | 1 | — |
-| [Diagnose and fix selection bias in experiments](https://trueinterview.io/questions/diagnose-and-fix-selection-bias-in-experiments) | Blog | — | Phone screen | 1 | — |
-| [Determine A/B test sample size drivers](https://trueinterview.io/questions/determine-a-b-test-sample-size-drivers) | Blog | — | Phone screen | 1 | — |
-| [Compute daily net users from event logs](../../questions/sql/compute-daily-net-users-from-event-logs/README.md) | SQL | Medium | Phone screen | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Make Cache Fetch Thread-Safe and Single-Flight](https://trueinterview.io/questions/make-cache-fetch-thread-safe-and-single-flight?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-02-16 |
+| [Execute TTL Cache Operations with Fetch-on-Miss](../../questions/algorithm/execute-ttl-cache-operations-with-fetch-on-miss/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-02-16 |
+| [Thumbnail Selection for a Streaming Catalog](https://trueinterview.io/questions/ml-system-design-thumbnail-selection-for-a-streaming-catalog?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-02-10 |
+| [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 2026-02-10 |
+| [Weighted Random Sampling by Index](https://trueinterview.io/questions/weighted-random-sampling-by-index?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-02-10 |
+| [Implement K-Means and compare with GMM](https://trueinterview.io/questions/implement-k-means-and-compare-with-gmm?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-01-28 |
+| [Explain ML basics and recommender tuning](https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-01-28 |
+| [Measure Super Bowl ad impact with causal design](https://trueinterview.io/questions/measure-super-bowl-ad-impact-with-causal-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Explain p‑values to a product manager](https://trueinterview.io/questions/explain-pvalues-to-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Diagnose and fix selection bias in experiments](https://trueinterview.io/questions/diagnose-and-fix-selection-bias-in-experiments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Determine A/B test sample size drivers](https://trueinterview.io/questions/determine-a-b-test-sample-size-drivers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Compute daily net users from event logs](../../questions/sql/compute-daily-net-users-from-event-logs/README.md) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | — |
 
 ---
 

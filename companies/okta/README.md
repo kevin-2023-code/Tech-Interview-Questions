@@ -4,25 +4,25 @@
 
 13 questions reported at Okta, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (6) · [all](all.csv) (13)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (7) · [all](all.csv) (13)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Algorithm | Medium | Phone screen | 1 | 2026-08-20 |
-| [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-06-24 |
-| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-06-24 |
-| [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | Phone screen | 1 | 2026-06-24 |
-| [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) | Blog | — | Onsite / virtual onsite | 1 | 2026-06-24 |
-| [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-06-02 |
-| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
-| [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2026-04-20 |
-| [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-04-20 |
-| [Build an Auth0-based MCP Server (Hands-on)](https://trueinterview.io/questions/oa-mcp-auth0-server) | AI Coding | Hard | Online assessment | 1 | 2025-11-22 |
-| [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3) | Algorithm | Medium | Phone screen | 1 | 2025-11-05 |
-| [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) | Algorithm | Medium | Phone screen | 1 | 2025-11-05 |
-| [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed) | Algorithm | Easy | Online assessment | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-10 |
+| [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-08-20 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 14 | 2026-08 |
+| [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-06-24 |
+| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-06-24 |
+| [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-06-24 |
+| [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 2026-06-02 |
+| [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Onsite / virtual onsite | Senior | 1 | 2026-04-20 |
+| [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Senior | 1 | 2026-04-20 |
+| [Build an Auth0-based MCP Server (Hands-on)](https://trueinterview.io/questions/oa-mcp-auth0-server?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Online assessment | New grad | 1 | 2025-11-22 |
+| [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2025-11-05 |
+| [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2025-11-05 |
+| [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad, Junior / Mid | 1 | — |
 
 ---
 

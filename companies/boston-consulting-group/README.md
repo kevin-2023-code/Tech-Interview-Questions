@@ -4,31 +4,31 @@
 
 19 questions reported at Boston Consulting Group, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (19)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (4) · [all](all.csv) (19)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 3 | 2026-08-04 |
-| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
-| [Implement palindrome check and valid parentheses](https://trueinterview.io/questions/implement-palindrome-check-and-valid-parentheses) | Algorithm | Medium | Phone screen | 1 | 2026-01-17 |
-| [Discuss languages, packages, and tools you know](https://trueinterview.io/questions/discuss-languages-packages-and-tools-you-know) | Blog | — | Phone screen | 1 | 2025-12-15 |
-| [Answer common behavioral questions using STAR](https://trueinterview.io/questions/answer-common-behavioral-questions-using-star) | Blog | — | Phone screen | 1 | 2025-12-15 |
-| [Transform and aggregate messy event data](https://trueinterview.io/questions/transform-and-aggregate-messy-event-data) | Algorithm | Hard | Online assessment | 1 | — |
-| [Summarize impact and lessons from your resume](https://trueinterview.io/questions/summarize-impact-and-lessons-from-your-resume) | Blog | — | Phone screen | 1 | — |
-| [Reduce overfitting under constraints](https://trueinterview.io/questions/reduce-overfitting-under-constraints) | Blog | — | Phone screen | 1 | — |
-| [Explain AUC, activations, ensembles, and imbalance](https://trueinterview.io/questions/explain-auc-activations-ensembles-and-imbalance) | Blog | — | Online assessment | 1 | — |
-| [Design and sample for credit default prediction](https://trueinterview.io/questions/design-and-sample-for-credit-default-prediction) | Algorithm | Hard | Phone screen | 1 | — |
-| [Defend MSE over MAE for car prices](https://trueinterview.io/questions/defend-mse-over-mae-for-car-prices) | Blog | — | Phone screen | 1 | — |
-| [Compute posterior and predictive coin probabilities](https://trueinterview.io/questions/compute-posterior-and-predictive-coin-probabilities) | Blog | — | Online assessment | 1 | — |
-| [Compute averages and binomial/Poisson probabilities](https://trueinterview.io/questions/compute-averages-and-binomial-poisson-probabilities) | Blog | — | Online assessment | 1 | — |
-| [Build and evaluate imbalanced binary classifier](https://trueinterview.io/questions/build-and-evaluate-imbalanced-binary-classifier) | Blog | — | Online assessment | 1 | — |
-| [Achieve 0.95 precision via thresholding](https://trueinterview.io/questions/achieve-0-95-precision-via-thresholding) | Algorithm | Medium | Online assessment | 1 | — |
-| [Transform messy transactions with pandas](https://trueinterview.io/questions/transform-messy-transactions-with-pandas) | AI Coding | Hard | Phone screen | 1 | — |
-| [Query top spenders and 7-day growth](https://trueinterview.io/questions/query-top-spenders-and-7-day-growth) | SQL | Medium | Phone screen | 1 | — |
-| [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | Algorithm | Easy | Online assessment | 2 | — |
-| [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | Online assessment | 3 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 3 | 2026-09 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 14 | 2026-09 |
+| [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2026-08-04 |
+| [Summarize impact and lessons from your resume](https://trueinterview.io/questions/summarize-impact-and-lessons-from-your-resume?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Manager | 1 | 2026-06 |
+| [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 2 | 2026-03 |
+| [Transform messy transactions with pandas](https://trueinterview.io/questions/transform-messy-transactions-with-pandas?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-02 |
+| [Implement palindrome check and valid parentheses](https://trueinterview.io/questions/implement-palindrome-check-and-valid-parentheses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Intern, New grad, Junior / Mid | 1 | 2026-01-17 |
+| [Discuss languages, packages, and tools you know](https://trueinterview.io/questions/discuss-languages-packages-and-tools-you-know?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2025-12-15 |
+| [Answer common behavioral questions using STAR](https://trueinterview.io/questions/answer-common-behavioral-questions-using-star?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 2025-12-15 |
+| [Build and evaluate imbalanced binary classifier](https://trueinterview.io/questions/build-and-evaluate-imbalanced-binary-classifier?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Junior / Mid, Senior, Staff+ | 1 | 2025-11 |
+| [Transform and aggregate messy event data](https://trueinterview.io/questions/transform-and-aggregate-messy-event-data?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Intern, New grad, Junior / Mid | 1 | — |
+| [Reduce overfitting under constraints](https://trueinterview.io/questions/reduce-overfitting-under-constraints?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Explain AUC, activations, ensembles, and imbalance](https://trueinterview.io/questions/explain-auc-activations-ensembles-and-imbalance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | — |
+| [Design and sample for credit default prediction](https://trueinterview.io/questions/design-and-sample-for-credit-default-prediction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior, Staff+ | 1 | — |
+| [Defend MSE over MAE for car prices](https://trueinterview.io/questions/defend-mse-over-mae-for-car-prices?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Compute posterior and predictive coin probabilities](https://trueinterview.io/questions/compute-posterior-and-predictive-coin-probabilities?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | — |
+| [Compute averages and binomial/Poisson probabilities](https://trueinterview.io/questions/compute-averages-and-binomial-poisson-probabilities?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | — |
+| [Achieve 0.95 precision via thresholding](https://trueinterview.io/questions/achieve-0-95-precision-via-thresholding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | — |
+| [Query top spenders and 7-day growth](https://trueinterview.io/questions/query-top-spenders-and-7-day-growth?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | — |
 
 ---
 

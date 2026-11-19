@@ -1,7 +1,51 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Squares of a Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,2,2026-09-29,https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c
-Sort a Matrix into Snake Order Using Adjacent Swaps,Algorithm,Medium,Phone screen,1,2026-09-09,https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps
-Design Distributed Storage for Large Structured Data,System Design,Medium,Onsite / virtual onsite,1,2026-09-09,https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data
-Answer Repeated Shortest Increasing-Path Queries,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-09,https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries
-Find Robots Position,Algorithm,Medium,Phone screen,1,2026-08-29,https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance
-Design a Highly Available URL Shortener,System Design,Medium,Onsite / virtual onsite,1,2026-08-22,https://trueinterview.io/questions/design-a-highly-available-url-shortener
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Detect a Cycle in a Directed Graph,Algorithm,Medium,Phone screen,Senior,2,,2026-10,https://trueinterview.io/questions/dd2c77a9-9d96-5ffd-a303-755aee03b614
+Serialize and Deserialize an N-ary Tree,Algorithm,Medium,Phone screen,Senior,1,,2026-10,https://trueinterview.io/questions/47b75620-2eae-503c-9ef8-f67cf680e642
+Describe your strongest project,Behavioral / Knowledge,,Online assessment,Junior / Mid; Staff+,1,,2026-10,https://trueinterview.io/questions/describe-your-strongest-project
+Describe ownership and failure,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/describe-ownership-and-failure
+Describe Conflict and Impact,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/describe-conflict-and-impact
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Bus Routes (LC 815),Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/phone-screen-bus-routes
+Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,,2026-10,https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
+Longest Subarray with Bounded Diff,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/phone-screen-longest-stable-subarray
+Number of Islands II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,,2026-10,https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d
+Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85
+The Earliest Moment When Everyone Become Friends,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/967301de-f814-5c2b-8023-d834f84d5b1c
+Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,,2026-10,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
+Design a Stock Price Alert Notification System,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/design-a-stock-price-alert-notification-system
+Design Meeting Scheduler,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms
+Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
+Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,,2026-10,https://trueinterview.io/questions/word-search-ii
+Squares of a Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-09-29,https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c
+Sort a Matrix into Snake Order Using Adjacent Swaps,Algorithm,Medium,Phone screen,Senior,1,,2026-09-09,https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps
+Design Distributed Storage for Large Structured Data,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09-09,https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data
+Answer Repeated Shortest Increasing-Path Queries,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2026-09-09,https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries
+Repeated Queries for a Strictly Increasing Path from the Top-Left Cell,Algorithm,Hard,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/b539f9f9-8170-5422-95cc-05035572f020
+K Smallest Squared Values in a Sorted Array,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/4b41e162-c1e7-59a7-b837-0054a23558ef
+Smallest Palindromic Number Not Less Than N,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/3b53ea06-c686-5633-8e49-14cf31005eaf
+Earliest Single-Visit ID,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/74124ecb-395e-5197-b614-3d106d312b08
+Design a Real-Time Top-K Ranking System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-09,https://trueinterview.io/questions/design-a-real-time-top-k-ranking-system
+Build a Directory Tree and Iteratively Find File Paths,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/d1be1c23-b276-5163-a41f-0219b487f068
+Meeting Rooms III,Algorithm,Hard,Phone screen,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01
+Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/top-k-largest-elements
+Meeting Rooms,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-09,https://trueinterview.io/questions/meeting-rooms-2
+Onsite BQ + Hiring Manager + Project Deep-Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,1,,2026-09,https://trueinterview.io/questions/onsite-bq-hm-deep-dive
+Insert Delete GetRandom O(1),Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/insert-delete-getrandom-o-1
+Basic Calculator I / II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,,2026-09,https://trueinterview.io/questions/basic-calculator-i-ii
+Time-Based Key-Value Store with Production Testing,AI Coding,Hard,Online assessment; Onsite / virtual onsite,Junior / Mid,3,,2026-09,https://trueinterview.io/questions/time-based-kv-store
+Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,,2026-09,https://trueinterview.io/questions/basic-calculator-2
+Token Bucket Rate Limiter II,Algorithm,Medium,Phone screen,Senior,3,,2026-09,https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9
+Number of Ways to Wear Different Hats to Each Other,Algorithm,Hard,Phone screen,New grad; Senior,2,,2026-09,https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8
+Sliding Window Maximum,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/sliding-window-maximum
+Alien Dictionary,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/alien-dictionary
+Lowest Common Ancestor of a Binary Tree,Algorithm,Easy,Phone screen,Intern; Junior / Mid; Senior,8,,2026-09,https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree
+Find the Closest Palindrome,Algorithm,Hard,Phone screen,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/find-the-closest-palindrome
+Design AI Chatbot App,System Design,Easy,Onsite / virtual onsite,Senior,5,,2026-09,https://trueinterview.io/questions/design-an-ai-chatbot-system
+Design Hit Counter,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/design-hit-counter
+Parking Lot System II,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/design-parking-lot-ood
+My Calendar I,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/my-calendar-i
+Find Robots Position,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-08-29,https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance
+Design a Highly Available URL Shortener,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-22,https://trueinterview.io/questions/design-a-highly-available-url-shortener

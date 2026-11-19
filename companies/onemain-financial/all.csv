@@ -1,13 +1,13 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Walk through a DS project end-to-end,Blog,,Phone screen,1,2025-12-01,https://trueinterview.io/questions/walk-through-a-ds-project-end-to-end
-Explain decision trees and tree ensembles,Blog,,Phone screen,1,2025-12-01,https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles
-Detect and address multicollinearity,Blog,,Phone screen,1,2025-12-01,https://trueinterview.io/questions/detect-and-address-multicollinearity
-Evaluate shift from branch to digital channel,Blog,,Phone screen,1,2025-10-07,https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel
-Select and tune XGBoost hyperparameters,Blog,,Phone screen,1,,https://trueinterview.io/questions/select-and-tune-xgboost-hyperparameters
-Present a project to non-technical leaders,Blog,,Phone screen,1,,https://trueinterview.io/questions/present-a-project-to-non-technical-leaders
-Optimize SaaS pricing and profit,Blog,,Phone screen,1,,https://trueinterview.io/questions/optimize-saas-pricing-and-profit
-Handle missing data and outliers robustly,Blog,,Phone screen,1,,https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly
-Differentiate and control Type I/II errors,Blog,,Phone screen,1,,https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors
-Write SQL for cohort retention and ARPU,SQL,Hard,Phone screen,1,,https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu
-Transform clickstream with pandas sessionization,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization
-Implement an LRU cache with O(1) ops,Object Oriented Programming,Medium,Phone screen,5,,https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Implement an LRU cache with O(1) ops,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,5,,2026-06,https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops
+Walk through a DS project end-to-end,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-04,https://trueinterview.io/questions/walk-through-a-ds-project-end-to-end
+Present a project to non-technical leaders,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-03,https://trueinterview.io/questions/present-a-project-to-non-technical-leaders
+Explain decision trees and tree ensembles,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2025-12-01,https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles
+Detect and address multicollinearity,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2025-12-01,https://trueinterview.io/questions/detect-and-address-multicollinearity
+Evaluate shift from branch to digital channel,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2025-10-07,https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel
+Select and tune XGBoost hyperparameters,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/select-and-tune-xgboost-hyperparameters
+Optimize SaaS pricing and profit,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/optimize-saas-pricing-and-profit
+Handle missing data and outliers robustly,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly
+Differentiate and control Type I/II errors,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors
+Write SQL for cohort retention and ARPU,SQL,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu
+Transform clickstream with pandas sessionization,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization

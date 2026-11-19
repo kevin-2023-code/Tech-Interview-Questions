@@ -4,25 +4,25 @@
 
 13 questions reported at Microsoft AI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (3) · [all](all.csv) (13)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (9) · [all](all.csv) (13)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 5 | 2026-09-23 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | 10 | 2026-07-29 |
-| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | Phone screen | 2 | 2026-07-29 |
-| [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Onsite / virtual onsite | 7 | 2026-04-16 |
-| [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 2 | 2026-03-03 |
-| [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Onsite / virtual onsite | 10 | 2025-12-10 |
-| [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Onsite / virtual onsite | 5 | 2025-10-29 |
-| [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2) | Object Oriented Programming | Medium | Phone screen | 2 | — |
-| [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | Onsite / virtual onsite | 8 | — |
-| [Suffix Maximum Count](https://trueinterview.io/questions/suffix-maximum-count-2) | Algorithm | Medium | Onsite / virtual onsite | 2 | — |
-| [Segment Sequence Reconstruction](https://trueinterview.io/questions/segment-sequence-reconstruction-2) | Algorithm | Medium | Onsite / virtual onsite | 2 | — |
-| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | Online assessment, Onsite / virtual onsite | 5 | — |
-| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | Onsite / virtual onsite | 10 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Design Payment System](https://trueinterview.io/questions/payment-platform-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 2026-10 |
+| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 5 | 2026-09-23 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 10 | 2026-09 |
+| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 10 | 2026-09 |
+| [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 7 | 2026-09 |
+| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 2 | 2026-09 |
+| [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Senior | 5 | 2026-09 |
+| [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 8 | 2026-08 |
+| [Suffix Maximum Count](https://trueinterview.io/questions/suffix-maximum-count-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid | 2 | 2026-08 |
+| [Segment Sequence Reconstruction](https://trueinterview.io/questions/segment-sequence-reconstruction-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2026-05 |
+| [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2026-03-03 |
+| [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Senior | 2 | 2026-02 |
+| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Online assessment, Onsite / virtual onsite | Intern, New grad, Junior / Mid | 5 | — |
 
 ---
 

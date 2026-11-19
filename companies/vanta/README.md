@@ -4,27 +4,27 @@
 
 15 questions reported at Vanta, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (6) · [all](all.csv) (15)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (8) · [all](all.csv) (15)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-12 |
-| [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Medium | Phone screen | 1 | 2026-07-16 |
-| [Implement `uniq` — Unique Lines in a File](../../questions/algorithm/unique-lines-command/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-07-16 |
-| [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-07-10 |
-| [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq) | Blog | — | Onsite / virtual onsite | 1 | 2026-07-10 |
-| [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-06-10 |
-| [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | Phone screen | 1 | 2026-03-17 |
-| [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Algorithm | Hard | Phone screen | 1 | 2025-07-31 |
-| [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-07-24 |
-| [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Algorithm | Medium | Phone screen | 1 | 2024-12-04 |
-| [Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree)](https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda) | Algorithm | Medium | Phone screen | 1 | — |
-| [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Algorithm | Easy | Online assessment | 1 | — |
-| [Recursive Class Dependency Ordering](https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf) | Algorithm | Medium | Phone screen | 1 | — |
-| [Find All Dependencies](https://trueinterview.io/questions/13cba32d-7517-469b-965e-8c140232c558) | Algorithm | Medium | Phone screen | 1 | — |
-| [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Algorithm | Easy | Online assessment | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-09-12 |
+| [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-07-16 |
+| [Implement `uniq` — Unique Lines in a File](../../questions/algorithm/unique-lines-command/README.md) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07-16 |
+| [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-07-10 |
+| [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07-10 |
+| [Recursive Class Dependency Ordering](https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-07 |
+| [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid, Senior | 1 | 2026-07 |
+| [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-06-10 |
+| [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03-17 |
+| [Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree)](https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03 |
+| [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2026-03 |
+| [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 2025-07-31 |
+| [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-07-24 |
+| [Find All Dependencies](https://trueinterview.io/questions/13cba32d-7517-469b-965e-8c140232c558?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2025-06 |
+| [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2024-12-04 |
 
 ---
 

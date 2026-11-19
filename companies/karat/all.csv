@@ -1,62 +1,62 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-"Obstacle Course Run Collection: Personal Best, Best of Bests & Simulation",Object Oriented Programming,Medium,Phone screen,1,2026-04-15,https://trueinterview.io/questions/obstacle-course-run-collection
-Three-Table Join: Map User IDs to Customer Names,Algorithm,Medium,Phone screen,1,2026-01-21,https://trueinterview.io/questions/three-table-join-user-id-to-name
-Password Rule Validator: List All Violations,Algorithm,Easy,Phone screen,1,2026-01-21,https://trueinterview.io/questions/password-rule-validator
-Word Wrap and Full Justification for a Text Editor,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/word-wrap-text-justification
-Spotting Flaws in a Midnight Vending Machine Reporting Plan,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/vending-machine-status-reporting-design
-Earliest and Latest Access per User From a Raw Log,Algorithm,Easy,Phone screen,1,,https://trueinterview.io/questions/user-first-last-access-times
-Capacity and Cost Estimate for a URL Analysis ML Service,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/url-ml-system-resource-estimate
-Keeping a Sports Data Site Up When Its Upstream Feed Flakes,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/unstable-third-party-sports-api
-Carrying Colored Spheres to the Nearest Matching Holes,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/tomb-raider-sphere-holes
-Designing an Experiment for a Video Like-Button Launch,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/thumbs-up-feature-ab-test
-Diagnosing Thread Starvation in a Multithreaded Service,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/thread-starvation-debugging
-Board Game Teleporters: Reachable Squares and Finishability,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/teleporter-board-game
-Shared Courses Between Students and Curriculum Track Midpoints,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/student-shared-courses-schedule
-"Choosing Consistency Models for Banking, Catalog and Analytics",System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/strong-vs-eventual-consistency-scenarios
-"Snake Board Lanes, Exits, and Nests",Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/snake-board-exits
-Diagnosing a Web API with Rising Tail Latency,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/slow-web-service-debugging
-Speeding Up a Top-100 Player Scoreboard,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/slow-scoreboard-top-100
-Can the Singer Hit Every Note? Vocal Range Check,Algorithm,Easy,Phone screen,1,,https://trueinterview.io/questions/singer-vocal-range-songs
-Sizing a Year of Search Engine Query Log Storage,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/search-query-log-storage-estimate
-Fixing Round Robin Routing for a Real-Time Editor,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/round-robin-lb-collaborative-docs
-Restaurant Recommendation From Mutual Friends' Likes,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/restaurant-pick-mutual-friends
-Building a Markov-Style Navigation Graph From Access Logs,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/resource-transition-probability-graph
-Scaling a Suddenly Popular Recipe Site,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/recipe-site-database-slowdown
-Sizing Storage Spend for a Self-Hosted Photo Service,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/photo-storage-capacity-estimate
-Why Sharding Users by First Letter Fails,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/photo-sharding-by-alphabet
-Spotting Flaws in a Password Acceptance Policy,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/password-policy-rule-review
-Parent-Child Graph: Ancestor and Generation Queries,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/parent-child-graph-generations
-Design an Embedded Refrigerator Controller With No Network,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/offline-refrigerator-controller-design
-Single Server or a Fleet for a Playlist Streaming App,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/music-streaming-single-vs-multi-server
-Maximize Museums Visited on a Timed Train Trip,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/museum-visits-train-trip
-Geo-Localized Multilingual News Push Platform,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/multi-country-localized-news-push
-Busiest Resource Within Any 5-Minute Window,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/most-accessed-resource-5-minute-window
-Multi-Part Cipher Encryption and Decryption Challenge,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/matrix-transposition-cipher
-"Matrix Validator, Nonogram Check and Sliding Tile Moves",Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/matrix-and-nonogram-validator
-"Mahjong Hand Validator With Pairs, Triples and Runs",Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/mahjong-tile-grouping
-Proving a Low-Traffic Service Can Scale to 1000 RPS,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/load-test-1-to-1000-rps
-Streaming a Larger-Than-RAM XML File on One Machine,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/large-xml-file-local-processing
-Taking a One-Country Product Global,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/international-expansion-architecture
-Group-Based Permissions with Inheritance and ACL Checks,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/group-based-user-permissions
-Go Game Analysis in a Mobile App: On-Device or Server Farm,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/go-game-analysis-on-device-vs-server
-Bundled vs Server-Fetched Hints in a Mobile Puzzle Game,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/game-hints-preload-vs-server
-Moving Freezer Analytics From Cloud to an Offline Microcontroller,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/freezer-cloud-to-microcontroller
-Follow Counts and Similar-Taste Movie Suggestions,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/follow-graph-movie-recommendations
-Fixing Slow File Deduplication in a Shared Upload Service,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/file-dedup-bytewise-comparison
-Finding Missing Notifications After Document Signing,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/failed-signing-notification-detection
-Forecasting Next Year's Costs for a Short-Video Expiry Platform,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/expiring-video-service-cost-forecast
-High-Demand Concert Ticketing Backend Design,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/event-ticketing-high-demand-onsale
-Hot Songs on a Count-Balanced Music Server Fleet,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/equal-song-count-server-balance
-Factory Delivery Cart Routes and Buildable Robots,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/delivery-cart-routes
-Max Throughput Through a Pipeline of Capacity-Limited Stages,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/dag-pipeline-max-throughput
-Keeping a Crash-Prone Video Subtitle Service Alive,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/crashing-subtitle-service-workarounds
-Balancing Music Files Across Servers with Consistent Hashing,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/consistent-hashing-music-file-balance
-Composition or Inheritance: Differences and When to Choose Each,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/composition-vs-inheritance
-Designing a Clinic Queue Notification System with Timeouts,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/clinic-queue-notification-system
-Choose-Your-Path Book: Reaching Endings Under a Fixed Choice Rule,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/choose-your-story-book-endings
-Castle Rooms Pointing at Treasure Rooms,Algorithm,Easy,Phone screen,1,,https://trueinterview.io/questions/castle-treasure-room-instructions
-Strongest Card from Pairwise Beat Relations,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/card-matchup-most-powerful
-Friend Count at Scale for a Bidirectional Relationship Table,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/bidirectional-friend-count-sql
-Risks in a Tap-to-Pay Arcade Card System,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/arcade-card-payment-system-concerns
-Cutting Server Costs for a Kids' Animation Generator,System Design,Easy,Phone screen,1,,https://trueinterview.io/questions/animation-app-server-cost-reduction
-Aggregating Ad Clicks Across Domains and Parent Domains,Algorithm,Easy,Phone screen,1,,https://trueinterview.io/questions/ad-clicks-domain-analysis
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Matrix Validator, Nonogram Check and Sliding Tile Moves",Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/matrix-and-nonogram-validator
+"Obstacle Course Run Collection: Personal Best, Best of Bests & Simulation",Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-04-15,https://trueinterview.io/questions/obstacle-course-run-collection
+Three-Table Join: Map User IDs to Customer Names,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-01-21,https://trueinterview.io/questions/three-table-join-user-id-to-name
+Password Rule Validator: List All Violations,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,2026-01-21,https://trueinterview.io/questions/password-rule-validator
+Word Wrap and Full Justification for a Text Editor,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/word-wrap-text-justification
+Spotting Flaws in a Midnight Vending Machine Reporting Plan,System Design,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/vending-machine-status-reporting-design
+Earliest and Latest Access per User From a Raw Log,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/user-first-last-access-times
+Capacity and Cost Estimate for a URL Analysis ML Service,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/url-ml-system-resource-estimate
+Keeping a Sports Data Site Up When Its Upstream Feed Flakes,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/unstable-third-party-sports-api
+Carrying Colored Spheres to the Nearest Matching Holes,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/tomb-raider-sphere-holes
+Designing an Experiment for a Video Like-Button Launch,System Design,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/thumbs-up-feature-ab-test
+Diagnosing Thread Starvation in a Multithreaded Service,System Design,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/thread-starvation-debugging
+Board Game Teleporters: Reachable Squares and Finishability,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/teleporter-board-game
+Shared Courses Between Students and Curriculum Track Midpoints,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/student-shared-courses-schedule
+"Choosing Consistency Models for Banking, Catalog and Analytics",System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/strong-vs-eventual-consistency-scenarios
+"Snake Board Lanes, Exits, and Nests",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/snake-board-exits
+Diagnosing a Web API with Rising Tail Latency,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/slow-web-service-debugging
+Speeding Up a Top-100 Player Scoreboard,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/slow-scoreboard-top-100
+Can the Singer Hit Every Note? Vocal Range Check,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/singer-vocal-range-songs
+Sizing a Year of Search Engine Query Log Storage,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/search-query-log-storage-estimate
+Fixing Round Robin Routing for a Real-Time Editor,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/round-robin-lb-collaborative-docs
+Restaurant Recommendation From Mutual Friends' Likes,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/restaurant-pick-mutual-friends
+Building a Markov-Style Navigation Graph From Access Logs,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/resource-transition-probability-graph
+Scaling a Suddenly Popular Recipe Site,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/recipe-site-database-slowdown
+Sizing Storage Spend for a Self-Hosted Photo Service,System Design,Easy,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/photo-storage-capacity-estimate
+Why Sharding Users by First Letter Fails,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/photo-sharding-by-alphabet
+Spotting Flaws in a Password Acceptance Policy,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/password-policy-rule-review
+Parent-Child Graph: Ancestor and Generation Queries,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/parent-child-graph-generations
+Design an Embedded Refrigerator Controller With No Network,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/offline-refrigerator-controller-design
+Single Server or a Fleet for a Playlist Streaming App,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/music-streaming-single-vs-multi-server
+Maximize Museums Visited on a Timed Train Trip,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/museum-visits-train-trip
+Geo-Localized Multilingual News Push Platform,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/multi-country-localized-news-push
+Busiest Resource Within Any 5-Minute Window,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/most-accessed-resource-5-minute-window
+Multi-Part Cipher Encryption and Decryption Challenge,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/matrix-transposition-cipher
+"Mahjong Hand Validator With Pairs, Triples and Runs",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/mahjong-tile-grouping
+Proving a Low-Traffic Service Can Scale to 1000 RPS,System Design,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/load-test-1-to-1000-rps
+Streaming a Larger-Than-RAM XML File on One Machine,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/large-xml-file-local-processing
+Taking a One-Country Product Global,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/international-expansion-architecture
+Group-Based Permissions with Inheritance and ACL Checks,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/group-based-user-permissions
+Go Game Analysis in a Mobile App: On-Device or Server Farm,System Design,Easy,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/go-game-analysis-on-device-vs-server
+Bundled vs Server-Fetched Hints in a Mobile Puzzle Game,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/game-hints-preload-vs-server
+Moving Freezer Analytics From Cloud to an Offline Microcontroller,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/freezer-cloud-to-microcontroller
+Follow Counts and Similar-Taste Movie Suggestions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/follow-graph-movie-recommendations
+Fixing Slow File Deduplication in a Shared Upload Service,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/file-dedup-bytewise-comparison
+Finding Missing Notifications After Document Signing,System Design,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/failed-signing-notification-detection
+Forecasting Next Year's Costs for a Short-Video Expiry Platform,System Design,Easy,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/expiring-video-service-cost-forecast
+High-Demand Concert Ticketing Backend Design,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/event-ticketing-high-demand-onsale
+Hot Songs on a Count-Balanced Music Server Fleet,System Design,Easy,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/equal-song-count-server-balance
+Factory Delivery Cart Routes and Buildable Robots,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/delivery-cart-routes
+Max Throughput Through a Pipeline of Capacity-Limited Stages,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/dag-pipeline-max-throughput
+Keeping a Crash-Prone Video Subtitle Service Alive,System Design,Easy,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/crashing-subtitle-service-workarounds
+Balancing Music Files Across Servers with Consistent Hashing,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/consistent-hashing-music-file-balance
+Composition or Inheritance: Differences and When to Choose Each,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/composition-vs-inheritance
+Designing a Clinic Queue Notification System with Timeouts,System Design,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/clinic-queue-notification-system
+Choose-Your-Path Book: Reaching Endings Under a Fixed Choice Rule,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/choose-your-story-book-endings
+Castle Rooms Pointing at Treasure Rooms,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/castle-treasure-room-instructions
+Strongest Card from Pairwise Beat Relations,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/card-matchup-most-powerful
+Friend Count at Scale for a Bidirectional Relationship Table,System Design,Easy,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/bidirectional-friend-count-sql
+Risks in a Tap-to-Pay Arcade Card System,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/arcade-card-payment-system-concerns
+Cutting Server Costs for a Kids' Animation Generator,System Design,Easy,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/animation-app-server-cost-reduction
+Aggregating Ad Clicks Across Domains and Parent Domains,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/ad-clicks-domain-analysis

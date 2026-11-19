@@ -1,6 +1,6 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Restore IP Addresses,Algorithm,Medium,Phone screen,3,2026-09-04,https://trueinterview.io/questions/restore-ip-addresses
-Basic coding to validate syntax and data structure familiarity,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939
-Sort Colors,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd
-Implement a Doubly Linked List,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5
-Group Anagrams,Algorithm,Medium,Phone screen,7,,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Sort Colors,Algorithm,Medium,Phone screen,Senior,2,,2026-10,https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd
+Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,,2026-10,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Restore IP Addresses,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,,2026-09-04,https://trueinterview.io/questions/restore-ip-addresses
+Implement a Doubly Linked List,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-07,https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5
+Basic coding to validate syntax and data structure familiarity,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-01,https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939

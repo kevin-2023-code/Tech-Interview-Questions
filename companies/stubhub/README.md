@@ -4,15 +4,15 @@
 
 3 questions reported at Stubhub, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (3)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (3)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design Internal Chat and Re-engagement Emails](https://trueinterview.io/questions/design-internal-chat-and-re-engagement-emails) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-02-16 |
-| [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](../../questions/object-oriented-programming/composable-event-recommendation-campaign-engine-flexible-filters-ranking/README.md) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](../../questions/object-oriented-programming/composable-event-recommendation-campaign-engine-flexible-filters-ranking/README.md) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-06 |
+| [Design Internal Chat and Re-engagement Emails](https://trueinterview.io/questions/design-internal-chat-and-re-engagement-emails?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-04 |
+| [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2025-10 |
 
 ---
 

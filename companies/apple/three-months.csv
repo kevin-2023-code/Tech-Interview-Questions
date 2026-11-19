@@ -1,7 +1,43 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Plant Infection Spread: Days Until Stable,Algorithm,Medium,Phone screen,1,2026-10-02,https://trueinterview.io/questions/plant-infection-spread-days-to-stabilize
-LRU Cache,AI Coding,Medium,Phone screen,10,2026-10-01,https://trueinterview.io/questions/lru-cache
-Forecast Storage Demand Across 100 Data Centers,System Design,Hard,Phone screen,1,2026-09-11,https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers
-Accessories QA Benchmark and Regression Deep Dive,Blog,,Phone screen; Onsite / virtual onsite,1,2026-09-09,https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive
-Sparse Matrix Multiplication (LC 311),Algorithm,Medium,Phone screen,1,2026-08-26,https://trueinterview.io/questions/sparse-matrix-multiplication
-Choose File Storage Tiers Using Access Predictions,Algorithm,Hard,Phone screen,1,2026-08-24,https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Plant Infection Spread: Days Until Stable,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-10-02,https://trueinterview.io/questions/plant-infection-spread-days-to-stabilize
+Topological Sorting of a Directed Graph,Algorithm,Medium,Phone screen,Senior,1,,2026-10,https://trueinterview.io/questions/d8faf0ff-85e4-5ec7-b184-bb0ee7a6966e
+Implement a Reusable Cyclic Barrier,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/ce53d155-34b8-5206-bb75-58db08deb040
+Query Store Opening Hours with Weekly and Overnight Schedules,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/744328fa-1f8e-5a2b-a56f-bfa3d4bede9a
+Implement a Blocking Producer-Consumer Queue,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/0adf134e-1cdf-57c2-98d7-78cd94cfd6a4
+Explain your LLM project and contributions,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/explain-your-llm-project-and-contributions
+Describe proudest project and toughest challenge,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge
+LRU Cache + Thread-Safe Follow-up,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,,2026-10,https://trueinterview.io/questions/coding-lru-cache-multithread
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
+Number of Islands II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,,2026-10,https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d
+Distributed Rate Limiter with Lua Details,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/distributed-rate-limiter-with-lua
+Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85
+Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,,2026-10,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
+Log Processing System,System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/log-processing-system
+Decode String,Algorithm,Medium,Phone screen,Junior / Mid,3,,2026-10,https://trueinterview.io/questions/decode-string
+LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,,2026-10-01,https://trueinterview.io/questions/lru-cache
+Forecast Storage Demand Across 100 Data Centers,System Design,Hard,Phone screen,Junior / Mid; Senior,1,,2026-09-11,https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers
+Accessories QA Benchmark and Regression Deep Dive,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-09-09,https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive
+First Successful Concurrent API Call Within a Timeout,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/fd7cfcd2-c7d5-52b1-92e0-9dd645327c9d
+Multi-System Unit Conversion,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/50188fca-862f-5a0d-9b09-402e6a620571
+Validate and Assess Performance Benchmarks,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-09,https://trueinterview.io/questions/validate-and-assess-performance-benchmarks
+Reduce False Failures and Classify QA Outcomes,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/reduce-false-failures-and-classify-qa-outcomes
+Design a Score for Imperfect Palindromes,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/design-a-score-for-imperfect-palindromes
+Choose File Storage Tiers Using Access Predictions,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions
+"Improve QA Benchmarks, Regression Tests, and HPC Resource Use",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/improve-qa-benchmarks-regression-tests-and-hpc-resource-use
+Merge Two Strings by Maximum Edge Overlap,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/e375a17a-d43d-501b-b79c-2fa09b7bcabc
+Check Whether a String Is a Palindrome,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057
+Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/top-k-largest-elements
+Insert Delete GetRandom O(1),Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/insert-delete-getrandom-o-1
+Valid Palindrome,Algorithm,Easy,Phone screen,Junior / Mid,4,,2026-09,https://trueinterview.io/questions/valid-palindrome
+Alien Dictionary,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/alien-dictionary
+Design AI Chatbot App,System Design,Easy,Onsite / virtual onsite,Senior,5,,2026-09,https://trueinterview.io/questions/design-an-ai-chatbot-system
+Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,,2026-09,https://trueinterview.io/questions/valid-parentheses
+Trapping Rain Water,Algorithm,Hard,Phone screen,Junior / Mid; Senior; Staff+,8,,2026-09,https://trueinterview.io/questions/trapping-rain-water
+Serialize and Deserialize Binary Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/serialize-and-deserialize-binary-tree
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+LFU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/lfu-cache
+Design Hit Counter,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/design-hit-counter
+Design a HashMap,Object-Oriented Programming,Easy,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/design-a-hashmap
+Intersection of Two Linked Lists,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/intersection-of-two-linked-lists
+Sparse Matrix Multiplication (LC 311),Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08-26,https://trueinterview.io/questions/sparse-matrix-multiplication

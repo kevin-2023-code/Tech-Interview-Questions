@@ -1,4 +1,13 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Spreadsheet String Concatenation with Dependent Cells,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-18,https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells
-Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,10,2026-06-17,https://trueinterview.io/questions/booking-system-design
-User Flight Location Tracker,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-06-01,https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Spreadsheet String Concatenation with Dependent Cells,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-18,https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells
+Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/booking-system-design
+Minimum Changes to Make a K-Periodic Palindromic Password,Algorithm,Medium,Phone screen,New grad,2,,2026-09,https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03
+Maximum Earnings After Converting Days Off to Workdays,Algorithm,Medium,Phone screen,New grad,2,,2026-09,https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb
+Minimum Changes to Make Every Block a Palindrome,Algorithm,Medium,Phone screen,New grad,2,,2026-08,https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7
+Task Management System II,Object-Oriented Programming,Medium,Online assessment,New grad,1,,2026-08,https://trueinterview.io/questions/oa-task-management-system-2
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
+URL Maze Traversal,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/url-maze-graph-traversal
+User Flight Location Tracker,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-06-01,https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history
+Recipe Manager,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,4,,2026-06,https://trueinterview.io/questions/recipe-manager

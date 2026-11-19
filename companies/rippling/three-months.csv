@@ -1,9 +1,12 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Design Raw and Computed Spreadsheet Views,Object Oriented Programming,Hard,Onsite / virtual onsite,1,2026-09-18,https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views
-Explain Your Reason for Changing Roles and Your Interest in the Team,Blog,,Phone screen,1,2026-09-13,https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team
-Explain Your Current and Previous Engineering Roles,Blog,,Phone screen,1,2026-09-13,https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles
-Explain the Scope and Impact of Your Most Important Project,Blog,,Phone screen,1,2026-09-13,https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project
-Explain How AI Supports Your Design and Coding Work,Blog,,Phone screen,1,2026-09-13,https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work
-Bill Deliveries with Historical Rates and Deferred Rounding,Algorithm,Hard,Phone screen,1,2026-09-13,https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding
-"Design News Pull Scheduling, Article Storage, and Topic Reads",System Design,Medium,Phone screen,1,2026-09-10,https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads
-Design a Logger with Independent Handlers,Object Oriented Programming,Medium,Phone screen,1,2026-08-21,https://trueinterview.io/questions/design-a-logger-with-independent-handlers
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
+Design Raw and Computed Spreadsheet Views,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-18,https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views
+Explain Your Reason for Changing Roles and Your Interest in the Team,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-13,https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team
+Explain Your Current and Previous Engineering Roles,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,,2026-09-13,https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles
+Explain the Scope and Impact of Your Most Important Project,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-13,https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project
+Explain How AI Supports Your Design and Coding Work,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-09-13,https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work
+Bill Deliveries with Historical Rates and Deferred Rounding,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-09-13,https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding
+"Design News Pull Scheduling, Article Storage, and Topic Reads",System Design,Medium,Phone screen,Senior; Staff+,1,,2026-09-10,https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads
+Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/booking-system-design
+Design a Logger with Independent Handlers,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-08-21,https://trueinterview.io/questions/design-a-logger-with-independent-handlers

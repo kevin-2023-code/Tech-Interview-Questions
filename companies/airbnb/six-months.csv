@@ -1,34 +1,69 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Progressive Banking System,Object Oriented Programming,Medium,Online assessment,1,2026-10-14,https://trueinterview.io/questions/oa-banking-system-2
-Parcel Attribute Store,Object Oriented Programming,Medium,Online assessment,1,2026-10-09,https://trueinterview.io/questions/oa-parcel-attribute-store
-Design Online Chess Game,System Design,Medium,Phone screen; Onsite / virtual onsite,5,2026-09-23,https://trueinterview.io/questions/design-chess-com-online-chess-game
-Document Redaction,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-19,https://trueinterview.io/questions/mle-document-redaction
-In-Memory File System,Object Oriented Programming,Medium,Online assessment,1,2026-09-08,https://trueinterview.io/questions/oa-in-memory-file-system
-Model Cumulative Booking Metrics and First and Last Booking Times,System Design,Medium,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times
-Find Users with Seven Consecutive Impression Days,SQL,Medium,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days
-"Find Hosts Meeting Listing, Rating, and Review-Coverage Rules",SQL,Medium,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules
-Estimate Page-Visit Duration from the Next User Event,SQL,Medium,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event
-Calculate the Median House Price in Each City,SQL,Medium,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city
-Rank Home Search Results Without a Text Query,System Design,Hard,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/rank-home-search-results-without-a-text-query
-Generate Customer-Support Instructions from Company Policies,System Design,Hard,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies
-"Explain ML Project Milestones, Scope, and Conflict",Blog,,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict
-Define a File Store with User Quotas and Compression,Object Oriented Programming,Hard,Online assessment,1,2026-08-29,https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression
-In-Memory Object Manager,Object Oriented Programming,Medium,Online assessment,1,2026-08-28,https://trueinterview.io/questions/oa-object-manager-prefix-ttl
-Working Hours Register,Object Oriented Programming,Hard,Online assessment,1,2026-08-17,https://trueinterview.io/questions/oa-working-hours-register
-Recipe Management System,Object Oriented Programming,Medium,Online assessment,1,2026-07-29,https://trueinterview.io/questions/oa-recipe-management-system
-Parcel Tracking System,Object Oriented Programming,Medium,Online assessment,1,2026-07-27,https://trueinterview.io/questions/oa-parcel-tracking-system
-Nested-List Iterator,Object Oriented Programming,Medium,Phone screen,1,2026-07-26,https://trueinterview.io/questions/nested-list-iterator-with-remove
-Matching Rental Amenities,SQL,Easy,Phone screen,1,2026-07-22,https://trueinterview.io/questions/matching-rental-amenities
-Fill Layover With Experiences,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-06-26,https://trueinterview.io/questions/layover-experiences-exact-fill
-Code Review — Multi-PR Walkthrough,AI Coding,Hard,Onsite / virtual onsite,1,2026-06-22,https://trueinterview.io/questions/code-review-multi-pr
-Experience / Project Deep-Dive Round,Blog,,Onsite / virtual onsite,1,2026-06-22,https://trueinterview.io/questions/experience-project-deep-dive
-Core Values Behavioral Round,Blog,,Onsite / virtual onsite,1,2026-06-22,https://trueinterview.io/questions/core-values-bq-round
-Design Customer Support Ticketing System,System Design,Medium,Onsite / virtual onsite,1,2026-06-17,https://trueinterview.io/questions/ticket-routing-system-design
-Hiring Manager Screen,Blog,,Phone screen,1,2026-06-17,https://trueinterview.io/questions/hiring-manager-screen
-Chain Booking — Max Cascading Reservations,Algorithm,Medium,Onsite / virtual onsite,1,2026-06-17,https://trueinterview.io/questions/chain-booking-cascade
-Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,10,2026-06-17,https://trueinterview.io/questions/booking-system-design
-Build Smallest Number,Algorithm,Medium,Phone screen,1,2026-06-03,https://trueinterview.io/questions/smallest-permutation-bound
-"Boxes, Keys & Candies",Object Oriented Programming,Medium,Phone screen,1,2026-06-02,https://trueinterview.io/questions/boxes-keys-candies-ood
-Property Booking System,Algorithm,Medium,Onsite / virtual onsite,1,2026-05-25,https://trueinterview.io/questions/property-combination-min-capacity
-Design Connect Four,Object Oriented Programming,Medium,Phone screen,3,2026-05-24,https://trueinterview.io/questions/board-game-ood
-Average Vacant Days,SQL,Easy,Onsite / virtual onsite,1,2026-05-23,https://trueinterview.io/questions/average-vacant-days
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Progressive Banking System,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid,1,,2026-10-14,https://trueinterview.io/questions/oa-banking-system-2
+Parcel Attribute Store,Object-Oriented Programming,Medium,Online assessment,New grad,1,,2026-10-09,https://trueinterview.io/questions/oa-parcel-attribute-store
+"Banking System with Scheduled Transfers, Account Merging, and Historical Balances",Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid,1,,2026-10,https://trueinterview.io/questions/dad943ab-9cb2-5f6d-b78f-86ca2ee971b1
+Workspace Credit Ledger with Scheduled Transfers,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad,1,,2026-10,https://trueinterview.io/questions/4c1be592-b2c7-59dc-a159-34b0311bed57
+Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
+Design Online Chess Game,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,5,,2026-09-23,https://trueinterview.io/questions/design-chess-com-online-chess-game
+Document Redaction,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09-19,https://trueinterview.io/questions/mle-document-redaction
+In-Memory File System,Object-Oriented Programming,Medium,Online assessment,New grad,1,,2026-09-08,https://trueinterview.io/questions/oa-in-memory-file-system
+Model Cumulative Booking Metrics and First and Last Booking Times,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09-04,https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times
+Find Users with Seven Consecutive Impression Days,SQL,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09-04,https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days
+"Find Hosts Meeting Listing, Rating, and Review-Coverage Rules",SQL,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09-04,https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules
+Estimate Page-Visit Duration from the Next User Event,SQL,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09-04,https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event
+Calculate the Median House Price in Each City,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-04,https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city
+Rank Home Search Results Without a Text Query,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-09-04,https://trueinterview.io/questions/rank-home-search-results-without-a-text-query
+Generate Customer-Support Instructions from Company Policies,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-09-04,https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies
+"Explain ML Project Milestones, Scope, and Conflict",Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09-04,https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict
+Task Management System with Expiring Assignments and Overdue Tracking,Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5
+In-Memory Banking Operations and Top Spenders,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad,1,,2026-09,https://trueinterview.io/questions/32eeca63-68b5-5a27-860d-9f9f64a2ed19
+Calculate Page Dwell Time from Event Logs,SQL,Easy,Online assessment,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/12a384fe-ebda-5785-9cdb-d8adeff5e3ce
+Median Home Price by City,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/0c07a7e2-8538-52ad-a790-8c1ca6621996
+Answer cross-team delivery and values questions,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,2026-09,https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Dependency Resolution / Build Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e
+Hiring Manager Screen,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/hiring-manager-screen
+Experience / Project Deep-Dive Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/experience-project-deep-dive
+Core Values Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/core-values-bq-round
+Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/booking-system-design
+Format Articles Within Width,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/text-justification-table
+Maximum Profit in Job Scheduling,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/maximum-profit-in-job-scheduling
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Design Google Calendar,System Design,Medium,Onsite / virtual onsite,Senior,3,,2026-09,https://trueinterview.io/questions/design-google-calendar
+Define a File Store with User Quotas and Compression,Object-Oriented Programming,Hard,Online assessment,Junior / Mid; Senior,1,,2026-08-29,https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression
+In-Memory Object Manager,Object-Oriented Programming,Medium,Online assessment,Junior / Mid,1,,2026-08-28,https://trueinterview.io/questions/oa-object-manager-prefix-ttl
+Working Hours Register,Object-Oriented Programming,Hard,Online assessment,New grad,1,,2026-08-17,https://trueinterview.io/questions/oa-working-hours-register
+Add Bold Tag in String,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/e789ba6a-1b50-51dd-ba78-d8f46de2895f
+Maximum Concurrent Bookings,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/b208c108-7a27-5f46-82c2-ffe1a121c692
+FIFO Order Allocator,Algorithm,Easy,Online assessment,Senior,1,,2026-08,https://trueinterview.io/questions/a806c5ff-dc75-5b79-b259-9d5ba25d4b21
+Banking System - Basic Account Operations,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad,1,,2026-08,https://trueinterview.io/questions/76426ad8-4d47-53ba-b232-1d99030c03c9
+Cloud Storage System: User File Backup and Restore,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad,1,,2026-08,https://trueinterview.io/questions/690b16ad-17a7-59cd-bb53-da0fa03cbc8d
+Find Median In Large Array,Algorithm,Medium,Phone screen,Junior / Mid,3,,2026-08,https://trueinterview.io/questions/find-median-in-large-array-2
+Text Box Formatter,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/text-box-formatter
+Code Review — Multi-PR Walkthrough,AI Coding,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/code-review-multi-pr
+URL Parser with Percent Unquote,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/b8f2f270-a472-5c0c-927b-883b8fa80722
+Tag Matching and Annotation with Pattern Priority,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/66c19222-268a-55ae-80db-62d14d9ad56c
+Mouse and Cheese,Algorithm,Medium,Phone screen,Junior / Mid,2,,2026-08,https://trueinterview.io/questions/a960bd9c-a967-4226-8ce4-63f20024cb31
+Highlight Phrases in Review,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid,1,,2026-08,https://trueinterview.io/questions/review-token-replace
+Chain Booking — Max Cascading Reservations,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/chain-booking-cascade
+Build Smallest Number,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/smallest-permutation-bound
+Design Retriable Function,Object-Oriented Programming,Medium,Phone screen,Senior,1,,2026-08,https://trueinterview.io/questions/implement-retryer
+URL Query Parameter Parsing,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/url-query-string-parser
+Durable Key-Value Store Serialization,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-08,https://trueinterview.io/questions/durable-key-value-store-serialization
+Recipe Management System,Object-Oriented Programming,Medium,Online assessment,New grad,1,,2026-07-29,https://trueinterview.io/questions/oa-recipe-management-system
+Parcel Tracking System,Object-Oriented Programming,Medium,Online assessment,Junior / Mid; Senior,1,,2026-07-27,https://trueinterview.io/questions/oa-parcel-tracking-system
+Nested-List Iterator,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-07-26,https://trueinterview.io/questions/nested-list-iterator-with-remove
+Matching Rental Amenities,SQL,Easy,Phone screen,New grad; Junior / Mid; Senior,1,,2026-07-22,https://trueinterview.io/questions/matching-rental-amenities
+Design an A/B Testing Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/design-an-a-b-testing-platform-3
+Solve a Two-by-Three Sliding Puzzle,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/solve-a-two-by-three-sliding-puzzle
+Flatten a Nested Integer List,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/flatten-a-nested-integer-list
+Consecutive Sum (Financial Engineer Intern),Algorithm,Medium,Phone screen,Junior / Mid,2,,2026-07,https://trueinterview.io/questions/7947d7b9-43db-4be6-afc3-72097636a793
+Fill Layover With Experiences,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-06-26,https://trueinterview.io/questions/layover-experiences-exact-fill
+Design Customer Support Ticketing System,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-06-17,https://trueinterview.io/questions/ticket-routing-system-design
+"Boxes, Keys & Candies",Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-06-02,https://trueinterview.io/questions/boxes-keys-candies-ood
+Minimum Purchases to Fill an Exact Target Amount,Algorithm,Medium,Phone screen,New grad,1,,2026-06,https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888
+Maximum Ski Score,Algorithm,Medium,Onsite / virtual onsite,New grad,1,,2026-06,https://trueinterview.io/questions/ski-path-max-score-dag
+Property Booking System,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-05-25,https://trueinterview.io/questions/property-combination-min-capacity
+Design Connect Four,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,3,,2026-05-24,https://trueinterview.io/questions/board-game-ood
+Average Vacant Days,SQL,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-05-23,https://trueinterview.io/questions/average-vacant-days

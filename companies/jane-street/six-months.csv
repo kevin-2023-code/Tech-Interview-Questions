@@ -1,4 +1,7 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Process One Million Quote Updates per Second,System Design,Hard,Phone screen,1,2026-08-24,https://trueinterview.io/questions/process-one-million-quote-updates-per-second
-Estimate the Number of Florists in Sydney and Make a Market,Blog,,Phone screen,1,2026-08-24,https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market
-Design Exchange and Instrument Abstractions for Quote Arbitrage,System Design,Medium,Phone screen,1,2026-08-24,https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Solve probability and game-theory puzzles,Behavioral / Knowledge,,Phone screen,Intern; New grad,1,,2026-09,https://trueinterview.io/questions/solve-probability-and-game-theory-puzzles
+Sealed-Bid Auction for a Box of 200 Coin Flips (and an Informed Opponent),Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent
+Process One Million Quote Updates per Second,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-08-24,https://trueinterview.io/questions/process-one-million-quote-updates-per-second
+Estimate the Number of Florists in Sydney and Make a Market,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Staff+,1,,2026-08-24,https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market
+Design Exchange and Instrument Abstractions for Quote Arbitrage,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-08-24,https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage
+Solve queue switch and coin change puzzles,Algorithm,Hard,Online assessment,New grad; Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/solve-queue-switch-and-coin-change-puzzles

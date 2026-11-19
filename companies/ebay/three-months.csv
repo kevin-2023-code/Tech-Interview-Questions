@@ -1,3 +1,12 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Describe Your Most Technically Difficult Project,Blog,,Phone screen,1,2026-08-26,https://trueinterview.io/questions/describe-your-most-technically-difficult-project
-Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,3,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
+Print Execution Order in a DAG and Detect Cycles,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,,2026-10,https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a
+Course Schedule Cycle Detection,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,,2026-10,https://trueinterview.io/questions/course-schedule-cycle-detection
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Answer senior behavioral questions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/answer-senior-behavioral-questions
+Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/charity-donation-system
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/booking-system-design
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/design-tinyurl
+Describe Your Most Technically Difficult Project,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-08-26,https://trueinterview.io/questions/describe-your-most-technically-difficult-project
+Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,3,,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array

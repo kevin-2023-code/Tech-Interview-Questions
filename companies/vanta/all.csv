@@ -1,16 +1,16 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Measure Most-Viewed URLs and Subscription Conversion Rates,System Design,Medium,Onsite / virtual onsite,1,2026-09-12,https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates
-Task Dependency Resolution (Topological Sort),Algorithm,Medium,Phone screen,1,2026-07-16,https://trueinterview.io/questions/task-dependency-resolution
-Implement `uniq` — Unique Lines in a File,Algorithm,Medium,Onsite / virtual onsite,1,2026-07-16,https://trueinterview.io/questions/unique-lines-command
-RAG Q&A Chatbot — ML / AI Technical Deep Dive,System Design,Medium,Onsite / virtual onsite,1,2026-07-10,https://trueinterview.io/questions/rag-chatbot-ml-design
-Principles & Leadership Behavioral Rounds,Blog,,Onsite / virtual onsite,1,2026-07-10,https://trueinterview.io/questions/principles-and-leadership-bq
-DAU / MAU Internal Analytics System,System Design,Medium,Onsite / virtual onsite,1,2026-06-10,https://trueinterview.io/questions/dau-mau-analytics-system
-Employee Training Status + Group Tree Aggregation,Algorithm,Medium,Phone screen,1,2026-03-17,https://trueinterview.io/questions/training-status-group-aggregation
-Test Run Status Monitor (Failing → Passing Windows),Algorithm,Hard,Phone screen,1,2025-07-31,https://trueinterview.io/questions/test-status-monitor
-Frontend Practical Coding — Work Against a Provided API,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2025-07-24,https://trueinterview.io/questions/frontend-api-practical
-Word Pattern / Meta-Pattern Match (Backtracking),Algorithm,Medium,Phone screen,1,2024-12-04,https://trueinterview.io/questions/word-pattern-meta-match
-Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda
-Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c
-Recursive Class Dependency Ordering,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf
-Find All Dependencies,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/13cba32d-7517-469b-965e-8c140232c558
-Implement Unix uniq,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Measure Most-Viewed URLs and Subscription Conversion Rates,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09-12,https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates
+Task Dependency Resolution (Topological Sort),Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-07-16,https://trueinterview.io/questions/task-dependency-resolution
+Implement `uniq` — Unique Lines in a File,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-16,https://trueinterview.io/questions/unique-lines-command
+RAG Q&A Chatbot — ML / AI Technical Deep Dive,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07-10,https://trueinterview.io/questions/rag-chatbot-ml-design
+Principles & Leadership Behavioral Rounds,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-10,https://trueinterview.io/questions/principles-and-leadership-bq
+Recursive Class Dependency Ordering,Algorithm,Medium,Phone screen,Senior,1,,2026-07,https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf
+Implement Unix uniq,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce
+DAU / MAU Internal Analytics System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-06-10,https://trueinterview.io/questions/dau-mau-analytics-system
+Employee Training Status + Group Tree Aggregation,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-03-17,https://trueinterview.io/questions/training-status-group-aggregation
+Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree),Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-03,https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda
+Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-03,https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c
+Test Run Status Monitor (Failing → Passing Windows),Algorithm,Hard,Phone screen,Junior / Mid,1,,2025-07-31,https://trueinterview.io/questions/test-status-monitor
+Frontend Practical Coding — Work Against a Provided API,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2025-07-24,https://trueinterview.io/questions/frontend-api-practical
+Find All Dependencies,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-06,https://trueinterview.io/questions/13cba32d-7517-469b-965e-8c140232c558
+Word Pattern / Meta-Pattern Match (Backtracking),Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2024-12-04,https://trueinterview.io/questions/word-pattern-meta-match

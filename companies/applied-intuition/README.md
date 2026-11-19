@@ -4,41 +4,41 @@
 
 29 questions reported at Applied Intuition, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (3) · [all](all.csv) (29)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (7) · [all](all.csv) (29)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-08-30 |
-| [Design Parsing Boundaries for Interdependent Message Types](https://trueinterview.io/questions/design-parsing-boundaries-for-interdependent-message-types) | System Design | Medium | Phone screen | 1 | 2026-06-17 |
-| [Build a File-Driven Data Visualization and Replay UI](https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-06-17 |
-| [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Object Oriented Programming | Medium | Online assessment | 3 | 2026-04-28 |
-| [Implement a Fixed-Capacity Deque](https://trueinterview.io/questions/implement-a-fixed-capacity-deque) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-04-14 |
-| [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-02-26 |
-| [Design a mini compiler/interpreter](https://trueinterview.io/questions/design-a-mini-compiler-interpreter) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-02-12 |
-| [Design a KV store with transactions](https://trueinterview.io/questions/design-a-kv-store-with-transactions) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-02-12 |
-| [Find intersection of two line segments](https://trueinterview.io/questions/find-intersection-of-two-line-segments) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-02-12 |
-| [Validate Nested Configuration Objects](https://trueinterview.io/questions/validate-nested-configuration-objects) | Algorithm | Medium | Phone screen | 1 | 2026-01-12 |
-| [Evaluate variables in simple arithmetic DSL](https://trueinterview.io/questions/evaluate-variables-in-simple-arithmetic-dsl) | Algorithm | Hard | Phone screen | 1 | 2025-12-01 |
-| [Track simulations and report timeouts](https://trueinterview.io/questions/track-simulations-and-report-timeouts) | Algorithm | Hard | Phone screen | 1 | — |
-| [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f) | Algorithm | Easy | Online assessment | 2 | — |
-| [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
-| [Arithmetic Expression Evaluator II](https://trueinterview.io/questions/78d6d121-b1eb-489a-ad84-0e90cce7d0fc) | Algorithm | Hard | Phone screen | 1 | — |
-| [Topological Sort with Nested Elements](https://trueinterview.io/questions/75bb27c8-8c45-415d-bd44-edfb0d52af96) | Algorithm | Medium | Phone screen | 1 | — |
-| [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b) | Algorithm | Medium | Phone screen | 1 | — |
-| [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
-| [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Algorithm | Easy | Online assessment | 1 | — |
-| [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946) | Algorithm | Hard | Phone screen | 1 | — |
-| [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182) | System Design | Medium | Onsite / virtual onsite | 1 | — |
-| [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) | Algorithm | Easy | Online assessment | 1 | — |
-| [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1) | Algorithm | Medium | Phone screen | 1 | — |
-| [Find all points in a 2D plane](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887) | Algorithm | Hard | Phone screen | 1 | — |
-| [Merge 2D Line Segments](https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1) | Algorithm | Hard | Phone screen | 1 | — |
-| [First Collision Time in a Multi-Agent Unicycle Simulator](https://trueinterview.io/questions/602b6710-f264-58a7-8e1e-56e2c9cac37c) | Algorithm | Medium | Phone screen | 1 | — |
-| [Route Curve Simplification Function](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020) | Algorithm | Medium | Phone screen | 1 | — |
-| [Sensor Data Query Processor](https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76) | Algorithm | Medium | Phone screen | 1 | — |
-| [Finding Optimal Camp Location](https://trueinterview.io/questions/9cea9ab2-6484-4533-b59d-0020053aee3d) | Algorithm | Hard | Phone screen | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid, Senior | 2 | 2026-09 |
+| [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-08-30 |
+| [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-08 |
+| [Sensor Data Query Processor](https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-07 |
+| [Design Parsing Boundaries for Interdependent Message Types](https://trueinterview.io/questions/design-parsing-boundaries-for-interdependent-message-types?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 2026-06-17 |
+| [Build a File-Driven Data Visualization and Replay UI](https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 2026-06-17 |
+| [First Collision Time in a Multi-Agent Unicycle Simulator](https://trueinterview.io/questions/602b6710-f264-58a7-8e1e-56e2c9cac37c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-06 |
+| [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2026-05 |
+| [In-Memory Database](https://trueinterview.io/questions/in-memory-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad, Junior / Mid, Senior | 3 | 2026-04-28 |
+| [Implement a Fixed-Capacity Deque](https://trueinterview.io/questions/implement-a-fixed-capacity-deque?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-04-14 |
+| [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern | 2 | 2026-03 |
+| [Design a mini compiler/interpreter](https://trueinterview.io/questions/design-a-mini-compiler-interpreter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 2026-02-12 |
+| [Design a KV store with transactions](https://trueinterview.io/questions/design-a-kv-store-with-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-02-12 |
+| [Find intersection of two line segments](https://trueinterview.io/questions/find-intersection-of-two-line-segments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 2026-02-12 |
+| [Validate Nested Configuration Objects](https://trueinterview.io/questions/validate-nested-configuration-objects?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-01-12 |
+| [Topological Sort with Nested Elements](https://trueinterview.io/questions/75bb27c8-8c45-415d-bd44-edfb0d52af96?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-01 |
+| [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-01 |
+| [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-01 |
+| [Merge 2D Line Segments](https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior | 1 | 2026-01 |
+| [Track simulations and report timeouts](https://trueinterview.io/questions/track-simulations-and-report-timeouts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2025-12 |
+| [Evaluate variables in simple arithmetic DSL](https://trueinterview.io/questions/evaluate-variables-in-simple-arithmetic-dsl?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 2025-12-01 |
+| [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid | 1 | 2025-12 |
+| [Arithmetic Expression Evaluator II](https://trueinterview.io/questions/78d6d121-b1eb-489a-ad84-0e90cce7d0fc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 2025-11 |
+| [Finding Optimal Camp Location](https://trueinterview.io/questions/9cea9ab2-6484-4533-b59d-0020053aee3d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid | 1 | 2025-04 |
+| [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2025-03 |
+| [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 2025-03 |
+| [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2025-03 |
+| [Find all points in a 2D plane](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 2025-03 |
+| [Route Curve Simplification Function](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2025-03 |
 
 ---
 

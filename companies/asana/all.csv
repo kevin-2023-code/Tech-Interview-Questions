@@ -1,12 +1,12 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Design and Solve a Rotatable Jigsaw Puzzle,Object Oriented Programming,Hard,Phone screen,1,2026-04-13,https://trueinterview.io/questions/design-and-solve-a-rotatable-jigsaw-puzzle
-Design a 2048 Game,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-04-02,https://trueinterview.io/questions/design-a-2048-game
-Design a Collaborative Todo List,System Design,Medium,Onsite / virtual onsite,1,2026-04-02,https://trueinterview.io/questions/design-a-collaborative-todo-list
-Implement an ASCII Art Printer,Algorithm,Medium,Onsite / virtual onsite,1,2026-04-02,https://trueinterview.io/questions/implement-an-ascii-art-printer
-Answer Manager Behavioral Prompts,Blog,,Onsite / virtual onsite,1,2026-04-02,https://trueinterview.io/questions/answer-manager-behavioral-prompts
-Product of Array Except Self,Algorithm,Medium,Phone screen,6,2026-04-02,https://trueinterview.io/questions/product-of-array-except-self
-Explain code complexity and design two games,System Design,Medium,Phone screen,1,2026-02-08,https://trueinterview.io/questions/explain-code-complexity-and-design-two-games
-"Discuss projects, mentorship, and conflict resolution",Blog,,Phone screen,1,2026-02-08,https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution
-Design a Twitter-like microblogging service,System Design,Medium,Phone screen,1,2026-02-08,https://trueinterview.io/questions/design-a-twitter-like-microblogging-service
-Implement core puzzle/array/grid routines,Blog,,Onsite / virtual onsite,1,2026-01-07,https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines
-Find frequent IPs from a huge file,System Design,Medium,Onsite / virtual onsite,1,2026-01-07,https://trueinterview.io/questions/find-frequent-ips-from-a-huge-file
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Product of Array Except Self,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6,,2026-07,https://trueinterview.io/questions/product-of-array-except-self
+Design and Solve a Rotatable Jigsaw Puzzle,Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,,2026-04-13,https://trueinterview.io/questions/design-and-solve-a-rotatable-jigsaw-puzzle
+Design a 2048 Game,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-04-02,https://trueinterview.io/questions/design-a-2048-game
+Design a Collaborative Todo List,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-04-02,https://trueinterview.io/questions/design-a-collaborative-todo-list
+Implement an ASCII Art Printer,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-04-02,https://trueinterview.io/questions/implement-an-ascii-art-printer
+Answer Manager Behavioral Prompts,Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,,2026-04-02,https://trueinterview.io/questions/answer-manager-behavioral-prompts
+"Discuss projects, mentorship, and conflict resolution",Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,2026-03,https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution
+Explain code complexity and design two games,System Design,Medium,Phone screen,Junior / Mid; Senior,1,,2026-02-08,https://trueinterview.io/questions/explain-code-complexity-and-design-two-games
+Design a Twitter-like microblogging service,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-02-08,https://trueinterview.io/questions/design-a-twitter-like-microblogging-service
+Implement core puzzle/array/grid routines,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-01-07,https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines
+Find frequent IPs from a huge file,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-01-07,https://trueinterview.io/questions/find-frequent-ips-from-a-huge-file

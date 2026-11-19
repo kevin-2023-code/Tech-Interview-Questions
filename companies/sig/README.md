@@ -6,19 +6,19 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (9) · [all](all.csv) (9)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | Algorithm | Hard | Online assessment | 1 | 2026-09-17 |
-| [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | Algorithm | Hard | Online assessment | 1 | 2026-09-17 |
-| [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) | Blog | — | Online assessment | 1 | 2026-08-16 |
-| [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) | Blog | — | Online assessment | 1 | 2026-08-16 |
-| [Find a Green Triangle's Weight in a Balanced Mobile](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile) | Blog | — | Online assessment | 1 | 2026-08-16 |
-| [Count Grid Paths with No Three Equal Moves](https://trueinterview.io/questions/count-grid-paths-with-no-three-equal-moves) | Algorithm | Hard | Online assessment | 1 | 2026-08-16 |
-| [Count Cookie Flavor Combinations](https://trueinterview.io/questions/count-cookie-flavor-combinations) | Blog | — | Online assessment | 1 | 2026-08-16 |
-| [Compute the Probability Two Bloom Intervals Overlap](https://trueinterview.io/questions/compute-the-probability-two-bloom-intervals-overlap) | Blog | — | Online assessment | 1 | 2026-08-16 |
-| [Calculate Expected Payoff from Two Dice](https://trueinterview.io/questions/calculate-expected-payoff-from-two-dice) | Blog | — | Online assessment | 1 | 2026-08-16 |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Junior / Mid, Senior | 1 | 2026-09-17 |
+| [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Junior / Mid, Senior | 1 | 2026-09-17 |
+| [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2026-08-16 |
+| [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2026-08-16 |
+| [Find a Green Triangle's Weight in a Balanced Mobile](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad | 1 | 2026-08-16 |
+| [Count Grid Paths with No Three Equal Moves](https://trueinterview.io/questions/count-grid-paths-with-no-three-equal-moves?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Intern, New grad, Junior / Mid | 1 | 2026-08-16 |
+| [Count Cookie Flavor Combinations](https://trueinterview.io/questions/count-cookie-flavor-combinations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2026-08-16 |
+| [Compute the Probability Two Bloom Intervals Overlap](https://trueinterview.io/questions/compute-the-probability-two-bloom-intervals-overlap?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad | 1 | 2026-08-16 |
+| [Calculate Expected Payoff from Two Dice](https://trueinterview.io/questions/calculate-expected-payoff-from-two-dice?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2026-08-16 |
 
 ---
 
