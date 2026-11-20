@@ -4,7 +4,7 @@
 
 119 questions reported at Stripe, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (43) · [last 6 months](six-months.csv) (64) · [all](all.csv) (119)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (43) · [last 6 months](six-months.csv) (62) · [all](all.csv) (119)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

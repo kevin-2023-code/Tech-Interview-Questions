@@ -4,7 +4,7 @@
 
 488 questions reported at Meta, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (64) · [last 6 months](six-months.csv) (136) · [all](all.csv) (488)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (64) · [last 6 months](six-months.csv) (133) · [all](all.csv) (488)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

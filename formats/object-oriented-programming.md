@@ -2,7 +2,7 @@
 
 # Object-Oriented Programming interview questions
 
-643 questions as of 2026-11-19, most recently reported first; questions with no reported date come last.
+643 questions as of 2026-11-20, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 

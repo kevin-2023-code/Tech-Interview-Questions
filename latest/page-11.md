@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-4,184 questions reported in the 365 days to 2026-11-19, newest first. A month without a day means only the month was reported.
+4,177 questions reported in the 365 days to 2026-11-20, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -187,12 +187,5 @@
 | 2025-11-20 | [Oracle](../companies/oracle/) | [Merge K Sorted (Key, Value) Lists with Later Override](https://trueinterview.io/questions/merge-k-sorted-key-value-lists?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2025-11-20 | [Databricks](../companies/databricks/) | [Network Throttling System Design](https://trueinterview.io/questions/network-throttling-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
 | 2025-11-20 | [Apple](../companies/apple/) | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
-| 2025-11-19 | [Glean](../companies/glean/) | [Simulate document assignment to indexers](https://trueinterview.io/questions/simulate-document-assignment-to-indexers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
-| 2025-11-19 | [Anthropic](../companies/anthropic/) | [Implement staircase printing and distributed mode/median](https://trueinterview.io/questions/implement-staircase-printing-and-distributed-mode-median?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
-| 2025-11-19 | [Oracle](../companies/oracle/) | [Course Scheduler — Print Path (Simplified)](https://trueinterview.io/questions/course-scheduler-simplified?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
-| 2025-11-19 | [JPMorgan](../companies/jpmorgan/) | [Interval Sign Flips](https://trueinterview.io/questions/interval-sign-flips?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 1 |
-| 2025-11-19 | [Intuit](../companies/intuit/) | [Three-Column Grid Coloring Count](https://trueinterview.io/questions/three-column-grid-coloring-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 0 |
-| 2025-11-19 | [Intuit](../companies/intuit/) | [Clean String: Remove Punctuation and Stop Words](https://trueinterview.io/questions/clean-string-remove-punctuation-stop-words?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 0 |
-| 2025-11-19 | [Atlassian](../companies/atlassian/) | [Full-Stack Craft: Login and Upload Flow](https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Junior / Mid, Senior | 0 |
 
 [← Newer](page-10.md) · Page 11 of 11
