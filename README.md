@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**5,873 questions · 133 companies · +273 added in the last 30 days · 1,084 reported in the last 90 days · data as of 2026-11-20**
+**5,873 questions · 133 companies · +273 added in the last 30 days · 1,068 reported in the last 90 days · data as of 2026-11-21**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -13,7 +13,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## New this week
 
 <!-- gen:new:start -->
-2 questions added to the bank in the 7 days to 2026-11-20:
+2 questions added to the bank in the 7 days to 2026-11-21:
 
 | Added | Company | Question | Format | Round | Level | Last reported | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -24,7 +24,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 4,177 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 4,166 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -116,14 +116,14 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | Company | Questions | Reported in last 90 days | Last reported |
 | :-- | --: | --: | :-- |
 | [Meta](companies/meta/) | 488 | 64 | 2026-10 |
-| [Amazon](companies/amazon/) | 463 | 175 | 2026-10-03 |
+| [Amazon](companies/amazon/) | 463 | 165 | 2026-10-03 |
 | [Google](companies/google/) | 382 | 102 | 2026-10-04 |
 | [ByteDance](companies/bytedance/) | 343 | 90 | 2026-10-05 |
-| [Uber](companies/uber/) | 262 | 50 | 2026-10 |
+| [Uber](companies/uber/) | 262 | 49 | 2026-10 |
 | [Microsoft](companies/microsoft/) | 239 | 75 | 2026-10-03 |
 | [Capital One](companies/capital-one/) | 213 | 36 | 2026-10-02 |
 | [Apple](companies/apple/) | 182 | 42 | 2026-10-02 |
-| [OpenAI](companies/openai/) | 172 | 64 | 2026-10-04 |
+| [OpenAI](companies/openai/) | 172 | 63 | 2026-10-04 |
 | [DoorDash](companies/doordash/) | 151 | 39 | 2026-10 |
 | [Snowflake](companies/snowflake/) | 145 | 28 | 2026-10 |
 | [LinkedIn](companies/linkedin/) | 144 | 58 | 2026-10 |
@@ -133,12 +133,12 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Airbnb](companies/airbnb/) | 109 | 34 | 2026-10-14 |
 | [Netflix](companies/netflix/) | 107 | 19 | 2026-10 |
 | [Roblox](companies/roblox/) | 104 | 22 | 2026-10 |
-| [Anthropic](companies/anthropic/) | 99 | 36 | 2026-10 |
+| [Anthropic](companies/anthropic/) | 99 | 35 | 2026-10 |
 | [Salesforce](companies/salesforce/) | 99 | 15 | 2026-10 |
 | [Citadel](companies/citadel/) | 97 | 23 | 2026-10 |
 | [Bloomberg](companies/bloomberg/) | 95 | 23 | 2026-10 |
 | [Databricks](companies/databricks/) | 88 | 27 | 2026-10 |
-| [Snapchat](companies/snapchat/) | 87 | 24 | 2026-10 |
+| [Snapchat](companies/snapchat/) | 87 | 23 | 2026-10 |
 | [Waymo](companies/waymo/) | 86 | 20 | 2026-10 |
 | [Coinbase](companies/coinbase/) | 85 | 4 | 2026-09 |
 | [Goldman Sachs](companies/goldman-sachs/) | 67 | 19 | 2026-10 |
@@ -178,11 +178,11 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Datadog](companies/datadog/) | 28 | 2 | 2026-10 |
 | [JPMorgan](companies/jpmorgan/) | 28 | 3 | 2026-10 |
 | [Cisco](companies/cisco/) | 27 | 2 | 2026-09-17 |
-| [Pinduoduo](companies/pinduoduo/) | 27 | 6 | 2026-10 |
+| [Pinduoduo](companies/pinduoduo/) | 27 | 5 | 2026-10 |
 | [Perplexity](companies/perplexity/) | 25 | 4 | 2026-09-01 |
 | [Harvey](companies/harvey/) | 23 | 4 | 2026-09-15 |
 | [Hudson River Trading](companies/hudson-river-trading/) | 22 | 0 | 2026-08 |
-| [Tradedesk](companies/tradedesk/) | 22 | 8 | 2026-09-15 |
+| [Tradedesk](companies/tradedesk/) | 22 | 7 | 2026-09-15 |
 | [WeRide](companies/weride/) | 22 | 2 | 2026-09 |
 | [Yelp](companies/yelp/) | 22 | 8 | 2026-10 |
 | [Dropbox](companies/dropbox/) | 21 | 1 | 2026-09 |

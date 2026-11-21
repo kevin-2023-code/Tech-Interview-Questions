@@ -2,7 +2,7 @@
 
 # AI Coding interview questions
 
-134 questions as of 2026-11-20, most recently reported first; questions with no reported date come last.
+134 questions as of 2026-11-21, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 

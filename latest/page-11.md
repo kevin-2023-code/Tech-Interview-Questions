@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-4,177 questions reported in the 365 days to 2026-11-20, newest first. A month without a day means only the month was reported.
+4,166 questions reported in the 365 days to 2026-11-21, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -176,16 +176,5 @@
 | 2025-11-21 | [Microsoft](../companies/microsoft/) | [Sort 0..32000 with Bit-Vector Storage](https://trueinterview.io/questions/bit-vector-sort-0-to-32000?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 1 |
 | 2025-11-21 | [Oracle](../companies/oracle/) | [Anagram Word Replacement in Phrases](https://trueinterview.io/questions/anagram-phrase-replacement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad | 1 |
 | 2025-11-21 | [Stripe](../companies/stripe/) | [Currency Exchange Rate Converter](https://trueinterview.io/questions/currency-exchange-rate-converter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
-| 2025-11-20 | [Meta](../companies/meta/) | [Python Coding Questions](https://trueinterview.io/questions/solve-sql-and-python-coding-tasks-python-coding-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
-| 2025-11-20 | [Meta](../companies/meta/) | [SQL Questions](https://trueinterview.io/questions/solve-sql-and-python-coding-tasks-sql-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | New grad, Junior / Mid, Senior | 0 |
-| 2025-11-20 | [Amazon](../companies/amazon/) | [Explain surprisal and its units](https://trueinterview.io/questions/explain-surprisal-and-its-units?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
-| 2025-11-20 | [PayPal](../companies/paypal/) | [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2025-11-20 | [Amazon](../companies/amazon/) | [Find recommended friend pairs by shared listening](https://trueinterview.io/questions/find-recommended-friend-pairs-by-shared-listening?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Junior / Mid, Senior | 0 |
-| 2025-11-20 | [Walmart Labs](../companies/walmart-labs/) | [Design Walmart+ Membership System](https://trueinterview.io/questions/design-membership-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
-| 2025-11-20 | [LinkedIn](../companies/linkedin/), [Amazon](../companies/amazon/) | [Function Inclusive / Exclusive Time](https://trueinterview.io/questions/coding-function-exclusive-inclusive-time?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 0 |
-| 2025-11-20 | [Akuna Capital](../companies/akuna-capital/) | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | Intern, Junior / Mid | 0 |
-| 2025-11-20 | [Oracle](../companies/oracle/) | [Merge K Sorted (Key, Value) Lists with Later Override](https://trueinterview.io/questions/merge-k-sorted-key-value-lists?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
-| 2025-11-20 | [Databricks](../companies/databricks/) | [Network Throttling System Design](https://trueinterview.io/questions/network-throttling-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
-| 2025-11-20 | [Apple](../companies/apple/) | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
 
 [← Newer](page-10.md) · Page 11 of 11
