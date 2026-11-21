@@ -100,6 +100,17 @@ Constraints:
 * The UI must handle both an empty active set and a non-empty active set.
 * Deselecting a color must remove its table row and decrement the displayed count.
 
+## How your solution is tested
+
+Write JavaScript (JSX allowed). Default-export a component: `export default function ColorSelector({ colorData })`, where `colorData` is the `COLOR_DATA` object (keyed by color name). Read the catalog from this prop, not from a global.
+
+The tests find things by accessibility role and text (jsdom has no layout):
+
+- A `button` whose name contains "Colors" opens and closes the dropdown. While open, each color is a `checkbox` whose accessible name is exactly the color name (for example a `<label>` wrapping the input); checking it activates the color, unchecking it deactivates it. The dropdown may start closed or open.
+- A single element whose whole text is "X color selected" or "X colors selected" (singular or plural both accepted; X is the number of active colors, including 0).
+- Below it, an HTML `<table>` with a header row (at least three `columnheader`s) and one body row per active color. The first cell of a row is the color name, and at least two of that color's property values appear as the text of the other cells.
+- With no active color there are no color rows, and the text "No selected colors." is shown.
+
 ## Hints
 
 <details>

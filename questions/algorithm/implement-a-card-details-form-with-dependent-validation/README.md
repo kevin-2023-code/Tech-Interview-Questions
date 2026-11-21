@@ -86,6 +86,15 @@ Constraints:
 * Expiry granularity is whole months: a date equal to `currentMonth/currentYear` is considered valid.
 * The `profile` field is always `"A"` or `"B"`; the component does not need to infer the profile from the number.
 
+## How your solution is tested
+
+- Language: JavaScript (JSX allowed). Default-export the component: `export default function CardForm({ currentYear, currentMonth, onSubmit })`.
+- The tests find the controls by accessible label: text inputs labelled `Cardholder name`, `Card number`, `Expiry` and `Security code`; a `<select>` labelled `Profile` whose options have the values `A` and `B`; and a button named `Submit` (submit it by clicking this button).
+- The tests change values with change events (typing or selecting), and read results from these hooks: a field whose current value is invalid has `aria-invalid="true"` (a valid field does not), and each visible error message is an element with `role="alert"` (there are none while every field is valid).
+- Errors must update on change, without needing a blur or a submit, once a field has been edited. The tests never look at the form before the first edit, and never test the cardholder name's validity.
+- `onSubmit` receives `{ cardholderName, profile, number, expiry, securityCode }` with the spaces removed from `number`. The expiry is read as `MM/YY` with `YY` meaning `20YY`.
+- jsdom has no layout; no timers or network are involved.
+
 ## Solution
 
 The reference solution is on [the question page](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
