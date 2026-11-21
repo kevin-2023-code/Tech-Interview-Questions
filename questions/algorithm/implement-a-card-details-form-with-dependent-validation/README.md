@@ -73,7 +73,7 @@ User: profile = A, number = "4111111111111111", security = "123",
 ```text
 Output:
 Error messages for number (requires 15 digits) and security (requires 4 digits)
-appear immediately. After correcting number to "5500000000000004"
+appear immediately. After correcting number to "378282246310005"
 and security to "5678", the errors clear.
 ```
 
