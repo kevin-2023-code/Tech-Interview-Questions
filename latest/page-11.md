@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-4,166 questions reported in the 365 days to 2026-11-21, newest first. A month without a day means only the month was reported.
+4,160 questions reported in the 365 days to 2026-11-22, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -170,11 +170,5 @@
 | 2025-11-22 | [Bloomberg](../companies/bloomberg/) | [Simplified Grep](https://trueinterview.io/questions/simplified-grep?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Intern | 1 |
 | 2025-11-22 | [Ramp](../companies/ramp/) | [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2025-11-22 | [Perplexity](../companies/perplexity/) | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Phone screen | Junior / Mid | 0 |
-| 2025-11-21 | [xAI](../companies/xai/) | [How Would You Prevent Hallucinations in an LLM-Based System?](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+ | 0 |
-| 2025-11-21 | [Shopify](../companies/shopify/) | [Measure App Store success and debug funnel anomaly](https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+ | 0 |
-| 2025-11-21 | [Microsoft](../companies/microsoft/) | [Validate Lat/Long With Minimum Expensive API Calls](https://trueinterview.io/questions/geocode-api-call-minimization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
-| 2025-11-21 | [Microsoft](../companies/microsoft/) | [Sort 0..32000 with Bit-Vector Storage](https://trueinterview.io/questions/bit-vector-sort-0-to-32000?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 1 |
-| 2025-11-21 | [Oracle](../companies/oracle/) | [Anagram Word Replacement in Phrases](https://trueinterview.io/questions/anagram-phrase-replacement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad | 1 |
-| 2025-11-21 | [Stripe](../companies/stripe/) | [Currency Exchange Rate Converter](https://trueinterview.io/questions/currency-exchange-rate-converter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 
 [← Newer](page-10.md) · Page 11 of 11

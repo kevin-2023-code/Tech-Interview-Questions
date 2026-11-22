@@ -4,7 +4,7 @@
 
 56 questions reported at Rippling, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (27) · [all](all.csv) (56)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (26) · [all](all.csv) (56)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

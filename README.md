@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**5,873 questions · 133 companies · +273 added in the last 30 days · 1,068 reported in the last 90 days · data as of 2026-11-21**
+**5,873 questions · 133 companies · +273 added in the last 30 days · 1,064 reported in the last 90 days · data as of 2026-11-22**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -13,7 +13,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## New this week
 
 <!-- gen:new:start -->
-2 questions added to the bank in the 7 days to 2026-11-21:
+2 questions added to the bank in the 7 days to 2026-11-22:
 
 | Added | Company | Question | Format | Round | Level | Last reported | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -24,7 +24,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 4,166 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 4,160 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -118,7 +118,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Meta](companies/meta/) | 488 | 64 | 2026-10 |
 | [Amazon](companies/amazon/) | 463 | 165 | 2026-10-03 |
 | [Google](companies/google/) | 382 | 102 | 2026-10-04 |
-| [ByteDance](companies/bytedance/) | 343 | 90 | 2026-10-05 |
+| [ByteDance](companies/bytedance/) | 343 | 87 | 2026-10-05 |
 | [Uber](companies/uber/) | 262 | 49 | 2026-10 |
 | [Microsoft](companies/microsoft/) | 239 | 75 | 2026-10-03 |
 | [Capital One](companies/capital-one/) | 213 | 36 | 2026-10-02 |
@@ -156,7 +156,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Ebay](companies/ebay/) | 48 | 10 | 2026-10 |
 | [Lyft](companies/lyft/) | 48 | 7 | 2026-10 |
 | [Disney](companies/disney/) | 47 | 8 | 2026-10-08 |
-| [Reddit](companies/reddit/) | 45 | 8 | 2026-10 |
+| [Reddit](companies/reddit/) | 45 | 7 | 2026-10 |
 | [Squarepoint](companies/squarepoint/) | 45 | 11 | 2026-09-09 |
 | [IBM](companies/ibm/) | 44 | 13 | 2026-10-05 |
 | [xAI](companies/xai/) | 42 | 8 | 2026-10 |
