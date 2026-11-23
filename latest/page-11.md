@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-4,160 questions reported in the 365 days to 2026-11-22, newest first. A month without a day means only the month was reported.
+4,153 questions reported in the 365 days to 2026-11-23, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -163,12 +163,5 @@
 | 2025-11-23 | [Roblox](../companies/roblox/) | [Compute DiD and validate parallel trends](https://trueinterview.io/questions/compute-did-and-validate-parallel-trends?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad, Junior / Mid, Senior | 0 |
 | 2025-11-23 | [Snowflake](../companies/snowflake/) | [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 1 |
 | 2025-11-23 | [Snowflake](../companies/snowflake/) | [S3-Style Storage with Dedup](https://trueinterview.io/questions/s3-dedup-storage-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 0 |
-| 2025-11-22 | [Drw](../companies/drw/) | [Compute expected arc length on a circle](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | New grad, Junior / Mid, Senior | 0 |
-| 2025-11-22 | [Amazon](../companies/amazon/) | [Implement Interview Coding Problems](https://trueinterview.io/questions/implement-interview-coding-problems?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
-| 2025-11-22 | [Okta](../companies/okta/) | [Build an Auth0-based MCP Server (Hands-on)](https://trueinterview.io/questions/oa-mcp-auth0-server?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | OA | New grad | 0 |
-| 2025-11-22 | [Tesla](../companies/tesla/) | [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 1 |
-| 2025-11-22 | [Bloomberg](../companies/bloomberg/) | [Simplified Grep](https://trueinterview.io/questions/simplified-grep?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Intern | 1 |
-| 2025-11-22 | [Ramp](../companies/ramp/) | [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
-| 2025-11-22 | [Perplexity](../companies/perplexity/) | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Phone screen | Junior / Mid | 0 |
 
 [← Newer](page-10.md) · Page 11 of 11

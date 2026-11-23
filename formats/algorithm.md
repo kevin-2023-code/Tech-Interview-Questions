@@ -2,7 +2,7 @@
 
 # Algorithm interview questions
 
-2,621 questions as of 2026-11-22, most recently reported first; questions with no reported date come last.
+2,621 questions as of 2026-11-23, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 

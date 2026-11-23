@@ -4,7 +4,7 @@
 
 15 questions reported at Jane Street, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (6) · [all](all.csv) (15)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (6) · [all](all.csv) (15)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

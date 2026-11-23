@@ -2,7 +2,7 @@
 
 # Behavioral / Knowledge interview questions
 
-1,416 questions as of 2026-11-22, most recently reported first; questions with no reported date come last.
+1,416 questions as of 2026-11-23, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 

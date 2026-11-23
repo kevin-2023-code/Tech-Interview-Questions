@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**5,873 questions · 133 companies · +273 added in the last 30 days · 1,064 reported in the last 90 days · data as of 2026-11-22**
+**5,873 questions · 133 companies · +273 added in the last 30 days · 1,052 reported in the last 90 days · data as of 2026-11-23**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -13,18 +13,13 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## New this week
 
 <!-- gen:new:start -->
-2 questions added to the bank in the 7 days to 2026-11-22:
-
-| Added | Company | Question | Format | Round | Level | Last reported | Reports |
-| :-- | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-11-15 | [Ebay](companies/ebay/) | [Ticket Reference Tally](https://trueinterview.io/questions/ticket-reference-tally?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Intern, New grad, Junior / Mid | — | 0 |
-| 2026-11-15 | [Coinbase](companies/coinbase/), [Ebay](companies/ebay/) +1 | [Snippet Vault](https://trueinterview.io/questions/snippet-vault?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad | 2025-12 | 0 |
+No questions were added in the 7 days to 2026-11-23.
 <!-- gen:new:end -->
 
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 4,160 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 4,153 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -116,7 +111,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | Company | Questions | Reported in last 90 days | Last reported |
 | :-- | --: | --: | :-- |
 | [Meta](companies/meta/) | 488 | 64 | 2026-10 |
-| [Amazon](companies/amazon/) | 463 | 165 | 2026-10-03 |
+| [Amazon](companies/amazon/) | 463 | 164 | 2026-10-03 |
 | [Google](companies/google/) | 382 | 102 | 2026-10-04 |
 | [ByteDance](companies/bytedance/) | 343 | 87 | 2026-10-05 |
 | [Uber](companies/uber/) | 262 | 49 | 2026-10 |
@@ -125,7 +120,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Apple](companies/apple/) | 182 | 42 | 2026-10-02 |
 | [OpenAI](companies/openai/) | 172 | 63 | 2026-10-04 |
 | [DoorDash](companies/doordash/) | 151 | 39 | 2026-10 |
-| [Snowflake](companies/snowflake/) | 145 | 28 | 2026-10 |
+| [Snowflake](companies/snowflake/) | 145 | 27 | 2026-10 |
 | [LinkedIn](companies/linkedin/) | 144 | 58 | 2026-10 |
 | [Pinterest](companies/pinterest/) | 128 | 34 | 2026-10 |
 | [Stripe](companies/stripe/) | 119 | 43 | 2026-10-04 |
@@ -133,8 +128,8 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Airbnb](companies/airbnb/) | 109 | 34 | 2026-10-14 |
 | [Netflix](companies/netflix/) | 107 | 19 | 2026-10 |
 | [Roblox](companies/roblox/) | 104 | 22 | 2026-10 |
-| [Anthropic](companies/anthropic/) | 99 | 35 | 2026-10 |
-| [Salesforce](companies/salesforce/) | 99 | 15 | 2026-10 |
+| [Anthropic](companies/anthropic/) | 99 | 34 | 2026-10 |
+| [Salesforce](companies/salesforce/) | 99 | 13 | 2026-10 |
 | [Citadel](companies/citadel/) | 97 | 23 | 2026-10 |
 | [Bloomberg](companies/bloomberg/) | 95 | 23 | 2026-10 |
 | [Databricks](companies/databricks/) | 88 | 27 | 2026-10 |
@@ -150,7 +145,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [C3.ai](companies/c3-ai/) | 55 | 5 | 2026-10-04 |
 | [NVIDIA](companies/nvidia/) | 53 | 4 | 2026-09-17 |
 | [Robinhood](companies/robinhood/) | 53 | 12 | 2026-10 |
-| [Tesla](companies/tesla/) | 52 | 10 | 2026-09-13 |
+| [Tesla](companies/tesla/) | 52 | 8 | 2026-09-13 |
 | [Two Sigma](companies/two-sigma/) | 50 | 2 | 2026-10 |
 | [Upstart](companies/upstart/) | 49 | 1 | 2026-09-12 |
 | [Ebay](companies/ebay/) | 48 | 10 | 2026-10 |
@@ -194,7 +189,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Voleon](companies/voleon/) | 18 | 1 | 2026-09-14 |
 | [Thumbtack](companies/thumbtack/) | 16 | 0 | 2026-01 |
 | [Bitkernel](companies/bitkernel/) | 15 | 0 | 2025-10-24 |
-| [Jane Street](companies/jane-street/) | 15 | 5 | 2026-09 |
+| [Jane Street](companies/jane-street/) | 15 | 2 | 2026-09 |
 | [Vanta](companies/vanta/) | 15 | 1 | 2026-09-12 |
 | [Visa](companies/visa/) | 15 | 3 | 2026-10 |
 | [Mercor](companies/mercor/) | 14 | 5 | 2026-09-03 |
@@ -213,7 +208,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [AMD](companies/amd/) | 10 | 10 | 2026-09-14 |
 | [Drw](companies/drw/) | 10 | 6 | 2026-09-13 |
 | [Glean](companies/glean/) | 10 | 0 | 2026-04-23 |
-| [Imc](companies/imc/) | 10 | 2 | 2026-08-24 |
+| [Imc](companies/imc/) | 10 | 0 | 2026-08-24 |
 | [Mistral AI](companies/mistral-ai/) | 9 | 7 | 2026-09-01 |
 | [Sig](companies/sig/) | 9 | 2 | 2026-09-17 |
 | [Amplitude](companies/amplitude/) | 8 | 0 | 2026-04 |
