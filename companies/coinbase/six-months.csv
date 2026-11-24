@@ -1,4 +1,7 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Push Back on a Technical Decision under Time Pressure,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-26,https://trueinterview.io/questions/push-back-on-a-technical-decision-under-time-pressure
+Deliver Limit-Order Fill Notifications under Consumer Backpressure,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-26,https://trueinterview.io/questions/deliver-limit-order-fill-notifications-under-consumer-backpressure
+Coinbase feature that helps new crypto buyers grasp risk before they invest,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-02,https://trueinterview.io/questions/coinbase-feature-that-helps-new-crypto-buyers-grasp-risk-before-they-invest
 Task Management System with Expiring Assignments and Overdue Tracking,Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,5,2026-09,https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5
 "Build Task Management Through Records, Search, Assignment, and Completion",Object-Oriented Programming,Medium,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion
 Implement a crypto order management system,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/implement-a-crypto-order-management-system
@@ -7,6 +10,9 @@ Minimum Days to Execute Ordered Tasks with Cooldown,Algorithm,Medium,Phone scree
 Moving Average over a Sliding Window,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/404adef3-580e-58ed-80ed-37af565360df
 Currency Exchange,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,2,2026-08,https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971
 Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,2,8,2026-08,https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system
+Coinbase Card Usage Decline: Root-Cause Diagnosis and Recovery Plan,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07-23,https://trueinterview.io/questions/coinbase-card-usage-decline-root-cause-diagnosis-and-recovery-plan
+App Critique of Coinbase's Crypto Portfolio Dashboard and Redesign Priorities,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-07-22,https://trueinterview.io/questions/app-critique-of-coinbases-crypto-portfolio-dashboard-and-redesign-priorities
+Defining Activation and Success Metrics for Coinbase's Sign-Up and Verification Flow,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-15,https://trueinterview.io/questions/defining-activation-and-success-metrics-for-coinbases-sign-up-and-verification-flow
 Debug and Extend Cursor Queries,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/debug-and-extend-cursor-queries
 Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
 Design Coinbase Explore,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-07,https://trueinterview.io/questions/sd-coinbase-explore-realtime-price

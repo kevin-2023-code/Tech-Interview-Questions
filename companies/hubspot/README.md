@@ -2,9 +2,9 @@
 
 # HubSpot interview questions
 
-13 questions reported at HubSpot, most recently reported first.
+17 questions reported at HubSpot, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (3) · [all](all.csv) (13)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (3) · [all](all.csv) (17)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -21,6 +21,10 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-19 |
 | [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-01-19 |
 | [Best Meeting Date by Country](https://trueinterview.io/questions/best-meeting-date-by-country?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-19 |
+| [Walk Me Through Your Current Job: Scope, Responsibilities and Impact](https://trueinterview.io/questions/walk-me-through-your-current-job-scope-responsibilities-and-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-01-02 |
+| [JavaScript Fundamentals: Prototype Chains and How 'this' Is Bound](https://trueinterview.io/questions/javascript-fundamentals-prototype-chains-and-how-this-is-bound?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-02 |
+| [Evaluate an Integer Arithmetic Expression Written in Prefix (Polish) Notation](https://trueinterview.io/questions/evaluate-an-integer-arithmetic-expression-written-in-prefix-polish-notation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-02 |
+| [HubSpot Company Knowledge: Business Model, Competitors and Market Position](https://trueinterview.io/questions/hubspot-company-knowledge-business-model-competitors-and-market-position?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-31 |
 | [Design an hourly weather crawling service](https://trueinterview.io/questions/design-an-hourly-weather-crawling-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-15 |
 | [Find a special person using knows(a,b)](https://trueinterview.io/questions/find-a-special-person-using-knows-a-b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-15 |
 | [Snippet Vault](https://trueinterview.io/questions/snippet-vault?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad | 3 | 0 | 2025-12 |

@@ -1,10 +1,15 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Walk Through Your Most Recent Project End to End and Its Trade-offs,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-30,https://trueinterview.io/questions/walk-through-your-most-recent-project-end-to-end-and-its-trade-offs
+"Order Shopping Cart Items for Pickup: Frozen Last, Minimum Walking Distance",Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-10-30,https://trueinterview.io/questions/order-shopping-cart-items-for-pickup-frozen-last-minimum-walking-distance
 Decode String (k[encoded]),Algorithm,Medium,Phone screen,Junior / Mid,3,4,2026-10,https://trueinterview.io/questions/decode-string-lc394
 Debug Search and Stock Behavior in a Library Application,Behavioral / Knowledge,,Online assessment,Senior,1,0,2026-09-18,https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application
 Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-18,https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons
 Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-11,https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts
 Make a Variable Resolver Safe for Production Use,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-11,https://trueinterview.io/questions/make-a-variable-resolver-safe-for-production-use
 Design a Grocery-Ordering Backend with Reliable Inventory Reservations,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-11,https://trueinterview.io/questions/design-a-grocery-ordering-backend-with-reliable-inventory-reservations
+"Senior Behavioral Round: Project Deep Dive, Mentoring, Trade-offs and Disagreement",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-10,https://trueinterview.io/questions/senior-behavioral-round-project-deep-dive-mentoring-trade-offs-and-disagreement
+"Implement Search and Filters, Then Diagnose a Query-Ordering Bug",Algorithm,Medium,Online assessment,Junior / Mid; Senior,1,0,2026-09-07,https://trueinterview.io/questions/implement-search-and-filters-then-diagnose-a-query-ordering-bug
+Design Idempotent In-App Availability and Due-Date Notifications,System Design,Medium,Online assessment,Junior / Mid; Senior,1,0,2026-09-07,https://trueinterview.io/questions/design-idempotent-in-app-availability-and-due-date-notifications
 Reserve Cart Inventory Without Overselling,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-07,https://trueinterview.io/questions/reserve-cart-inventory-without-overselling
 Demonstrate Leadership Through One Challenging Project,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,2026-09-07,https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project
 Discuss an Interesting Project and a Deployment Mistake,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-06,https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake
@@ -13,6 +18,8 @@ Task Management System with Expiring Assignments and Overdue Tracking,Object-Ori
 Basic Calculator I / II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/basic-calculator-i-ii
 Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,0,2026-09,https://trueinterview.io/questions/basic-calculator-2
 Respond to Negative Feedback About Your Work,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Manager,1,0,2026-08-28,https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work
+Design Delivery-Time Prediction with a Cold-Start Plan,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-07-15,https://trueinterview.io/questions/design-delivery-time-prediction-with-a-cold-start-plan
+Design an Advertising Ranking Pipeline beyond Calibration,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-07-15,https://trueinterview.io/questions/design-an-advertising-ranking-pipeline-beyond-calibration
 Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,5,0,2026-07,https://trueinterview.io/questions/ml-system-design-notifications-ctr
 Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
 Full-Stack AI-Pairing Assessment,AI Coding,Hard,Online assessment; Take-home,Junior / Mid; Senior,1,3,2026-06-22,https://trueinterview.io/questions/full-stack-ai-assessment
@@ -21,6 +28,7 @@ Design and Implement Idempotent Library Notifications for Due Dates and Holds,Al
 Fix Backend Filtering for Book Search Results,Algorithm,Easy,Online assessment,Senior,1,0,2026-06,https://trueinterview.io/questions/f622c3ca-f863-55e1-bc76-4e83354abd22
 Implement Search and Filter UI for a Library Management Table,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06,https://trueinterview.io/questions/13842aa8-073d-57c3-8665-473866727b81
 Max Adjacent Stock Price Change,Algorithm,Easy,Phone screen,Junior / Mid,1,0,2026-05-27,https://trueinterview.io/questions/karat-stock-price-change
+Instacart Product Sense: Design a New Offering for Its Business Users,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-09,https://trueinterview.io/questions/instacart-product-sense-design-a-new-offering-for-its-business-users
 Decode Password from File,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/f8add70b-e695-4d00-b0db-7a7b6aa7646c
 Design A Personalized Search Ranking System,System Design,Medium,Onsite / virtual onsite,Senior,6,3,2026-05,https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d
 Find Minimal Shoppers,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/bf1e0319-2d75-436c-99b9-4ff2b4c85911
@@ -36,6 +44,7 @@ Describe cross-team collaboration approach,Behavioral / Knowledge,,Phone screen,
 Worker Attendance & Payroll,Object-Oriented Programming,Medium,Online assessment,New grad,1,1,2026-01-26,https://trueinterview.io/questions/oa-worker-attendance-payroll
 Investigate marketplace metrics and experiment rollout,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-12-18,https://trueinterview.io/questions/investigate-marketplace-metrics-and-experiment-rollout
 Analyze an A/B test and present recommendation,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-10,https://trueinterview.io/questions/analyze-an-a-b-test-and-present-recommendation
+"Measuring Google Flights: North Star, Search-to-Booking Funnel and Guardrails",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-16,https://trueinterview.io/questions/measuring-google-flights-north-star-search-to-booking-funnel-and-guardrails
 Modified Basic Calculator,Algorithm,Medium,Phone screen,Senior,3,0,2025-11,https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197
 Present an A/B test project review,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,2025-10-10,https://trueinterview.io/questions/present-an-a-b-test-project-review
 Pivot Table Profit Analyzer,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-07-30,https://trueinterview.io/questions/pivot-table-profit-analyzer

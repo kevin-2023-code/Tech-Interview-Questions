@@ -2,9 +2,9 @@
 
 # Expedia interview questions
 
-41 questions reported at Expedia, most recently reported first.
+43 questions reported at Expedia, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (17) · [all](all.csv) (41)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (17) · [all](all.csv) (43)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -38,9 +38,11 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Restore String with Target Digit Sum](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-03 |
 | [How do you use AI for coding?](https://trueinterview.io/questions/how-do-you-use-ai-for-coding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 0 | 2026-02 |
 | [Parse a JSON string and extract required information (open-ended)](https://trueinterview.io/questions/8a6ac321-b88a-4686-abf2-851967bbfbce?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 1 | 2026-02 |
+| [Market-Sizing Expedia's Worldwide Hotel Reservations per Year](https://trueinterview.io/questions/market-sizing-expedias-worldwide-hotel-reservations-per-year?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-12 |
 | [How do you learn new knowledge quickly?](https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-06 |
 | [Solve three interview coding problems](https://trueinterview.io/questions/solve-three-interview-coding-problems?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-06 |
 | [Design a listing connectivity ingestion service](https://trueinterview.io/questions/design-a-listing-connectivity-ingestion-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2025-11-05 |
+| [Pandemic-Aware Trip Recommendations for a Major Online Travel Agency](https://trueinterview.io/questions/pandemic-aware-trip-recommendations-for-a-major-online-travel-agency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-02 |
 | [Counting Subsequence with Same Character Frequency](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad | 1 | 0 | 2025-03 |
 | [Validate and monitor ranking model end-to-end](https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [Lead alignment under ambiguity and pressure](https://trueinterview.io/questions/lead-alignment-under-ambiguity-and-pressure?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 1 | 0 | — |

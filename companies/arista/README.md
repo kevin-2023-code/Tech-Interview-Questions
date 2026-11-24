@@ -2,9 +2,9 @@
 
 # Arista interview questions
 
-7 questions reported at Arista, most recently reported first.
+12 questions reported at Arista, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (2) · [all](all.csv) (7)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (7) · [all](all.csv) (12)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -14,6 +14,11 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-10 |
 | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-08 |
+| [Threads vs Processes, Concurrency vs Parallelism, and Multicore Multithreading](https://trueinterview.io/questions/threads-vs-processes-concurrency-vs-parallelism-and-multicore-multithreading?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-11 |
+| [Swap Adjacent Nibble Pairs in a 32-Bit Unsigned Integer](https://trueinterview.io/questions/swap-adjacent-nibble-pairs-in-a-32-bit-unsigned-integer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-11 |
+| [Split Tasks Into Contiguous Server Blocks to Maximize the Total of Top-m Times](https://trueinterview.io/questions/split-tasks-into-contiguous-server-blocks-to-maximize-the-total-of-top-m-times?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-07-11 |
+| [Fewest Adjacent-Sum Merges to Turn an Array Into a Palindrome](https://trueinterview.io/questions/fewest-adjacent-sum-merges-to-turn-an-array-into-a-palindrome?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-11 |
+| [Distinct Value Pairs With a Target Sum in a Sorted Doubly Linked List](https://trueinterview.io/questions/distinct-value-pairs-with-a-target-sum-in-a-sorted-doubly-linked-list?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-11 |
 | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2026-03 |
 | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 2 | 2 | 2026-03 |
 | [Solve palindrome and missing-number variants](https://trueinterview.io/questions/solve-palindrome-and-missing-number-variants?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-03 |

@@ -1,6 +1,15 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Compute User Trust Scores from Activity Logs, Then Merge Each User's History",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/compute-user-trust-scores-from-activity-logs-then-merge-each-users-history
+"Fix a Unique-Entity Counter, Then Flag Suspicious Events in an Event Stream",Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-10-19,https://trueinterview.io/questions/fix-a-unique-entity-counter-then-flag-suspicious-events-in-an-event-stream
 Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
 Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,40,2026-10,https://trueinterview.io/questions/payment-platform-design
+"Hiring Manager Behavioral Interview: Challenging Project, Deadlines, Cross-Team Work",Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-09-30,https://trueinterview.io/questions/hiring-manager-behavioral-interview-challenging-project-deadlines-cross-team-work
+Investigate a Quarterly Increase in Loan Delinquency,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-27,https://trueinterview.io/questions/investigate-a-quarterly-increase-in-loan-delinquency
+Choose the Next Product or Vertical for a Lending Business,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-09-27,https://trueinterview.io/questions/choose-the-next-product-or-vertical-for-a-lending-business
+Investigate Rising Loan Delinquency with Stable Approval Rates,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-09-23,https://trueinterview.io/questions/investigate-rising-loan-delinquency-with-stable-approval-rates
+"Connect Analyst Experience, Delivered Insights, and Your Next Role",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-09-23,https://trueinterview.io/questions/connect-analyst-experience-delivered-insights-and-your-next-role
+"Simulate a High-Card Deck Game for Two Players, Then N Players",Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-18,https://trueinterview.io/questions/simulate-a-high-card-deck-game-for-two-players-then-n-players
+Resolving a Clash Between Stakeholders Who Want Different Outcomes,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08-21,https://trueinterview.io/questions/resolving-a-clash-between-stakeholders-who-want-different-outcomes
 Find Redeemable Offers,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-08-12,https://trueinterview.io/questions/find-redeemable-offers
 Aggregate Recent Transactions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-07,https://trueinterview.io/questions/aggregate-recent-transactions
 Group Loans by Top-Level Company,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-06,https://trueinterview.io/questions/group-loans-by-top-level-company
@@ -8,9 +17,12 @@ Describe your highest-impact project,Behavioral / Knowledge,,Phone screen,Senior
 Design Card Game,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-08,https://trueinterview.io/questions/design-card-game
 Live Fraud Detector,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,1,2026-08-01,https://trueinterview.io/questions/live-fraud-detector
 Evaluate String Expression,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-06-10,https://trueinterview.io/questions/nested-function-expression-evaluator
+"Prioritize Affirm's Next Point-of-Sale Lending Vertical: Home, Elective Health or Auto",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-05-08,https://trueinterview.io/questions/prioritize-affirms-next-point-of-sale-lending-vertical-home-elective-health-or-auto
 Design An Account Takeover Detection System,System Design,Hard,Onsite / virtual onsite,Junior / Mid,5,0,2026-05,https://trueinterview.io/questions/account-takeover-prediction-system
 Design Installment-Loan Payment Processing,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-04-19,https://trueinterview.io/questions/design-installment-loan-payment-processing
 Detect Fraud by Propagating Suspicious PII,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-19,https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii
+Spotify Growth Plan: Converting Free Listeners and Reducing Premium Churn,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-10-09,https://trueinterview.io/questions/spotify-growth-plan-converting-free-listeners-and-reducing-premium-churn
+Uber Strategy: Where and How to Enter Bike-Share and E-Bikes,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-10-08,https://trueinterview.io/questions/uber-strategy-where-and-how-to-enter-bike-share-and-e-bikes
 Sum of Islands Max,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/sum-of-islands-max
 Prefix to Postfix,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/prefix-to-postfix
 Persistent Stack,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/persistent-stack

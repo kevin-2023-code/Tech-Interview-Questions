@@ -2,9 +2,9 @@
 
 # Oscar Health interview questions
 
-3 questions reported at Oscar Health, most recently reported first.
+6 questions reported at Oscar Health, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (3)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (2) · [all](all.csv) (6)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,9 +12,12 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Find Clients Outside Provider Coverage](https://trueinterview.io/questions/77313b88-1a9b-5047-b402-fced2dc1919c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Senior | 1 | 0 | 2026-07 |
+| [Longest Chain of Linked Names in a Directed Acyclic Graph](https://trueinterview.io/questions/longest-chain-of-linked-names-in-a-directed-acyclic-graph?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-21 |
+| [Find Clients Outside Provider Coverage](https://trueinterview.io/questions/77313b88-1a9b-5047-b402-fced2dc1919c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-07 |
 | [Decode Morse Code to All Possible Original Strings](https://trueinterview.io/questions/93be479d-c2bc-46b0-9f1f-36d31c30bfb6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Senior | 1 | 2 | 2026-05 |
 | [Morse Code Conversion](https://trueinterview.io/questions/f2fd49a4-36ff-4528-aade-cf3f781b1d59?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Senior | 1 | 0 | 2026-05 |
+| [Oscar: a member product that improves care quality and efficiency and stands out](https://trueinterview.io/questions/oscar-a-member-product-that-improves-care-quality-and-efficiency-and-stands-out?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-04 |
+| [Oscar: turning members' real-world health data into patient engagement](https://trueinterview.io/questions/oscar-turning-members-real-world-health-data-into-patient-engagement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-03 |
 
 ---
 

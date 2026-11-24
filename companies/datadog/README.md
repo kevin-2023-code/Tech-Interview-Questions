@@ -2,9 +2,9 @@
 
 # Datadog interview questions
 
-28 questions reported at Datadog, most recently reported first.
+35 questions reported at Datadog, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (9) · [all](all.csv) (28)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (16) · [all](all.csv) (35)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,10 +12,17 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Datadog Product Strategy: Propose and Make the Case for a New Paid Product Line](https://trueinterview.io/questions/datadog-product-strategy-propose-and-make-the-case-for-a-new-paid-product-line?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-18 |
+| [Datadog Deal Review: Weighing a Three-Year Commitment on a Newly Launched Product](https://trueinterview.io/questions/datadog-deal-review-weighing-a-three-year-commitment-on-a-newly-launched-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-18 |
+| [Using AI in Your PM Workflow and Judging Where AI Belongs in a Product](https://trueinterview.io/questions/using-ai-in-your-pm-workflow-and-judging-where-ai-belongs-in-a-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-12 |
+| [Bringing Customers Into Every Stage From Problem Discovery to Release](https://trueinterview.io/questions/bringing-customers-into-every-stage-from-problem-discovery-to-release?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-12 |
+| [Bridging engineers and business stakeholders as a product manager](https://trueinterview.io/questions/bridging-engineers-and-business-stakeholders-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-10-11 |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 9 | 0 | 2026-10 |
+| [Positioning Cloud and On-Premises Deployment Options in an Enterprise Sale](https://trueinterview.io/questions/positioning-cloud-and-on-premises-deployment-options-in-an-enterprise-sale?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-27 |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 11 | 0 | 2026-09 |
 | [Prioritize Critical Findings in a High-Load Batch Processor Review](https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-17 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Senior | 8 | 0 | 2026-08 |
+| [Explaining your motivation for joining Datadog as a product manager](https://trueinterview.io/questions/explaining-your-motivation-for-joining-datadog-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-28 |
 | [File System Deletion](https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-07 |
 | [Minimum Path Sum](https://trueinterview.io/questions/2f51777e-365c-5674-ab6a-8941f98594b7?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 1 | 2026-06 |
 | [Implement Binary Focal Loss](https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 1 | 2026-06 |

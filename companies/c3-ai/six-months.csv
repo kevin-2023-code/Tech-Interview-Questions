@@ -2,6 +2,13 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 Star Sum: Best k-Star Sum in a Graph,Algorithm,Medium,Online assessment,New grad,1,0,2026-10-04,https://trueinterview.io/questions/oa-star-sum-best-k-star
 Analyze the Time Complexity of Nested Loops,Behavioral / Knowledge,,Onsite / virtual onsite,New grad,1,0,2026-10,https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
+Identify What Does Not Fix Vanishing Gradients,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,0,2026-09-15,https://trueinterview.io/questions/identify-what-does-not-fix-vanishing-gradients
+Find the Most Likely Stopping Sum When Rolling a Die,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,0,2026-09-15,https://trueinterview.io/questions/find-the-most-likely-stopping-sum-when-rolling-a-die
+Explain Training R-Squared After Adding a Random Feature,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/explain-training-r-squared-after-adding-a-random-feature
+Explain the Margin View of Boosting Classification,Behavioral / Knowledge,,Online assessment,Intern; New grad,1,0,2026-09-15,https://trueinterview.io/questions/explain-the-margin-view-of-boosting-classification
+Compare How Models Respond to Multicollinearity,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,0,2026-09-15,https://trueinterview.io/questions/compare-how-models-respond-to-multicollinearity
+Choose a Parameter to Reduce Underfitting in Gradient-Boosted Trees,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,0,2026-09-15,https://trueinterview.io/questions/choose-a-parameter-to-reduce-underfitting-in-gradient-boosted-trees
+Can One k Always Maximize kNN Leave-One-Out Accuracy?,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,0,2026-09-15,https://trueinterview.io/questions/can-one-k-always-maximize-knn-leave-one-out-accuracy
 Versioned Key-Value Store With Point-in-Time Reads,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,0,2026-09,https://trueinterview.io/questions/time-based-key-value-store-3
 Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/three-sum
 Evaluate a Retrieval-Augmented Generation System,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-08-21,https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system

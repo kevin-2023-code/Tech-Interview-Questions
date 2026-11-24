@@ -65,21 +65,21 @@ var minimumTime = function(n, relations, time) {
 <details>
 <summary>Hint 1</summary>
 
-This is a scheduling problem where courses have prerequisites and durations—think of it as finding the longest path in a DAG.
+Courses can run in parallel, so the total time is governed by the longest chain of dependent courses rather than the sum of durations.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use topological sorting to process courses in order, and dynamic programming to compute the earliest completion time for each course.
+Build the prerequisite graph and process it in topological order, keeping for each course the earliest finish time as its duration plus the maximum finish time among its prerequisites.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The answer is the maximum completion time across all courses, not just the last one in the topological order.
+The answer is the maximum finish time over all courses, which runs in O(n + number of relations), and the input is guaranteed to be acyclic.
 
 </details>
 

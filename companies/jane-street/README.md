@@ -2,9 +2,9 @@
 
 # Jane Street interview questions
 
-15 questions reported at Jane Street, most recently reported first.
+17 questions reported at Jane Street, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (6) · [all](all.csv) (15)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (7) · [all](all.csv) (17)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -17,7 +17,9 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Process One Million Quote Updates per Second](https://trueinterview.io/questions/process-one-million-quote-updates-per-second?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-24 |
 | [Estimate the Number of Florists in Sydney and Make a Market](https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Staff+ | 1 | 0 | 2026-08-24 |
 | [Design Exchange and Instrument Abstractions for Quote Arbitrage](https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-24 |
+| [Evaluate Expressions with Strictly Positive Integer Intermediate Results](https://trueinterview.io/questions/evaluate-expressions-with-strictly-positive-integer-intermediate-results?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-22 |
 | [Solve queue switch and coin change puzzles](https://trueinterview.io/questions/solve-queue-switch-and-coin-change-puzzles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08 |
+| [Write an Interpreter for a Small Language with Load, Store and Arithmetic](https://trueinterview.io/questions/write-an-interpreter-for-a-small-language-with-load-store-and-arithmetic?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-05-01 |
 | [Transform sparse time-code stream to dense rows](https://trueinterview.io/questions/transform-sparse-time-code-stream-to-dense-rows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-02-12 |
 | [Design a Real-vs-Fake DNA Classifier](https://trueinterview.io/questions/design-a-real-vs-fake-dna-classifier?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-01-27 |
 | [Alternating Die-Roll Game: Optimal Accept/Reject Strategy](https://trueinterview.io/questions/alternating-die-roll-game-optimal-accept-reject-strategy?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2 | 2026-01 |

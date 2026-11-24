@@ -1,6 +1,11 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design an Agent for BigQuery Analysis,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-25,https://trueinterview.io/questions/design-an-agent-for-bigquery-analysis
+Explain Kotlin Coroutines and Suspending Functions,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-21,https://trueinterview.io/questions/explain-kotlin-coroutines-and-suspending-functions
+"Classify Imbalanced Tabular Data with Missing Values, Then Scale to Billions of Rows",Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-14,https://trueinterview.io/questions/classify-imbalanced-tabular-data-with-missing-values-then-scale-to-billions-of-rows
+Reddit Onboarding: Matching Newcomers to Communities They Will Keep Visiting,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-01,https://trueinterview.io/questions/reddit-onboarding-matching-newcomers-to-communities-they-will-keep-visiting
 Design Feature Flag,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-10,https://trueinterview.io/questions/design-feature-flag-2
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
+Handling High-Cardinality Categorical Features and Cold-Start Items in Embedding Models,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-26,https://trueinterview.io/questions/handling-high-cardinality-categorical-features-and-cold-start-items-in-embedding-models
 Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Hiring-Manager Domain Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,5,2026-09,https://trueinterview.io/questions/hiring-manager-domain-round
@@ -9,8 +14,10 @@ Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / M
 Explain and Reduce Position Bias in Ranking,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-08-23,https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking
 Design Content Moderation System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-08,https://trueinterview.io/questions/content-moderation-system-design
 Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+Filter Comment Subtrees and Analyze Score-Based Retention,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-07-13,https://trueinterview.io/questions/filter-comment-subtrees-and-analyze-score-based-retention
 Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,5,0,2026-07,https://trueinterview.io/questions/ml-system-design-notifications-ctr
 Moderator List Hierarchy,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-06-23,https://trueinterview.io/questions/moderator-list-hierarchy
+Reddit Video PM: Partnering With the Feeds Team to Improve Video Ranking,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-15,https://trueinterview.io/questions/reddit-video-pm-partnering-with-the-feeds-team-to-improve-video-ranking
 Tennis Scoring II,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-06-12,https://trueinterview.io/questions/tennis-match-scoring
 Pseudo-Memcached Protocol Server,Algorithm,Medium,Onsite / virtual onsite,New grad,1,0,2026-06-12,https://trueinterview.io/questions/pseudo-memcached-protocol
 Chat Message Range Merge,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid,1,0,2026-06-12,https://trueinterview.io/questions/merge-chat-message-windows
@@ -28,6 +35,7 @@ Product Sense: Improve Reddit Onboarding,Behavioral / Knowledge,,Onsite / virtua
 Shortest Palindrome,Algorithm,Medium,Phone screen,Senior,1,0,2026-03,https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705
 Odd Even Linked List,Algorithm,Medium,Phone screen,Senior,4,0,2026-03,https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a
 Logger Rate Limiter,Algorithm,Easy,Online assessment,Junior / Mid,1,2,2026-03,https://trueinterview.io/questions/logger-rate-limiter
+Executive Dashboard Metrics for Airbnb's Launch in a New Market,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-28,https://trueinterview.io/questions/executive-dashboard-metrics-for-airbnbs-launch-in-a-new-market
 Report Chain,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-17,https://trueinterview.io/questions/report-chain
 Model y from x and interpret distributions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions
 Describe a failure and a success,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-02-12,https://trueinterview.io/questions/describe-a-failure-and-a-success
@@ -39,6 +47,7 @@ Prioritize competing engineering requests,Behavioral / Knowledge,,Onsite / virtu
 Collaborate with PM and Eng as DS,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-11,https://trueinterview.io/questions/collaborate-with-pm-and-eng-as-ds
 Design comment-likelihood prediction platform,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/design-comment-likelihood-prediction-platform
 Tennis Scoring,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/b30fcfc7-0dd6-4ac0-822e-39e316e02870
+Vulture Thought Experiment: Trace the Ripple Effects of a Head Twice as Large,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-11-10,https://trueinterview.io/questions/vulture-thought-experiment-trace-the-ripple-effects-of-a-head-twice-as-large
 Dictionary Word Transformation Path,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2025-07-21,https://trueinterview.io/questions/dictionary-word-transformation-path
 Justify synthetic control and handle inference,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/justify-synthetic-control-and-handle-inference
 Design a causal evaluation without A/B testing,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing

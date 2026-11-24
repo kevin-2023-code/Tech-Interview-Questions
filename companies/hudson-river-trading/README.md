@@ -2,9 +2,9 @@
 
 # Hudson River Trading interview questions
 
-22 questions reported at Hudson River Trading, most recently reported first.
+26 questions reported at Hudson River Trading, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (4) · [all](all.csv) (22)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (8) · [all](all.csv) (26)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,7 +12,11 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Final Grid Position Under Timestamped Direction Changes With Dot Obstacles](https://trueinterview.io/questions/final-grid-position-under-timestamped-direction-changes-with-dot-obstacles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-08 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Intern, Senior | 5 | 0 | 2026-08 |
+| [Smallest Integer Point Lit by the Most Street Lamps on a Line](https://trueinterview.io/questions/smallest-integer-point-lit-by-the-most-street-lamps-on-a-line?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-30 |
+| [Maximum Sum of a Filled Diamond That Fits Inside an Integer Grid](https://trueinterview.io/questions/maximum-sum-of-a-filled-diamond-that-fits-inside-an-integer-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-07-30 |
+| [Ball Position in a Tilting Maze After Timed Tilt Events](https://trueinterview.io/questions/ball-position-in-a-tilting-maze-after-timed-tilt-events?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-30 |
 | [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-07 |
 | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2026-07 |
 | [1D Players and Watcher With Direction Changes](../../questions/algorithm/1d-players-and-watcher-with-direction-changes/README.md) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-07 |

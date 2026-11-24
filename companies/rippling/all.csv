@@ -1,6 +1,19 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Which Project Are You Most Proud Of?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-11-03,https://trueinterview.io/questions/which-project-are-you-most-proud-of
+Schedule Employee Field Changes with Effective Dates and History,Algorithm,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-11-03,https://trueinterview.io/questions/schedule-employee-field-changes-with-effective-dates-and-history
+Do You Prefer Building from Scratch or Joining a Mature Team?,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-11-03,https://trueinterview.io/questions/do-you-prefer-building-from-scratch-or-joining-a-mature-team
+Design Product Analytics for Billion-Event Daily Ingestion,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-11-03,https://trueinterview.io/questions/design-product-analytics-for-billion-event-daily-ingestion
+Design a Topic-Based News Aggregator with Fast Removal,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-11-03,https://trueinterview.io/questions/design-a-topic-based-news-aggregator-with-fast-removal
+Tell Me About a Time You Gave Critical Feedback to Someone,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/tell-me-about-a-time-you-gave-critical-feedback-to-someone
+Model Timestamps and Rate Updates in a Delivery-Fee System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/model-timestamps-and-rate-updates-in-a-delivery-fee-system
+Design an Event Metrics Aggregation System with IP Geo Enrichment,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-23,https://trueinterview.io/questions/design-an-event-metrics-aggregation-system-with-ip-geo-enrichment
+Sizing a Proposed Product Change to Decide How Much Process It Needs,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-22,https://trueinterview.io/questions/sizing-a-proposed-product-change-to-decide-how-much-process-it-needs
+Platform investment versus feature delivery: a PM framework for splitting engineering time,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-22,https://trueinterview.io/questions/platform-investment-versus-feature-delivery-a-pm-framework-for-splitting-engineering-time
+"Testing nondeterministic software: invariants, controlled randomness and statistical evals",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-21,https://trueinterview.io/questions/testing-nondeterministic-software-invariants-controlled-randomness-and-statistical-evals
+Present a Project You Worked On,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-20,https://trueinterview.io/questions/present-a-project-you-worked-on
 Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
 Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,0,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
+"Task Scheduler with Dependencies, Priorities and Filters",Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-09-29,https://trueinterview.io/questions/task-scheduler-with-dependencies-priorities-and-filters
 Design Raw and Computed Spreadsheet Views,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-18,https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views
 Explain Your Reason for Changing Roles and Your Interest in the Team,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-09-13,https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team
 Explain Your Current and Previous Engineering Roles,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-09-13,https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles
@@ -11,9 +24,11 @@ Bill Deliveries with Historical Rates and Deferred Rounding,Algorithm,Hard,Phone
 Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,0,2026-09,https://trueinterview.io/questions/booking-system-design
 Design a Logger with Independent Handlers,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2026-08-21,https://trueinterview.io/questions/design-a-logger-with-independent-handlers
 Propagate Task Filtering Through Ancestors,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-17,https://trueinterview.io/questions/propagate-task-filtering-through-ancestors
+Design a Package Tracking Widget for an Email Inbox,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-08-01,https://trueinterview.io/questions/design-a-package-tracking-widget-for-an-email-inbox
 Clarify and Solve Currency Conversion Queries with a Maximum-Amount Follow-up,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/clarify-and-solve-currency-conversion-queries-with-a-maximum-amount-follow-up
 Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
 Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+"Walk Through Your Current Role, a Recent Work Challenge, and How You Use AI Tools",Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-07-04,https://trueinterview.io/questions/walk-through-your-current-role-a-recent-work-challenge-and-how-you-use-ai-tools
 Design Google News,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,4,0,2026-07,https://trueinterview.io/questions/google-news-aggregator
 Delivery Cost Problem,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/bff10176-f542-49a7-972c-e05025a0460d
 Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,0,2026-07,https://trueinterview.io/questions/design-news-feed

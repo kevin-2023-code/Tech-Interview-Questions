@@ -2,9 +2,9 @@
 
 # Voleon interview questions
 
-18 questions reported at Voleon, most recently reported first.
+20 questions reported at Voleon, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (8) · [all](all.csv) (18)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (8) · [all](all.csv) (20)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -25,6 +25,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Count queen attacks on points with blockers](https://trueinterview.io/questions/count-queen-attacks-on-points-with-blockers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-09 |
 | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad | 1 | 0 | 2025-12 |
 | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad | 1 | 0 | 2025-12 |
+| [Plane Tangent Vectors from Coplanar 3D Points via SVD, With and Without Gaussian Noise](https://trueinterview.io/questions/plane-tangent-vectors-from-coplanar-3d-points-via-svd-with-and-without-gaussian-noise?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-31 |
+| [Explain a Sorting Algorithm Such as Merge Sort: Mechanics, Correctness, Complexity](https://trueinterview.io/questions/explain-a-sorting-algorithm-such-as-merge-sort-mechanics-correctness-complexity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-31 |
 | [Solve Markov, OLS-rotation, and coin-toss probability](https://trueinterview.io/questions/solve-markov-ols-rotation-and-coin-toss-probability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-06 |
 | [Design and diagnose a regression pipeline](https://trueinterview.io/questions/design-and-diagnose-a-regression-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Build a regularized regression pipeline](https://trueinterview.io/questions/build-a-regularized-regression-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |

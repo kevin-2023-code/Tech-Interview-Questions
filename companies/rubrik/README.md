@@ -2,9 +2,9 @@
 
 # Rubrik interview questions
 
-19 questions reported at Rubrik, most recently reported first.
+22 questions reported at Rubrik, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (19)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (3) · [all](all.csv) (22)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,9 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Engineering manager peer round: technical quality, ownership and long-term team health](https://trueinterview.io/questions/engineering-manager-peer-round-technical-quality-ownership-and-long-term-team-health?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-06-26 |
+| [Engineering manager interview: a leadership call you owned and an engineer you grew](https://trueinterview.io/questions/engineering-manager-interview-a-leadership-call-you-owned-and-an-engineer-you-grew?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-06-26 |
+| [Engineering manager behavioral: driving a cross-team outcome from an ambiguous goal](https://trueinterview.io/questions/engineering-manager-behavioral-driving-a-cross-team-outcome-from-an-ambiguous-goal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-06-26 |
 | [Validate BFS Order on a Tree Built from Two Parent Vectors](https://trueinterview.io/questions/f23be60c-a2d3-405e-8606-bfd7b48410ba?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad | 1 | 0 | 2026-02 |
 | [Maximum Group Size by Overlapping Work Intervals (Connectivity via Overlap Paths)](https://trueinterview.io/questions/3fbf828e-0468-4c8c-b447-a341b471394a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 1 | 1 | 2026-02 |
 | [String Shift](https://trueinterview.io/questions/dae58234-6fb4-4c0f-9168-307c63e27905?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2025-02 |

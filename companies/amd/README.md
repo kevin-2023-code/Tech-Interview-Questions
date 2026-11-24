@@ -2,9 +2,9 @@
 
 # AMD interview questions
 
-10 questions reported at AMD, most recently reported first.
+16 questions reported at AMD, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (10) · [all](all.csv) (10)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (16) · [last 6 months](six-months.csv) (16) · [all](all.csv) (16)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,12 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [How and How Often You Use AI Tools in Day-to-Day Engineering Work](https://trueinterview.io/questions/how-and-how-often-you-use-ai-tools-in-day-to-day-engineering-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-09 |
+| [Fast Retrieval at Scale: Databases, Indexing vs Sharding, Red-Black Trees and Tries](https://trueinterview.io/questions/fast-retrieval-at-scale-databases-indexing-vs-sharding-red-black-trees-and-tries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-09 |
+| [DevOps Experience, Jenkins Pipelines and Plugins, and Reading Very Large Log Files](https://trueinterview.io/questions/devops-experience-jenkins-pipelines-and-plugins-and-reading-very-large-log-files?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-09 |
+| [Design and Implement a Fixed-Capacity LRU Cache with Constant-Time Operations](https://trueinterview.io/questions/design-and-implement-a-fixed-capacity-lru-cache-with-constant-time-operations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-09 |
+| [C++ Code Reading: Bug in a Linked-List insertAfter and Predicting Polymorphic Output](https://trueinterview.io/questions/cplusplus-code-reading-bug-in-a-linked-list-insertafter-and-predicting-polymorphic-output?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid | 1 | 0 | 2026-10-09 |
+| [C++ Basics: const vs static, Non-Virtual Base Destructors, and Stack vs Heap Memory](https://trueinterview.io/questions/cplusplus-basics-const-vs-static-non-virtual-base-destructors-and-stack-vs-heap-memory?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-09 |
 | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-14 |
 | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-14 |
 | [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-14 |

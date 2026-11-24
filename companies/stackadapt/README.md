@@ -2,9 +2,9 @@
 
 # StackAdapt interview questions
 
-5 questions reported at StackAdapt, most recently reported first.
+9 questions reported at StackAdapt, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (2) · [all](all.csv) (5)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (5) · [all](all.csv) (9)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,8 +12,12 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Reservoir Sampling: Uniform k-of-n Sample From a Stream of Unknown Length](https://trueinterview.io/questions/reservoir-sampling-uniform-k-of-n-sample-from-a-stream-of-unknown-length?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
+| [Find the Flaws in an End-to-End ML Pipeline Case Study Report](https://trueinterview.io/questions/find-the-flaws-in-an-end-to-end-ml-pipeline-case-study-report?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-09 |
+| [Camel and Bananas: Maximize Bananas Delivered Across the Desert](https://trueinterview.io/questions/camel-and-bananas-maximize-bananas-delivered-across-the-desert?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Intern, New grad | 1 | 0 | 2026-09-09 |
 | [Median and Percentile from a Data Stream](../../questions/algorithm/median-and-percentile-from-a-data-stream/README.md) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 2 | 2026-08 |
 | [Restaurant Recipe and Inventory Management](https://trueinterview.io/questions/ccad3380-939d-5dd7-80f7-ec94b71f9272?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-07 |
+| [Rebuild a Binary Tree from Two Traversals and Serialize It Level by Level](https://trueinterview.io/questions/rebuild-a-binary-tree-from-two-traversals-and-serialize-it-level-by-level?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 0 | 2026-05-08 |
 | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](https://trueinterview.io/questions/6dfaaed2-150f-436b-9d6d-d5977f06ec21?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-03 |
 | [SongShuffler with Cooldown to Prevent Recent Repeats](https://trueinterview.io/questions/f2ece2d0-63e8-4cff-8b0b-adcbdb3fd61a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Priority-Based Rate-Limited Web Crawler Design](https://trueinterview.io/questions/b03b2470-1381-490c-9ac6-cd85d1245d22?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |

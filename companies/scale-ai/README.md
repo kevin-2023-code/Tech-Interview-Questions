@@ -2,9 +2,9 @@
 
 # Scale AI interview questions
 
-35 questions reported at Scale AI, most recently reported first.
+41 questions reported at Scale AI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (6) · [all](all.csv) (35)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (12) · [all](all.csv) (41)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,10 +12,16 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Setting Launch Criteria and a Rollout Plan for an AI Agent](https://trueinterview.io/questions/setting-launch-criteria-and-a-rollout-plan-for-an-ai-agent?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-01 |
+| [Making the Case for Joining Scale AI as a Product Manager](https://trueinterview.io/questions/making-the-case-for-joining-scale-ai-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-01 |
 | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 2 | 0 | 2026-10-01 |
 | [Smaller Angle Between Clock Hands](https://trueinterview.io/questions/61dbdcbb-6345-50de-a0cf-3d6b0fa8c46c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad, Junior / Mid | 2 | 0 | 2026-10 |
 | [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10 |
 | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-26 |
+| [Least-Privileged Key Unlocking Every Requested Device in a Device Tree](https://trueinterview.io/questions/least-privileged-key-unlocking-every-requested-device-in-a-device-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid, Senior | 1 | 0 | 2026-08-18 |
+| [Explain Your Strengths and Weaknesses to a Non-Technical Values Interviewer](https://trueinterview.io/questions/explain-your-strengths-and-weaknesses-to-a-non-technical-values-interviewer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-09 |
+| [Design an Embedding and Classification Inference API](https://trueinterview.io/questions/design-an-embedding-and-classification-inference-api?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-09 |
+| [Convert CSV to JSON with Header Keys, Quoted Fields and Malformed Rows](https://trueinterview.io/questions/convert-csv-to-json-with-header-keys-quoted-fields-and-malformed-rows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-09 |
 | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | Senior | 2 | 0 | 2026-06-16 |
 | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-06-14 |
 | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-01 |

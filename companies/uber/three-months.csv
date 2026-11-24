@@ -1,4 +1,5 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Uber Product Design: Build an AI-Powered Product for Riders or Drivers,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-19,https://trueinterview.io/questions/uber-product-design-build-an-ai-powered-product-for-riders-or-drivers
 Detect a Cycle in a Directed Graph,Algorithm,Medium,Phone screen,Senior,2,0,2026-10,https://trueinterview.io/questions/dd2c77a9-9d96-5ffd-a303-755aee03b614
 Serialize and Deserialize an N-ary Tree,Algorithm,Medium,Phone screen,Senior,1,0,2026-10,https://trueinterview.io/questions/47b75620-2eae-503c-9ef8-f67cf680e642
 Describe your strongest project,Behavioral / Knowledge,,Online assessment,Junior / Mid; Staff+,1,0,2026-10,https://trueinterview.io/questions/describe-your-strongest-project
@@ -19,12 +20,21 @@ Design a Stock Price Alert Notification System,System Design,Hard,Onsite / virtu
 Design Meeting Scheduler,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,5,2026-10,https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms
 Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,0,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
+Object-Oriented Parking Lot Design with Check-In and Check-Out,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-29,https://trueinterview.io/questions/object-oriented-parking-lot-design-with-check-in-and-check-out
+Design the Data Flow Behind a Food Delivery App's Restaurant List,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-29,https://trueinterview.io/questions/design-the-data-flow-behind-a-food-delivery-apps-restaurant-list
 Squares of a Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-09-29,https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c
+Spotify vs. TikTok: Go/No-Go Call on a Short Vertical Video Feed,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-24,https://trueinterview.io/questions/spotify-vs-tiktok-go-no-go-call-on-a-short-vertical-video-feed
+Spotify Product Improvement: A Plan to Deepen Podcast Listening,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-24,https://trueinterview.io/questions/spotify-product-improvement-a-plan-to-deepen-podcast-listening
+Uber Medical Rides: Segment Healthcare Transport and Design the First Patient Service,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-14,https://trueinterview.io/questions/uber-medical-rides-segment-healthcare-transport-and-design-the-first-patient-service
+Go/no-go criteria and success metrics for robotaxis on Uber's mixed fleet,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-12,https://trueinterview.io/questions/go-no-go-criteria-and-success-metrics-for-robotaxis-on-ubers-mixed-fleet
+Design a discreet in-trip alert for Uber riders who feel uneasy,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/design-a-discreet-in-trip-alert-for-uber-riders-who-feel-uneasy
 Sort a Matrix into Snake Order Using Adjacent Swaps,Algorithm,Medium,Phone screen,Senior,1,0,2026-09-09,https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps
 Design Distributed Storage for Large Structured Data,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2026-09-09,https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data
 Answer Repeated Shortest Increasing-Path Queries,Algorithm,Hard,Onsite / virtual onsite,Senior,1,1,2026-09-09,https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries
+Phased roadmap for Netflix's ad-supported plan and advertising business,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-06,https://trueinterview.io/questions/phased-roadmap-for-netflixs-ad-supported-plan-and-advertising-business
+"Diagnose Why Fewer Uber Ride Requests End in Confirmed Trips, Then Fix It",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-03,https://trueinterview.io/questions/diagnose-why-fewer-uber-ride-requests-end-in-confirmed-trips-then-fix-it
 Repeated Queries for a Strictly Increasing Path from the Top-Left Cell,Algorithm,Hard,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/b539f9f9-8170-5422-95cc-05035572f020
-K Smallest Squared Values in a Sorted Array,Algorithm,Medium,Phone screen,Senior,1,3,2026-09,https://trueinterview.io/questions/4b41e162-c1e7-59a7-b837-0054a23558ef
+K Smallest Squared Values in a Sorted Array,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,3,2026-09,https://trueinterview.io/questions/4b41e162-c1e7-59a7-b837-0054a23558ef
 Smallest Palindromic Number Not Less Than N,Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-09,https://trueinterview.io/questions/3b53ea06-c686-5633-8e49-14cf31005eaf
 Earliest Single-Visit ID,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,2,2026-09,https://trueinterview.io/questions/74124ecb-395e-5197-b614-3d106d312b08
 Design a Real-Time Top-K Ranking System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,4,2026-09,https://trueinterview.io/questions/design-a-real-time-top-k-ranking-system

@@ -2,9 +2,9 @@
 
 # Applied Intuition interview questions
 
-29 questions reported at Applied Intuition, most recently reported first.
+31 questions reported at Applied Intuition, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (7) · [all](all.csv) (29)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (9) · [all](all.csv) (31)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Mission motivation and a walkthrough of your school, major and job decisions](https://trueinterview.io/questions/mission-motivation-and-a-walkthrough-of-your-school-major-and-job-decisions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-02 |
+| [Design a real-time 3D playback system for recorded vehicle logs](https://trueinterview.io/questions/design-a-real-time-3d-playback-system-for-recorded-vehicle-logs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-02 |
 | [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid, Senior | 2 | 0 | 2026-09 |
 | [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-30 |
 | [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2 | 2026-08 |
@@ -22,7 +24,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-05 |
 | [In-Memory Database](https://trueinterview.io/questions/in-memory-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad, Junior / Mid, Senior | 3 | 0 | 2026-04-28 |
 | [Implement a Fixed-Capacity Deque](https://trueinterview.io/questions/implement-a-fixed-capacity-deque?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-04-14 |
-| [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern | 2 | 0 | 2026-03 |
+| [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern, Junior / Mid | 2 | 0 | 2026-03 |
 | [Design a mini compiler/interpreter](https://trueinterview.io/questions/design-a-mini-compiler-interpreter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-02-12 |
 | [Design a KV store with transactions](https://trueinterview.io/questions/design-a-kv-store-with-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-02-12 |
 | [Find intersection of two line segments](https://trueinterview.io/questions/find-intersection-of-two-line-segments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-12 |

@@ -1,6 +1,8 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Background, AI use at work, misalignment with a company Stripe works with, why Stripe",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-06,https://trueinterview.io/questions/background-ai-use-at-work-misalignment-with-a-company-stripe-works-with-why-stripe
 Payment State Machine,Object-Oriented Programming,Medium,Online assessment,New grad,1,0,2026-10-04,https://trueinterview.io/questions/payment-state-machine-oa
-Transaction Risk Rules with Boolean Expressions,Algorithm,Hard,Phone screen,Junior / Mid; Staff+,1,0,2026-10,https://trueinterview.io/questions/faff15a8-89a1-5476-9d42-5d7a4e1803c6
+Stripe: choosing the next financial offering to build for SMB merchants,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-03,https://trueinterview.io/questions/stripe-choosing-the-next-financial-offering-to-build-for-smb-merchants
+Transaction Risk Rules with Boolean Expressions,Algorithm,Hard,Phone screen,Senior; Staff+,1,0,2026-10,https://trueinterview.io/questions/faff15a8-89a1-5476-9d42-5d7a4e1803c6
 "Split Tender: Gift Cards, Expiration, Surcharges, and Refunds",Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/3a47c1a0-fd3b-53f5-893c-89c8e19184eb
 Deployment Window Scheduler II,Algorithm,Hard,Online assessment,New grad,1,0,2026-10,https://trueinterview.io/questions/deployment-window-scheduler-oa
 Design Feature Flag,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-10,https://trueinterview.io/questions/design-feature-flag-2
@@ -11,13 +13,20 @@ Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; 
 Feature Flag SDK,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior; Staff+,1,3,2026-10,https://trueinterview.io/questions/feature-flag-sdk
 Business Account Data Verification,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/business-account-data-verification
 Request Routing System,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-09-30,https://trueinterview.io/questions/request-routing-system
+"Describing a Product Strategy You Defined, From Diagnosis to Results",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-29,https://trueinterview.io/questions/describing-a-product-strategy-you-defined-from-diagnosis-to-results
+Find deployable slots in a recurring week from allowed and freeze windows,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-25,https://trueinterview.io/questions/find-deployable-slots-in-a-recurring-week-from-allowed-and-freeze-windows
+Pick Stripe's First Consumer Money-Management Product and Justify It,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-16,https://trueinterview.io/questions/pick-stripes-first-consumer-money-management-product-and-justify-it
+An E-Signature Service Like DocuSign With Tamper-Evident Audit Trails,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/system-design-an-e-signature-service-like-docusign-with-tamper-evident-audit-trails
+Improving a Product After Shipping Its MVP: Deciding What to Iterate On,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/improving-a-product-after-shipping-its-mvp-deciding-what-to-iterate-on
 Recruiter Behavioral Screen,Behavioral / Knowledge,,Phone screen,Intern; New grad; Junior / Mid,1,0,2026-09-15,https://trueinterview.io/questions/recruiter-behavioral-screen
+Product Design: A Guided Tax-Filing Product Like TurboTax for Individual Filers,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-14,https://trueinterview.io/questions/product-design-a-guided-tax-filing-product-like-turbotax-for-individual-filers
 Show Senior Engineering Leadership Through a Past Project,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project
 Design a String-Rule Validator for Transaction Records,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-09-11,https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records
 Connect JSON Coordinates Through a Documented Drawing API,System Design,Easy,Onsite / virtual onsite,Junior / Mid,1,3,2026-09-11,https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api
 Financial Account Ledger,Algorithm,Medium,Online assessment,New grad,1,0,2026-09-11,https://trueinterview.io/questions/financial-account-ledger-oa
 Hierarchical CSV Task / Subtask Formatter,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09-11,https://trueinterview.io/questions/hierarchical-csv-task-formatter
 Specify Proximity-Based Request Routing,System Design,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-09-10,https://trueinterview.io/questions/specify-proximity-based-request-routing
+"Upgrading an Existing Stripe Payments Capability: Target Users, Redesign and Metrics",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/upgrading-an-existing-stripe-payments-capability-target-users-redesign-and-metrics
 Transaction Logs — Trigger / Resolve,Algorithm,Medium,Online assessment; Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09-07,https://trueinterview.io/questions/transaction-logs-trigger-resolve
 Subtract Blocked Periods from Allowed Deployment Windows,Algorithm,Medium,Online assessment,New grad,1,0,2026-09-04,https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows
 Match Payments to Invoices with a Forgiveness Range,Algorithm,Hard,Phone screen,Intern,1,0,2026-09,https://trueinterview.io/questions/fe8f4837-094e-509a-b993-8d9ff63eb4c8
@@ -40,9 +49,13 @@ Bike Map,AI Coding,Medium,Onsite / virtual onsite,Intern; New grad; Junior / Mid
 AI Token Billing Calculation,Algorithm,Medium,Online assessment,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/chat-billing-calculation
 Payment Invoice Reconciliation,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid; Senior,1,17,2026-09,https://trueinterview.io/questions/payment-invoice-reconciliation
 Find the Latest Balance for a Bank Account,SQL,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-31,https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account
-Design Merchant Lender System,System Design,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,1,0,2026-08-29,https://trueinterview.io/questions/ledger-system
+Build a Transaction Rule Engine with AND/OR Chains and Nested Parentheses,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-08-30,https://trueinterview.io/questions/build-a-transaction-rule-engine-with-and-or-chains-and-nested-parentheses
+Design Merchant Lender System,System Design,Medium,Phone screen; Onsite / virtual onsite,Intern; New grad; Senior,1,0,2026-08-29,https://trueinterview.io/questions/ledger-system
 Parse and Format Arbitrarily Nested Tasks from CSV,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-25,https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv
+Reducing Payment Fraud for Stripe Merchants Without Raising False Declines,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-23,https://trueinterview.io/questions/reducing-payment-fraud-for-stripe-merchants-without-raising-false-declines
+Stripe Checkout: Raise Payment Success While Improving Buyer and Merchant Experience,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-22,https://trueinterview.io/questions/stripe-checkout-raise-payment-success-while-improving-buyer-and-merchant-experience
 Design a Scalable Idempotent Ledger Service,System Design,Hard,Phone screen,Junior / Mid; Senior; Staff+,1,0,2026-08-20,https://trueinterview.io/questions/design-a-scalable-idempotent-ledger-service
+Product Sense: Mobile Bank Account Experience for Children and Their Parents,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-01,https://trueinterview.io/questions/product-sense-mobile-bank-account-experience-for-children-and-their-parents
 Describe a high-impact project via STAR,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,8,2026-08,https://trueinterview.io/questions/describe-a-high-impact-project-via-star
 Match payments to invoices by memo or amount,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-08,https://trueinterview.io/questions/match-payments-to-invoices-by-memo-or-amount-2
 Fix an Async Race Condition in a React Data Fetching Component,Algorithm,Medium,Phone screen,Senior,1,1,2026-08,https://trueinterview.io/questions/977b9f31-47ef-50c5-a2c4-3ab5337f9e78
@@ -52,7 +65,9 @@ Currency Exchange,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New gra
 Moshi JSON Library,AI Coding,Medium,Onsite / virtual onsite,Senior,1,0,2026-08,https://trueinterview.io/questions/debug-moshi-json-library
 Metric Counter Library,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,2,2026-08,https://trueinterview.io/questions/metric-counter-library
 Business CSV Data Validator,Algorithm,Easy,Phone screen,Senior,1,2,2026-08,https://trueinterview.io/questions/dataset-validation-csv
+"Integrate Stripe's hosted Checkout into a web store, from Buy click to fulfilled order",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-29,https://trueinterview.io/questions/integrate-stripes-hosted-checkout-into-a-web-store-from-buy-click-to-fulfilled-order
 Repeated Payments,SQL,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-07-22,https://trueinterview.io/questions/repeated-payments
+Success metrics for an airline's arrival baggage experience,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07-10,https://trueinterview.io/questions/success-metrics-for-an-airlines-arrival-baggage-experience
 Repo Debugging: Fix Failing Tests in a Failsafe Project,AI Coding,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/46333f06-4228-4ad2-9088-75edef798537
 Six Degrees of Collusion,Algorithm,Medium,Online assessment,New grad,1,0,2026-06-24,https://trueinterview.io/questions/six-degrees-of-collusion
 Factory Network Cost Minimization,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-06-11,https://trueinterview.io/questions/factory-network-cost-minimization

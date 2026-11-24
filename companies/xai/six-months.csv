@@ -2,6 +2,9 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
 Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
 Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,5,2026-10,https://trueinterview.io/questions/design-chatgpt
+Design a Distributed URL Shortener for Very High Redirect Traffic,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-09-25,https://trueinterview.io/questions/design-a-distributed-url-shortener-for-very-high-redirect-traffic
+Present a Past Project with Slides to a Panel of Engineers and PMs,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-23,https://trueinterview.io/questions/present-a-past-project-with-slides-to-a-panel-of-engineers-and-pms
+Design Delayed (Scheduled) Tweet Publishing for Twitter,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-23,https://trueinterview.io/questions/design-delayed-scheduled-tweet-publishing-for-twitter
 Render Nested JSON in a Code-Style Viewer,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer
 Load and Display a React List with useEffect,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect
 Implement an Asynchronous React Typeahead,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead
@@ -9,5 +12,8 @@ Design a Collaborative Document Editor,System Design,Hard,Onsite / virtual onsit
 Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,0,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
 Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
 Tweets' Rolling Averages,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07-22,https://trueinterview.io/questions/tweets-rolling-averages
+xAI PM Execution: Lifting Model Precision 20% in Under a Month with Contractors,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-28,https://trueinterview.io/questions/xai-pm-execution-lifting-model-precision-20percent-in-under-a-month-with-contractors
+xAI PM ML Question: Data and Models Behind Next-Word Typing Suggestions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06-27,https://trueinterview.io/questions/xai-pm-ml-question-data-and-models-behind-next-word-typing-suggestions
+xAI PM Behavioral: Running Contractor Programs That Improve Models After Training,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-27,https://trueinterview.io/questions/xai-pm-behavioral-running-contractor-programs-that-improve-models-after-training
 Most Challenging Project + Why xAI,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,15,2026-06-19,https://trueinterview.io/questions/most-challenging-project-why-xai
 Transactional Key-Value Store,Object-Oriented Programming,Hard,Onsite / virtual onsite,Intern; Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/transactional-key-value-store

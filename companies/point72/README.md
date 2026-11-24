@@ -2,9 +2,9 @@
 
 # Point72 interview questions
 
-41 questions reported at Point72, most recently reported first.
+43 questions reported at Point72, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (17) · [all](all.csv) (41)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (19) · [all](all.csv) (43)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Prove That Lasso Can Be Written as a Quadratic Program](https://trueinterview.io/questions/prove-that-lasso-can-be-written-as-a-quadratic-program?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-07 |
+| [Defend a Quantitative Factor Research Project](https://trueinterview.io/questions/defend-a-quantitative-factor-research-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-07 |
 | [Explain Ensemble Learning and Its Main Families](https://trueinterview.io/questions/explain-ensemble-learning-and-its-main-families?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 0 | 2026-08 |
 | [Explain Encapsulation, Inheritance, and Polymorphism in C++](https://trueinterview.io/questions/explain-encapsulation-inheritance-and-polymorphism-in-cplusplus?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 0 | 2026-08 |
 | [Derive the Optimal Bid in a Two-Bidder Second-Price Auction](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 0 | 2026-08 |

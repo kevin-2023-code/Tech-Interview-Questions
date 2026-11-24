@@ -2,9 +2,9 @@
 
 # JPMorgan interview questions
 
-28 questions reported at JPMorgan, most recently reported first.
+35 questions reported at JPMorgan, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (7) · [all](all.csv) (28)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (11) · [all](all.csv) (35)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -13,12 +13,18 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
+| [Market Sizing: How Many Travelers Arrive in India From Abroad](https://trueinterview.io/questions/market-sizing-how-many-travelers-arrive-in-india-from-abroad?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-18 |
 | [Super Day Behavioral Round](https://trueinterview.io/questions/superday-behavioral-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09 |
 | [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 2 | 0 | 2026-09 |
+| [Design a Rate Limiter Service: Components, Scaling and Precision Trade-offs](https://trueinterview.io/questions/design-a-rate-limiter-service-components-scaling-and-precision-trade-offs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 2 | 0 | 2026-08-13 |
 | [Describe a proud project and conflict](https://trueinterview.io/questions/describe-a-proud-project-and-conflict?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08 |
+| [Explain Polymorphism and Binary Trees, and How You Use AI Tools as an Engineer](https://trueinterview.io/questions/explain-polymorphism-and-binary-trees-and-how-you-use-ai-tools-as-an-engineer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-16 |
+| [Behavioral: Resolving a Team Conflict and Working Through a Constraint](https://trueinterview.io/questions/behavioral-resolving-a-team-conflict-and-working-through-a-constraint?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-16 |
 | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Onsite / virtual onsite | Senior | 1 | 1 | 2026-06-23 |
 | [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 0 | 2026-06-23 |
 | [Interval Consolidation](https://trueinterview.io/questions/interval-consolidation-oa?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Senior | 1 | 1 | 2026-06-23 |
+| [Behavioral: Mentoring Others and Going Beyond Your Role to Help Teammates](https://trueinterview.io/questions/behavioral-mentoring-others-and-going-beyond-your-role-to-help-teammates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-02 |
+| [Behavioral: Making Progress When Requirements Are Vague](https://trueinterview.io/questions/behavioral-making-progress-when-requirements-are-vague?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-05-02 |
 | [Explain Core ML Concepts](https://trueinterview.io/questions/explain-core-ml-concepts-5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-04-24 |
 | [Implement Integer Square Root](https://trueinterview.io/questions/implement-integer-square-root?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-24 |
 | [Design a Reliable Bank Payment System](https://trueinterview.io/questions/design-a-reliable-bank-payment-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-23 |
@@ -35,6 +41,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Count substrings and generate TOC](https://trueinterview.io/questions/count-substrings-and-generate-toc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-13 |
 | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 2 | 1 | 2025-12-20 |
 | [Circular Active Computers Window](https://trueinterview.io/questions/circular-active-computers-window?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment, Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12 |
+| [Design a Feature to Get More Clients Integrating via J.P. Morgan's Payments API Portal](https://trueinterview.io/questions/design-a-feature-to-get-more-clients-integrating-via-j-p-morgans-payments-api-portal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-25 |
 | [Interval Sign Flips](https://trueinterview.io/questions/interval-sign-flips?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid | 1 | 1 | 2025-11-19 |
 | [Split Array: Left Sum Greater](https://trueinterview.io/questions/split-array-left-sum-greater?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 0 | 2025-09-05 |
 | [Delete-One-Character Positions](https://trueinterview.io/questions/delete-one-character-positions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment, Phone screen | Junior / Mid | 1 | 0 | 2025-07-29 |

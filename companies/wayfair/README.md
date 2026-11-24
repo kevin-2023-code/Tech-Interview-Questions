@@ -2,9 +2,9 @@
 
 # Wayfair interview questions
 
-7 questions reported at Wayfair, most recently reported first.
+11 questions reported at Wayfair, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (5) · [all](all.csv) (7)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (9) · [all](all.csv) (11)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -17,6 +17,10 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Rank Homepage Modules for an E-Commerce Product](../../questions/system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-10 |
 | [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-10 |
 | [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
+| [Wayfair: Finding Hidden B2B Buyers, Spotting Designers and Choosing Outreach Targets](https://trueinterview.io/questions/wayfair-finding-hidden-b2b-buyers-spotting-designers-and-choosing-outreach-targets?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-17 |
+| [Raising Review Coverage, Usefulness and Trust for Wayfair's Furniture Catalog](https://trueinterview.io/questions/raising-review-coverage-usefulness-and-trust-for-wayfairs-furniture-catalog?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-14 |
+| [Wayfair Shipping Fee Change: Model the Profit Impact of Repricing One Delivery Option](https://trueinterview.io/questions/wayfair-shipping-fee-change-model-the-profit-impact-of-repricing-one-delivery-option?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-20 |
+| [Make the Case for Customer Reviews at Wayfair and Design the Review System](https://trueinterview.io/questions/make-the-case-for-customer-reviews-at-wayfair-and-design-the-review-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-06-21 |
 | [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 1 | 2026-02-16 |
 | [How to improve complaint resolution](https://trueinterview.io/questions/how-to-improve-complaint-resolution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-16 |
 

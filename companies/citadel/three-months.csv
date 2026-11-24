@@ -1,4 +1,8 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Compare Models for One-Minute and Five-Day Stock Returns,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-10-19,https://trueinterview.io/questions/compare-models-for-one-minute-and-five-day-stock-returns
+Combine Two Assets with Equal Return-to-Volatility Ratios,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-10-19,https://trueinterview.io/questions/combine-two-assets-with-equal-return-to-volatility-ratios
+Approximate a Square Root and Clarify the Integer Follow-up,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-19,https://trueinterview.io/questions/approximate-a-square-root-and-clarify-the-integer-follow-up
+Reach Every Target Position from One Chosen Start Using Repeatable Trades,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/reach-every-target-position-from-one-chosen-start-using-repeatable-trades
 Terminal-Based Two-Player Battleship,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/05f24831-d93c-522f-85ee-0811e321b613
 Memory Blocks — Reachable MEX After One Increment,Algorithm,Medium,Online assessment,New grad,1,1,2026-10-01,https://trueinterview.io/questions/oa-memory-block-mex-one-increment
 Search Suggestions System,Algorithm,Medium,Phone screen,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13
@@ -8,9 +12,12 @@ Research Engineer Sequence Classification,Algorithm,Hard,Onsite / virtual onsite
 Design a Top-Ten Trade Query with Exact Amounts,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09-18,https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts
 Define a Reliable Trade-Reconciliation Library Contract,Object-Oriented Programming,Hard,Phone screen,Junior / Mid,1,1,2026-09-18,https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract
 SDE OA Fundamentals Quiz,Behavioral / Knowledge,,Online assessment,New grad,1,1,2026-09-17,https://trueinterview.io/questions/sde-oa-fundamentals-quiz
+"Thread-Safe Producer-Consumer Queue: Mutex, Then Spin Lock, Then Lock-Free",Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/thread-safe-producer-consumer-queue-mutex-then-spin-lock-then-lock-free
+Detect Currency Arbitrage and Return a Profitable Conversion Cycle,Algorithm,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/detect-currency-arbitrage-and-return-a-profitable-conversion-cycle
+Conflating Quote Queue That Keeps Only the Latest Price per Symbol,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/conflating-quote-queue-that-keeps-only-the-latest-price-per-symbol
 Deduplicating File System,Object-Oriented Programming,Medium,Phone screen,Senior,1,1,2026-09-08,https://trueinterview.io/questions/deduplicating-file-system
 Reduce Hashing and Safely Delete Shared File Content,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-03,https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content
-Merge Timestamped Price-Delta Feeds,Algorithm,Medium,Phone screen,Intern,1,0,2026-09,https://trueinterview.io/questions/bec8e37e-9fd0-53be-9ee9-9e904bbf0847
+Merge Timestamped Price-Delta Feeds,Algorithm,Medium,Phone screen,Intern; Senior,1,0,2026-09,https://trueinterview.io/questions/bec8e37e-9fd0-53be-9ee9-9e904bbf0847
 Permutation-Invariant Classification of Variable-Length Feature Sets,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/4835bfa3-8b24-5b16-9372-993fa9b59e80
 Discuss a Project You Are Proud Of and How You Work,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/discuss-a-project-you-are-proud-of-and-how-you-work
 "Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling",System Design,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling

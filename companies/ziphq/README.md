@@ -2,9 +2,9 @@
 
 # Ziphq interview questions
 
-6 questions reported at Ziphq, most recently reported first.
+7 questions reported at Ziphq, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (2) · [all](all.csv) (6)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (3) · [all](all.csv) (7)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -13,6 +13,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](../../questions/algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-17 |
+| [Extend a questionnaire condition evaluator with numeric questions and nested AND/OR logic](https://trueinterview.io/questions/extend-a-questionnaire-condition-evaluator-with-numeric-questions-and-nested-and-or-logic?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-08 |
 | [Track Repeated Approval Alerts and Safely Update Alert Levels](https://trueinterview.io/questions/track-repeated-approval-alerts-and-safely-update-alert-levels?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-05 |
 | [Find shortest path on infinite grid](../../questions/algorithm/find-shortest-path-on-infinite-grid/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-03-11 |
 | [Implement a Vending Machine](https://trueinterview.io/questions/implement-a-vending-machine?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-28 |

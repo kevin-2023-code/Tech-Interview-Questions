@@ -2,9 +2,9 @@
 
 # Nuro interview questions
 
-12 questions reported at Nuro, most recently reported first.
+13 questions reported at Nuro, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (7) · [all](all.csv) (12)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (8) · [all](all.csv) (13)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -19,6 +19,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-31 |
 | [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-31 |
 | [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-31 |
+| [Design a Scheduler for Weekly Self-Driving Simulation Jobs with Dependent Phases](https://trueinterview.io/questions/design-a-scheduler-for-weekly-self-driving-simulation-jobs-with-dependent-phases?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-21 |
 | [Coordinate Video Reading and Rendering at 25 Frames per Second](https://trueinterview.io/questions/coordinate-video-reading-and-rendering-at-25-frames-per-second?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-02-15 |
 | [Check Vertical Reflection Symmetry with Duplicate Points](../../questions/algorithm/check-vertical-reflection-symmetry-with-duplicate-points/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-15 |
 | [Design an Inference Pipeline](https://trueinterview.io/questions/design-an-inference-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-01-30 |

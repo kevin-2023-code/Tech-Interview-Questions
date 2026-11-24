@@ -79,21 +79,21 @@ Treat these figures as order-of-magnitude reference points rather than precise t
 <details>
 <summary>Hint 1</summary>
 
-Treat the server as the single source of truth for pairing, legal move order, and whose clock is running, with clients only sending intents.
+Identify what must never be wrong: the legal move sequence, the result, and whose clock is running, and make a single authoritative server own them.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Combine a matchmaking queue with a per-game authoritative state machine and persistent connections such as WebSockets, plus server-side move validation and clock accounting.
+Use persistent connections to a game room hosting authoritative state, a matchmaking component pairing players, and server-side move validation and clock management.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Pay attention to reconnects, duplicate or out-of-order moves, and clock drift or lag compensation, since these are where state silently diverges.
+Discuss reconnection, clock drift and latency compensation, persisting the move log for recovery, and scaling rooms by sharding game servers.
 
 </details>
 

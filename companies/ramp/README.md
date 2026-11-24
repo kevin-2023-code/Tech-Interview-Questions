@@ -2,9 +2,9 @@
 
 # Ramp interview questions
 
-36 questions reported at Ramp, most recently reported first.
+37 questions reported at Ramp, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (12) · [all](all.csv) (36)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (13) · [all](all.csv) (37)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -14,6 +14,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 14 | 0 | 2026-10 |
 | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-18 |
+| [Build a Wordle Guess Checker with Green, Yellow and Red Letter Feedback](https://trueinterview.io/questions/build-a-wordle-guess-checker-with-green-yellow-and-red-letter-feedback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-09-17 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 10 | 0 | 2026-09 |
 | [Minimum Changes to Make a K-Periodic Palindromic Password](https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 2 | 3 | 2026-09 |
 | [Maximum Earnings After Converting Days Off to Workdays](https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 2 | 0 | 2026-09 |

@@ -2,9 +2,9 @@
 
 # Optiver interview questions
 
-35 questions reported at Optiver, most recently reported first.
+36 questions reported at Optiver, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (10) · [all](all.csv) (35)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (11) · [all](all.csv) (36)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Reason Through an Interactive Trading Game](https://trueinterview.io/questions/reason-through-an-interactive-trading-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-11-05 |
 | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Intern, New grad, Junior / Mid, Senior | 1 | 0 | 2026-10 |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 17 | 0 | 2026-08 |
 | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 0 | 2026-08 |

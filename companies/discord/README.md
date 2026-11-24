@@ -2,9 +2,9 @@
 
 # Discord interview questions
 
-11 questions reported at Discord, most recently reported first.
+17 questions reported at Discord, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (11)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (5) · [all](all.csv) (17)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,12 +12,18 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Return Words Present in Exactly One Message](https://trueinterview.io/questions/return-words-present-in-exactly-one-message?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-26 |
+| [Explain a Business Project That Used Causal Inference](https://trueinterview.io/questions/explain-a-business-project-that-used-causal-inference?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-26 |
+| [Evaluate Model-Targeted Subscription Notifications](https://trueinterview.io/questions/evaluate-model-targeted-subscription-notifications?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-26 |
+| [Count a Character in a String](https://trueinterview.io/questions/count-a-character-in-a-string?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-26 |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 10 | 22 | 2026-09 |
 | [Implement Game Metadata Lookups](../../questions/object-oriented-programming/implement-game-metadata-lookups/README.md) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-03 |
 | [Walk through your background and proud project](https://trueinterview.io/questions/walk-through-your-background-and-proud-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 1 | 2026-02-04 |
 | [Design a TCP Discord-like chat server](https://trueinterview.io/questions/design-a-tcp-discord-like-chat-server?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-27 |
 | [Demonstrate effective AI-assisted coding workflow](https://trueinterview.io/questions/demonstrate-effective-ai-assisted-coding-workflow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 1 | 0 | 2026-01-27 |
 | [Design Product Notification and Autocomplete Experiments](https://trueinterview.io/questions/design-product-notification-and-autocomplete-experiments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-01-16 |
+| [Making a Product-Grounded Case for Joining Discord as a Product Manager](https://trueinterview.io/questions/making-a-product-grounded-case-for-joining-discord-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-18 |
+| [Explaining Your Other Active Interview Processes With a Coherent Career Thesis](https://trueinterview.io/questions/explaining-your-other-active-interview-processes-with-a-coherent-career-thesis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-18 |
 | [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-16 |
 | [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2025-12-08 |
 | [Implement an asyncio-based chat server](../../questions/object-oriented-programming/implement-an-asyncio-based-chat-server/README.md) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-25 |

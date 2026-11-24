@@ -1,6 +1,11 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design an Agent for BigQuery Analysis,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-25,https://trueinterview.io/questions/design-an-agent-for-bigquery-analysis
+Explain Kotlin Coroutines and Suspending Functions,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-21,https://trueinterview.io/questions/explain-kotlin-coroutines-and-suspending-functions
+"Classify Imbalanced Tabular Data with Missing Values, Then Scale to Billions of Rows",Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-14,https://trueinterview.io/questions/classify-imbalanced-tabular-data-with-missing-values-then-scale-to-billions-of-rows
+Reddit Onboarding: Matching Newcomers to Communities They Will Keep Visiting,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-01,https://trueinterview.io/questions/reddit-onboarding-matching-newcomers-to-communities-they-will-keep-visiting
 Design Feature Flag,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-10,https://trueinterview.io/questions/design-feature-flag-2
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
+Handling High-Cardinality Categorical Features and Cold-Start Items in Embedding Models,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-26,https://trueinterview.io/questions/handling-high-cardinality-categorical-features-and-cold-start-items-in-embedding-models
 Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Hiring-Manager Domain Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,5,2026-09,https://trueinterview.io/questions/hiring-manager-domain-round

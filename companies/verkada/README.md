@@ -2,9 +2,9 @@
 
 # Verkada interview questions
 
-31 questions reported at Verkada, most recently reported first.
+32 questions reported at Verkada, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (13) · [all](all.csv) (31)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (14) · [all](all.csv) (32)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Streaming Python Parser for Key-Value Log Lines with Quoted and Escaped Values](https://trueinterview.io/questions/streaming-python-parser-for-key-value-log-lines-with-quoted-and-escaped-values?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-18 |
 | [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-04 |
 | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-09 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 10 | 0 | 2026-09 |

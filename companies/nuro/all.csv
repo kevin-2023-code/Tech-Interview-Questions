@@ -6,6 +6,7 @@ Design an Autonomous-Vehicle Simulator,System Design,Hard,Onsite / virtual onsit
 Design a Shared Distributed ML Training Platform,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-31,https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform
 Compare Locks and MVCC in a Versioned Store,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-31,https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store
 Aggregate and Query Vehicle Obstacle Data,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-31,https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data
+Design a Scheduler for Weekly Self-Driving Simulation Jobs with Dependent Phases,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-08-21,https://trueinterview.io/questions/design-a-scheduler-for-weekly-self-driving-simulation-jobs-with-dependent-phases
 Coordinate Video Reading and Rendering at 25 Frames per Second,Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-02-15,https://trueinterview.io/questions/coordinate-video-reading-and-rendering-at-25-frames-per-second
 Check Vertical Reflection Symmetry with Duplicate Points,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-02-15,https://trueinterview.io/questions/check-vertical-reflection-symmetry-with-duplicate-points
 Design an Inference Pipeline,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-01-30,https://trueinterview.io/questions/design-an-inference-pipeline

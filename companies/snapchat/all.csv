@@ -1,4 +1,9 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Evaluate a Binary Model with Confusion Counts, Calibration, and Normalized Entropy",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-28,https://trueinterview.io/questions/evaluate-a-binary-model-with-confusion-counts-calibration-and-normalized-entropy
+Diagnose and Reduce Model Overfitting,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-28,https://trueinterview.io/questions/diagnose-and-reduce-model-overfitting
+Design a Video Recommender with Two-Tower Retrieval and MMoE Ranking,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-28,https://trueinterview.io/questions/design-a-video-recommender-with-two-tower-retrieval-and-mmoe-ranking
+Design a Harmful-Content Identification System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-28,https://trueinterview.io/questions/design-a-harmful-content-identification-system
+Compare Gradient-Descent Optimizers and Their State,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-28,https://trueinterview.io/questions/compare-gradient-descent-optimizers-and-their-state
 LRU Cache + Thread-Safe Follow-up,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,12,2026-10,https://trueinterview.io/questions/coding-lru-cache-multithread
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
 Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
@@ -9,6 +14,11 @@ Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,
 Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85
 Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
 Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
+What Happens When All Neural-Network Weights Start at Zero?,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-09-12,https://trueinterview.io/questions/what-happens-when-all-neural-network-weights-start-at-zero
+"Resume ML Project Deep Dive: Loss, Training Data, Features, Architecture, Cold Start",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/resume-ml-project-deep-dive-loss-training-data-features-architecture-cold-start
+Explain Vanishing Gradients in Neural-Network Training,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/explain-vanishing-gradients-in-neural-network-training
+"Explain Embeddings, Positive Labels, and Retraining in a Recommendation Project",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/explain-embeddings-positive-labels-and-retraining-in-a-recommendation-project
+Explain Bias and Variance in Model Generalization,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/explain-bias-and-variance-in-model-generalization
 Render an Organization Chart and Find Skip-Level Pairs,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs
 Explain Neural-Network Regularization and Dropout,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout
 Compare Batch Normalization and Layer Normalization,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Senior,1,0,2026-09-09,https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization
@@ -30,6 +40,7 @@ Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior
 Durable Key-Value Store Serialization,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,10,0,2026-08,https://trueinterview.io/questions/durable-key-value-store-serialization
 Sending vs. Opening Snaps,SQL,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-07-22,https://trueinterview.io/questions/sending-vs-opening-snaps
 Metrics Collection & Alerting System,System Design,Hard,Onsite / virtual onsite,Senior,2,2,2026-07-08,https://trueinterview.io/questions/metrics-alerting-system-design
+Design a Multi-Region CI/CD System with Separate Control and Data Planes,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-01,https://trueinterview.io/questions/design-a-multi-region-ci-cd-system-with-separate-control-and-data-planes
 Design Uber,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,4,0,2026-07,https://trueinterview.io/questions/onsite-sd-rider-driver-matching
 Design Coinbase Explore,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-07,https://trueinterview.io/questions/sd-coinbase-explore-realtime-price
 Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,0,2026-07,https://trueinterview.io/questions/design-news-feed
@@ -37,8 +48,12 @@ Design a News Aggregation Feed,System Design,Hard,Phone screen,Junior / Mid; Sen
 "ML Fundamentals, Transformer & Regularization",Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-05-13,https://trueinterview.io/questions/ml-fundamentals-transformer-and-regularization
 Longest Increasing Path in a Matrix,Algorithm,Hard,Phone screen,Junior / Mid,2,0,2026-05,https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74
 Explain Overfitting and Transformer Attention,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-04-29,https://trueinterview.io/questions/explain-overfitting-and-transformer-attention
+"Choosing Chunk Boundaries, Size and Overlap for Retrieval-Augmented Generation",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-21,https://trueinterview.io/questions/choosing-chunk-boundaries-size-and-overlap-for-retrieval-augmented-generation
 Snap Ads Ranking,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-04-21,https://trueinterview.io/questions/snap-ads-ranking
 Short Video Recommendation & Ranking,System Design,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,2026-04-21,https://trueinterview.io/questions/short-video-recommendation-and-ranking
+Self-Hosted Open-Weight LLM vs. Paid Model API: Making the Build-or-Buy Call,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-20,https://trueinterview.io/questions/self-hosted-open-weight-llm-vs-paid-model-api-making-the-build-or-buy-call
+AI Agent That Turns Scattered Health Records into a Trustworthy Patient Summary,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-20,https://trueinterview.io/questions/ai-agent-that-turns-scattered-health-records-into-a-trustworthy-patient-summary
+Keeping LLM Answers Accurate When Source Material Overflows the Context Window,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-19,https://trueinterview.io/questions/keeping-llm-answers-accurate-when-source-material-overflows-the-context-window
 Maximum Island Perimeter,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-04-17,https://trueinterview.io/questions/maximum-island-perimeter
 Number of Islands (Plain and Streaming),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,8,0,2026-04-09,https://trueinterview.io/questions/phone-screen-number-of-islands
 Design a ranking system pipeline,System Design,Hard,Phone screen,New grad; Senior,1,0,2026-04,https://trueinterview.io/questions/design-a-ranking-system-pipeline
@@ -64,6 +79,9 @@ Explain LLM tuning and transformer basics,Behavioral / Knowledge,,Phone screen,S
 Implement calculator and graph connectivity,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-30,https://trueinterview.io/questions/implement-calculator-and-graph-connectivity
 Service Dependency Shortest Latency Path,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-01-30,https://trueinterview.io/questions/service-dependency-shortest-latency-path
 Search Suggestion Service,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-01-30,https://trueinterview.io/questions/search-suggestion-service
+"Engineering Manager Scenarios: Promotion Cases, Team Conflict and Performance Plans",Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,0,2026-01-20,https://trueinterview.io/questions/engineering-manager-scenarios-promotion-cases-team-conflict-and-performance-plans
+"Engineering Manager Behavioral: Motivation, Taking Feedback and Leading a Reorganization",Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,0,2026-01-20,https://trueinterview.io/questions/engineering-manager-behavioral-motivation-taking-feedback-and-leading-a-reorganization
+"Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-20,https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons
 iOS Scrollable Grid & Swift Concurrency,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-01-20,https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency
 How do you deliver when time is tight?,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-01-10,https://trueinterview.io/questions/how-do-you-deliver-when-time-is-tight
 Describe an innovation you drove end-to-end,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-01-10,https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end
@@ -77,6 +95,7 @@ Count ways to decode digit string,Algorithm,Medium,Onsite / virtual onsite,Junio
 Distinct Products Of Prime Subsets,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Senior,1,1,2025-12,https://trueinterview.io/questions/105bb2c5-a958-467e-bbb2-ac7c2bb81fe2
 How do you decide with limited information?,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,2025-11-26,https://trueinterview.io/questions/how-do-you-decide-with-limited-information
 Design ride-hailing and price alert systems,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2025-10-28,https://trueinterview.io/questions/design-ride-hailing-and-price-alert-systems
+Product Sense: A Low-Pressure Social Network Built Around Introverted Users,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-10-07,https://trueinterview.io/questions/product-sense-a-low-pressure-social-network-built-around-introverted-users
 Influence a senior partner with data,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/influence-a-senior-partner-with-data
 Explain Random Forest randomness and implications,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/explain-random-forest-randomness-and-implications
 Design an experiment for spam filtering impact,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-an-experiment-for-spam-filtering-impact

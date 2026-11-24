@@ -2,9 +2,9 @@
 
 # Yelp interview questions
 
-22 questions reported at Yelp, most recently reported first.
+23 questions reported at Yelp, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (9) · [all](all.csv) (22)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (9) · [all](all.csv) (23)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -21,6 +21,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Estimate Experiment Duration with Power Analysis](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-27 |
 | [Return Integers in Descending Ranked Order](https://trueinterview.io/questions/return-integers-in-descending-ranked-order?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-27 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 16 | 0 | 2026-07 |
+| [Setting Yelp's ad load: trading ad revenue against user and advertiser experience](https://trueinterview.io/questions/setting-yelps-ad-load-trading-ad-revenue-against-user-and-advertiser-experience?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-05-02 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 10 | 0 | 2026-03-23 |
 | [Count Alert Triggers](https://trueinterview.io/questions/count-alert-triggers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-04-21 |
 | [Top Love Message Receivers](https://trueinterview.io/questions/top-love-message-receivers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-04-20 |

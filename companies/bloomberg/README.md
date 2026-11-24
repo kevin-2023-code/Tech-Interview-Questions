@@ -2,9 +2,9 @@
 
 # Bloomberg interview questions
 
-95 questions reported at Bloomberg, most recently reported first.
+97 questions reported at Bloomberg, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (23) · [last 6 months](six-months.csv) (47) · [all](all.csv) (95)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (23) · [last 6 months](six-months.csv) (49) · [all](all.csv) (97)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -36,6 +36,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior, Staff+ | 8 | 13 | 2026-09 |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 11 | 0 | 2026-09 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2 | 2026-08-04 |
+| [Design a Card Deck with Shuffling, Dealing, and Five-Card Poker Comparison](https://trueinterview.io/questions/design-a-card-deck-with-shuffling-dealing-and-five-card-poker-comparison?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-01 |
 | [Fair Electoral Vote Apportionment](https://trueinterview.io/questions/a83349b5-43bf-5345-a1f5-2c96ef191b94?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-08 |
 | [Stock Price Tracker (Online Stock Span)](https://trueinterview.io/questions/3a741f76-d92f-5234-8363-4fce4a55e475?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-08 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Intern, Senior | 5 | 0 | 2026-08 |
@@ -46,6 +47,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Intern, Junior / Mid | 9 | 0 | 2026-08 |
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-22 |
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-22 |
+| [Design a Fair Distributed Job Scheduler with Unknown Runtimes](https://trueinterview.io/questions/design-a-fair-distributed-job-scheduler-with-unknown-runtimes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-07-18 |
 | [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-07-09 |
 | [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 0 | 2026-07-07 |
 | [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-07-07 |

@@ -1,11 +1,20 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Shortest Substring Containing All Pattern Characters with Repeats,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-28,https://trueinterview.io/questions/shortest-substring-containing-all-pattern-characters-with-repeats
+Lyft Robotaxi Launch: Picking the First Palo Alto Pickup and Drop-off Points,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-16,https://trueinterview.io/questions/lyft-robotaxi-launch-picking-the-first-palo-alto-pickup-and-drop-off-points
 Rotten Oranges / Grid Infection BFS,Algorithm,Medium,Online assessment; Phone screen; Onsite / virtual onsite,Junior / Mid,1,14,2026-10,https://trueinterview.io/questions/rotten-oranges-grid-bfs
 Design a 1-to-1 Chat System,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/design-a-1-to-1-chat-system
+Wrapper Over a Paginated Page API That Fetches the Next N Words,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-24,https://trueinterview.io/questions/wrapper-over-a-paginated-page-api-that-fetches-the-next-n-words
+Design a Wiki Crawler That Keeps Every Stored Page at Most Five Days Stale,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-24,https://trueinterview.io/questions/design-a-wiki-crawler-that-keeps-every-stored-page-at-most-five-days-stale
+Product design for a vertical takeoff and landing flying car,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-13,https://trueinterview.io/questions/product-design-for-a-vertical-takeoff-and-landing-flying-car
+Diagnose a 20% ride volume decline in one Lyft market,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-12,https://trueinterview.io/questions/diagnose-a-20percent-ride-volume-decline-in-one-lyft-market
 Explain Project Ownership and Collaboration with Colleagues,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,1,2026-09-08,https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues
 Design a Globally Versioned Key-Value Store,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-09-08,https://trueinterview.io/questions/design-a-globally-versioned-key-value-store
 Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/charity-donation-system
 Hand-Written K-Means,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,2,0,2026-09,https://trueinterview.io/questions/handwritten-k-means
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Lyft Two-Sided Trip Experience: Fixing Bad Rides for Riders and Drivers,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-22,https://trueinterview.io/questions/lyft-two-sided-trip-experience-fixing-bad-rides-for-riders-and-drivers
+Motivation for a Lyft PM Role: Tying Its Rider-Driver Marketplace to Your Experience,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-08-10,https://trueinterview.io/questions/motivation-for-a-lyft-pm-role-tying-its-rider-driver-marketplace-to-your-experience
+Designing a Lyft Service That Gets Patients to and from Medical Care,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-06,https://trueinterview.io/questions/designing-a-lyft-service-that-gets-patients-to-and-from-medical-care
 Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,8,0,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
 Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
 Best Time to Buy and Sell Stock IV,Algorithm,Medium,Phone screen,Junior / Mid; Senior,8,0,2026-08,https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1
@@ -13,10 +22,13 @@ Validate Binary Search Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6
 Minimum Window Substring,Algorithm,Medium,Phone screen,Junior / Mid; Senior; Staff+,3,8,2026-08,https://trueinterview.io/questions/minimum-window-substring
 Design Pagination API,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07-29,https://trueinterview.io/questions/pagination-api-wrapper
 Job Scheduler,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07-29,https://trueinterview.io/questions/job-scheduler-minimum-workers
+"Train vs Test Error Diagnosis, Overfitting Fixes by Model Type, and Cross-Validation",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-07-06,https://trueinterview.io/questions/train-vs-test-error-diagnosis-overfitting-fixes-by-model-type-and-cross-validation
 In-Memory Key-Value Store with Nested Transactions and Value Counts,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,2,1,2026-07,https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0
 "Project, Conflict, Failure, and DEI",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,5,2026-07,https://trueinterview.io/questions/behavioral-project-conflict-and-dei
 Design Uber,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,4,0,2026-07,https://trueinterview.io/questions/onsite-sd-rider-driver-matching
 Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,0,2026-07,https://trueinterview.io/questions/design-news-feed
+Lyft Product Improvement: Rider Journey From Ride Confirmation to Trip End,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-29,https://trueinterview.io/questions/lyft-product-improvement-rider-journey-from-ride-confirmation-to-trip-end
+Lyft advance ride booking: feature design and launch plan,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-18,https://trueinterview.io/questions/lyft-advance-ride-booking-feature-design-and-launch-plan
 Design Facebook Messenger,System Design,Medium,Onsite / virtual onsite,Senior,2,0,2026-06,https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a
 Commuter Coupon Conditional Probability,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/ds-commuter-coupon-probability
 Transactional Key-Value Store,Object-Oriented Programming,Hard,Onsite / virtual onsite,Intern; Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/transactional-key-value-store

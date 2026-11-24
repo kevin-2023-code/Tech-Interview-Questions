@@ -1,4 +1,6 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Tesla Touchscreen Redesign for Fewer Eyes-Off-Road Glances, With No Feature Lost",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-30,https://trueinterview.io/questions/tesla-touchscreen-redesign-for-fewer-eyes-off-road-glances-with-no-feature-lost
+"Design a Supercharger Backend: Billing, Stall Telemetry and Nearest Available Charger",System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-17,https://trueinterview.io/questions/design-a-supercharger-backend-billing-stall-telemetry-and-nearest-available-charger
 Implement Reduce and Derive Map and Filter from It,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-13,https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it
 Design a Content Delivery Network,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-09-04,https://trueinterview.io/questions/design-a-content-delivery-network
 Handle API Errors with Python Requests,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-04,https://trueinterview.io/questions/handle-api-errors-with-python-requests
@@ -9,9 +11,11 @@ Investigate Recurring Bugs and Prevent the Same Failure from Returning,Behaviora
 Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
 Design an Order Fulfillment System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-24,https://trueinterview.io/questions/design-an-order-fulfillment-system
 Design a Video Sharing Platform,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-24,https://trueinterview.io/questions/design-a-video-sharing-platform
+Planning a Low-Disruption Over-the-Air Release for Tesla's Vehicle Fleet,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-16,https://trueinterview.io/questions/planning-a-low-disruption-over-the-air-release-for-teslas-vehicle-fleet
 Min Root-to-Leaf Path Sum of N-ary Tree,Algorithm,Easy,Phone screen,Intern; Senior,5,0,2026-08,https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree
 URL Router Design,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,2,2026-08,https://trueinterview.io/questions/url-router-design
 Shortest Bridge,Algorithm,Medium,Phone screen,Senior,3,0,2026-08,https://trueinterview.io/questions/shortest-bridge-2
+Spot US Market Gaps for a New Electric Vehicle Challenger to Tesla,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-26,https://trueinterview.io/questions/spot-us-market-gaps-for-a-new-electric-vehicle-challenger-to-tesla
 CV / Sensing ML Fundamentals Oral,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,1,2026-06-16,https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral
 Bulls and Cows with Per-Position Match Signal,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-06-03,https://trueinterview.io/questions/bulls-and-cows-position-signal
 Describe conflict and proudest work,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,2,2026-06,https://trueinterview.io/questions/describe-conflict-and-proudest-work
@@ -19,6 +23,9 @@ Find Size of Largest Subset,Algorithm,Medium,Online assessment,New grad; Junior 
 Flatten Nested List Iterator,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533
 Guess the Word (Master API),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc
 Task Scheduler with Timed Execution and Dynamic Insertion,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-05-27,https://trueinterview.io/questions/task-scheduler-timed-execution
+Narrate the Passing Scenery for Blind Passengers in a Tesla: In-Car Feature Design,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-24,https://trueinterview.io/questions/narrate-the-passing-scenery-for-blind-passengers-in-a-tesla-in-car-feature-design
+"Tesla Product Sense: A Feature for Safer, Easier Turns Around Blind Spots",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-22,https://trueinterview.io/questions/tesla-product-sense-a-feature-for-safer-easier-turns-around-blind-spots
+Product Sense: Building a Wrist Companion App for Tesla Owners on Apple Watch,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-07,https://trueinterview.io/questions/product-sense-building-a-wrist-companion-app-for-tesla-owners-on-apple-watch
 Design Dropbox,System Design,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,5,0,2026-05-03,https://trueinterview.io/questions/design-dropbox
 Rollback-Capable KV Store with Nested Transactions,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,1,2026-04-30,https://trueinterview.io/questions/rollback-kv-store-nested-transactions
 Data Cleaning Pipeline and SQL Analytics Screen,SQL,Medium,Phone screen,Junior / Mid,1,0,2026-04-27,https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen
@@ -38,8 +45,10 @@ Compute suffix sums over waypoints,Algorithm,Medium,Phone screen,New grad; Junio
 Speed-Limit RL Reward from Trajectory Samples,Algorithm,Medium,Phone screen,Intern,1,0,2026-02-03,https://trueinterview.io/questions/speed-limit-rl-reward
 Explain reliability and runtime fundamentals,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01-25,https://trueinterview.io/questions/explain-reliability-and-runtime-fundamentals
 Parallel Runner with Exclusive Targets A and B,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-01-15,https://trueinterview.io/questions/parallel-target-runner
+Tesla Strategy Case: Weighing an Entry Into Car Insurance and Choosing a Model,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-11-29,https://trueinterview.io/questions/tesla-strategy-case-weighing-an-entry-into-car-insurance-and-choosing-a-model
 NumPy Conv2D Forward and Parameter Count,Algorithm,Hard,Phone screen,Senior,1,1,2025-11-22,https://trueinterview.io/questions/numpy-conv2d-forward
 First Solar Panel Placement in a Binary Grid,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-10-31,https://trueinterview.io/questions/solar-panel-placement-grid
+Persuading an Engineering-Led Team to Pivot a 3-D Printer Toward Home Hobbyists,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-10-05,https://trueinterview.io/questions/persuading-an-engineering-led-team-to-pivot-a-3-d-printer-toward-home-hobbyists
 Robot Room Navigation Take-Home,Algorithm,Hard,Take-home,Junior / Mid,1,0,2025-09-24,https://trueinterview.io/questions/robot-room-navigation-takehome
 Debug Dijkstra Shortest Path for Navigation,AI Coding,Medium,Phone screen,Intern,1,0,2025-08-23,https://trueinterview.io/questions/dijkstra-code-review-navigation
 Word Ladder Variants with Trie Optimization,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-08-21,https://trueinterview.io/questions/word-ladder-variants

@@ -2,9 +2,9 @@
 
 # Okta interview questions
 
-13 questions reported at Okta, most recently reported first.
+16 questions reported at Okta, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (7) · [all](all.csv) (13)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (10) · [all](all.csv) (16)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,7 +12,10 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Design Photo Sharing with Followers and Location or Tag Search](https://trueinterview.io/questions/design-photo-sharing-with-followers-and-location-or-tag-search?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-11-02 |
+| [Design Cross-Domain SSO and OIDC Access to Third-Party Tools](https://trueinterview.io/questions/design-cross-domain-sso-and-oidc-access-to-third-party-tools?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-05 |
 | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10 |
+| [Behavioral: How You Use AI, Lead Engineers, and Work with Another Team or PM](https://trueinterview.io/questions/behavioral-how-you-use-ai-lead-engineers-and-work-with-another-team-or-pm?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-15 |
 | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-20 |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 14 | 0 | 2026-08 |
 | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-06-24 |

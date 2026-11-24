@@ -1,9 +1,15 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Behavioral: Making a Complex Topic Clear to a Non-Expert Stakeholder,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/behavioral-making-a-complex-topic-clear-to-a-non-expert-stakeholder
+Behavioral: Learning to Get Reliable Results From an AI Tool on Real Work,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-16,https://trueinterview.io/questions/behavioral-learning-to-get-reliable-results-from-an-ai-tool-on-real-work
+Behavioral: Collaborating Across Clashing Priorities and Working Styles,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-16,https://trueinterview.io/questions/behavioral-collaborating-across-clashing-priorities-and-working-styles
+Behavioral: Responding When Months of Work Hit a Major Setback,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-15,https://trueinterview.io/questions/behavioral-responding-when-months-of-work-hit-a-major-setback
+Behavioral: Owning a Deliverable Where the Quality Bar Could Not Slip,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-15,https://trueinterview.io/questions/behavioral-owning-a-deliverable-where-the-quality-bar-could-not-slip
 Customers with High Average Resource Usage,SQL,Easy,Online assessment,New grad,1,0,2026-10-05,https://trueinterview.io/questions/sql-high-average-resource-usage
 Competency and Resume Interview,Behavioral / Knowledge,,Onsite / virtual onsite,Intern; Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/competency-and-resume-interview
 Maximum Concurrent Processes / Meeting Rooms,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/maximum-concurrent-processes
 Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
-Function Signature Matching Library (Variadic Overloads),Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2026-09-29,https://trueinterview.io/questions/function-signature-matching-library
+Function Signature Matching Library (Variadic Overloads),Object-Oriented Programming,Medium,Phone screen,Junior / Mid,2,0,2026-09-29,https://trueinterview.io/questions/function-signature-matching-library
+"Six Timed Behavioral Prompts: AI Tools, Debugging, Teamwork, Explaining, Goals, Quality",Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,0,2026-09-18,https://trueinterview.io/questions/six-timed-behavioral-prompts-ai-tools-debugging-teamwork-explaining-goals-quality
 VM Rental Revenue from Changing Stock,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-09-14,https://trueinterview.io/questions/vm-rental-revenue
 Count Employees With Continuous Access,Algorithm,Medium,Phone screen,New grad,1,1,2026-09,https://trueinterview.io/questions/a95da446-43df-5e75-9892-6162471581b3
 Count Triplets Within a Value Range,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/29504453-af39-558a-8c35-78d43f525cda
@@ -14,6 +20,7 @@ Token Expiry and Reset Management Problem,Algorithm,Medium,Phone screen,New grad
 Minimum Replacements for Adjacent Duplicate Characters,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-08-27,https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates
 Card Packets with Identical Distribution,Algorithm,Medium,Online assessment,Intern; New grad,2,0,2026-05-30,https://trueinterview.io/questions/card-packets-with-identical-distribution
 Count 3^x * 5^y Numbers and Decreasing Subarrays,Algorithm,Medium,Online assessment,New grad,1,0,2026-04-25,https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa
+Getting Up to Speed Fast on an Unfamiliar Domain Under a Deadline (PM Behavioral),Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-22,https://trueinterview.io/questions/getting-up-to-speed-fast-on-an-unfamiliar-domain-under-a-deadline-pm-behavioral
 Count strictly decreasing-by-1 subarrays of length at least 2,Algorithm,Easy,Online assessment,New grad,1,0,2026-04,https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16
 Maximum Number of Palindromic Strings,Algorithm,Medium,Online assessment,New grad,2,0,2026-03-19,https://trueinterview.io/questions/maximum-palindromic-strings
 DevSecOps Kubernetes / CI-CD Technical Screen,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,1,2026-02-23,https://trueinterview.io/questions/devsecops-kubernetes-cicd-screen

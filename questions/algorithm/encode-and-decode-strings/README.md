@@ -51,21 +51,21 @@ After the coding portion, the interviewer opened a design discussion about diffe
 <details>
 <summary>Hint 1</summary>
 
-Since any character may appear, a plain delimiter cannot be trusted unless the format tells the decoder where each string ends.
+Since any character may appear in the strings, a delimiter alone is ambiguous, so the encoding must carry enough information to know where each string ends.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Prefix each string with its length followed by a marker so decoding reads exactly that many characters.
+Prefix each string with its length followed by a fixed marker, then decode by reading the length and slicing exactly that many characters.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Test empty strings, an empty list, strings containing digits or your marker character, and multi-byte characters.
+Check that empty strings and an empty list round trip correctly and that digits inside the strings cannot confuse the parser, since the length is read only up to the marker.
 
 </details>
 

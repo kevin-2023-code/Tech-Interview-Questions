@@ -1,11 +1,17 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
+Market Sizing: How Many Travelers Arrive in India From Abroad,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-18,https://trueinterview.io/questions/market-sizing-how-many-travelers-arrive-in-india-from-abroad
 Super Day Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/superday-behavioral-round
 Grouped Binary Substrings,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,0,2026-09,https://trueinterview.io/questions/grouped-binary-substrings
+"Design a Rate Limiter Service: Components, Scaling and Precision Trade-offs",System Design,Medium,Phone screen,Senior; Staff+,2,0,2026-08-13,https://trueinterview.io/questions/design-a-rate-limiter-service-components-scaling-and-precision-trade-offs
 Describe a proud project and conflict,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/describe-a-proud-project-and-conflict
+"Explain Polymorphism and Binary Trees, and How You Use AI Tools as an Engineer",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-07-16,https://trueinterview.io/questions/explain-polymorphism-and-binary-trees-and-how-you-use-ai-tools-as-an-engineer
+Behavioral: Resolving a Team Conflict and Working Through a Constraint,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-07-16,https://trueinterview.io/questions/behavioral-resolving-a-team-conflict-and-working-through-a-constraint
 Zero Compaction Array Coding,Algorithm,Easy,Onsite / virtual onsite,Senior,1,1,2026-06-23,https://trueinterview.io/questions/zero-compaction-array-coding
 Shopping Cart Latency and Inventory,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-06-23,https://trueinterview.io/questions/shopping-cart-latency-and-inventory
 Interval Consolidation,Algorithm,Medium,Online assessment,Senior,1,1,2026-06-23,https://trueinterview.io/questions/interval-consolidation-oa
+Behavioral: Mentoring Others and Going Beyond Your Role to Help Teammates,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-02,https://trueinterview.io/questions/behavioral-mentoring-others-and-going-beyond-your-role-to-help-teammates
+Behavioral: Making Progress When Requirements Are Vague,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-05-02,https://trueinterview.io/questions/behavioral-making-progress-when-requirements-are-vague
 Explain Core ML Concepts,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-04-24,https://trueinterview.io/questions/explain-core-ml-concepts-5
 Implement Integer Square Root,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-24,https://trueinterview.io/questions/implement-integer-square-root
 Design a Reliable Bank Payment System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-23,https://trueinterview.io/questions/design-a-reliable-bank-payment-system
@@ -22,6 +28,7 @@ C++ Virtual / Destructor / Pointer Review,Behavioral / Knowledge,,Onsite / virtu
 Count substrings and generate TOC,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-01-13,https://trueinterview.io/questions/count-substrings-and-generate-toc
 Minimum Swaps to Sort (Cycle Decomposition),Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,1,2025-12-20,https://trueinterview.io/questions/minimum-swaps-to-sort-cycle
 Circular Active Computers Window,Algorithm,Medium,Online assessment; Phone screen,Junior / Mid; Senior,1,0,2025-12,https://trueinterview.io/questions/circular-active-computers-window
+Design a Feature to Get More Clients Integrating via J.P. Morgan's Payments API Portal,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-25,https://trueinterview.io/questions/design-a-feature-to-get-more-clients-integrating-via-j-p-morgans-payments-api-portal
 Interval Sign Flips,Algorithm,Medium,Online assessment,Junior / Mid,1,1,2025-11-19,https://trueinterview.io/questions/interval-sign-flips
 Split Array: Left Sum Greater,Algorithm,Easy,Online assessment,New grad,1,0,2025-09-05,https://trueinterview.io/questions/split-array-left-sum-greater
 Delete-One-Character Positions,Algorithm,Easy,Online assessment; Phone screen,Junior / Mid,1,0,2025-07-29,https://trueinterview.io/questions/delete-one-character-positions

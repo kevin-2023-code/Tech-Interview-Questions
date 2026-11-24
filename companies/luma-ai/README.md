@@ -2,9 +2,9 @@
 
 # Luma AI interview questions
 
-6 questions reported at Luma AI, most recently reported first.
+13 questions reported at Luma AI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (6) · [all](all.csv) (6)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (13) · [all](all.csv) (13)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,13 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Reverse-Engineer an App's Undocumented API and Rebuild It With Better UX](https://trueinterview.io/questions/reverse-engineer-an-apps-undocumented-api-and-rebuild-it-with-better-ux?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-17 |
+| [Explain Your Motivation and How You Use AI Development Tools in Your Workflow](https://trueinterview.io/questions/explain-your-motivation-and-how-you-use-ai-development-tools-in-your-workflow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-17 |
+| [Design a Ride-Hailing Platform With Real-Time Matching and Exactly-Once Charging](https://trueinterview.io/questions/design-a-ride-hailing-platform-with-real-time-matching-and-exactly-once-charging?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-17 |
+| [Build Collaborative Document Editing Shared by People and AI Agents](https://trueinterview.io/questions/build-collaborative-document-editing-shared-by-people-and-ai-agents?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-17 |
+| [Build an App That Helps Friends Decide Where and When to Eat](https://trueinterview.io/questions/build-an-app-that-helps-friends-decide-where-and-when-to-eat?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-17 |
+| [Build a System to Manage Prompts and Model Behavior in Production](https://trueinterview.io/questions/build-a-system-to-manage-prompts-and-model-behavior-in-production?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-17 |
+| [Build a Scalable Text-to-Speech Service Prototype, Then Defend and Extend It](https://trueinterview.io/questions/build-a-scalable-text-to-speech-service-prototype-then-defend-and-extend-it?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-17 |
 | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Senior | 2 | 0 | 2026-08 |
 | [Transpose an Image Matrix](https://trueinterview.io/questions/f85a7968-6ba9-5be9-a5ab-4f13d57b3fd4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 0 | 2026-06 |
 | [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | New grad | 1 | 1 | 2026-06 |

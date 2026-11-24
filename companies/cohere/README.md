@@ -2,9 +2,9 @@
 
 # Cohere interview questions
 
-3 questions reported at Cohere, most recently reported first.
+12 questions reported at Cohere, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (2) · [all](all.csv) (3)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (10) · [all](all.csv) (12)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,8 +12,17 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Deep Dive on a Product You Shipped: Role, Key Decisions and Outcomes](https://trueinterview.io/questions/deep-dive-on-a-product-you-shipped-role-key-decisions-and-outcomes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-02 |
+| [Answer Enterprise Questions Across Internal and External Sources](https://trueinterview.io/questions/answer-enterprise-questions-across-internal-and-external-sources?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-10-01 |
+| [Replace a Heuristic Terminal Text Game's Python Logic With LLM Calls](https://trueinterview.io/questions/replace-a-heuristic-terminal-text-games-python-logic-with-llm-calls?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-22 |
+| [Load Daily JSONL LLM Chat Logs Into a Warehouse: Schema, Validation, Dedup, Idempotency](https://trueinterview.io/questions/load-daily-jsonl-llm-chat-logs-into-a-warehouse-schema-validation-dedup-idempotency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-22 |
+| [Implement Greedy, Top-k and Top-p Decoding in NumPy for a Toy Language Model](https://trueinterview.io/questions/implement-greedy-top-k-and-top-p-decoding-in-numpy-for-a-toy-language-model?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-22 |
+| [Design How an LLM Detects Questions Beyond Its Training Cutoff and Says So](https://trueinterview.io/questions/design-how-an-llm-detects-questions-beyond-its-training-cutoff-and-says-so?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-22 |
+| [Defend Your Own Research Paper: Experimental Setup, Practicality and Later Work](https://trueinterview.io/questions/defend-your-own-research-paper-experimental-setup-practicality-and-later-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-22 |
+| [Delete One '5' From a Digit String to Get the Largest Number](https://trueinterview.io/questions/delete-one-5-from-a-digit-string-to-get-the-largest-number?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-22 |
 | [Implement a Card-Details Form with Dependent Validation](../../questions/algorithm/implement-a-card-details-form-with-dependent-validation/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-15 |
 | [Design Real-Time Comments with Optimistic Updates](../../questions/system-design/design-real-time-comments-with-optimistic-updates/README.md) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-15 |
+| [Accountability, Safety and Fairness Risks of Autonomous AI Agents in Critical Decisions](https://trueinterview.io/questions/accountability-safety-and-fairness-risks-of-autonomous-ai-agents-in-critical-decisions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-10 |
 | [Design an Enterprise Research Assistant with Verifiable Citations](https://trueinterview.io/questions/design-an-enterprise-research-assistant-with-verifiable-citations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-04-09 |
 
 ---

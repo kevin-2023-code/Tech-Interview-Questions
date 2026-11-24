@@ -2,9 +2,9 @@
 
 # Palantir interview questions
 
-12 questions reported at Palantir, most recently reported first.
+19 questions reported at Palantir, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (3) · [all](all.csv) (12)
+CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (6) · [all](all.csv) (19)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,12 +12,19 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Learn an Unfamiliar SQL-Like Query Class, Then Solve Tasks with Its Map and Fold Actions](https://trueinterview.io/questions/learn-an-unfamiliar-sql-like-query-class-then-solve-tasks-with-its-map-and-fold-actions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-30 |
+| [Daily Totals of Several Stocks' Prices with Missing Days Carried Forward](https://trueinterview.io/questions/daily-totals-of-several-stocks-prices-with-missing-days-carried-forward?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-29 |
+| [Palantir PM Behavioral: Owning a Project That Started With No Clear Problem or Plan](https://trueinterview.io/questions/palantir-pm-behavioral-owning-a-project-that-started-with-no-clear-problem-or-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-24 |
 | [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-27 |
 | [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-27 |
 | [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-27 |
 | [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-05 |
 | [Design a Server Metrics Monitor](https://trueinterview.io/questions/design-a-server-metrics-monitor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-03-08 |
 | [Find Shortest Paths in Road Network](https://trueinterview.io/questions/find-shortest-paths-in-road-network?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-08 |
+| [Simulate a Growing Snake on a Grid and Report the Score After Every Move](https://trueinterview.io/questions/simulate-a-growing-snake-on-a-grid-and-report-the-score-after-every-move?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-30 |
+| [Minimum Number of Rooms to Host Overlapping Meetings](https://trueinterview.io/questions/minimum-number-of-rooms-to-host-overlapping-meetings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-30 |
+| [Design a Tool Registration, Discovery and Safe Execution Layer for LLM Agents](https://trueinterview.io/questions/design-a-tool-registration-discovery-and-safe-execution-layer-for-llm-agents?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-30 |
+| [Design a Real-Time Collision Warning System for Drones in Shared Airspace](https://trueinterview.io/questions/design-a-real-time-collision-warning-system-for-drones-in-shared-airspace?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-30 |
 | [Handle value conflicts and disagreeing with leadership](https://trueinterview.io/questions/handle-value-conflicts-and-disagreeing-with-leadership?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 1 | 0 | 2026-01-06 |
 | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid | 3 | 0 | 2025-07 |
 | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2025-03 |

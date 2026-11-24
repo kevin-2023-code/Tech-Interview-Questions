@@ -2,9 +2,9 @@
 
 # Cisco interview questions
 
-27 questions reported at Cisco, most recently reported first.
+36 questions reported at Cisco, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (4) · [all](all.csv) (27)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (10) · [all](all.csv) (36)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,11 +12,20 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Testing a New Feature: Planning Test Cases and Handling Flaky Tests](https://trueinterview.io/questions/testing-a-new-feature-planning-test-cases-and-handling-flaky-tests?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-19 |
+| [Python Multiple Inheritance: Which Parent Method Runs When Names Collide](https://trueinterview.io/questions/python-multiple-inheritance-which-parent-method-runs-when-names-collide?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-19 |
+| [Python and pytest Fundamentals: Fixtures, Decorators, and Generators](https://trueinterview.io/questions/python-and-pytest-fundamentals-fixtures-decorators-and-generators?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-19 |
+| [Explain BGP: Sessions, Route Exchange, and Best-Path Selection](https://trueinterview.io/questions/explain-bgp-sessions-route-exchange-and-best-path-selection?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-19 |
+| [Does a Successful Ping Mean Port 443 Is Reachable? Diagnosing Server Connectivity](https://trueinterview.io/questions/does-a-successful-ping-mean-port-443-is-reachable-diagnosing-server-connectivity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-19 |
+| [Describe How You Drove an Improvement to a Team's QA Workflow](https://trueinterview.io/questions/describe-how-you-drove-an-improvement-to-a-teams-qa-workflow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-19 |
 | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-17 |
 | [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Senior | 5 | 0 | 2026-09 |
 | [Longest Palindromic Substring](../../questions/algorithm/longest-palindromic-substring/README.md) | Algorithm | Medium | Phone screen | New grad, Senior | 4 | 0 | 2026-08 |
 | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Intern, Junior / Mid | 4 | 0 | 2026-07 |
+| [Invest a Two-Billion-Dollar Budget to Improve WhatsApp: Objective, Bets and Metrics](https://trueinterview.io/questions/invest-a-two-billion-dollar-budget-to-improve-whatsapp-objective-bets-and-metrics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-03-13 |
 | [Find Largest Sum Contiguous Subarray](https://trueinterview.io/questions/f29c0c29-2a76-42d9-9ece-3eeaa42c017b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | 2026-02 |
+| [Consent-Based LinkedIn Profile Cards for Webex Meeting Participants](https://trueinterview.io/questions/consent-based-linkedin-profile-cards-for-webex-meeting-participants?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-17 |
+| [Cisco product design: rethink how customers unlock licensed features on devices](https://trueinterview.io/questions/cisco-product-design-rethink-how-customers-unlock-licensed-features-on-devices?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-11 |
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 2 | 0 | 2025-09-29 |
 | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | 2025-09-06 |
 | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid | 1 | 0 | 2025-09-06 |

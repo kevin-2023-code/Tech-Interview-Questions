@@ -1,6 +1,10 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Generate and Reuse Invoices on Demand for a Customer and Time Range,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-19,https://trueinterview.io/questions/generate-and-reuse-invoices-on-demand-for-a-customer-and-time-range
+Design a Fast Product Search Page: Search Input over an Unbounded Catalog Grid,System Design,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-03,https://trueinterview.io/questions/design-a-fast-product-search-page-search-input-over-an-unbounded-catalog-grid
 Atlassian Values and Management Rounds,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,13,2026-10,https://trueinterview.io/questions/atlassian-values-and-management-rounds
 Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
+"Judging Whether an AI Product Is Working: Metrics, Guardrails and Launch Bars",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-26,https://trueinterview.io/questions/judging-whether-an-ai-product-is-working-metrics-guardrails-and-launch-bars
+Front-End Design of an Emoji Picker with a Search Field,System Design,Easy,Phone screen,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/front-end-design-of-an-emoji-picker-with-a-search-field
 Design Monitoring and Reliability for 99.99% Availability,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-04,https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability
 Explain a Project Architecture Through a Technical Deep Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,3,2026-09-03,https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive
 Design a Social-Media Comments and Notifications System,System Design,Easy,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-03,https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system
@@ -10,6 +14,8 @@ Design Tagging System,System Design,Medium,Onsite / virtual onsite,Senior,1,0,20
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Lowest Common Ancestor of a Binary Tree,Algorithm,Easy,Phone screen,Intern; Junior / Mid; Senior,8,0,2026-09,https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree
 Highlight the Shortest Unique Substring in Each Label,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-26,https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label
+"Design a Rate Limiter Service: Components, Scaling and Precision Trade-offs",System Design,Medium,Phone screen,Senior; Staff+,2,0,2026-08-13,https://trueinterview.io/questions/design-a-rate-limiter-service-components-scaling-and-precision-trade-offs
+Design an Immersive Virtual Workplace for Hybrid Team Collaboration and Office Coordination,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-01,https://trueinterview.io/questions/design-an-immersive-virtual-workplace-for-hybrid-team-collaboration-and-office-coordination
 Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,8,0,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
 URL Router Design,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,2,2026-08,https://trueinterview.io/questions/url-router-design
 Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390

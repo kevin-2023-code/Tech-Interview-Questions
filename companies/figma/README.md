@@ -2,9 +2,9 @@
 
 # Figma interview questions
 
-29 questions reported at Figma, most recently reported first.
+31 questions reported at Figma, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (15) · [all](all.csv) (29)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (16) · [all](all.csv) (31)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [End-to-End ML Project Deep Dive: Decisions, Evaluation Design and Career Goals](https://trueinterview.io/questions/end-to-end-ml-project-deep-dive-decisions-evaluation-design-and-career-goals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-09 |
 | [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10 |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 16 | 0 | 2026-09 |
 | [Clarify a BERT Keyphrase Span-Extraction Task](https://trueinterview.io/questions/clarify-a-bert-keyphrase-span-extraction-task?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-25 |
@@ -34,6 +35,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 4 | 0 | 2026-04 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-03-24 |
 | [Data Engineer Screen — SQL Collaborator Model + IPv4 Validation](https://trueinterview.io/questions/data-engineer-sql-collaborator-ip-validation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-03-03 |
+| [PM behavioral: explain what drives you at work and back it with evidence](https://trueinterview.io/questions/pm-behavioral-explain-what-drives-you-at-work-and-back-it-with-evidence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-07 |
 | [Write SQL for first share and closest collaborator](https://trueinterview.io/questions/write-sql-for-first-share-and-closest-collaborator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-20 |
 | [Validate an IPv4 address string](https://trueinterview.io/questions/validate-an-ipv4-address-string?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-20 |
 | [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/questions/deep-dive-url-request-lifecycle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2025-02-01 |

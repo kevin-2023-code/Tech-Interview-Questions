@@ -2,9 +2,9 @@
 
 # MongoDB interview questions
 
-8 questions reported at MongoDB, most recently reported first.
+22 questions reported at MongoDB, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (6) · [all](all.csv) (8)
+CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (19) · [all](all.csv) (22)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,13 +12,27 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Implement a read-write lock, then keep waiting writers from starving](https://trueinterview.io/questions/implement-a-read-write-lock-then-keep-waiting-writers-from-starving?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-26 |
+| [Database internals: a query's lifecycle, the buffer cache and the query optimizer](https://trueinterview.io/questions/database-internals-a-querys-lifecycle-the-buffer-cache-and-the-query-optimizer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-10-26 |
+| [Evaluate Paths through a JSON Tree with Implicit Array Wildcards](https://trueinterview.io/questions/evaluate-paths-through-a-json-tree-with-implicit-array-wildcards?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-16 |
+| [Unblocking engineers when the PM's decisions and specs slow the team down](https://trueinterview.io/questions/unblocking-engineers-when-the-pms-decisions-and-specs-slow-the-team-down?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-09 |
+| [How a PM Decides When to Ship Fast and When to Harden a Release](https://trueinterview.io/questions/how-a-pm-decides-when-to-ship-fast-and-when-to-harden-a-release?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-09 |
 | [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 2 | 0 | 2026-09 |
+| [Build an Exactly-Once Crawler and Add Safe Concurrency](https://trueinterview.io/questions/build-an-exactly-once-crawler-and-add-safe-concurrency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-09 |
 | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-08 |
 | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 0 | 2026-08 |
 | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2 | 2026-08 |
+| [Design a Retail Stock Trading Platform with Live Prices and Reliable Order Handling](https://trueinterview.io/questions/design-a-retail-stock-trading-platform-with-live-prices-and-reliable-order-handling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-13 |
+| [Timestamped key-value store: return each key's latest value at or before a query time](https://trueinterview.io/questions/timestamped-key-value-store-return-each-keys-latest-value-at-or-before-a-query-time?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-12 |
+| [Suppress repeat log messages printed within 10 seconds of their last printed occurrence](https://trueinterview.io/questions/suppress-repeat-log-messages-printed-within-10-seconds-of-their-last-printed-occurrence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-12 |
+| [Implement a sliding-window rate limiter (n requests per k seconds), then make it per key](https://trueinterview.io/questions/implement-a-sliding-window-rate-limiter-n-requests-per-k-seconds-then-make-it-per-key?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-07-12 |
+| [Design a small-scale metrics monitoring system for database instances in the cloud](https://trueinterview.io/questions/design-a-small-scale-metrics-monitoring-system-for-database-instances-in-the-cloud?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-12 |
+| [Code review exercise: find concurrency, failure and ownership bugs in a small job queue](https://trueinterview.io/questions/code-review-exercise-find-concurrency-failure-and-ownership-bugs-in-a-small-job-queue?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-12 |
+| [Behavioral: ownership, team play, and a deep dive on a project you led](https://trueinterview.io/questions/behavioral-ownership-team-play-and-a-deep-dive-on-a-project-you-led?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-07-12 |
 | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-06 |
 | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 1 | 2026-06 |
 | [How do you answer common HR screen questions?](https://trueinterview.io/questions/how-do-you-answer-common-hr-screen-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Manager | 1 | 0 | 2026-01-05 |
+| [Explaining Your Motivation to Join MongoDB as a Product Manager](https://trueinterview.io/questions/explaining-your-motivation-to-join-mongodb-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-07 |
 | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 
 ---

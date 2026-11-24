@@ -2,9 +2,9 @@
 
 # Faire interview questions
 
-5 questions reported at Faire, most recently reported first.
+13 questions reported at Faire, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (5)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (8) · [all](all.csv) (13)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,14 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Faire Marketplace: Generating and Sizing Profitability Levers Before Committing to One](https://trueinterview.io/questions/faire-marketplace-generating-and-sizing-profitability-levers-before-committing-to-one?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-15 |
+| [Validate assumptions and align stakeholders for a new user-permission feature](https://trueinterview.io/questions/validate-assumptions-and-align-stakeholders-for-a-new-user-permission-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-07 |
+| [Design a product likes system for a marketplace of brands and retailers](https://trueinterview.io/questions/design-a-product-likes-system-for-a-marketplace-of-brands-and-retailers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-07 |
+| [Peak number of bikes needed to cover all pre-booked rental intervals](https://trueinterview.io/questions/peak-number-of-bikes-needed-to-cover-all-pre-booked-rental-intervals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-07 |
+| [Design a real-time model inference platform: deployment, scaling and monitoring](https://trueinterview.io/questions/design-a-real-time-model-inference-platform-deployment-scaling-and-monitoring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-26 |
+| [Data quality, lineage, monitoring and backfill design for an ML feature store](https://trueinterview.io/questions/data-quality-lineage-monitoring-and-backfill-design-for-an-ml-feature-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-26 |
+| [Max inherited discount and discount-source audit in a category DAG](https://trueinterview.io/questions/max-inherited-discount-and-discount-source-audit-in-a-category-dag?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-01 |
+| [Collaborating With and Helping an ML Engineer as an ML Infrastructure Engineer](https://trueinterview.io/questions/collaborating-with-and-helping-an-ml-engineer-as-an-ml-infrastructure-engineer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-28 |
 | [Design an API for Pascal Triangle](https://trueinterview.io/questions/design-an-api-for-pascal-triangle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-04-10 |
 | [Print Pascal's Triangle (Symmetric Formatting)](https://trueinterview.io/questions/a2b7d03b-7a0d-459a-90fc-b9a502e3c3a3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-04 |
 | [Peak Capacity Overlapping Events (Line Sweep)](https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-04 |

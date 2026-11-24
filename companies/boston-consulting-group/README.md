@@ -2,9 +2,9 @@
 
 # Boston Consulting Group interview questions
 
-19 questions reported at Boston Consulting Group, most recently reported first.
+23 questions reported at Boston Consulting Group, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (4) · [all](all.csv) (19)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (8) · [all](all.csv) (23)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,9 +12,13 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Recorded Video Screen: Firm Motivation, Self-Taught Tool, Hardest Project, Teamwork](https://trueinterview.io/questions/recorded-video-screen-firm-motivation-self-taught-tool-hardest-project-teamwork?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-24 |
 | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 3 | 0 | 2026-09 |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 14 | 0 | 2026-09 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2 | 2026-08-04 |
+| [Walk through a lead-to-cash project you delivered and prove its business impact](https://trueinterview.io/questions/walk-through-a-lead-to-cash-project-you-delivered-and-prove-its-business-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-30 |
+| [Pick your favorite past project and walk through your role, decisions and results](https://trueinterview.io/questions/pick-your-favorite-past-project-and-walk-through-your-role-decisions-and-results?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-30 |
+| [Explain your motivation for joining BCG X as a product manager](https://trueinterview.io/questions/explain-your-motivation-for-joining-bcg-x-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-29 |
 | [Summarize impact and lessons from your resume](https://trueinterview.io/questions/summarize-impact-and-lessons-from-your-resume?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Manager | 1 | 3 | 2026-06 |
 | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 2 | 2 | 2026-03 |
 | [Transform messy transactions with pandas](https://trueinterview.io/questions/transform-messy-transactions-with-pandas?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-02 |

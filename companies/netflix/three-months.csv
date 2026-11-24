@@ -1,10 +1,19 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Netflix Ads Feature Launch: Staged Release, Holdouts and Two-Sided Success Metrics",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-11,https://trueinterview.io/questions/netflix-ads-feature-launch-staged-release-holdouts-and-two-sided-success-metrics
+Netflix Product Sense: Choosing the Job and Scope for an AI Agent,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-06,https://trueinterview.io/questions/netflix-product-sense-choosing-the-job-and-scope-for-an-ai-agent
 Key-Value Store with TTL,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-10,https://trueinterview.io/questions/66384c98-64ab-5912-91f2-4f21bd58d645
 Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,13,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
 ML Research Orals (Self-Attention / LoRA / Optimizers),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/ml-research-orals
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
+"Transformer Attention: Computing Q, K and V, and How a KV Cache Speeds Up Decoding",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-28,https://trueinterview.io/questions/transformer-attention-computing-q-k-and-v-and-how-a-kv-cache-speeds-up-decoding
+"Review a Feature Pipeline PR for Production Risks, Then Serve Features by Freshness",System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-28,https://trueinterview.io/questions/review-a-feature-pipeline-pr-for-production-risks-then-serve-features-by-freshness
+"L1 vs L2 Normalization: Definitions, Geometry and When to Use Each",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09-28,https://trueinterview.io/questions/l1-vs-l2-normalization-definitions-geometry-and-when-to-use-each
+Walk Through Your Data Platform Experience and Name Your Greatest Weakness,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-23,https://trueinterview.io/questions/walk-through-your-data-platform-experience-and-name-your-greatest-weakness
+"Movie Playlist With Live Score Updates and No Repeats per Loop, Plus Thread Safety",Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-09-23,https://trueinterview.io/questions/movie-playlist-with-live-score-updates-and-no-repeats-per-loop-plus-thread-safety
 MLE Intern OA: ML Fundamentals,Behavioral / Knowledge,,Online assessment,Intern,1,1,2026-09-23,https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals
+Root-Cause Analysis of a Declining Netflix Viewing Completion Rate,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-22,https://trueinterview.io/questions/root-cause-analysis-of-a-declining-netflix-viewing-completion-rate
+"Behavioral: Building Organization-Level OKRs, From Strategy to End-of-Cycle Scoring",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-13,https://trueinterview.io/questions/behavioral-building-organization-level-okrs-from-strategy-to-end-of-cycle-scoring
 Design a Non-Repeating Movie Playlist with Score Updates,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,1,2026-09,https://trueinterview.io/questions/2c8e5b00-2a5f-55b3-ac02-28fe784868b4
 Sparse Matrix Multiplication,Algorithm,Medium,Phone screen,Intern,2,0,2026-09,https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication
 Meeting Rooms,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/meeting-rooms-2
@@ -18,3 +27,4 @@ Netflix Culture / Domain Manager Rounds,Behavioral / Knowledge,,Phone screen; On
 First Missing Positive,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,1,2026-09,https://trueinterview.io/questions/first-missing-positive
 Homepage Billboard Rotation,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/homepage-billboard-rotation
 Contains Duplicate II,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/contains-duplicate-ii
+Recommend New Friends from a Mutual-Friendship Graph and Scale the Approach,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08-31,https://trueinterview.io/questions/recommend-new-friends-from-a-mutual-friendship-graph-and-scale-the-approach

@@ -2,9 +2,9 @@
 
 # Squarepoint interview questions
 
-45 questions reported at Squarepoint, most recently reported first.
+47 questions reported at Squarepoint, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (18) · [all](all.csv) (45)
+CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (13) · [last 6 months](six-months.csv) (20) · [all](all.csv) (47)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Find the Probability That Three Circle Points Fit in a Semicircle](https://trueinterview.io/questions/find-the-probability-that-three-circle-points-fit-in-a-semicircle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-10-25 |
+| [Compute the Probability of Consecutive Heads in n Tosses](https://trueinterview.io/questions/compute-the-probability-of-consecutive-heads-in-n-tosses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-25 |
 | [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
 | [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
 | [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |

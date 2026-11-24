@@ -2,9 +2,9 @@
 
 # SoFi interview questions
 
-37 questions reported at SoFi, most recently reported first.
+38 questions reported at SoFi, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (5) · [all](all.csv) (37)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (5) · [all](all.csv) (38)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -39,6 +39,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Maximum Occurring Character](https://trueinterview.io/questions/d73e4ed1-1ee4-479c-955e-249baf81ac1d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 0 | 2026-01 |
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 4 | 1 | 2026-01 |
 | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 4 | 0 | 2025-12 |
+| [Designing a Grocery Store Experience for Older Shoppers, In the Aisles and at Home](https://trueinterview.io/questions/designing-a-grocery-store-experience-for-older-shoppers-in-the-aisles-and-at-home?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-20 |
 | [Kanban Board Task Actions](https://trueinterview.io/questions/kanban-board-task-actions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 1 | 2025-11-14 |
 | [Rooms with Two Incoming Edges to Treasure](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Junior / Mid | 1 | 0 | 2025-10-31 |
 | [Star Rating Component](https://trueinterview.io/questions/star-rating-component?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2025-10-06 |

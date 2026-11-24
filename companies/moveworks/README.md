@@ -2,9 +2,9 @@
 
 # Moveworks interview questions
 
-6 questions reported at Moveworks, most recently reported first.
+8 questions reported at Moveworks, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (6)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (2) · [all](all.csv) (8)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Design a Phrase Search Service over Restaurant Reviews](https://trueinterview.io/questions/design-a-phrase-search-service-over-restaurant-reviews?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-15 |
+| [Shortest Substring of Each String That Appears in No Other String](https://trueinterview.io/questions/shortest-substring-of-each-string-that-appears-in-no-other-string?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-06-11 |
 | [Design a car rental booking system](https://trueinterview.io/questions/design-a-car-rental-booking-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-05 |
 | [Compute Jaccard similarity between two strings](https://trueinterview.io/questions/compute-jaccard-similarity-between-two-strings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-03 |
 | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-03 |

@@ -1,4 +1,8 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Stack with Constant-Time Minimum over a Sequence of Operations,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/stack-with-constant-time-minimum-over-a-sequence-of-operations
+Reverse a Character Array In Place with Constant Extra Memory,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/reverse-a-character-array-in-place-with-constant-extra-memory
+Fewest Node Additions and Removals to Make a Binary Tree Perfect,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/fewest-node-additions-and-removals-to-make-a-binary-tree-perfect
+"Design a Scalable, Polite Web Crawler",System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-10-12,https://trueinterview.io/questions/design-a-scalable-polite-web-crawler
 Runtime-Configurable Multi-Tier Rate Limiter,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/88d39b15-fccf-5f7f-bed3-9bdcba8b1dcf
 Tiered Rate Limiting Service,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-01,https://trueinterview.io/questions/tiered-rate-limiting-service
 Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360
@@ -7,9 +11,14 @@ Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Seni
 Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
 Encode and Decode Strings (LC 271),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09-29,https://trueinterview.io/questions/encode-and-decode-strings
+"Multiset with O(1) Insert, Remove, and Count-Weighted Random Pick",Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-28,https://trueinterview.io/questions/multiset-with-o-1-insert-remove-and-count-weighted-random-pick
 Explain a Technical Project from Milestone to Production,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,8,2026-09-17,https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production
 Four-in-a-row Game,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-09-17,https://trueinterview.io/questions/connect-four-can-play-win
 Web URL Crawler at Scale,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,4,2026-09-17,https://trueinterview.io/questions/web-url-crawler-at-scale
+Design a Control Plane That Manages Cloud Clusters and Monitors Host Health,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/design-a-control-plane-that-manages-cloud-clusters-and-monitors-host-health
+"Design and Implement a Rate Limiter with an AI Assistant, Then Defend and Test It",Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-07,https://trueinterview.io/questions/design-and-implement-a-rate-limiter-with-an-ai-assistant-then-defend-and-test-it
+Design a Pipeline That Distills Reusable Agent Skills for Enterprise Customers,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-07,https://trueinterview.io/questions/design-a-pipeline-that-distills-reusable-agent-skills-for-enterprise-customers
+Core Components of LLM Agent Memory: What Each Stores and How It Is Written and Read,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-07,https://trueinterview.io/questions/core-components-of-llm-agent-memory-what-each-stores-and-how-it-is-written-and-read
 Find the Minimum Fleet for a Bus Timetable,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09-05,https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable
 Find the Minimum Bus Fleet with Station Constraints,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09-05,https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints
 Compute Effective Letter Permissions in a DAG,Algorithm,Hard,Phone screen,Senior,1,0,2026-09-03,https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag

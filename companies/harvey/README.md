@@ -2,9 +2,9 @@
 
 # Harvey interview questions
 
-23 questions reported at Harvey, most recently reported first.
+31 questions reported at Harvey, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (13) · [all](all.csv) (23)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (21) · [all](all.csv) (31)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,10 +12,18 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Personal AI Habits: Concrete Uses, How You Verify Output and Limits You Hit](https://trueinterview.io/questions/personal-ai-habits-concrete-uses-how-you-verify-output-and-limits-you-hit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-13 |
+| [Build a Small RAG Pipeline in a Notebook with Vectorized NumPy and pandas](https://trueinterview.io/questions/build-a-small-rag-pipeline-in-a-notebook-with-vectorized-numpy-and-pandas?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-12 |
+| [Training LLM Agents for Long-Context, Long-Horizon Tasks: Environments and Rewards](https://trueinterview.io/questions/training-llm-agents-for-long-context-long-horizon-tasks-environments-and-rewards?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-27 |
+| [Embedding Retrieval with Cosine Similarity in a Notebook, and Choosing the Metric](https://trueinterview.io/questions/embedding-retrieval-with-cosine-similarity-in-a-notebook-and-choosing-the-metric?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-22 |
+| [Design an LLM Agent System That Revises a Contract to Comply with Dozens of Rules](https://trueinterview.io/questions/design-an-llm-agent-system-that-revises-a-contract-to-comply-with-dozens-of-rules?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-22 |
+| [Spreadsheet Class with Formula Cells, Recalculation and Cycle Detection](https://trueinterview.io/questions/spreadsheet-class-with-formula-cells-recalculation-and-cycle-detection?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-18 |
 | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-15 |
 | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-09-01 |
 | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-01 |
 | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 2 | 2026-09-01 |
+| [Ownership, Tough Feedback, and an Important Problem Outside Your Focus Area](https://trueinterview.io/questions/ownership-tough-feedback-and-an-important-problem-outside-your-focus-area?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-23 |
+| [Mini Spreadsheet with Formulas Evaluated in set_cell and Cycle Rejection](https://trueinterview.io/questions/mini-spreadsheet-with-formulas-evaluated-in-set-cell-and-cycle-rejection?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-23 |
 | [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 10 | 2026-08-09 |
 | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 8 | 2026-07-07 |

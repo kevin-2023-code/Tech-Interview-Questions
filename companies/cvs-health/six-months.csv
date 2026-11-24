@@ -1,4 +1,13 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Compute specialty spend share and top age band,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/compute-specialty-spend-share-and-top-age-band
 Create and query an e-commerce schema,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/create-and-query-an-e-commerce-schema
+Respond When a Senior Engineer Rejects Your Proposal,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/respond-when-a-senior-engineer-rejects-your-proposal
+Implement a Thread-Safe Singleton in Java,Object-Oriented Programming,Easy,Phone screen,Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/implement-a-thread-safe-singleton-in-java
+Explain Your Interest in a Role and How Your Background Fits,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/explain-your-interest-in-a-role-and-how-your-background-fits
+Explain UNION and UNION ALL in SQL,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/explain-union-and-union-all-in-sql
+Discuss Your React or AngularJS Experience,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-07-25,https://trueinterview.io/questions/discuss-your-react-or-angularjs-experience
+Design and Implement Per-Client Rate Limiting,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/design-and-implement-per-client-rate-limiting
+Design a Public API for Hundreds of Daily External Users,System Design,Easy,Phone screen,Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/design-a-public-api-for-hundreds-of-daily-external-users
+Design a Feature-Flag Evaluation System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/design-a-feature-flag-evaluation-system
+Describe Your Strongest Technical Area,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/describe-your-strongest-technical-area
 Describe handling pressure and stakeholder conflicts,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,1,2026-07,https://trueinterview.io/questions/describe-handling-pressure-and-stakeholder-conflicts

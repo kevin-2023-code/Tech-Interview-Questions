@@ -1,8 +1,15 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Robinhood Home Loan Offering: Segment, Down Payment Journey and Build-vs-Partner",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-14,https://trueinterview.io/questions/robinhood-home-loan-offering-segment-down-payment-journey-and-build-vs-partner
+Design a live and historical stock quote API fed by a redundant exchange trade feed,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-02,https://trueinterview.io/questions/design-a-live-and-historical-stock-quote-api-fed-by-a-redundant-exchange-trade-feed
+Design a Cron Job Scheduler for 100K Jobs With At-Least-Once Execution,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-02,https://trueinterview.io/questions/design-a-cron-job-scheduler-for-100k-jobs-with-at-least-once-execution
 Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,4,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
 Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,40,2026-10,https://trueinterview.io/questions/payment-platform-design
 Photo Album System Design,System Design,Medium,Onsite / virtual onsite,Senior,2,0,2026-10,https://trueinterview.io/questions/photo-album-frontend-design
 Recruiter / HR Screen,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,2,17,2026-10,https://trueinterview.io/questions/recruiter-hr-screen
+Present a Backend Project’s Scale and Consistency Tradeoffs,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-29,https://trueinterview.io/questions/present-a-backend-project-s-scale-and-consistency-tradeoffs
+Log Inventory Changes from the System’s Perspective,System Design,Easy,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-29,https://trueinterview.io/questions/log-inventory-changes-from-the-system-s-perspective
+Explain a Conflict During Backend Delivery,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-29,https://trueinterview.io/questions/explain-a-conflict-during-backend-delivery
+Describe a Failure and the Change It Prompted,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-29,https://trueinterview.io/questions/describe-a-failure-and-the-change-it-prompted-2
 Find the Top Ten Words When a Book Exceeds Memory,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-17,https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory
 Design a Task Scheduler,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-17,https://trueinterview.io/questions/design-a-task-scheduler
 Design an iOS Timer App with Consistent State and Asynchronous UI Updates,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates
@@ -36,10 +43,13 @@ Load Factor Calculation,Algorithm,Medium,Phone screen; Onsite / virtual onsite,J
 Friends Money Transfer Request Processor,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-30,https://trueinterview.io/questions/friends-money-transfer-request-processor
 Implement Calendar Layout and String Packing,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-16,https://trueinterview.io/questions/implement-calendar-layout-and-string-packing
 Analytics Engineer: SQL + Python Sessionization,SQL,Medium,Phone screen,Junior / Mid,1,0,2026-03-06,https://trueinterview.io/questions/analytics-engineer-sql-python
+Robinhood PM Behavioral: Talking About a Genuine Passion and Backing It With Evidence,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-02,https://trueinterview.io/questions/robinhood-pm-behavioral-talking-about-a-genuine-passion-and-backing-it-with-evidence
 Present a Project With Correctness Guarantees,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-03,https://trueinterview.io/questions/present-a-project-with-correctness-guarantees
 Aggregate user logs into 30-minute sessions,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/aggregate-user-logs-into-30-minute-sessions
+Design an Order Execution System for Market and Limit Orders with Cancellation,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-11,https://trueinterview.io/questions/design-an-order-execution-system-for-market-and-limit-orders-with-cancellation
 Handle security vs velocity conflicts across teams,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,1,2026-01-22,https://trueinterview.io/questions/handle-security-vs-velocity-conflicts-across-teams
 Security-Flavored Coding: Constrained Data Structure & Input Validation,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-01-09,https://trueinterview.io/questions/security-coding-constrained-ds-validation
+Set the Product and Technology Strategy for the Nest Video Doorbell as Its CTO,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-04,https://trueinterview.io/questions/set-the-product-and-technology-strategy-for-the-nest-video-doorbell-as-its-cto
 Count Trigger Events in Directed Acyclic Graph,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2025-12,https://trueinterview.io/questions/1c708aa4-2fbb-4cc4-ae73-3c423e4e9490
 Distributed Job Scheduler II,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2025-11,https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86
 Design an experiment to launch fractional shares,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-10-01,https://trueinterview.io/questions/design-an-experiment-to-launch-fractional-shares

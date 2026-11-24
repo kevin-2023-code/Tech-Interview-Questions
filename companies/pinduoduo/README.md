@@ -2,9 +2,9 @@
 
 # Pinduoduo interview questions
 
-27 questions reported at Pinduoduo, most recently reported first.
+28 questions reported at Pinduoduo, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (20) · [all](all.csv) (27)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (21) · [all](all.csv) (28)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -26,6 +26,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08 |
 | [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 6 | 0 | 2026-08 |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 7 | 0 | 2026-08 |
+| [Clockwise Spiral Matrix Traversal That Turns at Blocked Cells](https://trueinterview.io/questions/clockwise-spiral-matrix-traversal-that-turns-at-blocked-cells?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 0 | 2026-07-17 |
 | [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2 | 2026-07-17 |
 | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Senior | 1 | 0 | 2026-07-17 |
 | [Design a Simplified Twitter Feed](https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-07 |

@@ -77,21 +77,21 @@ true
 <details>
 <summary>Hint 1</summary>
 
-Track the range of possible open-parenthesis balances rather than a single balance.
+Each star is flexible, so rather than trying every assignment, think about the range of possible unmatched-open counts at each position.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Maintain low and high bounds: low is the minimum possible unmatched opens, high is the maximum, treating * as close or open respectively.
+Track a lower and upper bound on the number of open parentheses: a star can lower the bound, raise the bound, or leave it unchanged.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Clamp low to 0, and if high ever drops below 0 it is invalid, at the end low must be 0.
+Clamp the lower bound at zero, fail immediately if the upper bound ever goes negative, and accept only if the lower bound can reach exactly zero at the end.
 
 </details>
 

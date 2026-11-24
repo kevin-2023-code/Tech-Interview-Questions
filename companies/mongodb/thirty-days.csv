@@ -1,1 +1,3 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Implement a read-write lock, then keep waiting writers from starving",Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-26,https://trueinterview.io/questions/implement-a-read-write-lock-then-keep-waiting-writers-from-starving
+"Database internals: a query's lifecycle, the buffer cache and the query optimizer",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-10-26,https://trueinterview.io/questions/database-internals-a-querys-lifecycle-the-buffer-cache-and-the-query-optimizer

@@ -1,4 +1,9 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Explain a Project with a System Diagram and Technical Tradeoffs,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-16,https://trueinterview.io/questions/explain-a-project-with-a-system-diagram-and-technical-tradeoffs
+Design a Like and Unlike Counter with Explicit Storage and Cache Keys,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-16,https://trueinterview.io/questions/design-a-like-and-unlike-counter-with-explicit-storage-and-cache-keys
+Design a Game Recommender from Retrieval to Ranking,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-15,https://trueinterview.io/questions/design-a-game-recommender-from-retrieval-to-ranking
+Design an In-App Notification Center with Real-Time Updates and Unread Counts,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-01,https://trueinterview.io/questions/design-an-in-app-notification-center-with-real-time-updates-and-unread-counts
+"Design an Image Feed: Uploads, Image Delivery, and Feed Generation",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-01,https://trueinterview.io/questions/design-an-image-feed-uploads-image-delivery-and-feed-generation
 Obstacle Checks for Centered Blocks on an Infinite Number Line,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-10,https://trueinterview.io/questions/8e1ed387-132e-5d2c-8831-7db6218b75c5
 "Match-3 Grid: Find Matches, Clear, and Drop",Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/5e43d3d7-6004-55f7-b2e1-75c47b336ae2
 Build an Auto-Rotating Traffic Light in Vanilla JavaScript,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,2,2026-10,https://trueinterview.io/questions/3179045e-815a-52de-bb9d-530f993b62a7
@@ -21,3 +26,4 @@ Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-09
 Find the Closest Palindrome,Algorithm,Hard,Phone screen,Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/find-the-closest-palindrome
 Candy Crush Grid Matching and Gravity,Algorithm,Medium,Onsite / virtual onsite,New grad,1,0,2026-09,https://trueinterview.io/questions/candy-crush-grid-matching-and-gravity
 Handle Release Risks and Cross-Team Blockers,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,0,2026-08-30,https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers
+"Most frequent call stack per thread from enter/exit logs, deeper stacks win ties",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-29,https://trueinterview.io/questions/most-frequent-call-stack-per-thread-from-enter-exit-logs-deeper-stacks-win-ties

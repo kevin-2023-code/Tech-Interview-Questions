@@ -60,21 +60,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-The average of the remaining values equals the window sum minus the sum of its k largest values, divided by windowSize minus k, so the real task is maintaining the top-k sum as the window slides.
+Each step only adds one number and removes one number, so recomputing a full sort per window is wasteful.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Keep the window's elements in a data structure that supports insertion, deletion, and top-k tracking, such as two heaps or multisets (a top-k set and a rest set) with a running top-k sum, or a sorted container.
+Keep the window's values split into the k largest and the rest, using two heaps or a sorted multiset, and maintain the sum of the non-top-k part as elements enter and leave.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Aim for O(n log n) overall rather than re-sorting each window, and handle duplicate values correctly when removing the element leaving the window.
+Watch duplicates and the rebalancing when the outgoing element sits in the top-k group, aim for roughly O(n log windowSize).
 
 </details>
 

@@ -78,21 +78,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-You need both the current frequency of each value and the order in which values reached that frequency, so one stack is not enough.
+The value to pop is decided first by its count and then by recency, so keep that ordering ready rather than searching on each pop.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Keep a map from value to count and a map from count to a stack of values that have reached that count, plus a variable tracking the maximum frequency.
+Maintain a map from each value to its count and a map from each count to a stack of values that reached that count, plus the current maximum frequency.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-On pop take the top of the stack for the max frequency, decrement its count, and lower the max frequency when that stack empties, every operation is O(1).
+On pop, take the top of the stack for the maximum frequency, decrement that value's count, and lower the maximum frequency when its stack becomes empty, giving constant time per operation.
 
 </details>
 

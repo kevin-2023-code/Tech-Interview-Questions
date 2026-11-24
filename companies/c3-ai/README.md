@@ -2,9 +2,9 @@
 
 # C3.ai interview questions
 
-55 questions reported at C3.ai, most recently reported first.
+63 questions reported at C3.ai, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (13) · [all](all.csv) (55)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (12) · [last 6 months](six-months.csv) (20) · [all](all.csv) (63)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -15,6 +15,13 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Star Sum: Best k-Star Sum in a Graph](https://trueinterview.io/questions/oa-star-sum-best-k-star?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 0 | 2026-10-04 |
 | [Analyze the Time Complexity of Nested Loops](https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad | 1 | 0 | 2026-10 |
 | [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 7 | 0 | 2026-10 |
+| [Identify What Does Not Fix Vanishing Gradients](https://trueinterview.io/questions/identify-what-does-not-fix-vanishing-gradients?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-09-15 |
+| [Find the Most Likely Stopping Sum When Rolling a Die](https://trueinterview.io/questions/find-the-most-likely-stopping-sum-when-rolling-a-die?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-09-15 |
+| [Explain Training R-Squared After Adding a Random Feature](https://trueinterview.io/questions/explain-training-r-squared-after-adding-a-random-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-15 |
+| [Explain the Margin View of Boosting Classification](https://trueinterview.io/questions/explain-the-margin-view-of-boosting-classification?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad | 1 | 0 | 2026-09-15 |
+| [Compare How Models Respond to Multicollinearity](https://trueinterview.io/questions/compare-how-models-respond-to-multicollinearity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-09-15 |
+| [Choose a Parameter to Reduce Underfitting in Gradient-Boosted Trees](https://trueinterview.io/questions/choose-a-parameter-to-reduce-underfitting-in-gradient-boosted-trees?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-09-15 |
+| [Can One k Always Maximize kNN Leave-One-Out Accuracy?](https://trueinterview.io/questions/can-one-k-always-maximize-knn-leave-one-out-accuracy?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-09-15 |
 | [Versioned Key-Value Store With Point-in-Time Reads](https://trueinterview.io/questions/time-based-key-value-store-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 0 | 2026-09 |
 | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 4 | 0 | 2026-09 |
 | [Evaluate a Retrieval-Augmented Generation System](https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-21 |
@@ -26,6 +33,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Find the Intersection of Two Linked Chains](../../questions/algorithm/find-the-intersection-of-two-linked-chains/README.md) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-15 |
 | [Enumerate All Balanced Bracket Strings for N Pairs](../../questions/algorithm/generate-parentheses/README.md) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 1 | 2026-06 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 4 | 0 | 2026-03 |
+| [Evaluate Factual Accuracy and Consistency in a Domain-Specific RAG Chatbot](https://trueinterview.io/questions/evaluate-factual-accuracy-and-consistency-in-a-domain-specific-rag-chatbot?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Junior / Mid, Senior | 1 | 0 | 2026-01-23 |
 | [Design a restaurant reservation system](https://trueinterview.io/questions/design-a-restaurant-reservation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-07 |
 | [Library Book Management System Design and API Architecture](https://trueinterview.io/questions/c51674da-fe87-4c8a-ae4c-953716a356b6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-03 |
 | [Shortest Substring Covering All Characters of a Pattern](https://trueinterview.io/questions/minimum-window-substring-4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Senior | 1 | 0 | 2025-03 |

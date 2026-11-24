@@ -1,4 +1,6 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Mission motivation and a walkthrough of your school, major and job decisions",Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-02,https://trueinterview.io/questions/mission-motivation-and-a-walkthrough-of-your-school-major-and-job-decisions
+Design a real-time 3D playback system for recorded vehicle logs,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-02,https://trueinterview.io/questions/design-a-real-time-3d-playback-system-for-recorded-vehicle-logs
 File Deduplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f
 Locate Cars with a Boolean Square-Scan API,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08-30,https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api
 Resolve Variable Equations with Missing References and Cycles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,2,2026-08,https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1
@@ -9,7 +11,7 @@ First Collision Time in a Multi-Agent Unicycle Simulator,Algorithm,Medium,Phone 
 Design Key-Value Store with Transactions,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-05,https://trueinterview.io/questions/design-key-value-store-with-transactions
 In-Memory Database,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,3,0,2026-04-28,https://trueinterview.io/questions/in-memory-database
 Implement a Fixed-Capacity Deque,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-04-14,https://trueinterview.io/questions/implement-a-fixed-capacity-deque
-Design In-Memory Key-Value Database,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern,2,0,2026-03,https://trueinterview.io/questions/design-in-memory-key-value-database
+Design In-Memory Key-Value Database,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid,2,0,2026-03,https://trueinterview.io/questions/design-in-memory-key-value-database
 Design a mini compiler/interpreter,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-02-12,https://trueinterview.io/questions/design-a-mini-compiler-interpreter
 Design a KV store with transactions,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-12,https://trueinterview.io/questions/design-a-kv-store-with-transactions
 Find intersection of two line segments,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/find-intersection-of-two-line-segments

@@ -30,6 +30,11 @@ Explanation:
 - Attend event 2 on day 3 (its last possible day).
 All three events can be attended.
 
+```trueviz
+{"v":1,"kind":"example","title":"Maximum events attended","input":{"events":"[[1, 1], [2, 3], [1, 2]]"},"steps":[{"say":"Three events, each with an allowed day range: event 1 is [1, 1], event 2 is [2, 3], event 3 is [1, 2].","panels":[{"type":"array","id":"ev","label":"events (start-end)","values":["1-1","2-3","1-2"]}]},{"say":"Only one event can be attended per day, and the days in play are 1, 2 and 3.","panels":[{"type":"array","id":"days","label":"days","values":["1","2","3"]}]},{"say":"Event 1 can only happen on day 1.","panels":[{"type":"array","id":"ev","label":"events (start-end)","values":["1-1","2-3","1-2"],"marks":{"read":[0]}},{"type":"array","id":"days","label":"days","values":["1","2","3"],"marks":{"found":[0]}}]},{"say":"Event 3 fits on day 2, and event 2 fits on day 3.","panels":[{"type":"array","id":"ev","label":"events (start-end)","values":["1-1","2-3","1-2"],"marks":{"read":[1,2]}},{"type":"array","id":"days","label":"days","values":["1","2","3"],"marks":{"found":[1,2]}}]},{"say":"Every day holds exactly one event, so all 3 events are attended. The answer is 3.","panels":[{"type":"array","id":"plan","label":"day -> event","values":["event 1","event 3","event 2"],"marks":{"found":[0,1,2]}}]}],"expected":"3"}
+```
+
+
 
 ### Example 2
 ```

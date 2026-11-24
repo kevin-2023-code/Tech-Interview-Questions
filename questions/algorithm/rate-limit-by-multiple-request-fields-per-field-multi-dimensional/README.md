@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Roblox | Phone screen | sliding-window | Oct 2025 |
+| Algorithm | Medium | Roblox | Phone screen | hashing, sliding-window | Oct 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -77,6 +77,11 @@ ALLOW
 **Explanation**
 
 - `user` allows at most 2 requests per 10 seconds; `device` allows at most 3.
+
+```trueviz
+{"v":1,"kind":"example","title":"Multi-field rate limiter","input":{"fields":"[('user', 10, 2), ('device', 10, 3)]","requests":"[(1, ['u1', 'd1']), (2, ['u1', 'd1']), (3, ['u1', 'd1']), (4, ['u2', 'd1']), (11, ['u1', 'd1']), (12, ['u1', 'd1'])]"},"steps":[{"say":"Rules: user allows 2 requests per 10 seconds, device allows 3. Six requests arrive.","panels":[{"type":"array","id":"time","label":"Timestamp","values":["1","2","3","4","11","12"]},{"type":"array","id":"user","label":"user value","values":["u1","u1","u1","u2","u1","u1"]},{"type":"array","id":"device","label":"device value","values":["d1","d1","d1","d1","d1","d1"]}]},{"say":"Requests 1 and 2 are the first two from u1 and are allowed.","panels":[{"type":"array","id":"time","label":"Timestamp","values":["1","2","3","4","11","12"],"marks":{"found":[0,1]}},{"type":"array","id":"user","label":"user value","values":["u1","u1","u1","u2","u1","u1"],"marks":{"found":[0,1]}},{"type":"array","id":"result","label":"Result","values":["ALLOW","ALLOW"]}]},{"say":"Request 3 (time 3): u1 already has 2 requests at times 1 and 2 in the window, so the user limit rejects it.","panels":[{"type":"array","id":"time","label":"Timestamp","values":["1","2","3","4","11","12"],"marks":{"read":[0,1,2]}},{"type":"array","id":"user","label":"user value","values":["u1","u1","u1","u2","u1","u1"],"marks":{"read":[0,1,2]}},{"type":"array","id":"result","label":"Result","values":["ALLOW","ALLOW","REJECT"]}]},{"say":"Request 4 comes from a different user, u2, so the user limit is not hit and it is allowed.","panels":[{"type":"array","id":"user","label":"user value","values":["u1","u1","u1","u2","u1","u1"],"marks":{"found":[3],"dim":[0,1,2]}},{"type":"array","id":"result","label":"Result","values":["ALLOW","ALLOW","REJECT","ALLOW"]}]},{"say":"Request 5 (time 11): the request at time 1 is outside the 10-second window, leaving one active u1 request, so it is allowed.","panels":[{"type":"array","id":"time","label":"Timestamp","values":["1","2","3","4","11","12"],"marks":{"read":[1],"found":[4],"dim":[0]}},{"type":"array","id":"user","label":"user value","values":["u1","u1","u1","u2","u1","u1"],"marks":{"found":[4]}},{"type":"array","id":"result","label":"Result","values":["ALLOW","ALLOW","REJECT","ALLOW","ALLOW"]}]},{"say":"Request 6 (time 12) is also allowed, so the outputs are ALLOW, ALLOW, REJECT, ALLOW, ALLOW, ALLOW.","panels":[{"type":"array","id":"time","label":"Timestamp","values":["1","2","3","4","11","12"],"marks":{"found":[5]}},{"type":"array","id":"result","label":"Result","values":["ALLOW","ALLOW","REJECT","ALLOW","ALLOW","ALLOW"],"marks":{"found":[0,1,3,4,5],"dim":[2]}}]}],"expected":"[\"ALLOW\", \"ALLOW\", \"REJECT\", \"ALLOW\", \"ALLOW\", \"ALLOW\"]"}
+```
+
 - Request 3 (`u1 d1` at time 3): `u1` already has 2 requests in the window (times 1 and 2), so the user dimension rejects it.
 - Request 5 (`u1 d1` at time 11): the request at time 1 has fallen out of the 10-second window, so the user dimension now has only one active request (time 2) and allows it.
 

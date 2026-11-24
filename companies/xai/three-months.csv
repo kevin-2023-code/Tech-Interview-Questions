@@ -2,6 +2,9 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
 Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
 Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,5,2026-10,https://trueinterview.io/questions/design-chatgpt
+Design a Distributed URL Shortener for Very High Redirect Traffic,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-09-25,https://trueinterview.io/questions/design-a-distributed-url-shortener-for-very-high-redirect-traffic
+Present a Past Project with Slides to a Panel of Engineers and PMs,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-23,https://trueinterview.io/questions/present-a-past-project-with-slides-to-a-panel-of-engineers-and-pms
+Design Delayed (Scheduled) Tweet Publishing for Twitter,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-23,https://trueinterview.io/questions/design-delayed-scheduled-tweet-publishing-for-twitter
 Render Nested JSON in a Code-Style Viewer,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer
 Load and Display a React List with useEffect,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect
 Implement an Asynchronous React Typeahead,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-15,https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead

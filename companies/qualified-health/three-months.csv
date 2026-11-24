@@ -1,0 +1,10 @@
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Validate Editable DAGs and Bound Runtime Repetition,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-30,https://trueinterview.io/questions/validate-editable-dags-and-bound-runtime-repetition
+Stream LLM Output While Committing Reliable DAG Results,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-30,https://trueinterview.io/questions/stream-llm-output-while-committing-reliable-dag-results
+Scale Mixed I/O and LLM Workflow Execution,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-30,https://trueinterview.io/questions/scale-mixed-i-o-and-llm-workflow-execution
+Recover Durable Workflows with External Effects and Long Waits,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-30,https://trueinterview.io/questions/recover-durable-workflows-with-external-effects-and-long-waits
+Control LLM Workflow Quotas and Recovery Costs,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-30,https://trueinterview.io/questions/control-llm-workflow-quotas-and-recovery-costs
+Stream and Cancel Agent Responses Without Unsafe Retries,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-08,https://trueinterview.io/questions/stream-and-cancel-agent-responses-without-unsafe-retries
+"Reconcile RAG Document Expiry, Chat History, and Cold Audits",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-08,https://trueinterview.io/questions/reconcile-rag-document-expiry-chat-history-and-cold-audits
+Ingest and Serve RAG Sessions with Up to 200 Documents,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-08,https://trueinterview.io/questions/ingest-and-serve-rag-sessions-with-up-to-200-documents
+Enforce Tenant and Session Isolation in an Agent RAG System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-08,https://trueinterview.io/questions/enforce-tenant-and-session-isolation-in-an-agent-rag-system

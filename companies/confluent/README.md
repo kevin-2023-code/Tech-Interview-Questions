@@ -2,9 +2,9 @@
 
 # Confluent interview questions
 
-30 questions reported at Confluent, most recently reported first.
+36 questions reported at Confluent, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (7) · [all](all.csv) (30)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9) · [last 6 months](six-months.csv) (13) · [all](all.csv) (36)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,9 +12,15 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Pick Numbers Summing to a Target: Existence With Negatives, One and All Solutions](https://trueinterview.io/questions/pick-numbers-summing-to-a-target-existence-with-negatives-one-and-all-solutions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-06 |
+| [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-09-29 |
+| [Motivation and Readiness for a Developer Productivity Role from a Customer-Facing Team](https://trueinterview.io/questions/motivation-and-readiness-for-a-developer-productivity-role-from-a-customer-facing-team?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-12 |
 | [Search Words and Phrases in a Large Line-Oriented File](https://trueinterview.io/questions/search-words-and-phrases-in-a-large-line-oriented-file?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 3 | 2026-09 |
 | [O(1) Key-Value Store with Average and Max Retrieval](https://trueinterview.io/questions/f6664ca5-9a30-4110-a9b2-5d15940d61f2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Phone screen | Junior / Mid, Senior | 10 | 0 | 2026-09 |
+| [Why Confluent, and a Deep Dive into a Project You Worked On](https://trueinterview.io/questions/why-confluent-and-a-deep-dive-into-a-project-you-worked-on?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-08-29 |
+| [Design a Podcast Publishing System That Delivers New Episodes to Followers](https://trueinterview.io/questions/design-a-podcast-publishing-system-that-delivers-new-episodes-to-followers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-29 |
+| [Validate and Complete a Partially Filled 9x9 Sudoku Board](https://trueinterview.io/questions/validate-and-complete-a-partially-filled-9x9-sudoku-board?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-29 |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 0 | 2026-08 |
 | [Design an LRU Cache with a Constant-Time Average](https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 1 | 2026-07 |
 | [Tail N Lines](https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07 |

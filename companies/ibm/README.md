@@ -2,9 +2,9 @@
 
 # IBM interview questions
 
-44 questions reported at IBM, most recently reported first.
+51 questions reported at IBM, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (13) · [last 6 months](six-months.csv) (14) · [all](all.csv) (44)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (19) · [last 6 months](six-months.csv) (20) · [all](all.csv) (51)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,11 +12,17 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Behavioral: Making a Complex Topic Clear to a Non-Expert Stakeholder](https://trueinterview.io/questions/behavioral-making-a-complex-topic-clear-to-a-non-expert-stakeholder?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-17 |
+| [Behavioral: Learning to Get Reliable Results From an AI Tool on Real Work](https://trueinterview.io/questions/behavioral-learning-to-get-reliable-results-from-an-ai-tool-on-real-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-16 |
+| [Behavioral: Collaborating Across Clashing Priorities and Working Styles](https://trueinterview.io/questions/behavioral-collaborating-across-clashing-priorities-and-working-styles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-16 |
+| [Behavioral: Responding When Months of Work Hit a Major Setback](https://trueinterview.io/questions/behavioral-responding-when-months-of-work-hit-a-major-setback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-15 |
+| [Behavioral: Owning a Deliverable Where the Quality Bar Could Not Slip](https://trueinterview.io/questions/behavioral-owning-a-deliverable-where-the-quality-bar-could-not-slip?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-15 |
 | [Customers with High Average Resource Usage](https://trueinterview.io/questions/sql-high-average-resource-usage?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Easy | Online assessment | New grad | 1 | 0 | 2026-10-05 |
 | [Competency and Resume Interview](https://trueinterview.io/questions/competency-and-resume-interview?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Intern, Junior / Mid | 1 | 0 | 2026-10 |
 | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 4 | 0 | 2026-10 |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 14 | 0 | 2026-10 |
-| [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-09-29 |
+| [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-09-29 |
+| [Six Timed Behavioral Prompts: AI Tools, Debugging, Teamwork, Explaining, Goals, Quality](https://trueinterview.io/questions/six-timed-behavioral-prompts-ai-tools-debugging-teamwork-explaining-goals-quality?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-09-18 |
 | [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-09-14 |
 | [Count Employees With Continuous Access](https://trueinterview.io/questions/a95da446-43df-5e75-9892-6162471581b3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 1 | 1 | 2026-09 |
 | [Count Triplets Within a Value Range](https://trueinterview.io/questions/29504453-af39-558a-8c35-78d43f525cda?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 1 | 0 | 2026-09 |
@@ -27,6 +33,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Minimum Replacements for Adjacent Duplicate Characters](https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-08-27 |
 | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Intern, New grad | 2 | 0 | 2026-05-30 |
 | [Count 3^x * 5^y Numbers and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 0 | 2026-04-25 |
+| [Getting Up to Speed Fast on an Unfamiliar Domain Under a Deadline (PM Behavioral)](https://trueinterview.io/questions/getting-up-to-speed-fast-on-an-unfamiliar-domain-under-a-deadline-pm-behavioral?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-22 |
 | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 0 | 2026-04 |
 | [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 2 | 0 | 2026-03-19 |
 | [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/questions/devsecops-kubernetes-cicd-screen?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 1 | 2026-02-23 |

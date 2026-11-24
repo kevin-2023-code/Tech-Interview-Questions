@@ -1,2 +1,7 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Implement a read-write lock, then keep waiting writers from starving",Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-26,https://trueinterview.io/questions/implement-a-read-write-lock-then-keep-waiting-writers-from-starving
+"Database internals: a query's lifecycle, the buffer cache and the query optimizer",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-10-26,https://trueinterview.io/questions/database-internals-a-querys-lifecycle-the-buffer-cache-and-the-query-optimizer
+Evaluate Paths through a JSON Tree with Implicit Array Wildcards,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-16,https://trueinterview.io/questions/evaluate-paths-through-a-json-tree-with-implicit-array-wildcards
+Unblocking engineers when the PM's decisions and specs slow the team down,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-09,https://trueinterview.io/questions/unblocking-engineers-when-the-pms-decisions-and-specs-slow-the-team-down
+How a PM Decides When to Ship Fast and When to Harden a Release,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-09,https://trueinterview.io/questions/how-a-pm-decides-when-to-ship-fast-and-when-to-harden-a-release
 Concurrent Web Crawler,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871

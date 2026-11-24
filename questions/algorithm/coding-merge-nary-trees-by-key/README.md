@@ -89,21 +89,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Think of it as a simultaneous traversal of both trees where nodes are paired only when they share the same key at the same position.
+Treat the merge as a recursion where each pair of same-key nodes produces one new node, and the only real question is how to pair up their children.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Index each node's children by key in a hash map so matching children across the two trees is a lookup, then recurse on matched pairs and carry over unmatched subtrees as they are.
+Index one node's children by key in a hash map so you can match children of the other node in constant time, and recurse on matched pairs while copying unmatched subtrees.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Clarify and handle the value-collision rule up front, and watch for one tree being empty or nodes having no children, the work is proportional to the total node count.
+Remember to build fresh nodes rather than reusing inputs, and handle a child present in only one tree by deep-copying it so the inputs stay unmodified.
 
 </details>
 

@@ -33,6 +33,11 @@ Output:
 true
 ```
 
+```trueviz
+{"v":1,"kind":"example","title":"Three-color map","input":{"locations":"['0', '1', '2']","adjacencies":"[['0', '1'], ['1', '2'], ['2', '0']]"},"steps":[{"say":"Three locations 0, 1 and 2 are given, and every pair is connected by an edge, forming a triangle.","panels":[{"type":"graph","id":"map","label":"Adjacency graph","nodes":[{"id":"0","label":"0"},{"id":"1","label":"1"},{"id":"2","label":"2"}],"edges":[{"from":"0","to":"1"},{"from":"1","to":"2"},{"from":"2","to":"0"}]}]},{"say":"Each node must get red, blue or green, and the two ends of an edge must differ.","panels":[{"type":"graph","id":"map","label":"Adjacency graph","nodes":[{"id":"0","label":"0"},{"id":"1","label":"1"},{"id":"2","label":"2"}],"edges":[{"from":"0","to":"1"},{"from":"1","to":"2"},{"from":"2","to":"0"}],"marks":{"read":["0","1","2"]}}]},{"say":"Giving 0 red, 1 blue and 2 green makes all three pairs differ, so a valid coloring exists and the answer is true.","panels":[{"type":"graph","id":"map","label":"Valid coloring","nodes":[{"id":"0","label":"0: red"},{"id":"1","label":"1: blue"},{"id":"2","label":"2: green"}],"edges":[{"from":"0","to":"1"},{"from":"1","to":"2"},{"from":"2","to":"0"}],"marks":{"found":["0","1","2"]}}]}],"expected":"true"}
+```
+
+
 **Example 1:**
 > **Input:** locations = ["A", "B", "C", "D"], adjacencies = [["A", "B"], ["A", "C"], ["B", "C"], ["C", "D"]]
 > **Output:** true

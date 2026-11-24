@@ -2,9 +2,9 @@
 
 # Whatnot interview questions
 
-19 questions reported at Whatnot, most recently reported first.
+21 questions reported at Whatnot, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (4) · [all](all.csv) (19)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (6) · [all](all.csv) (21)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,8 +12,10 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Repeatedly Delete Adjacent Duplicate Pairs or Whole Runs of Equal Characters](https://trueinterview.io/questions/repeatedly-delete-adjacent-duplicate-pairs-or-whole-runs-of-equal-characters?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-10 |
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 4 | 0 | 2026-09 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Junior / Mid, Senior, Staff+, Manager | 13 | 0 | 2026-09 |
+| [Design a Metrics and Alerting System, Focusing on How Metrics Are Stored](https://trueinterview.io/questions/design-a-metrics-and-alerting-system-focusing-on-how-metrics-are-stored?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-14 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 16 | 0 | 2026-07 |
 | [Filter Unsafe Messages](https://trueinterview.io/questions/filter-unsafe-messages?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-06-12 |
 | [Design A WhatsApp-Style Messaging System](https://trueinterview.io/questions/design-a-whatsapp-style-messaging-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-05-08 |

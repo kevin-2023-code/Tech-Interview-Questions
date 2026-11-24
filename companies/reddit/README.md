@@ -2,9 +2,9 @@
 
 # Reddit interview questions
 
-45 questions reported at Reddit, most recently reported first.
+54 questions reported at Reddit, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (17) · [all](all.csv) (45)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (12) · [last 6 months](six-months.csv) (24) · [all](all.csv) (54)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,8 +12,13 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Design an Agent for BigQuery Analysis](https://trueinterview.io/questions/design-an-agent-for-bigquery-analysis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-25 |
+| [Explain Kotlin Coroutines and Suspending Functions](https://trueinterview.io/questions/explain-kotlin-coroutines-and-suspending-functions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-21 |
+| [Classify Imbalanced Tabular Data with Missing Values, Then Scale to Billions of Rows](https://trueinterview.io/questions/classify-imbalanced-tabular-data-with-missing-values-then-scale-to-billions-of-rows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-14 |
+| [Reddit Onboarding: Matching Newcomers to Communities They Will Keep Visiting](https://trueinterview.io/questions/reddit-onboarding-matching-newcomers-to-communities-they-will-keep-visiting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-01 |
 | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-10 |
 | [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 7 | 0 | 2026-10 |
+| [Handling High-Cardinality Categorical Features and Cold-Start Items in Embedding Models](https://trueinterview.io/questions/handling-high-cardinality-categorical-features-and-cold-start-items-in-embedding-models?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-26 |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 10 | 22 | 2026-09 |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 16 | 0 | 2026-09 |
 | [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 5 | 2026-09 |
@@ -22,8 +27,10 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Explain and Reduce Position Bias in Ranking](https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-23 |
 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-08 |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 14 | 0 | 2026-08 |
+| [Filter Comment Subtrees and Analyze Score-Based Retention](https://trueinterview.io/questions/filter-comment-subtrees-and-analyze-score-based-retention?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-13 |
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 5 | 0 | 2026-07 |
 | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-06-23 |
+| [Reddit Video PM: Partnering With the Feeds Team to Improve Video Ranking](https://trueinterview.io/questions/reddit-video-pm-partnering-with-the-feeds-team-to-improve-video-ranking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-06-15 |
 | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-06-12 |
 | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad | 1 | 0 | 2026-06-12 |
 | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid | 1 | 0 | 2026-06-12 |
@@ -41,6 +48,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-03 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 4 | 0 | 2026-03 |
 | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2 | 2026-03 |
+| [Executive Dashboard Metrics for Airbnb's Launch in a New Market](https://trueinterview.io/questions/executive-dashboard-metrics-for-airbnbs-launch-in-a-new-market?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-28 |
 | [Report Chain](https://trueinterview.io/questions/report-chain?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-17 |
 | [Model y from x and interpret distributions](https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-12 |
 | [Describe a failure and a success](https://trueinterview.io/questions/describe-a-failure-and-a-success?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-02-12 |
@@ -52,6 +60,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Collaborate with PM and Eng as DS](https://trueinterview.io/questions/collaborate-with-pm-and-eng-as-ds?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-11 |
 | [Design comment-likelihood prediction platform](https://trueinterview.io/questions/design-comment-likelihood-prediction-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2025-12 |
 | [Tennis Scoring](https://trueinterview.io/questions/b30fcfc7-0dd6-4ac0-822e-39e316e02870?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2025-12 |
+| [Vulture Thought Experiment: Trace the Ripple Effects of a Head Twice as Large](https://trueinterview.io/questions/vulture-thought-experiment-trace-the-ripple-effects-of-a-head-twice-as-large?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-10 |
 | [Dictionary Word Transformation Path](../../questions/algorithm/dictionary-word-transformation-path/README.md) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2025-07-21 |
 | [Justify synthetic control and handle inference](https://trueinterview.io/questions/justify-synthetic-control-and-handle-inference?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Design a causal evaluation without A/B testing](https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |

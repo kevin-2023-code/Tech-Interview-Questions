@@ -2,9 +2,9 @@
 
 # Drw interview questions
 
-10 questions reported at Drw, most recently reported first.
+13 questions reported at Drw, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (6) · [all](all.csv) (10)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9) · [last 6 months](six-months.csv) (9) · [all](all.csv) (13)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,9 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Minimize the Max-Min Gap of an Array After Changing Up to Three Elements](https://trueinterview.io/questions/minimize-the-max-min-gap-of-an-array-after-changing-up-to-three-elements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-01 |
+| [Longest Substring in Which Every Present Letter Occurs Equally Often](https://trueinterview.io/questions/longest-substring-in-which-every-present-letter-occurs-equally-often?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-01 |
+| [Fewest Expenses to Defer to Year End So the Running Balance Never Goes Negative](https://trueinterview.io/questions/fewest-expenses-to-defer-to-year-end-so-the-running-balance-never-goes-negative?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-01 |
 | [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-13 |
 | [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-13 |
 | [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-13 |
