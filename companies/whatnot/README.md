@@ -2,9 +2,9 @@
 
 # Whatnot interview questions
 
-21 questions reported at Whatnot, most recently reported first.
+22 questions reported at Whatnot, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (6) · [all](all.csv) (21)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (6) · [all](all.csv) (22)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -30,6 +30,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Improve and debug the shopping app](https://trueinterview.io/questions/improve-and-debug-the-shopping-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-17 |
 | [Design trending livestream discovery](https://trueinterview.io/questions/design-trending-livestream-discovery?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-01-17 |
 | [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 3 | 1 | 2026-01 |
+| [Shortest Substring Covering All Characters of a Pattern](https://trueinterview.io/questions/minimum-window-substring-4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Senior | 3 | 0 | 2025-03 |
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 0 | — |
 | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 0 | — |
 | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 4 | 0 | — |

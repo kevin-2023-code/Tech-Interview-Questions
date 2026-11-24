@@ -13,7 +13,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Fermi Estimate of India's Nationwide Highway Toll Revenue per Day](https://trueinterview.io/questions/fermi-estimate-of-indias-nationwide-highway-toll-revenue-per-day?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-06-12 |
-| [Swiggy Food Delivery: Product Levers to Grow Basket Size by 15 Percent](https://trueinterview.io/questions/swiggy-food-delivery-product-levers-to-grow-basket-size-by-15-percent?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-22 |
+| [Swiggy Food Delivery: Product Levers to Grow Basket Size by 15 Percent](https://trueinterview.io/questions/swiggy-food-delivery-product-levers-to-grow-basket-size-by-15-percent?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-04-22 |
 
 ---
 

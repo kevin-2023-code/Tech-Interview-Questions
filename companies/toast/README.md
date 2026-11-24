@@ -4,7 +4,7 @@
 
 1 question reported at Toast, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (1)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (1)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,7 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Design a Restaurant Seat and Table Reservation System](https://trueinterview.io/questions/design-a-restaurant-seat-and-table-reservation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-23 |
+| [Restaurant Table Reservations: Availability Search and Conflict-Free Booking](https://trueinterview.io/questions/restaurant-table-reservations-availability-search-and-conflict-free-booking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2025-12-19 |
 
 ---
 

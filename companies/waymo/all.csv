@@ -13,7 +13,6 @@ Filter an N-ary Tree by Substring and Render It With Indentation in a UI,Algorit
 Design the Frontend of an AI Chat Application With Streaming Replies,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-10,https://trueinterview.io/questions/design-the-frontend-of-an-ai-chat-application-with-streaming-replies
 "Design an Object Storage Service With Buckets, Keys and Durable Blob Storage",System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-10,https://trueinterview.io/questions/design-an-object-storage-service-with-buckets-keys-and-durable-blob-storage
 "Design a Matchmaking Service With Join, Cancel, Matching, Notification and Expiry",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-10,https://trueinterview.io/questions/design-a-matchmaking-service-with-join-cancel-matching-notification-and-expiry
-Describe a Complex Project You Worked On and Why It Was Challenging,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-10,https://trueinterview.io/questions/describe-a-complex-project-you-worked-on-and-why-it-was-challenging
 Deduplicate a 256 GB File on a Machine With 128 MB of Memory,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-10,https://trueinterview.io/questions/deduplicate-a-256-gb-file-on-a-machine-with-128-mb-of-memory
 Build an Autocomplete Search Bar With a Hand-Written Debounce,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-10,https://trueinterview.io/questions/build-an-autocomplete-search-bar-with-a-hand-written-debounce
 "Users With No Rides in the Most Recent 7-Day Window, Including Non-Riders",SQL,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-10,https://trueinterview.io/questions/sql-users-with-no-rides-in-the-most-recent-7-day-window-including-non-riders
@@ -29,11 +28,11 @@ Count Islands and Compute Coastline Length,Algorithm,Medium,Phone screen,Senior,
 Random Access in Run-Length Encoded Data,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/6f2137c5-0639-5fd4-a800-365447eee0a6
 Match Dictionary Words After Collapsing Consecutive Duplicates,Algorithm,Easy,Online assessment,Senior,1,1,2026-09,https://trueinterview.io/questions/4b019575-ee7a-52d8-ac1f-f8de2d5033d8
 Vehicle Maintenance Event Validation,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/40bddb3c-0280-572b-a65b-ba31f5b9fba5
-Describe a Project You Are Proud Of,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,4,2026-09,https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2
 Minimize Total Grid Distance to Every Building,Algorithm,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building
 Find Dictionary Words Represented by Repeated Letters,Algorithm,Medium,Onsite / virtual onsite,Senior,1,1,2026-09,https://trueinterview.io/questions/find-dictionary-words-represented-by-repeated-letters
 Find a Repeating Vehicle Program Under Fuel and Memory Limits,Algorithm,Hard,Onsite / virtual onsite,Senior,1,1,2026-09,https://trueinterview.io/questions/find-a-repeating-vehicle-program-under-fuel-and-memory-limits
 Design a Fleet That Collects Mapping Data,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/design-a-fleet-that-collects-mapping-data
+Maximum Area Rectangle From Given Points,Algorithm,Medium,Phone screen,Junior / Mid,2,3,2026-09,https://trueinterview.io/questions/587db02b-9437-5e6d-8a2a-cb2d0fbe4eeb
 Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
 Filter an N-ary Tree and Render It with Indentation,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/4a42af98-55d6-5d1e-aa8b-01049a27f459
 Sort a Quadratic-Transformed Sorted Array,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/sort-transformed-quadratic-array
@@ -46,6 +45,8 @@ SWE Resume Deep Dive: Technologies and Outcome Metrics,Behavioral / Knowledge,,P
 Format Bytes as a Hexdump with ASCII Preview,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/a4271820-2948-5b33-9f94-e2515685b70c
 Employee Hierarchy FTE Score and Capacity-Constrained Insertion,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/93c70728-cc29-5cd9-a25c-e30e55f46d3e
 Count Frequencies in a Bounded Integer Array,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/80b6974a-397a-5a98-82d0-d78895577267
+Describe toughest project experience,Behavioral / Knowledge,,Phone screen,Junior / Mid,9,0,2026-08,https://trueinterview.io/questions/describe-toughest-project-experience
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
 Evaluate a Self-Driving Model End-to-End,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/sd-evaluate-self-driving-model
 Randomly Populate Grid with Connected Equal-Size Token Regions,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/random-grid-token-fill
 Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
@@ -83,7 +84,6 @@ Roadway Segment Speed Query,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1
 Garage Occupancy per Timestamp,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-04-24,https://trueinterview.io/questions/garage-occupancy-per-timestamp
 Car Fleet Scheduler,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-24,https://trueinterview.io/questions/car-fleet-scheduler
 Elevator Operation Logic,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2026-04-24,https://trueinterview.io/questions/sd-elevator-operation-logic
-Largest Rectangle Area,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-04-24,https://trueinterview.io/questions/max-area-rectangle-coordinate-set
 Simulation Log Collection and Result Aggregation,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-04-23,https://trueinterview.io/questions/sd-simulation-log-aggregation
 Choose Passenger Drop-off Location,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-18,https://trueinterview.io/questions/sd-passenger-dropoff-location-ml
 Behavior Prediction from Sensor + Camera Data,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-04-18,https://trueinterview.io/questions/sd-ml-behavior-prediction-from-sensors

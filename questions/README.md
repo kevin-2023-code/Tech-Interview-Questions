@@ -6,7 +6,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 
 [All companies](../README.md#companies)
 
-## Algorithm (196)
+## Algorithm (195)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -22,7 +22,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Merge Two Sorted Lists](algorithm/merge-two-sorted-lists/README.md) | Easy | Apple · Amazon · Snowflake |
 | [Next Greater Element I](algorithm/next-greater-element-i/README.md) | Easy | Pinduoduo |
 | [Remove Nth Node From End of List](algorithm/lc-remove-nth-from-end/README.md) | Easy | Meta |
-| [Search a 2D Matrix](algorithm/search-a-2d-matrix/README.md) | Easy | Apple |
+| [Search a 2D Matrix](algorithm/search-a-2d-matrix/README.md) | Easy | Apple · Amazon |
 | [Shortest Path in Unweighted Graph](algorithm/shortest-path-in-unweighted-graph/README.md) | Easy | Pinterest · ByteDance |
 | [Sum Root-to-Leaf Numbers](algorithm/sum-root-to-leaf-numbers/README.md) | Easy | Meta |
 | [Top K Frequent Elements](algorithm/top-k-frequent-elements/README.md) | Easy | Apple · Amazon · ByteDance · Google · LinkedIn |
@@ -30,7 +30,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Valid Parentheses](algorithm/valid-parentheses/README.md) | Easy | Apple · Amazon · Bloomberg · Boston Consulting Group · ByteDance |
 | [Valid Sudoku](algorithm/valid-sudoku/README.md) | Easy | Apple · Meta · Verkada |
 | [Verifying an Alien Dictionary](algorithm/verifying-an-alien-dictionary/README.md) | Easy | Uber · Meta |
-| [Anagram Sentence Substitutions](algorithm/anagram-sentence-substitutions/README.md) | Medium | SoFi |
+| [Anagram Sentence Substitutions](algorithm/anagram-sentence-substitutions/README.md) | Medium | SoFi · Squarepoint |
 | [Assign Random Ads](algorithm/assign-random-ads/README.md) | Medium | Ebay |
 | [Basic Calculator](algorithm/basic-calculator-2/README.md) | Medium | Netflix · ByteDance · Google · Instacart · Meta |
 | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](algorithm/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping/README.md) | Medium | Siemens |
@@ -52,7 +52,6 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Contains Duplicate III](algorithm/contains-duplicate-iii/README.md) | Medium | Netflix |
 | [Continuous Subarray Sum](algorithm/continuous-subarray-sum/README.md) | Medium | Meta |
 | [Copy List with Random Pointer](algorithm/copy-list-with-random-pointer/README.md) | Medium | Snowflake |
-| [Copy List with Random Pointer (LC 138)](algorithm/copy-list-with-random-pointer-2/README.md) | Medium | Apple |
 | [Count Islands and Water Boundary](algorithm/count-islands-and-water-boundary/README.md) | Medium | Snapchat · Google · Tesla · Waymo |
 | [Count of Interesting Subarrays](algorithm/count-of-interesting-subarrays/README.md) | Medium | ByteDance |
 | [Course Schedule](algorithm/course-schedule/README.md) | Medium | Apple · Amazon · DoorDash · Google · Meta |
@@ -97,7 +96,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Lexicographically Smallest String After Substring Operation](algorithm/lexicographically-smallest-string-after-substring-operation/README.md) | Medium | Point72 |
 | [Load Factor Calculation](algorithm/service-dependency-load-factor/README.md) | Medium | Robinhood |
 | [Longest Palindromic Substring](algorithm/longest-palindromic-substring/README.md) | Medium | Bloomberg · ByteDance · Cisco · Ebay |
-| [Longest Repeating Character Replacement](algorithm/longest-repeating-character-replacement/README.md) | Medium | ByteDance · Microsoft · Pinduoduo |
+| [Longest Repeating Character Replacement](algorithm/longest-repeating-character-replacement/README.md) | Medium | ByteDance · Apple · Microsoft · Pinduoduo |
 | [Longest Subarray with Bounded Diff](algorithm/phone-screen-longest-stable-subarray/README.md) | Medium | Uber |
 | [Longest Substring Without Repeating Characters](algorithm/longest-substring-without-repeating-characters-2/README.md) | Medium | Verkada · Amazon · ByteDance |
 | [Maximum Completable Tasks with Prerequisites (Topological)](algorithm/course-prerequisites-task-count/README.md) | Medium | Oracle |
@@ -139,7 +138,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Serialize and Deserialize Binary Tree](algorithm/serialize-and-deserialize-binary-tree/README.md) | Medium | Apple · Amazon · ByteDance · Databricks · DoorDash |
 | [Service Shutdown / Topological Sort](algorithm/service-shutdown-topological-sort/README.md) | Medium | Amazon |
 | [Shipping Cost Calculator](algorithm/shipping-cost-calculator/README.md) | Medium | Stripe |
-| [Simple Moving Average over a Fixed-Size Sliding Window](algorithm/simple-moving-average-over-a-fixed-size-sliding-window/README.md) | Medium | Chicago Trading |
+| [Simple Moving Average over a Fixed-Size Sliding Window](algorithm/simple-moving-average-over-a-fixed-size-sliding-window/README.md) | Medium | Chicago Trading · Atlassian · ByteDance · Coinbase |
 | [Sliding Window Maximum](algorithm/sliding-window-maximum/README.md) | Medium | Uber · Amazon · ByteDance |
 | [Sliding-Window Rate Limiter II](algorithm/sliding-window-rate-limiter/README.md) | Medium | Roblox · Amazon · Atlassian · LinkedIn · Microsoft |
 | [Solve two array and string problems](algorithm/solve-two-array-and-string-problems/README.md) | Medium | Bloomberg |

@@ -2,7 +2,7 @@
 
 # SQL interview questions
 
-311 questions as of 2026-11-24, most recently reported first; questions with no reported date come last.
+309 questions as of 2026-11-24, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 
@@ -136,7 +136,7 @@
 | 2025-12-04 | [Coinbase](../companies/coinbase/) | [Write SQL to rank top products per category](https://trueinterview.io/questions/write-sql-to-rank-top-products-per-category?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Onsite | Junior / Mid, Senior | 0 |
 | 2025-12-03 | [Databricks](../companies/databricks/) | [Count weekly customers with ≥$1000 YTD spend](https://trueinterview.io/questions/count-weekly-customers-with-1000-ytd-spend?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Senior, Staff+ | 0 |
 | 2025-12-01 | [Meta](../companies/meta/) | [Write SQL for car rental utilization by city](https://trueinterview.io/questions/write-sql-for-car-rental-utilization-by-city?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Onsite | Junior / Mid, Senior | 0 |
-| 2025-12 | [Apple](../companies/apple/) | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen, Onsite | Intern, New grad, Junior / Mid | 1 |
+| 2025-12 | [Apple](../companies/apple/), [Amazon](../companies/amazon/) +2 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen, Onsite | Intern, New grad, Junior / Mid | 1 |
 | 2025-11-27 | [ByteDance](../companies/bytedance/) | [Write monthly customer and sales SQL queries](https://trueinterview.io/questions/write-monthly-customer-and-sales-sql-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Junior / Mid, Senior | 0 |
 | 2025-11-20 | [Meta](../companies/meta/) | [SQL Questions](https://trueinterview.io/questions/solve-sql-and-python-coding-tasks-sql-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2025-11-20 | [Amazon](../companies/amazon/) | [Find recommended friend pairs by shared listening](https://trueinterview.io/questions/find-recommended-friend-pairs-by-shared-listening?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Junior / Mid, Senior | 0 |
@@ -292,8 +292,6 @@
 | — | [Amazon](../companies/amazon/) | [Build DiD dataset with SQL](https://trueinterview.io/questions/build-did-dataset-with-sql?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Senior, Staff+ | 0 |
 | — | [Capital One](../companies/capital-one/) | [Aggregate exam scores with NULL handling](https://trueinterview.io/questions/aggregate-exam-scores-with-null-handling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | New grad, Junior / Mid, Senior | 0 |
 | — | [Meta](../companies/meta/) | [Compute multi-account activity and unread percentages in SQL](https://trueinterview.io/questions/compute-multi-account-activity-and-unread-percentages-in-sql?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Junior / Mid, Senior | 0 |
-| — | [Microsoft](../companies/microsoft/) | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen, Onsite | New grad, Junior / Mid | 0 |
-| — | [Meta](../companies/meta/) | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 | — | [Walmart Labs](../companies/walmart-labs/) | [Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)](https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | New grad, Junior / Mid, Senior | 0 |
 | — | [Snapchat](../companies/snapchat/) | [LeetCode 626](https://trueinterview.io/questions/ced96981-8e5c-4ba2-b1d9-eef1e3f20c7f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | New grad, Junior / Mid, Senior | 0 |
 | — | [NVIDIA](../companies/nvidia/) | [SQL Aggregation Across Country/State/City/Zip Tables](https://trueinterview.io/questions/53506fd0-9b04-40be-a6f6-eb349d9f220a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | Intern, New grad, Junior / Mid | 0 |

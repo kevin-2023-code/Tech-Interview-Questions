@@ -13,7 +13,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Getting work done under dual reporting lines as a product manager](https://trueinterview.io/questions/getting-work-done-under-dual-reporting-lines-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-10 |
-| [Behavioral: Trading Off Near-Term Results Against a Long-Term Product Investment](https://trueinterview.io/questions/behavioral-trading-off-near-term-results-against-a-long-term-product-investment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-03 |
+| [Behavioral: Trading Off Near-Term Results Against a Long-Term Product Investment](https://trueinterview.io/questions/behavioral-trading-off-near-term-results-against-a-long-term-product-investment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-02-03 |
 
 ---
 

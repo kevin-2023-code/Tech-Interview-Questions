@@ -4,7 +4,7 @@
 
 5 questions reported at Abridge, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (5) · [all](all.csv) (5)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (5) · [all](all.csv) (5)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,8 +12,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Simulate Wind Moving Leaves on a Grid](https://trueinterview.io/questions/simulate-wind-moving-leaves-on-a-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-10-31 |
 | [Return Word Frequencies in Alphabetical Word Order](https://trueinterview.io/questions/return-word-frequencies-in-alphabetical-word-order?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | 2026-10-31 |
+| [Count the Leaves Left on a Grid After a Sequence of Wind Gusts](https://trueinterview.io/questions/count-the-leaves-left-on-a-grid-after-a-sequence-of-wind-gusts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 2 | 0 | 2026-10-06 |
 | [Sum of Integers Up to n Divisible by 3, 5, or 7](https://trueinterview.io/questions/sum-of-integers-up-to-n-divisible-by-3-5-or-7?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | 2026-09-24 |
 | [Run-Length Compress a Character List With Multi-Digit Counts](https://trueinterview.io/questions/run-length-compress-a-character-list-with-multi-digit-counts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-24 |
 | [Expand a Nested Repeat-Count Encoded String](https://trueinterview.io/questions/expand-a-nested-repeat-count-encoded-string?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-24 |

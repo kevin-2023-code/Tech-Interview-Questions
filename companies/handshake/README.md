@@ -12,7 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Leading an AI-Powered Feature From Problem Discovery Through Launch](https://trueinterview.io/questions/leading-an-ai-powered-feature-from-problem-discovery-through-launch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-14 |
+| [Leading an AI-Powered Feature From Problem Discovery Through Launch](https://trueinterview.io/questions/leading-an-ai-powered-feature-from-problem-discovery-through-launch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-08-14 |
 
 ---
 

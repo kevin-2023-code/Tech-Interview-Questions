@@ -2,9 +2,9 @@
 
 # Atlassian interview questions
 
-77 questions reported at Atlassian, most recently reported first.
+78 questions reported at Atlassian, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (15) · [last 6 months](six-months.csv) (22) · [all](all.csv) (77)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (15) · [last 6 months](six-months.csv) (23) · [all](all.csv) (78)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -29,10 +29,11 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-26 |
 | [Design a Rate Limiter Service: Components, Scaling and Precision Trade-offs](https://trueinterview.io/questions/design-a-rate-limiter-service-components-scaling-and-precision-trade-offs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 2 | 0 | 2026-08-13 |
 | [Design an Immersive Virtual Workplace for Hybrid Team Collaboration and Office Coordination](https://trueinterview.io/questions/design-an-immersive-virtual-workplace-for-hybrid-team-collaboration-and-office-coordination?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-01 |
-| [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 8 | 0 | 2026-08 |
+| [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 9 | 0 | 2026-08 |
 | [URL Router Design](https://trueinterview.io/questions/url-router-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2 | 2026-08 |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 17 | 0 | 2026-08 |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 14 | 0 | 2026-08 |
+| [Simple Moving Average over a Fixed-Size Sliding Window](../../questions/algorithm/simple-moving-average-over-a-fixed-size-sliding-window/README.md) | Algorithm | Medium | Phone screen | Senior | 4 | 0 | 2026-07 |
 | [Spiral Matrix](../../questions/algorithm/spiral-matrix/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-07 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 5 | 2026-05 |
 | [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Senior | 1 | 0 | 2026-04-21 |

@@ -1,8 +1,6 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Stack with Constant-Time Minimum over a Sequence of Operations,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/stack-with-constant-time-minimum-over-a-sequence-of-operations
-Reverse a Character Array In Place with Constant Extra Memory,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/reverse-a-character-array-in-place-with-constant-extra-memory
 Fewest Node Additions and Removals to Make a Binary Tree Perfect,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/fewest-node-additions-and-removals-to-make-a-binary-tree-perfect
-"Design a Scalable, Polite Web Crawler",System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-10-12,https://trueinterview.io/questions/design-a-scalable-polite-web-crawler
 Runtime-Configurable Multi-Tier Rate Limiter,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/88d39b15-fccf-5f7f-bed3-9bdcba8b1dcf
 Tiered Rate Limiting Service,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-01,https://trueinterview.io/questions/tiered-rate-limiting-service
 Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360
@@ -26,7 +24,7 @@ Build an Organizational Reporting Forest,Algorithm,Medium,Phone screen,Junior / 
 Height of an N-ary Tree After Node Deletions,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/97267c5d-561e-5bea-987c-d82f890a0293
 Minimum Node Deletions to Limit N-ary Tree Height,Algorithm,Hard,Phone screen,Junior / Mid,1,5,2026-09,https://trueinterview.io/questions/1ebea79b-4f8f-5ee4-86f3-74a57cfb698e
 String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
-Proud Project / Conflict / Failure,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,10,2026-09,https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure
+Proud Project / Conflict / Failure,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,2,10,2026-09,https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure
 Maximum Profit in Job Scheduling,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/maximum-profit-in-job-scheduling
 Tree Height After Node Removal,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/656949e3-a5f9-4e20-bf38-ee5b7cab1eef
 Wiki Page Shortest-Click Path,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid,1,3,2026-09,https://trueinterview.io/questions/wiki-page-shortest-path
@@ -40,11 +38,13 @@ Infra Recruiter Screen: Experience and Tooling,Behavioral / Knowledge,,Phone scr
 Time Range Event Counter,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08-16,https://trueinterview.io/questions/time-range-event-counter
 React / TypeScript Kanban Board,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-08-15,https://trueinterview.io/questions/react-typescript-kanban-board
 Webinar Popularity,SQL,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-08-13,https://trueinterview.io/questions/webinar-popularity
-Present an end-to-end project and defend decisions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,2,2026-08,https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions
+Present an end-to-end project and defend decisions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,3,2,2026-08,https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions
 Target Course Completion Plan,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-08,https://trueinterview.io/questions/62ce3ab3-e18e-5908-9a1b-df60f07d256d
 Bounded Event Stream Unique-Key Queries,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/538d12a1-cb8b-5e5c-8a83-6766bfef0c5c
 Priority Task Executor,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,1,2026-08-01,https://trueinterview.io/questions/priority-task-executor
 Rate Limiter,Algorithm,Easy,Online assessment,Senior,1,1,2026-08,https://trueinterview.io/questions/5ac1e372-948a-4af9-b467-5e495795ba16
+Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,9,0,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
+3Sum Variant: Find Unique Triplets Summing to Target,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-08,https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578
 Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
 Role Privilege System,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-08,https://trueinterview.io/questions/role-privilege-inheritance
 Job Scheduler with Cron / Pause / Resume,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-08,https://trueinterview.io/questions/job-scheduler-cron-pause-resume
@@ -79,6 +79,7 @@ Closest Cake and Global Assignment,Algorithm,Medium,Phone screen; Onsite / virtu
 Happy Number,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-06-08,https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9
 Max Credits with K Classes (Interval-Style),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06-07,https://trueinterview.io/questions/course-credit-max-k-classes
 Maximize Pipeline Throughput,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,0,2026-06-04,https://trueinterview.io/questions/oa-pipeline-throughput
+Reverse a String In Place (LC 344),Algorithm,Easy,Phone screen,Senior,3,0,2026-06,https://trueinterview.io/questions/reverse-string-in-place
 Maximum Throughput,Algorithm,Medium,Online assessment,New grad; Junior / Mid,4,7,2026-06,https://trueinterview.io/questions/maximum-throughput
 Sort Colors in a RecordCollection In-Place,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/6402ad69-f7b4-5827-a495-d1f675ef19eb
 Distance from Each 1 to the Nearest 2 in an Array,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4
@@ -160,7 +161,6 @@ Design an A/B test for ML model launch,Behavioral / Knowledge,,Phone screen,Seni
 Derive uniform RNGs from limited or biased sources,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/derive-uniform-rngs-from-limited-or-biased-sources
 Decide and justify product metrics amid trade-offs,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/decide-and-justify-product-metrics-amid-trade-offs
 Contrast FCF vs NI; choose one statement,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/contrast-fcf-vs-ni-choose-one-statement
-Solve and optimize 3Sum and variants at scale,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,,https://trueinterview.io/questions/solve-and-optimize-3sum-and-variants-at-scale
 Query seven-day conversion with windows and dedupe,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/query-seven-day-conversion-with-windows-and-dedupe
 Design an analytic warehouse for event data,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-an-analytic-warehouse-for-event-data
 Build a cohort dashboard with Streamlit and SQL,SQL,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/build-a-cohort-dashboard-with-streamlit-and-sql

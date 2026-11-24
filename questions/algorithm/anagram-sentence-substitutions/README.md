@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | SoFi | Phone screen | strings, hashing | Sep 2025 |
+| Algorithm | Medium | SoFi · Squarepoint | Phone screen | strings, hashing | Sep 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/anagram-sentence-substitutions)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -86,7 +86,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[SoFi](../../../companies/sofi/README.md)
+[SoFi](../../../companies/sofi/README.md) · [Squarepoint](../../../companies/squarepoint/README.md)
 
 ---
 

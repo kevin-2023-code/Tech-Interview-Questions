@@ -1,10 +1,9 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 "Design a PC Game Store, Entitlements, and Large-File Launcher Distribution",System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-10-31,https://trueinterview.io/questions/design-a-pc-game-store-entitlements-and-large-file-launcher-distribution
+Tell Me About a Time You Gave Critical Feedback to Someone,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10-23,https://trueinterview.io/questions/tell-me-about-a-time-you-gave-critical-feedback-to-someone
 Chat event aggregator: sliding-window message counts and active chats per user,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-19,https://trueinterview.io/questions/chat-event-aggregator-sliding-window-message-counts-and-active-chats-per-user
 What Matters to You in Your Next Job?,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/what-matters-to-you-in-your-next-job
 Design a ChatGPT-style chat service with streaming model replies,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-10-18,https://trueinterview.io/questions/design-a-chatgpt-style-chat-service-with-streaming-model-replies
-Describe a Time You Gave Someone Feedback,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/describe-a-time-you-gave-someone-feedback
-Describe a Conflict and How You Handled It,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/describe-a-conflict-and-how-you-handled-it
 Describe a Complex Cross-Functional Project,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/describe-a-complex-cross-functional-project
 "Code a poker game: model cards, rank five-card hands and pick the winners",Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/code-a-poker-game-model-cards-rank-five-card-hands-and-pick-the-winners
 "Why OpenAI, views on AI safety, and coordinating large cross-team projects",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-12,https://trueinterview.io/questions/why-openai-views-on-ai-safety-and-coordinating-large-cross-team-projects
@@ -85,7 +84,7 @@ Time-Based Key-Value Store with Production Testing,AI Coding,Hard,Online assessm
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
 Technical Deep Dive (slide-based),Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/technical-deep-dive
-Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/design-tinyurl
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,12,0,2026-09,https://trueinterview.io/questions/design-tinyurl
 Debug a GPT-Style Transformer with KV-Cache Generation,AI Coding,Hard,Phone screen; Onsite / virtual onsite,Senior,1,4,2026-09,https://trueinterview.io/questions/transformer-bug-hunt
 Vectorized 1-NN and Neural Network Forward Pass,AI Coding,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass
 Design Google Calendar,System Design,Medium,Onsite / virtual onsite,Senior,3,0,2026-09,https://trueinterview.io/questions/design-google-calendar

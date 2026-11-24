@@ -4,7 +4,7 @@
 
 20 questions reported at Airwallex, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (12) · [last 6 months](six-months.csv) (13) · [all](all.csv) (20)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (13) · [last 6 months](six-months.csv) (13) · [all](all.csv) (20)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,6 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 3 | 0 | 2026-10-05 |
 | [Find All Index Quadruples Summing to a Target Without Losing Positions](https://trueinterview.io/questions/find-all-index-quadruples-summing-to-a-target-without-losing-positions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-22 |
 | [Maximum Triangle Path Sum, Overall and Through a Required Cell](https://trueinterview.io/questions/maximum-triangle-path-sum-overall-and-through-a-required-cell?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-16 |
 | [Design a Hotel Booking Platform Down to the SQL Tables and Booking Transaction](https://trueinterview.io/questions/design-a-hotel-booking-platform-down-to-the-sql-tables-and-booking-transaction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-16 |
@@ -24,7 +25,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-09-01 |
 | [Name-Keyed Async Task Scheduler with Sequential Lanes, Cancel and Clear by Name](https://trueinterview.io/questions/name-keyed-async-task-scheduler-with-sequential-lanes-cancel-and-clear-by-name?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-31 |
 | [Design a Reusable React Autocomplete Input: API, Portals, Debounce and Caching](https://trueinterview.io/questions/design-a-reusable-react-autocomplete-input-api-portals-debounce-and-caching?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-31 |
-| [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-09 |
 | [Largest Rectangle in Histogram](../../questions/algorithm/largest-rectangle-histogram/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | New grad | 2 | 0 | 2026-01-29 |
 | [Investigate Harassment Surge and Mitigation](https://trueinterview.io/questions/investigate-harassment-surge-and-mitigation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-14 |
 | [Monthly violation-type distribution.](https://trueinterview.io/questions/compute-moderation-view-metrics-monthly-violation-type-distribution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-14 |

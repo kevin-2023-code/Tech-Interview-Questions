@@ -13,7 +13,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Design an AI-Powered Search System, Focusing on the Search Index](https://trueinterview.io/questions/design-an-ai-powered-search-system-focusing-on-the-search-index?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-11 |
-| [Behavioral: Handling Negative Feedback and Resolving a Conflict at Work](https://trueinterview.io/questions/behavioral-handling-negative-feedback-and-resolving-a-conflict-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-11 |
+| [Behavioral: Handling Negative Feedback and Resolving a Conflict at Work](https://trueinterview.io/questions/behavioral-handling-negative-feedback-and-resolving-a-conflict-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 3 | 0 | 2026-07-11 |
 
 ---
 

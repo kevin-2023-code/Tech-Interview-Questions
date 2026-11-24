@@ -29,6 +29,7 @@ QR Data Analysis Prediction Case,Behavioral / Knowledge,,Onsite / virtual onsite
 Add Two Strings with a Single-Digit Adder,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-02-18,https://trueinterview.io/questions/add-two-strings-with-single-digit-adder
 Merge Intervals,Algorithm,Medium,Phone screen,,16,0,2026-02-04,https://trueinterview.io/questions/merge-intervals
 How to prepare for a hiring manager round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-01-22,https://trueinterview.io/questions/how-to-prepare-for-a-hiring-manager-round
+Number of Distinct Islands,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-01,https://trueinterview.io/questions/4efa382e-08ab-43e2-8ad5-306b5e2fbc86
 Answer four core statistics questions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-12-15,https://trueinterview.io/questions/answer-four-core-statistics-questions
 Huffman-Style Binary Encode / Decode,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-12-15,https://trueinterview.io/questions/huffman-style-binary-encode-decode
 Predicting Stock Prices from Twitter Data,System Design,Hard,Phone screen,Junior / Mid,1,0,2025-12-02,https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data
@@ -39,7 +40,6 @@ Smallest Palindrome Strictly Greater Than K,Algorithm,Hard,Phone screen,Junior /
 Assign 2n Workers to Two Tasks to Minimize Total Time,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-11-28,https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time
 Maximum Independent Set on a Tree,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2025-11-18,https://trueinterview.io/questions/maximum-independent-set-on-tree
 Implement Univariate Linear Regression with Ordinary Least Squares,Algorithm,Medium,Onsite / virtual onsite,New grad; Senior,1,0,2025-11-15,https://trueinterview.io/questions/implement-univariate-linear-regression-with-ordinary-least-squares
-Count Distinct Island Shapes in a Binary Grid,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2025-11-15,https://trueinterview.io/questions/count-distinct-island-shapes-in-a-binary-grid
 HashMap from Scratch,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2025-11-13,https://trueinterview.io/questions/hashmap-from-scratch
 Predict a Company's Stock Price from Six Years of Web Search Logs,System Design,Hard,Phone screen,Junior / Mid,1,0,2025-11-02,https://trueinterview.io/questions/predict-a-companys-stock-price-from-six-years-of-web-search-logs
 How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?,Behavioral / Knowledge,,Phone screen,Senior,1,1,2025-11,https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks

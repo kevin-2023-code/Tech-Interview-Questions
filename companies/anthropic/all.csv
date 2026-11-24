@@ -34,7 +34,6 @@ Design Telemetry Ingestion and Reconcile Metric Names,System Design,Medium,Phone
 File Deduplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f
 Reason About Delaying an AI Breakthrough Under Uncertain Risk,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk
 "Estimate FFN Compute, Memory, and Sharding Communication",System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication
-Explain How You Resolved a Professional Conflict,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/explain-how-you-resolved-a-professional-conflict
 Concurrent Web Crawler,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871
 Onsite Design Doc Review,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Manager,1,0,2026-09,https://trueinterview.io/questions/onsite-design-doc-review
 Find Duplicate Files,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b
@@ -52,7 +51,7 @@ Review and Scale an Inference Service Design,System Design,Hard,Phone screen,Sen
 Design Distributed Sorting Around an Explicit Helper Contract,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-27,https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract
 Implement a Duplicate-File Reporter,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-24,https://trueinterview.io/questions/implement-a-duplicate-file-reporter
 Explain Your Motivation and Practical Approach to AI Safety,Behavioral / Knowledge,,Phone screen,Senior,1,4,2026-08-22,https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety
-Describe your most impactful project,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08,https://trueinterview.io/questions/describe-your-most-impactful-project-2
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
 Hiring Manager Round — Behavioral & Collaboration,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,2026-08,https://trueinterview.io/questions/onsite-hm-behavioral
 Task Manager (TTL + Snapshot),Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid,1,3,2026-08,https://trueinterview.io/questions/oa-task-management
 Design Distributed AI Model Downloader,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/distributed-model-deployment-system-design
@@ -74,7 +73,6 @@ Behavioral: Resolving Competing Demands From Stakeholders With Different Goals,B
 Stack Trace Reconstruction,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,9,2026-06-04,https://trueinterview.io/questions/coding-q3-stack-trace
 In-Memory Cache: Bug-Fix + Durability,AI Coding,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,8,2026-06-04,https://trueinterview.io/questions/coding-q2-lru-cache-durability
 How do you lead under risk and uncertainty?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,0,2026-06,https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty
-Describe failure impact and resolve cross-functional conflict,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-06,https://trueinterview.io/questions/describe-failure-impact-and-resolve-cross-functional-conflict
 Implement an LRU cache with O(1) ops,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-06,https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops
 Answer Culture and Project Questions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,2026-06,https://trueinterview.io/questions/answer-culture-and-project-questions
 Python Data Analysis on a Provided Dataset (Capacity Management Context),AI Coding,Hard,Onsite / virtual onsite,Senior,1,1,2026-06,https://trueinterview.io/questions/d03ad0c8-580a-4af4-8619-328ea8011719
@@ -99,7 +97,6 @@ Compute Exclusive Time from Stack Events,Algorithm,Medium,Onsite / virtual onsit
 "Choosing Between Prompting, Retrieval and Fine-Tuning to Specialize an LLM",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-11,https://trueinterview.io/questions/choosing-between-prompting-retrieval-and-fine-tuning-to-specialize-an-llm
 "Keeping LLM Output Safe: Dual-Use Requests, Jailbreaks and Layered Defenses",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-10,https://trueinterview.io/questions/keeping-llm-output-safe-dual-use-requests-jailbreaks-and-layered-defenses
 Risks of Anthropomorphizing Large Language Models in AI Products,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-08,https://trueinterview.io/questions/risks-of-anthropomorphizing-large-language-models-in-ai-products
-Explaining Your Motivation to Join Anthropic as a Product Manager,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-07,https://trueinterview.io/questions/explaining-your-motivation-to-join-anthropic-as-a-product-manager
 Ideate an AI-Powered Product and Develop the Strongest Concept Into a First Version,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-06,https://trueinterview.io/questions/ideate-an-ai-powered-product-and-develop-the-strongest-concept-into-a-first-version
 Image Transformation using Python Libraries,AI Coding,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-04,https://trueinterview.io/questions/d5535584-0980-47fb-862d-6f9f7569791d
 Implement a UI From a Figma Mock in React + TypeScript,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91
@@ -107,6 +104,7 @@ Implement a UI From a Figma Mock in React + TypeScript,Behavioral / Knowledge,,O
 Implement a crash-resilient LRU cache,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-13,https://trueinterview.io/questions/implement-a-crash-resilient-lru-cache
 System Design Q5 — Data Infrastructure,System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,1,2026-03-07,https://trueinterview.io/questions/sd-q5-data-infrastructure
 RL Fundamentals — GRPO Debug,AI Coding,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-03-02,https://trueinterview.io/questions/rl-fundamentals-grpo-debug
+Describe how you resolve conflicts at work,Behavioral / Knowledge,,Phone screen,Senior,9,0,2026-03,https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work
 Web Crawler Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03,https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e
 ML Programming Screen — QKV Attention & einsum,AI Coding,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-02-18,https://trueinterview.io/questions/ml-programming-screen
 How should you handle misaligned interviews?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-01-19,https://trueinterview.io/questions/how-should-you-handle-misaligned-interviews
@@ -115,6 +113,7 @@ Python Class and Data Structures,Object-Oriented Programming,Easy,Onsite / virtu
 Performance Engineer Take-Home — Kernel Optimization,AI Coding,Medium,Take-home,Senior,1,0,2025-12-11,https://trueinterview.io/questions/performance-engineer-take-home
 Performance Modeling — Matmul Arithmetic Intensity,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,2,2025-12-11,https://trueinterview.io/questions/performance-engineer-modeling
 Explain projects and handle AI-safety conflicts,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-12,https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts
+Describe conflict and failure using STAR framework,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,4,0,2025-12,https://trueinterview.io/questions/describe-conflict-and-failure-using-star-framework
 Implement staircase printing and distributed mode/median,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-11-19,https://trueinterview.io/questions/implement-staircase-printing-and-distributed-mode-median
 Implement a Function 'get_when' in an In-Memory Database,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad,1,0,2025-11,https://trueinterview.io/questions/b6750541-51ba-4dfa-93b2-568a0c81515b
 Find duplicate files and apply image operations,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2025-10-15,https://trueinterview.io/questions/find-duplicate-files-and-apply-image-operations

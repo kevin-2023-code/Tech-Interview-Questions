@@ -27,7 +27,7 @@ Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,0,
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,0,2026-09,https://trueinterview.io/questions/basic-calculator-2
 Find Median from Data Stream,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/find-median-from-data-stream
-Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/design-tinyurl
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,12,0,2026-09,https://trueinterview.io/questions/design-tinyurl
 Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,0,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
 Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,0,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
 Design and Implement a Thread-Safe LRU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08-28,https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache
@@ -81,21 +81,21 @@ Service Dependency Shortest Latency Path,Algorithm,Medium,Onsite / virtual onsit
 Search Suggestion Service,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-01-30,https://trueinterview.io/questions/search-suggestion-service
 "Engineering Manager Scenarios: Promotion Cases, Team Conflict and Performance Plans",Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,0,2026-01-20,https://trueinterview.io/questions/engineering-manager-scenarios-promotion-cases-team-conflict-and-performance-plans
 "Engineering Manager Behavioral: Motivation, Taking Feedback and Leading a Reorganization",Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,0,2026-01-20,https://trueinterview.io/questions/engineering-manager-behavioral-motivation-taking-feedback-and-leading-a-reorganization
-"Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-20,https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons
+"Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-01-20,https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons
 iOS Scrollable Grid & Swift Concurrency,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-01-20,https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency
 How do you deliver when time is tight?,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-01-10,https://trueinterview.io/questions/how-do-you-deliver-when-time-is-tight
-Describe an innovation you drove end-to-end,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-01-10,https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end
+Describe an innovation you drove end-to-end,Behavioral / Knowledge,,Phone screen,Junior / Mid,2,0,2026-01-10,https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end
 Top K Frequent Elements,Algorithm,Medium,Phone screen,Junior / Mid,6,0,2026-01-10,https://trueinterview.io/questions/top-k-frequent-elements-3
 "Compare WebSocket, SSE, and long polling",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-04,https://trueinterview.io/questions/compare-websocket-sse-and-long-polling
 4Sum (Find all unique quadruplets),Algorithm,Medium,Phone screen,Senior,1,0,2026-01,https://trueinterview.io/questions/07f8b449-7967-4e4b-9036-b337ac8e591f
 DispatchQueue Code Analysis in Swift,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,1,2026-01,https://trueinterview.io/questions/4dde5e0c-9e01-477b-b775-5919892177b9
 Print Employee Org Chart,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-12-31,https://trueinterview.io/questions/print-employee-org-chart
 Find Peak Event Moment,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-12-31,https://trueinterview.io/questions/find-peak-event-moment
-Count ways to decode digit string,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2025-12,https://trueinterview.io/questions/count-ways-to-decode-digit-string
 Distinct Products Of Prime Subsets,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Senior,1,1,2025-12,https://trueinterview.io/questions/105bb2c5-a958-467e-bbb2-ac7c2bb81fe2
 How do you decide with limited information?,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,2025-11-26,https://trueinterview.io/questions/how-do-you-decide-with-limited-information
 Design ride-hailing and price alert systems,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2025-10-28,https://trueinterview.io/questions/design-ride-hailing-and-price-alert-systems
 Product Sense: A Low-Pressure Social Network Built Around Introverted Users,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-10-07,https://trueinterview.io/questions/product-sense-a-low-pressure-social-network-built-around-introverted-users
+Decode Ways / Alphanumeric Combination,Algorithm,Medium,Online assessment; Phone screen,New grad,3,0,2025-07-11,https://trueinterview.io/questions/decode-ways
 Influence a senior partner with data,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/influence-a-senior-partner-with-data
 Explain Random Forest randomness and implications,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/explain-random-forest-randomness-and-implications
 Design an experiment for spam filtering impact,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-an-experiment-for-spam-filtering-impact

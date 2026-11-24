@@ -2,9 +2,9 @@
 
 # Tesla interview questions
 
-61 questions reported at Tesla, most recently reported first.
+62 questions reported at Tesla, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (23) · [all](all.csv) (61)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (22) · [all](all.csv) (62)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -31,7 +31,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Spot US Market Gaps for a New Electric Vehicle Challenger to Tesla](https://trueinterview.io/questions/spot-us-market-gaps-for-a-new-electric-vehicle-challenger-to-tesla?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-26 |
 | [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 1 | 2026-06-16 |
 | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-06-03 |
-| [Describe conflict and proudest work](https://trueinterview.io/questions/describe-conflict-and-proudest-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2 | 2026-06 |
 | [Find Size of Largest Subset](https://trueinterview.io/questions/find-size-of-largest-subset?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-06-01 |
 | [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid | 1 | 1 | 2026-06 |
 | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 2 | 0 | 2026-06 |
@@ -45,6 +44,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Minimum Absolute Difference Pairs](https://trueinterview.io/questions/minimum-absolute-difference-pairs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 2 | 0 | 2026-04-18 |
 | [Fuel Station Queue Simulation](https://trueinterview.io/questions/fuel-station-queue-simulation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-18 |
 | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 3 | 0 | 2026-04-17 |
+| [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 5 | 0 | 2026-04 |
 | [Cumulative Monthly Sales by Store with Month Reset](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | Junior / Mid | 1 | 1 | 2026-04 |
 | [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Easy | Online assessment | Junior / Mid | 1 | 0 | 2026-04 |
 | [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | Junior / Mid | 1 | 1 | 2026-04 |
@@ -69,6 +69,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Route Nearest Checkpoint](https://trueinterview.io/questions/trajectory-waypoint-distance-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2025-08-11 |
 | [Dojo Pythonic Coding Pair: Permutation Check and Pow](../../questions/algorithm/dojo-permutation-and-pow/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2025-07-25 |
 | [Basic Calculator with Operators, Variables, and Functions](../../questions/object-oriented-programming/basic-calculator-extended-language/README.md) | Object-Oriented Programming | Medium | Phone screen | Senior | 1 | 0 | 2025-07-24 |
+| [Decode Ways / Alphanumeric Combination](https://trueinterview.io/questions/decode-ways?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment, Phone screen | New grad | 3 | 0 | 2025-07-11 |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 0 | 2025-07-04 |
 | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 3 | 0 | — |
 | [C++ Debugging: Doubly Linked List](https://trueinterview.io/questions/7f05aa82-8ea2-4d37-a3bb-3fd8ff97c6c8?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | — |

@@ -2,9 +2,9 @@
 
 # xAI interview questions
 
-49 questions reported at xAI, most recently reported first.
+48 questions reported at xAI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (18) · [all](all.csv) (49)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (18) · [all](all.csv) (48)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -34,7 +34,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 3 | 2026-04-04 |
 | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-04-04 |
 | [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Senior | 1 | 1 | 2026-04-02 |
-| [Answer technical-challenge and motivation questions](https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Senior | 1 | 0 | 2026-04 |
 | [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Online assessment, Take-home | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-01 |
 | [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-04 |
 | [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-04 |

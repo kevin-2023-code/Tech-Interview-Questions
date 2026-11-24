@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Chicago Trading | Phone screen | sliding-window | Jul 2026 |
+| Algorithm | Medium | Chicago Trading · Atlassian · ByteDance · Coinbase | Phone screen | sliding-window | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -115,7 +115,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Chicago Trading](../../../companies/chicago-trading/README.md)
+[Chicago Trading](../../../companies/chicago-trading/README.md) · [Atlassian](../../../companies/atlassian/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Coinbase](../../../companies/coinbase/README.md)
 
 ---
 

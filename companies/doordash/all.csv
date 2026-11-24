@@ -1,21 +1,16 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Explain Consistent Hashing with Routing Pseudocode,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-11-04,https://trueinterview.io/questions/explain-consistent-hashing-with-routing-pseudocode
-Design a URL Shortening Service,System Design,Easy,Phone screen,Junior / Mid; Senior,1,0,2026-10-31,https://trueinterview.io/questions/design-a-url-shortening-service-5
 Design a Driver Onboarding State Machine,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-27,https://trueinterview.io/questions/design-a-driver-onboarding-state-machine
 Describe Responsible AI Use and When You Choose Not to Use It,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-27,https://trueinterview.io/questions/describe-responsible-ai-use-and-when-you-choose-not-to-use-it
 Build a User Management CRUD Flow with React and Next.js,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-27,https://trueinterview.io/questions/build-a-user-management-crud-flow-with-react-and-next-js
 Build a REST and SSE Event UI with an AI Chat Component,Algorithm,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-27,https://trueinterview.io/questions/build-a-rest-and-sse-event-ui-with-an-ai-chat-component
 Build a React Product List with ID-Based Updates and a Cart,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-27,https://trueinterview.io/questions/build-a-react-product-list-with-id-based-updates-and-a-cart
-Support a Teammate’s Growth and Participation,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/support-a-teammate-s-growth-and-participation
 Revisit a Past Project from a Product Perspective,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/revisit-a-past-project-from-a-product-perspective
 Resolve a Technical Disagreement,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/resolve-a-technical-disagreement
 Improve Something That Was Already Working,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/improve-something-that-was-already-working
 Explain How Goals and Performance Were Evaluated,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/explain-how-goals-and-performance-were-evaluated
 Evaluate Your Experience with AI Tools and Team Opportunities,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/evaluate-your-experience-with-ai-tools-and-team-opportunities
-Discuss Your Biggest Failure and What You Would Change,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/discuss-your-biggest-failure-and-what-you-would-change
 Deep-Dive into a Project You Drove,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-24,https://trueinterview.io/questions/deep-dive-into-a-project-you-drove
-Show How Feedback Changed Your Engineering Approach,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid,1,0,2026-10-23,https://trueinterview.io/questions/show-how-feedback-changed-your-engineering-approach
-Resolve a Technical Disagreement with Another Team,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/resolve-a-technical-disagreement-with-another-team
 Render API Products in a Responsive Card Grid,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/render-api-products-in-a-responsive-card-grid
 Handle a Short Payment Traffic Surge through a Third-Party Processor,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-23,https://trueinterview.io/questions/handle-a-short-payment-traffic-surge-through-a-third-party-processor
 Explain an AI-Assisted Workflow from Design to Code,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/explain-an-ai-assisted-workflow-from-design-to-code
@@ -35,6 +30,7 @@ Make Delivery Pay Idempotent and Handle Peak-Time Multipliers,System Design,Medi
 Handling Duplicate Upstream Order Records in Dasher Pay Calculation,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-10-07,https://trueinterview.io/questions/handling-duplicate-upstream-order-records-in-dasher-pay-calculation
 Courier Pay From Overlapping Deliveries With Peak-Window Multipliers,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-01,https://trueinterview.io/questions/courier-pay-from-overlapping-deliveries-with-peak-window-multipliers
 Dasher Pay with Peak Time,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/279dfa0f-1962-577d-b67a-132ea36cd03d
+Describe a failure and what you learned,Behavioral / Knowledge,,Phone screen,Intern; Senior,4,7,2026-10,https://trueinterview.io/questions/describe-a-failure-and-what-you-learned
 Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
 Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
@@ -49,14 +45,14 @@ Build an Order-Exception Microservice with Explicit Refund Policies,Algorithm,Ha
 Make Rider Addition and Dispatch Safe Under Concurrency,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-09-10,https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency
 Design a Donation Service with Reliable Payment and Payout Tracking,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-09-10,https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking
 Behavioral: protecting a product's quality bar and attention to detail,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-09-05,https://trueinterview.io/questions/behavioral-protecting-a-products-quality-bar-and-attention-to-detail
-"Resolve Disagreement, Use Feedback, and Grow Engineering Judgment",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,2026-09-05,https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment
 Own Production Incidents and Validate Large Pipeline Migrations,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-05,https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations
 Investigate a Surge of Incorrect-Delivery Complaints at Scale,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-09-05,https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale
 "Explain AI Tool Use, Model Selection, and Engineering Validation",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-05,https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation
 Explain a Project's Most Complex Technical Component in Depth,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-09-05,https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth
 "Design Food-Item Reviews, Ratings, and Mutable Vote Counts",System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-05,https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts
 Implement Round-Robin and Consistent-Hashing Load Balancers,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/254f4bc1-6970-5ca1-ad6a-dcfe8391174c
-Resolve a Workplace Conflict,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,0,2026-09-01,https://trueinterview.io/questions/resolve-a-workplace-conflict
+Minimum Steps to Make Two Strings Anagram,Algorithm,Easy,Phone screen,Junior / Mid,4,0,2026-09,https://trueinterview.io/questions/minimum-steps-to-make-two-strings-anagram
+Resolve a Workplace Conflict,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,2,0,2026-09-01,https://trueinterview.io/questions/resolve-a-workplace-conflict
 Handle payment-service outages,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,3,2026-09,https://trueinterview.io/questions/handle-payment-service-outages
 Explain Why You Are Changing Roles,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Manager,1,0,2026-09-01,https://trueinterview.io/questions/explain-why-you-are-changing-roles
 Explain an AI-Assisted Project,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-01,https://trueinterview.io/questions/explain-an-ai-assisted-project
@@ -77,6 +73,7 @@ On-Call Case Investigation,Behavioral / Knowledge,,Onsite / virtual onsite,Senio
 Pick Dasher / Round Robin Load Balancer,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,8,2026-09,https://trueinterview.io/questions/debugging-pick-dasher-round-robin
 Code Craft: Bootstrap Aggregated API,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,12,0,2026-09,https://trueinterview.io/questions/design-tinyurl
 Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,0,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
 Serialize and Deserialize Binary Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6,3,2026-09,https://trueinterview.io/questions/serialize-and-deserialize-binary-tree
 Culture & Behavioral Interview Questions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,2,0,2026-09,https://trueinterview.io/questions/culture-behavioral-interview-questions
@@ -87,12 +84,14 @@ First Unique Restaurant in a Stream,Algorithm,Medium,Onsite / virtual onsite,Sen
 Minimum Dasher Processing Speed,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-08-16,https://trueinterview.io/questions/coding-minimum-dasher-processing-speed
 "Audible Growth Strategy: Sizing Membership, Pricing and New Revenue Levers for a 3x Goal",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-12,https://trueinterview.io/questions/audible-growth-strategy-sizing-membership-pricing-and-new-revenue-levers-for-a-3x-goal
 "Amazon Average Order Value: Levers, Sizing and Guardrails for Doubling Basket Size",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08-12,https://trueinterview.io/questions/amazon-average-order-value-levers-sizing-and-guardrails-for-doubling-basket-size
+Present an end-to-end project and defend decisions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,3,2,2026-08,https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions
 Design an alert notification system,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-08,https://trueinterview.io/questions/design-an-alert-notification-system
 Filter Open Restaurants Within a City Range,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/0370baec-233b-5318-a1c6-59fe6fff1704
 Dasher Pay Classic Problem,Algorithm,Medium,Phone screen,Senior,1,0,2026-08,https://trueinterview.io/questions/cb1af2e3-d261-4cd6-9b7c-fb10f0ee8187
 Code Craft: Batch with Capacity & Time Window,Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-08,https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle
 Koko Eating Bananas,Algorithm,Medium,Phone screen,Senior,4,0,2026-08,https://trueinterview.io/questions/koko-eating-bananas
-Concrete examples of how AI tools have changed your day-to-day product work,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07-24,https://trueinterview.io/questions/concrete-examples-of-how-ai-tools-have-changed-your-day-to-day-product-work
+Concrete examples of how AI tools have changed your day-to-day product work,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-07-24,https://trueinterview.io/questions/concrete-examples-of-how-ai-tools-have-changed-your-day-to-day-product-work
+Behavioral: Handling Negative Feedback and Resolving a Conflict at Work,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,0,2026-07-11,https://trueinterview.io/questions/behavioral-handling-negative-feedback-and-resolving-a-conflict-at-work
 Sizing a DoorDash Partnership With Burger King That Demands a Bigger Cut per Order,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-06,https://trueinterview.io/questions/sizing-a-doordash-partnership-with-burger-king-that-demands-a-bigger-cut-per-order
 DoorDash Executive Dashboard: Picking and Organizing the Metrics the CEO Needs,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-06,https://trueinterview.io/questions/doordash-executive-dashboard-picking-and-organizing-the-metrics-the-ceo-needs
 ML Knowledge / Discussion Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07-02,https://trueinterview.io/questions/mle-ml-discussion-round
@@ -135,6 +134,7 @@ Code Craft: Basic Calculator (No Parentheses),Algorithm,Medium,Phone screen,Seni
 Customer Review Page (EM),System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-04-02,https://trueinterview.io/questions/system-design-customer-review-page-em
 How would you mentor junior teammates?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,1,2026-04,https://trueinterview.io/questions/how-would-you-mentor-junior-teammates
 Explain interest and influence stakeholders,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-04,https://trueinterview.io/questions/explain-interest-and-influence-stakeholders
+Discuss proudest project and conflict handling,Behavioral / Knowledge,,Phone screen,Junior / Mid,5,0,2026-04,https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling
 Find Each Cell's Nearest Source,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/find-each-cells-nearest-source
 Design Path Key Value Store,Object-Oriented Programming,Medium,Phone screen,Senior,1,0,2026-04,https://trueinterview.io/questions/design-path-key-value-store
 Find Peak Element,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-04,https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61
@@ -153,15 +153,14 @@ How would you prevent wrong items in deliveries?,Behavioral / Knowledge,,Onsite 
 How do you discuss mistakes and trade-offs?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-03,https://trueinterview.io/questions/how-do-you-discuss-mistakes-and-trade-offs
 Design an API for pay computation with retries,System Design,Medium,Online assessment,Senior,1,2,2026-03,https://trueinterview.io/questions/design-an-api-for-pay-computation-with-retries
 Design a scalable recommendation serving system,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-03,https://trueinterview.io/questions/design-a-scalable-recommendation-serving-system
-Describe handling conflict and a proud project,Behavioral / Knowledge,,Online assessment,Senior,1,0,2026-03,https://trueinterview.io/questions/describe-handling-conflict-and-a-proud-project
 Describe a conflict and how you resolved it,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-03,https://trueinterview.io/questions/describe-a-conflict-and-how-you-resolved-it
 Compute Fitness App DAU,SQL,Medium,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/compute-fitness-app-dau
 "Answer feedback, conflict, and failure questions",Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-03,https://trueinterview.io/questions/answer-feedback-conflict-and-failure-questions
-Minimum Replacements to Make Two Strings Anagrams,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-03,https://trueinterview.io/questions/ab4d715c-a45e-4d9d-bff9-8fe14a380cbf
 Max Sum Sliding Window and Return Start Days (1-based),Algorithm,Easy,Online assessment,New grad; Junior / Mid; Senior,1,3,2026-03,https://trueinterview.io/questions/cb56b885-74d2-47ca-aefe-725df4a97b39
 Rideshare Subscription: Finding and Ranking the Experiences That Hurt Members Most,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,0,2026-02-17,https://trueinterview.io/questions/rideshare-subscription-finding-and-ranking-the-experiences-that-hurt-members-most
 Closest Binary Search Tree Value,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,1,2026-02-13,https://trueinterview.io/questions/closest-binary-search-tree-value
 Design experiments for marketplace product changes,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-09,https://trueinterview.io/questions/design-experiments-for-marketplace-product-changes
+PM behavioral: a piece of feedback you acted on and what changed afterward,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,6,0,2026-02-06,https://trueinterview.io/questions/pm-behavioral-a-piece-of-feedback-you-acted-on-and-what-changed-afterward
 Evaluate a new ranking model,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-06,https://trueinterview.io/questions/evaluate-a-new-ranking-model
 Assess Adding Bicycle Dashers,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-02-02,https://trueinterview.io/questions/assess-adding-bicycle-dashers
 Build ETA prediction and simulate impact,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/build-eta-prediction-and-simulate-impact
@@ -175,7 +174,7 @@ Select the best dasher for an order,Algorithm,Easy,Online assessment,Intern; New
 "Fitness Tracking App Data Model: Tables, Keys and Relationships",System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01-10,https://trueinterview.io/questions/fitness-tracking-app-data-model-tables-keys-and-relationships
 Protect SLA and Choose Storage,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-01-09,https://trueinterview.io/questions/protect-sla-and-choose-storage
 Calculate Courier Earnings,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-01-09,https://trueinterview.io/questions/calculate-courier-earnings
-TaskRabbit PM case: preventing and recovering from the most painful bookings,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-05,https://trueinterview.io/questions/taskrabbit-pm-case-preventing-and-recovering-from-the-most-painful-bookings
+TaskRabbit PM case: preventing and recovering from the most painful bookings,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,2,0,2026-01-05,https://trueinterview.io/questions/taskrabbit-pm-case-preventing-and-recovering-from-the-most-painful-bookings
 Calculate Dasher Salary,Algorithm,Medium,Phone screen,New grad,1,1,2026-01,https://trueinterview.io/questions/calculate-dasher-salary
 Count and Say,Algorithm,Easy,Online assessment,Staff+,1,0,2026-01,https://trueinterview.io/questions/fd94fd33-664d-46f3-b15b-9121ced75b5e
 Google Flights after purchase: rank traveler pain points and pick one to fix,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-12-28,https://trueinterview.io/questions/google-flights-after-purchase-rank-traveler-pain-points-and-pick-one-to-fix

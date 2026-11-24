@@ -4,7 +4,7 @@
 
 6 questions reported at Nielsen, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (6)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (6)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,12 +12,12 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
+| [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 14 | 8 | 2026-08 |
 | [Short-Link Service Design: Code Hashing, Collision Handling, and Read-Heavy Scaling](https://trueinterview.io/questions/short-link-service-design-code-hashing-collision-handling-and-read-heavy-scaling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 5 | 0 | 2026-05-06 |
 | [Spring Boot Internals and Java 21 Features Behind a Machine Coding Solution](https://trueinterview.io/questions/spring-boot-internals-and-java-21-features-behind-a-machine-coding-solution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-04 |
 | [Prefix Tree Supporting Insert, Exact Search and Prefix Queries](https://trueinterview.io/questions/prefix-tree-supporting-insert-exact-search-and-prefix-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-05-04 |
-| [Behavioral: Walk Through the Project You Are Most Proud Of](https://trueinterview.io/questions/behavioral-walk-through-the-project-you-are-most-proud-of?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad | 1 | 0 | 2026-05-04 |
-| [Behavioral: Resolving a Conflict With a Coworker](https://trueinterview.io/questions/behavioral-resolving-a-conflict-with-a-coworker?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-05-04 |
 | [Go or no-go call on a Zomato voice ordering integration with Alexa](https://trueinterview.io/questions/go-or-no-go-call-on-a-zomato-voice-ordering-integration-with-alexa?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-03 |
+| [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 9 | 0 | 2026-03 |
 
 ---
 

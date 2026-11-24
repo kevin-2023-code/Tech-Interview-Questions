@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple | Phone screen | binary-search, matrix | May 2026 |
+| Algorithm | Easy | Apple · Amazon | Phone screen | binary-search, matrix | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/search-a-2d-matrix)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -76,7 +76,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md)
 
 ---
 

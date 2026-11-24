@@ -13,7 +13,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Design a Windowed Hit Counter with Fixed Buckets and Concurrency](https://trueinterview.io/questions/design-a-windowed-hit-counter-with-fixed-buckets-and-concurrency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-11-02 |
-| [Behavioral: walk through a product you owned that failed and what you learned](https://trueinterview.io/questions/behavioral-walk-through-a-product-you-owned-that-failed-and-what-you-learned?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-25 |
+| [Behavioral: walk through a product you owned that failed and what you learned](https://trueinterview.io/questions/behavioral-walk-through-a-product-you-owned-that-failed-and-what-you-learned?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-07-25 |
 
 ---
 

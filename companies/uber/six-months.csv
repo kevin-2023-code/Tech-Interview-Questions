@@ -2,7 +2,6 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 Uber Product Design: Build an AI-Powered Product for Riders or Drivers,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-19,https://trueinterview.io/questions/uber-product-design-build-an-ai-powered-product-for-riders-or-drivers
 Detect a Cycle in a Directed Graph,Algorithm,Medium,Phone screen,Senior,2,0,2026-10,https://trueinterview.io/questions/dd2c77a9-9d96-5ffd-a303-755aee03b614
 Serialize and Deserialize an N-ary Tree,Algorithm,Medium,Phone screen,Senior,1,0,2026-10,https://trueinterview.io/questions/47b75620-2eae-503c-9ef8-f67cf680e642
-Describe your strongest project,Behavioral / Knowledge,,Online assessment,Junior / Mid; Staff+,1,0,2026-10,https://trueinterview.io/questions/describe-your-strongest-project
 Describe ownership and failure,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,3,2026-10,https://trueinterview.io/questions/describe-ownership-and-failure
 Describe Conflict and Impact,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,11,2026-10,https://trueinterview.io/questions/describe-conflict-and-impact
 Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
@@ -71,6 +70,7 @@ Uber After Driverless Cars Mature: Anticipate the Biggest Problems and Plan Resp
 Find the Best Currency Conversion Rate,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/find-the-best-currency-conversion-rate
 Design a Scalable Calendar Service,System Design,Hard,Phone screen,Junior / Mid; Senior,2,0,2026-08,https://trueinterview.io/questions/design-a-scalable-calendar-service
 Prime-Constrained Score Jump,Algorithm,Hard,Phone screen,New grad,1,3,2026-08,https://trueinterview.io/questions/solve-prime-jumps-and-pipeline-scaling-prime-constrained-score-jump
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
 Cheapest Round-Trip Flight,Algorithm,Medium,Phone screen,Senior,1,1,2026-08,https://trueinterview.io/questions/ef33eec5-3ed7-562d-90fa-74e18d20d37d
 Implement a YAML Parser,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/1c342f27-ba5a-50b5-9cab-a2ef98aaba12
 Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390

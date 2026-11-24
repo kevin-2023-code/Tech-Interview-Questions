@@ -1,6 +1,7 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 "Store, Deliver and Rotate an API Server's Database Credentials",Object-Oriented Programming,Medium,Phone screen,Senior; Staff+,1,0,2026-10-23,https://trueinterview.io/questions/store-deliver-and-rotate-an-api-servers-database-credentials
 Implement a Rate Limiter for CI Jobs Rather Than for API Requests,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/implement-a-rate-limiter-for-ci-jobs-rather-than-for-api-requests
+Behavioral: Collaborating Across Clashing Priorities and Working Styles,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10-16,https://trueinterview.io/questions/behavioral-collaborating-across-clashing-priorities-and-working-styles
 Hiring Manager + Behavioral Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/hm-and-bq-rounds
 Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,8,2026-10,https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec
 Track Top-K Frequent Elements from an Unbounded Stream,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream
@@ -11,9 +12,10 @@ Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,0,2
 String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
 Coffee Ordering System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/coffee-ordering-system
 Maximum Requests in a Time Window,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/maximum-requests-in-time-window
-Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/design-tinyurl
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,12,0,2026-09,https://trueinterview.io/questions/design-tinyurl
 Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,0,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
 LFU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/lfu-cache
+Minimum Replacements for Adjacent Duplicate Characters,Algorithm,Medium,Online assessment,New grad; Junior / Mid,4,0,2026-08-27,https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates
 Minimum One-Character Word Transformations,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-08-24,https://trueinterview.io/questions/minimum-word-transformation-steps
 Find the Celebrity,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2026-08-24,https://trueinterview.io/questions/find-the-celebrity
 Design an Enterprise Messaging / Collaboration System,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-08-16,https://trueinterview.io/questions/enterprise-messaging-collaboration-system

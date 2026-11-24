@@ -8,7 +8,7 @@ Implement a Reusable Cyclic Barrier,Object-Oriented Programming,Hard,Onsite / vi
 Query Store Opening Hours with Weekly and Overnight Schedules,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/744328fa-1f8e-5a2b-a56f-bfa3d4bede9a
 Implement a Blocking Producer-Consumer Queue,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,1,2026-10,https://trueinterview.io/questions/0adf134e-1cdf-57c2-98d7-78cd94cfd6a4
 Explain your LLM project and contributions,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,3,2026-10,https://trueinterview.io/questions/explain-your-llm-project-and-contributions
-Describe proudest project and toughest challenge,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge
+Describe proudest project and toughest challenge,Behavioral / Knowledge,,Phone screen,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge
 LRU Cache + Thread-Safe Follow-up,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,12,2026-10,https://trueinterview.io/questions/coding-lru-cache-multithread
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
 Number of Islands II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,7,2026-10,https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d
@@ -26,6 +26,7 @@ Write a Usage Example for a Resource-Owning C++ Class and Explain Its Semantics,
 Redesign an Existing Relational Database to Reduce Read Latency,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-21,https://trueinterview.io/questions/redesign-an-existing-relational-database-to-reduce-read-latency
 Apple Hardware-as-a-Subscription Strategy: Launch Recommendation,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-21,https://trueinterview.io/questions/apple-hardware-as-a-subscription-strategy-launch-recommendation
 "Go or No-Go on a Social Layer for iMessage, and Scoping the First Bet",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-16,https://trueinterview.io/questions/go-or-no-go-on-a-social-layer-for-imessage-and-scoping-the-first-bet
+Explain How You Learn New Technical Topics,Behavioral / Knowledge,,Onsite / virtual onsite,Intern; New grad; Junior / Mid,2,0,2026-09-14,https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics
 Explore Employee and Session Audit Tables Before Analysis,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/explore-employee-and-session-audit-tables-before-analysis
 Apple System-Level Feature That Nudges Users Toward Climate-Friendly Habits,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/apple-system-level-feature-that-nudges-users-toward-climate-friendly-habits
 Forecast Storage Demand Across 100 Data Centers,System Design,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers
@@ -41,6 +42,7 @@ Choose File Storage Tiers Using Access Predictions,Algorithm,Hard,Phone screen,J
 Merge Two Strings by Maximum Edge Overlap,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/e375a17a-d43d-501b-b79c-2fa09b7bcabc
 Check Whether a String Is a Palindrome,Algorithm,Easy,Online assessment,Junior / Mid,1,2,2026-09,https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057
 Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/top-k-largest-elements
+Reverse a Linked List,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/e65902ca-ab54-4dcc-a633-e1d3b54d718c
 Insert Delete GetRandom O(1),Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,4,11,2026-09,https://trueinterview.io/questions/insert-delete-getrandom-o-1
 Valid Palindrome,Algorithm,Easy,Phone screen,Junior / Mid,4,0,2026-09,https://trueinterview.io/questions/valid-palindrome
 Alien Dictionary,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/alien-dictionary

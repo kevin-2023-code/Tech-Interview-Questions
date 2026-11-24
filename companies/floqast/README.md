@@ -12,7 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Product manager behavioral: your highest-impact project and how you proved its results](https://trueinterview.io/questions/product-manager-behavioral-your-highest-impact-project-and-how-you-proved-its-results?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-02 |
+| [Product manager behavioral: your highest-impact project and how you proved its results](https://trueinterview.io/questions/product-manager-behavioral-your-highest-impact-project-and-how-you-proved-its-results?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2025-11-02 |
 
 ---
 

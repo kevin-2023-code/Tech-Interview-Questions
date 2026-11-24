@@ -8,7 +8,7 @@ Implement a Reusable Cyclic Barrier,Object-Oriented Programming,Hard,Onsite / vi
 Query Store Opening Hours with Weekly and Overnight Schedules,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/744328fa-1f8e-5a2b-a56f-bfa3d4bede9a
 Implement a Blocking Producer-Consumer Queue,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,1,2026-10,https://trueinterview.io/questions/0adf134e-1cdf-57c2-98d7-78cd94cfd6a4
 Explain your LLM project and contributions,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,3,2026-10,https://trueinterview.io/questions/explain-your-llm-project-and-contributions
-Describe proudest project and toughest challenge,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge
+Describe proudest project and toughest challenge,Behavioral / Knowledge,,Phone screen,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge
 LRU Cache + Thread-Safe Follow-up,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,12,2026-10,https://trueinterview.io/questions/coding-lru-cache-multithread
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
 Number of Islands II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,7,2026-10,https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d
@@ -26,6 +26,7 @@ Write a Usage Example for a Resource-Owning C++ Class and Explain Its Semantics,
 Redesign an Existing Relational Database to Reduce Read Latency,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-21,https://trueinterview.io/questions/redesign-an-existing-relational-database-to-reduce-read-latency
 Apple Hardware-as-a-Subscription Strategy: Launch Recommendation,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-21,https://trueinterview.io/questions/apple-hardware-as-a-subscription-strategy-launch-recommendation
 "Go or No-Go on a Social Layer for iMessage, and Scoping the First Bet",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-16,https://trueinterview.io/questions/go-or-no-go-on-a-social-layer-for-imessage-and-scoping-the-first-bet
+Explain How You Learn New Technical Topics,Behavioral / Knowledge,,Onsite / virtual onsite,Intern; New grad; Junior / Mid,2,0,2026-09-14,https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics
 Explore Employee and Session Audit Tables Before Analysis,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/explore-employee-and-session-audit-tables-before-analysis
 Apple System-Level Feature That Nudges Users Toward Climate-Friendly Habits,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/apple-system-level-feature-that-nudges-users-toward-climate-friendly-habits
 Forecast Storage Demand Across 100 Data Centers,System Design,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers
@@ -41,6 +42,7 @@ Choose File Storage Tiers Using Access Predictions,Algorithm,Hard,Phone screen,J
 Merge Two Strings by Maximum Edge Overlap,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/e375a17a-d43d-501b-b79c-2fa09b7bcabc
 Check Whether a String Is a Palindrome,Algorithm,Easy,Online assessment,Junior / Mid,1,2,2026-09,https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057
 Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/top-k-largest-elements
+Reverse a Linked List,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/e65902ca-ab54-4dcc-a633-e1d3b54d718c
 Insert Delete GetRandom O(1),Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,4,11,2026-09,https://trueinterview.io/questions/insert-delete-getrandom-o-1
 Valid Palindrome,Algorithm,Easy,Phone screen,Junior / Mid,4,0,2026-09,https://trueinterview.io/questions/valid-palindrome
 Alien Dictionary,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/alien-dictionary
@@ -64,7 +66,6 @@ Distinguish Endpoint and Survival Probabilities in a 3D Diagonal Walk,Algorithm,
 Count Nodes in a Line Network through Neighbor Messages,System Design,Easy,Phone screen,Junior / Mid; Senior,1,0,2026-08-26,https://trueinterview.io/questions/count-nodes-in-a-line-network-through-neighbor-messages
 Sparse Matrix Multiplication (LC 311),Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-08-26,https://trueinterview.io/questions/sparse-matrix-multiplication
 Cross-Device Wallpaper Synchronization,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-16,https://trueinterview.io/questions/cross-device-wallpaper-synchronization
-Copy List with Random Pointer (LC 138),Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,1,2026-08-16,https://trueinterview.io/questions/copy-list-with-random-pointer-2
 Post-Launch Scorecard for an Apple Release: Customer Experience and Competitive Position,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,0,2026-08-13,https://trueinterview.io/questions/post-launch-scorecard-for-an-apple-release-customer-experience-and-competitive-position
 Apple Music Strategy to Grow Listening Habits and Loyalty Among Young Listeners,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-13,https://trueinterview.io/questions/apple-music-strategy-to-grow-listening-habits-and-loyalty-among-young-listeners
 Trade In Payouts,SQL,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,2026-08-13,https://trueinterview.io/questions/trade-in-payouts
@@ -74,11 +75,12 @@ Apple Wallet Product Improvement: Choosing a Segment and Prioritizing New Featur
 Top K Closest Pairs in a Sorted Array,Algorithm,Hard,Onsite / virtual onsite,Senior,1,0,2026-08-05,https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array
 "Handle conflict, priorities, and harsh clients",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Manager,1,0,2026-08,https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients
 Design APIs for a Voting System,System Design,Hard,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/design-apis-for-a-voting-system
-Find longest uniform substring after k replacements,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,1,2026-08,https://trueinterview.io/questions/find-longest-uniform-substring-after-k-replacements
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
 Validate and Aggregate HTTP Access Logs,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/a0c61319-db55-58db-871b-be9dff51aee8
 Swap Two Variables Without Using Temporary Variable,Algorithm,Easy,Online assessment,Senior,2,0,2026-08,https://trueinterview.io/questions/68870b4c-8508-4508-88c9-186133ebadf8
 Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
 Best Time to Buy and Sell Stock IV,Algorithm,Medium,Phone screen,Junior / Mid; Senior,8,0,2026-08,https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1
+Clone Linked List with Random + Next Pointer,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,3,0,2026-08,https://trueinterview.io/questions/clone-linked-list-random-and-next-pointer
 Behavioral Prioritization and Stakeholder Fit,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,2026-08,https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit
 Shortest Bridge,Algorithm,Medium,Phone screen,Senior,3,0,2026-08,https://trueinterview.io/questions/shortest-bridge-2
 Koko Eating Bananas,Algorithm,Medium,Phone screen,Senior,4,0,2026-08,https://trueinterview.io/questions/koko-eating-bananas
@@ -118,6 +120,7 @@ Determine Whether an Undirected Graph Is Bipartite,Algorithm,Medium,Phone screen
 Design Task Manager,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/011f47a1-c863-5396-80c8-026f0ef2702e
 Unit Conversion II,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/00f63c5f-2290-52e8-bdeb-3514a6c97993
 ML Systems Codebase Deep Dive,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-07-01,https://trueinterview.io/questions/ml-systems-codebase-deep-dive
+Longest Repeating Character Replacement,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,0,2026-07,https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714
 Binary Tree Vertical Order Traversal,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,5,0,2026-07,https://trueinterview.io/questions/binary-tree-vertical-order-traversal
 Rotate a Matrix by 90 Degrees In Place,Algorithm,Medium,Phone screen,Intern; Junior / Mid,4,0,2026-07,https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56
 Implement Trie (Prefix Tree),Object-Oriented Programming,Easy,Phone screen,Junior / Mid,4,1,2026-07,https://trueinterview.io/questions/implement-trie-prefix-tree-2
@@ -137,6 +140,7 @@ Crafting a Compelling Job Transition and Motivation Response,Behavioral / Knowle
 Valid Sudoku,Algorithm,Easy,Phone screen,Junior / Mid,3,0,2026-06,https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c
 Shortest Path in a Grid with Obstacle Removal,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,2,2026-06,https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal
 Happy Number II,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-05-27,https://trueinterview.io/questions/happy-number-2
+Why You Are Leaving Your Current Role: Framing a Career Move in a PM Interview,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-05-26,https://trueinterview.io/questions/why-you-are-leaving-your-current-role-framing-a-career-move-in-a-pm-interview
 Kubernetes Service Filter & Dependency Chain,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-05-14,https://trueinterview.io/questions/kubernetes-service-filter-and-dependency-chain
 Bag-of-Words Similarity Search from Scratch,Algorithm,Medium,Phone screen,,1,0,2026-05-05,https://trueinterview.io/questions/bag-of-words-similarity-search-from-scratch
 Substring Pattern Matches,Algorithm,Easy,Phone screen,Intern; New grad; Junior / Mid,1,0,2026-05-03,https://trueinterview.io/questions/substring-pattern-matches
@@ -144,7 +148,7 @@ Design Dropbox,System Design,Hard,Phone screen; Onsite / virtual onsite,Junior /
 How do you align ambiguous cross-functional projects?,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,2026-05,https://trueinterview.io/questions/how-do-you-align-ambiguous-cross-functional-projects
 Explain HashMap Resizing Without Long Pauses,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-05,https://trueinterview.io/questions/explain-hashmap-resizing-without-long-pauses
 Design Disk-Based Inventory Serving,System Design,Hard,Phone screen,Senior,1,0,2026-05,https://trueinterview.io/questions/design-disk-based-inventory-serving
-Search a 2D Matrix,Algorithm,Easy,Phone screen,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/search-a-2d-matrix
+Search a 2D Matrix,Algorithm,Easy,Phone screen,Junior / Mid,2,0,2026-05,https://trueinterview.io/questions/search-a-2d-matrix
 Maximum Number of Eaten Apples,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-04-24,https://trueinterview.io/questions/maximum-number-of-eaten-apples
 Merge Two Sorted Lists,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-04-20,https://trueinterview.io/questions/merge-two-sorted-lists
 Flood Fill,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-20,https://trueinterview.io/questions/flood-fill
@@ -165,14 +169,9 @@ Implement an Image Filter,Algorithm,Medium,Phone screen,Senior,1,0,2026-04,https
 Design a Concurrent Image Upload System,System Design,Medium,Online assessment,Junior / Mid; Senior,1,0,2026-04,https://trueinterview.io/questions/design-a-concurrent-image-upload-system
 Siri Grounded Response Generation,System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,2,2026-03-28,https://trueinterview.io/questions/siri-grounded-response-generation
 Implement K-Means in NumPy or PyTorch,AI Coding,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-03-25,https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch
-Explaining the Reason and Timing Behind Your Job Search in a PM Interview,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-20,https://trueinterview.io/questions/explaining-the-reason-and-timing-behind-your-job-search-in-a-pm-interview
-Reverse a Singly Linked List In Place,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/reverse-a-singly-linked-list-in-place-2
-Reflect on Failure and Success in Technical Work,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/reflect-on-failure-and-success-in-technical-work
 "Explain Java Polymorphism, Overloading, and Overriding",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/explain-java-polymorphism-overloading-and-overriding-2
 Explain Java Constructors and the super Keyword,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/explain-java-constructors-and-the-super-keyword-2
-Explain How You Learn an Unfamiliar Technical Topic,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-03-14,https://trueinterview.io/questions/explain-how-you-learn-an-unfamiliar-technical-topic
 Explain Encapsulation through an Object Invariant,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/explain-encapsulation-through-an-object-invariant-2
-Explain a Strong Project and What You Would Improve,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/explain-a-strong-project-and-what-you-would-improve
 Distinguish Checked and Unchecked Exceptions in Java,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/distinguish-checked-and-unchecked-exceptions-in-java-2
 "Compare String, StringBuilder, and StringBuffer in Java",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-03-14,https://trueinterview.io/questions/compare-string-stringbuilder-and-stringbuffer-in-java-2
 Choose between a Java Interface and an Abstract Class,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/choose-between-a-java-interface-and-an-abstract-class-2
@@ -192,6 +191,7 @@ Design a Deck of Cards,Object-Oriented Programming,Medium,Phone screen,Junior / 
 Debug a Buggy UNet in PyTorch,AI Coding,Hard,Phone screen,Senior,1,1,2026-02-25,https://trueinterview.io/questions/debug-a-buggy-unet-in-pytorch
 Compare audio preprocessing and training,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-02-15,https://trueinterview.io/questions/compare-audio-preprocessing-and-training
 Design CI/CD for AI Services,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-13,https://trueinterview.io/questions/design-ci-cd-for-ai-services
+Describe a failure and a success,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,2,0,2026-02-12,https://trueinterview.io/questions/describe-a-failure-and-a-success
 Compute conflicts and minimum meeting rooms,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-02-12,https://trueinterview.io/questions/compute-conflicts-and-minimum-meeting-rooms
 Describe your most memorable bug and fix,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-02-09,https://trueinterview.io/questions/describe-your-most-memorable-bug-and-fix
 Solve mixed coding tasks from interviews,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-02-09,https://trueinterview.io/questions/solve-mixed-coding-tasks-from-interviews
@@ -213,7 +213,7 @@ Design Siri-vs-GPT query routing,System Design,Medium,Phone screen,Senior; Staff
 Design a streaming embedding-based classifier,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-01-02,https://trueinterview.io/questions/design-a-streaming-embedding-based-classifier
 Design TTL Cache,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-01-02,https://trueinterview.io/questions/design-ttl-cache
 Implement most frequent key without using max(),Object-Oriented Programming,Easy,Phone screen,Junior / Mid; Senior,1,0,2025-12-30,https://trueinterview.io/questions/implement-most-frequent-key-without-using-max-2
-Behavioral: a skill you learned on your own and what it let you deliver,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-12-27,https://trueinterview.io/questions/behavioral-a-skill-you-learned-on-your-own-and-what-it-let-you-deliver
+Behavioral: a skill you learned on your own and what it let you deliver,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2025-12-27,https://trueinterview.io/questions/behavioral-a-skill-you-learned-on-your-own-and-what-it-let-you-deliver
 Out of Boundary Paths,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-12-21,https://trueinterview.io/questions/out-of-boundary-paths
 Numbers with No Neighbors,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-12-21,https://trueinterview.io/questions/numbers-with-no-neighbors
 Apple News Search Without ML,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-18,https://trueinterview.io/questions/apple-news-search-without-ml
@@ -222,7 +222,7 @@ Design a multimodal RAG assistant,System Design,Hard,Phone screen,Senior; Staff+
 Implement TF-IDF scoring for documents,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-12-15,https://trueinterview.io/questions/implement-tf-idf-scoring-for-documents
 "Online Token Processing, Embeddings, and Classification",Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2025-12-11,https://trueinterview.io/questions/online-token-processing-embeddings-and-classification
 Count Value Occurrences in a Binary Tree,Algorithm,Easy,Phone screen,Senior,1,0,2025-12-10,https://trueinterview.io/questions/count-value-occurrences-in-a-binary-tree
-Second Highest Salary,SQL,Easy,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid,1,1,2025-12,https://trueinterview.io/questions/second-highest-salary-2
+Second Highest Salary,SQL,Easy,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid,4,1,2025-12,https://trueinterview.io/questions/second-highest-salary-2
 Concurrent users from online intervals,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-11-27,https://trueinterview.io/questions/solve-interval-grid-fill-and-heap-tasks-concurrent-users-from-online-intervals
 How would you handle an unresponsive teammate?,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,2025-11-27,https://trueinterview.io/questions/how-would-you-handle-an-unresponsive-teammate
 Find Failed Login IPs,Algorithm,Easy,Phone screen,Junior / Mid,1,1,2025-11-20,https://trueinterview.io/questions/find-failed-login-ips

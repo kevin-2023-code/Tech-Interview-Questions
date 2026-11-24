@@ -4,7 +4,7 @@
 
 1 question reported at Taskrabbit, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (1)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (1)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,7 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [TaskRabbit: Diagnose and Fix the Biggest Pain Points After a Client Books a Tasker](https://trueinterview.io/questions/taskrabbit-diagnose-and-fix-the-biggest-pain-points-after-a-client-books-a-tasker?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-13 |
+| [TaskRabbit PM case: preventing and recovering from the most painful bookings](https://trueinterview.io/questions/taskrabbit-pm-case-preventing-and-recovering-from-the-most-painful-bookings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-01-05 |
 
 ---
 

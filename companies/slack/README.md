@@ -15,7 +15,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Build a Goal-Driven Feature Roadmap for Meta's Messenger App](https://trueinterview.io/questions/build-a-goal-driven-feature-roadmap-for-metas-messenger-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-28 |
 | [Turning a CEO Request for New Slack Features Into a Prioritized Roadmap](https://trueinterview.io/questions/turning-a-ceo-request-for-new-slack-features-into-a-prioritized-roadmap?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-28 |
 | [Slack product-led growth: new self-serve acquisition, activation and expansion loops](https://trueinterview.io/questions/slack-product-led-growth-new-self-serve-acquisition-activation-and-expansion-loops?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-05-31 |
-| [Real-Time Team Chat System Design for Slack: Channels, Delivery and Message History](https://trueinterview.io/questions/real-time-team-chat-system-design-for-slack-channels-delivery-and-message-history?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-03-17 |
+| [Design a Slack-Like Messaging System](https://trueinterview.io/questions/design-a-slack-like-messaging-system-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior | 2 | 0 | 2026-05 |
 
 ---
 

@@ -12,7 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Prioritizing competing requests when team capacity is constrained](https://trueinterview.io/questions/prioritizing-competing-requests-when-team-capacity-is-constrained?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-17 |
+| [Prioritizing competing requests when team capacity is constrained](https://trueinterview.io/questions/prioritizing-competing-requests-when-team-capacity-is-constrained?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-01-17 |
 
 ---
 

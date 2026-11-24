@@ -4,7 +4,7 @@
 
 193 questions reported at LinkedIn, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (86) · [last 6 months](six-months.csv) (110) · [all](all.csv) (193)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (86) · [last 6 months](six-months.csv) (111) · [all](all.csv) (193)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -121,6 +121,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [LinkedIn Engagement Metric Drop: Root-Cause Diagnosis and Response Plan](https://trueinterview.io/questions/linkedin-engagement-metric-drop-root-cause-diagnosis-and-response-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-08 |
 | [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 3 | 0 | 2026-07 |
 | [Finding the Longest Increasing Subsequence](https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 3 | 0 | 2026-07 |
+| [Reverse a String In Place (LC 344)](https://trueinterview.io/questions/reverse-string-in-place?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Senior | 3 | 0 | 2026-06 |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 5 | 0 | 2026-06 |
 | [Defining Success Metrics and a North Star for LinkedIn Saved Posts](https://trueinterview.io/questions/defining-success-metrics-and-a-north-star-for-linkedin-saved-posts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-05-25 |
 | [Data Science Skills](https://trueinterview.io/questions/data-science-skills?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Easy | Phone screen | Intern, New grad, Junior / Mid | 1 | 0 | 2026-05-23 |
@@ -153,7 +154,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Find the Celebrity with Minimum API Calls](https://trueinterview.io/questions/590462c8-36cd-5a7f-86ee-bb03d9cd3526?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-03 |
 | [Populating Next Right Pointers in Each Node](https://trueinterview.io/questions/b1348ffb-2ebe-44e8-8ef2-da6f8e7e04c9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-03 |
 | [Binary Tree Traversal using Iterative and Recursive Methods](https://trueinterview.io/questions/af752656-c437-4650-9101-e1f7472265a5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 3 | 2026-03 |
-| [Reverse a String](https://trueinterview.io/questions/28b8bcd2-9b73-4c32-9f13-f89038bc8e84?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2026-03 |
 | [LinkedIn Skills — Data Mining & ML System Design](https://trueinterview.io/questions/sd-linkedin-skills-extraction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-02-23 |
 | [Sample uniformly from a circle’s area](https://trueinterview.io/questions/sample-uniformly-from-a-circle-s-area?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Staff+ | 1 | 0 | 2026-02-18 |
 | [Plan and lead a large recommendation project](https://trueinterview.io/questions/plan-and-lead-a-large-recommendation-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Staff+ | 1 | 0 | 2026-02-18 |

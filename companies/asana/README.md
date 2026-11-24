@@ -4,7 +4,7 @@
 
 16 questions reported at Asana, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (4) · [all](all.csv) (16)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (5) · [all](all.csv) (16)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -15,6 +15,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Partnering With Other Teams to Deliver Work That Spans Team Boundaries](https://trueinterview.io/questions/partnering-with-other-teams-to-deliver-work-that-spans-team-boundaries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-10 |
 | [Object-Oriented Design of a Two-Player Chess Game and Its Move Rules](https://trueinterview.io/questions/object-oriented-design-of-a-two-player-chess-game-and-its-move-rules?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-10 |
 | [Design a Real-Time Collaborative Document Editor With Version History](https://trueinterview.io/questions/design-a-real-time-collaborative-document-editor-with-version-history?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 3 | 0 | 2026-09-10 |
+| [Product Sense: Accessible, Easy-to-Navigate Video Streaming for Older Adults](https://trueinterview.io/questions/product-sense-accessible-easy-to-navigate-video-streaming-for-older-adults?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-07-13 |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 6 | 0 | 2026-07 |
 | [Design and Solve a Rotatable Jigsaw Puzzle](../../questions/object-oriented-programming/design-and-solve-a-rotatable-jigsaw-puzzle/README.md) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-04-13 |
 | [Design a 2048 Game](https://trueinterview.io/questions/design-a-2048-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-02 |
@@ -27,7 +28,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a Twitter-like microblogging service](../../questions/system-design/design-a-twitter-like-microblogging-service/README.md) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-02-08 |
 | [Implement core puzzle/array/grid routines](https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-07 |
 | [Find frequent IPs from a huge file](https://trueinterview.io/questions/find-frequent-ips-from-a-huge-file?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-07 |
-| [Product Sense: Designing At-Home Video Streaming for Older Adults](https://trueinterview.io/questions/product-sense-designing-at-home-video-streaming-for-older-adults?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-07 |
 
 ---
 

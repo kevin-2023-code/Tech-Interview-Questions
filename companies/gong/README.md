@@ -4,7 +4,7 @@
 
 5 questions reported at Gong, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (5) · [all](all.csv) (5)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (3) · [all](all.csv) (5)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,11 +12,11 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Resolving a Conflict With a Coworker: A Senior Behavioral Walkthrough](https://trueinterview.io/questions/resolving-a-conflict-with-a-coworker-a-senior-behavioral-walkthrough?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-25 |
-| [Driving a Project Forward When Goals and Requirements Are Ambiguous](https://trueinterview.io/questions/driving-a-project-forward-when-goals-and-requirements-are-ambiguous?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-25 |
+| [How You Handle a Project With Unclear Scope and High Ambiguity](https://trueinterview.io/questions/how-you-handle-a-project-with-unclear-scope-and-high-ambiguity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 6 | 0 | 2026-10-14 |
 | [Design a Service That Finds Common Free Time Across Connected Calendars](https://trueinterview.io/questions/design-a-service-that-finds-common-free-time-across-connected-calendars?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-25 |
 | [Design a Service That Captures Zoom Meeting Recordings and Processes Them at Scale](https://trueinterview.io/questions/design-a-service-that-captures-zoom-meeting-recordings-and-processes-them-at-scale?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-25 |
-| [Delivering Bad News to a Team or Stakeholders Without Losing Trust](https://trueinterview.io/questions/delivering-bad-news-to-a-team-or-stakeholders-without-losing-trust?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-25 |
+| [Telling Stakeholders Unwelcome News: Timing, Framing and Follow-Through as a PM](https://trueinterview.io/questions/telling-stakeholders-unwelcome-news-timing-framing-and-follow-through-as-a-pm?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-04-12 |
+| [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 9 | 0 | 2026-03 |
 
 ---
 

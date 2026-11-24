@@ -14,8 +14,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Enterprise data platform profit strategy: pricing, expansion, retention and cost to serve](https://trueinterview.io/questions/enterprise-data-platform-profit-strategy-pricing-expansion-retention-and-cost-to-serve?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-21 |
 | [What Product Managers Really Do and the Responsibility That Draws You to the Role](https://trueinterview.io/questions/what-product-managers-really-do-and-the-responsibility-that-draws-you-to-the-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid | 1 | 0 | 2026-08-08 |
-| [Hardest Challenge You Have Faced at Work and How You Turned It Around](https://trueinterview.io/questions/hardest-challenge-you-have-faced-at-work-and-how-you-turned-it-around?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-07 |
 | [Balancing Hands-On Data Analysis and Intuition in Product Decisions](https://trueinterview.io/questions/balancing-hands-on-data-analysis-and-intuition-in-product-decisions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-06 |
+| [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 9 | 0 | 2026-08 |
 
 ---
 

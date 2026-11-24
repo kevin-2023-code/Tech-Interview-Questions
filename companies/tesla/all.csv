@@ -18,7 +18,6 @@ Shortest Bridge,Algorithm,Medium,Phone screen,Senior,3,0,2026-08,https://trueint
 Spot US Market Gaps for a New Electric Vehicle Challenger to Tesla,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-26,https://trueinterview.io/questions/spot-us-market-gaps-for-a-new-electric-vehicle-challenger-to-tesla
 CV / Sensing ML Fundamentals Oral,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,1,2026-06-16,https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral
 Bulls and Cows with Per-Position Match Signal,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-06-03,https://trueinterview.io/questions/bulls-and-cows-position-signal
-Describe conflict and proudest work,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,2,2026-06,https://trueinterview.io/questions/describe-conflict-and-proudest-work
 Find Size of Largest Subset,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-06-01,https://trueinterview.io/questions/find-size-of-largest-subset
 Flatten Nested List Iterator,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533
 Guess the Word (Master API),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc
@@ -32,6 +31,7 @@ Data Cleaning Pipeline and SQL Analytics Screen,SQL,Medium,Phone screen,Junior /
 Minimum Absolute Difference Pairs,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,0,2026-04-18,https://trueinterview.io/questions/minimum-absolute-difference-pairs
 Fuel Station Queue Simulation,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-04-18,https://trueinterview.io/questions/fuel-station-queue-simulation
 Maximum Island Perimeter,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-04-17,https://trueinterview.io/questions/maximum-island-perimeter
+Discuss proudest project and conflict handling,Behavioral / Knowledge,,Phone screen,Junior / Mid,5,0,2026-04,https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling
 Cumulative Monthly Sales by Store with Month Reset,SQL,Medium,Online assessment,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b
 Daily Metrics by Order Status in a Single SQL Pass,SQL,Easy,Online assessment,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc
 Find All Reports Under a Manager (n-level) and Return Hierarchy Path,SQL,Medium,Online assessment,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61
@@ -56,6 +56,7 @@ Priority Expiry LRU Cache,Object-Oriented Programming,Medium,Phone screen,Junior
 Route Nearest Checkpoint,Algorithm,Medium,Phone screen,Senior,1,0,2025-08-11,https://trueinterview.io/questions/trajectory-waypoint-distance-queries
 Dojo Pythonic Coding Pair: Permutation Check and Pow,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-07-25,https://trueinterview.io/questions/dojo-permutation-and-pow
 "Basic Calculator with Operators, Variables, and Functions",Object-Oriented Programming,Medium,Phone screen,Senior,1,0,2025-07-24,https://trueinterview.io/questions/basic-calculator-extended-language
+Decode Ways / Alphanumeric Combination,Algorithm,Medium,Online assessment; Phone screen,New grad,3,0,2025-07-11,https://trueinterview.io/questions/decode-ways
 "Event Bus with Emit, Subscribe, and Unsubscribe",Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2025-07-04,https://trueinterview.io/questions/event-bus-emit-subscribe
 Subarray with Most Target Element,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,0,,https://trueinterview.io/questions/subarray-with-most-target-element-2
 C++ Debugging: Doubly Linked List,AI Coding,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/7f05aa82-8ea2-4d37-a3bb-3fd8ff97c6c8

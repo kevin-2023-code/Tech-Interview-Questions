@@ -4,7 +4,7 @@
 
 3 questions reported at Wise, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (3) · [all](all.csv) (3)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (2) · [all](all.csv) (3)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -13,8 +13,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Find an Instant-Runoff Winner without Modifying Ballots](https://trueinterview.io/questions/find-an-instant-runoff-winner-without-modifying-ballots?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-23 |
-| [Wise PM Behavioral: Walking Through Your Most Consequential Contribution at Work](https://trueinterview.io/questions/wise-pm-behavioral-walking-through-your-most-consequential-contribution-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-23 |
 | [Wise PM Execution: Deciding What a Shared Platform Builds When Teams Compete](https://trueinterview.io/questions/wise-pm-execution-deciding-what-a-shared-platform-builds-when-teams-compete?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-22 |
+| [Product manager behavioral: your highest-impact project and how you proved its results](https://trueinterview.io/questions/product-manager-behavioral-your-highest-impact-project-and-how-you-proved-its-results?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2025-11-02 |
 
 ---
 
