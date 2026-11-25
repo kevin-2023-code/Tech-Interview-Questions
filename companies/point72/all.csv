@@ -27,18 +27,10 @@ Election Exit Poll by State Report (Top-3 states per candidate with ties),SQL,Me
 Implement DictMixin and JSONMixin for object serialization,Algorithm,Easy,Online assessment,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc
 IPO Share Allocation,Algorithm,Hard,Online assessment,New grad; Junior / Mid,2,0,2026-04,https://trueinterview.io/questions/swe-oa-ipo-share-allocation
 Explain Transformer Encoder and Decoder Behavior,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-03-06,https://trueinterview.io/questions/explain-transformer-encoder-and-decoder-behavior
-Compute Gaussian Probability and Regression Coefficients,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-02-25,https://trueinterview.io/questions/compute-gaussian-probability-and-regression-coefficients
-Solve Three Probability Models,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-12-14,https://trueinterview.io/questions/solve-three-probability-models
 Design a system to find median in a data stream under memory constraints,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,1,2025-11,https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c
 Expandable Array<T> Class Template,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2025-11,https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902
 Pandas Data Wrangling,AI Coding,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2025-11,https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907
 SmartString Class Template,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior,1,1,2025-11,https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6
-How would you explain PCA and SHAP?,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-10-24,https://trueinterview.io/questions/how-would-you-explain-pca-and-shap
-K-th missing number,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2025-10-20,https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number
 Price a coin-doubling game rationally,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/price-a-coin-doubling-game-rationally
-Explain and tune decision trees robustly,Behavioral / Knowledge,,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/explain-and-tune-decision-trees-robustly
-Write SQL for top student per department,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-for-top-student-per-department
-Write SQL for recent customer activity,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-for-recent-customer-activity
-Maximize outfits with distinct colors,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/maximize-outfits-with-distinct-colors
 Convert integer dates to quarters,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/convert-integer-dates-to-quarters
 Classify relationships for multiple circle pairs,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/classify-relationships-for-multiple-circle-pairs

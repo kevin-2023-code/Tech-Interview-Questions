@@ -80,9 +80,6 @@ Defining Human Agency as a Product Design Principle at Netflix,Behavioral / Know
 Choosing Success Metrics for a Personalized Recommendation Row on Netflix,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-20,https://trueinterview.io/questions/choosing-success-metrics-for-a-personalized-recommendation-row-on-netflix
 Design demand-side ads relational tables,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-03-09,https://trueinterview.io/questions/design-demand-side-ads-relational-tables
 Compute subtree sums with tree DFS,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-09,https://trueinterview.io/questions/compute-subtree-sums-with-tree-dfs
-Estimate ATE of personalization on streaming,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-05,https://trueinterview.io/questions/estimate-ate-of-personalization-on-streaming
-"Compute ITT, TOT, and LATE with noncompliance",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-05,https://trueinterview.io/questions/compute-itt-tot-and-late-with-noncompliance
-Answer core probability and statistics questions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-05,https://trueinterview.io/questions/answer-core-probability-and-statistics-questions
 String to Integer (atoi),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,2,2,2026-03-03,https://trueinterview.io/questions/string-to-integer-atoi
 How would you support ML stakeholders?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,1,2026-03,https://trueinterview.io/questions/how-would-you-support-ml-stakeholders
 Contains Duplicate,Algorithm,Easy,Online assessment,Junior / Mid,1,1,2026-03,https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec
@@ -119,13 +116,9 @@ Netflix in India: Diagnose Slow Growth and Plan a Tenfold Expansion,Behavioral /
 ML Job Scheduler,System Design,Medium,Onsite / virtual onsite,Senior,3,1,2025-11,https://trueinterview.io/questions/ml-job-scheduler
 Implement a Multithreaded Map,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,1,2025-11,https://trueinterview.io/questions/5eae4920-e16f-4632-91b8-6f8ebdd6d4a1
 Sort Dictionary Keys,Algorithm,Easy,Online assessment,Senior,1,0,2025-05,https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee
-Plan and analyze a ranking A/B test,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/plan-and-analyze-a-ranking-a-b-test
-Navigate conflicting signals and ambiguous expectations,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,,https://trueinterview.io/questions/navigate-conflicting-signals-and-ambiguous-expectations
 Justify all-cash compensation expectations and trade-offs,Behavioral / Knowledge,,Phone screen,Senior,1,0,,https://trueinterview.io/questions/justify-all-cash-compensation-expectations-and-trade-offs
 Design and power a frequency-cap experiment,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-and-power-a-frequency-cap-experiment
-Design a robust conversion propensity model,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-robust-conversion-propensity-model
 Demonstrate JD skills with quantified outcomes,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/demonstrate-jd-skills-with-quantified-outcomes
-Demonstrate handling dismissive stakeholders with candor,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,,https://trueinterview.io/questions/demonstrate-handling-dismissive-stakeholders-with-candor
 Write SQL for rolling frequency caps,SQL,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/write-sql-for-rolling-frequency-caps
 Write SQL for DAU and first-purchase conversion,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-for-dau-and-first-purchase-conversion
 Aggregate D1 retention cohorts in SQL,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/aggregate-d1-retention-cohorts-in-sql

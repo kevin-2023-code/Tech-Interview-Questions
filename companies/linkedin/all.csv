@@ -123,10 +123,8 @@ Behavioral: Describe a Product Decision Driven by Data Analysis,Behavioral / Kno
 Distributed Job Scheduler / Calendar Service,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,4,2026-04-17,https://trueinterview.io/questions/sd-job-scheduler
 Product Sense: Professional Networking and Hiring for Blue-Collar and Trade Workers,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-11,https://trueinterview.io/questions/product-sense-professional-networking-and-hiring-for-blue-collar-and-trade-workers
 Review a Web Application Architecture,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-04-11,https://trueinterview.io/questions/review-a-web-application-architecture
-Count Trips From Vehicle Logs,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-11,https://trueinterview.io/questions/count-trips-from-vehicle-logs
 Number of Islands (Plain and Streaming),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,8,0,2026-04-09,https://trueinterview.io/questions/phone-screen-number-of-islands
 "Explain Logistic Regression, Backprop, and Adam",Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,1,2026-04-05,https://trueinterview.io/questions/explain-logistic-regression-backprop-and-adam
-Scale a Distributed Randomized Multiset,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-04-02,https://trueinterview.io/questions/scale-a-distributed-randomized-multiset
 Design a Randomized Multiset,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,1,2026-04-02,https://trueinterview.io/questions/design-a-randomized-multiset
 Find K Closest Elements,Algorithm,Medium,Phone screen,Senior,2,1,2026-04,https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2
 Insert/Delete/GetRandom in O(1) with TTL per item (follow-up),Object-Oriented Programming,Hard,Onsite / virtual onsite,Staff+,1,0,2026-04,https://trueinterview.io/questions/26f6e8b3-62a6-4359-8ae4-3943de03e7e6
@@ -148,13 +146,11 @@ Answer practical ML foundations questions,Behavioral / Knowledge,,Onsite / virtu
 Minimum Sum-of-Distances Meeting Point on a Line,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,1,4,2026-02-17,https://trueinterview.io/questions/coding-min-sum-distance-line
 "Solve Cache, Window, and Heap Problems",Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-16,https://trueinterview.io/questions/solve-cache-window-and-heap-problems
 Explain iOS ARC and avoid retain cycles,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-02-11,https://trueinterview.io/questions/explain-ios-arc-and-avoid-retain-cycles
-Check perfect square using binary search,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-02-11,https://trueinterview.io/questions/check-perfect-square-using-binary-search
 Alert Monitor — Rolling Window + Severity Distribution + Spike Detection,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,2026-02-04,https://trueinterview.io/questions/coding-alert-monitor
 How do you lead and drive impact?,Behavioral / Knowledge,,Phone screen,Staff+,1,2,2026-02,https://trueinterview.io/questions/how-do-you-lead-and-drive-impact
 Implement fast sampling for weighted k-sided die,Algorithm,Hard,Phone screen,Staff+,1,0,2026-02,https://trueinterview.io/questions/implement-fast-sampling-for-weighted-k-sided-die
 Design Cache with Eviction,Object-Oriented Programming,Medium,Phone screen,Senior,1,1,2026-01-22,https://trueinterview.io/questions/design-cache-with-eviction
 Analyze homepage drop and feed ranking,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-01-17,https://trueinterview.io/questions/analyze-homepage-drop-and-feed-ranking
-Solve common string and subarray problems,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-09,https://trueinterview.io/questions/solve-common-string-and-subarray-problems
 How do you win project buy-in?,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,2026-01-01,https://trueinterview.io/questions/how-do-you-win-project-buy-in
 Anonymous Posts on a Real-Identity Network: Advising LinkedIn's CEO on Build or Skip,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-30,https://trueinterview.io/questions/anonymous-posts-on-a-real-identity-network-advising-linkedins-ceo-on-build-or-skip
 Defend DoorDash's food-delivery share against Uber Eats: diagnosis and strategy,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-29,https://trueinterview.io/questions/defend-doordashs-food-delivery-share-against-uber-eats-diagnosis-and-strategy
@@ -178,11 +174,6 @@ Incremental Task Scheduler,Algorithm,Medium,Onsite / virtual onsite,New grad; Ju
 Implement Power Function,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2025-03,https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae
 Do US members upload more videos than non-US?,System Design,Medium,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/do-us-members-upload-more-videos-than-non-us
 Derive expectation for two consecutive heads,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/derive-expectation-for-two-consecutive-heads
-Decide best email variant using stratified A/B analysis,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/decide-best-email-variant-using-stratified-a-b-analysis
-Analyze member video posting behavior by country,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/analyze-member-video-posting-behavior-by-country
-Find top countries by population per continent,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/find-top-countries-by-population-per-continent
-Compute each member’s current notification status,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-each-member-s-current-notification-status
-Compute article-type diversity per user and histogram,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-article-type-diversity-per-user-and-histogram
 Design A Video Recommendation System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,4,0,,https://trueinterview.io/questions/design-a-video-recommendation-system-2
 Design Spotify,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,7,0,,https://trueinterview.io/questions/design-spotify-2
 Design A Kafka-like Distributed Message Queue,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,4,0,,https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue

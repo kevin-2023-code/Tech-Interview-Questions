@@ -2,9 +2,9 @@
 
 # SoFi interview questions
 
-38 questions reported at SoFi, most recently reported first.
+33 questions reported at SoFi, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (5) · [all](all.csv) (38)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (5) · [all](all.csv) (33)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -28,10 +28,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03 |
 | [Lazy-loaded List with Paginated Fetch (10 items per page)](https://trueinterview.io/questions/46d6b649-f860-4586-8310-80c7f23f264d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 3 | 2026-03 |
 | [React Loan Estimator](https://trueinterview.io/questions/react-loan-estimator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Easy | Onsite / virtual onsite | Senior | 1 | 1 | 2026-02-14 |
-| [Demonstrate project impact and teach something](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 0 | 2026-02-04 |
 | [Interactive Story Endings Reachability (Choices/Options)](https://trueinterview.io/questions/5a23f516-7bed-46d3-8874-942cca7863b5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-02 |
 | [Basic Text Justification (without full padding to fixed width)](https://trueinterview.io/questions/0187a685-9680-4dbf-8f34-9e316f33b78b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Junior / Mid | 1 | 1 | 2026-01-31 |
-| [Solve Time-Window and Binary Swap Problems](https://trueinterview.io/questions/solve-time-window-and-binary-swap-problems?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-20 |
 | [Rock-Paper-Scissors Lineup](https://trueinterview.io/questions/rock-paper-scissors-lineup?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 1 | 2026-01-14 |
 | [Permutations with Self-Written Tests](https://trueinterview.io/questions/permutations-with-self-written-tests?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Senior | 1 | 0 | 2026-01-14 |
 | [Maximum Positive Prefixes](https://trueinterview.io/questions/maximum-positive-prefixes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 0 | 2026-01-13 |
@@ -46,9 +44,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Anagram Sentence Substitutions](../../questions/algorithm/anagram-sentence-substitutions/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 0 | 2025-09-25 |
 | [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Senior | 1 | 0 | 2025-07-14 |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Easy | Phone screen | New grad, Junior / Mid | 3 | 0 | 2025-06 |
-| [Plan and validate ranking experiment](https://trueinterview.io/questions/plan-and-validate-ranking-experiment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Design a fintech homepage ranker](https://trueinterview.io/questions/design-a-fintech-homepage-ranker?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Align with PM on ranking goals](https://trueinterview.io/questions/align-with-pm-on-ranking-goals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 0 | — |
 | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 0 | — |
 
 ---

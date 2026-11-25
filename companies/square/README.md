@@ -2,9 +2,9 @@
 
 # Square interview questions
 
-58 questions reported at Square, most recently reported first.
+55 questions reported at Square, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (7) · [all](all.csv) (58)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (7) · [all](all.csv) (55)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -20,8 +20,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Build a Trust-Aware BIN Database](https://trueinterview.io/questions/build-a-trust-aware-bin-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 4 | 0 | 2026-06 |
 | [Design Connect Four](https://trueinterview.io/questions/board-game-ood?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 3 | 1 | 2026-05-24 |
-| [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-27 |
-| [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-27 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Senior | 2 | 0 | 2026-04-06 |
 | [Product Sense: Building a Product to Flag and Stop Fraudulent Card Payments](https://trueinterview.io/questions/product-sense-building-a-product-to-flag-and-stop-fraudulent-card-payments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-04 |
 | [Connect Four with Configurable Win Length](https://trueinterview.io/questions/connect-four-configurable-win?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Phone screen | Junior / Mid | 1 | 0 | 2025-11-11 |
@@ -33,7 +31,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design an Interactive Paginator](https://trueinterview.io/questions/design-an-interactive-paginator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-11 |
 | [Black Cell Covering Block List](https://trueinterview.io/questions/black-cell-covering-block-list?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid | 1 | 0 | 2025-11-11 |
 | [Making a Specific Case for Why You Want a Product Manager Role at Block](https://trueinterview.io/questions/making-a-specific-case-for-why-you-want-a-product-manager-role-at-block?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-20 |
-| [Implement transaction network queries](../../questions/object-oriented-programming/implement-transaction-network-queries/README.md) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-19 |
 | [Assign Adjacent Seats in a Venue Grid](https://trueinterview.io/questions/venue-seat-assignment-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | — |
 | [Simulate a Simplified Two-Player Card Game](https://trueinterview.io/questions/two-player-uno-simulation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | — |
 | [Pick Two Books That Use a Voucher Exactly With Least Weight](https://trueinterview.io/questions/two-books-exact-voucher-spend?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |

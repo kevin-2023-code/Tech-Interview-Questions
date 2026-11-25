@@ -2,9 +2,9 @@
 
 # Disney interview questions
 
-55 questions reported at Disney, most recently reported first.
+52 questions reported at Disney, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (15) · [all](all.csv) (55)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (15) · [all](all.csv) (52)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -64,9 +64,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Rank Vectors by Cosine Similarity to a Query](https://trueinterview.io/questions/cosine-similarity-vector-ranking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Design a Two-Runway Airport Traffic Scheduler](https://trueinterview.io/questions/airport-two-runway-operations-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [Airport Runway Scheduling: Assign Each Flight a Runway](https://trueinterview.io/questions/airport-runway-assignment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | — |
-| [Diagnose and decide on watch-time drop](https://trueinterview.io/questions/diagnose-and-decide-on-watch-time-drop?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Demonstrate influential product leadership under ambiguity](https://trueinterview.io/questions/demonstrate-influential-product-leadership-under-ambiguity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Compute sample size and plan experiment](https://trueinterview.io/questions/compute-sample-size-and-plan-experiment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 
 ---
 

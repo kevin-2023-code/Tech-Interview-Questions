@@ -2,11 +2,11 @@
 
 # Recently reported interview questions
 
-6,510 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,266 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
-[← Newer](page-2.md) · Page 3 of 17 · [Older →](page-4.md)
+[← Newer](page-2.md) · Page 3 of 16 · [Older →](page-4.md)
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -216,7 +216,6 @@
 | 2026-09-17 | [Render](../companies/render/) | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09-17 | [Ziphq](../companies/ziphq/) | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09-17 | [Snowflake](../companies/snowflake/) | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 8 |
-| 2026-09-17 | [Robinhood](../companies/robinhood/) | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-09-17 | [Snowflake](../companies/snowflake/) | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Junior / Mid | 0 |
 | 2026-09-17 | [Snowflake](../companies/snowflake/), [Anthropic](../companies/anthropic/) | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Junior / Mid, Senior | 4 |
 | 2026-09-16 | [Glean](../companies/glean/) | [Redesign the landing screen of Glean's enterprise AI search and assistant app](https://trueinterview.io/questions/redesign-the-landing-screen-of-gleans-enterprise-ai-search-and-assistant-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
@@ -313,7 +312,6 @@
 | 2026-09-14 | [AMD](../companies/amd/) | [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-09-14 | [AMD](../companies/amd/) | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-14 | [AMD](../companies/amd/) | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | New grad, Junior / Mid, Senior | 0 |
-| 2026-09-14 | [Voleon](../companies/voleon/) | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+ | 0 |
 | 2026-09-14 | [Amazon](../companies/amazon/) | [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-14 | [IBM](../companies/ibm/) | [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad, Junior / Mid | 0 |
 | 2026-09-13 | [Google](../companies/google/) | [YouTube Live Monetization: A New Way for Viewers to Pay Streaming Creators](https://trueinterview.io/questions/youtube-live-monetization-a-new-way-for-viewers-to-pay-streaming-creators?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
@@ -410,5 +408,7 @@
 | 2026-09-10 | [Asana](../companies/asana/), [Microsoft](../companies/microsoft/) +1 | [Design a Real-Time Collaborative Document Editor With Version History](https://trueinterview.io/questions/design-a-real-time-collaborative-document-editor-with-version-history?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-09-10 | [Google](../companies/google/) | [Design a pricing strategy for a hypothetical Google teleportation service](https://trueinterview.io/questions/design-a-pricing-strategy-for-a-hypothetical-google-teleportation-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-09-10 | [Waymo](../companies/waymo/) | [Design a Matchmaking Service With Join, Cancel, Matching, Notification and Expiry](https://trueinterview.io/questions/design-a-matchmaking-service-with-join-cancel-matching-notification-and-expiry?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
+| 2026-09-10 | [Waymo](../companies/waymo/) | [Deduplicate a 256 GB File on a Machine With 128 MB of Memory](https://trueinterview.io/questions/deduplicate-a-256-gb-file-on-a-machine-with-128-mb-of-memory?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
+| 2026-09-10 | [Intuit](../companies/intuit/) | [Choosing Between Retrieval-Augmented Generation and Fine-Tuning for an LLM Product](https://trueinterview.io/questions/choosing-between-retrieval-augmented-generation-and-fine-tuning-for-an-llm-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 
-[← Newer](page-2.md) · Page 3 of 17 · [Older →](page-4.md)
+[← Newer](page-2.md) · Page 3 of 16 · [Older →](page-4.md)

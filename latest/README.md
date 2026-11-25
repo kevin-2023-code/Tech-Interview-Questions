@@ -2,11 +2,11 @@
 
 # Recently reported interview questions
 
-6,510 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,266 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
-Page 1 of 17 · [Older →](page-2.md)
+Page 1 of 16 · [Older →](page-2.md)
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -411,4 +411,4 @@ Page 1 of 17 · [Older →](page-2.md)
 | 2026-10-02 | [Robinhood](../companies/robinhood/) | [Design a Cron Job Scheduler for 100K Jobs With At-Least-Once Execution](https://trueinterview.io/questions/design-a-cron-job-scheduler-for-100k-jobs-with-at-least-once-execution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-10-02 | [Merge](../companies/merge/) | [Design a Common Data Class to Normalize Different API Responses](https://trueinterview.io/questions/design-a-common-data-class-to-normalize-different-api-responses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
 
-Page 1 of 17 · [Older →](page-2.md)
+Page 1 of 16 · [Older →](page-2.md)

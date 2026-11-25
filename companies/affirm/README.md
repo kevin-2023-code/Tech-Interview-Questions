@@ -2,9 +2,9 @@
 
 # Affirm interview questions
 
-30 questions reported at Affirm, most recently reported first.
+29 questions reported at Affirm, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (18) · [all](all.csv) (30)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (18) · [all](all.csv) (29)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -33,7 +33,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Prioritize Affirm's Next Point-of-Sale Lending Vertical: Home, Elective Health or Auto](https://trueinterview.io/questions/prioritize-affirms-next-point-of-sale-lending-vertical-home-elective-health-or-auto?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-05-08 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid | 5 | 0 | 2026-05 |
 | [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-04-19 |
-| [Detect Fraud by Propagating Suspicious PII](https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-19 |
 | [Spotify Growth Plan: Converting Free Listeners and Reducing Premium Churn](https://trueinterview.io/questions/spotify-growth-plan-converting-free-listeners-and-reducing-premium-churn?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-10-09 |
 | [Uber Strategy: Where and How to Enter Bike-Share and E-Bikes](https://trueinterview.io/questions/uber-strategy-where-and-how-to-enter-bike-share-and-e-bikes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-10-08 |
 | [Sum of Islands Max](https://trueinterview.io/questions/sum-of-islands-max?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |

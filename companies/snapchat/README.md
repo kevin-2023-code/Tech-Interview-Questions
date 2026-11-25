@@ -2,9 +2,9 @@
 
 # Snapchat interview questions
 
-106 questions reported at Snapchat, most recently reported first.
+103 questions reported at Snapchat, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (5) · [last 3 months](three-months.csv) (33) · [last 6 months](six-months.csv) (46) · [all](all.csv) (106)
+CSV: [last 30 days](thirty-days.csv) (5) · [last 3 months](three-months.csv) (33) · [last 6 months](six-months.csv) (46) · [all](all.csv) (103)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -96,7 +96,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Engineering Manager Behavioral: Motivation, Taking Feedback and Leading a Reorganization](https://trueinterview.io/questions/engineering-manager-behavioral-motivation-taking-feedback-and-leading-a-reorganization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-01-20 |
 | [Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons](https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-01-20 |
 | [iOS Scrollable Grid & Swift Concurrency](https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-01-20 |
-| [How do you deliver when time is tight?](https://trueinterview.io/questions/how-do-you-deliver-when-time-is-tight?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-01-10 |
 | [Describe an innovation you drove end-to-end](https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 2 | 0 | 2026-01-10 |
 | [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements-3/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 6 | 0 | 2026-01-10 |
 | [Compare WebSocket, SSE, and long polling](https://trueinterview.io/questions/compare-websocket-sse-and-long-polling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-04 |
@@ -105,13 +104,11 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Print Employee Org Chart](https://trueinterview.io/questions/print-employee-org-chart?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-31 |
 | [Find Peak Event Moment](https://trueinterview.io/questions/find-peak-event-moment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-31 |
 | [Distinct Products Of Prime Subsets](https://trueinterview.io/questions/105bb2c5-a958-467e-bbb2-ac7c2bb81fe2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Senior | 1 | 1 | 2025-12 |
-| [How do you decide with limited information?](https://trueinterview.io/questions/how-do-you-decide-with-limited-information?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 0 | 2025-11-26 |
 | [Design ride-hailing and price alert systems](../../questions/system-design/design-ride-hailing-and-price-alert-systems/README.md) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 0 | 2025-10-28 |
 | [Product Sense: A Low-Pressure Social Network Built Around Introverted Users](https://trueinterview.io/questions/product-sense-a-low-pressure-social-network-built-around-introverted-users?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-07 |
 | [Decode Ways / Alphanumeric Combination](https://trueinterview.io/questions/decode-ways?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment, Phone screen | New grad | 3 | 0 | 2025-07-11 |
 | [Influence a senior partner with data](https://trueinterview.io/questions/influence-a-senior-partner-with-data?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [Explain Random Forest randomness and implications](https://trueinterview.io/questions/explain-random-forest-randomness-and-implications?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
-| [Design an experiment for spam filtering impact](https://trueinterview.io/questions/design-an-experiment-for-spam-filtering-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Derive logistic regression and thresholds](https://trueinterview.io/questions/derive-logistic-regression-and-thresholds?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | — |
 | [Decide whether to launch Group Story](https://trueinterview.io/questions/decide-whether-to-launch-group-story?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [Compute posterior spam risk from flags](https://trueinterview.io/questions/compute-posterior-spam-risk-from-flags?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |

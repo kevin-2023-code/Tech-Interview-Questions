@@ -2,9 +2,9 @@
 
 # Netflix interview questions
 
-134 questions reported at Netflix, most recently reported first.
+127 questions reported at Netflix, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (30) · [last 6 months](six-months.csv) (52) · [all](all.csv) (134)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (30) · [last 6 months](six-months.csv) (52) · [all](all.csv) (127)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -93,9 +93,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Choosing Success Metrics for a Personalized Recommendation Row on Netflix](https://trueinterview.io/questions/choosing-success-metrics-for-a-personalized-recommendation-row-on-netflix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-03-20 |
 | [Design demand-side ads relational tables](https://trueinterview.io/questions/design-demand-side-ads-relational-tables?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-03-09 |
 | [Compute subtree sums with tree DFS](https://trueinterview.io/questions/compute-subtree-sums-with-tree-dfs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-09 |
-| [Estimate ATE of personalization on streaming](https://trueinterview.io/questions/estimate-ate-of-personalization-on-streaming?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-05 |
-| [Compute ITT, TOT, and LATE with noncompliance](https://trueinterview.io/questions/compute-itt-tot-and-late-with-noncompliance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-03-05 |
-| [Answer core probability and statistics questions](https://trueinterview.io/questions/answer-core-probability-and-statistics-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-05 |
 | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 2 | 2 | 2026-03-03 |
 | [How would you support ML stakeholders?](https://trueinterview.io/questions/how-would-you-support-ml-stakeholders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 1 | 2026-03 |
 | [Contains Duplicate](https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 1 | 2026-03 |
@@ -132,13 +129,9 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 3 | 1 | 2025-11 |
 | [Implement a Multithreaded Map](https://trueinterview.io/questions/5eae4920-e16f-4632-91b8-6f8ebdd6d4a1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 1 | 2025-11 |
 | [Sort Dictionary Keys](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Senior | 1 | 0 | 2025-05 |
-| [Plan and analyze a ranking A/B test](https://trueinterview.io/questions/plan-and-analyze-a-ranking-a-b-test?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
-| [Navigate conflicting signals and ambiguous expectations](https://trueinterview.io/questions/navigate-conflicting-signals-and-ambiguous-expectations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | — |
 | [Justify all-cash compensation expectations and trade-offs](https://trueinterview.io/questions/justify-all-cash-compensation-expectations-and-trade-offs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 0 | — |
 | [Design and power a frequency-cap experiment](https://trueinterview.io/questions/design-and-power-a-frequency-cap-experiment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
-| [Design a robust conversion propensity model](https://trueinterview.io/questions/design-a-robust-conversion-propensity-model?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [Demonstrate JD skills with quantified outcomes](https://trueinterview.io/questions/demonstrate-jd-skills-with-quantified-outcomes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Demonstrate handling dismissive stakeholders with candor](https://trueinterview.io/questions/demonstrate-handling-dismissive-stakeholders-with-candor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | — |
 | [Write SQL for rolling frequency caps](https://trueinterview.io/questions/write-sql-for-rolling-frequency-caps?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [Write SQL for DAU and first-purchase conversion](https://trueinterview.io/questions/write-sql-for-dau-and-first-purchase-conversion?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Aggregate D1 retention cohorts in SQL](https://trueinterview.io/questions/aggregate-d1-retention-cohorts-in-sql?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | — |

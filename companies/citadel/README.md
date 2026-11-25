@@ -2,9 +2,9 @@
 
 # Citadel interview questions
 
-108 questions reported at Citadel, most recently reported first.
+107 questions reported at Citadel, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (29) · [last 6 months](six-months.csv) (61) · [all](all.csv) (108)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (29) · [last 6 months](six-months.csv) (61) · [all](all.csv) (107)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -89,7 +89,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Refactor Obfuscated C++ Code (Hidden Best-Time-To-Buy-Sell)](https://trueinterview.io/questions/obfuscated-code-refactor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid | 1 | 0 | 2026-02-06 |
 | [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Senior | 2 | 0 | 2026-02 |
 | [Solve probability and expectation problems](https://trueinterview.io/questions/solve-probability-and-expectation-problems-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-30 |
-| [Sort a nearly sorted array](https://trueinterview.io/questions/sort-a-nearly-sorted-array?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-30 |
 | [Application-to-Exchange Routing OOD with Sliding-Window Alerts](https://trueinterview.io/questions/application-exchange-routing-alerting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern | 1 | 0 | 2026-01-28 |
 | [Weighted Random Sampling with Insert / Delete](https://trueinterview.io/questions/weighted-sampling-with-updates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Intern | 1 | 1 | 2026-01-28 |
 | [Task Scheduler with Priority + Lazy Deletion](https://trueinterview.io/questions/task-scheduler-priority-lazy-delete?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Intern | 1 | 0 | 2026-01-28 |

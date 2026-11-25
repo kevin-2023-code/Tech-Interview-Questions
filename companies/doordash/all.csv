@@ -55,7 +55,6 @@ Minimum Steps to Make Two Strings Anagram,Algorithm,Easy,Phone screen,Junior / M
 Resolve a Workplace Conflict,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,2,0,2026-09-01,https://trueinterview.io/questions/resolve-a-workplace-conflict
 Handle payment-service outages,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,3,2026-09,https://trueinterview.io/questions/handle-payment-service-outages
 Explain Why You Are Changing Roles,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Manager,1,0,2026-09-01,https://trueinterview.io/questions/explain-why-you-are-changing-roles
-Explain an AI-Assisted Project,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-01,https://trueinterview.io/questions/explain-an-ai-assisted-project
 Design a Multi-Service Workflow Engine,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-01,https://trueinterview.io/questions/design-a-multi-service-workflow-engine
 Design a donations service with 3-day rolling totals,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,5,2026-09,https://trueinterview.io/questions/design-a-donations-service-with-3-day-rolling-totals
 Debug the Last-Element Random Allocation Case,Algorithm,Medium,Onsite / virtual onsite,Senior,1,1,2026-09-01,https://trueinterview.io/questions/debug-the-last-element-random-allocation-case
@@ -118,15 +117,12 @@ Monthly Percentage of High-Frequency Customers,SQL,Medium,Phone screen,New grad;
 Design a Food Item Review and Customer Reward System for a Delivery App,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-05-14,https://trueinterview.io/questions/design-a-food-item-review-and-customer-reward-system-for-a-delivery-app
 "Build and Debug a Dasher-to-Order Assignment Service, Then Prepare It for Production",Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-14,https://trueinterview.io/questions/build-and-debug-a-dasher-to-order-assignment-service-then-prepare-it-for-production
 Code Craft: Chef Skill → Dish Profit Assignment,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-05-11,https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment
-Measure Daily Late-Order Rates by Delivery Zone,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-05-07,https://trueinterview.io/questions/measure-daily-late-order-rates-by-delivery-zone
 Diagnose Cold-Food Deliveries and Make a Launch Decision,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-05-07,https://trueinterview.io/questions/diagnose-cold-food-deliveries-and-make-a-launch-decision
 Explain why DoorDash and job change,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-05,https://trueinterview.io/questions/explain-why-doordash-and-job-change
 Design Real-Time Driver Pay Aggregation,System Design,Hard,Phone screen,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/design-real-time-driver-pay-aggregation
 Design A Personalized Search Ranking System,System Design,Medium,Onsite / virtual onsite,Senior,6,3,2026-05,https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d
 Design Instagram,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,7,0,2026-05,https://trueinterview.io/questions/design-instagram
 Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS),Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-04-29,https://trueinterview.io/questions/code-craft-multi-source-bfs-grid
-Calculate Order Request Metrics — Q 3,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-25,https://trueinterview.io/questions/calculate-order-request-metrics-q3
-Calculate Order Request Metrics — Q 1,SQL,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-04-25,https://trueinterview.io/questions/calculate-order-request-metrics-q1
 Order-of-magnitude growth strategy for Duolingo,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-24,https://trueinterview.io/questions/order-of-magnitude-growth-strategy-for-duolingo
 Design A Harmful Content Detection System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,3,0,2026-04-13,https://trueinterview.io/questions/harmful-content-detection-system
 Code Craft: Basic Calculator (No Parentheses),Algorithm,Medium,Phone screen,Senior,1,0,2026-04-06,https://trueinterview.io/questions/code-craft-basic-calculator-no-parens
@@ -161,7 +157,6 @@ Closest Binary Search Tree Value,Algorithm,Medium,Phone screen,New grad; Junior 
 Design experiments for marketplace product changes,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-09,https://trueinterview.io/questions/design-experiments-for-marketplace-product-changes
 PM behavioral: a piece of feedback you acted on and what changed afterward,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,6,0,2026-02-06,https://trueinterview.io/questions/pm-behavioral-a-piece-of-feedback-you-acted-on-and-what-changed-afterward
 Evaluate a new ranking model,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-06,https://trueinterview.io/questions/evaluate-a-new-ranking-model
-Assess Adding Bicycle Dashers,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-02-02,https://trueinterview.io/questions/assess-adding-bicycle-dashers
 Build ETA prediction and simulate impact,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/build-eta-prediction-and-simulate-impact
 Calculate Total Payment for Dasher,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/e6ef089b-490d-47b3-8a92-8cf96b06acec
 Minimum Number of Couriers Needed (Meeting Rooms II Variant),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/9b6179b4-2319-4efe-9129-adc78a2d421d
@@ -169,7 +164,6 @@ Investigate High Memory Usage,Behavioral / Knowledge,,Onsite / virtual onsite,Se
 Menu Tree Diff — Count Changed Nodes,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-01-30,https://trueinterview.io/questions/code-craft-menu-tree-diff
 OpenTable Product Design: Improving the Diner Journey After a Table Is Reserved,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-25,https://trueinterview.io/questions/opentable-product-design-improving-the-diner-journey-after-a-table-is-reserved
 Design a multi-channel notification system,System Design,Medium,Online assessment,Senior,1,0,2026-01-14,https://trueinterview.io/questions/design-a-multi-channel-notification-system-2
-Select the best dasher for an order,Algorithm,Easy,Online assessment,Intern; New grad,1,0,2026-01-14,https://trueinterview.io/questions/select-the-best-dasher-for-an-order
 "Fitness Tracking App Data Model: Tables, Keys and Relationships",System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01-10,https://trueinterview.io/questions/fitness-tracking-app-data-model-tables-keys-and-relationships
 Protect SLA and Choose Storage,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-01-09,https://trueinterview.io/questions/protect-sla-and-choose-storage
 Calculate Courier Earnings,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-01-09,https://trueinterview.io/questions/calculate-courier-earnings
@@ -186,29 +180,10 @@ Design experiment for bike delivery feature,System Design,Medium,Phone screen,Se
 "Target store promotion: pick products, design the offer and measure incremental sales",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-10-29,https://trueinterview.io/questions/target-store-promotion-pick-products-design-the-offer-and-measure-incremental-sales
 Product Teardown: How Apple's App Store or Google Play Serves Users and Developers,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-10-28,https://trueinterview.io/questions/product-teardown-how-apples-app-store-or-google-play-serves-users-and-developers
 Find closest value to a target in a BST,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-10-17,https://trueinterview.io/questions/find-closest-value-to-a-target-in-a-bst
-Allocate Support Cost and Diagnose Decline,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-10-12,https://trueinterview.io/questions/allocate-support-cost-and-diagnose-decline
-Prioritize projects and manage tight deadlines,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/prioritize-projects-and-manage-tight-deadlines
-Handle conflict and time-pressured decision,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/handle-conflict-and-time-pressured-decision
-Explain motivation and align expectations for L4 role,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/explain-motivation-and-align-expectations-for-l4-role
-Experiment on increasing order notifications,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/experiment-on-increasing-order-notifications
-Diagnose and experiment to reduce late deliveries,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/diagnose-and-experiment-to-reduce-late-deliveries
-Design and analyze a switchback experiment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-and-analyze-a-switchback-experiment
 Design analytics for a new-market launch,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-analytics-for-a-new-market-launch
-Design an experiment for thermal bags,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-an-experiment-for-thermal-bags
-Design an experiment for order batching,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-an-experiment-for-order-batching
-Define and compute retention and churn precisely,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/define-and-compute-retention-and-churn-precisely
-Decompose and optimize delivery operational costs,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/decompose-and-optimize-delivery-operational-costs
-Compute sample sizes and error control,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/compute-sample-sizes-and-error-control
-Calculate power and test duration,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/calculate-power-and-test-duration
 Build a late-delivery risk model,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/build-a-late-delivery-risk-model
-Write SQL to backtest refund policy,SQL,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/write-sql-to-backtest-refund-policy
 Write SQL for percent and window changes,SQL,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-for-percent-and-window-changes
-Write SQL for deliveries analytics,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-for-deliveries-analytics
-Write SQL for cuisine median delivery times,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-for-cuisine-median-delivery-times
-Write SQL for cold-complaint diagnostics with LAG/QUALIFY,SQL,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/write-sql-for-cold-complaint-diagnostics-with-lag-qualify
 Write complex SQL on DoorDash data,SQL,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-complex-sql-on-doordash-data
-Implement minimum window substring with counts,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/implement-minimum-window-substring-with-counts
-Compute rolling cold-delivery rates with windows,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-rolling-cold-delivery-rates-with-windows
 Construct Restaurant Daily Menu,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/construct-restaurant-daily-menu
 Adjust Prices,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/3e5b7ff1-ae9e-4b12-bb30-53665b60e66f
 Restaurant query (classic),SQL,Easy,Online assessment,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196

@@ -37,11 +37,9 @@ Implement Stratified K-Fold Cross Validation,Algorithm,Medium,Phone screen,Junio
 Design Instagram,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,7,0,2026-05,https://trueinterview.io/questions/design-instagram
 Design Key-Value Store with Transactions,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-05,https://trueinterview.io/questions/design-key-value-store-with-transactions
 Reconstruct a BST from Preorder Traversal,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-14,https://trueinterview.io/questions/reconstruct-a-bst-from-preorder-traversal
-Solve substring and worker assignment,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-02,https://trueinterview.io/questions/solve-substring-and-worker-assignment
 One-Hot Encoder + ML Error Diagnosis,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-03-21,https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis
 Lyft Airport Route Pricing: Trade Platform Take for Match Rate and Rider Retention,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,2,0,2026-03-12,https://trueinterview.io/questions/lyft-airport-route-pricing-trade-platform-take-for-match-rate-and-rider-retention
 Explain Transformer and Fine-Tuning Basics,Behavioral / Knowledge,,Phone screen,Intern; New grad,1,0,2026-03-12,https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics
-Explain Python and Systems Fundamentals,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-03-12,https://trueinterview.io/questions/explain-python-and-systems-fundamentals
 Design an HR Document AI Platform,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-03-12,https://trueinterview.io/questions/design-an-hr-document-ai-platform
 Design In-Memory Key-Value Database,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid,2,0,2026-03,https://trueinterview.io/questions/design-in-memory-key-value-database
 Lyft Student Rider Experience: Product Design for College Campuses,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-28,https://trueinterview.io/questions/lyft-student-rider-experience-product-design-for-college-campuses
@@ -57,7 +55,6 @@ Shortest Substring Covering All Characters of a Pattern,Algorithm,Hard,Onsite / 
 Find All Shortest Paths in Word Ladder,Algorithm,Hard,Phone screen,Senior,1,0,2025-03,https://trueinterview.io/questions/598ffed4-56aa-44e6-8efa-e18db21262d3
 Design experiments for marketplace balance,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-experiments-for-marketplace-balance
 Demonstrate leadership under ambiguity,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2
-Compute Poisson supply–demand match probability,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability
 MultiStream Reader,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/multistream-reader
 Asteroid Collision - Different Speed,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/asteroid-collision-different-speed
 Alien Base Attack,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/alien-base-attack

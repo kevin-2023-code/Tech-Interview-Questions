@@ -2,9 +2,9 @@
 
 # OpenAI interview questions
 
-241 questions reported at OpenAI, most recently reported first.
+239 questions reported at OpenAI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (102) · [last 6 months](six-months.csv) (154) · [all](all.csv) (241)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (102) · [last 6 months](six-months.csv) (154) · [all](all.csv) (239)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -188,12 +188,10 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Forecasting the Generative AI Skills Product Teams Will Need Most in the Coming Year](https://trueinterview.io/questions/forecasting-the-generative-ai-skills-product-teams-will-need-most-in-the-coming-year?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-23 |
 | [Convert IPv4 Ranges to CIDR Blocks](https://trueinterview.io/questions/convert-ipv4-ranges-to-cidr-blocks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior | 1 | 0 | 2026-04-22 |
 | [Design a Real-Time Sensor Intelligence System](https://trueinterview.io/questions/design-a-real-time-sensor-intelligence-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-13 |
-| [Defend a Research Direction and Experiment Design](https://trueinterview.io/questions/defend-a-research-direction-and-experiment-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-13 |
 | [How Context Window Length Shapes LLM Quality, Cost and Latency](https://trueinterview.io/questions/how-context-window-length-shapes-llm-quality-cost-and-latency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-12 |
 | [Pinning Down What an LLM Hallucination Is: Types, Causes and Boundaries](https://trueinterview.io/questions/pinning-down-what-an-llm-hallucination-is-types-causes-and-boundaries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-11 |
 | [Describing Your Personal Interest in AI for a PM Role at an AI Company](https://trueinterview.io/questions/describing-your-personal-interest-in-ai-for-a-pm-role-at-an-ai-company?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-07 |
 | [Design IDE Sandbox and Payments](https://trueinterview.io/questions/design-ide-sandbox-and-payments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-07 |
-| [Explain Your Engineering Ownership](https://trueinterview.io/questions/explain-your-engineering-ownership?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-04-04 |
 | [Build a Reliable Streaming Chat UI](https://trueinterview.io/questions/build-a-reliable-streaming-chat-ui?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-04-04 |
 | [Debug MiniGPT and Backpropagate Matmul](https://trueinterview.io/questions/debug-minigpt-and-backpropagate-matmul?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-04-03 |
 | [Compute Matrix Prefix Products And Gradients](https://trueinterview.io/questions/compute-matrix-prefix-products-and-gradients?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-02 |

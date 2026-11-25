@@ -2,9 +2,9 @@
 
 # Cvs Health interview questions
 
-30 questions reported at Cvs Health, most recently reported first.
+21 questions reported at Cvs Health, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (12) · [all](all.csv) (30)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (12) · [all](all.csv) (21)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -26,22 +26,13 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Describe handling pressure and stakeholder conflicts](https://trueinterview.io/questions/describe-handling-pressure-and-stakeholder-conflicts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 1 | 2026-07 |
 | [Physical product design: rethinking the everyday comb for customers aged 65 and up](https://trueinterview.io/questions/physical-product-design-rethinking-the-everyday-comb-for-customers-aged-65-and-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-15 |
 | [Lead structured response to accuracy incident](https://trueinterview.io/questions/lead-structured-response-to-accuracy-incident?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Launch and measure a TV campaign](https://trueinterview.io/questions/launch-and-measure-a-tv-campaign?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Handle challenges in MMM/MMX](https://trueinterview.io/questions/handle-challenges-in-mmm-mmx?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Explain your top strengths concretely](https://trueinterview.io/questions/explain-your-top-strengths-concretely?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Explain p-value and choose correct test](https://trueinterview.io/questions/explain-p-value-and-choose-correct-test?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
-| [Diagnose a failing campaign](https://trueinterview.io/questions/diagnose-a-failing-campaign?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Design classification under missingness and imbalance](https://trueinterview.io/questions/design-classification-under-missingness-and-imbalance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Design an email flu-shot experiment](https://trueinterview.io/questions/design-an-email-flu-shot-experiment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Design a flu-shot A/B/n campaign experiment](https://trueinterview.io/questions/design-a-flu-shot-a-b-n-campaign-experiment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Calculate CI and Test Correlation Under Normality](https://trueinterview.io/questions/calculate-ci-and-test-correlation-under-normality?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | — |
-| [Build an uplift model for targeting](https://trueinterview.io/questions/build-an-uplift-model-for-targeting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Write SQL for dedup and purchase shares](https://trueinterview.io/questions/write-sql-for-dedup-and-purchase-shares?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen | New grad, Junior / Mid | 1 | 0 | — |
 | [Create Views, Insert, and Update Correctly](https://trueinterview.io/questions/create-views-insert-and-update-correctly?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | Junior / Mid, Senior | 1 | 0 | — |
 | [Compute age-band spend and YoY in Georgia](../../questions/sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Calculate annual percentages and YoY by cohorts](../../questions/sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
-| [Compute A/B significance, CI, and power](https://trueinterview.io/questions/compute-a-b-significance-ci-and-power?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Junior / Mid, Senior | 1 | 0 | — |
 
 ---
 

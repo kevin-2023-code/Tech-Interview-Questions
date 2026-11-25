@@ -58,7 +58,6 @@ Design a Voice and Chat AI Receptionist Platform,System Design,Hard,Onsite / vir
 Design a Global One-to-One Voice Calling System,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2026-09-10,https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system
 Adapt When Project Requirements Change Midway,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-09-10,https://trueinterview.io/questions/adapt-when-project-requirements-change-midway
 Delete and Earn (LC 740),Algorithm,Medium,Online assessment,Junior / Mid,1,0,2026-09-09,https://trueinterview.io/questions/delete-and-earn
-Detect Repeated Patterns in a String Sequence,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09-02,https://trueinterview.io/questions/detect-repeated-patterns-in-a-string-sequence
 Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/three-sum
 Production-Ready atoi for an Arbitrary Base,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/f84adfe5-d304-5415-a1e5-1b7d9405ad8f
 Replace Non-Coprime Numbers in Array,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/bcfc7bd3-2f91-5dcd-9c70-650c836cd8d7
@@ -93,7 +92,6 @@ LFU Cache,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,6
 My Calendar I,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/my-calendar-i
 Parse a Signed Integer in an Arbitrary Base,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-30,https://trueinterview.io/questions/parse-a-signed-integer-in-an-arbitrary-base
 Merge N-ary Trees by Node Key,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,5,2026-08-27,https://trueinterview.io/questions/coding-merge-nary-trees-by-key
-Maximize Points by Deleting Values and Their Neighbors,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-08-25,https://trueinterview.io/questions/maximize-points-by-deleting-values-and-their-neighbors
 "Disagreeing, Then Fully Backing the Team's Chosen Direction",Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-08-23,https://trueinterview.io/questions/disagreeing-then-fully-backing-the-teams-chosen-direction
 Design a Real-Time Bike-Sharing System With Reservations and Live Tracking,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-23,https://trueinterview.io/questions/design-a-real-time-bike-sharing-system-with-reservations-and-live-tracking
 Bucket Words That Are Letter Rearrangements of One Another,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-08-23,https://trueinterview.io/questions/bucket-words-that-are-letter-rearrangements-of-one-another
@@ -106,6 +104,7 @@ Palindrome Linked List (LC 234) + Engineering Follow-Up,Algorithm,Medium,Onsite 
 Choosing and Justifying a New AI Capability for the Microsoft Office Apps,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08-15,https://trueinterview.io/questions/choosing-and-justifying-a-new-ai-capability-for-the-microsoft-office-apps
 Design a High-Concurrency Incident Ticket Correlation Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,1,2026-08-15,https://trueinterview.io/questions/design-a-high-concurrency-incident-ticket-correlation-platform
 Lowest Common Ancestor (LC 235) with a Follow-Up Variant,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-08-15,https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree
+Second Highest Salary,SQL,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-08-13,https://trueinterview.io/questions/second-highest-salary
 Minimum Fuel Cost Across a Road Network,Algorithm,Hard,Online assessment,New grad,1,1,2026-08-11,https://trueinterview.io/questions/minimum-fuel-cost-road-network
 Product Sense: Make a Vending Machine Usable Without Sight,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08-09,https://trueinterview.io/questions/product-sense-make-a-vending-machine-usable-without-sight
 Pitch Microsoft's Chief Executive One Strategic Product Bet and Defend It,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,0,2026-08-09,https://trueinterview.io/questions/pitch-microsofts-chief-executive-one-strategic-product-bet-and-defend-it

@@ -6,14 +6,13 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 
 [All companies](../README.md#companies)
 
-## Algorithm (193)
+## Algorithm (183)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
 | [Best Time to Buy and Sell Stock II](algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Easy | Apple · Amazon · Bloomberg · ByteDance · Citadel |
 | [Binary Tree Right Side View](algorithm/binary-tree-right-side-view/README.md) | Easy | ByteDance · Amazon · Google · Meta · Microsoft |
 | [Calculate Amount Paid in Taxes](algorithm/calculate-amount-paid-in-taxes/README.md) | Easy | Snowflake |
-| [Compute Variance from a Python List](algorithm/compute-variance-from-a-python-list/README.md) | Easy | PayPal |
 | [Happy Number](algorithm/happy-number/README.md) | Easy | Snowflake · Apple |
 | [In-Flight Movie Pair (Two Sum Variant)](algorithm/in-flight-movie-pair-two-sum/README.md) | Easy | Amazon · Bloomberg · ByteDance · Ebay · Goldman Sachs |
 | [Longest Substring Without Repeating Characters II](algorithm/longest-substring-without-repeating-characters/README.md) | Easy | Apple · Amazon · Bloomberg · ByteDance · Datadog |
@@ -40,13 +39,11 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Build Naive Bayes spam classifier with F1](algorithm/build-naive-bayes-spam-classifier-with-f1/README.md) | Medium | Disney |
 | [Camera Motion Detection](algorithm/camera-motion-detection/README.md) | Medium | Verkada |
 | [Cheapest Flights Within K Stops](algorithm/cheapest-flights-within-k-stops-3/README.md) | Medium | Uber · Apple · Snowflake |
-| [Check if adding edge creates cycle in digraph](algorithm/check-if-adding-edge-creates-cycle-in-digraph/README.md) | Medium | Amazon |
 | [Check Vertical Reflection Symmetry with Duplicate Points](algorithm/check-vertical-reflection-symmetry-with-duplicate-points/README.md) | Medium | Nuro |
 | [Citation Highlighting](algorithm/citation-highlighting/README.md) | Medium | Harvey |
 | [Coin Change (LC 322)](algorithm/coin-change/README.md) | Medium | Pinterest |
 | [Combination Sum](algorithm/combination-sum/README.md) | Medium | — |
 | [Combination Sum IV](algorithm/combination-sum-iv/README.md) | Medium | — |
-| [Compute outer boundary of an N-ary tree](algorithm/compute-outer-boundary-of-an-n-ary-tree/README.md) | Medium | Uber |
 | [Container With Most Water](algorithm/container-with-most-water-2/README.md) | Medium | Oracle |
 | [Container With Most Water II](algorithm/container-with-most-water/README.md) | Medium | Apple |
 | [Contains Duplicate III](algorithm/contains-duplicate-iii/README.md) | Medium | Netflix |
@@ -104,7 +101,6 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Meeting Rooms II](algorithm/meeting-rooms-ii/README.md) | Medium | Google · LinkedIn |
 | [Merge Intervals](algorithm/merge-intervals/README.md) | Medium | Apple · Amazon · ByteDance · Google · Lyft |
 | [Merge K Sorted Lists (incl. K = 3)](algorithm/merge-k-sorted-lists-3/README.md) | Medium | Goldman Sachs · Apple · ByteDance · Citadel · Meta |
-| [Merge multiple sorted arrays using min-heap](algorithm/merge-multiple-sorted-arrays-using-min-heap/README.md) | Medium | Microsoft |
 | [Merge N-ary Trees by Node Key](algorithm/coding-merge-nary-trees-by-key/README.md) | Medium | LinkedIn · Microsoft |
 | [Merge Two Binary Trees](algorithm/merge-two-binary-trees/README.md) | Medium | LinkedIn |
 | [Min Remove to Make Valid Parentheses](algorithm/min-remove-to-make-valid-parens/README.md) | Medium | Meta |
@@ -127,7 +123,6 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](algorithm/rate-limit-by-multiple-request-fields-per-field-multi-dimensional/README.md) | Medium | Roblox |
 | [Redundant Connection: Underground Pipes](algorithm/redundant-connection-underground-pipes/README.md) | Medium | Two Sigma |
 | [Restore IP Addresses](algorithm/restore-ip-addresses/README.md) | Medium | ByteDance · OKX · OpenAI |
-| [Reverse linked list in fixed-size groups](algorithm/reverse-linked-list-in-fixed-size-groups/README.md) | Medium | Microsoft |
 | [Robot Bounded In Circle](algorithm/robot-bounded-in-circle/README.md) | Medium | Uber · Meta |
 | [Rotate Matrix with Gravity Effect](algorithm/rotate-matrix-with-gravity-effect/README.md) | Medium | Uber |
 | [Rotting Oranges](algorithm/rotting-oranges/README.md) | Medium | Uber · Amazon |
@@ -139,7 +134,6 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Simple Moving Average over a Fixed-Size Sliding Window](algorithm/simple-moving-average-over-a-fixed-size-sliding-window/README.md) | Medium | Chicago Trading · Atlassian · ByteDance · Coinbase |
 | [Sliding Window Maximum](algorithm/sliding-window-maximum/README.md) | Medium | Uber · Amazon · ByteDance |
 | [Sliding-Window Rate Limiter II](algorithm/sliding-window-rate-limiter/README.md) | Medium | Roblox · Amazon · Atlassian · LinkedIn · Microsoft |
-| [Solve two array and string problems](algorithm/solve-two-array-and-string-problems/README.md) | Medium | Bloomberg |
 | [Sort Colors](algorithm/sort-colors/README.md) | Medium | OKX · Capital One |
 | [Spiral Matrix](algorithm/spiral-matrix/README.md) | Medium | Atlassian · Pinduoduo |
 | [Spiral Matrix Traversal](algorithm/spiral-matrix-output/README.md) | Medium | Goldman Sachs · Microsoft |
@@ -164,7 +158,6 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Answer multi-round grid and data-structure questions](algorithm/answer-multi-round-grid-and-data-structure-questions/README.md) | Hard | Bloomberg |
 | [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](algorithm/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner/README.md) | Hard | Jane Street |
 | [Code Review: Thread Safety of a Python Compute-and-Cache Function](algorithm/code-review-thread-safety-of-a-python-compute-and-cache-function/README.md) | Hard | Mercor |
-| [Compute interval mode, BST range sum, exclusive time](algorithm/compute-interval-mode-bst-range-sum-exclusive-time/README.md) | Hard | Meta |
 | [Compute Remaining GPUs With Switching Limits](algorithm/compute-remaining-gpus-with-switching-limits/README.md) | Hard | Mistral AI |
 | [Connect-N on an Infinite Board with Gravity](algorithm/connect-n-on-an-infinite-board-with-gravity/README.md) | Hard | Jane Street |
 | [Count Blocked Rate-Limited Requests](algorithm/count-blocked-rate-limited-requests/README.md) | Hard | Render |
@@ -174,7 +167,6 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Execute TTL Cache Operations with Fetch-on-Miss](algorithm/execute-ttl-cache-operations-with-fetch-on-miss/README.md) | Hard | Tubi |
 | [Find All Shortest Paths in Word Ladder](algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Hard | Lyft |
 | [Find duplicate files and apply image operations](algorithm/find-duplicate-files-and-apply-image-operations/README.md) | Hard | Anthropic |
-| [Find Maximum Path Sum in N-ary Tree](algorithm/find-maximum-path-sum-in-n-ary-tree/README.md) | Hard | Nuro |
 | [Find Median from Data Stream](algorithm/find-median-from-data-stream/README.md) | Hard | Snowflake · Amazon · ByteDance · Google · Meta |
 | [Find shortest path on infinite grid](algorithm/find-shortest-path-on-infinite-grid/README.md) | Hard | Ziphq |
 | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Hard | Ziphq |
@@ -196,44 +188,13 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Reconstruct Itinerary](algorithm/reconstruct-itinerary/README.md) | Hard | Netflix · Apple |
 | [Schedule tasks with cooldown](algorithm/solve-three-scheduling-and-array-problems-schedule-tasks-with-cooldown/README.md) | Hard | Microsoft |
 | [Solve Digit-Square and Grid BFS Problems](algorithm/solve-digit-square-and-grid-bfs-problems/README.md) | Hard | Apple |
-| [Solve three algorithmic optimization and search problems](algorithm/solve-three-algorithmic-optimization-and-search-problems/README.md) | Hard | Uber |
-| [Solve three coding interview problems](algorithm/solve-three-coding-interview-problems/README.md) | Hard | Google |
 | [Three-Color Map Coloring](algorithm/three-color-map-coloring/README.md) | Hard | Snowflake |
 | [Transform clickstream with pandas sessionization](algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Hard | Onemain Financial |
 | [Trapping Rain Water](algorithm/trapping-rain-water/README.md) | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs |
 | [Valid Parenthesis String](algorithm/valid-parenthesis-string/README.md) | Hard | Oracle · ByteDance |
 | [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai |
 
-## System Design (24)
-
-| Question | Difficulty | Asked at |
-| :-- | :-: | :-- |
-| [Design Consistent List and Category APIs](system-design/design-consistent-list-and-category-apis/README.md) | Easy | Nclusion |
-| [Debug and mitigate a CPU spike incident](system-design/debug-and-mitigate-a-cpu-spike-incident/README.md) | Medium | Discord |
-| [Design a Durable Cron Job Scheduler](system-design/design-a-durable-cron-job-scheduler/README.md) | Medium | Cursor · Snowflake |
-| [Design a robust pro-ranking A/B test](system-design/design-a-robust-pro-ranking-a-b-test/README.md) | Medium | Thumbtack |
-| [Design a Test Orchestration System](system-design/design-a-test-orchestration-system/README.md) | Medium | Axon |
-| [Design a Twitter-like microblogging service](system-design/design-a-twitter-like-microblogging-service/README.md) | Medium | Asana |
-| [Design Job Scheduler](system-design/job-scheduler-design/README.md) | Medium | Robinhood · Airbnb · Atlassian · ByteDance · Databricks |
-| [Design Online Chess Game](system-design/design-chess-com-online-chess-game/README.md) | Medium | OpenAI · Airbnb · Amazon · Meta · Microsoft AI |
-| [Design Real-Time Comments with Optimistic Updates](system-design/design-real-time-comments-with-optimistic-updates/README.md) | Medium | Cohere |
-| [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](system-design/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code/README.md) | Medium | AMD |
-| [How would you evaluate upranking Shop ads?](system-design/how-would-you-evaluate-upranking-shop-ads-2/README.md) | Medium | Meta |
-| [Scale Digit-Square Convergence Requests](system-design/scale-digit-square-convergence-requests/README.md) | Medium | Apple |
-| [Design a 911 emergency calling service](system-design/design-a-911-emergency-calling-service/README.md) | Hard | Salesforce |
-| [Design a PDF-to-Markdown Inference API](system-design/design-a-pdf-to-markdown-inference-api/README.md) | Hard | Mistral AI |
-| [Design a Project-to-Contractor Matching System](system-design/design-a-project-to-contractor-matching-system/README.md) | Hard | Mercor |
-| [Design camera-footage upload with custody chain](system-design/design-camera-footage-upload-with-custody-chain/README.md) | Hard | Axon |
-| [Design leader election using Redis leases](system-design/design-leader-election-using-redis-leases/README.md) | Hard | Discord |
-| [Design ride-hailing and price alert systems](system-design/design-ride-hailing-and-price-alert-systems/README.md) | Hard | Snapchat |
-| [Design ticketing and coding practice platforms](system-design/design-ticketing-and-coding-practice-platforms/README.md) | Hard | Meta |
-| [Forecast Food Stocking Needs Under Waste and Stockout Costs](system-design/forecast-food-stocking-needs-under-waste-and-stockout-costs/README.md) | Hard | C3 AI |
-| [How would you design Shop-ad ranking?](system-design/how-would-you-design-shop-ad-ranking/README.md) | Hard | Meta |
-| [Rank Homepage Modules for an E-Commerce Product](system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | Hard | Wayfair |
-| [Redesign a Spam Classifier for Production](system-design/redesign-a-spam-classifier-for-production/README.md) | Hard | Indeed |
-| [Set Bids for Search Advertising from Business Value](system-design/set-bids-for-search-advertising-from-business-value/README.md) | Hard | Wayfair |
-
-## Object-Oriented Programming (22)
+## Object-Oriented Programming (21)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -258,20 +219,41 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](object-oriented-programming/composable-event-recommendation-campaign-engine-flexible-filters-ranking/README.md) | Hard | Stubhub |
 | [Design and Solve a Rotatable Jigsaw Puzzle](object-oriented-programming/design-and-solve-a-rotatable-jigsaw-puzzle/README.md) | Hard | Asana |
 | [Implement an asyncio-based chat server](object-oriented-programming/implement-an-asyncio-based-chat-server/README.md) | Hard | Discord |
-| [Implement transaction network queries](object-oriented-programming/implement-transaction-network-queries/README.md) | Hard | Square |
 
-## SQL (10)
+## System Design (20)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
-| [(Hard)](sql/write-sql-for-tiktok-live-creator-metrics-hard/README.md) | Medium | ByteDance |
+| [Design Consistent List and Category APIs](system-design/design-consistent-list-and-category-apis/README.md) | Easy | Nclusion |
+| [Debug and mitigate a CPU spike incident](system-design/debug-and-mitigate-a-cpu-spike-incident/README.md) | Medium | Discord |
+| [Design a Durable Cron Job Scheduler](system-design/design-a-durable-cron-job-scheduler/README.md) | Medium | Cursor · Snowflake |
+| [Design a robust pro-ranking A/B test](system-design/design-a-robust-pro-ranking-a-b-test/README.md) | Medium | Thumbtack |
+| [Design a Test Orchestration System](system-design/design-a-test-orchestration-system/README.md) | Medium | Axon |
+| [Design a Twitter-like microblogging service](system-design/design-a-twitter-like-microblogging-service/README.md) | Medium | Asana |
+| [Design Job Scheduler](system-design/job-scheduler-design/README.md) | Medium | Robinhood · Airbnb · Atlassian · ByteDance · Databricks |
+| [Design Online Chess Game](system-design/design-chess-com-online-chess-game/README.md) | Medium | OpenAI · Airbnb · Amazon · Meta · Microsoft AI |
+| [Design Real-Time Comments with Optimistic Updates](system-design/design-real-time-comments-with-optimistic-updates/README.md) | Medium | Cohere |
+| [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](system-design/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code/README.md) | Medium | AMD |
+| [Scale Digit-Square Convergence Requests](system-design/scale-digit-square-convergence-requests/README.md) | Medium | Apple |
+| [Design a PDF-to-Markdown Inference API](system-design/design-a-pdf-to-markdown-inference-api/README.md) | Hard | Mistral AI |
+| [Design a Project-to-Contractor Matching System](system-design/design-a-project-to-contractor-matching-system/README.md) | Hard | Mercor |
+| [Design camera-footage upload with custody chain](system-design/design-camera-footage-upload-with-custody-chain/README.md) | Hard | Axon |
+| [Design leader election using Redis leases](system-design/design-leader-election-using-redis-leases/README.md) | Hard | Discord |
+| [Design ride-hailing and price alert systems](system-design/design-ride-hailing-and-price-alert-systems/README.md) | Hard | Snapchat |
+| [Design ticketing and coding practice platforms](system-design/design-ticketing-and-coding-practice-platforms/README.md) | Hard | Meta |
+| [Forecast Food Stocking Needs Under Waste and Stockout Costs](system-design/forecast-food-stocking-needs-under-waste-and-stockout-costs/README.md) | Hard | C3 AI |
+| [Rank Homepage Modules for an E-Commerce Product](system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | Hard | Wayfair |
+| [Redesign a Spam Classifier for Production](system-design/redesign-a-spam-classifier-for-production/README.md) | Hard | Indeed |
+
+## SQL (7)
+
+| Question | Difficulty | Asked at |
+| :-- | :-: | :-- |
 | [Calculate annual percentages and YoY by cohorts](sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | Medium | Cvs Health |
 | [Compute age-band spend and YoY in Georgia](sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | Medium | Cvs Health |
 | [Compute daily net users from event logs](sql/compute-daily-net-users-from-event-logs/README.md) | Medium | Tubi |
-| [Compute percent of first-cancel users who never return](sql/compute-percent-of-first-cancel-users-who-never-return/README.md) | Medium | Pinterest |
 | [Compute signup rate and retention from raw logs](sql/compute-signup-rate-and-retention-from-raw-logs/README.md) | Medium | OpenAI |
 | [Compute weekly 3-week rolling sums in SQL](sql/compute-weekly-3-week-rolling-sums-in-sql/README.md) | Medium | Thumbtack |
-| [Write SQL for TikTok Live creator metrics](sql/write-sql-for-tiktok-live-creator-metrics/README.md) | Medium | ByteDance |
 | [Compute DAU and rolling MAU with zero days](sql/compute-dau-and-rolling-mau-with-zero-days/README.md) | Hard | Glean |
 | [Compute Moderation View Metrics](sql/compute-moderation-view-metrics/README.md) | Hard | Airwallex |
 

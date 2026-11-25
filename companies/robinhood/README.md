@@ -2,9 +2,9 @@
 
 # Robinhood interview questions
 
-63 questions reported at Robinhood, most recently reported first.
+59 questions reported at Robinhood, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (20) · [last 6 months](six-months.csv) (27) · [all](all.csv) (63)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (19) · [last 6 months](six-months.csv) (25) · [all](all.csv) (59)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -25,7 +25,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Log Inventory Changes from the System’s Perspective](https://trueinterview.io/questions/log-inventory-changes-from-the-system-s-perspective?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-29 |
 | [Explain a Conflict During Backend Delivery](https://trueinterview.io/questions/explain-a-conflict-during-backend-delivery?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-29 |
 | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-17 |
-| [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-17 |
 | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-15 |
 | [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-09-04 |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 16 | 0 | 2026-09 |
@@ -35,7 +34,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a secure trading app on AWS](https://trueinterview.io/questions/design-a-secure-trading-app-on-aws?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior | 1 | 2 | 2026-08 |
 | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 3 | 0 | 2026-08 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 2 | 8 | 2026-08 |
-| [Critique a Recent Engineering Project and Explain What You Would Redo](https://trueinterview.io/questions/critique-a-recent-engineering-project-and-explain-what-you-would-redo?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 0 | 2026-07-17 |
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-07 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 16 | 0 | 2026-07 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 4 | 0 | 2026-06 |
@@ -46,7 +44,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Employee Referral Program](https://trueinterview.io/questions/referral-program-leaderboard?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-28 |
 | [Design a Real-Time Stock Price System](https://trueinterview.io/questions/stock-trading-quote-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-04-23 |
 | [Fractional Inventory](https://trueinterview.io/questions/fractional-share-inventory-trading?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-23 |
-| [Defend the Complexity and Scalability of a Project](https://trueinterview.io/questions/defend-the-complexity-and-scalability-of-a-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-21 |
 | [Produce a Deterministic Course Plan](https://trueinterview.io/questions/produce-a-deterministic-course-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-21 |
 | [Design a Photo Management Service](https://trueinterview.io/questions/design-a-photo-management-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Senior | 1 | 1 | 2026-04 |
 | [Text Layout Into Rows](https://trueinterview.io/questions/text-layout-into-rows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Onsite / virtual onsite | Senior | 1 | 0 | 2026-04 |
@@ -72,7 +69,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Test Plan Design for a Ride-sharing Application](https://trueinterview.io/questions/03cca6eb-1380-4985-8ddd-f69c70b2206d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2025-05 |
 | [Find Middle Course](https://trueinterview.io/questions/find-middle-course?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-04-10 |
 | [Prove causality for trading metric drop](https://trueinterview.io/questions/prove-causality-for-trading-metric-drop?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | — |
-| [Diagnose sustained drop in executed trades](https://trueinterview.io/questions/diagnose-sustained-drop-in-executed-trades?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Write SQL and Python for transaction analytics](https://trueinterview.io/questions/write-sql-and-python-for-transaction-analytics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Implement Android findViewById](https://trueinterview.io/questions/20f0926e-8b1b-4160-b794-3e5c1f012212?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | — |
 

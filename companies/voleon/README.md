@@ -2,9 +2,9 @@
 
 # Voleon interview questions
 
-20 questions reported at Voleon, most recently reported first.
+17 questions reported at Voleon, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (8) · [all](all.csv) (20)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (7) · [all](all.csv) (17)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,7 +12,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-14 |
 | [Earliest Time with Maximum Running Processes](https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-08 |
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid | 3 | 2 | 2026-08 |
 | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-07 |
@@ -27,10 +26,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad | 1 | 0 | 2025-12 |
 | [Plane Tangent Vectors from Coplanar 3D Points via SVD, With and Without Gaussian Noise](https://trueinterview.io/questions/plane-tangent-vectors-from-coplanar-3d-points-via-svd-with-and-without-gaussian-noise?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-31 |
 | [Explain a Sorting Algorithm Such as Merge Sort: Mechanics, Correctness, Complexity](https://trueinterview.io/questions/explain-a-sorting-algorithm-such-as-merge-sort-mechanics-correctness-complexity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-31 |
-| [Solve Markov, OLS-rotation, and coin-toss probability](https://trueinterview.io/questions/solve-markov-ols-rotation-and-coin-toss-probability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-06 |
 | [Design and diagnose a regression pipeline](https://trueinterview.io/questions/design-and-diagnose-a-regression-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Build a regularized regression pipeline](https://trueinterview.io/questions/build-a-regularized-regression-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
-| [Load and visualize large CSV robustly](https://trueinterview.io/questions/load-and-visualize-large-csv-robustly?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Analyze time-zoned events with pandas](https://trueinterview.io/questions/analyze-time-zoned-events-with-pandas?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior, Staff+ | 1 | 0 | — |
 
 ---

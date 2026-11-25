@@ -2,9 +2,9 @@
 
 # Ebay interview questions
 
-64 questions reported at Ebay, most recently reported first.
+61 questions reported at Ebay, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (3) · [last 3 months](three-months.csv) (21) · [last 6 months](six-months.csv) (44) · [all](all.csv) (64)
+CSV: [last 30 days](thirty-days.csv) (3) · [last 3 months](three-months.csv) (21) · [last 6 months](six-months.csv) (42) · [all](all.csv) (61)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -35,8 +35,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Phone screen | Junior / Mid, Senior | 12 | 0 | 2026-09 |
 | [Describe Your Most Technically Difficult Project](https://trueinterview.io/questions/describe-your-most-technically-difficult-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 0 | 2026-08-26 |
 | [Search in Rotated Sorted Array](../../questions/algorithm/search-in-rotated-sorted-array/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Intern, Junior / Mid | 3 | 0 | 2026-08-21 |
-| [Investing in Deliberate Professional Growth](https://trueinterview.io/questions/investing-in-deliberate-professional-growth?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 1 | 0 | 2026-08-19 |
-| [Design a Shopping Search Bar with Autocomplete](https://trueinterview.io/questions/design-a-shopping-search-bar-with-autocomplete?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-19 |
 | [Diagnosing Low Checkout Conversion on eBay and Choosing Fixes](https://trueinterview.io/questions/diagnosing-low-checkout-conversion-on-ebay-and-choosing-fixes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-07 |
 | [Number of Islands with Diagonal Connectivity](https://trueinterview.io/questions/305f8037-56c2-58a9-bf48-7aa7f999f65a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 3 | 2 | 2026-08 |
 | [Longest Palindromic Substring](../../questions/algorithm/longest-palindromic-substring/README.md) | Algorithm | Medium | Phone screen | New grad, Senior | 4 | 0 | 2026-08 |
@@ -64,7 +62,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Unique Word Abbreviation](https://trueinterview.io/questions/55c4e4d1-3f81-4af8-ae7a-53d0a4c2699e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Senior | 1 | 0 | 2026-05 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 7 | 0 | 2026-05 |
 | [Implement a Prefix-Based Word Store](https://trueinterview.io/questions/solve-dependency-prefix-and-cache-problems-implement-a-prefix-based-word-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-08 |
-| [Solve Dependency, Prefix, and Cache Problems](https://trueinterview.io/questions/solve-dependency-prefix-and-cache-problems?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-08 |
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 4 | 0 | 2026-04 |
 | [Top-K Co-Occurring Products in Sessions (Recommendation by Frequency)](https://trueinterview.io/questions/e4a92e49-cff6-43ee-9862-1c0391db7357?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-04 |
 | [Find top co-viewed products](https://trueinterview.io/questions/find-top-co-viewed-products?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-07 |

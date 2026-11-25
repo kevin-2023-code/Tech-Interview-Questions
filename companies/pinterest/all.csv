@@ -106,7 +106,6 @@ PM behavioral: a piece of feedback you acted on and what changed afterward,Behav
 Bubble Explosion on a Grid (One Round + Gravity),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/c071219b-045a-4aaf-a968-4a395c259ca8
 Scooter Hopping on a Number Line (Greedy Simulation),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/4061bf21-5f91-4205-b332-593d043db6af
 Evaluate Fresh Content and Video Experiments,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-01-22,https://trueinterview.io/questions/evaluate-fresh-content-and-video-experiments
-Write Queries for Pinterest Engagement Tasks,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-01-22,https://trueinterview.io/questions/write-queries-for-pinterest-engagement-tasks
 Design a Date-of-Birth Collection Flow for Meta's Apps,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-18,https://trueinterview.io/questions/design-a-date-of-birth-collection-flow-for-metas-apps
 Design and Evaluate a Home Carousel,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-01-14,https://trueinterview.io/questions/design-and-evaluate-a-home-carousel
 Root-Cause Analysis of a 20% Single-Day Decline in YouTube Engagement Time,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01-07,https://trueinterview.io/questions/root-cause-analysis-of-a-20percent-single-day-decline-in-youtube-engagement-time
@@ -116,7 +115,6 @@ Escape Room Lock Chain,Algorithm,Medium,Phone screen,Senior,1,1,2026-01,https://
 Improve the Google Search Homepage Journey Beyond a Plain Query Box,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-12-25,https://trueinterview.io/questions/improve-the-google-search-homepage-journey-beyond-a-plain-query-box
 Solve a 9x9 Sudoku puzzle,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-12-13,https://trueinterview.io/questions/solve-a-9x9-sudoku-puzzle
 Top-K Ads from Log + Sliding-Window Ingest,Algorithm,Medium,Onsite / virtual onsite,Senior,1,1,2025-12-10,https://trueinterview.io/questions/top-k-ads-from-log-sliding-window
-Write SQL for top categories and highly active users,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2025-12-05,https://trueinterview.io/questions/write-sql-for-top-categories-and-highly-active-users
 Search Engine Input Suggestions,Algorithm,Easy,Online assessment,Senior,1,0,2025-12,https://trueinterview.io/questions/d56954e6-11b8-45ac-a5b1-2d26c7bd2506
 Delete Node in a Linked List,Algorithm,Easy,Online assessment,Intern; Senior,2,1,2025-12,https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576
 Set Equality Verification,Algorithm,Easy,Online assessment,Senior,1,1,2025-12,https://trueinterview.io/questions/0def6fa8-60e7-41ea-bf60-ab321aa731ea
@@ -124,7 +122,6 @@ Newline-Split Stream Reader,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,
 Go/No-Go Decision on Slack Building an Offering for Schools and Universities,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-11,https://trueinterview.io/questions/go-no-go-decision-on-slack-building-an-offering-for-schools-and-universities
 Subarray Score ≤ K (Sliding-Window),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-11-07,https://trueinterview.io/questions/subarray-score-at-most-k
 Implement custom round function,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-11,https://trueinterview.io/questions/b1edadf2-a0a2-430e-9c61-abc05944b832
-Compute percent of first-cancel users who never return,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2025-10-26,https://trueinterview.io/questions/compute-percent-of-first-cancel-users-who-never-return
 Explain your ML project end-to-end,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2025-10,https://trueinterview.io/questions/explain-your-ml-project-end-to-end
 Design Delayed Tasks Scheduler,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,0,2025-10,https://trueinterview.io/questions/design-delayed-tasks-scheduler
 Shortest Path in Unweighted Graph,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,0,2025-05-30,https://trueinterview.io/questions/shortest-path-in-unweighted-graph
@@ -137,17 +134,11 @@ Diagnose CTR drop after recommendation launch,Behavioral / Knowledge,,Onsite / v
 Design rigorous A/B test and causal analysis,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-rigorous-a-b-test-and-causal-analysis
 Design metrics and experiment for Shopping launch,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-metrics-and-experiment-for-shopping-launch
 Design and assess a video-pin increase experiment,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-and-assess-video-pin-increase-experiment
-Demonstrate leadership with concrete STAR examples,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/demonstrate-leadership-with-concrete-star-examples
 Decide if ad load is optimized,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/decide-if-ad-load-is-optimized
 Analyze a geo rollout and interpret charts,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/analyze-a-geo-rollout-and-interpret-charts
 Write windowed retention and ARPU SQL,SQL,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/write-windowed-retention-and-arpu-sql
 Write SQL to rank categories by impressions,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-to-rank-categories-by-impressions
-Write SQL to compute max-overlap lists,SQL,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-to-compute-max-overlap-lists
-Write SQL and pandas for shopping events,SQL,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/write-sql-and-pandas-for-shopping-events
 Implement scalable prime generator,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/implement-scalable-prime-generator
-Implement and extend My Calendar III,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/implement-and-extend-my-calendar-iii
-Compute CTR by format for new US users,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-ctr-by-format-for-new-us-users
-Compute average unique pins per user,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-average-unique-pins-per-user
 Find top category by video time spent,AI Coding,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/find-top-category-by-video-time-spent
 Design A Video Recommendation System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,4,0,,https://trueinterview.io/questions/design-a-video-recommendation-system-2
 Count Objects in Pin,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/2ef8e521-5ac6-4711-9d84-6b98703ad305

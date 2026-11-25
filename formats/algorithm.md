@@ -2,11 +2,11 @@
 
 # Algorithm interview questions
 
-2,917 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
+2,782 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 
-Showing the 500 most recently reported of 2,917. [data/questions.csv](../data/questions.csv) has every row.
+Showing the 500 most recently reported of 2,782. [data/questions.csv](../data/questions.csv) has every row.
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -404,7 +404,6 @@ Showing the 500 most recently reported of 2,917. [data/questions.csv](../data/qu
 | 2026-09-03 | [Snowflake](../companies/snowflake/) | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-09-02 | [Airwallex](../companies/airwallex/) | [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-09-02 | [Amazon](../companies/amazon/) | [Generalize Dictionary Merging](https://trueinterview.io/questions/generalize-dictionary-merging?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad | 0 |
-| 2026-09-02 | [Microsoft](../companies/microsoft/) | [Detect Repeated Patterns in a String Sequence](https://trueinterview.io/questions/detect-repeated-patterns-in-a-string-sequence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-09-02 | [Amazon](../companies/amazon/) | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 0 |
 | 2026-09-02 | [Google](../companies/google/) | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid | 0 |
 | 2026-09-01 | [ElevenLabs](../companies/elevenlabs/) | [Smallest Larger Integer That Uses None of the Digits of n](https://trueinterview.io/questions/smallest-larger-integer-that-uses-none-of-the-digits-of-n?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad, Junior / Mid | 0 |
@@ -510,3 +509,4 @@ Showing the 500 most recently reported of 2,917. [data/questions.csv](../data/qu
 | 2026-09 | [IBM](../companies/ibm/) | [Sum of XOR Values Over All Array Pairs](https://trueinterview.io/questions/05a3f338-fc03-5eac-9ba5-80a8b11965b1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
 | 2026-09 | [Capital One](../companies/capital-one/) | [Count Pairs Matchable by One Digit Swap](https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad | 0 |
 | 2026-09 | [Bloomberg](../companies/bloomberg/) | [Detect Fraudulent Transactions](https://trueinterview.io/questions/84306b63-f79d-5a02-9d25-921f49151cc0?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
+| 2026-09 | [Salesforce](../companies/salesforce/), [ByteDance](../companies/bytedance/) +3 | [String Anagram Windows](https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |

@@ -82,19 +82,14 @@ Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time,Algorithm,Medium,Ph
 Design a single-node persistent in-memory cache,Object-Oriented Programming,Hard,Phone screen,New grad; Senior,1,0,2026-01-22,https://trueinterview.io/questions/design-a-single-node-persistent-in-memory-cache
 SQL Query Plan Optimizer,Algorithm,Hard,Onsite / virtual onsite,New grad,1,1,2026-01-10,https://trueinterview.io/questions/sql-query-plan-optimizer
 Payment Gateway System,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-01,https://trueinterview.io/questions/payment-gateway-system
-Test coin fairness from 560 tails in 1000 flips,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-12-12,https://trueinterview.io/questions/test-coin-fairness-from-560-tails-in-1000-flips
 Explain ROC-AUC vs PR-AUC tradeoffs,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-12-12,https://trueinterview.io/questions/explain-roc-auc-vs-pr-auc-tradeoffs
-Count weekly customers with ≥$1000 YTD spend,SQL,Hard,Phone screen,Senior; Staff+,1,0,2025-12-03,https://trueinterview.io/questions/count-weekly-customers-with-1000-ytd-spend
 Query QPS from KV Store Request Logs,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern,1,0,2025-12,https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures-query-qps-from-kv-store-request-logs
 Maximal Square and Rectangle in Binary Matrix,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Senior,3,0,2025-11-26,https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix
 Network Throttling System Design,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2025-11-20,https://trueinterview.io/questions/network-throttling-system-design
 Design Tic-Tac-Toe and QPS data structures,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-11-13,https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures
-How do you handle conflicting interviewer hints?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-11-06,https://trueinterview.io/questions/how-do-you-handle-conflicting-interviewer-hints
 Ad Marketplace System Design,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-05,https://trueinterview.io/questions/ad-marketplace-system-design
 Max Area of Island,Algorithm,Medium,Phone screen,Senior,3,0,2025-11,https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f
 Multi-Threaded Chat System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-10-24,https://trueinterview.io/questions/multi-threaded-chat-system
-Relate coefficients under linear feature transformation,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-10-14,https://trueinterview.io/questions/relate-coefficients-under-linear-feature-transformation-2
-Diagnose and fix multicollinearity in income regression,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-10-14,https://trueinterview.io/questions/diagnose-and-fix-multicollinearity-in-income-regression
 Autonomous Ride-Hailing App System Design (Waymo-like),System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2025-10-09,https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like
 Tic Tac Toe,AI Coding,Easy,Phone screen,New grad; Junior / Mid,3,0,2025-06,https://trueinterview.io/questions/tic-tac-toe
 Design A VM Bandwidth Rate Limiter,System Design,Hard,Onsite / virtual onsite,Senior,3,0,2025-01,https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2

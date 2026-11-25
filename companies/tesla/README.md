@@ -2,9 +2,9 @@
 
 # Tesla interview questions
 
-61 questions reported at Tesla, most recently reported first.
+60 questions reported at Tesla, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (21) · [all](all.csv) (61)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (20) · [all](all.csv) (60)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -23,7 +23,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-01 |
 | [Count Islands and Water Boundary](../../questions/algorithm/count-islands-and-water-boundary/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 4 | 0 | 2026-09 |
 | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-24 |
-| [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-24 |
 | [Planning a Low-Disruption Over-the-Air Release for Tesla's Vehicle Fleet](https://trueinterview.io/questions/planning-a-low-disruption-over-the-air-release-for-teslas-vehicle-fleet?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-16 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Intern, Senior | 5 | 0 | 2026-08 |
 | [URL Router Design](https://trueinterview.io/questions/url-router-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2 | 2026-08 |

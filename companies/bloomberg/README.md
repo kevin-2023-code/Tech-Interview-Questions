@@ -2,9 +2,9 @@
 
 # Bloomberg interview questions
 
-97 questions reported at Bloomberg, most recently reported first.
+93 questions reported at Bloomberg, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (23) · [last 6 months](six-months.csv) (49) · [all](all.csv) (97)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (23) · [last 6 months](six-months.csv) (49) · [all](all.csv) (93)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -75,7 +75,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Find Tree Root from Edge List](https://trueinterview.io/questions/find-tree-root-from-edges?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 1 | 2026-02-25 |
 | [Streaming Social-Media Mentions & Aggregation](https://trueinterview.io/questions/streaming-social-media-mentions-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 0 | 2026-02-22 |
 | [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-02-22 |
-| [Implement sliding-window timestamped average](https://trueinterview.io/questions/implement-sliding-window-timestamped-average?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-02-12 |
 | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 2 | 2026-02 |
 | [Sort Words by Custom Alphabet Order](https://trueinterview.io/questions/cc94ea6c-3a6b-4cd7-8694-6f1770e09b83?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-02 |
 | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-02 |
@@ -92,15 +91,12 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 4 | 2026-02 |
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 4 | 1 | 2026-01 |
 | [Friends Of Appropriate Ages](../../questions/algorithm/friends-of-appropriate-ages/README.md) | Algorithm | Medium | Onsite / virtual onsite | Intern | 2 | 0 | 2026-01 |
-| [Answer core behavioral questions using STAR](https://trueinterview.io/questions/answer-core-behavioral-questions-using-star?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-15 |
 | [Collatz Sequence Steps](https://trueinterview.io/questions/collatz-sequence-steps?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 2 | 1 | 2025-12 |
 | [Evaluate Reverse Polish Notation](../../questions/algorithm/evaluate-reverse-polish-notation/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 1 | 2025-12 |
 | [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 1 | 2025-11-27 |
-| [Describe leading an end-to-end client project](https://trueinterview.io/questions/describe-leading-an-end-to-end-client-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-24 |
 | [Simplified Grep](https://trueinterview.io/questions/simplified-grep?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern | 1 | 1 | 2025-11-22 |
 | [Answer multi-round grid and data-structure questions](../../questions/algorithm/answer-multi-round-grid-and-data-structure-questions/README.md) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-30 |
 | [Palindrome Stream Tracker](https://trueinterview.io/questions/palindrome-stream-tracker?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-17 |
-| [Solve two array and string problems](../../questions/algorithm/solve-two-array-and-string-problems/README.md) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-16 |
 | [Stock Trade Ranking System](https://trueinterview.io/questions/stock-trade-ranking-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-16 |
 | [Partition Array by Equivalence Function](https://trueinterview.io/questions/partition-array-by-equivalence-function?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-16 |
 | [Level With Maximum Nodes in an N-ary Tree](https://trueinterview.io/questions/level-with-maximum-nodes-in-an-n-ary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-16 |

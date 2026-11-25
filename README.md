@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**8,477 questions · 366 companies · +2,965 added in the last 30 days · 2,006 reported in the last 90 days · data as of 2026-11-25**
+**7,732 questions · 366 companies · +2,965 added in the last 30 days · 1,994 reported in the last 90 days · data as of 2026-11-25**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -37,7 +37,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 6,510 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 6,266 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -115,7 +115,7 @@ The 50 most recently reported of 6,510 from the past 12 months. [See all of them
 ## Formats
 
 <!-- gen:formats:start -->
-[Algorithm (2,917)](formats/algorithm.md) · [SQL (309)](formats/sql.md) · [System Design (1,048)](formats/system-design.md) · [Object-Oriented Programming (777)](formats/object-oriented-programming.md) · [AI Coding (147)](formats/ai-coding.md) · [Behavioral / Knowledge (3,279)](formats/blog.md)
+[Algorithm (2,782)](formats/algorithm.md) · [SQL (234)](formats/sql.md) · [System Design (965)](formats/system-design.md) · [Object-Oriented Programming (762)](formats/object-oriented-programming.md) · [AI Coding (147)](formats/ai-coding.md) · [Behavioral / Knowledge (2,842)](formats/blog.md)
 <!-- gen:formats:end -->
 
 ## Companies
@@ -128,82 +128,81 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 
 | Company | Questions | Reported in last 90 days | Last reported |
 | :-- | --: | --: | :-- |
-| [Google](companies/google/) | 778 | 189 | 2026-10-29 |
-| [Meta](companies/meta/) | 773 | 105 | 2026-10-17 |
-| [Amazon](companies/amazon/) | 608 | 203 | 2026-10-24 |
-| [ByteDance](companies/bytedance/) | 393 | 113 | 2026-10-16 |
-| [Microsoft](companies/microsoft/) | 379 | 94 | 2026-11-05 |
-| [Uber](companies/uber/) | 328 | 58 | 2026-10-19 |
-| [Apple](companies/apple/) | 245 | 64 | 2026-10-23 |
-| [OpenAI](companies/openai/) | 241 | 102 | 2026-10-31 |
-| [Capital One](companies/capital-one/) | 234 | 48 | 2026-10-16 |
-| [DoorDash](companies/doordash/) | 215 | 77 | 2026-11-04 |
-| [LinkedIn](companies/linkedin/) | 193 | 85 | 2026-10-23 |
-| [Snowflake](companies/snowflake/) | 171 | 34 | 2026-10-17 |
-| [Pinterest](companies/pinterest/) | 152 | 45 | 2026-10-23 |
+| [Google](companies/google/) | 729 | 189 | 2026-10-29 |
+| [Meta](companies/meta/) | 605 | 105 | 2026-10-17 |
+| [Amazon](companies/amazon/) | 557 | 201 | 2026-10-24 |
+| [Microsoft](companies/microsoft/) | 340 | 93 | 2026-11-05 |
+| [ByteDance](companies/bytedance/) | 320 | 112 | 2026-10-16 |
+| [Uber](companies/uber/) | 282 | 58 | 2026-10-19 |
+| [OpenAI](companies/openai/) | 239 | 102 | 2026-10-31 |
+| [Apple](companies/apple/) | 229 | 64 | 2026-10-23 |
+| [DoorDash](companies/doordash/) | 190 | 76 | 2026-11-04 |
+| [LinkedIn](companies/linkedin/) | 184 | 85 | 2026-10-23 |
+| [Snowflake](companies/snowflake/) | 169 | 34 | 2026-10-17 |
+| [Capital One](companies/capital-one/) | 165 | 48 | 2026-10-16 |
 | [Stripe](companies/stripe/) | 151 | 52 | 2026-10-06 |
-| [Netflix](companies/netflix/) | 134 | 30 | 2026-10-11 |
+| [Pinterest](companies/pinterest/) | 143 | 45 | 2026-10-23 |
 | [Oracle](companies/oracle/) | 134 | 43 | 2026-10-28 |
-| [Salesforce](companies/salesforce/) | 127 | 17 | 2026-10-23 |
+| [Netflix](companies/netflix/) | 127 | 30 | 2026-10-11 |
 | [Anthropic](companies/anthropic/) | 124 | 50 | 2026-10-18 |
-| [Airbnb](companies/airbnb/) | 122 | 37 | 2026-10-14 |
-| [Roblox](companies/roblox/) | 117 | 28 | 2026-10-16 |
-| [Waymo](companies/waymo/) | 113 | 42 | 2026-10-30 |
-| [Coinbase](companies/coinbase/) | 112 | 7 | 2026-10-26 |
-| [Citadel](companies/citadel/) | 108 | 29 | 2026-10-19 |
-| [Databricks](companies/databricks/) | 106 | 43 | 2026-10-19 |
-| [Snapchat](companies/snapchat/) | 106 | 33 | 2026-10-28 |
-| [Bloomberg](companies/bloomberg/) | 97 | 23 | 2026-10 |
-| [Goldman Sachs](companies/goldman-sachs/) | 79 | 27 | 2026-10-20 |
-| [NVIDIA](companies/nvidia/) | 78 | 14 | 2026-10-16 |
-| [Atlassian](companies/atlassian/) | 77 | 14 | 2026-10-19 |
-| [Instacart](companies/instacart/) | 74 | 17 | 2026-10-30 |
-| [Rippling](companies/rippling/) | 70 | 22 | 2026-11-03 |
-| [Ebay](companies/ebay/) | 64 | 21 | 2026-10-28 |
+| [Salesforce](companies/salesforce/) | 123 | 17 | 2026-10-23 |
+| [Airbnb](companies/airbnb/) | 117 | 35 | 2026-10-14 |
+| [Waymo](companies/waymo/) | 110 | 42 | 2026-10-30 |
+| [Citadel](companies/citadel/) | 107 | 29 | 2026-10-19 |
+| [Roblox](companies/roblox/) | 106 | 28 | 2026-10-16 |
+| [Coinbase](companies/coinbase/) | 104 | 7 | 2026-10-26 |
+| [Snapchat](companies/snapchat/) | 103 | 33 | 2026-10-28 |
+| [Databricks](companies/databricks/) | 101 | 43 | 2026-10-19 |
+| [Bloomberg](companies/bloomberg/) | 93 | 23 | 2026-10 |
+| [Goldman Sachs](companies/goldman-sachs/) | 77 | 26 | 2026-10-20 |
+| [Atlassian](companies/atlassian/) | 76 | 14 | 2026-10-19 |
+| [NVIDIA](companies/nvidia/) | 74 | 14 | 2026-10-16 |
+| [Rippling](companies/rippling/) | 67 | 22 | 2026-11-03 |
 | [C3.ai](companies/c3-ai/) | 63 | 12 | 2026-10-04 |
-| [Lyft](companies/lyft/) | 63 | 11 | 2026-10-16 |
-| [Robinhood](companies/robinhood/) | 63 | 20 | 2026-10-14 |
+| [Ebay](companies/ebay/) | 61 | 21 | 2026-10-28 |
 | [Karat](companies/karat/) | 61 | 0 | 2026-07 |
-| [Shopify](companies/shopify/) | 61 | 8 | 2026-10-17 |
-| [Tesla](companies/tesla/) | 61 | 10 | 2026-09-30 |
-| [Square](companies/square/) | 58 | 2 | 2026-09 |
-| [Disney](companies/disney/) | 55 | 10 | 2026-10-13 |
-| [Intuit](companies/intuit/) | 54 | 5 | 2026-10 |
-| [Reddit](companies/reddit/) | 54 | 12 | 2026-10-25 |
-| [Walmart Labs](companies/walmart-labs/) | 54 | 9 | 2026-10-04 |
-| [IBM](companies/ibm/) | 50 | 19 | 2026-10-17 |
+| [Lyft](companies/lyft/) | 60 | 11 | 2026-10-16 |
+| [Tesla](companies/tesla/) | 60 | 10 | 2026-09-30 |
+| [Robinhood](companies/robinhood/) | 59 | 19 | 2026-10-14 |
+| [Shopify](companies/shopify/) | 57 | 8 | 2026-10-17 |
+| [Instacart](companies/instacart/) | 55 | 17 | 2026-10-30 |
+| [Square](companies/square/) | 55 | 2 | 2026-09 |
+| [Walmart Labs](companies/walmart-labs/) | 53 | 9 | 2026-10-04 |
+| [Disney](companies/disney/) | 52 | 10 | 2026-10-13 |
+| [Reddit](companies/reddit/) | 52 | 12 | 2026-10-25 |
 | [Two Sigma](companies/two-sigma/) | 50 | 2 | 2026-10 |
-| [PayPal](companies/paypal/) | 48 | 8 | 2026-10-12 |
-| [Upstart](companies/upstart/) | 48 | 1 | 2026-09-12 |
-| [xAI](companies/xai/) | 48 | 11 | 2026-10 |
+| [IBM](companies/ibm/) | 48 | 19 | 2026-10-17 |
+| [Intuit](companies/intuit/) | 47 | 5 | 2026-10 |
 | [Squarepoint](companies/squarepoint/) | 47 | 13 | 2026-10-25 |
-| [Expedia](companies/expedia/) | 43 | 4 | 2026-10 |
-| [Point72](companies/point72/) | 43 | 2 | 2026-09-07 |
+| [xAI](companies/xai/) | 47 | 11 | 2026-10 |
 | [Perplexity](companies/perplexity/) | 41 | 5 | 2026-10-02 |
-| [Scale AI](companies/scale-ai/) | 41 | 6 | 2026-10-05 |
-| [SoFi](companies/sofi/) | 38 | 1 | 2026-09 |
+| [Expedia](companies/expedia/) | 40 | 4 | 2026-10 |
+| [Scale AI](companies/scale-ai/) | 38 | 6 | 2026-10-05 |
 | [Akuna Capital](companies/akuna-capital/) | 37 | 3 | 2026-08-30 |
-| [Ramp](companies/ramp/) | 37 | 6 | 2026-10 |
 | [Cisco](companies/cisco/) | 36 | 8 | 2026-09-19 |
-| [Confluent](companies/confluent/) | 36 | 9 | 2026-10-06 |
 | [JPMorgan](companies/jpmorgan/) | 36 | 6 | 2026-10-14 |
 | [Optiver](companies/optiver/) | 36 | 2 | 2026-11-05 |
-| [Datadog](companies/datadog/) | 35 | 8 | 2026-10-18 |
+| [Ramp](companies/ramp/) | 36 | 6 | 2026-10 |
+| [Upstart](companies/upstart/) | 36 | 1 | 2026-09-12 |
+| [Confluent](companies/confluent/) | 35 | 9 | 2026-10-06 |
+| [Point72](companies/point72/) | 35 | 2 | 2026-09-07 |
+| [Datadog](companies/datadog/) | 34 | 8 | 2026-10-18 |
 | [Mercor](companies/mercor/) | 33 | 20 | 2026-10-10 |
+| [PayPal](companies/paypal/) | 33 | 8 | 2026-10-12 |
+| [SoFi](companies/sofi/) | 33 | 1 | 2026-09 |
 | [Verkada](companies/verkada/) | 32 | 5 | 2026-09-18 |
 | [Applied Intuition](companies/applied-intuition/) | 31 | 4 | 2026-09-02 |
-| [Dropbox](companies/dropbox/) | 31 | 2 | 2026-09-17 |
-| [Figma](companies/figma/) | 31 | 3 | 2026-10-09 |
 | [Harvey](companies/harvey/) | 31 | 10 | 2026-10-13 |
-| [Affirm](companies/affirm/) | 30 | 10 | 2026-10-23 |
-| [Cvs Health](companies/cvs-health/) | 30 | 0 | 2026-08 |
+| [Affirm](companies/affirm/) | 29 | 10 | 2026-10-23 |
+| [Dropbox](companies/dropbox/) | 29 | 2 | 2026-09-17 |
+| [Figma](companies/figma/) | 29 | 3 | 2026-10-09 |
 | [Visa](companies/visa/) | 29 | 6 | 2026-10 |
 | [Pinduoduo](companies/pinduoduo/) | 27 | 5 | 2026-10 |
 | [Flipkart](companies/flipkart/) | 26 | 3 | 2026-09-18 |
-| [Glean](companies/glean/) | 26 | 14 | 2026-10-10 |
-| [Hudson River Trading](companies/hudson-river-trading/) | 26 | 0 | 2026-08-08 |
-| [Sig](companies/sig/) | 24 | 17 | 2026-10-15 |
+| [Glean](companies/glean/) | 24 | 14 | 2026-10-10 |
+| [Hudson River Trading](companies/hudson-river-trading/) | 24 | 0 | 2026-08-08 |
 | [Boston Consulting Group](companies/boston-consulting-group/) | 23 | 3 | 2026-09-24 |
+| [Sig](companies/sig/) | 23 | 17 | 2026-10-15 |
 | [Yelp](companies/yelp/) | 23 | 8 | 2026-10 |
 | [MongoDB](companies/mongodb/) | 22 | 6 | 2026-10-26 |
 | [Rubrik](companies/rubrik/) | 22 | 0 | 2026-06-26 |
@@ -211,17 +210,18 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Tradedesk](companies/tradedesk/) | 22 | 7 | 2026-09-15 |
 | [WeRide](companies/weride/) | 22 | 2 | 2026-09 |
 | [Whatnot](companies/whatnot/) | 22 | 3 | 2026-10-10 |
+| [Cvs Health](companies/cvs-health/) | 21 | 0 | 2026-08 |
 | [Sierra](companies/sierra/) | 21 | 2 | 2026-10-06 |
 | [Airwallex](companies/airwallex/) | 20 | 13 | 2026-10-05 |
-| [Voleon](companies/voleon/) | 20 | 1 | 2026-09-14 |
 | [Palantir](companies/palantir/) | 19 | 7 | 2026-10-30 |
 | [Discord](companies/discord/) | 17 | 5 | 2026-09-26 |
-| [HubSpot](companies/hubspot/) | 17 | 0 | 2026-08 |
 | [Jane Street](companies/jane-street/) | 17 | 2 | 2026-09 |
+| [Voleon](companies/voleon/) | 17 | 0 | 2026-08 |
 | [AMD](companies/amd/) | 16 | 16 | 2026-10-09 |
-| [Asana](companies/asana/) | 16 | 3 | 2026-09-10 |
+| [HubSpot](companies/hubspot/) | 16 | 0 | 2026-08 |
 | [Okta](companies/okta/) | 16 | 4 | 2026-11-02 |
 | [Thumbtack](companies/thumbtack/) | 16 | 0 | 2026-01 |
+| [Asana](companies/asana/) | 15 | 3 | 2026-09-10 |
 | [Bitkernel](companies/bitkernel/) | 15 | 0 | 2025-10-24 |
 | [Vanta](companies/vanta/) | 15 | 1 | 2026-09-12 |
 | [Zomato](companies/zomato/) | 14 | 2 | 2026-10-20 |
@@ -230,20 +230,20 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Luma AI](companies/luma-ai/) | 13 | 7 | 2026-09-17 |
 | [Microsoft AI](companies/microsoft-ai/) | 13 | 7 | 2026-10 |
 | [Mistral AI](companies/mistral-ai/) | 13 | 7 | 2026-09-01 |
-| [Nuro](companies/nuro/) | 13 | 7 | 2026-08-31 |
 | [Arista](companies/arista/) | 12 | 1 | 2026-10 |
 | [Cohere](companies/cohere/) | 12 | 10 | 2026-10-02 |
 | [Onemain Financial](companies/onemain-financial/) | 12 | 0 | 2026-08 |
 | [Swiggy](companies/swiggy/) | 12 | 3 | 2026-10-20 |
 | [Tubi](companies/tubi/) | 12 | 0 | 2026-02-16 |
 | [Axon](companies/axon/) | 11 | 0 | 2026-06 |
-| [Wayfair](companies/wayfair/) | 11 | 5 | 2026-09-10 |
+| [Nuro](companies/nuro/) | 11 | 6 | 2026-08-31 |
 | [Agoda](companies/agoda/) | 10 | 1 | 2026-08-29 |
 | [Airtable](companies/airtable/) | 10 | 0 | 2026-07 |
 | [Imc](companies/imc/) | 10 | 0 | 2026-08-24 |
 | [Revolut](companies/revolut/) | 10 | 3 | 2026-10-08 |
 | [Qualified Health](companies/qualified-health/) | 9 | 9 | 2026-09-30 |
 | [StackAdapt](companies/stackadapt/) | 9 | 3 | 2026-09-09 |
+| [Wayfair](companies/wayfair/) | 9 | 4 | 2026-09-10 |
 | [Adobe](companies/adobe/) | 8 | 2 | 2026-10-04 |
 | [Amplitude](companies/amplitude/) | 8 | 1 | 2026-09 |
 | [Engelhart](companies/engelhart/) | 8 | 7 | 2026-09-19 |

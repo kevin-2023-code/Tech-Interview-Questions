@@ -2,9 +2,9 @@
 
 # HubSpot interview questions
 
-17 questions reported at HubSpot, most recently reported first.
+16 questions reported at HubSpot, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (3) · [all](all.csv) (17)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (3) · [all](all.csv) (16)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -26,7 +26,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Evaluate an Integer Arithmetic Expression Written in Prefix (Polish) Notation](https://trueinterview.io/questions/evaluate-an-integer-arithmetic-expression-written-in-prefix-polish-notation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-02 |
 | [HubSpot Company Knowledge: Business Model, Competitors and Market Position](https://trueinterview.io/questions/hubspot-company-knowledge-business-model-competitors-and-market-position?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-31 |
 | [Design an hourly weather crawling service](https://trueinterview.io/questions/design-an-hourly-weather-crawling-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-15 |
-| [Find a special person using knows(a,b)](https://trueinterview.io/questions/find-a-special-person-using-knows-a-b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-15 |
 | [Snippet Vault](https://trueinterview.io/questions/snippet-vault?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad | 3 | 0 | 2025-12 |
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Online assessment, Onsite / virtual onsite | Intern, New grad, Junior / Mid | 5 | 0 | — |
 

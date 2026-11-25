@@ -2,9 +2,9 @@
 
 # Lyft interview questions
 
-63 questions reported at Lyft, most recently reported first.
+60 questions reported at Lyft, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (31) · [all](all.csv) (63)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (31) · [all](all.csv) (60)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -50,11 +50,9 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design Instagram](https://trueinterview.io/questions/design-instagram?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 7 | 0 | 2026-05 |
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-05 |
 | [Reconstruct a BST from Preorder Traversal](https://trueinterview.io/questions/reconstruct-a-bst-from-preorder-traversal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-14 |
-| [Solve substring and worker assignment](https://trueinterview.io/questions/solve-substring-and-worker-assignment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-02 |
 | [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-03-21 |
 | [Lyft Airport Route Pricing: Trade Platform Take for Match Rate and Rider Retention](https://trueinterview.io/questions/lyft-airport-route-pricing-trade-platform-take-for-match-rate-and-rider-retention?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-03-12 |
 | [Explain Transformer and Fine-Tuning Basics](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Intern, New grad | 1 | 0 | 2026-03-12 |
-| [Explain Python and Systems Fundamentals](https://trueinterview.io/questions/explain-python-and-systems-fundamentals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-03-12 |
 | [Design an HR Document AI Platform](https://trueinterview.io/questions/design-an-hr-document-ai-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-03-12 |
 | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern, Junior / Mid | 2 | 0 | 2026-03 |
 | [Lyft Student Rider Experience: Product Design for College Campuses](https://trueinterview.io/questions/lyft-student-rider-experience-product-design-for-college-campuses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-28 |
@@ -70,7 +68,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Find All Shortest Paths in Word Ladder](../../questions/algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Algorithm | Hard | Phone screen | Senior | 1 | 0 | 2025-03 |
 | [Design experiments for marketplace balance](https://trueinterview.io/questions/design-experiments-for-marketplace-balance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 1 | 0 | — |
-| [Compute Poisson supply–demand match probability](https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [MultiStream Reader](https://trueinterview.io/questions/multistream-reader?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | — |
 | [Asteroid Collision - Different Speed](https://trueinterview.io/questions/asteroid-collision-different-speed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Alien Base Attack](https://trueinterview.io/questions/alien-base-attack?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |

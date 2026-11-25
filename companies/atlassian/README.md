@@ -2,9 +2,9 @@
 
 # Atlassian interview questions
 
-77 questions reported at Atlassian, most recently reported first.
+76 questions reported at Atlassian, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (14) · [last 6 months](six-months.csv) (23) · [all](all.csv) (77)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (14) · [last 6 months](six-months.csv) (23) · [all](all.csv) (76)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -82,7 +82,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Demonstrate motivation, feedback, and prioritization](https://trueinterview.io/questions/demonstrate-motivation-feedback-and-prioritization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Rank each team’s top 3 scores in 2024](https://trueinterview.io/questions/rank-each-teams-top-3-scores-in-2024?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Label game performance by margin](https://trueinterview.io/questions/label-game-performance-by-margin?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Easy | Phone screen | New grad, Junior / Mid | 1 | 0 | — |
-| [Find 2023 NCAA championship winner](https://trueinterview.io/questions/find-2023-ncaa-championship-winner?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 0 | — |
 | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 2 | 0 | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 5 | 0 | — |

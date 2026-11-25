@@ -2,9 +2,9 @@
 
 # Databricks interview questions
 
-106 questions reported at Databricks, most recently reported first.
+101 questions reported at Databricks, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (43) · [last 6 months](six-months.csv) (63) · [all](all.csv) (106)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (43) · [last 6 months](six-months.csv) (63) · [all](all.csv) (101)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -95,19 +95,14 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a single-node persistent in-memory cache](https://trueinterview.io/questions/design-a-single-node-persistent-in-memory-cache?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | New grad, Senior | 1 | 0 | 2026-01-22 |
 | [SQL Query Plan Optimizer](https://trueinterview.io/questions/sql-query-plan-optimizer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | New grad | 1 | 1 | 2026-01-10 |
 | [Payment Gateway System](https://trueinterview.io/questions/payment-gateway-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-01 |
-| [Test coin fairness from 560 tails in 1000 flips](https://trueinterview.io/questions/test-coin-fairness-from-560-tails-in-1000-flips?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-12 |
 | [Explain ROC-AUC vs PR-AUC tradeoffs](https://trueinterview.io/questions/explain-roc-auc-vs-pr-auc-tradeoffs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-12 |
-| [Count weekly customers with ≥$1000 YTD spend](https://trueinterview.io/questions/count-weekly-customers-with-1000-ytd-spend?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2025-12-03 |
 | [Query QPS from KV Store Request Logs](https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures-query-qps-from-kv-store-request-logs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern | 1 | 0 | 2025-12 |
 | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Senior | 3 | 0 | 2025-11-26 |
 | [Network Throttling System Design](https://trueinterview.io/questions/network-throttling-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2025-11-20 |
 | [Design Tic-Tac-Toe and QPS data structures](https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-13 |
-| [How do you handle conflicting interviewer hints?](https://trueinterview.io/questions/how-do-you-handle-conflicting-interviewer-hints?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-06 |
 | [Ad Marketplace System Design](https://trueinterview.io/questions/ad-marketplace-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-05 |
 | [Max Area of Island](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 3 | 0 | 2025-11 |
 | [Multi-Threaded Chat System](https://trueinterview.io/questions/multi-threaded-chat-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-24 |
-| [Relate coefficients under linear feature transformation](https://trueinterview.io/questions/relate-coefficients-under-linear-feature-transformation-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-14 |
-| [Diagnose and fix multicollinearity in income regression](https://trueinterview.io/questions/diagnose-and-fix-multicollinearity-in-income-regression?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-10-14 |
 | [Autonomous Ride-Hailing App System Design (Waymo-like)](https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-10-09 |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Easy | Phone screen | New grad, Junior / Mid | 3 | 0 | 2025-06 |
 | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 3 | 0 | 2025-01 |

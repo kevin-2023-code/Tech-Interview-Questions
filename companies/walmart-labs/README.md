@@ -2,9 +2,9 @@
 
 # Walmart Labs interview questions
 
-54 questions reported at Walmart Labs, most recently reported first.
+53 questions reported at Walmart Labs, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9) · [last 6 months](six-months.csv) (22) · [all](all.csv) (54)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9) · [last 6 months](six-months.csv) (22) · [all](all.csv) (53)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -37,7 +37,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Permutation Maximizing Σ B&#91;i&#93; where B&#91;i&#93; &gt; A&#91;i&#93;](https://trueinterview.io/questions/permutation-max-greater-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 0 | 2026-05-07 |
 | [Merge Intervals Returning Original Start/End Indices](https://trueinterview.io/questions/merge-intervals-with-indices?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 1 | 2026-04-24 |
 | [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Junior / Mid | 1 | 0 | 2026-04-24 |
-| [Evaluate Last-Mile Product Metric Changes](https://trueinterview.io/questions/evaluate-last-mile-product-metric-changes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-04-16 |
 | [Product design: keeping a Mars landing crew connected to Earth and to each other](https://trueinterview.io/questions/product-design-keeping-a-mars-landing-crew-connected-to-earth-and-to-each-other?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-07 |
 | [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Staff+ | 1 | 0 | 2026-04-06 |
 | [Courier dispatch design for a newly launched food delivery app](https://trueinterview.io/questions/courier-dispatch-design-for-a-newly-launched-food-delivery-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-02 |

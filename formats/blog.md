@@ -2,11 +2,11 @@
 
 # Behavioral / Knowledge interview questions
 
-3,279 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
+2,842 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 
-Showing the 500 most recently reported of 3,279. [data/questions.csv](../data/questions.csv) has every row.
+Showing the 500 most recently reported of 2,842. [data/questions.csv](../data/questions.csv) has every row.
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -474,7 +474,6 @@ Showing the 500 most recently reported of 3,279. [data/questions.csv](../data/qu
 | 2026-09-14 | [AMD](../companies/amd/), [Apple](../companies/apple/) | [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Intern, New grad, Junior / Mid | 0 |
 | 2026-09-14 | [AMD](../companies/amd/) | [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-09-14 | [AMD](../companies/amd/) | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-09-14 | [Voleon](../companies/voleon/) | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+ | 0 |
 | 2026-09-14 | [Amazon](../companies/amazon/) | [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-13 | [Google](../companies/google/) | [YouTube Live Monetization: A New Way for Viewers to Pay Streaming Creators](https://trueinterview.io/questions/youtube-live-monetization-a-new-way-for-viewers-to-pay-streaming-creators?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-09-13 | [Spotify](../companies/spotify/) | [Spotify Product Strategy: Deciding Whether to Back Listener Interaction in Podcasts](https://trueinterview.io/questions/spotify-product-strategy-deciding-whether-to-back-listener-interaction-in-podcasts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
@@ -510,3 +509,4 @@ Showing the 500 most recently reported of 3,279. [data/questions.csv](../data/qu
 | 2026-09-11 | [Google](../companies/google/) | [Plan Google's Entry Into Digital Out-of-Home Billboard Advertising](https://trueinterview.io/questions/plan-googles-entry-into-digital-out-of-home-billboard-advertising?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-09-11 | [ByteDance](../companies/bytedance/) | [Kubernetes request path: pods vs nodes, Service types, DNS TTLs and 5xx debugging](https://trueinterview.io/questions/kubernetes-request-path-pods-vs-nodes-service-types-dns-ttls-and-5xx-debugging?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09-11 | [ByteDance](../companies/bytedance/) | [gRPC vs HTTP, and HTTP/1.1 vs HTTP/2 vs HTTP/3 compared](https://trueinterview.io/questions/grpc-vs-http-and-http-1-1-vs-http-2-vs-http-3-compared?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
+| 2026-09-11 | [Uber](../companies/uber/) | [Design a discreet in-trip alert for Uber riders who feel uneasy](https://trueinterview.io/questions/design-a-discreet-in-trip-alert-for-uber-riders-who-feel-uneasy?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |

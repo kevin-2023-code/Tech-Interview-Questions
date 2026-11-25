@@ -2,9 +2,9 @@
 
 # xAI interview questions
 
-48 questions reported at xAI, most recently reported first.
+47 questions reported at xAI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (18) · [all](all.csv) (48)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (18) · [all](all.csv) (47)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -47,7 +47,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Checkers Game](https://trueinterview.io/questions/checkers-backend-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-01-26 |
 | [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 1 | 2026-01-26 |
 | [Design a schema for server engagement](https://trueinterview.io/questions/design-a-schema-for-server-engagement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-17 |
-| [Implement two string utility functions](https://trueinterview.io/questions/implement-two-string-utility-functions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-01-17 |
 | [Multithreaded Array Sort](https://trueinterview.io/questions/parallel-integer-sort?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 3 | 2026-01-15 |
 | [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-01-15 |
 | [K-th Element on a Streaming Time Window](https://trueinterview.io/questions/kth-element-streaming-window?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-01-14 |

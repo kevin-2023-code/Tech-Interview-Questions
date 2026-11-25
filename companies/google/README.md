@@ -2,15 +2,15 @@
 
 # Google interview questions
 
-778 questions reported at Google, most recently reported first.
+729 questions reported at Google, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (189) · [last 6 months](six-months.csv) (371) · [all](all.csv) (778)
+CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (189) · [last 6 months](six-months.csv) (371) · [all](all.csv) (729)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-Showing the 500 most recently reported of 778. [all.csv](all.csv) has every row.
+Showing the 500 most recently reported of 729. [all.csv](all.csv) has every row.
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
@@ -446,12 +446,9 @@ Showing the 500 most recently reported of 778. [all.csv](all.csv) has every row.
 | [Design Instagram](https://trueinterview.io/questions/design-instagram?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 7 | 0 | 2026-05 |
 | [Google Cloud Growth Strategy: Taking Share in the Public Cloud Market](https://trueinterview.io/questions/google-cloud-growth-strategy-taking-share-in-the-public-cloud-market?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-28 |
 | [Bottom-Up Estimate of YouTube's Daily Running Cost: Delivery, Storage, Compute and Staff](https://trueinterview.io/questions/bottom-up-estimate-of-youtubes-daily-running-cost-delivery-storage-compute-and-staff?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-28 |
-| [Find the Longest Consecutive Path in a Binary Tree](https://trueinterview.io/questions/find-the-longest-consecutive-path-in-a-binary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-04-28 |
 | [Product Post-Mortem: Diagnose Why a High-Potential Product Flopped](https://trueinterview.io/questions/product-post-mortem-diagnose-why-a-high-potential-product-flopped?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-27 |
 | [Fence Painting Minimum Operations (Gemini Team)](https://trueinterview.io/questions/fence-painting-min-ops?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-04-27 |
 | [Product design: a self-guided, interactive city walking-tour experience at Google](https://trueinterview.io/questions/product-design-a-self-guided-interactive-city-walking-tour-experience-at-google?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Manager | 1 | 0 | 2026-04-26 |
-| [Design Calendar Event Conflict Handling](https://trueinterview.io/questions/design-calendar-event-conflict-handling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-25 |
-| [Solve Quickselect, Tree Distance, and Prefix Substrings](https://trueinterview.io/questions/solve-quickselect-tree-distance-and-prefix-substrings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-25 |
 | [Pushing back when leadership wants to launch before the product is ready](https://trueinterview.io/questions/pushing-back-when-leadership-wants-to-launch-before-the-product-is-ready?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-24 |
 | [Google Product Design: Connecting Product Managers With Customers, With Success Metrics](https://trueinterview.io/questions/google-product-design-connecting-product-managers-with-customers-with-success-metrics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-24 |
 | [Turning Time Travel into a Product: Choosing First Users, Rules and Safeguards](https://trueinterview.io/questions/turning-time-travel-into-a-product-choosing-first-users-rules-and-safeguards?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-23 |
@@ -463,7 +460,6 @@ Showing the 500 most recently reported of 778. [all.csv](all.csv) has every row.
 | [Explain Motivation for an Experimental Technology Team](https://trueinterview.io/questions/explain-motivation-for-an-experimental-technology-team?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-14 |
 | [Measuring the Health of a Production ML System, From Data Quality to Business Impact](https://trueinterview.io/questions/measuring-the-health-of-a-production-ml-system-from-data-quality-to-business-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-13 |
 | [Choose Your Workplace Style](https://trueinterview.io/questions/choose-your-workplace-style?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 0 | 2026-04-12 |
-| [Describe the Team Environment in Which You Do Your Best Work](https://trueinterview.io/questions/describe-the-team-environment-in-which-you-do-your-best-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 2 | 0 | 2026-04-11 |
 | [Solve Two Array Optimization Problems](https://trueinterview.io/questions/solve-two-array-optimization-problems-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-11 |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Intern, New grad, Junior / Mid, Senior | 8 | 0 | 2026-04-09 |
 | [Choose best/worst actions in workplace ethics scenarios](https://trueinterview.io/questions/choose-best-worst-actions-in-workplace-ethics-scenarios?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2 | 2026-04 |
@@ -514,6 +510,10 @@ Showing the 500 most recently reported of 778. [all.csv](all.csv) has every row.
 | [Handling Conflict with a Coworker and with a Manager When You Were Wrong](https://trueinterview.io/questions/handling-conflict-with-a-coworker-and-with-a-manager-when-you-were-wrong?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-04 |
 | [Evaluate a Lisp-Style Expression Language with let, add and mult Scoping](https://trueinterview.io/questions/evaluate-a-lisp-style-expression-language-with-let-add-and-mult-scoping?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-04 |
 | [Fermi Estimate: How Many Flights Are Operating at a Single Moment](https://trueinterview.io/questions/fermi-estimate-how-many-flights-are-operating-at-a-single-moment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-02 |
+| [Estimate the Drone Fleet a Service Covering the San Francisco Bay Area Would Need](https://trueinterview.io/questions/estimate-the-drone-fleet-a-service-covering-the-san-francisco-bay-area-would-need?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-03-02 |
+| [Choose and Justify a Product for a New Food Delivery Startup](https://trueinterview.io/questions/choose-and-justify-a-product-for-a-new-food-delivery-startup?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-02 |
+| [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 9 | 0 | 2026-03 |
+| [N-ary Tree Leaf Node Removal](https://trueinterview.io/questions/n-ary-tree-leaf-node-removal-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 2 | 2 | 2026-03 |
 
 ---
 

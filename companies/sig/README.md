@@ -2,9 +2,9 @@
 
 # Sig interview questions
 
-24 questions reported at Sig, most recently reported first.
+23 questions reported at Sig, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (17) · [last 6 months](six-months.csv) (24) · [all](all.csv) (24)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (17) · [last 6 months](six-months.csv) (23) · [all](all.csv) (23)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -29,7 +29,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Test Fairness of an Election Agenda under Equal Ranking Counts](https://trueinterview.io/questions/test-fairness-of-an-election-agenda-under-equal-ranking-counts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-08-28 |
 | [Prove That a Real Matrix and Its Gram Product Have Equal Rank](https://trueinterview.io/questions/prove-that-a-real-matrix-and-its-gram-product-have-equal-rank?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-08-28 |
 | [Exploit a Rock-Paper-Scissors Opponent with a Forbidden Gesture](https://trueinterview.io/questions/exploit-a-rock-paper-scissors-opponent-with-a-forbidden-gesture?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-28 |
-| [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-16 |
 | [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 0 | 2026-08-16 |
 | [Find a Green Triangle's Weight in a Balanced Mobile](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad | 1 | 0 | 2026-08-16 |
 | [Count Grid Paths with No Three Equal Moves](https://trueinterview.io/questions/count-grid-paths-with-no-three-equal-moves?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Intern, New grad, Junior / Mid | 1 | 0 | 2026-08-16 |

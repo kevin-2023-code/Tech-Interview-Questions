@@ -2,11 +2,11 @@
 
 # Recently reported interview questions
 
-6,510 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,266 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
-[← Newer](README.md) · Page 2 of 17 · [Older →](page-3.md)
+[← Newer](README.md) · Page 2 of 16 · [Older →](page-3.md)
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -411,4 +411,4 @@
 | 2026-09-25 | [Mercor](../companies/mercor/) | [Decide whether every car can park given preferred spots and forward-only overflow](https://trueinterview.io/questions/decide-whether-every-car-can-park-given-preferred-spots-and-forward-only-overflow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-09-25 | [Oracle](../companies/oracle/) | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 
-[← Newer](README.md) · Page 2 of 17 · [Older →](page-3.md)
+[← Newer](README.md) · Page 2 of 16 · [Older →](page-3.md)

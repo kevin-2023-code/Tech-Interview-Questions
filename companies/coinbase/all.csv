@@ -47,7 +47,6 @@ In-Memory DB with per-key user lock: setByUser/deleteByUser/lock/unlock,Object-O
 Coinbase NFT Market Entry: Evaluate the Opportunity and Choose a Business Model,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-29,https://trueinterview.io/questions/coinbase-nft-market-entry-evaluate-the-opportunity-and-choose-a-business-model
 "Fintech product metrics: map business goals to a north star, KPIs and guardrails",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-22,https://trueinterview.io/questions/fintech-product-metrics-map-business-goals-to-a-north-star-kpis-and-guardrails
 Render Blog Posts (Multi-Stage CodeSignal),AI Coding,Medium,Online assessment,New grad,1,0,2026-03-09,https://trueinterview.io/questions/fe-render-blog-posts-oa
-Generate NFT metadata and ensure uniqueness,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-01,https://trueinterview.io/questions/generate-nft-metadata-and-ensure-uniqueness
 Coinbase Product Sense: A Social and Community Layer for Crypto Users,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-28,https://trueinterview.io/questions/coinbase-product-sense-a-social-and-community-layer-for-crypto-users
 Favorite-product prompt: defend the meal ordering app you rely on and improve it,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-02-27,https://trueinterview.io/questions/favorite-product-prompt-defend-the-meal-ordering-app-you-rely-on-and-improve-it
 Frontend Domain — Card / Validation Component to Mockup,AI Coding,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-23,https://trueinterview.io/questions/fe-domain-card-component
@@ -56,7 +55,6 @@ Weighing a Known Bug Against a New Feature When Team Capacity Is Tight,Behaviora
 "Measuring Airbnb's Homepage: North Star, Leading Indicators and Guardrails",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-15,https://trueinterview.io/questions/measuring-airbnbs-homepage-north-star-leading-indicators-and-guardrails
 Design Credit Card Application System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-15,https://trueinterview.io/questions/design-a-credit-approval-risk-engine
 Design Identity-Trust A/B Test,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-13,https://trueinterview.io/questions/design-identity-trust-a-b-test
-Calculate a Confidence Interval,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-13,https://trueinterview.io/questions/calculate-a-confidence-interval
 Maximize block fee with transaction selection,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-02-13,https://trueinterview.io/questions/maximize-block-fee-with-transaction-selection
 Interleave Iterator,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-13,https://trueinterview.io/questions/interleave-iterator
 ML Concepts and Coding Assessment,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-02-08,https://trueinterview.io/questions/mle-codesignal-oa
@@ -88,15 +86,9 @@ Find Shortest Path for All Items,Algorithm,Hard,Phone screen,Senior,1,1,2025-12,
 Database Design and Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad,1,0,2025-12,https://trueinterview.io/questions/21808437-d0e2-42be-8536-5cb42b058133
 Signup Form,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2025-12-01,https://trueinterview.io/questions/fe-sd-signup-form
 Cross-Border Money Transfer Product on Crypto Rails for Coinbase,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-14,https://trueinterview.io/questions/cross-border-money-transfer-product-on-crypto-rails-for-coinbase
-Solve the 12-coin balance puzzle,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/solve-the-12-coin-balance-puzzle
 Explain handling pressure to bend rules,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/explain-handling-pressure-to-bend-rules
-Estimate Super Bowl QR ad sign-ups,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/estimate-super-bowl-qr-ad-sign-ups
-Diagnose uplift drop in email A/B tests,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/diagnose-uplift-drop-in-email-a-b-tests
 Diagnose a 20% retail revenue drop,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/diagnose-a-20percent-retail-revenue-drop
-Detect and quantify wash trading,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/detect-and-quantify-wash-trading
 Design KYC experiment amid crypto volatility,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-kyc-experiment-amid-crypto-volatility
-"Compute wallet-link probabilities, expectation, and conditionals",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-wallet-link-probabilities-and-conditionals
-Build and evaluate a conversion prediction model,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/build-and-evaluate-a-conversion-prediction-model
 Write SQL: sum values ≤ each row’s value,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-sum-values-each-rows-value
 Write SQL and Python for funnels/retention,SQL,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-and-python-for-funnels-retention
 Shortest paths in a restaurant grid,Algorithm,Hard,Phone screen,Senior,1,0,,https://trueinterview.io/questions/solve-restaurant-path-and-order-event-tasks-shortest-paths-in-a-restaurant-grid

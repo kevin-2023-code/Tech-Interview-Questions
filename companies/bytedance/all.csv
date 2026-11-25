@@ -62,7 +62,6 @@ Investigate an iOS Memory Failure,Behavioral / Knowledge,,Phone screen,Intern,1,
 Give a Technical Research-Project Deep Dive,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-09-05,https://trueinterview.io/questions/give-a-technical-research-project-deep-dive
 Explain TLS Handshakes and HTTPS Traffic Inspection,Behavioral / Knowledge,,Phone screen,Intern,1,1,2026-09-05,https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection
 SRE Background: Development vs. Stability Focus and Your Most Memorable Project,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-09-05,https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project
-How You Build Service Stability and Troubleshoot Production Incidents,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-09-05,https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents
 TikTok Creator Strategy: Evaluating a Bet on Co-Creation Features,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-04,https://trueinterview.io/questions/tiktok-creator-strategy-evaluating-a-bet-on-co-creation-features
 Restore IP Addresses,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-09-04,https://trueinterview.io/questions/restore-ip-addresses
 Seller Task Scheduler,Object-Oriented Programming,Medium,Phone screen,Senior,1,1,2026-09-02,https://trueinterview.io/questions/seller-task-scheduler
@@ -115,8 +114,6 @@ Choose Components for a Data Warehouse,System Design,Medium,Phone screen,Senior,
 "Motivation, Ambiguity, and Collaboration Screen",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-08-25,https://trueinterview.io/questions/motivation-ambiguity-collaboration-screen
 AI-Driven QA Pipeline Workflow,System Design,Medium,Phone screen,Senior,1,0,2026-08-25,https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow
 Explain the TCP Three-Way Handshake and Its Guarantees,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-23,https://trueinterview.io/questions/explain-the-tcp-three-way-handshake-and-its-guarantees
-Enumerate All Simple Directed Paths,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-23,https://trueinterview.io/questions/enumerate-all-simple-directed-paths
-Enumerate All Simple Directed Cycles,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-23,https://trueinterview.io/questions/enumerate-all-simple-directed-cycles
 Product plan for catching and limiting deepfake misinformation on TikTok,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-21,https://trueinterview.io/questions/product-plan-for-catching-and-limiting-deepfake-misinformation-on-tiktok
 Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,3,0,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
 Implement a Transformer Decoder from Scratch Without Starter Code,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-20,https://trueinterview.io/questions/implement-a-transformer-decoder-from-scratch-without-starter-code
@@ -126,7 +123,6 @@ Create Binary Tree from Descriptions (LC 2196),Algorithm,Medium,Onsite / virtual
 Stickers to Spell Word (LeetCode 691),Algorithm,Hard,Onsite / virtual onsite,Senior,1,0,2026-08-17,https://trueinterview.io/questions/stickers-to-spell-word
 Pythagorean Triple in an Integer Array,Algorithm,Medium,Onsite / virtual onsite,Senior,1,1,2026-08-17,https://trueinterview.io/questions/pythagorean-triple-integer-array
 Responding as TikTok When a Rival App Copies the Side-by-Side Duet Video Format,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08-15,https://trueinterview.io/questions/responding-as-tiktok-when-a-rival-app-copies-the-side-by-side-duet-video-format
-Infer an Alien Alphabet from Sorted Words,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-15,https://trueinterview.io/questions/infer-an-alien-alphabet-from-sorted-words
 Designing Metrics and Experiments to Evaluate a TikTok For You Ranking Change,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-14,https://trueinterview.io/questions/designing-metrics-and-experiments-to-evaluate-a-tiktok-for-you-ranking-change
 Evaluate a Migration from MySQL to MongoDB,System Design,Hard,Phone screen,Junior / Mid,1,0,2026-08-13,https://trueinterview.io/questions/evaluate-a-migration-from-mysql-to-mongodb
 Build a Nested Comment Tree from Flat Records,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,4,2026-08-13,https://trueinterview.io/questions/build-nested-comment-tree
@@ -211,20 +207,12 @@ House Robber (Large Inputs),Algorithm,Medium,Phone screen,Junior / Mid; Senior,3
 Binary Tree Right Side View,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,5,10,2026-05,https://trueinterview.io/questions/binary-tree-right-side-view
 Add/Sub Calculator with String Verification Follow-up,Algorithm,Medium,Phone screen,Senior,2,0,2026-05,https://trueinterview.io/questions/e1a8f514-a21b-418e-a502-3692d1b53353
 "Smallest Valid Course Order from Prerequisite Pairs, with Cycle Detection",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-04-28,https://trueinterview.io/questions/smallest-valid-course-order-from-prerequisite-pairs-with-cycle-detection
-Design a Synchronized Live Comment Overlay,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-04-28,https://trueinterview.io/questions/design-a-synchronized-live-comment-overlay
-Implement Sorted Search and Array Updates,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-28,https://trueinterview.io/questions/implement-sorted-search-and-array-updates
-"Defend a Project's Schema, Indexes, and Concurrency Model",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-04-26,https://trueinterview.io/questions/defend-a-projects-schema-indexes-and-concurrency-model
-"Model Campaigns, Targeting, and Edit History for a Demand-Side Ad Platform",System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-23,https://trueinterview.io/questions/model-campaigns-targeting-and-edit-history-for-a-demand-side-ad-platform
 Minimum Add to Make Parentheses Valid II,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-04-23,https://trueinterview.io/questions/minimum-add-to-make-valid-parens
 Evidence-Grounded RAG Assistant for TikTok Misinformation Reviews,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-17,https://trueinterview.io/questions/evidence-grounded-rag-assistant-for-tiktok-misinformation-reviews
 Search Words in a Character Grid,Algorithm,Hard,Phone screen,Junior / Mid; Senior,2,0,2026-04-15,https://trueinterview.io/questions/search-words-in-a-character-grid
-Explain a Difficult Project and Its Scaling Decisions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-12,https://trueinterview.io/questions/explain-a-difficult-project-and-its-scaling-decisions
 Number of Islands (Plain and Streaming),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,8,0,2026-04-09,https://trueinterview.io/questions/phone-screen-number-of-islands
 Minimum-Cost Path on a Grid with Fuel and Recharge Cells,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-04-05,https://trueinterview.io/questions/shortest-path-grid-with-fuel
 Longest Substring with At Most K Distinct Characters,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-04-05,https://trueinterview.io/questions/longest-substring-k-distinct
-Diagnose Low CTR in an Advertising Campaign Funnel,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-04-04,https://trueinterview.io/questions/diagnose-low-ctr-in-an-advertising-campaign-funnel
-Probability That One Fair Die Beats Another,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-04,https://trueinterview.io/questions/probability-that-one-fair-die-beats-another
-Find Maximum Chain Activations,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-04,https://trueinterview.io/questions/find-maximum-chain-activations
 Campaign Efficiency Metrics and Below-Average CTR,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-04-04,https://trueinterview.io/questions/campaign-efficiency-metrics-and-below-average-ctr
 Tree Diameter / Longest Path,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-04-02,https://trueinterview.io/questions/tree-diameter
 Compute square root with precision,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/compute-square-root-with-precision
@@ -239,7 +227,6 @@ Time Based Key-Value Store,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid
 Two-Direction Justified Newspaper Layout,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-03-17,https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-two-direction-justified-newspaper-layout
 Drone Relay to Target,Algorithm,Easy,Online assessment,Intern; New grad,1,0,2026-03-17,https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-drone-relay-to-target
 Aligned Memory Allocator and Related Tasks,Algorithm,Hard,Online assessment,New grad; Junior / Mid,1,0,2026-03-17,https://trueinterview.io/questions/codesignal-swe-oa-spring-2026
-Analyze Product Launch and Creator Engagement,Behavioral / Knowledge,,Phone screen,Intern; New grad,1,0,2026-03-14,https://trueinterview.io/questions/analyze-product-launch-and-creator-engagement
 Count Same-Day Registered Posters,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/count-same-day-registered-posters
 "Reverse Words in a String (Preserve Spaces, In-Place)",Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-03-10,https://trueinterview.io/questions/reverse-words-in-place
 Case-insensitive adjacent differences,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,2026-03-05,https://trueinterview.io/questions/implement-several-oa-simulation-problems-case-insensitive-adjacent-differences
@@ -250,22 +237,16 @@ Count Subarrays With Alternating Parity (Odd/Even) Including Negatives,Algorithm
 Walking with Boost Stations (Greedy Simulation),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/df181ca4-fa5a-4022-975e-2742e47d87d5
 Choose k numbers from 1..n without repetition (combinations / permutations),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/a0485034-7630-45ac-8ddd-d194614132a0
 Can Cut All Given Squares From a Rectangle Grid,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/8df7409a-9106-435c-8157-bf0c94e6467e
-How do you assess database system stability?,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-02-28,https://trueinterview.io/questions/how-do-you-assess-database-system-stability
-Explain a promotion and key project impact,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,2026-02-28,https://trueinterview.io/questions/explain-a-promotion-and-key-project-impact
 Find All Anagrams in a String,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Senior,4,0,2026-02-21,https://trueinterview.io/questions/find-all-anagrams-in-a-string
-Solve interval merging and histogram area,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-02-18,https://trueinterview.io/questions/solve-interval-merging-and-histogram-area
 N-Queens,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,0,2026-02-16,https://trueinterview.io/questions/n-queens
 "Name TikTok's Most Serious Business Risk, Defend the Choice and Propose Mitigations",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-15,https://trueinterview.io/questions/name-tiktoks-most-serious-business-risk-defend-the-choice-and-propose-mitigations
 Product sense: reinvent a home laundry machine pair to win buyers and lift profit,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-14,https://trueinterview.io/questions/product-sense-reinvent-a-home-laundry-machine-pair-to-win-buyers-and-lift-profit
 "Product positioning teardown: YouTube, TikTok, Instagram and Facebook compared",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-14,https://trueinterview.io/questions/product-positioning-teardown-youtube-tiktok-instagram-and-facebook-compared
 "Explain overfitting, dropout, normalization, RL post-training",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,1,2026-02-12,https://trueinterview.io/questions/explain-overfitting-dropout-normalization-rl-post-training
-Explain motivation for QA and career goals,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/explain-motivation-for-qa-and-career-goals
 Design video captioning under compute limits,System Design,Hard,Phone screen,Junior / Mid,1,0,2026-02-12,https://trueinterview.io/questions/design-video-captioning-under-compute-limits
 Answer common behavioral questions using STAR,Behavioral / Knowledge,,Phone screen,New grad; Senior,1,0,2026-02-12,https://trueinterview.io/questions/answer-common-behavioral-questions-using-star-2
 Implement stack variants and path-sum check,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/implement-stack-variants-and-path-sum-check
 Group words that are anagrams,Algorithm,Medium,Online assessment,Junior / Mid,1,1,2026-02-11,https://trueinterview.io/questions/solve-string-grouping-and-tree-right-view-problems-group-words-that-are-anagrams
-Solve string grouping and tree right-view problems,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-02-11,https://trueinterview.io/questions/solve-string-grouping-and-tree-right-view-problems
-Delete nodes in linked list and binary tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-02-11,https://trueinterview.io/questions/delete-nodes-in-linked-list-and-binary-tree
 Merge Intervals,Algorithm,Medium,Phone screen,,16,0,2026-02-04,https://trueinterview.io/questions/merge-intervals
 When prioritize precision vs recall,Behavioral / Knowledge,,Phone screen,New grad,1,0,2026-02,https://trueinterview.io/questions/when-prioritize-precision-vs-recall
 Explain Java ConcurrentHashMap and queues,Behavioral / Knowledge,,Phone screen,Senior,1,1,2026-02,https://trueinterview.io/questions/explain-java-concurrenthashmap-and-queues
@@ -279,9 +260,6 @@ Gas Tank Grid Reachability,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid
 "MinStack, MaxStack and Streaming Median",Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-01-30,https://trueinterview.io/questions/streaming-median-min-max-stack
 Largest Rectangle in Histogram,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad,2,0,2026-01-29,https://trueinterview.io/questions/largest-rectangle-histogram
 Dynamic K in Retrieval Stage,System Design,Hard,Onsite / virtual onsite,Senior,1,1,2026-01-28,https://trueinterview.io/questions/dynamic-k-retrieval-ml-system-design
-Find the Minimum Constant Processing Speed,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-01-26,https://trueinterview.io/questions/solve-search-speed-and-string-product-find-the-minimum-constant-processing-speed
-"Solve these string, subset, and date problems",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-23,https://trueinterview.io/questions/solve-these-string-subset-and-date-problems
-Describe your most challenging project and leadership,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,2,0,2026-01-23,https://trueinterview.io/questions/describe-your-most-challenging-project-and-leadership
 "Explain deployment, retrieval, and regularization",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-17,https://trueinterview.io/questions/explain-deployment-retrieval-and-regularization
 How to deploy and tune multimodal models?,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-01-10,https://trueinterview.io/questions/how-to-deploy-and-tune-multimodal-models
 Top K Frequent Elements,Algorithm,Medium,Phone screen,Junior / Mid,6,0,2026-01-10,https://trueinterview.io/questions/top-k-frequent-elements-3
@@ -298,87 +276,36 @@ Find Local Maximums in Temperature Data,Algorithm,Medium,Phone screen,New grad,1
 Minimum Cost to Reach Last Index (1 or 2 steps),Algorithm,Easy,Online assessment,New grad,1,0,2026-01,https://trueinterview.io/questions/00ee897c-5673-4003-ad54-5c645b660b2a
 "Owning a Failed Product Launch: Diagnosis, Response and Lessons Learned",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-12-24,https://trueinterview.io/questions/owning-a-failed-product-launch-diagnosis-response-and-lessons-learned
 Explain your VLM project end-to-end,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-12-15,https://trueinterview.io/questions/explain-your-vlm-project-end-to-end
-Reverse nodes in even-length linked-list groups,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-12-11,https://trueinterview.io/questions/reverse-nodes-in-even-length-linked-list-groups
-Explain DPO and construct its training data,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-12-08,https://trueinterview.io/questions/explain-dpo-and-construct-its-training-data
 Design system to detect privacy-leak records,System Design,Hard,Phone screen,Senior; Staff+,1,0,2025-12-08,https://trueinterview.io/questions/design-system-to-detect-privacy-leak-records
-Solve pair-counting and account-merging problems,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2025-12-08,https://trueinterview.io/questions/solve-pair-counting-and-account-merging-problems
-Find kth smallest in sorted 2D matrix,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2025-12-08,https://trueinterview.io/questions/find-kth-smallest-in-sorted-2d-matrix
 Array Partition,Algorithm,Easy,Online assessment,Junior / Mid,1,1,2025-12,https://trueinterview.io/questions/68134649-a71c-42b7-8c16-1c8baedd96e6
 BST Node Search and Delete,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,0,2025-12,https://trueinterview.io/questions/31cfc7de-9b80-4134-aa0c-dca151fdaf0b
 Merge K Sorted Lists (incl. K = 3),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,0,2025-12,https://trueinterview.io/questions/merge-k-sorted-lists-3
 Plan DS approach for biker delivery project,System Design,Medium,Phone screen,Senior; Staff+,1,0,2025-11-27,https://trueinterview.io/questions/plan-ds-approach-for-biker-delivery-project
-Write monthly customer and sales SQL queries,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2025-11-27,https://trueinterview.io/questions/write-monthly-customer-and-sales-sql-queries
 Contiguous Subarray with Largest Min + Max,Algorithm,Easy,Phone screen,Junior / Mid,1,0,2025-11-26,https://trueinterview.io/questions/largest-min-max-subarray
 TikTok Improvement Roadmap: Ranking Existing Features and Planning the Fixes,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-19,https://trueinterview.io/questions/tiktok-improvement-roadmap-ranking-existing-features-and-planning-the-fixes
 Walk through a data pipeline project,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-11-12,https://trueinterview.io/questions/walk-through-a-data-pipeline-project
 How would you choose a classification threshold?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-11-12,https://trueinterview.io/questions/how-would-you-choose-a-classification-threshold
-Explain Type I/II errors vs precision/recall,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-11-12,https://trueinterview.io/questions/explain-type-i-ii-errors-vs-precision-recall-2
 Design low-latency large-scale hotel booking system,System Design,Hard,Phone screen,Senior; Staff+,1,0,2025-11-12,https://trueinterview.io/questions/design-low-latency-large-scale-hotel-booking-system
-Build and iteratively improve sentiment classifier,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-11-12,https://trueinterview.io/questions/build-and-iteratively-improve-sentiment-classifier
-Find top-paid employee per department,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2025-11-12,https://trueinterview.io/questions/find-top-paid-employee-per-department-2
 How do you choose a classification threshold?,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2025-11-08,https://trueinterview.io/questions/how-do-you-choose-a-classification-threshold
 Max Area of Island,Algorithm,Medium,Phone screen,Senior,3,0,2025-11,https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f
 Find first and last index of target,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-10-19,https://trueinterview.io/questions/find-first-and-last-index-of-target
-(Hard),SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2025-10-09,https://trueinterview.io/questions/write-sql-for-tiktok-live-creator-metrics-hard
-Write SQL for TikTok Live creator metrics,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2025-10-09,https://trueinterview.io/questions/write-sql-for-tiktok-live-creator-metrics
 Shortest Path in Unweighted Graph,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,0,2025-05-30,https://trueinterview.io/questions/shortest-path-in-unweighted-graph
 Nested Set Equality,Algorithm,Medium,Onsite / virtual onsite,Senior,2,0,2025-05-30,https://trueinterview.io/questions/nested-set-equality
 Implement Power Function,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2025-03,https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae
 Remove Duplicates from Sorted Linked List,Algorithm,Easy,Online assessment,Junior / Mid,2,0,2025-02,https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed
-Use DiD for staggered treatment adoption,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/use-did-for-staggered-treatment-adoption
-Test 15s to 60s video length change,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/test-15s-to-60s-video-length-change
-Show ownership in ambiguous creator-growth work,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/show-ownership-in-ambiguous-creator-growth-work
-Reflect on a challenging project you led,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/reflect-on-a-challenging-project-you-led
-Rank factors for TikTok market entry,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/rank-factors-for-tiktok-market-entry
 Optimize threshold using confusion matrix and costs,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/optimize-threshold-using-confusion-matrix-and-costs
-Investigate visit–report correlation causality,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/investigate-visitreport-correlation-causality
-Interpret and validate regression with interactions,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/interpret-and-validate-regression-with-interactions
 Implement streaming SRM detector with late events,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/implement-streaming-srm-detector-with-late-events
-Handle disengaged interviewer or biased manager,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/handle-disengaged-interviewer-or-biased-manager
-Explain your most impactful project trade-offs,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/explain-your-most-impactful-project-trade-offs
-Explain SHAP vs VIF under collinearity,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/explain-shap-vs-vif-under-collinearity
-"Explain motivations, background, and success metrics",Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/explain-motivations-background-and-success-metrics
 Explain and tune XGBoost; prevent overfitting,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/explain-and-tune-xgboost-prevent-overfitting
-Estimate heterogeneous treatment effects with causal ML,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/estimate-heterogeneous-treatment-effects-with-causal-ml
 Drive product decisions with causal product sense,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/drive-product-decisions-with-causal-product-sense
-Differentiate LDA and QDA; compute boundary,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/differentiate-lda-and-qda-compute-boundary
-Design robust metrics for a feature launch,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-robust-metrics-for-a-feature-launch
-Design robust A/B test with interference and seasonality,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-robust-a-b-test-with-interference-and-seasonality
-Design recommendations objective balancing growth and monetization,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-recommendations-objective-balancing-growth-and-monetization
-Design incrementality test for TikTok ads,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-incrementality-test-for-tiktok-ads
-Design causal measurement without randomization,System Design,Medium,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-causal-measurement-without-randomization
-Design and evaluate a dasher bike rollout,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-and-evaluate-a-dasher-bike-rollout
-Design an interference-robust A/B test for monetization,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-an-interference-robust-a-b-test-for-monetization
-Design an ad-selection system across objectives,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-an-ad-selection-system-across-objectives
 Derive L1 vs L2 effects with correlation,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/derive-l1-vs-l2-effects-with-correlation
-Demonstrate leadership in cross-functional disagreement,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,0,,https://trueinterview.io/questions/demonstrate-leadership-in-cross-functional-disagreement
-Define QKV for recommender cross-attention,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/define-qkv-for-recommender-cross-attention
-Decide launch of downranking suspected bad sellers,System Design,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/decide-launch-of-downranking-suspected-bad-sellers
-Decide if subgroup increases imply overall increase,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/decide-if-subgroup-increases-imply-overall-increase
-Control confounding in observational ad lift,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/control-confounding-in-observational-ad-lift
-Compute cluster-aware significance and sequential corrections,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/compute-cluster-aware-significance-and-sequential-corrections
 Compare bagging vs boosting on imbalanced data,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/compare-bagging-vs-boosting-on-imbalanced-data
-Communicate technical impact under skeptical stakeholders,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/communicate-technical-impact-under-skeptical-stakeholders
 Choose linear regression or decision tree appropriately,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/choose-linear-regression-or-decision-tree-appropriately
-Calculate valid daily usage with gap constraints,SQL,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/calculate-valid-daily-usage-with-gap-constraints
 Apply PSM rigorously for observational A/B analysis,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/apply-psm-rigorously-for-observational-a-b-analysis
-Analyze promo anomaly and design risk guardrails,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/analyze-promo-anomaly-and-design-risk-guardrails
-"Analyze DFS, BFS, and A* trade-offs",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/analyze-dfs-bfs-and-a-trade-offs
-Act when A/B result is not significant,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/act-when-a-b-result-is-not-significant
 Write SQL for last-7-day metrics without windows,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/write-sql-for-last-7-day-metrics-without-windows
-Write SQL for geo posting-frequency drops,SQL,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/write-sql-for-geo-posting-frequency-drops
-Write SQL for 7-day geo-localized revenue dashboard,SQL,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/write-sql-for-7-day-geo-localized-revenue-dashboard
-Select max-discount product per category,SQL,Easy,Online assessment,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/select-max-discount-product-per-category
-Maximize products bought under budget,Algorithm,Hard,Online assessment,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/maximize-products-bought-under-budget
 Implement K-means and run two iterations,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/implement-k-means-and-run-two-iterations
 Count buggy vs non-buggy by employer,SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/count-buggy-vs-non-buggy-by-employer
-Compute last-to-previous ad impression gaps,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-last-to-previous-ad-impression-gaps
-Compute CTR drop with exclusions,SQL,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-ctr-drop-with-exclusions
-Compute and rank top bad advertisers,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-and-rank-top-bad-advertisers
-Compute 7-day rolling complaint/order ratio in SQL,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compute-7-day-rolling-complaint-order-ratio-in-sql
 "Compare SQL counts, windows, and NULL semantics",SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/compare-sql-counts-windows-and-null-semantics
 Analyze shopping funnel with joins and windows,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/analyze-shopping-funnel-with-joins-and-windows
-Diagnose a sudden metric spike or drop,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/diagnose-a-sudden-metric-spike-or-drop
 Design Spotify,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,7,0,,https://trueinterview.io/questions/design-spotify-2
 Longest Substring Without Repeating Characters,Algorithm,Medium,Phone screen,New grad; Junior / Mid,3,0,,https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0
 Minimum Time to Reach Bottom-Right in a Grid,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/eefc1bf4-36bc-4559-9991-c8e115ff4795
