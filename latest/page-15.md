@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,9 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-02 | [Databricks](../companies/databricks/) | [Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time](https://trueinterview.io/questions/44ee2fb4-e34e-431f-ad8d-61388d5ef87d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
-| 2026-02 | [Reddit](../companies/reddit/), [Netflix](../companies/netflix/) | [Video Recommendation](https://trueinterview.io/questions/video-recommendation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
-| 2026-02 | [OpenAI](../companies/openai/) | [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
 | 2026-02 | [Uber](../companies/uber/), [Apple](../companies/apple/) +1 | [Cheapest Flights Within K Stops](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-02 | [Stripe](../companies/stripe/), [OpenAI](../companies/openai/) | [Design Webhook Delivery System](https://trueinterview.io/questions/payment-webhook-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 3 |
 | 2026-02-01 | [Snowflake](../companies/snowflake/) | [Top K Book Sales](https://trueinterview.io/questions/k-top-selling-books?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | Junior / Mid | 0 |
@@ -410,5 +407,8 @@
 | 2026-01-02 | [PayPal](../companies/paypal/) | [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+ | 0 |
 | 2026-01-02 | [Apple](../companies/apple/) | [Design a streaming embedding-based classifier](https://trueinterview.io/questions/design-a-streaming-embedding-based-classifier?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
 | 2026-01-02 | [PayPal](../companies/paypal/) | [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
+| 2026-01-02 | [Netflix](../companies/netflix/) | [User Engagement Patterns](https://trueinterview.io/questions/user-engagement-patterns?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
+| 2026-01-02 | [Apple](../companies/apple/) | [Design TTL Cache](https://trueinterview.io/questions/design-ttl-cache?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
+| 2026-01-01 | [Datologyai](../companies/datologyai/) | [Word Count and Multiset Intersect Using Only a Mock Spark RDD API](https://trueinterview.io/questions/word-count-and-multiset-intersect-using-only-a-mock-spark-rdd-api?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
 
 [← Newer](page-14.md) · Page 15 of 17 · [Older →](page-16.md)

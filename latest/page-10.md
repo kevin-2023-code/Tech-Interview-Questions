@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,8 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-06 | [Uber](../companies/uber/), [Meta](../companies/meta/) | [Robot Bounded In Circle](https://trueinterview.io/questions/30e9378c-0012-5e2d-a657-04786183807a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
-| 2026-06 | [Snowflake](../companies/snowflake/) | [Implement a JSON Parser](https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
 | 2026-06 | [OpenAI](../companies/openai/) | [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 2 |
 | 2026-06 | [OpenAI](../companies/openai/) | [GPU Credit Calculator](https://trueinterview.io/questions/d01fe6d8-e86a-4cf8-b36d-900107f35f74?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 2 |
 | 2026-06 | [OpenAI](../companies/openai/) | [Cell Simulation / Conway's Game of Life](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
@@ -410,5 +408,7 @@
 | 2026-05 | [Point72](../companies/point72/) | [Lexicographically Smallest String After Substring Operation](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
 | 2026-05 | [Lyft](../companies/lyft/) | [Implement Stratified K-Fold Cross Validation](https://trueinterview.io/questions/603347d9-9ef4-4b27-be30-a00814f1b728?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
 | 2026-05 | [Harvey](../companies/harvey/) | [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
+| 2026-05 | [Ebay](../companies/ebay/) | [Assign Random Ads](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Senior | 0 |
+| 2026-05 | [Ebay](../companies/ebay/) | [Unique Word Abbreviation](https://trueinterview.io/questions/55c4e4d1-3f81-4af8-ae7a-53d0a4c2699e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
 
 [← Newer](page-9.md) · Page 10 of 17 · [Older →](page-11.md)

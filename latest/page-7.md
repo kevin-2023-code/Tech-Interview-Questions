@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-08 | [ByteDance](../companies/bytedance/) | [Handle Communication Difficulty and Ambiguity on a Project](https://trueinterview.io/questions/handle-communication-difficulty-and-ambiguity-on-a-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid | 0 |
 | 2026-08 | [Pinterest](../companies/pinterest/) | [Generate Attribute Combinations](https://trueinterview.io/questions/generate-attribute-combinations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-08 | [Uber](../companies/uber/) | [Find the Best Currency Conversion Rate](https://trueinterview.io/questions/find-the-best-currency-conversion-rate?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-08 | [Amazon](../companies/amazon/) | [Explain the bias–variance trade-off](https://trueinterview.io/questions/explain-the-biasvariance-trade-off?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 2 |
@@ -410,5 +409,6 @@
 | 2026-07-21 | [Square](../companies/square/) | [Markov Chain Next-Word Prediction & Sentence Generation](https://trueinterview.io/questions/markov-chain-next-word-prediction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-07-21 | [Databricks](../companies/databricks/) | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior | 0 |
 | 2026-07-20 | [Wayfair](../companies/wayfair/) | [Wayfair Shipping Fee Change: Model the Profit Impact of Repricing One Delivery Option](https://trueinterview.io/questions/wayfair-shipping-fee-change-model-the-profit-impact-of-repricing-one-delivery-option?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-07-20 | [Meta](../companies/meta/) | [Instagram Product Sense: Choose a Goal and Segment, Then Design One New Feature](https://trueinterview.io/questions/instagram-product-sense-choose-a-goal-and-segment-then-design-one-new-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 
 [← Newer](page-6.md) · Page 7 of 17 · [Older →](page-8.md)

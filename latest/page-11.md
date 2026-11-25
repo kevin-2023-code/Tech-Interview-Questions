@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,8 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-05 | [Ebay](../companies/ebay/) | [Assign Random Ads](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Senior | 0 |
-| 2026-05 | [Ebay](../companies/ebay/) | [Unique Word Abbreviation](https://trueinterview.io/questions/55c4e4d1-3f81-4af8-ae7a-53d0a4c2699e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
 | 2026-05 | [WeRide](../companies/weride/) | [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
 | 2026-05 | [Upstart](../companies/upstart/) | [Buffet Restaurant Entry/Exit Billing with Capacity Constraints](https://trueinterview.io/questions/ad4d08a8-81ae-4e50-874c-42d39325d532?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 1 |
 | 2026-05 | [Upstart](../companies/upstart/) | [Format Bytes into Human-Readable String (B/KB/MB)](https://trueinterview.io/questions/51be1242-45a4-47fc-9f37-e1bcd9800d17?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 0 |
@@ -410,5 +408,7 @@
 | 2026-04-11 | [Netflix](../companies/netflix/) | [Estimation: Sizing Yearly iPad Unit Sales in the United States](https://trueinterview.io/questions/estimation-sizing-yearly-ipad-unit-sales-in-the-united-states?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | New grad, Junior / Mid | 0 |
 | 2026-04-11 | [Anthropic](../companies/anthropic/) | [Choosing Between Prompting, Retrieval and Fine-Tuning to Specialize an LLM](https://trueinterview.io/questions/choosing-between-prompting-retrieval-and-fine-tuning-to-specialize-an-llm?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-04-11 | [Salesforce](../companies/salesforce/) | [Validate a Generalized Word Abbreviation](https://trueinterview.io/questions/validate-a-generalized-word-abbreviation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
+| 2026-04-11 | [Salesforce](../companies/salesforce/) | [Take Ownership Beyond Your Assigned Responsibilities](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+, Manager | 0 |
+| 2026-04-11 | [LinkedIn](../companies/linkedin/) | [Review a Web Application Architecture](https://trueinterview.io/questions/review-a-web-application-architecture?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
 
 [← Newer](page-10.md) · Page 11 of 17 · [Older →](page-12.md)

@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,9 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-01-02 | [Netflix](../companies/netflix/) | [User Engagement Patterns](https://trueinterview.io/questions/user-engagement-patterns?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
-| 2026-01-02 | [Apple](../companies/apple/) | [Design TTL Cache](https://trueinterview.io/questions/design-ttl-cache?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
-| 2026-01-01 | [Datologyai](../companies/datologyai/) | [Word Count and Multiset Intersect Using Only a Mock Spark RDD API](https://trueinterview.io/questions/word-count-and-multiset-intersect-using-only-a-mock-spark-rdd-api?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-01-01 | [Amazon](../companies/amazon/) | [Go/No-Go Strategy for Amazon Entering the Live Pet and Animal Category](https://trueinterview.io/questions/go-no-go-strategy-for-amazon-entering-the-live-pet-and-animal-category?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-01-01 | [Meta](../companies/meta/) | [Behavioral: Building a Team or Leading It Through a Re-org](https://trueinterview.io/questions/behavioral-building-a-team-or-leading-it-through-a-re-org?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Manager | 0 |
 | 2026-01-01 | [Amazon](../companies/amazon/) | [Amazon PM Behavioral: Describe a Hard Trade-off Decision You Owned and Its Outcome](https://trueinterview.io/questions/amazon-pm-behavioral-describe-a-hard-trade-off-decision-you-owned-and-its-outcome?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Intern | 0 |
@@ -410,5 +407,8 @@
 | 2025-12 | [Disney](../companies/disney/) | [Build Naive Bayes spam classifier with F1](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad | 0 |
 | 2025-12 | [Applied Intuition](../companies/applied-intuition/) | [Track simulations and report timeouts](https://trueinterview.io/questions/track-simulations-and-report-timeouts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2025-12 | [Microsoft](../companies/microsoft/) | [Implement rotated array binary search with duplicates](https://trueinterview.io/questions/implement-rotated-array-binary-search-with-duplicates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
+| 2025-12-01 | [OpenAI](../companies/openai/) | [Implement map serialization and deserialization](https://trueinterview.io/questions/implement-map-serialization-and-deserialization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
+| 2025-12-01 | [Applied Intuition](../companies/applied-intuition/) | [Evaluate variables in simple arithmetic DSL](https://trueinterview.io/questions/evaluate-variables-in-simple-arithmetic-dsl?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
+| 2025-12 | [Databricks](../companies/databricks/) | [Query QPS from KV Store Request Logs](https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures-query-qps-from-kv-store-request-logs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Intern | 0 |
 
 [← Newer](page-15.md) · Page 16 of 17 · [Older →](page-17.md)

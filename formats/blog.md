@@ -2,11 +2,11 @@
 
 # Behavioral / Knowledge interview questions
 
-3,282 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
+3,279 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 
-Showing the 500 most recently reported of 3,282. [data/questions.csv](../data/questions.csv) has every row.
+Showing the 500 most recently reported of 3,279. [data/questions.csv](../data/questions.csv) has every row.
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |

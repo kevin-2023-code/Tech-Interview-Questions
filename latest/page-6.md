@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -140,7 +140,6 @@
 | 2026-08-19 | [OpenAI](../companies/openai/) | [Hardware Product Sense: A Dedicated Device That Brings OpenAI Models Into Hotels](https://trueinterview.io/questions/hardware-product-sense-a-dedicated-device-that-brings-openai-models-into-hotels?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-08-19 | [Microsoft](../companies/microsoft/) | [Coursera Product Improvement: Choosing a Goal, a Segment and a Fix to Build](https://trueinterview.io/questions/coursera-product-improvement-choosing-a-goal-a-segment-and-a-fix-to-build?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-08-19 | [Meta](../companies/meta/) | [Choosing a North Star and Guardrail Metrics for Meta's Gaming Expansion](https://trueinterview.io/questions/choosing-a-north-star-and-guardrail-metrics-for-metas-gaming-expansion?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-08-19 | [Amazon](../companies/amazon/) | [Make Progress When Requirements Are Ambiguous](https://trueinterview.io/questions/make-progress-when-requirements-are-ambiguous?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-08-19 | [Ebay](../companies/ebay/) | [Investing in Deliberate Professional Growth](https://trueinterview.io/questions/investing-in-deliberate-professional-growth?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+, Manager | 0 |
 | 2026-08-19 | [NVIDIA](../companies/nvidia/) | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-08-19 | [NVIDIA](../companies/nvidia/) | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
@@ -410,5 +409,6 @@
 | 2026-08 | [ByteDance](../companies/bytedance/) | [Merge Overlapping Time Windows](https://trueinterview.io/questions/merge-overlapping-time-windows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-08 | [Netflix](../companies/netflix/) | [How do you give and receive feedback?](https://trueinterview.io/questions/how-do-you-give-and-receive-feedback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-08 | [Apple](../companies/apple/) | [Handle conflict, priorities, and harsh clients](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior, Manager | 0 |
+| 2026-08 | [ByteDance](../companies/bytedance/) | [Handle Communication Difficulty and Ambiguity on a Project](https://trueinterview.io/questions/handle-communication-difficulty-and-ambiguity-on-a-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid | 0 |
 
 [← Newer](page-5.md) · Page 6 of 17 · [Older →](page-7.md)

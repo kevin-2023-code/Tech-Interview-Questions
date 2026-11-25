@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-07-20 | [Meta](../companies/meta/) | [Instagram Product Sense: Choose a Goal and Segment, Then Design One New Feature](https://trueinterview.io/questions/instagram-product-sense-choose-a-goal-and-segment-then-design-one-new-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-07-20 | [Google](../companies/google/) | [Design Customer Support with Virtual-Agent-to-Human Escalation](https://trueinterview.io/questions/design-customer-support-with-virtual-agent-to-human-escalation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-07-20 | [Roblox](../companies/roblox/) | [Design Cross-Server Real-Time Chat Translation for Roblox Players](https://trueinterview.io/questions/design-cross-server-real-time-chat-translation-for-roblox-players?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-07-20 | [Duolingo](../companies/duolingo/) | [Design an AI Speaking Partner for Duolingo: Roleplay Chats with Live Corrections](https://trueinterview.io/questions/design-an-ai-speaking-partner-for-duolingo-roleplay-chats-with-live-corrections?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
@@ -224,7 +223,6 @@
 | 2026-07 | [Meta](../companies/meta/) | [Design a Scalable Post, Feed, and Search Service](https://trueinterview.io/questions/design-a-scalable-post-feed-and-search-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
 | 2026-07 | [Amazon](../companies/amazon/) | [Design a Multi-Provider Financial Dashboard](https://trueinterview.io/questions/design-a-multi-provider-financial-dashboard?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 1 |
 | 2026-07 | [Cvs Health](../companies/cvs-health/) | [Describe handling pressure and stakeholder conflicts](https://trueinterview.io/questions/describe-handling-pressure-and-stakeholder-conflicts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+, Manager | 1 |
-| 2026-07 | [Google](../companies/google/) | [Describe a conflict with a colleague](https://trueinterview.io/questions/describe-a-conflict-with-a-colleague?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-07 | [Coinbase](../companies/coinbase/) | [Debug and Extend Cursor Queries](https://trueinterview.io/questions/debug-and-extend-cursor-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
 | 2026-07 | [Capital One](../companies/capital-one/) | [Cover HR screen: role, motivation, comp, immigration, location](https://trueinterview.io/questions/cover-hr-screen-role-motivation-comp-immigration-location?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior, Manager | 0 |
 | 2026-07 | [Optiver](../companies/optiver/) | [Answer why SWE and why Optiver](https://trueinterview.io/questions/answer-why-swe-and-why-optiver?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Intern | 0 |
@@ -410,5 +408,7 @@
 | 2026-07 | [Roblox](../companies/roblox/), [Amazon](../companies/amazon/) +2 | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid | 1 |
 | 2026-07 | [Apple](../companies/apple/) | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-07 | [Apple](../companies/apple/), [Amazon](../companies/amazon/) +4 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
+| 2026-07 | [Amazon](../companies/amazon/), [Bloomberg](../companies/bloomberg/) +14 | [Design News Feed](https://trueinterview.io/questions/design-news-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Junior / Mid, Senior | 0 |
+| 2026-07 | [Apple](../companies/apple/) | [Design (key, value) Storage with Snapshots](https://trueinterview.io/questions/design-key-value-storage-with-snapshots?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | Senior | 0 |
 
 [← Newer](page-7.md) · Page 8 of 17 · [Older →](page-9.md)

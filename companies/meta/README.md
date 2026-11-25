@@ -2,15 +2,15 @@
 
 # Meta interview questions
 
-774 questions reported at Meta, most recently reported first.
+773 questions reported at Meta, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (105) · [last 6 months](six-months.csv) (227) · [all](all.csv) (774)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (105) · [last 6 months](six-months.csv) (227) · [all](all.csv) (773)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-Showing the 500 most recently reported of 774. [all.csv](all.csv) has every row.
+Showing the 500 most recently reported of 773. [all.csv](all.csv) has every row.
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
@@ -345,7 +345,6 @@ Showing the 500 most recently reported of 774. [all.csv](all.csv) has every row.
 | [Design real-time live comments](https://trueinterview.io/questions/design-real-time-live-comments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2 | 2026-04 |
 | [Demonstrate leadership in cross-functional collaboration](https://trueinterview.io/questions/demonstrate-leadership-in-cross-functional-collaboration?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04 |
 | [Count connected islands in a grid](https://trueinterview.io/questions/compute-sparse-dot-product-and-count-islands-count-connected-islands-in-a-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-04 |
-| [Describe a failed project and lessons learned](https://trueinterview.io/questions/describe-a-failed-project-and-lessons-learned?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Staff+ | 1 | 1 | 2026-04 |
 | [PE Troubleshooting — Web Server / Disk Full](https://trueinterview.io/questions/pe-troubleshooting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-01 |
 | [Find Peak Element](../../questions/algorithm/find-peak-element/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-04 |
 | [Escape Room (Shortest Escape Path in a Room Grid)](https://trueinterview.io/questions/4837fbb0-c247-450e-9607-1c9a42be781c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 2 | 0 | 2026-04 |
@@ -514,6 +513,7 @@ Showing the 500 most recently reported of 774. [all.csv](all.csv) has every row.
 | [Weighing user and engagement growth against ad revenue in an ad-funded social app](https://trueinterview.io/questions/weighing-user-and-engagement-growth-against-ad-revenue-in-an-ad-funded-social-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-27 |
 | [Redesigning how residents get licenses, IDs and vehicle registrations at the DMV](https://trueinterview.io/questions/redesigning-how-residents-get-licenses-ids-and-vehicle-registrations-at-the-dmv?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-27 |
 | [How would you measure Group Call success?](https://trueinterview.io/questions/how-would-you-measure-group-call-success?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2025-12-26 |
+| [Product Sense: Designing a Residential Real Estate Marketplace for Home Transactions](https://trueinterview.io/questions/product-sense-designing-a-residential-real-estate-marketplace-for-home-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-24 |
 
 ---
 

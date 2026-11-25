@@ -2,15 +2,15 @@
 
 # Amazon interview questions
 
-609 questions reported at Amazon, most recently reported first.
+608 questions reported at Amazon, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (203) · [last 6 months](six-months.csv) (348) · [all](all.csv) (609)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (203) · [last 6 months](six-months.csv) (347) · [all](all.csv) (608)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-Showing the 500 most recently reported of 609. [all.csv](all.csv) has every row.
+Showing the 500 most recently reported of 608. [all.csv](all.csv) has every row.
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
@@ -231,7 +231,6 @@ Showing the 500 most recently reported of 609. [all.csv](all.csv) has every row.
 | [Package Tracking & Status Aggregator Engine](https://trueinterview.io/questions/package-tracking-status-aggregator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2026-08-21 |
 | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 1 | 2026-08-21 |
 | [Root-Cause Analysis Under Uncertainty](https://trueinterview.io/questions/root-cause-analysis-under-uncertainty?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-08-20 |
-| [Make Progress When Requirements Are Ambiguous](https://trueinterview.io/questions/make-progress-when-requirements-are-ambiguous?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-19 |
 | [Validate Properly Nested Brackets](https://trueinterview.io/questions/validate-properly-nested-brackets?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-19 |
 | [Repeat Customer Visits](https://trueinterview.io/questions/a654f3a3-e029-432a-926b-60ed98685ea5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Junior / Mid | 1 | 0 | 2026-08-19 |
 | [Retuning Amazon's Recommendation Engine to Turn More Browsing into Purchases](https://trueinterview.io/questions/retuning-amazons-recommendation-engine-to-turn-more-browsing-into-purchases?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-17 |
@@ -514,6 +513,7 @@ Showing the 500 most recently reported of 609. [all.csv](all.csv) has every row.
 | [Describe failure, conflict, metrics, and AI lessons](https://trueinterview.io/questions/describe-failure-conflict-metrics-and-ai-lessons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-31 |
 | [Amazon PM behavioral: discussing your weakest-fit Leadership Principle honestly](https://trueinterview.io/questions/amazon-pm-behavioral-discussing-your-weakest-fit-leadership-principle-honestly?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-30 |
 | [Amazon PM Behavioral: The Leadership Principle That Resonates Most With You, and Why](https://trueinterview.io/questions/amazon-pm-behavioral-the-leadership-principle-that-resonates-most-with-you-and-why?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-29 |
+| [Explain core components of reinforcement learning](https://trueinterview.io/questions/explain-core-components-of-reinforcement-learning?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2025-10-26 |
 
 ---
 

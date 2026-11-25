@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,8 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-07 | [Amazon](../companies/amazon/), [Bloomberg](../companies/bloomberg/) +14 | [Design News Feed](https://trueinterview.io/questions/design-news-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Junior / Mid, Senior | 0 |
-| 2026-07 | [Apple](../companies/apple/) | [Design (key, value) Storage with Snapshots](https://trueinterview.io/questions/design-key-value-storage-with-snapshots?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | Senior | 0 |
 | 2026-07 | [Uber](../companies/uber/), [Meta](../companies/meta/) +1 | [Minimum Knight Moves](https://trueinterview.io/questions/minimum-knight-moves?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 1 |
 | 2026-07 | [Roblox](../companies/roblox/) | [Most Frequent Function Call Stack](https://trueinterview.io/questions/most-frequent-function-call-stack?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Junior / Mid | 3 |
 | 2026-06-30 | [Google](../companies/google/) | [YouTube Generative AI Strategy: Opportunity Map, First Bet and Guardrails](https://trueinterview.io/questions/youtube-generative-ai-strategy-opportunity-map-first-bet-and-guardrails?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
@@ -410,5 +408,7 @@
 | 2026-06 | [Robinhood](../companies/robinhood/), [Coinbase](../companies/coinbase/) +2 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 0 |
 | 2026-06 | [Uber](../companies/uber/) | [Total Cost to Convert All Substrings into Palindromes](https://trueinterview.io/questions/cf8e2d4a-b375-4bf0-99f7-9ea20847ee18?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-06 | [Uber](../companies/uber/) | [Implement a Quadtree for Geospatial Point Storage and Range Query](https://trueinterview.io/questions/9fce13a5-2923-5538-97c0-e69f174b435f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 2 |
+| 2026-06 | [Uber](../companies/uber/), [Meta](../companies/meta/) | [Robot Bounded In Circle](https://trueinterview.io/questions/30e9378c-0012-5e2d-a657-04786183807a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
+| 2026-06 | [Snowflake](../companies/snowflake/) | [Implement a JSON Parser](https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
 
 [← Newer](page-8.md) · Page 9 of 17 · [Older →](page-10.md)

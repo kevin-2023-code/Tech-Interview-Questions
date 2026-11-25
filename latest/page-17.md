@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,9 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2025-12-01 | [OpenAI](../companies/openai/) | [Implement map serialization and deserialization](https://trueinterview.io/questions/implement-map-serialization-and-deserialization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
-| 2025-12-01 | [Applied Intuition](../companies/applied-intuition/) | [Evaluate variables in simple arithmetic DSL](https://trueinterview.io/questions/evaluate-variables-in-simple-arithmetic-dsl?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
-| 2025-12 | [Databricks](../companies/databricks/) | [Query QPS from KV Store Request Logs](https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures-query-qps-from-kv-store-request-logs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Intern | 0 |
 | 2025-12 | [Coinbase](../companies/coinbase/) | [Design an in-memory database with TTL and backups](https://trueinterview.io/questions/design-an-in-memory-database-with-ttl-and-backups?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad | 1 |
 | 2025-12 | [Rippling](../companies/rippling/) | [Aggregate expenses by person, trip, and category](https://trueinterview.io/questions/aggregate-expenses-by-person-trip-and-category?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 0 |
 | 2025-12 | [Salesforce](../companies/salesforce/) | [Binary String 01 to 10 swap](https://trueinterview.io/questions/b997e44e-31ce-42c6-aee6-e8489a0fa721?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad | 1 |

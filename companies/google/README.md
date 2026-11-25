@@ -2,15 +2,15 @@
 
 # Google interview questions
 
-779 questions reported at Google, most recently reported first.
+778 questions reported at Google, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (189) · [last 6 months](six-months.csv) (372) · [all](all.csv) (779)
+CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (189) · [last 6 months](six-months.csv) (371) · [all](all.csv) (778)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-Showing the 500 most recently reported of 779. [all.csv](all.csv) has every row.
+Showing the 500 most recently reported of 778. [all.csv](all.csv) has every row.
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
@@ -313,7 +313,6 @@ Showing the 500 most recently reported of 779. [all.csv](all.csv) has every row.
 | [PM behavioral: reducing launch scope to hit a date and handling what was deferred](https://trueinterview.io/questions/pm-behavioral-reducing-launch-scope-to-hit-a-date-and-handling-what-was-deferred?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-03 |
 | [Diagnose and fix traveler dissatisfaction across the end-to-end flight journey](https://trueinterview.io/questions/diagnose-and-fix-traveler-dissatisfaction-across-the-end-to-end-flight-journey?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-01 |
 | [Design an Enterprise AI Adoption Agent for a Global Company](https://trueinterview.io/questions/design-an-enterprise-ai-adoption-agent-for-a-global-company?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 0 | 2026-07 |
-| [Describe a conflict with a colleague](https://trueinterview.io/questions/describe-a-conflict-with-a-colleague?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07 |
 | [Answer common behavioral questions with follow-ups](https://trueinterview.io/questions/answer-common-behavioral-questions-with-follow-ups?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 1 | 2026-07 |
 | [Maximum Assignment Between Problems and Programmers](https://trueinterview.io/questions/da013e43-63d8-5840-93c8-df123b1c76f9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-07 |
 | [Reconstruct the BFS Path Before Reaching a Target](https://trueinterview.io/questions/ceeafc15-ce16-50a3-8890-26d9bd82c3ca?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-07 |
@@ -514,6 +513,7 @@ Showing the 500 most recently reported of 779. [all.csv](all.csv) has every row.
 | [Redesign the Cart-Based Shopping Trip in Target's Physical Stores](https://trueinterview.io/questions/redesign-the-cart-based-shopping-trip-in-targets-physical-stores?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-04 |
 | [Handling Conflict with a Coworker and with a Manager When You Were Wrong](https://trueinterview.io/questions/handling-conflict-with-a-coworker-and-with-a-manager-when-you-were-wrong?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-04 |
 | [Evaluate a Lisp-Style Expression Language with let, add and mult Scoping](https://trueinterview.io/questions/evaluate-a-lisp-style-expression-language-with-let-add-and-mult-scoping?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-04 |
+| [Fermi Estimate: How Many Flights Are Operating at a Single Moment](https://trueinterview.io/questions/fermi-estimate-how-many-flights-are-operating-at-a-single-moment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-02 |
 
 ---
 
