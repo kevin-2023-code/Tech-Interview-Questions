@@ -2,9 +2,9 @@
 
 # Apple interview questions
 
-246 questions reported at Apple, most recently reported first.
+245 questions reported at Apple, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (64) · [last 6 months](six-months.csv) (141) · [all](all.csv) (246)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (64) · [last 6 months](six-months.csv) (141) · [all](all.csv) (245)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -153,7 +153,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Crafting a Compelling Job Transition and Motivation Response](https://trueinterview.io/questions/ebf5d768-7f3c-40dc-927c-477fe70eae77?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-06 |
 | [Valid Sudoku](../../questions/algorithm/valid-sudoku/README.md) | Algorithm | Easy | Phone screen | Junior / Mid | 3 | 0 | 2026-06 |
 | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2 | 2026-06 |
-| [Happy Number II](https://trueinterview.io/questions/happy-number-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-05-27 |
 | [Why You Are Leaving Your Current Role: Framing a Career Move in a PM Interview](https://trueinterview.io/questions/why-you-are-leaving-your-current-role-framing-a-career-move-in-a-pm-interview?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-05-26 |
 | [Kubernetes Service Filter & Dependency Chain](https://trueinterview.io/questions/kubernetes-service-filter-and-dependency-chain?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-05-14 |
 | [Bag-of-Words Similarity Search from Scratch](https://trueinterview.io/questions/bag-of-words-similarity-search-from-scratch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | — | 1 | 0 | 2026-05-05 |

@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**8,478 questions · 366 companies · +2,965 added in the last 30 days · 2,006 reported in the last 90 days · data as of 2026-11-25**
+**8,477 questions · 366 companies · +2,965 added in the last 30 days · 2,006 reported in the last 90 days · data as of 2026-11-25**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -37,7 +37,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 6,511 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 6,510 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -115,7 +115,7 @@ The 50 most recently reported of 6,511 from the past 12 months. [See all of them
 ## Formats
 
 <!-- gen:formats:start -->
-[Algorithm (2,918)](formats/algorithm.md) · [SQL (309)](formats/sql.md) · [System Design (1,048)](formats/system-design.md) · [Object-Oriented Programming (777)](formats/object-oriented-programming.md) · [AI Coding (147)](formats/ai-coding.md) · [Behavioral / Knowledge (3,279)](formats/blog.md)
+[Algorithm (2,917)](formats/algorithm.md) · [SQL (309)](formats/sql.md) · [System Design (1,048)](formats/system-design.md) · [Object-Oriented Programming (777)](formats/object-oriented-programming.md) · [AI Coding (147)](formats/ai-coding.md) · [Behavioral / Knowledge (3,279)](formats/blog.md)
 <!-- gen:formats:end -->
 
 ## Companies
@@ -134,7 +134,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [ByteDance](companies/bytedance/) | 393 | 113 | 2026-10-16 |
 | [Microsoft](companies/microsoft/) | 379 | 94 | 2026-11-05 |
 | [Uber](companies/uber/) | 328 | 58 | 2026-10-19 |
-| [Apple](companies/apple/) | 246 | 64 | 2026-10-23 |
+| [Apple](companies/apple/) | 245 | 64 | 2026-10-23 |
 | [OpenAI](companies/openai/) | 241 | 102 | 2026-10-31 |
 | [Capital One](companies/capital-one/) | 234 | 48 | 2026-10-16 |
 | [DoorDash](companies/doordash/) | 215 | 77 | 2026-11-04 |

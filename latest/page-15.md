@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,510 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-02 | [Uber](../companies/uber/), [Apple](../companies/apple/) +1 | [Cheapest Flights Within K Stops](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-02 | [Stripe](../companies/stripe/), [OpenAI](../companies/openai/) | [Design Webhook Delivery System](https://trueinterview.io/questions/payment-webhook-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 3 |
 | 2026-02-01 | [Snowflake](../companies/snowflake/) | [Top K Book Sales](https://trueinterview.io/questions/k-top-selling-books?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | Junior / Mid | 0 |
 | 2026-01-31 | [Nokia](../companies/nokia/) | [Walk through a project you built and explain why you want to join this specific team](https://trueinterview.io/questions/walk-through-a-project-you-built-and-explain-why-you-want-to-join-this-specific-team?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid | 0 |
@@ -410,5 +409,6 @@
 | 2026-01-02 | [Netflix](../companies/netflix/) | [User Engagement Patterns](https://trueinterview.io/questions/user-engagement-patterns?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-01-02 | [Apple](../companies/apple/) | [Design TTL Cache](https://trueinterview.io/questions/design-ttl-cache?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-01-01 | [Datologyai](../companies/datologyai/) | [Word Count and Multiset Intersect Using Only a Mock Spark RDD API](https://trueinterview.io/questions/word-count-and-multiset-intersect-using-only-a-mock-spark-rdd-api?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
+| 2026-01-01 | [Amazon](../companies/amazon/) | [Go/No-Go Strategy for Amazon Entering the Live Pet and Animal Category](https://trueinterview.io/questions/go-no-go-strategy-for-amazon-entering-the-live-pet-and-animal-category?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 
 [← Newer](page-14.md) · Page 15 of 17 · [Older →](page-16.md)

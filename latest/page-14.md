@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,510 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-02-24 | [Meta](../companies/meta/) | [Meta Strategy Case: Evaluating a Facebook Move Into Sports and Fitness Tracking Products](https://trueinterview.io/questions/meta-strategy-case-evaluating-a-facebook-move-into-sports-and-fitness-tracking-products?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-02-24 | [Meta](../companies/meta/) | [Hybrid Work Product Design: Serving People Who Split Time Between Office and Home](https://trueinterview.io/questions/hybrid-work-product-design-serving-people-who-split-time-between-office-and-home?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-02-24 | [Zillow](../companies/zillow/) | [Airbnb Marketplace Health: Picking One North-Star Measure for Guests and Hosts](https://trueinterview.io/questions/airbnb-marketplace-health-picking-one-north-star-measure-for-guests-and-hosts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior, Staff+ | 0 |
 | 2026-02-24 | [Google](../companies/google/) | [Design an editable sequence with marker](https://trueinterview.io/questions/design-an-editable-sequence-with-marker?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior, Staff+ | 0 |
@@ -410,5 +409,6 @@
 | 2026-02 | [Databricks](../companies/databricks/) | [Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time](https://trueinterview.io/questions/44ee2fb4-e34e-431f-ad8d-61388d5ef87d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-02 | [Reddit](../companies/reddit/), [Netflix](../companies/netflix/) | [Video Recommendation](https://trueinterview.io/questions/video-recommendation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
 | 2026-02 | [OpenAI](../companies/openai/) | [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
+| 2026-02 | [Uber](../companies/uber/), [Apple](../companies/apple/) +1 | [Cheapest Flights Within K Stops](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 
 [← Newer](page-13.md) · Page 14 of 17 · [Older →](page-15.md)

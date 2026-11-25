@@ -73,7 +73,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Find K Closest Elements](algorithm/find-k-closest-elements/README.md) | Medium | Visa · LinkedIn |
 | [Find Minimum in Rotated Sorted Array](algorithm/find-minimum-in-rotated-sorted-array/README.md) | Medium | Point72 |
 | [Find Peak Element](algorithm/find-peak-element/README.md) | Medium | Meta · DoorDash |
-| [Find the Intersection of Two Linked Chains](algorithm/find-the-intersection-of-two-linked-chains/README.md) | Medium | C3.ai |
+| [Find the Intersection of Two Linked Chains](algorithm/find-the-intersection-of-two-linked-chains/README.md) | Medium | C3 AI |
 | [Find the Largest K Elements with Partitioning](algorithm/find-the-largest-k-elements-with-partitioning/README.md) | Medium | AMD |
 | [Frequency of the Most Frequent Element](algorithm/frequency-of-the-most-frequent-element/README.md) | Medium | Goldman Sachs |
 | [Friends Of Appropriate Ages](algorithm/friends-of-appropriate-ages/README.md) | Medium | Bloomberg · Meta |
@@ -227,7 +227,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Design leader election using Redis leases](system-design/design-leader-election-using-redis-leases/README.md) | Hard | Discord |
 | [Design ride-hailing and price alert systems](system-design/design-ride-hailing-and-price-alert-systems/README.md) | Hard | Snapchat |
 | [Design ticketing and coding practice platforms](system-design/design-ticketing-and-coding-practice-platforms/README.md) | Hard | Meta |
-| [Forecast Food Stocking Needs Under Waste and Stockout Costs](system-design/forecast-food-stocking-needs-under-waste-and-stockout-costs/README.md) | Hard | C3.ai |
+| [Forecast Food Stocking Needs Under Waste and Stockout Costs](system-design/forecast-food-stocking-needs-under-waste-and-stockout-costs/README.md) | Hard | C3 AI |
 | [How would you design Shop-ad ranking?](system-design/how-would-you-design-shop-ad-ranking/README.md) | Hard | Meta |
 | [Rank Homepage Modules for an E-Commerce Product](system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | Hard | Wayfair |
 | [Redesign a Spam Classifier for Production](system-design/redesign-a-spam-classifier-for-production/README.md) | Hard | Indeed |

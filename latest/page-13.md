@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,510 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-03-20 | [Uber](../companies/uber/) | [Market sizing: total fuel burned by passenger vehicles on U.S. roads](https://trueinterview.io/questions/market-sizing-total-fuel-burned-by-passenger-vehicles-on-u-s-roads?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-03-20 | [Netflix](../companies/netflix/) | [Choosing Success Metrics for a Personalized Recommendation Row on Netflix](https://trueinterview.io/questions/choosing-success-metrics-for-a-personalized-recommendation-row-on-netflix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-03-20 | [Uber](../companies/uber/), [Amazon](../companies/amazon/) +4 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior, Staff+ | 0 |
 | 2026-03-20 | [LinkedIn](../companies/linkedin/) | [Metrics & Monitoring Platform](https://trueinterview.io/questions/sd-metrics-monitoring-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 0 |
@@ -410,5 +409,6 @@
 | 2026-02-25 | [Bloomberg](../companies/bloomberg/) | [Find Tree Root from Edge List](https://trueinterview.io/questions/find-tree-root-from-edges?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Junior / Mid | 1 |
 | 2026-02-25 | [Snowflake](../companies/snowflake/) | [Min Coins to Pay with Change Allowed](https://trueinterview.io/questions/min-coins-with-change?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-02-25 | [Apple](../companies/apple/) | [Debug a Buggy UNet in PyTorch](https://trueinterview.io/questions/debug-a-buggy-unet-in-pytorch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Phone screen | Senior | 1 |
+| 2026-02-24 | [Meta](../companies/meta/) | [Meta Strategy Case: Evaluating a Facebook Move Into Sports and Fitness Tracking Products](https://trueinterview.io/questions/meta-strategy-case-evaluating-a-facebook-move-into-sports-and-fitness-tracking-products?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 
 [← Newer](page-12.md) · Page 13 of 17 · [Older →](page-14.md)

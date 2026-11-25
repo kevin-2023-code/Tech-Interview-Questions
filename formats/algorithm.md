@@ -2,11 +2,11 @@
 
 # Algorithm interview questions
 
-2,918 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
+2,917 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 
-Showing the 500 most recently reported of 2,918. [data/questions.csv](../data/questions.csv) has every row.
+Showing the 500 most recently reported of 2,917. [data/questions.csv](../data/questions.csv) has every row.
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |

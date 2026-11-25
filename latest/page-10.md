@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,510 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -72,7 +72,6 @@
 | 2026-05-27 | [Instacart](../companies/instacart/) | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-05-27 | [Tesla](../companies/tesla/) | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-05-27 | [Pinterest](../companies/pinterest/) | [Implement round() From String + Round-to-Precision](https://trueinterview.io/questions/round-and-precision-string?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Junior / Mid, Senior | 0 |
-| 2026-05-27 | [Apple](../companies/apple/) | [Happy Number II](https://trueinterview.io/questions/happy-number-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 0 |
 | 2026-05-27 | [Anthropic](../companies/anthropic/) | [DNS Resolver (Fellows CodeSignal, Round 1)](https://trueinterview.io/questions/oa-fellows-dns-resolver?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | Junior / Mid | 3 |
 | 2026-05-26 | [Flipkart](../companies/flipkart/), [Apple](../companies/apple/) +1 | [Why You Are Leaving Your Current Role: Framing a Career Move in a PM Interview](https://trueinterview.io/questions/why-you-are-leaving-your-current-role-framing-a-career-move-in-a-pm-interview?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-05-26 | [Zoomcar](../companies/zoomcar/) | [Root-Causing a Rise in Complaints That Final Car Rental Bills Differ From the Quote](https://trueinterview.io/questions/root-causing-a-rise-in-complaints-that-final-car-rental-bills-differ-from-the-quote?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
@@ -410,5 +409,6 @@
 | 2026-05 | [Harvey](../companies/harvey/) | [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-05 | [Ebay](../companies/ebay/) | [Assign Random Ads](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Senior | 0 |
 | 2026-05 | [Ebay](../companies/ebay/) | [Unique Word Abbreviation](https://trueinterview.io/questions/55c4e4d1-3f81-4af8-ae7a-53d0a4c2699e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
+| 2026-05 | [WeRide](../companies/weride/) | [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
 
 [← Newer](page-9.md) · Page 10 of 17 · [Older →](page-11.md)

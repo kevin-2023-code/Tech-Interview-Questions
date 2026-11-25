@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,511 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,510 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-04-11 | [Salesforce](../companies/salesforce/) | [Help a Colleague Resolve a Difficult Problem](https://trueinterview.io/questions/help-a-colleague-resolve-a-difficult-problem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+, Manager | 0 |
 | 2026-04-11 | [Salesforce](../companies/salesforce/), [Google](../companies/google/) | [Describe the Team Environment in Which You Do Your Best Work](https://trueinterview.io/questions/describe-the-team-environment-in-which-you-do-your-best-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+, Manager | 0 |
 | 2026-04-11 | [Google](../companies/google/) | [Solve Two Array Optimization Problems](https://trueinterview.io/questions/solve-two-array-optimization-problems-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
 | 2026-04-11 | [LinkedIn](../companies/linkedin/) | [Count Trips From Vehicle Logs](https://trueinterview.io/questions/count-trips-from-vehicle-logs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
@@ -410,5 +409,6 @@
 | 2026-03-21 | [Amazon](../companies/amazon/) | [Recursive Schema Validation](https://trueinterview.io/questions/schema-validation-recursive?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Staff+ | 0 |
 | 2026-03-21 | [Amazon](../companies/amazon/), [Google](../companies/google/) | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Intern, Senior, Staff+ | 0 |
 | 2026-03-20 | [Amazon](../companies/amazon/) | [Rank a shared roadmap when in-house teams and outside customers compete for capacity](https://trueinterview.io/questions/rank-a-shared-roadmap-when-in-house-teams-and-outside-customers-compete-for-capacity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-03-20 | [Uber](../companies/uber/) | [Market sizing: total fuel burned by passenger vehicles on U.S. roads](https://trueinterview.io/questions/market-sizing-total-fuel-burned-by-passenger-vehicles-on-u-s-roads?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | New grad, Junior / Mid, Senior | 0 |
 
 [← Newer](page-11.md) · Page 12 of 17 · [Older →](page-13.md)
