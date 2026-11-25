@@ -2,9 +2,9 @@
 
 # DoorDash interview questions
 
-216 questions reported at DoorDash, most recently reported first.
+215 questions reported at DoorDash, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (6) · [last 3 months](three-months.csv) (78) · [last 6 months](six-months.csv) (110) · [all](all.csv) (216)
+CSV: [last 30 days](thirty-days.csv) (6) · [last 3 months](three-months.csv) (77) · [last 6 months](six-months.csv) (109) · [all](all.csv) (215)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -73,7 +73,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a donations service with 3-day rolling totals](https://trueinterview.io/questions/design-a-donations-service-with-3-day-rolling-totals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 5 | 2026-09 |
 | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 1 | 2026-09-01 |
 | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Senior | 1 | 0 | 2026-09-01 |
-| [Describe a Project End-to-End](https://trueinterview.io/questions/describe-a-project-end-to-end?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09 |
 | [Hiring Manager Behavioral Round](https://trueinterview.io/questions/hm-behavioral-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-01 |
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 4 | 0 | 2026-09 |
 | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09 |

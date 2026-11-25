@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,528 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,12 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-07-21 | [Google](../companies/google/) | [Plan How YouTube Should Serve Journalism Video for Viewers, Publishers and Advertisers](https://trueinterview.io/questions/plan-how-youtube-should-serve-journalism-video-for-viewers-publishers-and-advertisers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-07-21 | [Amazon](../companies/amazon/) | [Improve How Third-Party Sellers on Amazon Get Paid: From Sale to Bank Deposit](https://trueinterview.io/questions/improve-how-third-party-sellers-on-amazon-get-paid-from-sale-to-bank-deposit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
-| 2026-07-21 | [Amazon](../companies/amazon/) | [Behavioral: An AI Initiative You Drove and the Change It Produced](https://trueinterview.io/questions/behavioral-an-ai-initiative-you-drove-and-the-change-it-produced?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-07-21 | [Square](../companies/square/) | [Markov Chain Next-Word Prediction & Sentence Generation](https://trueinterview.io/questions/markov-chain-next-word-prediction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
-| 2026-07-21 | [Databricks](../companies/databricks/) | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior | 0 |
-| 2026-07-20 | [Wayfair](../companies/wayfair/) | [Wayfair Shipping Fee Change: Model the Profit Impact of Repricing One Delivery Option](https://trueinterview.io/questions/wayfair-shipping-fee-change-model-the-profit-impact-of-repricing-one-delivery-option?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-07-20 | [Meta](../companies/meta/) | [Instagram Product Sense: Choose a Goal and Segment, Then Design One New Feature](https://trueinterview.io/questions/instagram-product-sense-choose-a-goal-and-segment-then-design-one-new-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-07-20 | [Google](../companies/google/) | [Design Customer Support with Virtual-Agent-to-Human Escalation](https://trueinterview.io/questions/design-customer-support-with-virtual-agent-to-human-escalation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-07-20 | [Roblox](../companies/roblox/) | [Design Cross-Server Real-Time Chat Translation for Roblox Players](https://trueinterview.io/questions/design-cross-server-real-time-chat-translation-for-roblox-players?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
@@ -410,5 +404,11 @@
 | 2026-07 | [Uber](../companies/uber/), [Meta](../companies/meta/) | [Making a Large Island](https://trueinterview.io/questions/making-a-large-island?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 0 |
 | 2026-07 | [Snowflake](../companies/snowflake/) | [Rewrite Tree With Subtree Sums](https://trueinterview.io/questions/rewrite-tree-with-subtree-sums?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Junior / Mid, Senior | 0 |
 | 2026-07 | [Snowflake](../companies/snowflake/), [Google](../companies/google/) | [Longest Univalue Path](https://trueinterview.io/questions/longest-univalue-path?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Junior / Mid | 0 |
+| 2026-07 | [Snowflake](../companies/snowflake/) | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
+| 2026-07 | [Snowflake](../companies/snowflake/), [Amazon](../companies/amazon/) +1 | [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Staff+ | 4 |
+| 2026-07 | [Roblox](../companies/roblox/) | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | OA, Phone screen, Onsite | Senior, Staff+ | 0 |
+| 2026-07 | [Roblox](../companies/roblox/), [Amazon](../companies/amazon/) +2 | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid | 1 |
+| 2026-07 | [Apple](../companies/apple/) | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-07 | [Apple](../companies/apple/), [Amazon](../companies/amazon/) +4 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 
 [← Newer](page-7.md) · Page 8 of 17 · [Older →](page-9.md)

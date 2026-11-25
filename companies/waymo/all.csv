@@ -1,6 +1,7 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Total Run Time of Ordered Tasks with a Per-Type Cooldown,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-30,https://trueinterview.io/questions/total-run-time-of-ordered-tasks-with-a-per-type-cooldown
 Minimum Run Time for Reorderable Tasks with a Per-Type Cooldown,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-30,https://trueinterview.io/questions/minimum-run-time-for-reorderable-tasks-with-a-per-type-cooldown
+How You Prioritize When You Have a Large Amount of Work,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,0,2026-10-02,https://trueinterview.io/questions/how-you-prioritize-when-you-have-a-large-amount-of-work
 Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
 Merge Object Histories Across Two Tracking Systems,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-09-29,https://trueinterview.io/questions/cross-system-object-tracker-history
 Sample Points Uniformly from a Unit Disk,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09-28,https://trueinterview.io/questions/sample-points-uniformly-from-a-unit-disk
@@ -40,7 +41,6 @@ Streaming Interval Coverage on a Number Axis,Algorithm,Hard,Phone screen,Junior 
 Build an Arithmetic Expression to Reach a Target,Algorithm,Hard,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/arithmetic-expression-reach-target
 Prefix Autocomplete via Trie,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,2,2026-09,https://trueinterview.io/questions/trie-prefix-autocomplete
 Process Raw CSV for Downstream Consumers,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/csv-parser-open-ended
-Handle Competing Work Priorities,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,2026-08-27,https://trueinterview.io/questions/handle-competing-work-priorities
 SWE Resume Deep Dive: Technologies and Outcome Metrics,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-08-11,https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics
 Format Bytes as a Hexdump with ASCII Preview,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/a4271820-2948-5b33-9f94-e2515685b70c
 Employee Hierarchy FTE Score and Capacity-Constrained Insertion,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/93c70728-cc29-5cd9-a25c-e30e55f46d3e

@@ -234,7 +234,6 @@ Semantic Similarity (Text Embedding + Cosine Similarity),Algorithm,Easy,Online a
 Convert Between Integer and Roman (Two-Way),Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/37ebf2fa-456e-422b-9a8a-e19c3815f353
 Add Strings (character array variant),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/113280be-2279-4a9e-9c3d-796f93652b7d
 Agent Tool-Use System Design (AML Volcano Engine),System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-04,https://trueinterview.io/questions/agent-tool-use-system-design
-Merge K Sorted Lists,Algorithm,Medium,Phone screen,Senior,5,0,2026-04-01,https://trueinterview.io/questions/merge-k-sorted-lists
 TikTok ads integrity strategy for an advertiser whose ads cannot go live,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-21,https://trueinterview.io/questions/tiktok-ads-integrity-strategy-for-an-advertiser-whose-ads-cannot-go-live
 Time Based Key-Value Store,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,6,0,2026-03-20,https://trueinterview.io/questions/time-based-key-value-store-2
 Two-Direction Justified Newspaper Layout,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-03-17,https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-two-direction-justified-newspaper-layout
@@ -273,7 +272,6 @@ Explain Java ConcurrentHashMap and queues,Behavioral / Knowledge,,Phone screen,S
 Describe Over-Engineering and UX Wins,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Staff+,1,0,2026-02-01,https://trueinterview.io/questions/describe-over-engineering-and-ux-wins
 Binary tree upward path sum,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,1,2026-02,https://trueinterview.io/questions/implement-stack-variants-and-upward-path-sum-binary-tree-upward-path-sum
 MinStack,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-02,https://trueinterview.io/questions/implement-stack-variants-and-upward-path-sum-minstack
-Implement Moving Average from Data Stream,Algorithm,Easy,Online assessment,Senior,2,3,2026-02,https://trueinterview.io/questions/94192aa7-a909-49a7-80b7-24c84876985d
 Validate Stack Sequences,Algorithm,Medium,Phone screen,Junior / Mid,3,0,2026-02,https://trueinterview.io/questions/29838791-2db8-4fd2-85df-b2c198bf9376
 Valid Parentheses with Wildcard '*' and DFS All Strings,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-02,https://trueinterview.io/questions/valid-parentheses-with-wildcard
 Wildcard / Regex String Matching (`*` operator),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-02,https://trueinterview.io/questions/wildcard-regex-matching
@@ -307,6 +305,7 @@ Solve pair-counting and account-merging problems,Algorithm,Hard,Phone screen,Jun
 Find kth smallest in sorted 2D matrix,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2025-12-08,https://trueinterview.io/questions/find-kth-smallest-in-sorted-2d-matrix
 Array Partition,Algorithm,Easy,Online assessment,Junior / Mid,1,1,2025-12,https://trueinterview.io/questions/68134649-a71c-42b7-8c16-1c8baedd96e6
 BST Node Search and Delete,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,0,2025-12,https://trueinterview.io/questions/31cfc7de-9b80-4134-aa0c-dca151fdaf0b
+Merge K Sorted Lists (incl. K = 3),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,0,2025-12,https://trueinterview.io/questions/merge-k-sorted-lists-3
 Plan DS approach for biker delivery project,System Design,Medium,Phone screen,Senior; Staff+,1,0,2025-11-27,https://trueinterview.io/questions/plan-ds-approach-for-biker-delivery-project
 Write monthly customer and sales SQL queries,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,2025-11-27,https://trueinterview.io/questions/write-monthly-customer-and-sales-sql-queries
 Contiguous Subarray with Largest Min + Max,Algorithm,Easy,Phone screen,Junior / Mid,1,0,2025-11-26,https://trueinterview.io/questions/largest-min-max-subarray

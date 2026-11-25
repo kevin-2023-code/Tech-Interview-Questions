@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,528 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -401,7 +401,7 @@ Page 1 of 17 · [Older →](page-2.md)
 | 2026-10-02 | [Playstation](../companies/playstation/) | [Most Complex Project, Ideal Work Environment, Job Values and Hobbies](https://trueinterview.io/questions/most-complex-project-ideal-work-environment-job-values-and-hobbies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-10-02 | [Amazon](../companies/amazon/) | [Leadership Principle Stories: Ownership, Dive Deep, Tight Deadline, Disagree and Commit](https://trueinterview.io/questions/leadership-principle-stories-ownership-dive-deep-tight-deadline-disagree-and-commit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-10-02 | [Perplexity](../companies/perplexity/) | [In-Memory File System: Add cd and Relative Path Support](https://trueinterview.io/questions/in-memory-file-system-add-cd-and-relative-path-support?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
-| 2026-10-02 | [Google](../companies/google/) | [How You Prioritize When You Have a Large Amount of Work](https://trueinterview.io/questions/how-you-prioritize-when-you-have-a-large-amount-of-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | New grad, Junior / Mid, Senior | 0 |
+| 2026-10-02 | [Google](../companies/google/), [Waymo](../companies/waymo/) | [How You Prioritize When You Have a Large Amount of Work](https://trueinterview.io/questions/how-you-prioritize-when-you-have-a-large-amount-of-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-10-02 | [Playstation](../companies/playstation/) | [Groom a Ticket to Replace a Store's 12+ Age Rating with a Pending Rating](https://trueinterview.io/questions/groom-a-ticket-to-replace-a-stores-12plus-age-rating-with-a-pending-rating?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-10-02 | [Google](../companies/google/) | [Google Photos Annual Recap: Diagnose Weak Spots and Prioritize Improvements](https://trueinterview.io/questions/google-photos-annual-recap-diagnose-weak-spots-and-prioritize-improvements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-10-02 | [Amazon](../companies/amazon/) | [GenAI Literacy Questions: Daily AI Use, Handling Bad AI Output, and RAG Projects](https://trueinterview.io/questions/genai-literacy-questions-daily-ai-use-handling-bad-ai-output-and-rag-projects?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |

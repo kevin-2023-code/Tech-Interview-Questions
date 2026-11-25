@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**8,497 questions · 366 companies · +2,965 added in the last 30 days · 2,011 reported in the last 90 days · data as of 2026-11-25**
+**8,481 questions · 366 companies · +2,965 added in the last 30 days · 2,006 reported in the last 90 days · data as of 2026-11-25**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -37,7 +37,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 6,528 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 6,514 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -115,7 +115,7 @@ The 50 most recently reported of 6,528 from the past 12 months. [See all of them
 ## Formats
 
 <!-- gen:formats:start -->
-[Algorithm (2,922)](formats/algorithm.md) · [SQL (309)](formats/sql.md) · [System Design (1,051)](formats/system-design.md) · [Object-Oriented Programming (778)](formats/object-oriented-programming.md) · [AI Coding (147)](formats/ai-coding.md) · [Behavioral / Knowledge (3,290)](formats/blog.md)
+[Algorithm (2,918)](formats/algorithm.md) · [SQL (309)](formats/sql.md) · [System Design (1,048)](formats/system-design.md) · [Object-Oriented Programming (777)](formats/object-oriented-programming.md) · [AI Coding (147)](formats/ai-coding.md) · [Behavioral / Knowledge (3,282)](formats/blog.md)
 <!-- gen:formats:end -->
 
 ## Companies
@@ -129,20 +129,20 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | Company | Questions | Reported in last 90 days | Last reported |
 | :-- | --: | --: | :-- |
 | [Google](companies/google/) | 779 | 189 | 2026-10-29 |
-| [Meta](companies/meta/) | 775 | 105 | 2026-10-17 |
-| [Amazon](companies/amazon/) | 611 | 204 | 2026-10-24 |
-| [ByteDance](companies/bytedance/) | 394 | 113 | 2026-10-16 |
-| [Microsoft](companies/microsoft/) | 380 | 95 | 2026-11-05 |
+| [Meta](companies/meta/) | 774 | 105 | 2026-10-17 |
+| [Amazon](companies/amazon/) | 609 | 203 | 2026-10-24 |
+| [ByteDance](companies/bytedance/) | 393 | 113 | 2026-10-16 |
+| [Microsoft](companies/microsoft/) | 379 | 94 | 2026-11-05 |
 | [Uber](companies/uber/) | 328 | 58 | 2026-10-19 |
-| [Apple](companies/apple/) | 246 | 63 | 2026-10-23 |
+| [Apple](companies/apple/) | 246 | 64 | 2026-10-23 |
 | [OpenAI](companies/openai/) | 241 | 102 | 2026-10-31 |
 | [Capital One](companies/capital-one/) | 234 | 48 | 2026-10-16 |
-| [DoorDash](companies/doordash/) | 216 | 78 | 2026-11-04 |
+| [DoorDash](companies/doordash/) | 215 | 77 | 2026-11-04 |
 | [LinkedIn](companies/linkedin/) | 193 | 85 | 2026-10-23 |
 | [Snowflake](companies/snowflake/) | 171 | 34 | 2026-10-17 |
 | [Pinterest](companies/pinterest/) | 152 | 45 | 2026-10-23 |
 | [Stripe](companies/stripe/) | 151 | 52 | 2026-10-06 |
-| [Netflix](companies/netflix/) | 134 | 29 | 2026-10-11 |
+| [Netflix](companies/netflix/) | 134 | 30 | 2026-10-11 |
 | [Oracle](companies/oracle/) | 134 | 43 | 2026-10-28 |
 | [Salesforce](companies/salesforce/) | 127 | 17 | 2026-10-23 |
 | [Anthropic](companies/anthropic/) | 124 | 50 | 2026-10-18 |
@@ -155,17 +155,17 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Snapchat](companies/snapchat/) | 106 | 33 | 2026-10-28 |
 | [Bloomberg](companies/bloomberg/) | 97 | 23 | 2026-10 |
 | [Goldman Sachs](companies/goldman-sachs/) | 79 | 27 | 2026-10-20 |
-| [Atlassian](companies/atlassian/) | 78 | 14 | 2026-10-19 |
 | [NVIDIA](companies/nvidia/) | 78 | 14 | 2026-10-16 |
+| [Atlassian](companies/atlassian/) | 77 | 14 | 2026-10-19 |
 | [Instacart](companies/instacart/) | 74 | 17 | 2026-10-30 |
-| [Rippling](companies/rippling/) | 70 | 21 | 2026-11-03 |
+| [Rippling](companies/rippling/) | 70 | 22 | 2026-11-03 |
 | [Ebay](companies/ebay/) | 64 | 21 | 2026-10-28 |
 | [C3.ai](companies/c3-ai/) | 63 | 12 | 2026-10-04 |
 | [Lyft](companies/lyft/) | 63 | 11 | 2026-10-16 |
 | [Robinhood](companies/robinhood/) | 63 | 20 | 2026-10-14 |
-| [Tesla](companies/tesla/) | 62 | 10 | 2026-09-30 |
 | [Karat](companies/karat/) | 61 | 0 | 2026-07 |
 | [Shopify](companies/shopify/) | 61 | 8 | 2026-10-17 |
+| [Tesla](companies/tesla/) | 61 | 10 | 2026-09-30 |
 | [Square](companies/square/) | 58 | 2 | 2026-09 |
 | [Disney](companies/disney/) | 55 | 10 | 2026-10-13 |
 | [Intuit](companies/intuit/) | 54 | 5 | 2026-10 |
@@ -181,9 +181,9 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Point72](companies/point72/) | 43 | 2 | 2026-09-07 |
 | [Perplexity](companies/perplexity/) | 41 | 5 | 2026-10-02 |
 | [Scale AI](companies/scale-ai/) | 41 | 6 | 2026-10-05 |
-| [Ramp](companies/ramp/) | 38 | 6 | 2026-10 |
 | [SoFi](companies/sofi/) | 38 | 1 | 2026-09 |
 | [Akuna Capital](companies/akuna-capital/) | 37 | 3 | 2026-08-30 |
+| [Ramp](companies/ramp/) | 37 | 6 | 2026-10 |
 | [Cisco](companies/cisco/) | 36 | 8 | 2026-09-19 |
 | [Confluent](companies/confluent/) | 36 | 9 | 2026-10-06 |
 | [JPMorgan](companies/jpmorgan/) | 36 | 6 | 2026-10-14 |

@@ -4,7 +4,7 @@
 
 134 questions reported at Netflix, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (29) · [last 6 months](six-months.csv) (51) · [all](all.csv) (134)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (30) · [last 6 months](six-months.csv) (52) · [all](all.csv) (134)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -17,6 +17,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Key-Value Store with TTL](https://trueinterview.io/questions/66384c98-64ab-5912-91f2-4f21bd58d645?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-10 |
 | [Topological Sort / Course Schedule for Ads](../../questions/algorithm/topological-sort-course-schedule-ads/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 4 | 13 | 2026-10 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Intern, New grad, Junior / Mid, Senior | 10 | 0 | 2026-10 |
+| [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 9 | 4 | 2026-10 |
 | [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/questions/ml-research-orals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10 |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Transformer Attention: Computing Q, K and V, and How a KV Cache Speeds Up Decoding](https://trueinterview.io/questions/transformer-attention-computing-q-k-and-v-and-how-a-kv-cache-speeds-up-decoding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-28 |
@@ -98,7 +99,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 2 | 2 | 2026-03-03 |
 | [How would you support ML stakeholders?](https://trueinterview.io/questions/how-would-you-support-ml-stakeholders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 1 | 2026-03 |
 | [Contains Duplicate](https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 1 | 2026-03 |
-| [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 3 | 0 | 2026-03 |
 | [Inverted Index with Phrase Search](https://trueinterview.io/questions/b72512c1-88e3-415d-ae28-a7cd4a1110a6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-03 |
 | [Double-Checked Locking / Locking Correctness in Multithreaded Code](https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2 | 2026-03 |
 | [Bucket Users by Movie Completion Percentage from an Event Stream](https://trueinterview.io/questions/60956877-012c-4640-b2a1-e6dad3baacbf?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-03 |

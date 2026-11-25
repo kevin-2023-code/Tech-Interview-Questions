@@ -2,11 +2,11 @@
 
 # Object-Oriented Programming interview questions
 
-778 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
+777 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 
-Showing the 500 most recently reported of 778. [data/questions.csv](../data/questions.csv) has every row.
+Showing the 500 most recently reported of 777. [data/questions.csv](../data/questions.csv) has every row.
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -388,7 +388,6 @@ Showing the 500 most recently reported of 778. [data/questions.csv](../data/ques
 | 2026-06 | [Chicago Trading](../companies/chicago-trading/) | [Implement a Simplified C++ Vector](https://trueinterview.io/questions/949cdc20-2c65-5d5c-be42-64c71e7ef665?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
 | 2026-06 | [Stubhub](../companies/stubhub/) | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
 | 2026-06 | [Datadog](../companies/datadog/) | [Implement a Snowflake Query Client (Start Query & Get Query Status)](https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
-| 2026-06 | [Tesla](../companies/tesla/) | [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 1 |
 | 2026-06 | [Instacart](../companies/instacart/) | [Implement Search and Filter UI for a Library Management Table](https://trueinterview.io/questions/13842aa8-073d-57c3-8665-473866727b81?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
 | 2026-06 | [xAI](../companies/xai/), [Lyft](../companies/lyft/) | [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Intern, Junior / Mid | 0 |
 | 2026-06 | [Tesla](../companies/tesla/), [Google](../companies/google/) | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
@@ -510,3 +509,4 @@ Showing the 500 most recently reported of 778. [data/questions.csv](../data/ques
 | 2026-04 | [Coinbase](../companies/coinbase/) | [In-Memory DB with per-key user lock: setByUser/deleteByUser/lock/unlock](https://trueinterview.io/questions/64e826a3-6585-4f8a-a6a0-6b3fcb775999?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 1 |
 | 2026-04 | [Stripe](../companies/stripe/) | [RBAC Role Resolver](https://trueinterview.io/questions/rbac-role-resolver?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | Junior / Mid, Senior | 0 |
 | 2026-04 | [OpenAI](../companies/openai/), [Airbnb](../companies/airbnb/) | [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
+| 2026-03-31 | [Netflix](../companies/netflix/) | [Multi-thread Atomic Counter](https://trueinterview.io/questions/multi-thread-atomic-counter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | Senior | 0 |

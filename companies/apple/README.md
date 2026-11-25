@@ -4,7 +4,7 @@
 
 246 questions reported at Apple, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (63) · [last 6 months](six-months.csv) (140) · [all](all.csv) (246)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (64) · [last 6 months](six-months.csv) (141) · [all](all.csv) (246)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -23,6 +23,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Explain your LLM project and contributions](https://trueinterview.io/questions/explain-your-llm-project-and-contributions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 3 | 2026-10 |
 | [Describe proudest project and toughest challenge](https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 3 | 0 | 2026-10 |
 | [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 6 | 12 | 2026-10 |
+| [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 9 | 4 | 2026-10 |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 3 | 7 | 2026-10 |
 | [Distributed Rate Limiter with Lua Details](https://trueinterview.io/questions/distributed-rate-limiter-with-lua?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 5 | 2026-10 |
@@ -176,7 +177,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-04 |
 | [Apply a 2D Box Blur Filter](https://trueinterview.io/questions/f377cc09-d8a0-47f3-9797-5ff6d3a0d580?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-04 |
 | [Nearest Neighbor Image Retrieval by Embedding](https://trueinterview.io/questions/4280c85d-a4c0-469a-b45e-2a0910a2edfd?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-04 |
-| [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | Senior | 5 | 0 | 2026-04-01 |
 | [Longest Mountain in Array](https://trueinterview.io/questions/longest-mountain-in-array?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Intern | 2 | 0 | 2026-04-01 |
 | [Implement an Image Filter](https://trueinterview.io/questions/implement-an-image-filter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-04 |
 | [Design a Concurrent Image Upload System](https://trueinterview.io/questions/design-a-concurrent-image-upload-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Online assessment | Junior / Mid, Senior | 1 | 0 | 2026-04 |
@@ -196,7 +196,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Explain classification lifecycle and CTR modeling](https://trueinterview.io/questions/explain-classification-lifecycle-and-ctr-modeling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-03 |
 | [Analyze vision model failures](https://trueinterview.io/questions/analyze-vision-model-failures?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 1 | 0 | 2026-03-01 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 4 | 0 | 2026-03 |
-| [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 3 | 0 | 2026-03 |
 | [One Edit Distance](https://trueinterview.io/questions/one-edit-distance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Senior | 1 | 0 | 2026-03 |
 | [Binary Search Tree Iterator](https://trueinterview.io/questions/binary-search-tree-iterator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-03 |
 | [Write a Debounce Function](https://trueinterview.io/questions/write-a-debounce-function?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-02-27 |
@@ -236,6 +235,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Online Token Processing, Embeddings, and Classification](https://trueinterview.io/questions/online-token-processing-embeddings-and-classification?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-11 |
 | [Count Value Occurrences in a Binary Tree](https://trueinterview.io/questions/count-value-occurrences-in-a-binary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Senior | 1 | 0 | 2025-12-10 |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Easy | Phone screen, Onsite / virtual onsite | Intern, New grad, Junior / Mid | 4 | 1 | 2025-12 |
+| [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 6 | 0 | 2025-12 |
 | [Concurrent users from online intervals](https://trueinterview.io/questions/solve-interval-grid-fill-and-heap-tasks-concurrent-users-from-online-intervals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-27 |
 | [How would you handle an unresponsive teammate?](https://trueinterview.io/questions/how-would-you-handle-an-unresponsive-teammate?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 0 | 2025-11-27 |
 | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Junior / Mid | 1 | 1 | 2025-11-20 |

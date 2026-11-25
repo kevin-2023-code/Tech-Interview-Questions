@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,528 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-09-10 | [Waymo](../companies/waymo/) | [Design a Matchmaking Service With Join, Cancel, Matching, Notification and Expiry](https://trueinterview.io/questions/design-a-matchmaking-service-with-join-cancel-matching-notification-and-expiry?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-09-10 | [Waymo](../companies/waymo/) | [Deduplicate a 256 GB File on a Machine With 128 MB of Memory](https://trueinterview.io/questions/deduplicate-a-256-gb-file-on-a-machine-with-128-mb-of-memory?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-10 | [Intuit](../companies/intuit/) | [Choosing Between Retrieval-Augmented Generation and Fine-Tuning for an LLM Product](https://trueinterview.io/questions/choosing-between-retrieval-augmented-generation-and-fine-tuning-for-an-llm-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-10 | [DoorDash](../companies/doordash/) | [Build Two Interacting Services That Carry Out a Realistic Refund Flow](https://trueinterview.io/questions/build-two-interacting-services-that-carry-out-a-realistic-refund-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior, Staff+ | 0 |
@@ -371,7 +370,6 @@
 | 2026-09 | [OpenAI](../companies/openai/) | [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior | 0 |
 | 2026-09-01 | [DoorDash](../companies/doordash/) | [Explain Why You Are Changing Roles](https://trueinterview.io/questions/explain-why-you-are-changing-roles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior, Manager | 0 |
 | 2026-09 | [ByteDance](../companies/bytedance/) | [Explain Virtual Memory Beyond Physical RAM](https://trueinterview.io/questions/explain-virtual-memory-beyond-physical-ram?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 1 |
-| 2026-09 | [Amazon](../companies/amazon/) | [Explain vanishing gradients and activations](https://trueinterview.io/questions/explain-vanishing-gradients-and-activations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 1 |
 | 2026-09 | [LinkedIn](../companies/linkedin/) | [Explain the Design of a Recent Feature](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior | 0 |
 | 2026-09 | [Capital One](../companies/capital-one/) | [Explain How AI Supports Your Engineering Work](https://trueinterview.io/questions/explain-how-ai-supports-your-engineering-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior | 0 |
 | 2026-09 | [Anthropic](../companies/anthropic/) | [Explain CPU-Bound vs I/O-Bound Work](https://trueinterview.io/questions/explain-cpu-bound-vs-i-o-bound-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 3 |
@@ -410,5 +408,7 @@
 | 2026-09 | [Airbnb](../companies/airbnb/) | [Answer cross-team delivery and values questions](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+, Manager | 0 |
 | 2026-09 | [Meta](../companies/meta/) | [Answer conflict, ambiguity, feedback, difficult coworker prompts](https://trueinterview.io/questions/answer-conflict-ambiguity-feedback-difficult-coworker-prompts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09 | [Amazon](../companies/amazon/) | [Answer common leadership prompts](https://trueinterview.io/questions/answer-common-leadership-prompts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior, Manager | 0 |
+| 2026-09 | [Google](../companies/google/) | [Answer common collaboration behavioral questions](https://trueinterview.io/questions/answer-common-collaboration-behavioral-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 0 |
+| 2026-09 | [Meta](../companies/meta/) | [Answer behavioral questions on projects and feedback](https://trueinterview.io/questions/answer-behavioral-questions-on-projects-and-feedback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 3 |
 
 [← Newer](page-3.md) · Page 4 of 17 · [Older →](page-5.md)

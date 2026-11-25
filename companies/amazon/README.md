@@ -2,15 +2,15 @@
 
 # Amazon interview questions
 
-611 questions reported at Amazon, most recently reported first.
+609 questions reported at Amazon, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (204) · [last 6 months](six-months.csv) (350) · [all](all.csv) (611)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (203) · [last 6 months](six-months.csv) (348) · [all](all.csv) (609)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-Showing the 500 most recently reported of 611. [all.csv](all.csv) has every row.
+Showing the 500 most recently reported of 609. [all.csv](all.csv) has every row.
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
@@ -60,7 +60,6 @@ Showing the 500 most recently reported of 611. [all.csv](all.csv) has every row.
 | [Demonstrate calculated risk and deep-dive leadership](https://trueinterview.io/questions/demonstrate-calculated-risk-and-deep-dive-leadership?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 0 | 2026-10 |
 | [Answer Amazon Leadership Principle Scenarios](https://trueinterview.io/questions/answer-amazon-leadership-principle-scenarios?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Intern, Senior | 1 | 0 | 2026-10 |
 | [Design LFU cache with distributed extension](https://trueinterview.io/questions/design-lfu-cache-with-distributed-extension?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10 |
-| [Respond Constructively to Negative Feedback](https://trueinterview.io/questions/respond-constructively-to-negative-feedback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10 |
 | [Describe a complex problem you solved](https://trueinterview.io/questions/describe-a-complex-problem-you-solved?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Intern, Junior / Mid | 1 | 0 | 2026-10 |
 | [Answer Dive Deep and Ownership in LP interview](https://trueinterview.io/questions/answer-dive-deep-and-ownership-in-lp-interview?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 0 | 2026-10 |
 | [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 6 | 12 | 2026-10 |
@@ -128,6 +127,7 @@ Showing the 500 most recently reported of 611. [all.csv](all.csv) has every row.
 | [Learn What You Need to Solve an Unfamiliar Problem](https://trueinterview.io/questions/learn-what-you-need-to-solve-an-unfamiliar-problem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-09-14 |
 | [Explain What You Want in Your Next Role](https://trueinterview.io/questions/explain-what-you-want-in-your-next-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Intern | 1 | 0 | 2026-09-14 |
 | [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-14 |
+| [Explain Vanishing Gradients in Neural-Network Training](https://trueinterview.io/questions/explain-vanishing-gradients-in-neural-network-training?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 2 | 0 | 2026-09-12 |
 | [Debug a Node.js car-rental backend: leaked cars, missing new cars, lost edits](https://trueinterview.io/questions/debug-a-node-js-car-rental-backend-leaked-cars-missing-new-cars-lost-edits?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 0 | 2026-09-12 |
 | [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior | 1 | 1 | 2026-09-11 |
 | [Evaluate a Two Percent CTR Lift in Music Recommendations](https://trueinterview.io/questions/evaluate-a-two-percent-ctr-lift-in-music-recommendations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 1 | 2026-09-11 |
@@ -160,7 +160,6 @@ Showing the 500 most recently reported of 611. [all.csv](all.csv) has every row.
 | [Turn Critical Feedback into a Measurable Improvement](https://trueinterview.io/questions/turn-critical-feedback-into-a-measurable-improvement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 0 | 2026-09 |
 | [Show Ownership and Help a Struggling Peer](https://trueinterview.io/questions/show-ownership-and-help-a-struggling-peer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2 | 2026-09 |
 | [Resolve Conflict While Delivering on a Tight Timeline](https://trueinterview.io/questions/resolve-conflict-while-delivering-on-a-tight-timeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid | 1 | 0 | 2026-09 |
-| [Explain vanishing gradients and activations](https://trueinterview.io/questions/explain-vanishing-gradients-and-activations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 1 | 2026-09 |
 | [Design an Offline Multi-Device E-Book Reader](https://trueinterview.io/questions/design-an-offline-multi-device-e-book-reader?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-09 |
 | [Answer Leadership and GenAI Behavioral Questions](https://trueinterview.io/questions/answer-leadership-and-genai-behavioral-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 0 | 2026-09 |
 | [Answer common leadership prompts](https://trueinterview.io/questions/answer-common-leadership-prompts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 0 | 2026-09 |
@@ -248,7 +247,6 @@ Showing the 500 most recently reported of 611. [all.csv](all.csv) has every row.
 | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Manager | 1 | 0 | 2026-08-08 |
 | [Triage Framework for Prioritizing Bugs, Complaints and Incidents as a PM](https://trueinterview.io/questions/triage-framework-for-prioritizing-bugs-complaints-and-incidents-as-a-pm?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-06 |
 | [Consent, Transparency and Data Controls for Alexa Ambient Sensing](https://trueinterview.io/questions/consent-transparency-and-data-controls-for-alexa-ambient-sensing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-02 |
-| [Trade Short-Term Benefit for Long-Term Success](https://trueinterview.io/questions/trade-short-term-benefit-for-long-term-success?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Senior | 1 | 0 | 2026-08 |
 | [Step Outside Your Professional Comfort Zone](https://trueinterview.io/questions/step-outside-your-professional-comfort-zone?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 0 | 2026-08 |
 | [Explain the bias–variance trade-off](https://trueinterview.io/questions/explain-the-biasvariance-trade-off?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2 | 2026-08 |
 | [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 9 | 0 | 2026-08 |
@@ -514,6 +512,8 @@ Showing the 500 most recently reported of 611. [all.csv](all.csv) has every row.
 | [How would you evaluate adding video ads?](https://trueinterview.io/questions/how-would-you-evaluate-adding-video-ads?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2025-11-04 |
 | [Compute an A/B test p-value by hand](https://trueinterview.io/questions/compute-an-a-b-test-p-value-by-hand?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-04 |
 | [Describe failure, conflict, metrics, and AI lessons](https://trueinterview.io/questions/describe-failure-conflict-metrics-and-ai-lessons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-31 |
+| [Amazon PM behavioral: discussing your weakest-fit Leadership Principle honestly](https://trueinterview.io/questions/amazon-pm-behavioral-discussing-your-weakest-fit-leadership-principle-honestly?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-30 |
+| [Amazon PM Behavioral: The Leadership Principle That Resonates Most With You, and Why](https://trueinterview.io/questions/amazon-pm-behavioral-the-leadership-principle-that-resonates-most-with-you-and-why?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-29 |
 
 ---
 

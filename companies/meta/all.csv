@@ -10,7 +10,7 @@ Product Design for Meta Portal: An App Built Around Its Auto-Framing Camera,Beha
 Describe a failure and what you learned,Behavioral / Knowledge,,Phone screen,Intern; Senior,4,7,2026-10,https://trueinterview.io/questions/describe-a-failure-and-what-you-learned
 Keypad Letter Combination,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-10,https://trueinterview.io/questions/keypad-letter-combination-2
 Minimum Capacity of Ship to Deliver Packages,Algorithm,Medium,Phone screen,Senior,2,0,2026-10,https://trueinterview.io/questions/4a5b1fd1-5621-433a-b335-e48bf2b796c3
-Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,4,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
+Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,9,4,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
 Traditional Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,60,2026-10,https://trueinterview.io/questions/traditional-behavioral-meta
 Kth Largest Element / Quick Select,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-10,https://trueinterview.io/questions/kth-largest-quick-select
 Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360
@@ -330,7 +330,6 @@ Discuss proudest project and conflict handling,Behavioral / Knowledge,,Phone scr
 Design real-time live comments,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,2,2026-04,https://trueinterview.io/questions/design-real-time-live-comments
 Demonstrate leadership in cross-functional collaboration,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04,https://trueinterview.io/questions/demonstrate-leadership-in-cross-functional-collaboration
 Count connected islands in a grid,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/compute-sparse-dot-product-and-count-islands-count-connected-islands-in-a-grid
-Design a ticket or hotel reservation system,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04,https://trueinterview.io/questions/design-a-ticket-or-hotel-reservation-system
 Describe a failed project and lessons learned,Behavioral / Knowledge,,Onsite / virtual onsite,Staff+,1,1,2026-04,https://trueinterview.io/questions/describe-a-failed-project-and-lessons-learned
 PE Troubleshooting — Web Server / Disk Full,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-01,https://trueinterview.io/questions/pe-troubleshooting
 Find Peak Element,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-04,https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61
@@ -340,7 +339,6 @@ Bipedal Dinosaur Speed Calculation,Algorithm,Medium,Phone screen,Junior / Mid,1,
 Write a Script to Monitor 'vmstat' Output,AI Coding,Medium,Onsite / virtual onsite,Senior,1,0,2026-04,https://trueinterview.io/questions/0237fc06-24d7-4e05-97ce-e1b07257a2e8
 Fix an AI-generated query and address data quality issues,AI Coding,Medium,Onsite / virtual onsite,Staff+,1,0,2026-04,https://trueinterview.io/questions/01f555c7-1416-450a-9bff-c393859356bd
 Binary Tree: Print Left Boundary Bottom-Up and Right Boundary Top-Down,Algorithm,Medium,Phone screen,Senior,1,2,2026-04,https://trueinterview.io/questions/0d8ad1b8-ec74-4ddf-9c25-37d113f4aad3
-Merge K Sorted Lists,Algorithm,Medium,Phone screen,Senior,5,0,2026-04-01,https://trueinterview.io/questions/merge-k-sorted-lists
 "Make the case for Meta AI in Instagram DMs, then set its goals and health metrics",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-31,https://trueinterview.io/questions/make-the-case-for-meta-ai-in-instagram-dms-then-set-its-goals-and-health-metrics
 Diagnose rising Meta AI use in Instagram DMs alongside a drop in Discover search,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-31,https://trueinterview.io/questions/diagnose-rising-meta-ai-use-in-instagram-dms-alongside-a-drop-in-discover-search
 WhatsApp Plan-Making Feature for Group Outings: Scope an MVP and Write Its PRD,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-30,https://trueinterview.io/questions/whatsapp-plan-making-feature-for-group-outings-scope-an-mvp-and-write-its-prd
@@ -358,6 +356,7 @@ Mouse and Cheese / Maze Rewards,Algorithm,Medium,Phone screen; Onsite / virtual 
 Emergency Assistance Capability for Meta's Portal Smart Display,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-16,https://trueinterview.io/questions/emergency-assistance-capability-for-metas-portal-smart-display
 "DoorDash Grocery: Reduce Missing-Item Complaints, Then Test and Measure the Fix",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-03-14,https://trueinterview.io/questions/doordash-grocery-reduce-missing-item-complaints-then-test-and-measure-the-fix
 Design a location-based radius top-K search,System Design,Medium,Onsite / virtual onsite,Staff+,1,0,2026-03-11,https://trueinterview.io/questions/design-a-location-based-radius-top-k-search
+Ticketmaster-Style Seat Booking Design,System Design,Hard,Phone screen,Senior,2,0,2026-03-11,https://trueinterview.io/questions/ticketmaster-double-booking-design
 Describe leadership and collaboration examples,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,2026-03-10,https://trueinterview.io/questions/describe-leadership-and-collaboration-examples
 Design a Facebook Fundraising Product for Charitable Causes from Scratch,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-09,https://trueinterview.io/questions/design-a-facebook-fundraising-product-for-charitable-causes-from-scratch
 Designing a podcast offering inside the Netflix streaming app,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-08,https://trueinterview.io/questions/designing-a-podcast-offering-inside-the-netflix-streaming-app
@@ -371,7 +370,6 @@ Product Sense Case: Improving the Road Trip Experience for Travelers,Behavioral 
 "Launch Decision for Facebook Reactions: Metrics, Experiment Design and Trade-offs",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-01,https://trueinterview.io/questions/launch-decision-for-facebook-reactions-metrics-experiment-design-and-trade-offs
 Handling a Rival Team Building an Overlapping Product,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-01,https://trueinterview.io/questions/handling-a-rival-team-building-an-overlapping-product
 "Handle feedback, change pivots, and conflict",Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/handle-feedback-change-pivots-and-conflict
-Describe an ambiguous project you handled,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/describe-an-ambiguous-project-you-handled
 Answer DE behavioral and ramp-up questions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-03-01,https://trueinterview.io/questions/answer-de-behavioral-and-ramp-up-questions
 Remove minimum invalid mixed brackets,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-03,https://trueinterview.io/questions/remove-minimum-invalid-mixed-brackets
 Describe cross-team collaboration and learning from failure,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-03,https://trueinterview.io/questions/describe-cross-team-collaboration-and-learning-from-failure
@@ -550,6 +548,7 @@ Second Highest Salary,SQL,Easy,Phone screen; Onsite / virtual onsite,Intern; New
 Minimum Length of Subarray with Min-Max Difference,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/a4398c05-cc42-4b2b-804e-6e65102c2ecb
 Rotate Array,Algorithm,Medium,Phone screen,Senior,1,1,2025-12,https://trueinterview.io/questions/89d877dc-407d-4508-bc3b-1e1b3b0bc1f3
 Robot Room Cleaner: Find Target,Algorithm,Hard,Phone screen,Junior / Mid,2,0,2025-12,https://trueinterview.io/questions/7c0209a8-0314-4e7a-967c-5d751c4cf468
+Merge K Sorted Lists (incl. K = 3),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,0,2025-12,https://trueinterview.io/questions/merge-k-sorted-lists-3
 Market Sizing: Daily Active WhatsApp Conversations Across India,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-11-29,https://trueinterview.io/questions/market-sizing-daily-active-whatsapp-conversations-across-india
 Product Sense: Explore Real-World Destinations Remotely With Virtual Travel,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-11-27,https://trueinterview.io/questions/product-sense-explore-real-world-destinations-remotely-with-virtual-travel
 Evaluating a Two-Tab Facebook Feed: Friend Posts vs. Everything Else,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-25,https://trueinterview.io/questions/evaluating-a-two-tab-facebook-feed-friend-posts-vs-everything-else

@@ -4,7 +4,7 @@
 
 70 questions reported at Rippling, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (4) · [last 3 months](three-months.csv) (21) · [last 6 months](six-months.csv) (40) · [all](all.csv) (70)
+CSV: [last 30 days](thirty-days.csv) (4) · [last 3 months](three-months.csv) (22) · [last 6 months](six-months.csv) (41) · [all](all.csv) (70)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -24,6 +24,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Testing nondeterministic software: invariants, controlled randomness and statistical evals](https://trueinterview.io/questions/testing-nondeterministic-software-invariants-controlled-randomness-and-statistical-evals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-21 |
 | [Present a Project You Worked On](https://trueinterview.io/questions/present-a-project-you-worked-on?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-20 |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 9 | 0 | 2026-10 |
+| [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 9 | 4 | 2026-10 |
 | [Median of Two Sorted Arrays](../../questions/algorithm/median-of-two-sorted-arrays/README.md) | Algorithm | Hard | Onsite / virtual onsite | Senior | 5 | 0 | 2026-10 |
 | [Task Scheduler with Dependencies, Priorities and Filters](https://trueinterview.io/questions/task-scheduler-with-dependencies-priorities-and-filters?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-29 |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-18 |
@@ -63,7 +64,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 10 | 0 | 2026-03-23 |
 | [Implement a balance tracker and interval merger](https://trueinterview.io/questions/implement-a-balance-tracker-and-interval-merger?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-10 |
 | [Maximize Amount After Two Days of Conversions](https://trueinterview.io/questions/maximize-amount-after-two-days-of-conversions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03 |
-| [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 3 | 0 | 2026-03 |
 | [Delivery Problem](https://trueinterview.io/questions/9723bf30-4088-44d6-819e-b5dbee4d6c4b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior | 1 | 1 | 2026-03 |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | — | 16 | 0 | 2026-02-04 |
 | [Find the Best and Worst Completion of a Partial Numeric Hand](https://trueinterview.io/questions/find-the-best-and-worst-completion-of-a-partial-numeric-hand?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-25 |

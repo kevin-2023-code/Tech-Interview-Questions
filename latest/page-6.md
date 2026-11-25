@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,528 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,11 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-08-27 | [Palantir](../companies/palantir/) | [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad, Junior / Mid, Senior | 0 |
-| 2026-08-27 | [OpenAI](../companies/openai/) | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 4 |
-| 2026-08-27 | [Waymo](../companies/waymo/) | [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+, Manager | 0 |
-| 2026-08-27 | [Yelp](../companies/yelp/) | [Estimate Experiment Duration with Power Analysis](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
-| 2026-08-27 | [Anthropic](../companies/anthropic/) | [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-08-27 | [Yelp](../companies/yelp/) | [Return Integers in Descending Ranked Order](https://trueinterview.io/questions/return-integers-in-descending-ranked-order?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-08-27 | [Palantir](../companies/palantir/) | [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad, Junior / Mid, Senior | 0 |
 | 2026-08-27 | [LinkedIn](../companies/linkedin/), [Microsoft](../companies/microsoft/) | [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 5 |
@@ -407,8 +402,13 @@
 | 2026-08 | [Airbnb](../companies/airbnb/) | [FIFO Order Allocator](https://trueinterview.io/questions/a806c5ff-dc75-5b79-b259-9d5ba25d4b21?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 0 |
 | 2026-08 | [Airbnb](../companies/airbnb/) | [Banking System - Basic Account Operations](https://trueinterview.io/questions/76426ad8-4d47-53ba-b232-1d99030c03c9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | New grad | 0 |
 | 2026-08 | [Airbnb](../companies/airbnb/) | [Cloud Storage System: User File Backup and Restore](https://trueinterview.io/questions/690b16ad-17a7-59cd-bb53-da0fa03cbc8d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | New grad | 0 |
-| 2026-08 | [Amazon](../companies/amazon/) | [Trade Short-Term Benefit for Long-Term Success](https://trueinterview.io/questions/trade-short-term-benefit-for-long-term-success?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Senior | 0 |
 | 2026-08 | [Amazon](../companies/amazon/) | [Step Outside Your Professional Comfort Zone](https://trueinterview.io/questions/step-outside-your-professional-comfort-zone?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior | 0 |
 | 2026-08 | [Snowflake](../companies/snowflake/), [DoorDash](../companies/doordash/) +1 | [Present an end-to-end project and defend decisions](https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 2 |
+| 2026-08 | [Roblox](../companies/roblox/) | [Optimize bread-factory pipeline for max profit](https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad | 0 |
+| 2026-08 | [Google](../companies/google/) | [Navigate conflict, difficult people, and culture issues](https://trueinterview.io/questions/navigate-conflict-difficult-people-and-culture-issues?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior | 0 |
+| 2026-08 | [Netflix](../companies/netflix/) | [Model Direct-Sold DSP Orders](https://trueinterview.io/questions/model-direct-sold-dsp-orders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 2 |
+| 2026-08 | [ByteDance](../companies/bytedance/) | [Merge Overlapping Time Windows](https://trueinterview.io/questions/merge-overlapping-time-windows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
+| 2026-08 | [Netflix](../companies/netflix/) | [How do you give and receive feedback?](https://trueinterview.io/questions/how-do-you-give-and-receive-feedback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-08 | [Apple](../companies/apple/) | [Handle conflict, priorities, and harsh clients](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior, Manager | 0 |
 
 [← Newer](page-5.md) · Page 6 of 17 · [Older →](page-7.md)

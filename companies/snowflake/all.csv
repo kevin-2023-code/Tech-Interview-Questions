@@ -114,7 +114,6 @@ Merge Two Sorted Lists,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senio
 Design a Durable Cron Job Scheduler,System Design,Medium,Phone screen,Senior; Staff+,2,0,2026-04-07,https://trueinterview.io/questions/design-a-durable-cron-job-scheduler
 Design Access Management System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,8,2,2026-04,https://trueinterview.io/questions/role-and-resource-access-system
 Step-By-Step Directions From a Binary Tree Node to Another,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/binary-tree-step-by-step-directions
-Merge K Sorted Lists,Algorithm,Medium,Phone screen,Senior,5,0,2026-04-01,https://trueinterview.io/questions/merge-k-sorted-lists
 Distributed Rate Limiter,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,0,2026-04-01,https://trueinterview.io/questions/distributed-rate-limiter
 Frontend Grid: Robot Eats Candies,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-03-28,https://trueinterview.io/questions/frontend-grid-robot-candy
 Cross-Platform Logging Library,System Design,Medium,Onsite / virtual onsite,Senior,10,0,2026-03-23,https://trueinterview.io/questions/logging-library-design
@@ -139,6 +138,7 @@ ACL Service for Another Service,System Design,Medium,Onsite / virtual onsite,Sen
 Serialize and Deserialize Dictionary Trie,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-12-10,https://trueinterview.io/questions/serialize-and-deserialize-dictionary-trie
 Preorder Traversal Without Invalid Nodes,Algorithm,Easy,Phone screen,Junior / Mid,1,1,2025-12-09,https://trueinterview.io/questions/preorder-traversal-without-invalid-nodes
 Check if an Original String Exists Given Two Encoded Strings,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-12-09,https://trueinterview.io/questions/check-if-an-original-string-exists-given-two-encoded-strings
+Merge K Sorted Lists (incl. K = 3),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,0,2025-12,https://trueinterview.io/questions/merge-k-sorted-lists-3
 Valid Tic-Tac-Toe State (Extended),Algorithm,Medium,Phone screen,Senior,1,1,2025-11-23,https://trueinterview.io/questions/tic-tac-toe-valid-state-extended
 S3-Style Storage with Dedup,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,1,0,2025-11-23,https://trueinterview.io/questions/s3-dedup-storage-design
 ML Job Scheduler,System Design,Medium,Onsite / virtual onsite,Senior,3,1,2025-11,https://trueinterview.io/questions/ml-job-scheduler

@@ -2,11 +2,11 @@
 
 # System Design interview questions
 
-1,051 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
+1,048 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 
-Showing the 500 most recently reported of 1,051. [data/questions.csv](../data/questions.csv) has every row.
+Showing the 500 most recently reported of 1,048. [data/questions.csv](../data/questions.csv) has every row.
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -84,7 +84,7 @@ Showing the 500 most recently reported of 1,051. [data/questions.csv](../data/qu
 | 2026-10 | [Reddit](../companies/reddit/), [Stripe](../companies/stripe/) | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-10 | [Amazon](../companies/amazon/), [Datadog](../companies/datadog/) +7 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 0 |
 | 2026-10 | [Pinterest](../companies/pinterest/) | [Design Inventory Management System](https://trueinterview.io/questions/system-design-catalog-update-bulk-single?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 0 |
-| 2026-10 | [Pinterest](../companies/pinterest/), [Airbnb](../companies/airbnb/) +4 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 4 |
+| 2026-10 | [Pinterest](../companies/pinterest/), [Airbnb](../companies/airbnb/) +7 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 4 |
 | 2026-10 | [LinkedIn](../companies/linkedin/) | [AI-Powered Personalized Recruiter Message Generation](https://trueinterview.io/questions/sd-personalized-inmail-ai?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-10 | [LinkedIn](../companies/linkedin/) | [Design Linkedin Learning Recommendation System](https://trueinterview.io/questions/sd-job-recommendation-ranking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-10 | [ByteDance](../companies/bytedance/), [Affirm](../companies/affirm/) +8 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 40 |
@@ -405,7 +405,7 @@ Showing the 500 most recently reported of 1,051. [data/questions.csv](../data/qu
 | 2026-08 | [OpenAI](../companies/openai/), [Atlassian](../companies/atlassian/) +7 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior, Staff+ | 0 |
 | 2026-08 | [Waymo](../companies/waymo/) | [Evaluate a Self-Driving Model End-to-End](https://trueinterview.io/questions/sd-evaluate-self-driving-model?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 0 |
 | 2026-08 | [Oracle](../companies/oracle/) | [VM Health Monitoring at 1M Scale](https://trueinterview.io/questions/system-design-vm-health-monitoring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 2 |
-| 2026-08 | [Microsoft](../companies/microsoft/) | [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 0 |
+| 2026-08 | [Microsoft](../companies/microsoft/), [JPMorgan](../companies/jpmorgan/) | [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 0 |
 | 2026-08 | [ByteDance](../companies/bytedance/), [Meta](../companies/meta/) +1 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 0 |
 | 2026-08 | [OpenAI](../companies/openai/) | [Design a Crossword Puzzle Solver](https://trueinterview.io/questions/crossword-puzzle-solver?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
 | 2026-08 | [OpenAI](../companies/openai/), [Amazon](../companies/amazon/) +6 | [Design Youtube](https://trueinterview.io/questions/design-youtube?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 0 |

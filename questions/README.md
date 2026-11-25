@@ -6,7 +6,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 
 [All companies](../README.md#companies)
 
-## Algorithm (195)
+## Algorithm (193)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -55,7 +55,6 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Count Islands and Water Boundary](algorithm/count-islands-and-water-boundary/README.md) | Medium | Snapchat · Google · Tesla · Waymo |
 | [Count of Interesting Subarrays](algorithm/count-of-interesting-subarrays/README.md) | Medium | ByteDance |
 | [Course Schedule](algorithm/course-schedule/README.md) | Medium | Apple · Amazon · DoorDash · Google · Meta |
-| [Decode Ways](algorithm/decode-ways-2/README.md) | Medium | Tesla |
 | [Delete k Elements to Balance](algorithm/delete-k-elements-to-balance/README.md) | Medium | ByteDance |
 | [Dictionary Encoding (Lossless) for Comma-Separated Words](algorithm/dictionary-encoding-lossless-for-comma-separated-words/README.md) | Medium | Amplitude |
 | [Dictionary Word Transformation Path](algorithm/dictionary-word-transformation-path/README.md) | Medium | Reddit |
@@ -104,8 +103,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Meeting Rooms / Interval Scheduling Variants](algorithm/meeting-rooms-variants/README.md) | Medium | Google |
 | [Meeting Rooms II](algorithm/meeting-rooms-ii/README.md) | Medium | Google · LinkedIn |
 | [Merge Intervals](algorithm/merge-intervals/README.md) | Medium | Apple · Amazon · ByteDance · Google · Lyft |
-| [Merge K Sorted Lists](algorithm/merge-k-sorted-lists/README.md) | Medium | Apple · ByteDance · Citadel · Meta · Snowflake |
-| [Merge K Sorted Lists (incl. K = 3)](algorithm/merge-k-sorted-lists-3/README.md) | Medium | Goldman Sachs |
+| [Merge K Sorted Lists (incl. K = 3)](algorithm/merge-k-sorted-lists-3/README.md) | Medium | Goldman Sachs · Apple · ByteDance · Citadel · Meta |
 | [Merge multiple sorted arrays using min-heap](algorithm/merge-multiple-sorted-arrays-using-min-heap/README.md) | Medium | Microsoft |
 | [Merge N-ary Trees by Node Key](algorithm/coding-merge-nary-trees-by-key/README.md) | Medium | LinkedIn · Microsoft |
 | [Merge Two Binary Trees](algorithm/merge-two-binary-trees/README.md) | Medium | LinkedIn |

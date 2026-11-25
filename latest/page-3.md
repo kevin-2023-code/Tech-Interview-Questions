@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,528 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-09-25 | [Oracle](../companies/oracle/) | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-09-25 | [Oracle](../companies/oracle/) | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-25 | [ByteDance](../companies/bytedance/) | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-09-24 | [Lyft](../companies/lyft/) | [Wrapper Over a Paginated Page API That Fetches the Next N Words](https://trueinterview.io/questions/wrapper-over-a-paginated-page-api-that-fetches-the-next-n-words?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | New grad, Junior / Mid, Senior | 0 |
@@ -347,7 +346,7 @@
 | 2026-09-12 | [Atlassian](../companies/atlassian/) | [Front-End Design of an Emoji Picker with a Search Field](https://trueinterview.io/questions/front-end-design-of-an-emoji-picker-with-a-search-field?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09-12 | [Databricks](../companies/databricks/) | [Forward Deployed Engineer Screen: Role Fit, Client Work and Databricks Projects](https://trueinterview.io/questions/forward-deployed-engineer-screen-role-fit-client-work-and-databricks-projects?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-09-12 | [Apple](../companies/apple/) | [Explore Employee and Session Audit Tables Before Analysis](https://trueinterview.io/questions/explore-employee-and-session-audit-tables-before-analysis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Junior / Mid, Senior | 0 |
-| 2026-09-12 | [Snapchat](../companies/snapchat/) | [Explain Vanishing Gradients in Neural-Network Training](https://trueinterview.io/questions/explain-vanishing-gradients-in-neural-network-training?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
+| 2026-09-12 | [Snapchat](../companies/snapchat/), [Amazon](../companies/amazon/) | [Explain Vanishing Gradients in Neural-Network Training](https://trueinterview.io/questions/explain-vanishing-gradients-in-neural-network-training?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09-12 | [Snapchat](../companies/snapchat/) | [Explain Embeddings, Positive Labels, and Retraining in a Recommendation Project](https://trueinterview.io/questions/explain-embeddings-positive-labels-and-retraining-in-a-recommendation-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09-12 | [Snapchat](../companies/snapchat/) | [Explain Bias and Variance in Model Generalization](https://trueinterview.io/questions/explain-bias-and-variance-in-model-generalization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09-12 | [Lyft](../companies/lyft/) | [Diagnose a 20% ride volume decline in one Lyft market](https://trueinterview.io/questions/diagnose-a-20percent-ride-volume-decline-in-one-lyft-market?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
@@ -410,5 +409,6 @@
 | 2026-09-10 | [Fivetran](../companies/fivetran/) | [Design a Simplified WhatsApp: Message Send and Receive, Schema, and Scaling](https://trueinterview.io/questions/design-a-simplified-whatsapp-message-send-and-receive-schema-and-scaling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09-10 | [Asana](../companies/asana/), [Microsoft](../companies/microsoft/) +1 | [Design a Real-Time Collaborative Document Editor With Version History](https://trueinterview.io/questions/design-a-real-time-collaborative-document-editor-with-version-history?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-09-10 | [Google](../companies/google/) | [Design a pricing strategy for a hypothetical Google teleportation service](https://trueinterview.io/questions/design-a-pricing-strategy-for-a-hypothetical-google-teleportation-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
+| 2026-09-10 | [Waymo](../companies/waymo/) | [Design a Matchmaking Service With Join, Cancel, Matching, Notification and Expiry](https://trueinterview.io/questions/design-a-matchmaking-service-with-join-cancel-matching-notification-and-expiry?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 
 [← Newer](page-2.md) · Page 3 of 17 · [Older →](page-4.md)

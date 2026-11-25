@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,528 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -138,7 +138,6 @@
 | 2026-10 | [Google](../companies/google/) | [Answer Google Behavioral Questions](https://trueinterview.io/questions/answer-google-behavioral-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | New grad, Junior / Mid, Senior | 0 |
 | 2026-10 | [Amazon](../companies/amazon/) | [Answer Amazon Leadership Principle Scenarios](https://trueinterview.io/questions/answer-amazon-leadership-principle-scenarios?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Intern, Senior | 0 |
 | 2026-10 | [Amazon](../companies/amazon/) | [Design LFU cache with distributed extension](https://trueinterview.io/questions/design-lfu-cache-with-distributed-extension?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
-| 2026-10 | [Amazon](../companies/amazon/) | [Respond Constructively to Negative Feedback](https://trueinterview.io/questions/respond-constructively-to-negative-feedback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-10 | [Google](../companies/google/) | [Design a Product or Video Recommendation System](https://trueinterview.io/questions/design-a-product-or-video-recommendation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-10 | [Amazon](../companies/amazon/) | [Describe a complex problem you solved](https://trueinterview.io/questions/describe-a-complex-problem-you-solved?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Intern, Junior / Mid | 0 |
 | 2026-10 | [Amazon](../companies/amazon/) | [Answer Dive Deep and Ownership in LP interview](https://trueinterview.io/questions/answer-dive-deep-and-ownership-in-lp-interview?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 0 |
@@ -194,7 +193,7 @@
 | 2026-10 | [Amazon](../companies/amazon/) | [String Reorganization](https://trueinterview.io/questions/1629025a-c2f7-499b-8c5e-1d27bad56998?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid | 0 |
 | 2026-10 | [Scale AI](../companies/scale-ai/) | [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen, Onsite | Junior / Mid, Senior | 0 |
 | 2026-10 | [Pinterest](../companies/pinterest/) | [Design Inventory Management System](https://trueinterview.io/questions/system-design-catalog-update-bulk-single?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 0 |
-| 2026-10 | [Pinterest](../companies/pinterest/), [Airbnb](../companies/airbnb/) +4 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 4 |
+| 2026-10 | [Pinterest](../companies/pinterest/), [Airbnb](../companies/airbnb/) +7 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 4 |
 | 2026-10 | [Oracle](../companies/oracle/), [Bloomberg](../companies/bloomberg/) +1 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 4 |
 | 2026-10 | [Optiver](../companies/optiver/) | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen, Onsite | Intern, New grad, Junior / Mid, Senior | 0 |
 | 2026-10 | [OpenAI](../companies/openai/) | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior | 0 |
@@ -410,5 +409,6 @@
 | 2026-09-25 | [Uber Freight](../companies/uber-freight/) | [Largest Rider Group Where Every Rider's Companion-Count Limits Hold](https://trueinterview.io/questions/largest-rider-group-where-every-riders-companion-count-limits-hold?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-25 | [Stripe](../companies/stripe/) | [Find deployable slots in a recurring week from allowed and freeze windows](https://trueinterview.io/questions/find-deployable-slots-in-a-recurring-week-from-allowed-and-freeze-windows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-25 | [Mercor](../companies/mercor/) | [Decide whether every car can park given preferred spots and forward-only overflow](https://trueinterview.io/questions/decide-whether-every-car-can-park-given-preferred-spots-and-forward-only-overflow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
+| 2026-09-25 | [Oracle](../companies/oracle/) | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 
 [← Newer](README.md) · Page 2 of 17 · [Older →](page-3.md)

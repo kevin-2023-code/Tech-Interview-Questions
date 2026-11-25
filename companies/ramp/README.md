@@ -2,9 +2,9 @@
 
 # Ramp interview questions
 
-38 questions reported at Ramp, most recently reported first.
+37 questions reported at Ramp, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (14) · [all](all.csv) (38)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (14) · [all](all.csv) (37)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -28,7 +28,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | New grad, Junior / Mid, Senior | 4 | 0 | 2026-06 |
 | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | Junior / Mid, Senior | 4 | 0 | 2026-05-21 |
 | [Correct Bedroom Counts from Descriptions](https://trueinterview.io/questions/correct-bedroom-counts-from-descriptions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | 2026-05-21 |
-| [What Project Are You Proudest Of?](https://trueinterview.io/questions/what-project-are-you-proudest-of?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 3 | 2026-05 |
 | [Find an Exit in a URL Maze](https://trueinterview.io/questions/find-an-exit-in-a-url-maze?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-21 |
 | [Count Visits in One Minute](https://trueinterview.io/questions/count-visits-in-one-minute?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-04 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 8 | 2 | 2026-04 |

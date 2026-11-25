@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,528 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,12 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-07 | [Snowflake](../companies/snowflake/) | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
-| 2026-07 | [Snowflake](../companies/snowflake/), [Amazon](../companies/amazon/) +1 | [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Staff+ | 4 |
-| 2026-07 | [Roblox](../companies/roblox/) | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | OA, Phone screen, Onsite | Senior, Staff+ | 0 |
-| 2026-07 | [Roblox](../companies/roblox/), [Amazon](../companies/amazon/) +2 | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid | 1 |
-| 2026-07 | [Apple](../companies/apple/) | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
-| 2026-07 | [Apple](../companies/apple/), [Amazon](../companies/amazon/) +4 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-07 | [Amazon](../companies/amazon/), [Bloomberg](../companies/bloomberg/) +14 | [Design News Feed](https://trueinterview.io/questions/design-news-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Junior / Mid, Senior | 0 |
 | 2026-07 | [Apple](../companies/apple/) | [Design (key, value) Storage with Snapshots](https://trueinterview.io/questions/design-key-value-storage-with-snapshots?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | Senior | 0 |
 | 2026-07 | [Uber](../companies/uber/), [Meta](../companies/meta/) +1 | [Minimum Knight Moves](https://trueinterview.io/questions/minimum-knight-moves?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 1 |
@@ -368,7 +362,6 @@
 | 2026-06 | [Amazon](../companies/amazon/) | [Online Review Content Moderation](https://trueinterview.io/questions/3788662e-d4fb-58b3-944f-0d17e11dcc48?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Onsite | New grad | 0 |
 | 2026-06 | [Instacart](../companies/instacart/) | [Design and Implement Idempotent Library Notifications for Due Dates and Holds](https://trueinterview.io/questions/7d71a4ee-7826-5c5d-97ec-af7be9f3fc39?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-06 | [Airbnb](../companies/airbnb/) | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad | 0 |
-| 2026-06 | [Tesla](../companies/tesla/) | [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 1 |
 | 2026-06 | [Oracle](../companies/oracle/) | [Missing Number](https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 0 |
 | 2026-06 | [Microsoft](../companies/microsoft/) | [Shortest Path in a Grid with at Most K Cells per Move](https://trueinterview.io/questions/0acfe24d-4391-53e8-bebd-f31d970fbe3a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Staff+ | 0 |
 | 2026-06 | [Meta](../companies/meta/) | [Parse System Metrics and Warn on Threshold Breaches](https://trueinterview.io/questions/7cb3cfba-be69-52a2-bb54-8ffac2c723c4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 0 |
@@ -410,5 +403,12 @@
 | 2026-06 | [Uber](../companies/uber/) | [Minimum Triggers to Absorb All Balls](https://trueinterview.io/questions/minimum-triggers-to-absorb-all-balls?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad, Junior / Mid | 0 |
 | 2026-06 | [Roblox](../companies/roblox/) | [Build an Image Feed (Infinite Scroll + Offline Support + Testing)](https://trueinterview.io/questions/e2867a7a-4237-432e-be98-b694a3f3ca9e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Onsite | Senior | 0 |
 | 2026-06 | [Uber](../companies/uber/) | [Serialize and Deserialize Binary Tree, then Extend to N-ary Tree](https://trueinterview.io/questions/dd87d39f-2574-5a10-a447-0f7f3340ce44?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-06 | [Snowflake](../companies/snowflake/) | [Distance from Each 1 to the Nearest 2 in an Array](https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-06 | [Snowflake](../companies/snowflake/) | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-06 | [Apple](../companies/apple/), [Meta](../companies/meta/) +1 | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-06 | [Rippling](../companies/rippling/), [Meta](../companies/meta/) | [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-06 | [Robinhood](../companies/robinhood/), [Coinbase](../companies/coinbase/) +2 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 0 |
+| 2026-06 | [Uber](../companies/uber/) | [Total Cost to Convert All Substrings into Palindromes](https://trueinterview.io/questions/cf8e2d4a-b375-4bf0-99f7-9ea20847ee18?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-06 | [Uber](../companies/uber/) | [Implement a Quadtree for Geospatial Point Storage and Range Query](https://trueinterview.io/questions/9fce13a5-2923-5538-97c0-e69f174b435f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 2 |
 
 [← Newer](page-8.md) · Page 9 of 17 · [Older →](page-10.md)

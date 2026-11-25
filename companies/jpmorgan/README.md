@@ -4,7 +4,7 @@
 
 36 questions reported at JPMorgan, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (12) · [all](all.csv) (36)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (13) · [all](all.csv) (36)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -19,6 +19,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Super Day Behavioral Round](https://trueinterview.io/questions/superday-behavioral-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09 |
 | [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 2 | 0 | 2026-09 |
 | [Design a Rate Limiter Service: Components, Scaling and Precision Trade-offs](https://trueinterview.io/questions/design-a-rate-limiter-service-components-scaling-and-precision-trade-offs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 2 | 0 | 2026-08-13 |
+| [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Senior | 2 | 0 | 2026-08 |
 | [Explain Polymorphism and Binary Trees, and How You Use AI Tools as an Engineer](https://trueinterview.io/questions/explain-polymorphism-and-binary-trees-and-how-you-use-ai-tools-as-an-engineer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-16 |
 | [Behavioral: Resolving a Team Conflict and Working Through a Constraint](https://trueinterview.io/questions/behavioral-resolving-a-team-conflict-and-working-through-a-constraint?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-16 |
 | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Onsite / virtual onsite | Senior | 1 | 1 | 2026-06-23 |
@@ -28,7 +29,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Explain Core ML Concepts](https://trueinterview.io/questions/explain-core-ml-concepts-5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-04-24 |
 | [Implement Integer Square Root](https://trueinterview.io/questions/implement-integer-square-root?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-24 |
 | [Design a Reliable Bank Payment System](https://trueinterview.io/questions/design-a-reliable-bank-payment-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-23 |
-| [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-22 |
 | [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 5 | 0 | 2026-04 |
 | [Process Scheduler II](https://trueinterview.io/questions/minimum-cpu-cores?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-03-31 |
 | [Minimize Operations to Balance Shipments](https://trueinterview.io/questions/minimize-operations-to-balance-shipments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-03-21 |

@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,528 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,514 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,12 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-08 | [Roblox](../companies/roblox/) | [Optimize bread-factory pipeline for max profit](https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad | 0 |
-| 2026-08 | [Google](../companies/google/) | [Navigate conflict, difficult people, and culture issues](https://trueinterview.io/questions/navigate-conflict-difficult-people-and-culture-issues?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior | 0 |
-| 2026-08 | [Netflix](../companies/netflix/) | [Model Direct-Sold DSP Orders](https://trueinterview.io/questions/model-direct-sold-dsp-orders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 2 |
-| 2026-08 | [ByteDance](../companies/bytedance/) | [Merge Overlapping Time Windows](https://trueinterview.io/questions/merge-overlapping-time-windows?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
-| 2026-08 | [Netflix](../companies/netflix/) | [How do you give and receive feedback?](https://trueinterview.io/questions/how-do-you-give-and-receive-feedback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-08 | [Apple](../companies/apple/) | [Handle conflict, priorities, and harsh clients](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior, Manager | 0 |
 | 2026-08 | [ByteDance](../companies/bytedance/) | [Handle Communication Difficulty and Ambiguity on a Project](https://trueinterview.io/questions/handle-communication-difficulty-and-ambiguity-on-a-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid | 0 |
 | 2026-08 | [Pinterest](../companies/pinterest/) | [Generate Attribute Combinations](https://trueinterview.io/questions/generate-attribute-combinations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-08 | [Uber](../companies/uber/) | [Find the Best Currency Conversion Rate](https://trueinterview.io/questions/find-the-best-currency-conversion-rate?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
@@ -195,7 +189,7 @@
 | 2026-08 | [Oracle](../companies/oracle/) | [VM Health Monitoring at 1M Scale](https://trueinterview.io/questions/system-design-vm-health-monitoring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid, Senior | 2 |
 | 2026-08 | [Optiver](../companies/optiver/) | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | Intern, New grad, Junior / Mid | 0 |
 | 2026-08 | [Optiver](../companies/optiver/) | [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Intern, New grad, Junior / Mid | 11 |
-| 2026-08 | [Microsoft](../companies/microsoft/) | [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 0 |
+| 2026-08 | [Microsoft](../companies/microsoft/), [JPMorgan](../companies/jpmorgan/) | [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 0 |
 | 2026-08 | [Meta](../companies/meta/), [LinkedIn](../companies/linkedin/) | [Pow(x, n)](https://trueinterview.io/questions/pow-x-n?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-08 | [Google](../companies/google/) | [2D Points Connected Components by Radius](https://trueinterview.io/questions/points-connected-components-by-radius?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 2 |
 | 2026-08 | [Goldman Sachs](../companies/goldman-sachs/) | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Senior | 0 |
@@ -410,5 +404,11 @@
 | 2026-07-22 | [Amazon](../companies/amazon/) | [Best-Selling Product](https://trueinterview.io/questions/best-selling-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-07-22 | [Airbnb](../companies/airbnb/) | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-07-21 | [Microsoft](../companies/microsoft/) | [Product Design Case: A Trip Planner for Parents, Kids and Grandparents Traveling Together](https://trueinterview.io/questions/product-design-case-a-trip-planner-for-parents-kids-and-grandparents-traveling-together?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
+| 2026-07-21 | [Google](../companies/google/) | [Plan How YouTube Should Serve Journalism Video for Viewers, Publishers and Advertisers](https://trueinterview.io/questions/plan-how-youtube-should-serve-journalism-video-for-viewers-publishers-and-advertisers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-07-21 | [Amazon](../companies/amazon/) | [Improve How Third-Party Sellers on Amazon Get Paid: From Sale to Bank Deposit](https://trueinterview.io/questions/improve-how-third-party-sellers-on-amazon-get-paid-from-sale-to-bank-deposit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
+| 2026-07-21 | [Amazon](../companies/amazon/) | [Behavioral: An AI Initiative You Drove and the Change It Produced](https://trueinterview.io/questions/behavioral-an-ai-initiative-you-drove-and-the-change-it-produced?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-07-21 | [Square](../companies/square/) | [Markov Chain Next-Word Prediction & Sentence Generation](https://trueinterview.io/questions/markov-chain-next-word-prediction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-07-21 | [Databricks](../companies/databricks/) | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior | 0 |
+| 2026-07-20 | [Wayfair](../companies/wayfair/) | [Wayfair Shipping Fee Change: Model the Profit Impact of Repricing One Delivery Option](https://trueinterview.io/questions/wayfair-shipping-fee-change-model-the-profit-impact-of-repricing-one-delivery-option?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 
 [← Newer](page-6.md) · Page 7 of 17 · [Older →](page-8.md)

@@ -4,6 +4,7 @@ Netflix Product Sense: Choosing the Job and Scope for an AI Agent,Behavioral / K
 Key-Value Store with TTL,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-10,https://trueinterview.io/questions/66384c98-64ab-5912-91f2-4f21bd58d645
 Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,13,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
+Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,9,4,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
 ML Research Orals (Self-Attention / LoRA / Optimizers),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/ml-research-orals
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
 "Transformer Attention: Computing Q, K and V, and How a KV Cache Speeds Up Decoding",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-28,https://trueinterview.io/questions/transformer-attention-computing-q-k-and-v-and-how-a-kv-cache-speeds-up-decoding
@@ -85,7 +86,6 @@ Answer core probability and statistics questions,Behavioral / Knowledge,,Onsite 
 String to Integer (atoi),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,2,2,2026-03-03,https://trueinterview.io/questions/string-to-integer-atoi
 How would you support ML stakeholders?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,1,2026-03,https://trueinterview.io/questions/how-would-you-support-ml-stakeholders
 Contains Duplicate,Algorithm,Easy,Online assessment,Junior / Mid,1,1,2026-03,https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec
-Design an Ad Event Aggregator,System Design,Medium,Onsite / virtual onsite,Senior,3,0,2026-03,https://trueinterview.io/questions/design-an-ad-event-aggregator
 Inverted Index with Phrase Search,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-03,https://trueinterview.io/questions/b72512c1-88e3-415d-ae28-a7cd4a1110a6
 Double-Checked Locking / Locking Correctness in Multithreaded Code,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,2,2026-03,https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248
 Bucket Users by Movie Completion Percentage from an Event Stream,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-03,https://trueinterview.io/questions/60956877-012c-4640-b2a1-e6dad3baacbf
