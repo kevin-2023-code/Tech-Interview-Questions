@@ -4,7 +4,7 @@
 
 380 questions reported at Microsoft, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (95) · [last 6 months](six-months.csv) (188) · [all](all.csv) (380)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (95) · [last 6 months](six-months.csv) (186) · [all](all.csv) (380)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

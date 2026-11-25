@@ -4,7 +4,7 @@
 
 13 questions reported at Faire, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (8) · [all](all.csv) (13)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (8) · [all](all.csv) (13)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

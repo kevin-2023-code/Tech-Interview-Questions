@@ -4,7 +4,7 @@
 
 47 questions reported at Squarepoint, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (2) · [last 3 months](three-months.csv) (13) · [last 6 months](six-months.csv) (20) · [all](all.csv) (47)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (13) · [last 6 months](six-months.csv) (20) · [all](all.csv) (47)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

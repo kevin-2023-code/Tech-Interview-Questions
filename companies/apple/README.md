@@ -4,7 +4,7 @@
 
 246 questions reported at Apple, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (66) · [last 6 months](six-months.csv) (140) · [all](all.csv) (246)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (63) · [last 6 months](six-months.csv) (140) · [all](all.csv) (246)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

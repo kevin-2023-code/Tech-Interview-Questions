@@ -4,7 +4,7 @@
 
 216 questions reported at DoorDash, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (6) · [last 3 months](three-months.csv) (79) · [last 6 months](six-months.csv) (110) · [all](all.csv) (216)
+CSV: [last 30 days](thirty-days.csv) (6) · [last 3 months](three-months.csv) (78) · [last 6 months](six-months.csv) (110) · [all](all.csv) (216)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 

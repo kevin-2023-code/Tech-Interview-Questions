@@ -2,7 +2,7 @@
 
 # SQL interview questions
 
-309 questions as of 2026-11-24, most recently reported first; questions with no reported date come last.
+309 questions as of 2026-11-25, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 

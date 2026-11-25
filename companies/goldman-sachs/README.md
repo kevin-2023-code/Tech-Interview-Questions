@@ -4,7 +4,7 @@
 
 79 questions reported at Goldman Sachs, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (29) · [last 6 months](six-months.csv) (45) · [all](all.csv) (79)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (27) · [last 6 months](six-months.csv) (45) · [all](all.csv) (79)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
