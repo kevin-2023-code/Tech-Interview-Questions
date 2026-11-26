@@ -42,6 +42,13 @@ from render import GENERATED_NOTICE, escape_cell, plural, reported_label, site_l
 README_RECENT_ROWS = 50
 #: Rows in the README's *New this week* table.
 README_NEW_ROWS = 15
+#: At most this many of those rows per company. A bulk import from one source
+#: (forty Zomato product-sense cases in an afternoon) otherwise fills the whole
+#: table and the landing page reads as one company's dump, not the week's bank.
+README_NEW_PER_COMPANY = 2
+#: ... and at most this many per format, so a week of 1,900 behavioural cases
+#: still shows the coding and design rows that came in beside them.
+README_NEW_PER_FORMAT = 5
 #: Rows in the README's *AI coding rounds* table.
 README_AI_CODING_ROWS = 10
 #: How far back *New this week* and the stats line's "added" count reach.
@@ -179,14 +186,52 @@ def new_this_week(ordered: Sequence[Question], today: date) -> list[Question]:
     return sorted(fresh, key=lambda q: (-(q.added_date.toordinal() if q.added_date else 0), -q.number, q.slug))
 
 
+def spread_by_company(
+    rows: Sequence[Question],
+    limit: int,
+    per_company: int = README_NEW_PER_COMPANY,
+    per_format: int = README_NEW_PER_FORMAT,
+) -> list[Question]:
+    """The first ``limit`` rows, at most ``per_company`` per primary company and
+    ``per_format`` per format.
+
+    Order is kept. When the caps leave the table short they are relaxed one at
+    a time, so a quiet week still shows ``limit`` rows.
+    """
+    picked: list[Question] = []
+    taken: set[int] = set()
+    by_company: dict[str, int] = {}
+    by_format: dict[str, int] = {}
+    # Three passes: both caps, then the company cap alone, then none, so a
+    # short or one-format week is still filled and order is kept.
+    for company_cap, format_cap in ((per_company, per_format), (per_company, None), (None, None)):
+        for i, q in enumerate(rows):
+            if len(picked) >= limit:
+                break
+            if i in taken:
+                continue
+            company = q.companies[0].strip().lower() if q.companies else ""
+            if company_cap is not None and company and by_company.get(company, 0) >= company_cap:
+                continue
+            if format_cap is not None and by_format.get(q.type, 0) >= format_cap:
+                continue
+            by_company[company] = by_company.get(company, 0) + 1
+            by_format[q.type] = by_format.get(q.type, 0) + 1
+            taken.add(i)
+            picked.append(q)
+    order = {id(q): i for i, q in enumerate(rows)}
+    picked.sort(key=lambda q: order[id(q)])
+    return picked
+
+
 def new_block(ordered: Sequence[Question], today: date, **table_args) -> str:
     fresh = new_this_week(ordered, today)
     if not fresh:
         return f"No questions were added in the {NEW_DAYS} days to {today.isoformat()}."
-    shown = fresh[:README_NEW_ROWS]
+    shown = spread_by_company(fresh, README_NEW_ROWS)
     lines = [
         f"{plural(len(fresh), 'question')} added to the bank in the {NEW_DAYS} days to {today.isoformat()}"
-        + (f"; the {len(shown)} most recent:" if len(fresh) > len(shown) else ":"),
+        + (f"; {len(shown)} of the most recent, spread across companies and formats:" if len(fresh) > len(shown) else ":"),
         "",
         index_table(shown, lead="added", **table_args),
     ]

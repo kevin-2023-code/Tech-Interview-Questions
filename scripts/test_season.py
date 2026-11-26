@@ -26,6 +26,7 @@ from season import (  # noqa: E402
     index_table,
     latest_files,
     new_block,
+    spread_by_company,
     new_this_week,
     recent_block,
     season_name,
@@ -140,6 +141,29 @@ class TestNewThisWeek(unittest.TestCase):
         text = new_block(rows, TODAY, show_reports=False, **TABLE)
         self.assertIn(f"{README_NEW_ROWS + 4} questions added", text)
         self.assertEqual(sum(1 for line in text.splitlines() if line.startswith("| 2026")), README_NEW_ROWS)
+
+    def test_one_company_cannot_fill_the_table(self):
+        added = (TODAY - timedelta(days=1)).isoformat() + "T00:00:00+00:00"
+        bulk = [q(f"z{i}", addedAt=added, companies=["Zomato"]) for i in range(30)]
+        others = [q(f"o{i}", addedAt=added, companies=[f"Co{i}"]) for i in range(5)]
+        shown = spread_by_company(bulk + others, README_NEW_ROWS)
+        self.assertEqual(len(shown), README_NEW_ROWS)
+        self.assertTrue(all(o in shown for o in others))
+
+    def test_one_company_or_format_cannot_crowd_out_the_rest(self):
+        added = (TODAY - timedelta(days=1)).isoformat() + "T00:00:00+00:00"
+        bulk = [q(f"z{i}", addedAt=added, type="blog", companies=[f"B{i % 3}"]) for i in range(40)]
+        coding = [q(f"c{i}", addedAt=added, companies=[f"C{i}"]) for i in range(5)]
+        design = [q(f"d{i}", addedAt=added, type="system-design", companies=[f"D{i}"]) for i in range(5)]
+        shown = spread_by_company(bulk + coding + design, README_NEW_ROWS)
+        self.assertEqual(len(shown), README_NEW_ROWS)
+        self.assertEqual(sum(1 for x in shown if x.type == "blog"), 5)
+        self.assertTrue(all(x in shown for x in coding + design))
+
+    def test_a_short_week_is_still_filled(self):
+        added = (TODAY - timedelta(days=1)).isoformat() + "T00:00:00+00:00"
+        rows = [q(f"z{i}", addedAt=added, companies=["Zomato"]) for i in range(4)]
+        self.assertEqual(len(spread_by_company(rows, README_NEW_ROWS)), 4)
 
 
 class TestIndexTable(unittest.TestCase):
