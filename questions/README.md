@@ -58,7 +58,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Dojo Pythonic Coding Pair: Permutation Check and Pow](algorithm/dojo-permutation-and-pow/README.md) | Medium | Tesla |
 | [Dropped Requests (Rate Limiter)](algorithm/dropped-requests-rate-limiter/README.md) | Medium | Snowflake · Oracle |
 | [Encode and Decode Strings (LC 271)](algorithm/encode-and-decode-strings/README.md) | Medium | Snowflake |
-| [Enumerate All Balanced Bracket Strings for N Pairs](algorithm/generate-parentheses/README.md) | Medium | C3.ai |
+| [Enumerate All Balanced Bracket Strings for N Pairs](algorithm/generate-parentheses/README.md) | Medium | C3 AI |
 | [Evaluate Reverse Polish Notation](algorithm/evaluate-reverse-polish-notation/README.md) | Medium | Stripe · Bloomberg |
 | [Evaluate String Expression](algorithm/nested-function-expression-evaluator/README.md) | Medium | Google · Affirm · Uber |
 | [Exclusive Time of Functions](algorithm/exclusive-time-of-functions/README.md) | Medium | Uber · Meta |
@@ -192,7 +192,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Transform clickstream with pandas sessionization](algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Hard | OneMain Financial |
 | [Trapping Rain Water](algorithm/trapping-rain-water/README.md) | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs |
 | [Valid Parenthesis String](algorithm/valid-parenthesis-string/README.md) | Hard | Oracle · ByteDance |
-| [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai |
+| [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · C3 AI |
 
 ## Object-Oriented Programming (21)
 

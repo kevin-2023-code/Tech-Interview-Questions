@@ -158,7 +158,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Atlassian](companies/atlassian/) | 76 | 14 | 2026-10-19 |
 | [NVIDIA](companies/nvidia/) | 74 | 14 | 2026-10-16 |
 | [Rippling](companies/rippling/) | 67 | 22 | 2026-11-03 |
-| [C3.ai](companies/c3-ai/) | 63 | 12 | 2026-10-04 |
+| [C3 AI](companies/c3-ai/) | 63 | 12 | 2026-10-04 |
 | [Ebay](companies/ebay/) | 61 | 21 | 2026-10-28 |
 | [Karat](companies/karat/) | 61 | 0 | 2026-07 |
 | [Lyft](companies/lyft/) | 60 | 11 | 2026-10-16 |
