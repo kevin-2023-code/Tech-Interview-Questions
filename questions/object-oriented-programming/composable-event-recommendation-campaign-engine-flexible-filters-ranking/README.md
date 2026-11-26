@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object-Oriented Programming | Hard | Stubhub | Onsite / virtual onsite | — | Jun 2026 |
+| Object-Oriented Programming | Hard | StubHub | Onsite / virtual onsite | — | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -96,7 +96,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Stubhub](../../../companies/stubhub/README.md)
+[StubHub](../../../companies/stubhub/README.md)
 
 ---
 

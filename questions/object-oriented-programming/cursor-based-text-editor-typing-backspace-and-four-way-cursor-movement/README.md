@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object-Oriented Programming | Medium | Datologyai | Phone screen | — | Oct 2026 |
+| Object-Oriented Programming | Medium | DatologyAI | Phone screen | — | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -178,7 +178,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Datologyai](../../../companies/datologyai/README.md)
+[DatologyAI](../../../companies/datologyai/README.md)
 
 ---
 

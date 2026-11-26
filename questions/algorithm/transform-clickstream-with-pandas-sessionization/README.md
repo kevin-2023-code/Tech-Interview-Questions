@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Onemain Financial | Phone screen | — | — |
+| Algorithm | Hard | OneMain Financial | Phone screen | — | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -118,7 +118,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Onemain Financial](../../../companies/onemain-financial/README.md)
+[OneMain Financial](../../../companies/onemain-financial/README.md)
 
 ---
 

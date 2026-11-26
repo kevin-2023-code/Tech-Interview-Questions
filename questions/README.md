@@ -189,7 +189,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Schedule tasks with cooldown](algorithm/solve-three-scheduling-and-array-problems-schedule-tasks-with-cooldown/README.md) | Hard | Microsoft |
 | [Solve Digit-Square and Grid BFS Problems](algorithm/solve-digit-square-and-grid-bfs-problems/README.md) | Hard | Apple |
 | [Three-Color Map Coloring](algorithm/three-color-map-coloring/README.md) | Hard | Snowflake |
-| [Transform clickstream with pandas sessionization](algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Hard | Onemain Financial |
+| [Transform clickstream with pandas sessionization](algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Hard | OneMain Financial |
 | [Trapping Rain Water](algorithm/trapping-rain-water/README.md) | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs |
 | [Valid Parenthesis String](algorithm/valid-parenthesis-string/README.md) | Hard | Oracle · ByteDance |
 | [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai |
@@ -204,11 +204,11 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Banking System with Transaction Activity](object-oriented-programming/banking-system-with-transaction-activity/README.md) | Medium | Capital One |
 | [Basic Calculator with Operators, Variables, and Functions](object-oriented-programming/basic-calculator-extended-language/README.md) | Medium | Tesla |
 | [Concurrent Web Crawler](object-oriented-programming/concurrent-web-crawler/README.md) | Medium | Anthropic · MongoDB |
-| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](object-oriented-programming/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement/README.md) | Medium | Datologyai |
+| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](object-oriented-programming/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement/README.md) | Medium | DatologyAI |
 | [Design Key-Value Store with Transactions](object-oriented-programming/design-key-value-store-with-transactions/README.md) | Medium | Snowflake · Applied Intuition · Lyft |
 | [Find Duplicate Files](object-oriented-programming/find-duplicate-files/README.md) | Medium | Anthropic |
 | [Implement 2048 Game Logic](object-oriented-programming/implement-2048-game-logic/README.md) | Medium | Glean |
-| [Implement an LRU cache with O(1) ops](object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Medium | Onemain Financial · Anthropic · Google · LinkedIn · Microsoft |
+| [Implement an LRU cache with O(1) ops](object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Medium | OneMain Financial · Anthropic · Google · LinkedIn · Microsoft |
 | [Implement Cache and Key-Value Store](object-oriented-programming/implement-cache-and-key-value-store/README.md) | Medium | Lyft |
 | [Implement Game Metadata Lookups](object-oriented-programming/implement-game-metadata-lookups/README.md) | Medium | Discord |
 | [LRU Cache (with TTL and LFU Follow-ups)](object-oriented-programming/lru-cache-with-ttl/README.md) | Medium | ByteDance |
@@ -216,7 +216,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Priority Expiry LRU Cache](object-oriented-programming/priority-expire-cache-eviction/README.md) | Medium | Tesla |
 | [Rate Limit an API During a Traffic Attack](object-oriented-programming/rate-limit-an-api-during-a-traffic-attack/README.md) | Medium | Render |
 | [Toy Language Type System](object-oriented-programming/toy-language-type-system/README.md) | Medium | OpenAI |
-| [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](object-oriented-programming/composable-event-recommendation-campaign-engine-flexible-filters-ranking/README.md) | Hard | Stubhub |
+| [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](object-oriented-programming/composable-event-recommendation-campaign-engine-flexible-filters-ranking/README.md) | Hard | StubHub |
 | [Design and Solve a Rotatable Jigsaw Puzzle](object-oriented-programming/design-and-solve-a-rotatable-jigsaw-puzzle/README.md) | Hard | Asana |
 | [Implement an asyncio-based chat server](object-oriented-programming/implement-an-asyncio-based-chat-server/README.md) | Hard | Discord |
 
@@ -249,8 +249,8 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
-| [Calculate annual percentages and YoY by cohorts](sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | Medium | Cvs Health |
-| [Compute age-band spend and YoY in Georgia](sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | Medium | Cvs Health |
+| [Calculate annual percentages and YoY by cohorts](sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | Medium | CVS Health |
+| [Compute age-band spend and YoY in Georgia](sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | Medium | CVS Health |
 | [Compute daily net users from event logs](sql/compute-daily-net-users-from-event-logs/README.md) | Medium | Tubi |
 | [Compute signup rate and retention from raw logs](sql/compute-signup-rate-and-retention-from-raw-logs/README.md) | Medium | OpenAI |
 | [Compute weekly 3-week rolling sums in SQL](sql/compute-weekly-3-week-rolling-sums-in-sql/README.md) | Medium | Thumbtack |

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object-Oriented Programming | Medium | Onemain Financial · Anthropic · Google · LinkedIn · Microsoft | Phone screen | — | Jun 2026 |
+| Object-Oriented Programming | Medium | OneMain Financial · Anthropic · Google · LinkedIn · Microsoft | Phone screen | — | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -99,7 +99,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Onemain Financial](../../../companies/onemain-financial/README.md) · [Anthropic](../../../companies/anthropic/README.md) · [Google](../../../companies/google/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Microsoft](../../../companies/microsoft/README.md)
+[OneMain Financial](../../../companies/onemain-financial/README.md) · [Anthropic](../../../companies/anthropic/README.md) · [Google](../../../companies/google/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Microsoft](../../../companies/microsoft/README.md)
 
 ---
 

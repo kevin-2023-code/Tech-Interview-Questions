@@ -13,7 +13,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## New this week
 
 <!-- gen:new:start -->
-2,692 questions added to the bank in the 7 days to 2026-11-26; the 15 most recent:
+2,692 questions added to the bank in the 7 days to 2026-11-26; 15 of the most recent, spread across companies and formats:
 
 | Added | Company | Question | Format | Round | Level | Last reported | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -22,16 +22,16 @@ Interview and online-assessment questions that candidates reported at tech compa
 | 2026-11-23 | [Zoom](companies/zoom/) | [Zoom Product Sense: Make Video Calls Feel More Human and Get Everyone Involved](https://trueinterview.io/questions/zoom-product-sense-make-video-calls-feel-more-human-and-get-everyone-involved?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 2026-09-19 | 0 |
 | 2026-11-23 | [Meta](companies/meta/) | [Zoom metric framework: north star, funnel metrics and guardrails for video meetings](https://trueinterview.io/questions/zoom-metric-framework-north-star-funnel-metrics-and-guardrails-for-video-meetings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 2025-11-22 | 0 |
 | 2026-11-23 | [Zoom](companies/zoom/) | [Zoom Metric Diagnosis: Attendees per Meeting Fall From 7 to 3 as Meeting Volume Rises](https://trueinterview.io/questions/zoom-metric-diagnosis-attendees-per-meeting-fall-from-7-to-3-as-meeting-volume-rises?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 2026-10-16 | 0 |
-| 2026-11-23 | [Razorpay](companies/razorpay/) | [Zoom for Education: Design a Video Product for Live Remote Classes](https://trueinterview.io/questions/zoom-for-education-design-a-video-product-for-live-remote-classes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 2025-10-30 | 0 |
-| 2026-11-23 | [Meesho](companies/meesho/) | [Zomato Revenue Levers and a Feasibility Check on a Tenfold One-Year Goal](https://trueinterview.io/questions/zomato-revenue-levers-and-a-feasibility-check-on-a-tenfold-one-year-goal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 2026-09-07 | 0 |
-| 2026-11-23 | [Zomato](companies/zomato/) | [Zomato restaurant insights product: design it, price it and plan its go-to-market](https://trueinterview.io/questions/zomato-restaurant-insights-product-design-it-price-it-and-plan-its-go-to-market?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 2026-06-07 | 0 |
-| 2026-11-23 | [Zomato](companies/zomato/) | [Zomato Product Sense: Helping Health-Minded Customers Find Better Dishes](https://trueinterview.io/questions/zomato-product-sense-helping-health-minded-customers-find-better-dishes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 2026-05-19 | 0 |
-| 2026-11-23 | [Razorpay](companies/razorpay/) | [Zomato Product Sense: Discovering, Booking and Hosting Events in the App](https://trueinterview.io/questions/zomato-product-sense-discovering-booking-and-hosting-events-in-the-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 2025-10-30 | 0 |
-| 2026-11-23 | [Zomato](companies/zomato/) | [Zomato Product Sense: Choose a Segment and Prioritize Consumer App Improvements](https://trueinterview.io/questions/zomato-product-sense-choose-a-segment-and-prioritize-consumer-app-improvements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 2026-06-06 | 0 |
-| 2026-11-23 | [Zomato](companies/zomato/) | [Zomato product design: serving team meals and client lunches arranged for work](https://trueinterview.io/questions/zomato-product-design-serving-team-meals-and-client-lunches-arranged-for-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 2026-06-07 | 0 |
-| 2026-11-23 | [Zomato](companies/zomato/) | [Zomato Personalization: Redesigning How the App Suggests Restaurants and Dishes](https://trueinterview.io/questions/zomato-personalization-redesigning-how-the-app-suggests-restaurants-and-dishes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 2026-08-08 | 0 |
-| 2026-11-23 | [Zomato](companies/zomato/) | [Zomato: Make Restaurant Scores Trustworthy and Useful Across Dine-in and Delivery](https://trueinterview.io/questions/zomato-make-restaurant-scores-trustworthy-and-useful-across-dine-in-and-delivery?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 2026-06-06 | 0 |
-| 2026-11-23 | [Zomato](companies/zomato/) | [Zomato international expansion: market assessment, localization and launch sequencing](https://trueinterview.io/questions/zomato-international-expansion-market-assessment-localization-and-launch-sequencing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 2026-06-07 | 0 |
+| 2026-11-23 | [Microsoft](companies/microsoft/) | [Zero-downtime playbook for changing or moving a live production database](https://trueinterview.io/questions/zero-downtime-playbook-for-changing-or-moving-a-live-production-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 2026-07-02 | 0 |
+| 2026-11-23 | [Baseten](companies/baseten/) | [XOR-based random number generator used to encrypt and decrypt a tree document](https://trueinterview.io/questions/xor-based-random-number-generator-used-to-encrypt-and-decrypt-a-tree-document?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 2026-08-04 | 0 |
+| 2026-11-23 | [ByteDance](companies/bytedance/) | [Write the Cross-Entropy Loss and Compute Precision, Recall and F1](https://trueinterview.io/questions/write-the-cross-entropy-loss-and-compute-precision-recall-and-f1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 2026-10-08 | 0 |
+| 2026-11-23 | [Glean](companies/glean/) | [Write Selenium Code That Locates Two Page Elements and Returns Their Text Values](https://trueinterview.io/questions/write-selenium-code-that-locates-two-page-elements-and-returns-their-text-values?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Onsite | Junior / Mid, Senior | 2026-09-30 | 0 |
+| 2026-11-23 | [Jane Street](companies/jane-street/) | [Write an Interpreter for a Small Language with Load, Store and Arithmetic](https://trueinterview.io/questions/write-an-interpreter-for-a-small-language-with-load-store-and-arithmetic?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 2026-05-01 | 0 |
+| 2026-11-23 | [Apple](companies/apple/) | [Write a Usage Example for a Resource-Owning C++ Class and Explain Its Semantics](https://trueinterview.io/questions/write-a-usage-example-for-a-resource-owning-cplusplus-class-and-explain-its-semantics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Intern, New grad | 2026-09-23 | 0 |
+| 2026-11-23 | [Lyft](companies/lyft/) | [Wrapper Over a Paginated Page API That Fetches the Next N Words](https://trueinterview.io/questions/wrapper-over-a-paginated-page-api-that-fetches-the-next-n-words?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | New grad, Junior / Mid, Senior | 2026-09-24 | 0 |
+| 2026-11-23 | [DatologyAI](companies/datologyai/) | [Word Count and Multiset Intersect Using Only a Mock Spark RDD API](https://trueinterview.io/questions/word-count-and-multiset-intersect-using-only-a-mock-spark-rdd-api?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 2026-01-01 | 0 |
+| 2026-11-23 | [Uber](companies/uber/) | [Where to apply ML in a task flow from customer request to driver-uploaded evidence](https://trueinterview.io/questions/where-to-apply-ml-in-a-task-flow-from-customer-request-to-driver-uploaded-evidence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 2026-08-05 | 0 |
+| 2026-11-23 | [LinkedIn](companies/linkedin/) | [Weighted Die Roller from Per-Face Probabilities, with Corner Cases](https://trueinterview.io/questions/weighted-die-roller-from-per-face-probabilities-with-corner-cases?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 2026-10-23 | 0 |
 <!-- gen:new:end -->
 
 ## Recently reported
@@ -53,15 +53,15 @@ The 50 most recently reported of 6,259 from the past 12 months. [See all of them
 | 2026-10-31 | [Xiaohongshu](companies/xiaohongshu/) | [Wake a Timed Job Scheduler When Its Earliest Task Changes](https://trueinterview.io/questions/wake-a-timed-job-scheduler-when-its-earliest-task-changes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-10-31 | [OpenAI](companies/openai/) | [Design a PC Game Store, Entitlements, and Large-File Launcher Distribution](https://trueinterview.io/questions/design-a-pc-game-store-entitlements-and-large-file-launcher-distribution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
 | 2026-10-31 | [Abridge](companies/abridge/) | [Return Word Frequencies in Alphabetical Word Order](https://trueinterview.io/questions/return-word-frequencies-in-alphabetical-word-order?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Intern, New grad | 0 |
-| 2026-10-30 | [Mathworks](companies/mathworks/) | [Why Does Software Development in Test Interest You?](https://trueinterview.io/questions/why-does-software-development-in-test-interest-you?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | New grad, Junior / Mid | 0 |
+| 2026-10-30 | [MathWorks](companies/mathworks/) | [Why Does Software Development in Test Interest You?](https://trueinterview.io/questions/why-does-software-development-in-test-interest-you?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | New grad, Junior / Mid | 0 |
 | 2026-10-30 | [Instacart](companies/instacart/) | [Walk Through Your Most Recent Project End to End and Its Trade-offs](https://trueinterview.io/questions/walk-through-your-most-recent-project-end-to-end-and-its-trade-offs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-10-30 | [Instacart](companies/instacart/) | [Order Shopping Cart Items for Pickup: Frozen Last, Minimum Walking Distance](https://trueinterview.io/questions/order-shopping-cart-items-for-pickup-frozen-last-minimum-walking-distance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
-| 2026-10-30 | [Mathworks](companies/mathworks/) | [Optimize Repeated Mirrored XOR Updates](https://trueinterview.io/questions/optimize-repeated-mirrored-xor-updates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid, Senior | 0 |
+| 2026-10-30 | [MathWorks](companies/mathworks/) | [Optimize Repeated Mirrored XOR Updates](https://trueinterview.io/questions/optimize-repeated-mirrored-xor-updates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid, Senior | 0 |
 | 2026-10-30 | [Palantir](companies/palantir/) | [Learn an Unfamiliar SQL-Like Query Class, Then Solve Tasks with Its Map and Fold Actions](https://trueinterview.io/questions/learn-an-unfamiliar-sql-like-query-class-then-solve-tasks-with-its-map-and-fold-actions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
-| 2026-10-30 | [Mathworks](companies/mathworks/) | [Describe How You Assessed Code Quality and Added Tests](https://trueinterview.io/questions/describe-how-you-assessed-code-quality-and-added-tests?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | New grad, Junior / Mid | 0 |
+| 2026-10-30 | [MathWorks](companies/mathworks/) | [Describe How You Assessed Code Quality and Added Tests](https://trueinterview.io/questions/describe-how-you-assessed-code-quality-and-added-tests?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | New grad, Junior / Mid | 0 |
 | 2026-10-30 | [Waymo](companies/waymo/) | [Total Run Time of Ordered Tasks with a Per-Type Cooldown](https://trueinterview.io/questions/total-run-time-of-ordered-tasks-with-a-per-type-cooldown?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-10-30 | [Waymo](companies/waymo/) | [Minimum Run Time for Reorderable Tasks with a Per-Type Cooldown](https://trueinterview.io/questions/minimum-run-time-for-reorderable-tasks-with-a-per-type-cooldown?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
-| 2026-10-30 | [Bnsf](companies/bnsf/) | [Find the Two Indices Whose Values Sum to a Target](https://trueinterview.io/questions/find-the-two-indices-whose-values-sum-to-a-target?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
+| 2026-10-30 | [BNSF](companies/bnsf/) | [Find the Two Indices Whose Values Sum to a Target](https://trueinterview.io/questions/find-the-two-indices-whose-values-sum-to-a-target?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-10-29 | [Google](companies/google/) | [Weighted Tree: Total Distance from Each Node to All Other Nodes](https://trueinterview.io/questions/weighted-tree-total-distance-from-each-node-to-all-other-nodes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-10-29 | [Palantir](companies/palantir/) | [Daily Totals of Several Stocks' Prices with Missing Days Carried Forward](https://trueinterview.io/questions/daily-totals-of-several-stocks-prices-with-missing-days-carried-forward?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-10-28 | [Google](companies/google/) | [Work-style and ethics judgment: customer gifts, harassment, coworker growth](https://trueinterview.io/questions/work-style-and-ethics-judgment-customer-gifts-harassment-coworker-growth?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | Intern, New grad | 0 |
@@ -202,7 +202,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Glean](companies/glean/) | 24 | 14 | 2026-10-10 |
 | [Hudson River Trading](companies/hudson-river-trading/) | 24 | 0 | 2026-08-08 |
 | [Boston Consulting Group](companies/boston-consulting-group/) | 23 | 3 | 2026-09-24 |
-| [Sig](companies/sig/) | 23 | 17 | 2026-10-15 |
+| [SIG](companies/sig/) | 23 | 17 | 2026-10-15 |
 | [Yelp](companies/yelp/) | 23 | 5 | 2026-10 |
 | [MongoDB](companies/mongodb/) | 22 | 6 | 2026-10-26 |
 | [Rubrik](companies/rubrik/) | 22 | 0 | 2026-06-26 |
@@ -210,7 +210,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Tradedesk](companies/tradedesk/) | 22 | 7 | 2026-09-15 |
 | [WeRide](companies/weride/) | 22 | 2 | 2026-09 |
 | [Whatnot](companies/whatnot/) | 22 | 3 | 2026-10-10 |
-| [Cvs Health](companies/cvs-health/) | 21 | 0 | 2026-08 |
+| [CVS Health](companies/cvs-health/) | 21 | 0 | 2026-08 |
 | [Sierra](companies/sierra/) | 21 | 2 | 2026-10-06 |
 | [Airwallex](companies/airwallex/) | 20 | 13 | 2026-10-05 |
 | [Palantir](companies/palantir/) | 19 | 3 | 2026-10-30 |
@@ -225,21 +225,21 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Bitkernel](companies/bitkernel/) | 15 | 0 | 2025-10-24 |
 | [Vanta](companies/vanta/) | 15 | 1 | 2026-09-12 |
 | [Zomato](companies/zomato/) | 14 | 2 | 2026-10-20 |
-| [Drw](companies/drw/) | 13 | 9 | 2026-10-01 |
+| [DRW](companies/drw/) | 13 | 9 | 2026-10-01 |
 | [Faire](companies/faire/) | 13 | 4 | 2026-10-15 |
 | [Luma AI](companies/luma-ai/) | 13 | 7 | 2026-09-17 |
 | [Microsoft AI](companies/microsoft-ai/) | 13 | 7 | 2026-10 |
 | [Mistral AI](companies/mistral-ai/) | 13 | 7 | 2026-09-01 |
 | [Arista](companies/arista/) | 12 | 1 | 2026-10 |
 | [Cohere](companies/cohere/) | 12 | 10 | 2026-10-02 |
-| [Onemain Financial](companies/onemain-financial/) | 12 | 0 | 2026-08 |
+| [OneMain Financial](companies/onemain-financial/) | 12 | 0 | 2026-08 |
 | [Swiggy](companies/swiggy/) | 12 | 3 | 2026-10-20 |
 | [Tubi](companies/tubi/) | 12 | 0 | 2026-02-16 |
 | [Axon](companies/axon/) | 11 | 0 | 2026-06 |
 | [Nuro](companies/nuro/) | 11 | 6 | 2026-08-31 |
 | [Agoda](companies/agoda/) | 10 | 1 | 2026-08-29 |
 | [Airtable](companies/airtable/) | 10 | 0 | 2026-07 |
-| [Imc](companies/imc/) | 10 | 0 | 2026-08-24 |
+| [IMC](companies/imc/) | 10 | 0 | 2026-08-24 |
 | [Revolut](companies/revolut/) | 10 | 3 | 2026-10-08 |
 | [Qualified Health](companies/qualified-health/) | 9 | 9 | 2026-09-30 |
 | [StackAdapt](companies/stackadapt/) | 9 | 3 | 2026-09-09 |
@@ -261,7 +261,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Circle](companies/circle/) | 6 | 0 | 2026-05 |
 | [CrowdStrike](companies/crowdstrike/) | 6 | 2 | 2026-10-10 |
 | [Decagon](companies/decagon/) | 6 | 5 | 2026-10-14 |
-| [Furtherai](companies/furtherai/) | 6 | 6 | 2026-10-07 |
+| [FurtherAI](companies/furtherai/) | 6 | 6 | 2026-10-07 |
 | [Gusto](companies/gusto/) | 6 | 0 | 2026-08-01 |
 | [Mixpanel](companies/mixpanel/) | 6 | 6 | 2026-09-14 |
 | [Nielsen](companies/nielsen/) | 6 | 0 | 2026-08 |
@@ -275,7 +275,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Block](companies/block/) | 5 | 0 | 2026-05 |
 | [Chicago Trading](companies/chicago-trading/) | 5 | 0 | 2026-08 |
 | [CoreWeave](companies/coreweave/) | 5 | 5 | 2026-09-29 |
-| [Eliseai](companies/eliseai/) | 5 | 0 | 2026-07-05 |
+| [EliseAI](companies/eliseai/) | 5 | 0 | 2026-07-05 |
 | [Gong](companies/gong/) | 5 | 1 | 2026-10-14 |
 | [Indeed](companies/indeed/) | 5 | 2 | 2026-09-16 |
 | [Millennium](companies/millennium/) | 5 | 1 | 2026-09 |
@@ -296,25 +296,25 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Rocket Money](companies/rocket-money/) | 4 | 0 | 2026-08-17 |
 | [Siemens](companies/siemens/) | 4 | 4 | 2026-09-04 |
 | [Slack](companies/slack/) | 4 | 2 | 2026-09-28 |
-| [Uipath](companies/uipath/) | 4 | 4 | 2026-09-28 |
+| [UiPath](companies/uipath/) | 4 | 4 | 2026-09-28 |
 | [Aurora](companies/aurora/) | 3 | 2 | 2026-09-23 |
-| [Axq Capital](companies/axq-capital/) | 3 | 2 | 2026-09-08 |
+| [AXQ Capital](companies/axq-capital/) | 3 | 2 | 2026-09-08 |
 | [Baseten](companies/baseten/) | 3 | 0 | 2026-08-04 |
 | [Bolt](companies/bolt/) | 3 | 0 | 2026-05-23 |
-| [Buildops](companies/buildops/) | 3 | 0 | 2026-05-06 |
+| [BuildOps](companies/buildops/) | 3 | 0 | 2026-05-06 |
 | [Canva](companies/canva/) | 3 | 0 | 2026-07-12 |
 | [Citi](companies/citi/) | 3 | 3 | 2026-10-23 |
 | [Cubist](companies/cubist/) | 3 | 0 | 2026-08-17 |
-| [Datologyai](companies/datologyai/) | 3 | 2 | 2026-10-24 |
-| [Indmoney](companies/indmoney/) | 3 | 0 | 2026-03-08 |
+| [DatologyAI](companies/datologyai/) | 3 | 2 | 2026-10-24 |
+| [INDmoney](companies/indmoney/) | 3 | 0 | 2026-03-08 |
 | [Mastercard](companies/mastercard/) | 3 | 1 | 2026-09-22 |
-| [Mathworks](companies/mathworks/) | 3 | 3 | 2026-10-30 |
+| [MathWorks](companies/mathworks/) | 3 | 3 | 2026-10-30 |
 | [Mintlify](companies/mintlify/) | 3 | 3 | 2026-09-27 |
 | [New Relic](companies/new-relic/) | 3 | 3 | 2026-09-27 |
-| [Playstation](companies/playstation/) | 3 | 3 | 2026-10-10 |
+| [PlayStation](companies/playstation/) | 3 | 3 | 2026-10-10 |
 | [Quora](companies/quora/) | 3 | 2 | 2026-09-27 |
 | [Stitch](companies/stitch/) | 3 | 0 | 2026-08-16 |
-| [Stubhub](companies/stubhub/) | 3 | 0 | 2026-06 |
+| [StubHub](companies/stubhub/) | 3 | 0 | 2026-06 |
 | [Twilio](companies/twilio/) | 3 | 0 | 2026-03-19 |
 | [Uber Freight](companies/uber-freight/) | 3 | 3 | 2026-09-25 |
 | [Valon](companies/valon/) | 3 | 1 | 2026-09-24 |
@@ -323,33 +323,33 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [6sense](companies/6sense/) | 2 | 0 | 2025-10-22 |
 | [Amperity](companies/amperity/) | 2 | 2 | 2026-09-09 |
 | [Binance](companies/binance/) | 2 | 0 | 2025-12-22 |
-| [Bnsf](companies/bnsf/) | 2 | 2 | 2026-10-30 |
-| [Cargurus](companies/cargurus/) | 2 | 0 | 2025-12-08 |
+| [BNSF](companies/bnsf/) | 2 | 2 | 2026-10-30 |
+| [CarGurus](companies/cargurus/) | 2 | 0 | 2025-12-08 |
 | [Cars24](companies/cars24/) | 2 | 0 | 2026-06-12 |
 | [Carta](companies/carta/) | 2 | 0 | 2026-01-29 |
 | [ClickUp](companies/clickup/) | 2 | 0 | 2026-07-11 |
 | [Cockroach Labs](companies/cockroach-labs/) | 2 | 0 | 2026-07-07 |
-| [Cred](companies/cred/) | 2 | 0 | 2026-05-29 |
+| [CRED](companies/cred/) | 2 | 0 | 2026-05-29 |
 | [Deloitte](companies/deloitte/) | 2 | 0 | 2026-03-16 |
 | [Duolingo](companies/duolingo/) | 2 | 0 | 2026-07-20 |
 | [Electronic Arts](companies/electronic-arts/) | 2 | 0 | 2025-12-22 |
 | [Fivetran](companies/fivetran/) | 2 | 2 | 2026-09-10 |
 | [Glovo](companies/glovo/) | 2 | 0 | 2026-02-10 |
-| [Hellofresh](companies/hellofresh/) | 2 | 1 | 2026-10-10 |
+| [HelloFresh](companies/hellofresh/) | 2 | 1 | 2026-10-10 |
 | [Houzz](companies/houzz/) | 2 | 1 | 2026-09-18 |
-| [Inpost](companies/inpost/) | 2 | 0 | 2026-08-20 |
+| [InPost](companies/inpost/) | 2 | 0 | 2026-08-20 |
 | [Instalily](companies/instalily/) | 2 | 1 | 2026-10 |
 | [Internet Brands](companies/internet-brands/) | 2 | 0 | 2026-08-05 |
 | [Liftoff](companies/liftoff/) | 2 | 0 | 2026-07-06 |
 | [Medium](companies/medium/) | 2 | 1 | 2026-10-15 |
 | [Meesho](companies/meesho/) | 2 | 1 | 2026-09-07 |
 | [Merge](companies/merge/) | 2 | 2 | 2026-10-02 |
-| [Monday Com](companies/monday-com/) | 2 | 0 | 2026-07-24 |
+| [monday.com](companies/monday-com/) | 2 | 0 | 2026-07-24 |
 | [Nextdoor](companies/nextdoor/) | 2 | 2 | 2026-10-26 |
 | [Nutanix](companies/nutanix/) | 2 | 1 | 2026-11-02 |
-| [Otter AI](companies/otter-ai/) | 2 | 1 | 2026-09-10 |
+| [Otter.ai](companies/otter-ai/) | 2 | 1 | 2026-09-10 |
 | [Patreon](companies/patreon/) | 2 | 0 | 2026-07-14 |
-| [Pdt Partners](companies/pdt-partners/) | 2 | 2 | 2026-08-29 |
+| [PDT Partners](companies/pdt-partners/) | 2 | 2 | 2026-08-29 |
 | [Physical Intelligence](companies/physical-intelligence/) | 2 | 2 | 2026-09-08 |
 | [Relevel](companies/relevel/) | 2 | 0 | 2025-12-10 |
 | [Render](companies/render/) | 2 | 1 | 2026-09-17 |
@@ -357,28 +357,28 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Salient AI](companies/salient-ai/) | 2 | 0 | 2026-08-03 |
 | [Unity](companies/unity/) | 2 | 2 | 2026-10-09 |
 | [Vercel](companies/vercel/) | 2 | 1 | 2026-09-16 |
-| [Wex](companies/wex/) | 2 | 2 | 2026-09-28 |
+| [WEX](companies/wex/) | 2 | 2 | 2026-09-28 |
 | [Yahoo](companies/yahoo/) | 2 | 0 | 2026-08-02 |
 | [Zoox](companies/zoox/) | 2 | 2 | 2026-10-02 |
 | [Accenture](companies/accenture/) | 1 | 0 | 2026-06-08 |
-| [Adp](companies/adp/) | 1 | 0 | 2026-02-20 |
-| [Aiprise](companies/aiprise/) | 1 | 1 | 2026-10-25 |
+| [ADP](companies/adp/) | 1 | 0 | 2026-02-20 |
+| [AiPrise](companies/aiprise/) | 1 | 1 | 2026-10-25 |
 | [Amway](companies/amway/) | 1 | 0 | 2026-03-17 |
 | [Anrok](companies/anrok/) | 1 | 1 | 2026-10-04 |
 | [Anyscale](companies/anyscale/) | 1 | 1 | 2026-09-11 |
-| [Aqr](companies/aqr/) | 1 | 1 | 2026-10-17 |
+| [AQR](companies/aqr/) | 1 | 1 | 2026-10-17 |
 | [Archil](companies/archil/) | 1 | 0 | 2026-05-29 |
 | [Atandt](companies/atandt/) | 1 | 1 | 2026-10-19 |
 | [Atlys](companies/atlys/) | 1 | 1 | 2026-10-18 |
 | [Autodesk](companies/autodesk/) | 1 | 1 | 2026-10-04 |
 | [Bitdeer](companies/bitdeer/) | 1 | 0 | 2026-07-20 |
 | [Blinkit](companies/blinkit/) | 1 | 0 | 2026-07-04 |
-| [Booking Com](companies/booking-com/) | 1 | 0 | 2026-07-29 |
+| [Booking.com](companies/booking-com/) | 1 | 0 | 2026-07-29 |
 | [Box](companies/box/) | 1 | 0 | 2026-06-21 |
 | [Calendly](companies/calendly/) | 1 | 0 | 2025-12-14 |
 | [Candid Health](companies/candid-health/) | 1 | 1 | 2026-10-08 |
 | [Censys](companies/censys/) | 1 | 0 | 2026-07-14 |
-| [Cibc](companies/cibc/) | 1 | 1 | 2026-09-21 |
+| [CIBC](companies/cibc/) | 1 | 1 | 2026-09-21 |
 | [Citrix](companies/citrix/) | 1 | 0 | 2026-03-01 |
 | [Close](companies/close/) | 1 | 1 | 2026-10-16 |
 | [Cobalt](companies/cobalt/) | 1 | 0 | 2026-02-22 |
@@ -390,21 +390,21 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Datavant](companies/datavant/) | 1 | 1 | 2026-08-30 |
 | [Deshaw](companies/deshaw/) | 1 | 0 | 2026-08-06 |
 | [Deutsche Bank](companies/deutsche-bank/) | 1 | 1 | 2026-09-04 |
-| [Docusign](companies/docusign/) | 1 | 1 | 2026-10-02 |
-| [Doubleverify](companies/doubleverify/) | 1 | 0 | 2026-01-09 |
+| [DocuSign](companies/docusign/) | 1 | 1 | 2026-10-02 |
+| [DoubleVerify](companies/doubleverify/) | 1 | 0 | 2026-01-09 |
 | [Educational Testing Service](companies/educational-testing-service/) | 1 | 0 | 2025-10-16 |
 | [Epifi](companies/epifi/) | 1 | 0 | 2025-11-16 |
 | [Ethos](companies/ethos/) | 1 | 0 | 2026-08-21 |
 | [Eventbrite](companies/eventbrite/) | 1 | 0 | 2025-12-04 |
-| [Falconx](companies/falconx/) | 1 | 1 | 2026-09-06 |
+| [FalconX](companies/falconx/) | 1 | 1 | 2026-09-06 |
 | [Fireworks](companies/fireworks/) | 1 | 1 | 2026-10-10 |
 | [Fiverr](companies/fiverr/) | 1 | 0 | 2025-12-01 |
-| [Floqast](companies/floqast/) | 1 | 0 | 2025-11-02 |
+| [FloQast](companies/floqast/) | 1 | 0 | 2025-11-02 |
 | [Fluidstack](companies/fluidstack/) | 1 | 1 | 2026-09-26 |
 | [Freecharge](companies/freecharge/) | 1 | 0 | 2025-11-18 |
 | [Garmin](companies/garmin/) | 1 | 0 | 2026-04-14 |
 | [Generalmotors](companies/generalmotors/) | 1 | 1 | 2026-09-09 |
-| [Gofundme](companies/gofundme/) | 1 | 1 | 2026-09-14 |
+| [GoFundMe](companies/gofundme/) | 1 | 1 | 2026-09-14 |
 | [Grab](companies/grab/) | 1 | 1 | 2026-09-02 |
 | [Grammarly](companies/grammarly/) | 1 | 0 | 2026-02-02 |
 | [Hadrian](companies/hadrian/) | 1 | 1 | 2026-09-04 |
@@ -416,11 +416,11 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Hightouch](companies/hightouch/) | 1 | 0 | 2026-02-21 |
 | [Hinge Health](companies/hinge-health/) | 1 | 0 | 2026-02-20 |
 | [Home Depot](companies/home-depot/) | 1 | 0 | 2026-08-20 |
-| [Housing Com](companies/housing-com/) | 1 | 0 | 2026-01-14 |
+| [Housing.com](companies/housing-com/) | 1 | 0 | 2026-01-14 |
 | [Imbue](companies/imbue/) | 1 | 1 | 2026-10-06 |
 | [Infinitus Systems](companies/infinitus-systems/) | 1 | 0 | 2026-01-17 |
 | [Innovapptive](companies/innovapptive/) | 1 | 0 | 2026-01-17 |
-| [Iqm](companies/iqm/) | 1 | 0 | 2026-01-31 |
+| [IQM](companies/iqm/) | 1 | 0 | 2026-01-31 |
 | [Ivo](companies/ivo/) | 1 | 1 | 2026-10-25 |
 | [Justworks](companies/justworks/) | 1 | 1 | 2026-09-21 |
 | [Klarna](companies/klarna/) | 1 | 0 | 2025-11-19 |
@@ -433,19 +433,19 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [N2jsoft](companies/n2jsoft/) | 1 | 0 | 2026-01-14 |
 | [Nclusion](companies/nclusion/) | 1 | 1 | 2026-09-15 |
 | [Niantic](companies/niantic/) | 1 | 0 | 2026-01-24 |
-| [Ninjatrader](companies/ninjatrader/) | 1 | 1 | 2026-09-09 |
+| [NinjaTrader](companies/ninjatrader/) | 1 | 1 | 2026-09-09 |
 | [Nintendo](companies/nintendo/) | 1 | 0 | 2026-07-31 |
 | [Nokia](companies/nokia/) | 1 | 0 | 2026-01-31 |
 | [Nooks](companies/nooks/) | 1 | 1 | 2026-10-15 |
 | [Notion](companies/notion/) | 1 | 1 | 2026-10-07 |
 | [Ode](companies/ode/) | 1 | 1 | 2026-10-10 |
-| [Onepay](companies/onepay/) | 1 | 1 | 2026-09-17 |
+| [OnePay](companies/onepay/) | 1 | 1 | 2026-09-17 |
 | [Parkplus](companies/parkplus/) | 1 | 0 | 2026-05-27 |
 | [Peakflo](companies/peakflo/) | 1 | 0 | 2026-01-15 |
 | [Persona](companies/persona/) | 1 | 1 | 2026-09-24 |
-| [Pharmeasy](companies/pharmeasy/) | 1 | 0 | 2026-04-23 |
-| [Phonepe](companies/phonepe/) | 1 | 0 | 2026-01-07 |
-| [Plusai](companies/plusai/) | 1 | 0 | 2026-08-12 |
+| [PharmEasy](companies/pharmeasy/) | 1 | 0 | 2026-04-23 |
+| [PhonePe](companies/phonepe/) | 1 | 0 | 2026-01-07 |
+| [PlusAI](companies/plusai/) | 1 | 0 | 2026-08-12 |
 | [Policybazaar](companies/policybazaar/) | 1 | 0 | 2026-01-06 |
 | [Postman](companies/postman/) | 1 | 0 | 2025-10-06 |
 | [Powerplay](companies/powerplay/) | 1 | 0 | 2025-11-26 |
@@ -454,7 +454,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Qualcomm](companies/qualcomm/) | 1 | 0 | 2026-03-04 |
 | [Quitsure](companies/quitsure/) | 1 | 0 | 2025-10-10 |
 | [Rapido](companies/rapido/) | 1 | 1 | 2026-09-10 |
-| [Rapidsos](companies/rapidsos/) | 1 | 0 | 2026-02-07 |
+| [RapidSOS](companies/rapidsos/) | 1 | 0 | 2026-02-07 |
 | [Reducto](companies/reducto/) | 1 | 1 | 2026-10-13 |
 | [Replit](companies/replit/) | 1 | 1 | 2026-10-22 |
 | [Ripple](companies/ripple/) | 1 | 0 | 2026-01-30 |
@@ -465,12 +465,12 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Signzy](companies/signzy/) | 1 | 0 | 2026-08-17 |
 | [Slickdeals](companies/slickdeals/) | 1 | 0 | 2026-02-25 |
 | [Snapp](companies/snapp/) | 1 | 0 | 2025-11-05 |
-| [Socialpilot](companies/socialpilot/) | 1 | 0 | 2026-05-21 |
-| [Stanley Black And Decker](companies/stanley-black-and-decker/) | 1 | 0 | 2026-07-28 |
+| [SocialPilot](companies/socialpilot/) | 1 | 0 | 2026-05-21 |
+| [Stanley Black & Decker](companies/stanley-black-and-decker/) | 1 | 0 | 2026-07-28 |
 | [State](companies/state/) | 1 | 1 | 2026-10-06 |
 | [Strava](companies/strava/) | 1 | 1 | 2026-09-22 |
-| [T Mobile](companies/t-mobile/) | 1 | 0 | 2025-12-22 |
-| [Taskrabbit](companies/taskrabbit/) | 1 | 0 | 2026-01-05 |
+| [T-Mobile](companies/t-mobile/) | 1 | 0 | 2025-12-22 |
+| [TaskRabbit](companies/taskrabbit/) | 1 | 0 | 2026-01-05 |
 | [Tata 1mg](companies/tata-1mg/) | 1 | 0 | 2026-01-13 |
 | [Tekion](companies/tekion/) | 1 | 0 | 2026-01-26 |
 | [Teleperformance](companies/teleperformance/) | 1 | 0 | 2026-01-22 |
@@ -478,20 +478,20 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Theoremone](companies/theoremone/) | 1 | 0 | 2026-02-26 |
 | [Tinder](companies/tinder/) | 1 | 1 | 2026-09-27 |
 | [Toast](companies/toast/) | 1 | 0 | 2025-12-19 |
-| [U S Bank](companies/u-s-bank/) | 1 | 1 | 2026-10-15 |
+| [U.S. Bank](companies/u-s-bank/) | 1 | 1 | 2026-10-15 |
 | [Upstox](companies/upstox/) | 1 | 0 | 2025-11-08 |
 | [Veeva Systems](companies/veeva-systems/) | 1 | 0 | 2026-04-01 |
-| [Vmware](companies/vmware/) | 1 | 0 | 2025-10-10 |
+| [VMware](companies/vmware/) | 1 | 0 | 2025-10-10 |
 | [Wikimedia Foundation](companies/wikimedia-foundation/) | 1 | 1 | 2026-09-10 |
-| [Wisdomai](companies/wisdomai/) | 1 | 1 | 2026-10-20 |
+| [WisdomAI](companies/wisdomai/) | 1 | 1 | 2026-10-20 |
 | [Wolt](companies/wolt/) | 1 | 0 | 2025-12-17 |
 | [Workboard](companies/workboard/) | 1 | 0 | 2025-12-25 |
-| [X Twitter](companies/x-twitter/) | 1 | 0 | 2026-03-08 |
+| [X (Twitter)](companies/x-twitter/) | 1 | 0 | 2026-03-08 |
 | [Xiaohongshu](companies/xiaohongshu/) | 1 | 1 | 2026-10-31 |
 | [Yubi](companies/yubi/) | 1 | 0 | 2025-10-18 |
 | [Zepto](companies/zepto/) | 1 | 0 | 2026-03-01 |
 | [Zillow](companies/zillow/) | 1 | 0 | 2026-02-24 |
-| [Ziprecruiter](companies/ziprecruiter/) | 1 | 0 | 2025-10-03 |
+| [ZipRecruiter](companies/ziprecruiter/) | 1 | 0 | 2025-10-03 |
 | [Zoomcar](companies/zoomcar/) | 1 | 0 | 2026-05-26 |
 | [Zynga](companies/zynga/) | 1 | 0 | 2026-07-26 |
 

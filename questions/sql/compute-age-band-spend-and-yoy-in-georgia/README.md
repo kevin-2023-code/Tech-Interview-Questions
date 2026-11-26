@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| SQL | Medium | Cvs Health | Phone screen | — | — |
+| SQL | Medium | CVS Health | Phone screen | — | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -149,7 +149,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Cvs Health](../../../companies/cvs-health/README.md)
+[CVS Health](../../../companies/cvs-health/README.md)
 
 ---
 
