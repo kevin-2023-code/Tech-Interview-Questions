@@ -1,11 +1,11 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Stack with Constant-Time Minimum over a Sequence of Operations,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/stack-with-constant-time-minimum-over-a-sequence-of-operations
 Fewest Node Additions and Removals to Make a Binary Tree Perfect,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/fewest-node-additions-and-removals-to-make-a-binary-tree-perfect
-Runtime-Configurable Multi-Tier Rate Limiter,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/88d39b15-fccf-5f7f-bed3-9bdcba8b1dcf
+Runtime-Configurable Multi-Tier Rate Limiter,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/snowflake-runtime-configurable-multi-tier-rate-limiter
 Tiered Rate Limiting Service,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-01,https://trueinterview.io/questions/tiered-rate-limiting-service
-Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360
+Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/snowflake-shortest-path-in-a-binary-matrix-with-obstacles
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
-Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
 Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
 Encode and Decode Strings (LC 271),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09-29,https://trueinterview.io/questions/encode-and-decode-strings
@@ -20,13 +20,13 @@ Core Components of LLM Agent Memory: What Each Stores and How It Is Written and 
 Find the Minimum Fleet for a Bus Timetable,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09-05,https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable
 Find the Minimum Bus Fleet with Station Constraints,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09-05,https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints
 Compute Effective Letter Permissions in a DAG,Algorithm,Hard,Phone screen,Senior,1,0,2026-09-03,https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag
-Build an Organizational Reporting Forest,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/c76ecba9-faec-5864-a8a7-4206bc86fca6
-Height of an N-ary Tree After Node Deletions,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/97267c5d-561e-5bea-987c-d82f890a0293
-Minimum Node Deletions to Limit N-ary Tree Height,Algorithm,Hard,Phone screen,Junior / Mid,1,5,2026-09,https://trueinterview.io/questions/1ebea79b-4f8f-5ee4-86f3-74a57cfb698e
-String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
+Build an Organizational Reporting Forest,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/snowflake-build-an-organizational-reporting-forest
+Height of an N-ary Tree After Node Deletions,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/snowflake-height-of-an-n-ary-tree-after-node-deletions
+Minimum Node Deletions to Limit N-ary Tree Height,Algorithm,Hard,Phone screen,Junior / Mid,1,5,2026-09,https://trueinterview.io/questions/snowflake-minimum-node-deletions-to-limit-n-ary-tree-height
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/salesforce-string-anagram-windows
 Proud Project / Conflict / Failure,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,2,10,2026-09,https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure
 Maximum Profit in Job Scheduling,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/maximum-profit-in-job-scheduling
-Tree Height After Node Removal,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/656949e3-a5f9-4e20-bf38-ee5b7cab1eef
+Tree Height After Node Removal,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/snowflake-tree-height-after-node-removal
 Wiki Page Shortest-Click Path,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid,1,3,2026-09,https://trueinterview.io/questions/wiki-page-shortest-path
 Throne Inheritance,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad,1,0,2026-09,https://trueinterview.io/questions/throne-inheritance
 Find Median from Data Stream,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/find-median-from-data-stream
@@ -39,13 +39,13 @@ Time Range Event Counter,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,
 React / TypeScript Kanban Board,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-08-15,https://trueinterview.io/questions/react-typescript-kanban-board
 Webinar Popularity,SQL,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-08-13,https://trueinterview.io/questions/webinar-popularity
 Present an end-to-end project and defend decisions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,3,2,2026-08,https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions
-Target Course Completion Plan,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-08,https://trueinterview.io/questions/62ce3ab3-e18e-5908-9a1b-df60f07d256d
-Bounded Event Stream Unique-Key Queries,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/538d12a1-cb8b-5e5c-8a83-6766bfef0c5c
+Target Course Completion Plan,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-08,https://trueinterview.io/questions/snowflake-target-course-completion-plan
+Bounded Event Stream Unique-Key Queries,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/snowflake-bounded-event-stream-unique-key-queries
 Priority Task Executor,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,1,2026-08-01,https://trueinterview.io/questions/priority-task-executor
-Rate Limiter,Algorithm,Easy,Online assessment,Senior,1,1,2026-08,https://trueinterview.io/questions/5ac1e372-948a-4af9-b467-5e495795ba16
+Rate Limiter,Algorithm,Easy,Online assessment,Senior,1,1,2026-08,https://trueinterview.io/questions/snowflake-rate-limiter
 Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,9,0,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
-3Sum Variant: Find Unique Triplets Summing to Target,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-08,https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+3Sum Variant: Find Unique Triplets Summing to Target,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-08,https://trueinterview.io/questions/tradedesk-3sum-variant-find-unique-triplets-summing-to-target
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/meta-merge-two-interval-lists
 Role Privilege System,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-08,https://trueinterview.io/questions/role-privilege-inheritance
 Job Scheduler with Cron / Pause / Resume,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-08,https://trueinterview.io/questions/job-scheduler-cron-pause-resume
 AI-Conducted Screening Interview,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/ai-conducted-screening
@@ -59,7 +59,7 @@ Marketing Touch Streak,SQL,Medium,Phone screen,New grad; Junior / Mid; Senior,1,
 Sum of the Node Values on a Binary Tree's Boundary,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07-04,https://trueinterview.io/questions/sum-of-the-node-values-on-a-binary-trees-boundary
 Find Every Three-Card Set Among Cards With Four Attributes,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07-04,https://trueinterview.io/questions/find-every-three-card-set-among-cards-with-four-attributes
 "Answer conflict, tight deadline, and mentorship prompts",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/answer-conflict-tight-deadline-and-mentorship-prompts
-Wiki Hopper: Crawl All Reachable Pages,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/fb29adba-08ba-5631-8405-02b39be6f187
+Wiki Hopper: Crawl All Reachable Pages,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/snowflake-wiki-hopper-crawl-all-reachable-pages
 Work Schedule,Algorithm,Medium,Online assessment,Junior / Mid,2,1,2026-07,https://trueinterview.io/questions/work-schedule
 Three-Color Map Coloring,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid,1,1,2026-07,https://trueinterview.io/questions/three-color-map-coloring
 Rewrite Tree With Subtree Sums,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/rewrite-tree-with-subtree-sums
@@ -76,23 +76,23 @@ Number Transformation Path,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-0
 Dynamic Blacklist Filter System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2026-06-17,https://trueinterview.io/questions/dynamic-blacklist-filter-system-ood
 Calculate Amount Paid in Taxes,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Junior / Mid,1,2,2026-06-17,https://trueinterview.io/questions/calculate-amount-paid-in-taxes
 Closest Cake and Global Assignment,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-06-10,https://trueinterview.io/questions/closest-cake-and-global-assignment
-Happy Number,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-06-08,https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9
+Happy Number,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-06-08,https://trueinterview.io/questions/snowflake-happy-number
 Max Credits with K Classes (Interval-Style),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06-07,https://trueinterview.io/questions/course-credit-max-k-classes
 Maximize Pipeline Throughput,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,0,2026-06-04,https://trueinterview.io/questions/oa-pipeline-throughput
 Reverse a String In Place (LC 344),Algorithm,Easy,Phone screen,Senior,3,0,2026-06,https://trueinterview.io/questions/reverse-string-in-place
 Maximum Throughput,Algorithm,Medium,Online assessment,New grad; Junior / Mid,4,7,2026-06,https://trueinterview.io/questions/maximum-throughput
-Sort Colors in a RecordCollection In-Place,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/6402ad69-f7b4-5827-a495-d1f675ef19eb
-Distance from Each 1 to the Nearest 2 in an Array,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4
-Maximum Number of Events That Can Be Attended II,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178
-Implement a JSON Parser,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c
+Sort Colors in a RecordCollection In-Place,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/snowflake-sort-colors-in-a-recordcollection-in-place
+Distance from Each 1 to the Nearest 2 in an Array,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/snowflake-distance-from-each-1-to-the-nearest-2-in-an-array
+Maximum Number of Events That Can Be Attended II,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/snowflake-maximum-number-of-events-that-can-be-attended-ii
+Implement a JSON Parser,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/snowflake-implement-a-json-parser
 "Design a Photo Album Backend: Upload Consistency, Deduplication and Scaling",System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid,1,0,2026-05-28,https://trueinterview.io/questions/design-a-photo-album-backend-upload-consistency-deduplication-and-scaling
 "Behavioral Stories on Ownership, Ambiguity, Deep Dives and Conflict",Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid,1,0,2026-05-28,https://trueinterview.io/questions/behavioral-stories-on-ownership-ambiguity-deep-dives-and-conflict
 Design Connect Four,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,3,1,2026-05-24,https://trueinterview.io/questions/board-game-ood
 Minimum Clicks Between Wiki Pages,Algorithm,Medium,Online assessment,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/solve-array-distance-and-wiki-navigation-minimum-clicks-between-wiki-pages
-Minimum Distance Between People and Cakes,Algorithm,Easy,Online assessment,Junior / Mid,2,0,2026-05,https://trueinterview.io/questions/787ed7cb-16c1-4605-a606-93dbbc22cb6c
+Minimum Distance Between People and Cakes,Algorithm,Easy,Online assessment,Junior / Mid,2,0,2026-05,https://trueinterview.io/questions/google-minimum-distance-between-people-and-cakes
 Design an RPC Abstraction Layer for REST APIs,System Design,Medium,Phone screen,Senior,1,0,2026-05,https://trueinterview.io/questions/design-an-rpc-abstraction-layer-for-rest-apis
-Root Equals Average of All Subtrees,Algorithm,Easy,Online assessment,Senior,1,0,2026-05,https://trueinterview.io/questions/aaea0cb6-4ce4-4788-a014-8b1c1f507bd9
-Handle Intervals When Input Is Not Sorted,Algorithm,Medium,Phone screen,Senior,1,1,2026-05,https://trueinterview.io/questions/995eacc5-16af-4b7a-abb8-945b784c90ac
+Root Equals Average of All Subtrees,Algorithm,Easy,Online assessment,Senior,1,0,2026-05,https://trueinterview.io/questions/snowflake-root-equals-average-of-all-subtrees
+Handle Intervals When Input Is Not Sorted,Algorithm,Medium,Phone screen,Senior,1,1,2026-05,https://trueinterview.io/questions/snowflake-handle-intervals-when-input-is-not-sorted
 Design Key-Value Store with Transactions,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-05,https://trueinterview.io/questions/design-key-value-store-with-transactions
 Time-Versioned Key-Value Store and Time-Window Event Counter,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-04-28,https://trueinterview.io/questions/time-versioned-key-value-store-and-time-window-event-counter
 Multithreaded Web Crawler with Retries for a Failing Fetch API,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-28,https://trueinterview.io/questions/multithreaded-web-crawler-with-retries-for-a-failing-fetch-api
@@ -144,16 +144,16 @@ S3-Style Storage with Dedup,System Design,Medium,Phone screen; Onsite / virtual 
 ML Job Scheduler,System Design,Medium,Onsite / virtual onsite,Senior,3,1,2025-11,https://trueinterview.io/questions/ml-job-scheduler
 Vowels Substring,Algorithm,Medium,Online assessment,New grad,1,0,2025-07-20,https://trueinterview.io/questions/vowels-substring
 Unequal Elements,Algorithm,Medium,Online assessment,New grad,1,0,2025-07-20,https://trueinterview.io/questions/unequal-elements
-Minimize Marbles in Grid,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-06,https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00
-Calculate Fibonacci Number,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216
-Simple TypeScript Program,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55
-Find Unique Number in Consecutive Pairs,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027
-Implement Trie with Non-Standard Alphabet,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712
-Determine if a Binary Tree is Perfect,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671
-Role-Based Access Control with Inheritance and Deny Rules,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/406c257a-cd8f-4c52-ba90-ea79a05da226
-Check Validity of Input String,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a
-Deployments Node Calculation,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/1ca38e96-972d-43d4-94bf-0358e19f7bd9
-Minimum Value Weight,Algorithm,Medium,Phone screen,New grad,1,0,2025-03,https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c
+Minimize Marbles in Grid,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-06,https://trueinterview.io/questions/snowflake-minimize-marbles-in-grid
+Calculate Fibonacci Number,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/snowflake-calculate-fibonacci-number
+Simple TypeScript Program,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/snowflake-simple-typescript-program
+Find Unique Number in Consecutive Pairs,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/snowflake-find-unique-number-in-consecutive-pairs
+Implement Trie with Non-Standard Alphabet,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/snowflake-implement-trie-with-non-standard-alphabet
+Determine if a Binary Tree is Perfect,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/snowflake-determine-if-a-binary-tree-is-perfect
+Role-Based Access Control with Inheritance and Deny Rules,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/snowflake-role-based-access-control-with-inheritance-and-deny-rules
+Check Validity of Input String,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/snowflake-check-validity-of-input-string
+Deployments Node Calculation,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/snowflake-deployments-node-calculation
+Minimum Value Weight,Algorithm,Medium,Phone screen,New grad,1,0,2025-03,https://trueinterview.io/questions/snowflake-minimum-value-weight
 Lead innovation and automate a critical process,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/lead-innovation-and-automate-a-critical-process
 Design and validate a cost-sensitive classifier,Algorithm,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-and-validate-a-cost-sensitive-classifier
 "Describe navigating ambiguous, repetitive questioning",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/describe-navigating-ambiguous-repetitive-questioning
@@ -162,9 +162,9 @@ Contrast FCF vs NI; choose one statement,Behavioral / Knowledge,,Phone screen,Ju
 Query seven-day conversion with windows and dedupe,SQL,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/query-seven-day-conversion-with-windows-and-dedupe
 Design an analytic warehouse for event data,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-an-analytic-warehouse-for-event-data
 Build a cohort dashboard with Streamlit and SQL,SQL,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/build-a-cohort-dashboard-with-streamlit-and-sql
-Get Perfect Pairs Count,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/b738f1a9-80bb-420c-b1e1-26d677279f90
-Determine Employees to Promote,Algorithm,Easy,Online assessment,Intern; New grad,1,0,,https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086
-Maximum Order Volume,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5
-Vowel Substring,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb
+Get Perfect Pairs Count,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/salesforce-get-perfect-pairs-count
+Determine Employees to Promote,Algorithm,Easy,Online assessment,Intern; New grad,1,0,,https://trueinterview.io/questions/snowflake-determine-employees-to-promote
+Maximum Order Volume,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/snowflake-maximum-order-volume
+Vowel Substring,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/snowflake-vowel-substring
 Tree Levels After Node Deletions,Algorithm,Hard,Phone screen,Junior / Mid,1,0,,https://trueinterview.io/questions/tree-levels-after-node-deletions
-Modified Knapsack Problem,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/e4d29efa-828d-4ebc-b3c6-c8e54ee8058f
+Modified Knapsack Problem,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/snowflake-modified-knapsack-problem

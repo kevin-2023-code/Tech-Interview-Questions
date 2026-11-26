@@ -27,7 +27,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Build an Auth0-based MCP Server (Hands-on)](https://trueinterview.io/questions/oa-mcp-auth0-server?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Online assessment | New grad | 1 | 0 | 2025-11-22 |
 | [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2025-11-05 |
 | [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2025-11-05 |
-| [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad, Junior / Mid | 1 | 0 | — |
+| [Unique Paths](https://trueinterview.io/questions/okta-unique-paths?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad, Junior / Mid | 1 | 0 | — |
 
 ---
 

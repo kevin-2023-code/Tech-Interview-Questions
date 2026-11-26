@@ -8,7 +8,7 @@
 | Algorithm | Hard | Oracle · ByteDance | Phone screen | greedy | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/oracle-valid-parenthesis-string)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -97,7 +97,7 @@ Clamp the lower bound at zero, fail immediately if the upper bound ever goes neg
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/oracle-valid-parenthesis-string), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -16,9 +16,9 @@ Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,Ne
 Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,3,0,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
 Implement and Explain a C++ Smart Pointer,Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-19,https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer
 Design an Autonomous-Vehicle Perception Pipeline,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-08-19,https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline
-3Sum Variant: Find Unique Triplets Summing to Target,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-08,https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
-Remove Duplicates from Sorted Array,Algorithm,Easy,Online assessment,New grad; Junior / Mid,4,4,2026-08,https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39
+3Sum Variant: Find Unique Triplets Summing to Target,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-08,https://trueinterview.io/questions/tradedesk-3sum-variant-find-unique-triplets-summing-to-target
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/meta-merge-two-interval-lists
+Remove Duplicates from Sorted Array,Algorithm,Easy,Online assessment,New grad; Junior / Mid,4,4,2026-08,https://trueinterview.io/questions/meta-remove-duplicates-from-sorted-array
 Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
 "Data Platform, Pipeline, and ML Operations Fundamentals",System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-07-03,https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals
 Telemetry Collector and GPU Utilization Dashboard,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-07-03,https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard
@@ -35,4 +35,4 @@ Stakeholder Alignment Story: Driving Cross-Functional Decisions Without Authorit
 Forecasting the next major shifts in the data industry and what they mean for products,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-03,https://trueinterview.io/questions/forecasting-the-next-major-shifts-in-the-data-industry-and-what-they-mean-for-products
 "Walk through the loss, offline and online metrics behind an ML model you worked on",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-02,https://trueinterview.io/questions/walk-through-the-loss-offline-and-online-metrics-behind-an-ml-model-you-worked-on
 "Plan How Raw Text Becomes LLM Training Data: Filtering, Dedup, Mixing, Evaluation",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-01,https://trueinterview.io/questions/plan-how-raw-text-becomes-llm-training-data-filtering-dedup-mixing-evaluation
-Maximum on Both Sides,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-06,https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998
+Maximum on Both Sides,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-06,https://trueinterview.io/questions/oracle-maximum-on-both-sides

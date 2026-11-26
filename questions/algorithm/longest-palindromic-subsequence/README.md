@@ -8,7 +8,7 @@
 | Algorithm | Hard | Microsoft | Phone screen | dynamic-programming | Dec 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/476e68bd-f245-4818-88e5-fc21d78ebda5)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/microsoft-longest-palindromic-subsequence)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -56,7 +56,7 @@ The time complexity should be O(n^2) and space can be optimized to O(n) using a 
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/476e68bd-f245-4818-88e5-fc21d78ebda5), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/microsoft-longest-palindromic-subsequence), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -8,7 +8,7 @@
 | Algorithm | Easy | Apple · Meta · Verkada | Phone screen | hashing | Jun 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/apple-valid-sudoku)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -101,7 +101,7 @@ The trickiest part is mapping cell indices to subgrid indices: use (row//3)*3 + 
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/apple-valid-sudoku), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

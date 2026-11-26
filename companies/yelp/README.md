@@ -13,7 +13,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 40 | 2026-10 |
-| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 10 | 22 | 2026-09 |
+| [Design Slack-like Chat System](https://trueinterview.io/questions/bytedance-design-slack-like-chat-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 10 | 22 | 2026-09 |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 16 | 0 | 2026-09 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Phone screen | Junior / Mid, Senior | 12 | 0 | 2026-09 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Junior / Mid, Senior, Staff+, Manager | 13 | 0 | 2026-09 |

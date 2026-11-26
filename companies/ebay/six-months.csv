@@ -5,9 +5,9 @@ Explain How Public-Key Encryption Works and Why It Is Secure,Behavioral / Knowle
 "ML Breadth: Bias-Variance, Normalization, Transformer Attention and the KV Cache",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/ml-breadth-bias-variance-normalization-transformer-attention-and-the-kv-cache
 Describe Your Most Challenging Machine Learning Project and Your Key Decisions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/describe-your-most-challenging-machine-learning-project-and-your-key-decisions
 Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,13,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
-Print Execution Order in a DAG and Detect Cycles,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a
+Print Execution Order in a DAG and Detect Cycles,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/bytedance-print-execution-order-in-a-dag-and-detect-cycles
 Course Schedule Cycle Detection,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,10,2026-10,https://trueinterview.io/questions/course-schedule-cycle-detection
-Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
 Optimizing BERT inference latency and throughput for a production NLP service,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-24,https://trueinterview.io/questions/optimizing-bert-inference-latency-and-throughput-for-a-production-nlp-service
 "Named entity recognition: framing, algorithm choice, data processing, and metrics",System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-24,https://trueinterview.io/questions/named-entity-recognition-framing-algorithm-choice-data-processing-and-metrics
 "Docker optimization, container fundamentals, and CI/CD for an ML model service",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-24,https://trueinterview.io/questions/docker-optimization-container-fundamentals-and-ci-cd-for-an-ml-model-service
@@ -17,19 +17,19 @@ Design fast query-to-listing retrieval over tens of millions of listings,System 
 "Make eBay Safer for Sellers: Prioritizing Fraud, Scam and Enforcement Fixes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/make-ebay-safer-for-sellers-prioritizing-fraud-scam-and-enforcement-fixes
 Answer senior behavioral questions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,7,2026-09,https://trueinterview.io/questions/answer-senior-behavioral-questions
 Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/charity-donation-system
-Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/bytedance-design-slack-like-chat-system
 Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,0,2026-09,https://trueinterview.io/questions/booking-system-design
 Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,12,0,2026-09,https://trueinterview.io/questions/design-tinyurl
 Describe Your Most Technically Difficult Project,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-08-26,https://trueinterview.io/questions/describe-your-most-technically-difficult-project
 Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,3,0,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
 Diagnosing Low Checkout Conversion on eBay and Choosing Fixes,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08-07,https://trueinterview.io/questions/diagnosing-low-checkout-conversion-on-ebay-and-choosing-fixes
-Number of Islands with Diagonal Connectivity,Algorithm,Medium,Phone screen,Senior,3,2,2026-08,https://trueinterview.io/questions/305f8037-56c2-58a9-bf48-7aa7f999f65a
+Number of Islands with Diagonal Connectivity,Algorithm,Medium,Phone screen,Senior,3,2,2026-08,https://trueinterview.io/questions/google-number-of-islands-with-diagonal-connectivity
 Longest Palindromic Substring,Algorithm,Medium,Phone screen,New grad; Senior,4,0,2026-08,https://trueinterview.io/questions/longest-palindromic-substring
 In-Flight Movie Pair (Two Sum Variant),Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,7,0,2026-08,https://trueinterview.io/questions/in-flight-movie-pair-two-sum
 Valid Number,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,2,2026-08,https://trueinterview.io/questions/lc-valid-number
 Getting Paid on eBay: Improving How Sellers Receive Their Sales Proceeds,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07-07,https://trueinterview.io/questions/getting-paid-on-ebay-improving-how-sellers-receive-their-sales-proceeds
-Chinese Chess Horse Reachability with Blocked Legs,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b
-Find the K Smallest Elements from Multiple Sorted Arrays,Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-07,https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4
+Chinese Chess Horse Reachability with Blocked Legs,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/ebay-chinese-chess-horse-reachability-with-blocked-legs
+Find the K Smallest Elements from Multiple Sorted Arrays,Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-07,https://trueinterview.io/questions/ebay-find-the-k-smallest-elements-from-multiple-sorted-arrays
 Obstacle Placement and Block Check,Algorithm,Hard,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-06-12,https://trueinterview.io/questions/obstacle-placement-and-block-check
 Max Matrix Border Distinct Sum,Algorithm,Medium,Online assessment,Intern; New grad,1,0,2026-06-12,https://trueinterview.io/questions/max-matrix-border-distinct-sum
 Match Cyclic Shift to Descending Sequence,Algorithm,Easy,Online assessment,Intern; New grad,1,0,2026-06-12,https://trueinterview.io/questions/match-cyclic-shift-to-descending-sequence
@@ -38,6 +38,6 @@ Find Matching Skeletons,Algorithm,Medium,Online assessment,Intern; New grad,1,0,
 Count and Flip Binary Operations,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-06-12,https://trueinterview.io/questions/count-and-flip-binary-operations
 Circular Storage Allocator,Object-Oriented Programming,Medium,Online assessment,Junior / Mid,1,0,2026-06-12,https://trueinterview.io/questions/circular-storage-allocator
 Design CICD System,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-06-11,https://trueinterview.io/questions/multi-tenant-ci-cd-workflow
-Find Pattern Matching Words,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/d680cb59-9cef-5307-9b68-cd74bc912b09
-Maximum on Both Sides,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-06,https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998
-Hash Map Counting / Lookup Problem,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-06,https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6
+Find Pattern Matching Words,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/ebay-find-pattern-matching-words
+Maximum on Both Sides,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,0,2026-06,https://trueinterview.io/questions/oracle-maximum-on-both-sides
+Hash Map Counting / Lookup Problem,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-06,https://trueinterview.io/questions/microsoft-hash-map-counting-lookup-problem

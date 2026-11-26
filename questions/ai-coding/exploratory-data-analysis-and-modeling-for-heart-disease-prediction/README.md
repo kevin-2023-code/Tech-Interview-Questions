@@ -8,7 +8,7 @@
 | AI Coding | Medium | Hudson River Trading | Onsite / virtual onsite | — | Mar 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/hudson-river-trading-exploratory-data-analysis-and-modeling-for-heart-disease)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
 
 ## Problem
 
@@ -89,7 +89,7 @@ The key trade-off is between model interpretability and accuracy, also watch for
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/hudson-river-trading-exploratory-data-analysis-and-modeling-for-heart-disease), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

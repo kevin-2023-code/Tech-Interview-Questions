@@ -14,7 +14,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Binary Tree Right Side View](algorithm/binary-tree-right-side-view/README.md) | Easy | ByteDance · Amazon · Google · Meta · Microsoft |
 | [Calculate Amount Paid in Taxes](algorithm/calculate-amount-paid-in-taxes/README.md) | Easy | Snowflake |
 | [Happy Number](algorithm/happy-number/README.md) | Easy | Snowflake · Apple |
-| [In-Flight Movie Pair (Two Sum Variant)](algorithm/in-flight-movie-pair-two-sum/README.md) | Easy | Amazon · Bloomberg · ByteDance · Ebay · Goldman Sachs |
+| [In-Flight Movie Pair (Two Sum Variant)](algorithm/in-flight-movie-pair-two-sum/README.md) | Easy | Amazon · Bloomberg · ByteDance · eBay · Goldman Sachs |
 | [Longest Substring Without Repeating Characters II](algorithm/longest-substring-without-repeating-characters/README.md) | Easy | Apple · Amazon · Bloomberg · ByteDance · Datadog |
 | [Lowest Common Ancestor of a Binary Tree](algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Easy | Uber · Amazon · Atlassian · ByteDance · Google |
 | [Meeting Rooms](algorithm/meeting-rooms-2/README.md) | Easy | Uber · Amazon · Bloomberg · Meta · Netflix |
@@ -30,7 +30,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Valid Sudoku](algorithm/valid-sudoku/README.md) | Easy | Apple · Meta · Verkada |
 | [Verifying an Alien Dictionary](algorithm/verifying-an-alien-dictionary/README.md) | Easy | Uber · Meta |
 | [Anagram Sentence Substitutions](algorithm/anagram-sentence-substitutions/README.md) | Medium | SoFi · Squarepoint |
-| [Assign Random Ads](algorithm/assign-random-ads/README.md) | Medium | Ebay |
+| [Assign Random Ads](algorithm/assign-random-ads/README.md) | Medium | eBay |
 | [Basic Calculator](algorithm/basic-calculator-2/README.md) | Medium | Netflix · ByteDance · Google · Instacart · Meta |
 | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](algorithm/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping/README.md) | Medium | Siemens |
 | [Best Time to Buy and Sell Stock IV](algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Medium | Meta · Amazon · Apple · Bloomberg · Goldman Sachs |
@@ -91,7 +91,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Kth Smallest Element in a BST (LC 230)](algorithm/kth-smallest-element-in-a-bst-2/README.md) | Medium | Amazon |
 | [Lexicographically Smallest String After Substring Operation](algorithm/lexicographically-smallest-string-after-substring-operation/README.md) | Medium | Point72 |
 | [Load Factor Calculation](algorithm/service-dependency-load-factor/README.md) | Medium | Robinhood |
-| [Longest Palindromic Substring](algorithm/longest-palindromic-substring/README.md) | Medium | Bloomberg · ByteDance · Cisco · Ebay |
+| [Longest Palindromic Substring](algorithm/longest-palindromic-substring/README.md) | Medium | Bloomberg · ByteDance · Cisco · eBay |
 | [Longest Repeating Character Replacement](algorithm/longest-repeating-character-replacement/README.md) | Medium | ByteDance · Apple · Microsoft · Pinduoduo |
 | [Longest Subarray with Bounded Diff](algorithm/phone-screen-longest-stable-subarray/README.md) | Medium | Uber |
 | [Longest Substring Without Repeating Characters](algorithm/longest-substring-without-repeating-characters-2/README.md) | Medium | Verkada · Amazon · ByteDance |
@@ -104,7 +104,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Merge N-ary Trees by Node Key](algorithm/coding-merge-nary-trees-by-key/README.md) | Medium | LinkedIn · Microsoft |
 | [Merge Two Binary Trees](algorithm/merge-two-binary-trees/README.md) | Medium | LinkedIn |
 | [Min Remove to Make Valid Parentheses](algorithm/min-remove-to-make-valid-parens/README.md) | Medium | Meta |
-| [Minimum Meeting Rooms](algorithm/minimum-meeting-rooms/README.md) | Medium | Ramp · Amazon · Bloomberg · ByteDance · Ebay |
+| [Minimum Meeting Rooms](algorithm/minimum-meeting-rooms/README.md) | Medium | Ramp · Amazon · Bloomberg · ByteDance · eBay |
 | [Minimum Window Substring](algorithm/minimum-window-substring/README.md) | Medium | Lyft · ByteDance · Meta |
 | [Modified Basic Calculator](algorithm/modified-basic-calculator/README.md) | Medium | Rokt · Instacart · WeRide |
 | [N-ary Tree Level Order Traversal](algorithm/n-ary-tree-level-order-traversal/README.md) | Medium | Uber |
@@ -126,7 +126,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Robot Bounded In Circle](algorithm/robot-bounded-in-circle/README.md) | Medium | Uber · Meta |
 | [Rotate Matrix with Gravity Effect](algorithm/rotate-matrix-with-gravity-effect/README.md) | Medium | Uber |
 | [Rotting Oranges](algorithm/rotting-oranges/README.md) | Medium | Uber · Amazon |
-| [Search in Rotated Sorted Array](algorithm/search-in-rotated-sorted-array/README.md) | Medium | ByteDance · Ebay · NVIDIA |
+| [Search in Rotated Sorted Array](algorithm/search-in-rotated-sorted-array/README.md) | Medium | ByteDance · eBay · NVIDIA |
 | [Search Suggestions System](algorithm/search-suggestions-system/README.md) | Medium | Citadel · Amazon |
 | [Serialize and Deserialize Binary Tree](algorithm/serialize-and-deserialize-binary-tree/README.md) | Medium | Apple · Amazon · ByteDance · Databricks · DoorDash |
 | [Service Shutdown / Topological Sort](algorithm/service-shutdown-topological-sort/README.md) | Medium | Amazon |
@@ -143,7 +143,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Time Based Key-Value Store](algorithm/time-based-key-value-store-2/README.md) | Medium | Uber · Amazon · ByteDance · Gusto · Microsoft |
 | [Top 10 Words](algorithm/top-10-frequent-words/README.md) | Medium | Robinhood |
 | [Top K Frequent Elements](algorithm/top-k-frequent-elements-3/README.md) | Medium | Uber · Amazon · ByteDance · Meta · Microsoft |
-| [Topological Sort / Course Schedule for Ads](algorithm/topological-sort-course-schedule-ads/README.md) | Medium | Netflix · Amazon · ByteDance · Ebay |
+| [Topological Sort / Course Schedule for Ads](algorithm/topological-sort-course-schedule-ads/README.md) | Medium | Netflix · Amazon · ByteDance · eBay |
 | [Trie Autocomplete / Prefix Search](algorithm/trie-autocomplete-prefix-search/README.md) | Medium | Pinterest · Google |
 | [Valid Palindrome II](algorithm/valid-palindrome-ii/README.md) | Medium | Meta · Microsoft |
 | [Validate Binary Search Tree](algorithm/validate-binary-search-tree/README.md) | Medium | Bloomberg · Amazon · ByteDance · Goldman Sachs · Lyft |

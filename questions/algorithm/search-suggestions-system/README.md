@@ -8,7 +8,7 @@
 | Algorithm | Medium | Citadel · Amazon | Phone screen | tries | Oct 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/citadel-search-suggestions-system)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -105,7 +105,7 @@ Alternatively, build a trie of products and walk down with the search word, coll
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/citadel-search-suggestions-system), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

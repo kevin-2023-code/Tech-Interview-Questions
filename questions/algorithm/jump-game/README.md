@@ -8,7 +8,7 @@
 | Algorithm | Medium | ByteDance · Google · Microsoft · Visa | Phone screen | greedy | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/bytedance-jump-game)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -73,7 +73,7 @@ The tricky edge case is when you encounter a zero that blocks progress, you need
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/bytedance-jump-game), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -5,10 +5,10 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Ebay | Phone screen, Onsite / virtual onsite | arrays, math | May 2026 |
+| Algorithm | Medium | eBay | Phone screen, Onsite / virtual onsite | arrays, math | May 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/ebay-assign-random-ads)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -126,11 +126,11 @@ The tricky part: after placing one ad, the pool of eligible candidates may shrin
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/ebay-assign-random-ads), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 
-[Ebay](../../../companies/ebay/README.md)
+[eBay](../../../companies/ebay/README.md)
 
 ---
 

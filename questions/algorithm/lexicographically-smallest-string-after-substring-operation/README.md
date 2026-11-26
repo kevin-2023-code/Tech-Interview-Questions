@@ -8,7 +8,7 @@
 | Algorithm | Medium | Point72 | Phone screen | greedy, strings | May 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/point72-lexicographically-smallest-string-after-substring-operation)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -79,7 +79,7 @@ Edge case: if the string consists entirely of 'a's, you must still apply the ope
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/point72-lexicographically-smallest-string-after-substring-operation), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

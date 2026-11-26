@@ -5,7 +5,7 @@ Path Between Two Nodes in a Preorder-Numbered Fibonacci Tree,Algorithm,Hard,Onsi
 Tic-Tac-Toe Game Logic With a Random-Move Computer Player,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-14,https://trueinterview.io/questions/tic-tac-toe-game-logic-with-a-random-move-computer-player
 Joining a New Team Overwhelmed by On-Call Fires: What Do You Do?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-14,https://trueinterview.io/questions/joining-a-new-team-overwhelmed-by-on-call-fires-what-do-you-do
 Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,3,4,2026-10,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
-Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,10,2026-10,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,10,2026-10,https://trueinterview.io/questions/uber-group-anagrams
 Design a Typeahead Search System,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-09-15,https://trueinterview.io/questions/design-a-typeahead-search-system
 "Forward Deployed Engineer Screen: Role Fit, Client Work and Databricks Projects",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/forward-deployed-engineer-screen-role-fit-client-work-and-databricks-projects
 "Single-Machine Cache with WAL Persistence, Sharded Locks and LRU",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-11,https://trueinterview.io/questions/single-machine-cache-with-wal-persistence-sharded-locks-and-lru
@@ -16,7 +16,7 @@ Design a Visa-Style Card Payment Processing System,System Design,Hard,Onsite / v
 First-Match CIDR Firewall: Status of an IP Address or a Whole CIDR Block,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/first-match-cidr-firewall-status-of-an-ip-address-or-a-whole-cidr-block
 Earliest Substring That Is a Rearrangement of a Pattern,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/earliest-substring-that-is-a-rearrangement-of-a-pattern
 "Design Retrieval for a Coding Agent: What to Index, Handling Noise, and Metrics",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-10,https://trueinterview.io/questions/design-retrieval-for-a-coding-agent-what-to-index-handling-noise-and-metrics
-Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,Intern; New grad,3,0,2026-09-10,https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e
+Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,Intern; New grad,3,0,2026-09-10,https://trueinterview.io/questions/bytedance-count-cyclic-rotation-pairs
 Motivation for joining Databricks as a product manager,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-07,https://trueinterview.io/questions/motivation-for-joining-databricks-as-a-product-manager
 Tic-Tac-Toe Against a Deterministic Automatic Opponent,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-06,https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent
 Referral Credit Tracker with Indirect Referrals,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,4,2026-09-06,https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals
@@ -25,10 +25,10 @@ Narrate your career history and job moves in a PM interview,Behavioral / Knowled
 Optimize least-k revenue queries for read/write load,System Design,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/optimize-least-k-revenue-queries-for-read-write-load
 Check if CIDR is fully canceled by rules,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/check-if-cidr-is-fully-canceled-by-rules
 Compute last-5-minute QPS in memory,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/compute-last-5-minute-qps-in-memory
-String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
-Count Encrypted Files in a Directory Tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/09691fdc-0417-5cb5-ba45-91a19e04f104
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/salesforce-string-anagram-windows
+Count Encrypted Files in a Directory Tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/databricks-count-encrypted-files-in-a-directory-tree
 File Encryption Tree Optimization,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/file-encryption-tree-optimization
-Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/bytedance-design-slack-like-chat-system
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
 Design Hit Counter with Variable Time Windows,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/design-hit-counter-with-variable-time-windows

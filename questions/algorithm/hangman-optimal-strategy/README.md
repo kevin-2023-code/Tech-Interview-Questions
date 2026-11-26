@@ -8,7 +8,7 @@
 | Algorithm | Hard | Dropbox | Phone screen | — | Mar 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/dropbox-hangman-optimal-strategy)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -86,7 +86,7 @@ The complexity target is O(N * L * 26) where N is number of words and L is word 
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/dropbox-hangman-optimal-strategy), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

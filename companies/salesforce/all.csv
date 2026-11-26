@@ -3,13 +3,13 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 Implement a Rate Limiter for CI Jobs Rather Than for API Requests,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/implement-a-rate-limiter-for-ci-jobs-rather-than-for-api-requests
 Behavioral: Collaborating Across Clashing Priorities and Working Styles,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10-16,https://trueinterview.io/questions/behavioral-collaborating-across-clashing-priorities-and-working-styles
 Hiring Manager + Behavioral Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/hm-and-bq-rounds
-Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,8,2026-10,https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec
+Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,8,2026-10,https://trueinterview.io/questions/microsoft-minimum-operations-to-transform-an-integer-using-2-i-steps
 Track Top-K Frequent Elements from an Unbounded Stream,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream
 Design an Idempotent Payment Processing Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform
-Implement Merge Sort and Explain Its Recursion Tree,Algorithm,Medium,Phone screen,Senior,1,1,2026-09,https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4
-Convert a Sorted Doubly Linked List to an In-Place Balanced BST,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7
-Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8
-String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
+Implement Merge Sort and Explain Its Recursion Tree,Algorithm,Medium,Phone screen,Senior,1,1,2026-09,https://trueinterview.io/questions/salesforce-implement-merge-sort-and-explain-its-recursion-tree
+Convert a Sorted Doubly Linked List to an In-Place Balanced BST,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/salesforce-convert-a-sorted-doubly-linked-list-to-an-in-place-balanced-bst
+Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/salesforce-print-all-parent-keys-in-a-nested-map
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/salesforce-string-anagram-windows
 Coffee Ordering System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/coffee-ordering-system
 Maximum Requests in a Time Window,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/maximum-requests-in-time-window
 Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,12,0,2026-09,https://trueinterview.io/questions/design-tinyurl
@@ -28,9 +28,9 @@ Design a tenant-isolated system to replicate large recordings to per-customer da
 Prioritizing a Deal-Blocking Enterprise Request Against a Committed Roadmap,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-06,https://trueinterview.io/questions/prioritizing-a-deal-blocking-enterprise-request-against-a-committed-roadmap
 Product Safety Crisis: Containing Harm After a Defect Endangers Children,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-05,https://trueinterview.io/questions/product-safety-crisis-containing-harm-after-a-defect-endangers-children
 "Incident Leadership for PMs: Restore, Communicate and Prevent After a Global Outage",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-05,https://trueinterview.io/questions/incident-leadership-for-pms-restore-communicate-and-prevent-after-a-global-outage
-Diameter of an Acyclic Undirected Graph,Algorithm,Medium,Phone screen,Senior,1,1,2026-08,https://trueinterview.io/questions/a43fc01e-fd8b-5a89-b87c-d2b5aa8f84ca
-Path Sum in a Binary Tree,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/47b63952-31a7-5519-a5d6-16d0eecff233
-Determine Whether a Date Falls on a Weekend,Algorithm,Easy,Online assessment,New grad,1,1,2026-08,https://trueinterview.io/questions/4445f526-42ef-5256-bc53-b6614133cfc3
+Diameter of an Acyclic Undirected Graph,Algorithm,Medium,Phone screen,Senior,1,1,2026-08,https://trueinterview.io/questions/salesforce-diameter-of-an-acyclic-undirected-graph
+Path Sum in a Binary Tree,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/salesforce-path-sum-in-a-binary-tree
+Determine Whether a Date Falls on a Weekend,Algorithm,Easy,Online assessment,New grad,1,1,2026-08,https://trueinterview.io/questions/salesforce-determine-whether-a-date-falls-on-a-weekend
 Average Deal Size,SQL,Easy,Phone screen,Intern; New grad; Junior / Mid,1,0,2026-07-26,https://trueinterview.io/questions/average-deal-size
 Optimal Account Balancing (LeetCode 465),Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/optimal-account-balancing
 "Delete One Character Type, Minimize Unique-Character Segments",Algorithm,Medium,Online assessment,New grad,1,0,2026-07-25,https://trueinterview.io/questions/delete-character-minimize-unique-segments
@@ -44,12 +44,12 @@ Building a Visibility Plan So the Right Customers Learn About Your Product,Behav
 Protecting Roadmap Commitments After a 10% Engineering Budget Reduction,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-10,https://trueinterview.io/questions/protecting-roadmap-commitments-after-a-10percent-engineering-budget-reduction
 Planning Data Integration and Governance After a Healthcare Acquisition,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-10,https://trueinterview.io/questions/planning-data-integration-and-governance-after-a-healthcare-acquisition
 Phasing an 18-Month Product Build to Stay Competitive in the Meantime,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-10,https://trueinterview.io/questions/phasing-an-18-month-product-build-to-stay-competitive-in-the-meantime
-Order a Nearly Sorted UDP Packet Stream,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/0a8df541-f4ba-5b5d-9256-54c178f3c866
-Finding the Longest Increasing Subsequence,Algorithm,Hard,Phone screen,Junior / Mid,3,0,2026-07,https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e
+Order a Nearly Sorted UDP Packet Stream,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/salesforce-order-a-nearly-sorted-udp-packet-stream
+Finding the Longest Increasing Subsequence,Algorithm,Hard,Phone screen,Junior / Mid,3,0,2026-07,https://trueinterview.io/questions/bytedance-finding-the-longest-increasing-subsequence
 Minimum Knight Moves,Algorithm,Medium,Online assessment,Senior,3,1,2026-07,https://trueinterview.io/questions/minimum-knight-moves
 Campaign Cost Weekly Partition,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-06-22,https://trueinterview.io/questions/campaign-cost-weekly-partition
 Walk through your hands-on Agile and Scrum experience as a product manager,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06-01,https://trueinterview.io/questions/walk-through-your-hands-on-agile-and-scrum-experience-as-a-product-manager
-Split Array into K Parts with Minimum Sum of Maxima,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/54c46fcb-af9b-4954-80f6-8f6bd2449d00
+Split Array into K Parts with Minimum Sum of Maxima,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/salesforce-split-array-into-k-parts-with-minimum-sum-of-maxima
 Walk Through the Architecture of the Project You Work on Now,System Design,Easy,Onsite / virtual onsite,Senior; Staff+,1,0,2026-05-06,https://trueinterview.io/questions/walk-through-the-architecture-of-the-project-you-work-on-now
 "Hiring Manager Round: Current Work, Motivation for Salesforce and Keeping Up with AI",Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-05-06,https://trueinterview.io/questions/hiring-manager-round-current-work-motivation-for-salesforce-and-keeping-up-with-ai
 Going Above and Beyond: Helping Others and Exceeding What Was Expected,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-05-06,https://trueinterview.io/questions/going-above-and-beyond-helping-others-and-exceeding-what-was-expected
@@ -87,38 +87,38 @@ Judging Whether a User Story Is Ready for Development: A PM Readiness Checklist,
 Flatten Nested JSON / HashMap to String,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01-11,https://trueinterview.io/questions/flatten-nested-json
 Design a High-Throughput Distributed Cache,System Design,Hard,Onsite / virtual onsite,Senior,1,1,2026-01-09,https://trueinterview.io/questions/high-throughput-cache-design
 Design an Async Job / Task System,System Design,Hard,Onsite / virtual onsite,Senior,1,1,2026-01-09,https://trueinterview.io/questions/async-job-task-system
-Top K Points,Algorithm,Easy,Online assessment,Senior,1,0,2026-01,https://trueinterview.io/questions/259d81a6-4969-4ebb-9aaa-7c6466a0845f
-Array In-place Operation,Algorithm,Medium,Phone screen,Senior,1,0,2026-01,https://trueinterview.io/questions/06fbe208-64a6-4400-bc7c-97344d2775a9
+Top K Points,Algorithm,Easy,Online assessment,Senior,1,0,2026-01,https://trueinterview.io/questions/salesforce-top-k-points
+Array In-place Operation,Algorithm,Medium,Phone screen,Senior,1,0,2026-01,https://trueinterview.io/questions/salesforce-array-in-place-operation
 Binary String Synchronous '01' → '10' Replacement,Algorithm,Hard,Online assessment,New grad,1,0,2025-12-25,https://trueinterview.io/questions/binary-string-01-10-swap
 Array Left / Right Duplicate Check (Binary Strings),Algorithm,Easy,Online assessment,New grad,1,0,2025-12-25,https://trueinterview.io/questions/array-left-right-duplicate-check
 Solve array duplicate flags and binary swaps,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2025-12-17,https://trueinterview.io/questions/solve-array-duplicate-flags-and-binary-swaps
-Binary String 01 to 10 swap,Algorithm,Medium,Phone screen,New grad,1,1,2025-12,https://trueinterview.io/questions/b997e44e-31ce-42c6-aee6-e8489a0fa721
+Binary String 01 to 10 swap,Algorithm,Medium,Phone screen,New grad,1,1,2025-12,https://trueinterview.io/questions/salesforce-binary-string-01-to-10-swap
 Design Elevator Control System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,1,2025-12,https://trueinterview.io/questions/design-elevator-control-system
 Maximal Square and Rectangle in Binary Matrix,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Senior,3,0,2025-11-26,https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix
-Min Elements to Remove to Make Almost Sorted Array,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-06,https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c
-Get Max Efficiency,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/f17bf4e8-5c3c-440a-8223-2134aa4a4837
-Minimum Meeting Rooms Required with Capacity Constraints,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/f0d3360e-1035-46b3-8e10-09e89e4ab244
-Get Node To Remove,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/ed5d75fb-ab61-493a-8093-c5164fc7d293
-Closest Subsequence Sum,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/e9880a2b-029f-49f6-a615-5b2d2cdffd0b
-Get Minimum Development Time,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/e64f4fa1-217d-4ff6-85b7-5c85831e650a
-Construct Winning Sequence,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/e5dec594-f0c4-4845-ac11-ebd1eb19f8bb
-Count Minimum Operations to Reduce Dimensions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/cc2c75bb-7c0e-4c06-b29b-79893b26fd7a
-Find Minimum Idleness,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/b08f5fe9-fac6-4eb6-bed8-55c09b0b46fe
-Plan Cuts,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/ab773d52-94f1-4fd6-bfab-5f1fd5b30525
-Find Words in String Not in Subsequence,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/a21005a4-c9a6-4555-bd24-9a18d77c05d6
-Max Number of Operations,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/9199cd77-9bb2-415d-b4ba-0e50f824e949
-Most Visited Marker in Sprint Training,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/65f00d0c-3f95-41c3-9de7-a7efa08dfd1f
-Get Special Substring (MTS),Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/5e82414b-11b4-4b76-93fc-3ab5dc368f3e
-Minimize Length of Longest Substring,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/58c4ff99-6edc-4bf8-a18a-33ee1f085852
-Spam Classification,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/32ae8ac4-07db-42b6-9ace-a99f3b13c4ed
-Get Minimum Time,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/274c3410-898b-43e4-87b6-61c76b6bf2da
-Count Numbers with Unique Digits,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/24b829ff-76e9-4eeb-a1b5-bbfea0437c4e
-Get Maximum Sum of Strengths,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/229ffa68-8eb3-41a4-aae7-64d9770c15d1
-Count Substrings,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/21669f8d-7109-4bd6-b4ef-893f0a606e5b
-Tool Changer,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/1b6c9c29-7ec9-404a-9861-0b75a31d9dd5
-Schedule Batch Difference,Algorithm,Easy,Online assessment,Intern; New grad,1,0,,https://trueinterview.io/questions/196f56f0-c674-4d5d-b2f4-8e5f97f8e0c1
-Bit Pattern (MTS),Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/14c1b63f-b5bf-4cec-9ee7-4e5c54e8b2b5
-Find Missing and Duplicate Number in an Array,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/0d030286-48a6-45c2-8f5d-d66af3b65f86
-Min Cost to Complete All Projects,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/08ff536a-d720-46c5-be65-d1ae3443bead
-Get Perfect Pairs Count,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/b738f1a9-80bb-420c-b1e1-26d677279f90
-Minimize Path Value,Algorithm,Hard,Phone screen,Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d
+Min Elements to Remove to Make Almost Sorted Array,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-06,https://trueinterview.io/questions/salesforce-min-elements-to-remove-to-make-almost-sorted-array
+Get Max Efficiency,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-get-max-efficiency
+Minimum Meeting Rooms Required with Capacity Constraints,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-minimum-meeting-rooms-required-with-capacity-constraints
+Get Node To Remove,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-get-node-to-remove
+Closest Subsequence Sum,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-closest-subsequence-sum
+Get Minimum Development Time,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-get-minimum-development-time
+Construct Winning Sequence,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-construct-winning-sequence
+Count Minimum Operations to Reduce Dimensions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-count-minimum-operations-to-reduce-dimensions
+Find Minimum Idleness,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-find-minimum-idleness
+Plan Cuts,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-plan-cuts
+Find Words in String Not in Subsequence,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/salesforce-find-words-in-string-not-in-subsequence
+Max Number of Operations,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-max-number-of-operations
+Most Visited Marker in Sprint Training,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/salesforce-most-visited-marker-in-sprint-training
+Get Special Substring (MTS),Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-get-special-substring-mts
+Minimize Length of Longest Substring,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-minimize-length-of-longest-substring
+Spam Classification,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/salesforce-spam-classification
+Get Minimum Time,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-get-minimum-time
+Count Numbers with Unique Digits,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/salesforce-count-numbers-with-unique-digits
+Get Maximum Sum of Strengths,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-get-maximum-sum-of-strengths
+Count Substrings,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-count-substrings
+Tool Changer,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/salesforce-tool-changer
+Schedule Batch Difference,Algorithm,Easy,Online assessment,Intern; New grad,1,0,,https://trueinterview.io/questions/salesforce-schedule-batch-difference
+Bit Pattern (MTS),Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/salesforce-bit-pattern-mts
+Find Missing and Duplicate Number in an Array,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/salesforce-find-missing-and-duplicate-number-in-an-array
+Min Cost to Complete All Projects,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/salesforce-min-cost-to-complete-all-projects
+Get Perfect Pairs Count,Algorithm,Medium,Phone screen,Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/salesforce-get-perfect-pairs-count
+Minimize Path Value,Algorithm,Hard,Phone screen,Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/palantir-minimize-path-value

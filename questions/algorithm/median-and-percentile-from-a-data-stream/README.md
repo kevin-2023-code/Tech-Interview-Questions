@@ -8,7 +8,7 @@
 | Algorithm | Hard | StackAdapt | Phone screen | heap | Aug 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/stackadapt-median-and-percentile-from-a-data-stream)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -101,7 +101,7 @@ Aim for O(log n) per insertion and O(1) per query, the tricky part is the rebala
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/stackadapt-median-and-percentile-from-a-data-stream), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

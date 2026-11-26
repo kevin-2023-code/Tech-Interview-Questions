@@ -8,7 +8,7 @@
 | Object-Oriented Programming | Medium | Capital One | Onsite / virtual onsite | — | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/capital-one-banking-system-with-transaction-activity)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -141,7 +141,7 @@ Watch the edge cases: invalid amounts, unknown or duplicate account ids, insuffi
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/capital-one-banking-system-with-transaction-activity), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -8,7 +8,7 @@
 | Algorithm | Hard | Meta · Apple | Phone screen | graphs | — |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/meta-all-nodes-distance-k-in-binary-tree)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -74,7 +74,7 @@ The tricky part is handling the parent connections, you may need to build a pare
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/meta-all-nodes-distance-k-in-binary-tree), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

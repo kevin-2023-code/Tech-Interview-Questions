@@ -8,7 +8,7 @@
 | Object-Oriented Programming | Medium | Anthropic | Phone screen, Onsite / virtual onsite | hashing, backtracking | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/anthropic-find-duplicate-files)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -104,7 +104,7 @@ Target O(N) total I/O reads of each file’s content once, and watch for very la
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/anthropic-find-duplicate-files), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -8,7 +8,7 @@
 | Algorithm | Hard | Meta · Snapchat | Phone screen | dynamic-programming | May 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/meta-longest-increasing-path-in-a-matrix)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -73,7 +73,7 @@ The complexity target is O(n * m) for an n×m matrix, as each cell's result is c
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/meta-longest-increasing-path-in-a-matrix), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

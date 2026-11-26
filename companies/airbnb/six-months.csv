@@ -1,8 +1,8 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Progressive Banking System,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-10-14,https://trueinterview.io/questions/oa-banking-system-2
 Parcel Attribute Store,Object-Oriented Programming,Medium,Online assessment,New grad,1,1,2026-10-09,https://trueinterview.io/questions/oa-parcel-attribute-store
-"Banking System with Scheduled Transfers, Account Merging, and Historical Balances",Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/dad943ab-9cb2-5f6d-b78f-86ca2ee971b1
-Workspace Credit Ledger with Scheduled Transfers,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad,1,0,2026-10,https://trueinterview.io/questions/4c1be592-b2c7-59dc-a159-34b0311bed57
+"Banking System with Scheduled Transfers, Account Merging, and Historical Balances",Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/airbnb-banking-system-with-scheduled-transfers-account-merging-and-historical
+Workspace Credit Ledger with Scheduled Transfers,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad,1,0,2026-10,https://trueinterview.io/questions/airbnb-workspace-credit-ledger-with-scheduled-transfers
 Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,9,4,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
 Project Deep Dive (Resume Drill),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,4,82,2026-10,https://trueinterview.io/questions/project-deep-dive-round
 Presenting Your Track Record Building Consumer-Facing Products,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-30,https://trueinterview.io/questions/presenting-your-track-record-building-consumer-facing-products
@@ -19,12 +19,12 @@ Calculate the Median House Price in Each City,SQL,Medium,Onsite / virtual onsite
 Rank Home Search Results Without a Text Query,System Design,Hard,Onsite / virtual onsite,Senior,1,2,2026-09-04,https://trueinterview.io/questions/rank-home-search-results-without-a-text-query
 Generate Customer-Support Instructions from Company Policies,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09-04,https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies
 "Explain ML Project Milestones, Scope, and Conflict",Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,2,2026-09-04,https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict
-Task Management System with Expiring Assignments and Overdue Tracking,Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,5,2026-09,https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5
-In-Memory Banking Operations and Top Spenders,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad,1,1,2026-09,https://trueinterview.io/questions/32eeca63-68b5-5a27-860d-9f9f64a2ed19
-Calculate Page Dwell Time from Event Logs,SQL,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/12a384fe-ebda-5785-9cdb-d8adeff5e3ce
-Median Home Price by City,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/0c07a7e2-8538-52ad-a790-8c1ca6621996
-Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
-Dependency Resolution / Build Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,7,2026-09,https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e
+Task Management System with Expiring Assignments and Overdue Tracking,Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,5,2026-09,https://trueinterview.io/questions/airbnb-task-management-system-with-expiring-assignments-and-overdue-tracking
+In-Memory Banking Operations and Top Spenders,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad,1,1,2026-09,https://trueinterview.io/questions/airbnb-in-memory-banking-operations-and-top-spenders
+Calculate Page Dwell Time from Event Logs,SQL,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/airbnb-calculate-page-dwell-time-from-event-logs
+Median Home Price by City,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/airbnb-median-home-price-by-city
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/bytedance-design-slack-like-chat-system
+Dependency Resolution / Build Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,7,2026-09,https://trueinterview.io/questions/airbnb-dependency-resolution-build-order
 Hiring Manager Screen,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/hiring-manager-screen
 Core Values Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,12,2026-09,https://trueinterview.io/questions/core-values-bq-round
 Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,0,2026-09,https://trueinterview.io/questions/booking-system-design
@@ -36,17 +36,17 @@ Design Google Calendar,System Design,Medium,Onsite / virtual onsite,Senior,3,0,2
 In-Memory Object Manager,Object-Oriented Programming,Medium,Online assessment,Junior / Mid,1,0,2026-08-28,https://trueinterview.io/questions/oa-object-manager-prefix-ttl
 Airbnb Product Design: Helping Guests Discover Stays That Fit Their Trip,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08-24,https://trueinterview.io/questions/airbnb-product-design-helping-guests-discover-stays-that-fit-their-trip
 Working Hours Register,Object-Oriented Programming,Hard,Online assessment,New grad,1,0,2026-08-17,https://trueinterview.io/questions/oa-working-hours-register
-Add Bold Tag in String,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-08,https://trueinterview.io/questions/e789ba6a-1b50-51dd-ba78-d8f46de2895f
-Maximum Concurrent Bookings,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/b208c108-7a27-5f46-82c2-ffe1a121c692
-FIFO Order Allocator,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/a806c5ff-dc75-5b79-b259-9d5ba25d4b21
-Banking System - Basic Account Operations,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad,1,0,2026-08,https://trueinterview.io/questions/76426ad8-4d47-53ba-b232-1d99030c03c9
-Cloud Storage System: User File Backup and Restore,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad,1,0,2026-08,https://trueinterview.io/questions/690b16ad-17a7-59cd-bb53-da0fa03cbc8d
+Add Bold Tag in String,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-08,https://trueinterview.io/questions/airbnb-add-bold-tag-in-string
+Maximum Concurrent Bookings,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/airbnb-maximum-concurrent-bookings
+FIFO Order Allocator,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/airbnb-fifo-order-allocator
+Banking System - Basic Account Operations,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad,1,0,2026-08,https://trueinterview.io/questions/airbnb-banking-system-basic-account-operations
+Cloud Storage System: User File Backup and Restore,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad,1,0,2026-08,https://trueinterview.io/questions/airbnb-cloud-storage-system-user-file-backup-and-restore
 Find Median In Large Array,Algorithm,Medium,Phone screen,Junior / Mid,3,0,2026-08,https://trueinterview.io/questions/find-median-in-large-array-2
 Text Box Formatter,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/text-box-formatter
 Code Review — Multi-PR Walkthrough,AI Coding,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,8,2026-08,https://trueinterview.io/questions/code-review-multi-pr
-URL Parser with Percent Unquote,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/b8f2f270-a472-5c0c-927b-883b8fa80722
-Tag Matching and Annotation with Pattern Priority,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/66c19222-268a-55ae-80db-62d14d9ad56c
-Mouse and Cheese,Algorithm,Medium,Phone screen,Junior / Mid,2,3,2026-08,https://trueinterview.io/questions/a960bd9c-a967-4226-8ce4-63f20024cb31
+URL Parser with Percent Unquote,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/airbnb-url-parser-with-percent-unquote
+Tag Matching and Annotation with Pattern Priority,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/airbnb-tag-matching-and-annotation-with-pattern-priority
+Mouse and Cheese,Algorithm,Medium,Phone screen,Junior / Mid,2,3,2026-08,https://trueinterview.io/questions/meta-mouse-and-cheese
 Highlight Phrases in Review,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid,1,3,2026-08,https://trueinterview.io/questions/review-token-replace
 Chain Booking — Max Cascading Reservations,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,2,2026-08,https://trueinterview.io/questions/chain-booking-cascade
 Build Smallest Number,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,5,2026-08,https://trueinterview.io/questions/smallest-permutation-bound
@@ -60,12 +60,12 @@ Matching Rental Amenities,SQL,Easy,Phone screen,New grad; Junior / Mid; Senior,1
 Design an A/B Testing Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid,1,1,2026-07,https://trueinterview.io/questions/design-an-a-b-testing-platform-3
 Solve a Two-by-Three Sliding Puzzle,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/solve-a-two-by-three-sliding-puzzle
 Flatten a Nested Integer List,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/flatten-a-nested-integer-list
-Consecutive Sum (Financial Engineer Intern),Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-07,https://trueinterview.io/questions/7947d7b9-43db-4be6-afc3-72097636a793
+Consecutive Sum (Financial Engineer Intern),Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-07,https://trueinterview.io/questions/bloomberg-consecutive-sum-financial-engineer-intern
 Fill Layover With Experiences,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,3,2026-06-26,https://trueinterview.io/questions/layover-experiences-exact-fill
 Six-Month Airbnb Roadmap: Choosing a Guest or Host Problem and Measuring Impact,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-06-20,https://trueinterview.io/questions/six-month-airbnb-roadmap-choosing-a-guest-or-host-problem-and-measuring-impact
 Plan a Threefold Increase in Airbnb's New-User Acquisition,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06-18,https://trueinterview.io/questions/plan-a-threefold-increase-in-airbnbs-new-user-acquisition
 Design Customer Support Ticketing System,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-06-17,https://trueinterview.io/questions/ticket-routing-system-design
 "Boxes, Keys & Candies",Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2026-06-02,https://trueinterview.io/questions/boxes-keys-candies-ood
-Minimum Purchases to Fill an Exact Target Amount,Algorithm,Medium,Phone screen,New grad,1,0,2026-06,https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888
+Minimum Purchases to Fill an Exact Target Amount,Algorithm,Medium,Phone screen,New grad,1,0,2026-06,https://trueinterview.io/questions/airbnb-minimum-purchases-to-fill-an-exact-target-amount
 Maximum Ski Score,Algorithm,Medium,Onsite / virtual onsite,New grad,1,0,2026-06,https://trueinterview.io/questions/ski-path-max-score-dag
 Design an Airbnb Feature Powered by an External Partner API,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-05-30,https://trueinterview.io/questions/design-an-airbnb-feature-powered-by-an-external-partner-api

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Amazon · Bloomberg · ByteDance · Ebay · Goldman Sachs · Meta · +1 | Onsite / virtual onsite | arrays, hashing | Aug 2026 |
+| Algorithm | Easy | Amazon · Bloomberg · ByteDance · eBay · Goldman Sachs · Meta · +1 | Onsite / virtual onsite | arrays, hashing | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/in-flight-movie-pair-two-sum)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -90,7 +90,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Ebay](../../../companies/ebay/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md) · [Meta](../../../companies/meta/README.md) · [WeRide](../../../companies/weride/README.md)
+[Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [eBay](../../../companies/ebay/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md) · [Meta](../../../companies/meta/README.md) · [WeRide](../../../companies/weride/README.md)
 
 ---
 

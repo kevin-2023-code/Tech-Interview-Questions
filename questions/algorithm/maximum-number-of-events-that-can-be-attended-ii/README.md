@@ -8,7 +8,7 @@
 | Algorithm | Hard | Snowflake | Phone screen | dynamic-programming | Jun 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/snowflake-maximum-number-of-events-that-can-be-attended-ii)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -64,7 +64,7 @@ For each event, either skip it or take it and add its value to the best dp for e
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/snowflake-maximum-number-of-events-that-can-be-attended-ii), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -13,36 +13,36 @@ Design Idempotent In-App Availability and Due-Date Notifications,System Design,M
 Reserve Cart Inventory Without Overselling,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-07,https://trueinterview.io/questions/reserve-cart-inventory-without-overselling
 Discuss an Interesting Project and a Deployment Mistake,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-06,https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake
 Calculate a Basket Total from Delimited Product Records,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-06,https://trueinterview.io/questions/calculate-a-basket-total-from-delimited-product-records
-Task Management System with Expiring Assignments and Overdue Tracking,Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,5,2026-09,https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5
+Task Management System with Expiring Assignments and Overdue Tracking,Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,5,2026-09,https://trueinterview.io/questions/airbnb-task-management-system-with-expiring-assignments-and-overdue-tracking
 Basic Calculator I / II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/basic-calculator-i-ii
 Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,0,2026-09,https://trueinterview.io/questions/basic-calculator-2
 Design Delivery-Time Prediction with a Cold-Start Plan,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-07-15,https://trueinterview.io/questions/design-delivery-time-prediction-with-a-cold-start-plan
 Design an Advertising Ranking Pipeline beyond Calibration,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-07-15,https://trueinterview.io/questions/design-an-advertising-ranking-pipeline-beyond-calibration
 Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,5,0,2026-07,https://trueinterview.io/questions/ml-system-design-notifications-ctr
-Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
+Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/ramp-banking-system-with-payments-and-account-merging
 Full-Stack AI-Pairing Assessment,AI Coding,Hard,Online assessment; Take-home,Junior / Mid; Senior,1,3,2026-06-22,https://trueinterview.io/questions/full-stack-ai-assessment
-Debug the Library Dashboard Metrics (FastAPI),AI Coding,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/188b0a14-9295-5582-85d5-f77c1ac6826e
-Design and Implement Idempotent Library Notifications for Due Dates and Holds,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/7d71a4ee-7826-5c5d-97ec-af7be9f3fc39
-Fix Backend Filtering for Book Search Results,Algorithm,Easy,Online assessment,Senior,1,0,2026-06,https://trueinterview.io/questions/f622c3ca-f863-55e1-bc76-4e83354abd22
-Implement Search and Filter UI for a Library Management Table,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06,https://trueinterview.io/questions/13842aa8-073d-57c3-8665-473866727b81
+Debug the Library Dashboard Metrics (FastAPI),AI Coding,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/instacart-debug-the-library-dashboard-metrics-fastapi
+Design and Implement Idempotent Library Notifications for Due Dates and Holds,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/instacart-design-and-implement-idempotent-library-notifications-for-due-dates
+Fix Backend Filtering for Book Search Results,Algorithm,Easy,Online assessment,Senior,1,0,2026-06,https://trueinterview.io/questions/instacart-fix-backend-filtering-for-book-search-results
+Implement Search and Filter UI for a Library Management Table,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06,https://trueinterview.io/questions/instacart-implement-search-and-filter-ui-for-a-library-management-table
 Max Adjacent Stock Price Change,Algorithm,Easy,Phone screen,Junior / Mid,1,0,2026-05-27,https://trueinterview.io/questions/karat-stock-price-change
 Instacart Product Sense: Design a New Offering for Its Business Users,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-09,https://trueinterview.io/questions/instacart-product-sense-design-a-new-offering-for-its-business-users
-Decode Password from File,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/f8add70b-e695-4d00-b0db-7a7b6aa7646c
-Design A Personalized Search Ranking System,System Design,Medium,Onsite / virtual onsite,Senior,6,3,2026-05,https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d
-Find Minimal Shoppers,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/bf1e0319-2d75-436c-99b9-4ff2b4c85911
+Decode Password from File,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/instacart-decode-password-from-file
+Design A Personalized Search Ranking System,System Design,Medium,Onsite / virtual onsite,Senior,6,3,2026-05,https://trueinterview.io/questions/instacart-design-a-personalized-search-ranking-system
+Find Minimal Shoppers,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/instacart-find-minimal-shoppers
 Expression Evaluation with Variables,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-05,https://trueinterview.io/questions/onsite-expression-evaluation-with-variables
 Design Online Product Catalog,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-04-23,https://trueinterview.io/questions/system-design-product-catalog
 Bus Simulation Codebase,AI Coding,Medium,Onsite / virtual onsite,Junior / Mid,1,3,2026-04-23,https://trueinterview.io/questions/karat-ai-bus-simulation-codebase
 In-Memory Key-Value Store,Object-Oriented Programming,Medium,Online assessment,Junior / Mid; Senior,1,0,2026-04-23,https://trueinterview.io/questions/oa-in-memory-key-value-store
 File Matrix Lookup,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-04,https://trueinterview.io/questions/onsite-file-matrix-lookup
 Design Instacart Inventory System,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2026-03-02,https://trueinterview.io/questions/system-design-inventory-management
-Count Subarrays With Alternating Parity (Odd/Even) Including Negatives,Algorithm,Medium,Phone screen,Junior / Mid,2,1,2026-03,https://trueinterview.io/questions/8babc81e-6a75-4bc6-b67e-d7f11327c8e8
+Count Subarrays With Alternating Parity (Odd/Even) Including Negatives,Algorithm,Medium,Phone screen,Junior / Mid,2,1,2026-03,https://trueinterview.io/questions/instacart-count-subarrays-with-alternating-parity-odd-even-including-negatives
 PM behavioral: a piece of feedback you acted on and what changed afterward,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,6,0,2026-02-06,https://trueinterview.io/questions/pm-behavioral-a-piece-of-feedback-you-acted-on-and-what-changed-afterward
 Describe cross-team collaboration approach,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-02,https://trueinterview.io/questions/describe-cross-team-collaboration-approach
 Worker Attendance & Payroll,Object-Oriented Programming,Medium,Online assessment,New grad,1,1,2026-01-26,https://trueinterview.io/questions/oa-worker-attendance-payroll
 Investigate marketplace metrics and experiment rollout,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-12-18,https://trueinterview.io/questions/investigate-marketplace-metrics-and-experiment-rollout
 "Measuring Google Flights: North Star, Search-to-Booking Funnel and Guardrails",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-16,https://trueinterview.io/questions/measuring-google-flights-north-star-search-to-booking-funnel-and-guardrails
-Modified Basic Calculator,Algorithm,Medium,Phone screen,Senior,3,0,2025-11,https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197
+Modified Basic Calculator,Algorithm,Medium,Phone screen,Senior,3,0,2025-11,https://trueinterview.io/questions/rokt-modified-basic-calculator
 Pivot Table Profit Analyzer,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-07-30,https://trueinterview.io/questions/pivot-table-profit-analyzer
 Recommend and validate a budget allocation strategy,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/recommend-and-validate-a-budget-allocation-strategy
 Justify Instacart fit and leaving your role,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/justify-instacart-fit-and-leaving-your-role
@@ -52,5 +52,5 @@ Describe cross-functional collaboration under time pressure,Behavioral / Knowled
 Analyze A/B test with revenue–cost tradeoffs,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/analyze-a-b-test-with-revenuecost-tradeoffs
 Design A Video Recommendation System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,4,0,,https://trueinterview.io/questions/design-a-video-recommendation-system-2
 Design Spotify,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,7,0,,https://trueinterview.io/questions/design-spotify-2
-Banking System - Schedule and Cancel Payment,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/01a9b588-6991-4435-bc8f-d96a2ed119bb
+Banking System - Schedule and Cancel Payment,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/instacart-banking-system-schedule-and-cancel-payment
 Task Management System III,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid,2,0,,https://trueinterview.io/questions/task-management-system

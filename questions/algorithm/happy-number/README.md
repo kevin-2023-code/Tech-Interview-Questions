@@ -8,7 +8,7 @@
 | Algorithm | Easy | Snowflake · Apple | Phone screen, Onsite / virtual onsite | hashing, math | Jun 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/snowflake-happy-number)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -65,7 +65,7 @@ The worst‑case number of steps is small because the sum of squares of digits o
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/snowflake-happy-number), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

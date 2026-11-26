@@ -8,7 +8,7 @@
 | Algorithm | Medium | Atlassian · Pinduoduo | Phone screen | matrix | Jul 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/atlassian-spiral-matrix)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -68,7 +68,7 @@ Watch for the edge case of a single row or single column to avoid duplicate entr
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/atlassian-spiral-matrix), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

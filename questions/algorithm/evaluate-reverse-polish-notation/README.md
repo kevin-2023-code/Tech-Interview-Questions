@@ -8,7 +8,7 @@
 | Algorithm | Medium | Stripe · Bloomberg | Phone screen | stack | Dec 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/stripe-evaluate-reverse-polish-notation)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -47,7 +47,7 @@ Truncation toward zero means that for negative results you must use integer divi
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/stripe-evaluate-reverse-polish-notation), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

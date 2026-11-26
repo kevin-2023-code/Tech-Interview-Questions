@@ -8,7 +8,7 @@
 | Algorithm | Hard | ByteDance · Amazon · Uber | Phone screen | heap | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/bytedance-meeting-rooms-iii)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -89,7 +89,7 @@ When no room is free, take the busy room with the earliest end time (lowest inde
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/bytedance-meeting-rooms-iii), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

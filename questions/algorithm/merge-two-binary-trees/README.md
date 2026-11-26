@@ -8,7 +8,7 @@
 | Algorithm | Medium | LinkedIn | Phone screen | trees | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/ae49b4f1-cc71-525c-8a18-f23565f7f7c4)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/linkedin-merge-two-binary-trees)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -75,7 +75,7 @@ Be careful parsing level-order input with null markers, and note the work is pro
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/ae49b4f1-cc71-525c-8a18-f23565f7f7c4), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/linkedin-merge-two-binary-trees), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

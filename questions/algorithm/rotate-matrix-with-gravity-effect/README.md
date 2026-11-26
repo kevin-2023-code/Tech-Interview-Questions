@@ -8,7 +8,7 @@
 | Algorithm | Medium | Uber | Phone screen | matrix | Feb 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/uber-rotate-matrix-with-gravity-effect)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -89,7 +89,7 @@ For gravity, process each column from bottom to top, moving letters down past '.
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/uber-rotate-matrix-with-gravity-effect), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

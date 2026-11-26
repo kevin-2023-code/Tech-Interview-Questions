@@ -8,7 +8,7 @@
 | Algorithm | Medium | Goldman Sachs | Phone screen | sliding-window | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/341d7cdd-b278-57d7-9f6c-203d53b500ce)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/goldman-sachs-frequency-of-the-most-frequent-element)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -94,7 +94,7 @@ The cost formula uses prefix sums, and the trickiest part is maintaining the win
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/341d7cdd-b278-57d7-9f6c-203d53b500ce), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/goldman-sachs-frequency-of-the-most-frequent-element), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

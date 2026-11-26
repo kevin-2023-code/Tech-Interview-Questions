@@ -8,7 +8,7 @@
 | Algorithm | Medium | Rokt · Instacart · WeRide | Phone screen | strings | Nov 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/rokt-modified-basic-calculator)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -81,7 +81,7 @@ Watch integer division truncating toward zero for negatives, and make sure a una
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/rokt-modified-basic-calculator), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

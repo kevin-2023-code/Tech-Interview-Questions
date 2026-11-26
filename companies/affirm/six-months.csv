@@ -1,7 +1,7 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 "Compute User Trust Scores from Activity Logs, Then Merge Each User's History",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/compute-user-trust-scores-from-activity-logs-then-merge-each-users-history
 "Fix a Unique-Entity Counter, Then Flag Suspicious Events in an Event Stream",Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-10-19,https://trueinterview.io/questions/fix-a-unique-entity-counter-then-flag-suspicious-events-in-an-event-stream
-Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/anthropic-implement-an-lru-cache-hashmap-doubly-linked-list-and-debug-an
 Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,40,2026-10,https://trueinterview.io/questions/payment-platform-design
 "Hiring Manager Behavioral Interview: Challenging Project, Deadlines, Cross-Team Work",Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-09-30,https://trueinterview.io/questions/hiring-manager-behavioral-interview-challenging-project-deadlines-cross-team-work
 Investigate a Quarterly Increase in Loan Delinquency,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-27,https://trueinterview.io/questions/investigate-a-quarterly-increase-in-loan-delinquency
@@ -13,7 +13,7 @@ Resolving a Clash Between Stakeholders Who Want Different Outcomes,Behavioral / 
 Find Redeemable Offers,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-08-12,https://trueinterview.io/questions/find-redeemable-offers
 Aggregate Recent Transactions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-07,https://trueinterview.io/questions/aggregate-recent-transactions
 Group Loans by Top-Level Company,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-06,https://trueinterview.io/questions/group-loans-by-top-level-company
-"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/databricks-impactful-project-experience-goals-role-challenges-outcomes
 Design Card Game,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-08,https://trueinterview.io/questions/design-card-game
 Live Fraud Detector,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,1,2026-08-01,https://trueinterview.io/questions/live-fraud-detector
 Evaluate String Expression,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-06-10,https://trueinterview.io/questions/nested-function-expression-evaluator

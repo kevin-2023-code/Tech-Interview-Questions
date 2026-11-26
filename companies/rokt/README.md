@@ -13,11 +13,11 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [A Time Your First Technical Approach Failed and How You Changed Course](https://trueinterview.io/questions/a-time-your-first-technical-approach-failed-and-how-you-changed-course?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Junior / Mid, Senior | 1 | 0 | 2026-10-26 |
-| [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 14 | 8 | 2026-08 |
-| [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 7 | 0 | 2026-08 |
+| [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/questions/databricks-impactful-project-experience-goals-role-challenges-outcomes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 14 | 8 | 2026-08 |
+| [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/snapchat-search-from-the-end-in-a-sorted-array-variant?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 7 | 0 | 2026-08 |
 | [Design Google-scale CI/CD pipeline](https://trueinterview.io/questions/design-google-scale-ci-cd-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 1 | 2025-12-06 |
 | [Modified Basic Calculator](../../questions/algorithm/modified-basic-calculator/README.md) | Algorithm | Medium | Phone screen | Senior | 3 | 0 | 2025-11 |
-| [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2025-04 |
+| [Implement a Text Editor](https://trueinterview.io/questions/rokt-implement-a-text-editor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2025-04 |
 
 ---
 

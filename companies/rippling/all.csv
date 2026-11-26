@@ -10,7 +10,7 @@ Sizing a Proposed Product Change to Decide How Much Process It Needs,Behavioral 
 Platform investment versus feature delivery: a PM framework for splitting engineering time,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-22,https://trueinterview.io/questions/platform-investment-versus-feature-delivery-a-pm-framework-for-splitting-engineering-time
 "Testing nondeterministic software: invariants, controlled randomness and statistical evals",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-21,https://trueinterview.io/questions/testing-nondeterministic-software-invariants-controlled-randomness-and-statistical-evals
 Present a Project You Worked On,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-20,https://trueinterview.io/questions/present-a-project-you-worked-on
-Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/amazon-design-metrics-system
 Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,9,4,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
 Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,0,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
 "Task Scheduler with Dependencies, Priorities and Filters",Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-09-29,https://trueinterview.io/questions/task-scheduler-with-dependencies-priorities-and-filters
@@ -25,12 +25,12 @@ Design a Logger with Independent Handlers,Object-Oriented Programming,Medium,Pho
 Propagate Task Filtering Through Ancestors,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08-17,https://trueinterview.io/questions/propagate-task-filtering-through-ancestors
 Design a Package Tracking Widget for an Email Inbox,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-08-01,https://trueinterview.io/questions/design-a-package-tracking-widget-for-an-email-inbox
 Clarify and Solve Currency Conversion Queries with a Maximum-Amount Follow-up,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/clarify-and-solve-currency-conversion-queries-with-a-maximum-amount-follow-up
-"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/databricks-impactful-project-experience-goals-role-challenges-outcomes
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/meta-merge-two-interval-lists
 Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
 "Walk Through Your Current Role, a Recent Work Challenge, and How You Use AI Tools",Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-07-04,https://trueinterview.io/questions/walk-through-your-current-role-a-recent-work-challenge-and-how-you-use-ai-tools
 Design Google News,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,4,0,2026-07,https://trueinterview.io/questions/google-news-aggregator
-Delivery Cost Problem,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/bff10176-f542-49a7-972c-e05025a0460d
+Delivery Cost Problem,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/rippling-delivery-cost-problem
 Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,0,2026-07,https://trueinterview.io/questions/design-news-feed
 User Behavior / Metrics Monitoring Aggregator,System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-06-28,https://trueinterview.io/questions/user-behavior-monitoring-aggregator
 Project Deep Dive / HM BQ,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,12,2026-06-26,https://trueinterview.io/questions/project-deep-dive-and-bq
@@ -38,18 +38,18 @@ Expense System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual
 Delivery Cost Calculate,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-06-18,https://trueinterview.io/questions/delivery-billing-system
 Logger System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-06-09,https://trueinterview.io/questions/logger-system-ood
 Design a News Aggregation Feed,System Design,Hard,Phone screen,Junior / Mid; Senior,2,0,2026-06,https://trueinterview.io/questions/design-a-news-aggregation-feed
-Task Management Filtering and Sorting,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823
+Task Management Filtering and Sorting,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/rippling-task-management-filtering-and-sorting
 Camel Cards (Simplified Poker),Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-05-29,https://trueinterview.io/questions/camel-cards-simplified-poker
 Design Article System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,7,2026-05-25,https://trueinterview.io/questions/web-api-for-article-voting-system
 Build Reliable Employee-Operations and Expense Intelligence Systems,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-05-01,https://trueinterview.io/questions/build-reliable-employee-operations-and-expense-intelligence-systems
 Track article votes and last three flips,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,4,2026-05,https://trueinterview.io/questions/track-article-votes-and-last-three-flips
 Compare Complete or Partial Hands,Algorithm,Hard,Onsite / virtual onsite,New grad; Senior,1,0,2026-05,https://trueinterview.io/questions/compare-complete-or-partial-hands
-Compare Incomplete Hands,Algorithm,Hard,Phone screen,New grad; Senior,1,2,2026-05,https://trueinterview.io/questions/71691137-0213-4dbb-b149-45dbd9faa5a3
+Compare Incomplete Hands,Algorithm,Hard,Phone screen,New grad; Senior,1,2,2026-05,https://trueinterview.io/questions/rippling-compare-incomplete-hands
 Design an Extensible Rule Engine,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-04-02,https://trueinterview.io/questions/design-an-extensible-rule-engine
-Driver Payroll: sum salaries of driving records up to a timestamp,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04,https://trueinterview.io/questions/fc5a915a-d060-407d-a337-cbd179a6230d
+Driver Payroll: sum salaries of driving records up to a timestamp,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04,https://trueinterview.io/questions/rippling-driver-payroll-sum-salaries-of-driving-records-up-to-a-timestamp
 Cross-Platform Logging Library,System Design,Medium,Onsite / virtual onsite,Senior,10,0,2026-03-23,https://trueinterview.io/questions/logging-library-design
 Maximize Amount After Two Days of Conversions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-03,https://trueinterview.io/questions/maximize-amount-after-two-days-of-conversions
-Delivery Problem,Algorithm,Hard,Phone screen,Senior,1,1,2026-03,https://trueinterview.io/questions/9723bf30-4088-44d6-819e-b5dbee4d6c4b
+Delivery Problem,Algorithm,Hard,Phone screen,Senior,1,1,2026-03,https://trueinterview.io/questions/rippling-delivery-problem
 Merge Intervals,Algorithm,Medium,Phone screen,,16,0,2026-02-04,https://trueinterview.io/questions/merge-intervals
 Find the Best and Worst Completion of a Partial Numeric Hand,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-25,https://trueinterview.io/questions/find-the-best-and-worst-completion-of-a-partial-numeric-hand
 In-Memory Key-Value Store with Transactions,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,0,2026-01,https://trueinterview.io/questions/in-memory-key-value-store-with-transactions
@@ -59,10 +59,10 @@ What was the hardest part of your project?,Behavioral / Knowledge,,Onsite / virt
 Design an ad-click aggregation and enrichment pipeline,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2025-12,https://trueinterview.io/questions/design-an-ad-click-aggregation-and-enrichment-pipeline
 Design a large-scale news app with caching,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2025-12,https://trueinterview.io/questions/design-a-large-scale-news-app-with-caching
 "Aggregate expenses by person, trip, and category",Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2025-12,https://trueinterview.io/questions/aggregate-expenses-by-person-trip-and-category
-Max Simultaneous Driver In Past 24 Hours,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/92e84cab-d048-472b-bbcc-48a6170c506b
+Max Simultaneous Driver In Past 24 Hours,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/rippling-max-simultaneous-driver-in-past-24-hours
 DSA Multiple Choice and Costliest Chocolate,Behavioral / Knowledge,,Online assessment,Junior / Mid,1,1,2025-11-16,https://trueinterview.io/questions/intern-oa-fixed-set
-Time Complexity Analysis,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,1,2025-11,https://trueinterview.io/questions/3ff04932-615f-483c-a528-757dfbfc638a
+Time Complexity Analysis,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,1,2025-11,https://trueinterview.io/questions/rippling-time-complexity-analysis
 Find minimum of unknown convex function,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/find-minimum-of-unknown-convex-function
 Convert amounts between multiple currencies,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/convert-amounts-between-multiple-currencies
-Longest Consecutive Sequence (variation),Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,,https://trueinterview.io/questions/5828fb45-7c92-4a82-89c8-6cb11f8b12e2
-SQL Aggregation and Percentage Calculation,SQL,Easy,Online assessment,New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/52404848-b8f6-477d-85a4-d58a360ae9e7
+Longest Consecutive Sequence (variation),Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,,https://trueinterview.io/questions/rippling-longest-consecutive-sequence-variation
+SQL Aggregation and Percentage Calculation,SQL,Easy,Online assessment,New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/rippling-sql-aggregation-and-percentage-calculation

@@ -5,10 +5,10 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Ramp · Amazon · Bloomberg · ByteDance · Ebay · Google · +8 | Phone screen | intervals | Oct 2026 |
+| Algorithm | Medium | Ramp · Amazon · Bloomberg · ByteDance · eBay · Google · +8 | Phone screen | intervals | Oct 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/ramp-minimum-meeting-rooms)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -105,11 +105,11 @@ Remember that intervals are half-open, so a meeting ending at time t can share a
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/ramp-minimum-meeting-rooms), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 
-[Ramp](../../../companies/ramp/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Ebay](../../../companies/ebay/README.md) · [Google](../../../companies/google/README.md) · [IBM](../../../companies/ibm/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Roblox](../../../companies/roblox/README.md) · [Snowflake](../../../companies/snowflake/README.md) · [Uber](../../../companies/uber/README.md) · [Walmart Labs](../../../companies/walmart-labs/README.md)
+[Ramp](../../../companies/ramp/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [eBay](../../../companies/ebay/README.md) · [Google](../../../companies/google/README.md) · [IBM](../../../companies/ibm/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Roblox](../../../companies/roblox/README.md) · [Snowflake](../../../companies/snowflake/README.md) · [Uber](../../../companies/uber/README.md) · [Walmart Labs](../../../companies/walmart-labs/README.md)
 
 ---
 

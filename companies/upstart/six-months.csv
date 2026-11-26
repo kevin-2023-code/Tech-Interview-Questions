@@ -1,14 +1,14 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Check Whether Two Words Are Case-Insensitive Anagrams,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,2026-09-12,https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams
-Decrypt a Double-Substitution Cipher,Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-08,https://trueinterview.io/questions/f7f2a358-a5bb-55e0-a442-4ba0ed8f1869
-Compute File Size on Disk,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/a211b99f-1398-5507-9083-717ef2216133
-Possible ABO Parent Genotypes,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/7d7d9d81-b0b6-5ffc-92e9-d0384993433f
-Remove Duplicates from Sorted Array,Algorithm,Easy,Online assessment,New grad; Junior / Mid,4,4,2026-08,https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39
+Decrypt a Double-Substitution Cipher,Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-08,https://trueinterview.io/questions/upstart-decrypt-a-double-substitution-cipher
+Compute File Size on Disk,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/upstart-compute-file-size-on-disk
+Possible ABO Parent Genotypes,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/upstart-possible-abo-parent-genotypes
+Remove Duplicates from Sorted Array,Algorithm,Easy,Online assessment,New grad; Junior / Mid,4,4,2026-08,https://trueinterview.io/questions/meta-remove-duplicates-from-sorted-array
 Owning a Product Initiative Through Launch and Results,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-07-08,https://trueinterview.io/questions/behavioral-owning-a-product-initiative-from-first-idea-to-post-launch-results
-Interleave Three Equal-Length Strings,Algorithm,Easy,Online assessment,New grad,1,1,2026-07,https://trueinterview.io/questions/0b074bbd-5c4d-5d9c-a970-b8bd946084a7
-Increase Exclamation Marks and Replace Periods,Algorithm,Easy,Online assessment,New grad; Junior / Mid,1,3,2026-07,https://trueinterview.io/questions/f2aa7ead-a63b-5709-8feb-03c891c03e4d
-Check Value Occurrence by Position and Half,Algorithm,Easy,Online assessment,New grad,1,1,2026-07,https://trueinterview.io/questions/b66c3fdf-2dee-553d-ad9d-baa7bee7db8a
-Bounding Rectangle of Points,Algorithm,Easy,Online assessment,New grad,1,1,2026-07,https://trueinterview.io/questions/9d823331-a85f-512a-b445-25f5ef04e96d
-Scale Ingredient Quantities,Algorithm,Easy,Online assessment,New grad,1,0,2026-07,https://trueinterview.io/questions/9afaf0f8-87bc-5dfe-b93c-224f4075b902
-Parse a Comma-Separated String with Quoted Fields,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/1f5e8959-fd67-587b-bdd9-b271a10016ac
-Maximum Cities Visited Traveling West to East with Lexicographic City Names,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/fd4b3743-ae4a-56c3-8ddc-875d67c82fb9
+Interleave Three Equal-Length Strings,Algorithm,Easy,Online assessment,New grad,1,1,2026-07,https://trueinterview.io/questions/upstart-interleave-three-equal-length-strings
+Increase Exclamation Marks and Replace Periods,Algorithm,Easy,Online assessment,New grad; Junior / Mid,1,3,2026-07,https://trueinterview.io/questions/upstart-increase-exclamation-marks-and-replace-periods
+Check Value Occurrence by Position and Half,Algorithm,Easy,Online assessment,New grad,1,1,2026-07,https://trueinterview.io/questions/upstart-check-value-occurrence-by-position-and-half
+Bounding Rectangle of Points,Algorithm,Easy,Online assessment,New grad,1,1,2026-07,https://trueinterview.io/questions/upstart-bounding-rectangle-of-points
+Scale Ingredient Quantities,Algorithm,Easy,Online assessment,New grad,1,0,2026-07,https://trueinterview.io/questions/upstart-scale-ingredient-quantities
+Parse a Comma-Separated String with Quoted Fields,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/upstart-parse-a-comma-separated-string-with-quoted-fields
+Maximum Cities Visited Traveling West to East with Lexicographic City Names,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/upstart-maximum-cities-visited-traveling-west-to-east-with-lexicographic-city

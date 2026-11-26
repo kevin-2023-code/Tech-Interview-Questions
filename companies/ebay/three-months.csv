@@ -5,9 +5,9 @@ Explain How Public-Key Encryption Works and Why It Is Secure,Behavioral / Knowle
 "ML Breadth: Bias-Variance, Normalization, Transformer Attention and the KV Cache",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/ml-breadth-bias-variance-normalization-transformer-attention-and-the-kv-cache
 Describe Your Most Challenging Machine Learning Project and Your Key Decisions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-24,https://trueinterview.io/questions/describe-your-most-challenging-machine-learning-project-and-your-key-decisions
 Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,13,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
-Print Execution Order in a DAG and Detect Cycles,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a
+Print Execution Order in a DAG and Detect Cycles,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/bytedance-print-execution-order-in-a-dag-and-detect-cycles
 Course Schedule Cycle Detection,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,10,2026-10,https://trueinterview.io/questions/course-schedule-cycle-detection
-Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
 Optimizing BERT inference latency and throughput for a production NLP service,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-24,https://trueinterview.io/questions/optimizing-bert-inference-latency-and-throughput-for-a-production-nlp-service
 "Named entity recognition: framing, algorithm choice, data processing, and metrics",System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-24,https://trueinterview.io/questions/named-entity-recognition-framing-algorithm-choice-data-processing-and-metrics
 "Docker optimization, container fundamentals, and CI/CD for an ML model service",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-24,https://trueinterview.io/questions/docker-optimization-container-fundamentals-and-ci-cd-for-an-ml-model-service
@@ -17,6 +17,6 @@ Design fast query-to-listing retrieval over tens of millions of listings,System 
 "Make eBay Safer for Sellers: Prioritizing Fraud, Scam and Enforcement Fixes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-15,https://trueinterview.io/questions/make-ebay-safer-for-sellers-prioritizing-fraud-scam-and-enforcement-fixes
 Answer senior behavioral questions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,7,2026-09,https://trueinterview.io/questions/answer-senior-behavioral-questions
 Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,0,2026-09,https://trueinterview.io/questions/charity-donation-system
-Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/bytedance-design-slack-like-chat-system
 Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,0,2026-09,https://trueinterview.io/questions/booking-system-design
 Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,12,0,2026-09,https://trueinterview.io/questions/design-tinyurl

@@ -12,13 +12,13 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07 |
-| [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 1 | 2026-07 |
+| [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/lead-bank-design-an-event-store-with-crud-and-sorted-insert-binary-search?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07 |
+| [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/lead-bank-stock-tick-store-with-updates-and-percentage-changes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 1 | 2026-07 |
 | [Implement Stock Price Query APIs](https://trueinterview.io/questions/implement-stock-price-query-apis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Senior | 1 | 0 | 2026-05 |
-| [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 1 | 2026-05 |
+| [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/lead-bank-social-likes-best-friends-and-friend-recommendations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 1 | 2026-05 |
 | [Implement a versioned hash map with snapshot](https://trueinterview.io/questions/implement-a-versioned-hash-map-with-snapshot?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-12 |
-| [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2025-02 |
-| [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2025-02 |
+| [Social Network Recommendation](https://trueinterview.io/questions/lead-bank-social-network-recommendation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2025-02 |
+| [Social Network Likes Count](https://trueinterview.io/questions/lead-bank-social-network-likes-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2025-02 |
 
 ---
 

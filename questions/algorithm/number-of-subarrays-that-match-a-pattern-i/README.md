@@ -8,7 +8,7 @@
 | Algorithm | Medium | Capital One | Phone screen | arrays, strings | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/capital-one-number-of-subarrays-that-match-a-pattern-i)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -90,7 +90,7 @@ With small constraints a direct check of every start index works, while a KMP or
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/capital-one-number-of-subarrays-that-match-a-pattern-i), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -7,8 +7,8 @@ Resume Project Deep Dive and Prioritizing Too Many Tasks at Once,Behavioral / Kn
 Design a Parallel and Resumable Model Downloader,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-05,https://trueinterview.io/questions/design-a-parallel-and-resumable-model-downloader
 Design a Model Inference API and Optimize Its GPU Usage,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-05,https://trueinterview.io/questions/design-a-model-inference-api-and-optimize-its-gpu-usage
 Make a Web Crawler Concurrent with Thread-Safe Visited State,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-05,https://trueinterview.io/questions/make-a-web-crawler-concurrent-with-thread-safe-visited-state
-Function Cache Keys and Crash-Recoverable LRU Cache,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/1634ce25-e301-53d6-ae4c-af51fb820611
-Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Function Cache Keys and Crash-Recoverable LRU Cache,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/anthropic-function-cache-keys-and-crash-recoverable-lru-cache
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/anthropic-implement-an-lru-cache-hashmap-doubly-linked-list-and-debug-an
 Recruiter Screen — Why Anthropic Deep-Dive,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior; Staff+,1,16,2026-10,https://trueinterview.io/questions/recruiter-screen-why-anthropic
 Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,5,2026-10,https://trueinterview.io/questions/design-chatgpt
 Design a 1-to-1 Chat System,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/design-a-1-to-1-chat-system
@@ -31,12 +31,12 @@ Why Anthropic and its values?,Behavioral / Knowledge,,Phone screen,Senior,1,0,20
 Explain CPU-Bound vs I/O-Bound Work,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,3,2026-09,https://trueinterview.io/questions/explain-cpu-bound-vs-i-o-bound-work
 Explain AI Safety and Weigh Advanced AI Benefits and Risks,Behavioral / Knowledge,,Phone screen,Junior / Mid; Staff+,1,2,2026-09,https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks
 Design Telemetry Ingestion and Reconcile Metric Names,System Design,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names
-File Deduplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f
+File Deduplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/anthropic-file-deduplication
 Reason About Delaying an AI Breakthrough Under Uncertain Risk,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk
 "Estimate FFN Compute, Memory, and Sharding Communication",System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication
-Concurrent Web Crawler,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871
+Concurrent Web Crawler,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/anthropic-concurrent-web-crawler
 Onsite Design Doc Review,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Manager,1,0,2026-09,https://trueinterview.io/questions/onsite-design-doc-review
-Find Duplicate Files,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b
+Find Duplicate Files,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/anthropic-find-duplicate-files
 Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
 Culture & Behavioral Interview Questions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,2,0,2026-09,https://trueinterview.io/questions/culture-behavioral-interview-questions
 Distributed Mode and Median,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/distributed-mode-and-median
@@ -51,21 +51,21 @@ Review and Scale an Inference Service Design,System Design,Hard,Phone screen,Sen
 Design Distributed Sorting Around an Explicit Helper Contract,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-27,https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract
 Implement a Duplicate-File Reporter,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-08-24,https://trueinterview.io/questions/implement-a-duplicate-file-reporter
 Explain Your Motivation and Practical Approach to AI Safety,Behavioral / Knowledge,,Phone screen,Senior,1,4,2026-08-22,https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety
-"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/databricks-impactful-project-experience-goals-role-challenges-outcomes
 Hiring Manager Round — Behavioral & Collaboration,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,0,2026-08,https://trueinterview.io/questions/onsite-hm-behavioral
 Task Manager (TTL + Snapshot),Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid,1,3,2026-08,https://trueinterview.io/questions/oa-task-management
 Design Distributed AI Model Downloader,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/distributed-model-deployment-system-design
 Agents / Coding with LLMs,AI Coding,Hard,Phone screen,New grad; Junior / Mid; Senior,1,6,2026-08,https://trueinterview.io/questions/agents-coding-llm-tool-use
 Review and Improve a Flawed Design Document,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-07,https://trueinterview.io/questions/review-and-improve-a-flawed-design-document
-Stack Trace Suffix Matching,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/3f55c628-6ee0-5304-8799-4ae500643827
-In-Memory Key-Value Store with Nested Transactions and Value Counts,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,2,1,2026-07,https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0
-Optimized Infection Simulation on a 2D Grid,Algorithm,Hard,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/01599122-965f-57e6-99b0-d43238e938fc
+Stack Trace Suffix Matching,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/anthropic-stack-trace-suffix-matching
+In-Memory Key-Value Store with Nested Transactions and Value Counts,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,2,1,2026-07,https://trueinterview.io/questions/anthropic-in-memory-key-value-store-with-nested-transactions-and-value-counts
+Optimized Infection Simulation on a 2D Grid,Algorithm,Hard,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/anthropic-optimized-infection-simulation-on-a-2d-grid
 LRU Cache (Python),Algorithm,Hard,Phone screen; Onsite / virtual onsite,Senior,1,1,2026-07,https://trueinterview.io/questions/lru-cache-python
-Repair Bootloader Program,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8
-In-Memory Database with Backup and Restore,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Senior,1,4,2026-07,https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f
+Repair Bootloader Program,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/anthropic-repair-bootloader-program
+In-Memory Database with Backup and Restore,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Senior,1,4,2026-07,https://trueinterview.io/questions/anthropic-in-memory-database-with-backup-and-restore
 Tokenize (Python),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/tokenize-python
-Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
-Token Usage Calculation,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a
+Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/ramp-banking-system-with-payments-and-account-merging
+Token Usage Calculation,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/anthropic-token-usage-calculation
 Worker / Employee Grant Management,Object-Oriented Programming,Medium,Online assessment,New grad; Senior; Manager,1,0,2026-07,https://trueinterview.io/questions/oa-worker-management
 File Systems,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/oa-file-systems
 Bank System with Transfer/Accept and Merge,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-06-15,https://trueinterview.io/questions/oa-bank-system
@@ -75,8 +75,8 @@ In-Memory Cache: Bug-Fix + Durability,AI Coding,Hard,Phone screen; Onsite / virt
 How do you lead under risk and uncertainty?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,0,2026-06,https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty
 Implement an LRU cache with O(1) ops,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-06,https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops
 Answer Culture and Project Questions,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,0,2026-06,https://trueinterview.io/questions/answer-culture-and-project-questions
-Python Data Analysis on a Provided Dataset (Capacity Management Context),AI Coding,Hard,Onsite / virtual onsite,Senior,1,1,2026-06,https://trueinterview.io/questions/d03ad0c8-580a-4af4-8619-328ea8011719
-Find All Possible Recipes from Given Supplies,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c
-Efficiency of Distributed Systems,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06,https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337
-Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table,Algorithm,Easy,Online assessment,New grad,1,0,2026-06,https://trueinterview.io/questions/46a64535-7d55-4b9f-af3e-9db6d856187a
+Python Data Analysis on a Provided Dataset (Capacity Management Context),AI Coding,Hard,Onsite / virtual onsite,Senior,1,1,2026-06,https://trueinterview.io/questions/anthropic-python-data-analysis-on-a-provided-dataset-capacity-management-context
+Find All Possible Recipes from Given Supplies,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/anthropic-find-all-possible-recipes-from-given-supplies
+Efficiency of Distributed Systems,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06,https://trueinterview.io/questions/anthropic-efficiency-of-distributed-systems
+Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table,Algorithm,Easy,Online assessment,New grad,1,0,2026-06,https://trueinterview.io/questions/anthropic-route-multiple-prompt-calls-to-multiple-gpt-servers-using-a-hash-table
 Recipe Manager,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,4,0,2026-06,https://trueinterview.io/questions/recipe-manager

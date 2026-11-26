@@ -8,7 +8,7 @@
 | Algorithm | Medium | OKX · Capital One | Phone screen | two-pointers | Oct 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/okx-sort-colors)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -85,7 +85,7 @@ The one-pass requirement means you should swap elements as you go, not sort afte
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/okx-sort-colors), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

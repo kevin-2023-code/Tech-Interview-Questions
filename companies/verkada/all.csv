@@ -10,24 +10,24 @@ Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Juni
 Design Ambient Light Sensor System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-06-05,https://trueinterview.io/questions/design-ambient-light-sensor-system
 Camera Log Relay Server,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-06-05,https://trueinterview.io/questions/camera-log-relay-server
 Camera Motion Detection,Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-06-05,https://trueinterview.io/questions/camera-motion-detection
-Jumping by Height,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/b0999093-eb28-5f5e-a89c-b103e821d914
-Real-time status counting system design,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,4,2026-06,https://trueinterview.io/questions/86e2e2dd-5c95-496d-ba7e-2e052ef2f37f
-Valid Sudoku,Algorithm,Easy,Phone screen,Junior / Mid,3,0,2026-06,https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c
+Jumping by Height,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-06,https://trueinterview.io/questions/verkada-jumping-by-height
+Real-time status counting system design,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,4,2026-06,https://trueinterview.io/questions/verkada-real-time-status-counting-system-design
+Valid Sudoku,Algorithm,Easy,Phone screen,Junior / Mid,3,0,2026-06,https://trueinterview.io/questions/apple-valid-sudoku
 Minimum Coin Combination Counts,Algorithm,Medium,Onsite / virtual onsite,New grad,3,0,2026-05,https://trueinterview.io/questions/minimum-coin-combination-counts
-React UI Implementation from Figma (Flexbox/Grid heavy),AI Coding,Easy,Onsite / virtual onsite,New grad,1,1,2026-04,https://trueinterview.io/questions/fdefc42f-efc5-4cce-b95d-a9881714b78c
-Find IPv4 Addresses in Nested Files,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-04,https://trueinterview.io/questions/d5905d81-f1d5-4f11-97ad-b8162610cc37
+React UI Implementation from Figma (Flexbox/Grid heavy),AI Coding,Easy,Onsite / virtual onsite,New grad,1,1,2026-04,https://trueinterview.io/questions/verkada-react-ui-implementation-from-figma-flexbox-grid-heavy
+Find IPv4 Addresses in Nested Files,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-04,https://trueinterview.io/questions/verkada-find-ipv4-addresses-in-nested-files
 Design Access Management System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,8,2,2026-04,https://trueinterview.io/questions/role-and-resource-access-system
 Design access control and heartbeat systems,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/design-access-control-and-heartbeat-systems
-Merge Alert Intervals Across Multiple Cameras,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/a4f0ae26-f3ea-4975-9c68-99712a354b65
-Add Two Large Integers Stored in Linked Lists (4 digits per node),Algorithm,Medium,Phone screen,Senior,1,0,2026-03,https://trueinterview.io/questions/68fd7f68-6e89-4955-b27b-d02bcde92cae
+Merge Alert Intervals Across Multiple Cameras,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/verkada-merge-alert-intervals-across-multiple-cameras
+Add Two Large Integers Stored in Linked Lists (4 digits per node),Algorithm,Medium,Phone screen,Senior,1,0,2026-03,https://trueinterview.io/questions/verkada-add-two-large-integers-stored-in-linked-lists-4-digits-per-node
 Merge Two Sorted Arrays In-Place,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid; Staff+,4,0,2026-03,https://trueinterview.io/questions/merge-sorted-arrays-in-place
 Design Card Game II,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-02-16,https://trueinterview.io/questions/design-card-game-ii
-Find Camera Admin User,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-02,https://trueinterview.io/questions/7379fb26-87ba-489a-a10c-ae5bc4342cce
+Find Camera Admin User,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-02,https://trueinterview.io/questions/verkada-find-camera-admin-user
 Implement LRU and LFU caches,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-01-23,https://trueinterview.io/questions/implement-lru-and-lfu-caches
-Design a Food Rating System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-01,https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001
-Word Guess Game Feature,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/6d1fe4b2-f023-4871-bfb3-daec9af6dbc3
-Find Overlapping Time Intervals Across Multiple Cameras,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/3dc3ae54-1022-4a39-8aa6-c14d6f4cc6ba
-Matrix Transpose with Workers,Algorithm,Easy,Phone screen,Junior / Mid,1,0,2025-11,https://trueinterview.io/questions/d2c51fe8-e8cb-4b41-9fb4-1dc03c1b4c3b
-Tree Diameter,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2025-11,https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677
-Implement APIs in a Flask Application,AI Coding,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a
-Longest Substring Without Repeating Characters,Algorithm,Medium,Phone screen,New grad; Junior / Mid,3,0,,https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0
+Design a Food Rating System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-01,https://trueinterview.io/questions/verkada-design-a-food-rating-system
+Word Guess Game Feature,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/verkada-word-guess-game-feature
+Find Overlapping Time Intervals Across Multiple Cameras,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-12,https://trueinterview.io/questions/verkada-find-overlapping-time-intervals-across-multiple-cameras
+Matrix Transpose with Workers,Algorithm,Easy,Phone screen,Junior / Mid,1,0,2025-11,https://trueinterview.io/questions/verkada-matrix-transpose-with-workers
+Tree Diameter,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2025-11,https://trueinterview.io/questions/citadel-tree-diameter
+Implement APIs in a Flask Application,AI Coding,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/verkada-implement-apis-in-a-flask-application
+Longest Substring Without Repeating Characters,Algorithm,Medium,Phone screen,New grad; Junior / Mid,3,0,,https://trueinterview.io/questions/verkada-longest-substring-without-repeating-characters

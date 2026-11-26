@@ -8,7 +8,7 @@
 | Object-Oriented Programming | Easy | Brex | Onsite / virtual onsite | — | Mar 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/brex-react-ui-multi-select-color-dropdown-and-selected-properties-table)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -136,7 +136,7 @@ Memoize the table rows and derived props with useMemo so filtering COLOR_DATA is
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/brex-react-ui-multi-select-color-dropdown-and-selected-properties-table), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

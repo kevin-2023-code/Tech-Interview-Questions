@@ -3,13 +3,13 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 Implement a Rate Limiter for CI Jobs Rather Than for API Requests,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-23,https://trueinterview.io/questions/implement-a-rate-limiter-for-ci-jobs-rather-than-for-api-requests
 Behavioral: Collaborating Across Clashing Priorities and Working Styles,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10-16,https://trueinterview.io/questions/behavioral-collaborating-across-clashing-priorities-and-working-styles
 Hiring Manager + Behavioral Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/hm-and-bq-rounds
-Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,8,2026-10,https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec
+Minimum Operations to Transform an Integer Using ±2^i Steps,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,4,8,2026-10,https://trueinterview.io/questions/microsoft-minimum-operations-to-transform-an-integer-using-2-i-steps
 Track Top-K Frequent Elements from an Unbounded Stream,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream
 Design an Idempotent Payment Processing Platform,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform
-Implement Merge Sort and Explain Its Recursion Tree,Algorithm,Medium,Phone screen,Senior,1,1,2026-09,https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4
-Convert a Sorted Doubly Linked List to an In-Place Balanced BST,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7
-Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8
-String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
+Implement Merge Sort and Explain Its Recursion Tree,Algorithm,Medium,Phone screen,Senior,1,1,2026-09,https://trueinterview.io/questions/salesforce-implement-merge-sort-and-explain-its-recursion-tree
+Convert a Sorted Doubly Linked List to an In-Place Balanced BST,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/salesforce-convert-a-sorted-doubly-linked-list-to-an-in-place-balanced-bst
+Print All Parent Keys in a Nested Map,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/salesforce-print-all-parent-keys-in-a-nested-map
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/salesforce-string-anagram-windows
 Coffee Ordering System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/coffee-ordering-system
 Maximum Requests in a Time Window,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/maximum-requests-in-time-window
 Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,12,0,2026-09,https://trueinterview.io/questions/design-tinyurl
@@ -28,9 +28,9 @@ Design a tenant-isolated system to replicate large recordings to per-customer da
 Prioritizing a Deal-Blocking Enterprise Request Against a Committed Roadmap,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-06,https://trueinterview.io/questions/prioritizing-a-deal-blocking-enterprise-request-against-a-committed-roadmap
 Product Safety Crisis: Containing Harm After a Defect Endangers Children,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-05,https://trueinterview.io/questions/product-safety-crisis-containing-harm-after-a-defect-endangers-children
 "Incident Leadership for PMs: Restore, Communicate and Prevent After a Global Outage",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-05,https://trueinterview.io/questions/incident-leadership-for-pms-restore-communicate-and-prevent-after-a-global-outage
-Diameter of an Acyclic Undirected Graph,Algorithm,Medium,Phone screen,Senior,1,1,2026-08,https://trueinterview.io/questions/a43fc01e-fd8b-5a89-b87c-d2b5aa8f84ca
-Path Sum in a Binary Tree,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/47b63952-31a7-5519-a5d6-16d0eecff233
-Determine Whether a Date Falls on a Weekend,Algorithm,Easy,Online assessment,New grad,1,1,2026-08,https://trueinterview.io/questions/4445f526-42ef-5256-bc53-b6614133cfc3
+Diameter of an Acyclic Undirected Graph,Algorithm,Medium,Phone screen,Senior,1,1,2026-08,https://trueinterview.io/questions/salesforce-diameter-of-an-acyclic-undirected-graph
+Path Sum in a Binary Tree,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/salesforce-path-sum-in-a-binary-tree
+Determine Whether a Date Falls on a Weekend,Algorithm,Easy,Online assessment,New grad,1,1,2026-08,https://trueinterview.io/questions/salesforce-determine-whether-a-date-falls-on-a-weekend
 Average Deal Size,SQL,Easy,Phone screen,Intern; New grad; Junior / Mid,1,0,2026-07-26,https://trueinterview.io/questions/average-deal-size
 Optimal Account Balancing (LeetCode 465),Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-07-25,https://trueinterview.io/questions/optimal-account-balancing
 "Delete One Character Type, Minimize Unique-Character Segments",Algorithm,Medium,Online assessment,New grad,1,0,2026-07-25,https://trueinterview.io/questions/delete-character-minimize-unique-segments
@@ -44,9 +44,9 @@ Building a Visibility Plan So the Right Customers Learn About Your Product,Behav
 Protecting Roadmap Commitments After a 10% Engineering Budget Reduction,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-10,https://trueinterview.io/questions/protecting-roadmap-commitments-after-a-10percent-engineering-budget-reduction
 Planning Data Integration and Governance After a Healthcare Acquisition,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-10,https://trueinterview.io/questions/planning-data-integration-and-governance-after-a-healthcare-acquisition
 Phasing an 18-Month Product Build to Stay Competitive in the Meantime,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07-10,https://trueinterview.io/questions/phasing-an-18-month-product-build-to-stay-competitive-in-the-meantime
-Order a Nearly Sorted UDP Packet Stream,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/0a8df541-f4ba-5b5d-9256-54c178f3c866
-Finding the Longest Increasing Subsequence,Algorithm,Hard,Phone screen,Junior / Mid,3,0,2026-07,https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e
+Order a Nearly Sorted UDP Packet Stream,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/salesforce-order-a-nearly-sorted-udp-packet-stream
+Finding the Longest Increasing Subsequence,Algorithm,Hard,Phone screen,Junior / Mid,3,0,2026-07,https://trueinterview.io/questions/bytedance-finding-the-longest-increasing-subsequence
 Minimum Knight Moves,Algorithm,Medium,Online assessment,Senior,3,1,2026-07,https://trueinterview.io/questions/minimum-knight-moves
 Campaign Cost Weekly Partition,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-06-22,https://trueinterview.io/questions/campaign-cost-weekly-partition
 Walk through your hands-on Agile and Scrum experience as a product manager,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06-01,https://trueinterview.io/questions/walk-through-your-hands-on-agile-and-scrum-experience-as-a-product-manager
-Split Array into K Parts with Minimum Sum of Maxima,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/54c46fcb-af9b-4954-80f6-8f6bd2449d00
+Split Array into K Parts with Minimum Sum of Maxima,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/salesforce-split-array-into-k-parts-with-minimum-sum-of-maxima

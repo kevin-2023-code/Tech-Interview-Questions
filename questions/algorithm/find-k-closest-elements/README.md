@@ -8,7 +8,7 @@
 | Algorithm | Medium | Visa · LinkedIn | Phone screen | binary-search, two-pointers | Apr 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/visa-find-k-closest-elements)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -70,7 +70,7 @@ The result must be sorted in ascending order, so collect elements in order as yo
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/visa-find-k-closest-elements), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

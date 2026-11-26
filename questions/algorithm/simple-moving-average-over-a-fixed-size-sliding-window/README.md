@@ -8,7 +8,7 @@
 | Algorithm | Medium | Chicago Trading · Atlassian · ByteDance · Coinbase | Phone screen | sliding-window | Jul 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/chicago-trading-simple-moving-average-over-a-fixed-size-sliding-window)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -111,7 +111,7 @@ Watch out for integer overflow when accumulating many samples, use double for th
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/chicago-trading-simple-moving-average-over-a-fixed-size-sliding-window), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

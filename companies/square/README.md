@@ -12,7 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Count 2×2 Blocks by Number of Black Cells](https://trueinterview.io/questions/c57f6683-c2e9-530c-95cb-318c91844476?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-09 |
+| [Count 2×2 Blocks by Number of Black Cells](https://trueinterview.io/questions/square-count-2-2-blocks-by-number-of-black-cells?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 1 | 2026-09 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 10 | 0 | 2026-09 |
 | [Markov Chain Next-Word Prediction & Sentence Generation](https://trueinterview.io/questions/markov-chain-next-word-prediction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-07-21 |
 | [Hiring Manager Screen: Project Deep Dive, Tech Debt & Money Movement](https://trueinterview.io/questions/hiring-manager-money-movement-screen?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Staff+ | 1 | 0 | 2026-07-16 |

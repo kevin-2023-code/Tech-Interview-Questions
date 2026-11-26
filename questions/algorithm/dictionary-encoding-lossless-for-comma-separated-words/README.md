@@ -8,7 +8,7 @@
 | Algorithm | Medium | Amplitude | Phone screen | hashing | Mar 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/amplitude-dictionary-encoding-lossless-for-comma-separated-words)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -90,7 +90,7 @@ Ensure decode handles empty input, single words, and repeated words correctly, a
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/amplitude-dictionary-encoding-lossless-for-comma-separated-words), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

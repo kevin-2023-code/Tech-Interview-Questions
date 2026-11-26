@@ -8,7 +8,7 @@
 | Algorithm | Medium | Meta · Amazon · Apple · Bloomberg · Goldman Sachs · Lyft · +2 | Phone screen | dynamic-programming | Aug 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/meta-best-time-to-buy-and-sell-stock-iv)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -76,7 +76,7 @@ Watch out for the case where k is larger than half the number of days, in that c
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/meta-best-time-to-buy-and-sell-stock-iv), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

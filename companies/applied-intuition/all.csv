@@ -1,13 +1,13 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 "Mission motivation and a walkthrough of your school, major and job decisions",Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-02,https://trueinterview.io/questions/mission-motivation-and-a-walkthrough-of-your-school-major-and-job-decisions
 Design a real-time 3D playback system for recorded vehicle logs,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-02,https://trueinterview.io/questions/design-a-real-time-3d-playback-system-for-recorded-vehicle-logs
-File Deduplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f
+File Deduplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/anthropic-file-deduplication
 Locate Cars with a Boolean Square-Scan API,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-08-30,https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api
-Resolve Variable Equations with Missing References and Cycles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,2,2026-08,https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1
-Sensor Data Query Processor,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76
+Resolve Variable Equations with Missing References and Cycles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,2,2026-08,https://trueinterview.io/questions/applied-intuition-resolve-variable-equations-with-missing-references-and-cycles
+Sensor Data Query Processor,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/applied-intuition-sensor-data-query-processor
 Design Parsing Boundaries for Interdependent Message Types,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-06-17,https://trueinterview.io/questions/design-parsing-boundaries-for-interdependent-message-types
 Build a File-Driven Data Visualization and Replay UI,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-06-17,https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui
-First Collision Time in a Multi-Agent Unicycle Simulator,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/602b6710-f264-58a7-8e1e-56e2c9cac37c
+First Collision Time in a Multi-Agent Unicycle Simulator,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/applied-intuition-first-collision-time-in-a-multi-agent-unicycle-simulator
 Design Key-Value Store with Transactions,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-05,https://trueinterview.io/questions/design-key-value-store-with-transactions
 In-Memory Database,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,3,0,2026-04-28,https://trueinterview.io/questions/in-memory-database
 Implement a Fixed-Capacity Deque,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-04-14,https://trueinterview.io/questions/implement-a-fixed-capacity-deque
@@ -16,17 +16,17 @@ Design a mini compiler/interpreter,Algorithm,Hard,Onsite / virtual onsite,Junior
 Design a KV store with transactions,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-12,https://trueinterview.io/questions/design-a-kv-store-with-transactions
 Find intersection of two line segments,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/find-intersection-of-two-line-segments
 Validate Nested Configuration Objects,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-12,https://trueinterview.io/questions/validate-nested-configuration-objects
-Topological Sort with Nested Elements,Algorithm,Medium,Phone screen,Senior,1,0,2026-01,https://trueinterview.io/questions/75bb27c8-8c45-415d-bd44-edfb0d52af96
-Validate JSON against Protobuf,Algorithm,Medium,Phone screen,Senior,1,1,2026-01,https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b
-Scale Game of Life for Large Matrix,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2026-01,https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182
-Merge 2D Line Segments,Algorithm,Hard,Phone screen,Senior,1,1,2026-01,https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1
+Topological Sort with Nested Elements,Algorithm,Medium,Phone screen,Senior,1,0,2026-01,https://trueinterview.io/questions/applied-intuition-topological-sort-with-nested-elements
+Validate JSON against Protobuf,Algorithm,Medium,Phone screen,Senior,1,1,2026-01,https://trueinterview.io/questions/applied-intuition-validate-json-against-protobuf
+Scale Game of Life for Large Matrix,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2026-01,https://trueinterview.io/questions/applied-intuition-scale-game-of-life-for-large-matrix
+Merge 2D Line Segments,Algorithm,Hard,Phone screen,Senior,1,1,2026-01,https://trueinterview.io/questions/applied-intuition-merge-2d-line-segments
 Track simulations and report timeouts,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2025-12,https://trueinterview.io/questions/track-simulations-and-report-timeouts
 Evaluate variables in simple arithmetic DSL,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-12-01,https://trueinterview.io/questions/evaluate-variables-in-simple-arithmetic-dsl
-Message Parser,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid,1,1,2025-12,https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e
-Arithmetic Expression Evaluator II,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-11,https://trueinterview.io/questions/78d6d121-b1eb-489a-ad84-0e90cce7d0fc
-Finding Optimal Camp Location,Algorithm,Hard,Phone screen,New grad; Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/9cea9ab2-6484-4533-b59d-0020053aee3d
-Analyze Vehicle JSON Log,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4
-Evaluate Formula,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946
-Parse String,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb
-Find all points in a 2D plane,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887
-Route Curve Simplification Function,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020
+Message Parser,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid,1,1,2025-12,https://trueinterview.io/questions/applied-intuition-message-parser
+Arithmetic Expression Evaluator II,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-11,https://trueinterview.io/questions/applied-intuition-arithmetic-expression-evaluator-ii
+Finding Optimal Camp Location,Algorithm,Hard,Phone screen,New grad; Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/applied-intuition-finding-optimal-camp-location
+Analyze Vehicle JSON Log,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/applied-intuition-analyze-vehicle-json-log
+Evaluate Formula,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/applied-intuition-evaluate-formula
+Parse String,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/applied-intuition-parse-string
+Find all points in a 2D plane,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/applied-intuition-find-all-points-in-a-2d-plane
+Route Curve Simplification Function,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/applied-intuition-route-curve-simplification-function

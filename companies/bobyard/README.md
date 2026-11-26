@@ -17,8 +17,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [How do you debug slowness and bugs?](https://trueinterview.io/questions/how-do-you-debug-slowness-and-bugs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 1 | 2026-04-09 |
 | [Design comments and async image generation](https://trueinterview.io/questions/design-comments-and-async-image-generation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior | 1 | 1 | 2026-04-09 |
 | [Design a client-side comment system](https://trueinterview.io/questions/design-a-client-side-comment-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior | 1 | 0 | 2026-04 |
-| [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 1 | 2026-04 |
-| [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Senior | 1 | 0 | 2026-04 |
+| [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/bobyard-filter-nested-comments-and-keep-only-matched-nodes-and-their-descendants?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 1 | 2026-04 |
+| [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/bobyard-add-sorting-to-a-comment-list-with-persistence-across-refresh?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Senior | 1 | 0 | 2026-04 |
 
 ---
 

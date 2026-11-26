@@ -3,9 +3,9 @@ Compare Models for One-Minute and Five-Day Stock Returns,Behavioral / Knowledge,
 Combine Two Assets with Equal Return-to-Volatility Ratios,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-10-19,https://trueinterview.io/questions/combine-two-assets-with-equal-return-to-volatility-ratios
 Approximate a Square Root and Clarify the Integer Follow-up,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-19,https://trueinterview.io/questions/approximate-a-square-root-and-clarify-the-integer-follow-up
 Reach Every Target Position from One Chosen Start Using Repeatable Trades,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/reach-every-target-position-from-one-chosen-start-using-repeatable-trades
-Terminal-Based Two-Player Battleship,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/05f24831-d93c-522f-85ee-0811e321b613
+Terminal-Based Two-Player Battleship,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/citadel-terminal-based-two-player-battleship
 Memory Blocks — Reachable MEX After One Increment,Algorithm,Medium,Online assessment,New grad,1,1,2026-10-01,https://trueinterview.io/questions/oa-memory-block-mex-one-increment
-Search Suggestions System,Algorithm,Medium,Phone screen,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13
+Search Suggestions System,Algorithm,Medium,Phone screen,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/citadel-search-suggestions-system
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
 Behavioral / Resume Drilling Across the Loop,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/citadel-bq-resume-loop
 Research Engineer Sequence Classification,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-09-27,https://trueinterview.io/questions/research-engineer-sequence-classification
@@ -17,14 +17,14 @@ Detect Currency Arbitrage and Return a Profitable Conversion Cycle,Algorithm,Har
 Conflating Quote Queue That Keeps Only the Latest Price per Symbol,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/conflating-quote-queue-that-keeps-only-the-latest-price-per-symbol
 Deduplicating File System,Object-Oriented Programming,Medium,Phone screen,Senior,1,1,2026-09-08,https://trueinterview.io/questions/deduplicating-file-system
 Reduce Hashing and Safely Delete Shared File Content,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-03,https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content
-Merge Timestamped Price-Delta Feeds,Algorithm,Medium,Phone screen,Intern; Senior,1,0,2026-09,https://trueinterview.io/questions/bec8e37e-9fd0-53be-9ee9-9e904bbf0847
-Permutation-Invariant Classification of Variable-Length Feature Sets,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/4835bfa3-8b24-5b16-9372-993fa9b59e80
+Merge Timestamped Price-Delta Feeds,Algorithm,Medium,Phone screen,Intern; Senior,1,0,2026-09,https://trueinterview.io/questions/citadel-merge-timestamped-price-delta-feeds
+Permutation-Invariant Classification of Variable-Length Feature Sets,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/citadel-permutation-invariant-classification-of-variable-length-feature-sets
 "Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling",System Design,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling
-Minimum Changes for Every Length-K Substring to Be a Palindrome,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/e177ccb7-1580-508a-a95e-14b16aaea032
-Reconcile Unmatched Buy and Sell Trades,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/0060bc58-0dc6-5b92-a4a9-07bef5b895c0
-Palindrome Detection,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3
-Token Expiry and Reset Management Problem,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579
+Minimum Changes for Every Length-K Substring to Be a Palindrome,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/citadel-minimum-changes-for-every-length-k-substring-to-be-a-palindrome
+Reconcile Unmatched Buy and Sell Trades,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/citadel-reconcile-unmatched-buy-and-sell-trades
+Palindrome Detection,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/citadel-palindrome-detection
+Token Expiry and Reset Management Problem,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/citadel-token-expiry-and-reset-management-problem
 Multi-Exchange BBO / NBBO Class,Object-Oriented Programming,Medium,Phone screen,Intern; Senior,1,0,2026-09,https://trueinterview.io/questions/multi-exchange-nbbo-class
 Merge K Sorted Price Streams,Object-Oriented Programming,Medium,Phone screen,Intern; Junior / Mid; Senior,2,3,2026-09,https://trueinterview.io/questions/merge-k-sorted-streams-ood
-Minimum Changes to Make a K-Periodic Palindromic Password,Algorithm,Medium,Phone screen,New grad,2,3,2026-09,https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03
-Maximum Earnings After Converting Days Off to Workdays,Algorithm,Medium,Phone screen,New grad,2,0,2026-09,https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb
+Minimum Changes to Make a K-Periodic Palindromic Password,Algorithm,Medium,Phone screen,New grad,2,3,2026-09,https://trueinterview.io/questions/ramp-minimum-changes-to-make-a-k-periodic-palindromic-password
+Maximum Earnings After Converting Days Off to Workdays,Algorithm,Medium,Phone screen,New grad,2,0,2026-09,https://trueinterview.io/questions/ramp-maximum-earnings-after-converting-days-off-to-workdays

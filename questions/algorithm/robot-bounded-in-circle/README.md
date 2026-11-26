@@ -8,7 +8,7 @@
 | Algorithm | Medium | Uber · Meta | Phone screen | arrays | Jun 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/30e9378c-0012-5e2d-a657-04786183807a)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/uber-robot-bounded-in-circle)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -81,7 +81,7 @@ Simulate one cycle and check if the robot is back at (0,0) or facing a different
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/30e9378c-0012-5e2d-a657-04786183807a), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/uber-robot-bounded-in-circle), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

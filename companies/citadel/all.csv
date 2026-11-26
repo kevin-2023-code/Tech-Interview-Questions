@@ -3,9 +3,9 @@ Compare Models for One-Minute and Five-Day Stock Returns,Behavioral / Knowledge,
 Combine Two Assets with Equal Return-to-Volatility Ratios,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-10-19,https://trueinterview.io/questions/combine-two-assets-with-equal-return-to-volatility-ratios
 Approximate a Square Root and Clarify the Integer Follow-up,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-19,https://trueinterview.io/questions/approximate-a-square-root-and-clarify-the-integer-follow-up
 Reach Every Target Position from One Chosen Start Using Repeatable Trades,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-10-17,https://trueinterview.io/questions/reach-every-target-position-from-one-chosen-start-using-repeatable-trades
-Terminal-Based Two-Player Battleship,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/05f24831-d93c-522f-85ee-0811e321b613
+Terminal-Based Two-Player Battleship,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/citadel-terminal-based-two-player-battleship
 Memory Blocks — Reachable MEX After One Increment,Algorithm,Medium,Online assessment,New grad,1,1,2026-10-01,https://trueinterview.io/questions/oa-memory-block-mex-one-increment
-Search Suggestions System,Algorithm,Medium,Phone screen,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13
+Search Suggestions System,Algorithm,Medium,Phone screen,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/citadel-search-suggestions-system
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
 Behavioral / Resume Drilling Across the Loop,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/citadel-bq-resume-loop
 Research Engineer Sequence Classification,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-09-27,https://trueinterview.io/questions/research-engineer-sequence-classification
@@ -17,17 +17,17 @@ Detect Currency Arbitrage and Return a Profitable Conversion Cycle,Algorithm,Har
 Conflating Quote Queue That Keeps Only the Latest Price per Symbol,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/conflating-quote-queue-that-keeps-only-the-latest-price-per-symbol
 Deduplicating File System,Object-Oriented Programming,Medium,Phone screen,Senior,1,1,2026-09-08,https://trueinterview.io/questions/deduplicating-file-system
 Reduce Hashing and Safely Delete Shared File Content,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-09-03,https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content
-Merge Timestamped Price-Delta Feeds,Algorithm,Medium,Phone screen,Intern; Senior,1,0,2026-09,https://trueinterview.io/questions/bec8e37e-9fd0-53be-9ee9-9e904bbf0847
-Permutation-Invariant Classification of Variable-Length Feature Sets,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/4835bfa3-8b24-5b16-9372-993fa9b59e80
+Merge Timestamped Price-Delta Feeds,Algorithm,Medium,Phone screen,Intern; Senior,1,0,2026-09,https://trueinterview.io/questions/citadel-merge-timestamped-price-delta-feeds
+Permutation-Invariant Classification of Variable-Length Feature Sets,Algorithm,Hard,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/citadel-permutation-invariant-classification-of-variable-length-feature-sets
 "Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling",System Design,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling
-Minimum Changes for Every Length-K Substring to Be a Palindrome,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/e177ccb7-1580-508a-a95e-14b16aaea032
-Reconcile Unmatched Buy and Sell Trades,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/0060bc58-0dc6-5b92-a4a9-07bef5b895c0
-Palindrome Detection,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3
-Token Expiry and Reset Management Problem,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579
+Minimum Changes for Every Length-K Substring to Be a Palindrome,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/citadel-minimum-changes-for-every-length-k-substring-to-be-a-palindrome
+Reconcile Unmatched Buy and Sell Trades,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/citadel-reconcile-unmatched-buy-and-sell-trades
+Palindrome Detection,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/citadel-palindrome-detection
+Token Expiry and Reset Management Problem,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/citadel-token-expiry-and-reset-management-problem
 Multi-Exchange BBO / NBBO Class,Object-Oriented Programming,Medium,Phone screen,Intern; Senior,1,0,2026-09,https://trueinterview.io/questions/multi-exchange-nbbo-class
 Merge K Sorted Price Streams,Object-Oriented Programming,Medium,Phone screen,Intern; Junior / Mid; Senior,2,3,2026-09,https://trueinterview.io/questions/merge-k-sorted-streams-ood
-Minimum Changes to Make a K-Periodic Palindromic Password,Algorithm,Medium,Phone screen,New grad,2,3,2026-09,https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03
-Maximum Earnings After Converting Days Off to Workdays,Algorithm,Medium,Phone screen,New grad,2,0,2026-09,https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb
+Minimum Changes to Make a K-Periodic Palindromic Password,Algorithm,Medium,Phone screen,New grad,2,3,2026-09,https://trueinterview.io/questions/ramp-minimum-changes-to-make-a-k-periodic-palindromic-password
+Maximum Earnings After Converting Days Off to Workdays,Algorithm,Medium,Phone screen,New grad,2,0,2026-09,https://trueinterview.io/questions/ramp-maximum-earnings-after-converting-days-off-to-workdays
 "Compare OLS, Ridge, and Lasso under Collinear Predictors",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-08-15,https://trueinterview.io/questions/compare-ols-ridge-and-lasso-under-collinear-predictors
 Task Dependency Ordering,Algorithm,Medium,Phone screen,Intern,1,1,2026-08-15,https://trueinterview.io/questions/task-dependency-ordering
 "Research vs Engineering Preference, Technical Likes and Dislikes, and On-Call Experience",Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-08-12,https://trueinterview.io/questions/research-vs-engineering-preference-technical-likes-and-dislikes-and-on-call-experience
@@ -36,15 +36,15 @@ Candy (LC 135),Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-08-08,https:/
 Fleet Configuration and Deployment Control Plane,System Design,Hard,Phone screen,Senior,1,0,2026-08-05,https://trueinterview.io/questions/sre-configuration-deployment-control-plane
 SRE Python Fundamentals — Five-Question Set,Algorithm,Easy,Phone screen,Senior,1,1,2026-08-05,https://trueinterview.io/questions/sre-python-fundamentals-set
 Compute Every Fixed-Size Submatrix Sum,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/compute-every-fixed-size-submatrix-sum
-"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
-Second Largest Distinct Value,Algorithm,Easy,Online assessment,Senior,1,1,2026-08,https://trueinterview.io/questions/e94171d2-2436-5ce7-8c4f-ba711a9dc42b
-Print a Message Repeatedly with Blank Lines,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/e3077f6d-c663-5701-8372-4cd14485be37
-Word Frequency Counter,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/aada71de-6b38-53c5-89d3-6988b6a5865a
-Online Batched No-Intercept Regression,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/73c7aafc-4208-59c9-9bc1-f3dddb06e125
-Piecewise Linear Interpolation with Extrapolation,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/4796cc39-cf33-52af-9075-2fa0d3a0bf34
-Town Temperature Regression Analysis,AI Coding,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/40633852-5eda-59ea-9c7a-4e233abff5ec
-Square and Reverse a List,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/053a4fe5-1f9c-51b1-a965-6f9698ca8bcd
-Minimum Changes to Make Every Block a Palindrome,Algorithm,Medium,Phone screen,New grad,2,0,2026-08,https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/databricks-impactful-project-experience-goals-role-challenges-outcomes
+Second Largest Distinct Value,Algorithm,Easy,Online assessment,Senior,1,1,2026-08,https://trueinterview.io/questions/citadel-second-largest-distinct-value
+Print a Message Repeatedly with Blank Lines,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/citadel-print-a-message-repeatedly-with-blank-lines
+Word Frequency Counter,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/citadel-word-frequency-counter
+Online Batched No-Intercept Regression,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/citadel-online-batched-no-intercept-regression
+Piecewise Linear Interpolation with Extrapolation,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/citadel-piecewise-linear-interpolation-with-extrapolation
+Town Temperature Regression Analysis,AI Coding,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/citadel-town-temperature-regression-analysis
+Square and Reverse a List,Algorithm,Easy,Online assessment,Senior,1,0,2026-08,https://trueinterview.io/questions/citadel-square-and-reverse-a-list
+Minimum Changes to Make Every Block a Palindrome,Algorithm,Medium,Phone screen,New grad,2,0,2026-08,https://trueinterview.io/questions/citadel-minimum-changes-to-make-every-block-a-palindrome
 Min Root-to-Leaf Path Sum of N-ary Tree,Algorithm,Easy,Phone screen,Intern; Senior,5,0,2026-08,https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree
 Closest Pair of Points,Algorithm,Hard,Phone screen,New grad; Senior,2,0,2026-08,https://trueinterview.io/questions/closest-pair-of-points
 Probability and Combinatorics Quickfire Quiz,Behavioral / Knowledge,,Online assessment,Intern; New grad,1,0,2026-08,https://trueinterview.io/questions/trading-probability-quickfire
@@ -53,8 +53,8 @@ Best Time to Buy and Sell Stock II,Algorithm,Easy,Phone screen,Intern; Junior / 
 Real-Time Trading Event Feed Dashboard (React),Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-07-27,https://trueinterview.io/questions/react-trading-event-feed-dashboard
 Metrics Collection & Alerting System,System Design,Hard,Onsite / virtual onsite,Senior,2,2,2026-07-08,https://trueinterview.io/questions/metrics-alerting-system-design
 Design Inventory Availability and Order Placement,System Design,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/design-inventory-availability-and-order-placement
-Implement a C++ Task Scheduler with Parameterized Tasks,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/d893a368-33e5-51ad-a5d0-517ad8e801dd
-External Merge Sort with a Heap,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d
+Implement a C++ Task Scheduler with Parameterized Tasks,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/citadel-implement-a-cpp-task-scheduler-with-parameterized-tasks
+External Merge Sort with a Heap,Algorithm,Medium,Phone screen,Senior,1,0,2026-07,https://trueinterview.io/questions/citadel-external-merge-sort-with-a-heap
 Single-Producer Multi-Consumer Ring Buffer,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2026-07,https://trueinterview.io/questions/single-producer-multi-consumer-ring-buffer
 Order Book Pair Coding,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-07,https://trueinterview.io/questions/order-book-pair-coding
 GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-06-30,https://trueinterview.io/questions/gqs-swe-whiteboard-boundary-search-top-k
@@ -92,9 +92,9 @@ Live coding closer,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2025-12-
 Case study — LLM inference stability,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-12-16,https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability
 EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-12-16,https://trueinterview.io/questions/eqr-alpha-factor-deep-dive
 Merge K Sorted Lists (incl. K = 3),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,0,2025-12,https://trueinterview.io/questions/merge-k-sorted-lists-3
-LRU Cache II,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,4,0,2025-12,https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6
+LRU Cache II,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,4,0,2025-12,https://trueinterview.io/questions/google-lru-cache-ii
 Speed Up a Slow Async Python DAG Runner by Merging Single-Parent Jobs,Algorithm,Hard,Phone screen,Senior; Staff+,1,0,2025-11-03,https://trueinterview.io/questions/speed-up-a-slow-async-python-dag-runner-by-merging-single-parent-jobs
-Tree Diameter,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2025-11,https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677
+Tree Diameter,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2025-11,https://trueinterview.io/questions/citadel-tree-diameter
 Explain RF optimization and variable-importance pitfalls,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/explain-rf-optimization-and-variable-importance-pitfalls
 Estimate OLS via streaming sufficient statistics,Algorithm,Hard,Phone screen,Senior; Staff+,1,0,,https://trueinterview.io/questions/estimate-ols-via-streaming-sufficient-statistics
 Discuss PhD coursework and research impact,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,,https://trueinterview.io/questions/discuss-phd-coursework-and-research-impact
@@ -104,5 +104,5 @@ Derive lower bound for equicorrelation rho,Behavioral / Knowledge,,Phone screen,
 Derive distribution of an inverse transform,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/derive-distribution-of-an-inverse-transform
 "Implement left join on Python lists, no packages",Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/implement-left-join-on-python-lists-no-packages
 Implement lazy unique-merge generator for sorted streams,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/implement-lazy-unique-merge-generator-for-sorted-streams
-Statistics from a 256-Bucket Frequency Array,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/d00a6fa5-a7cf-5259-903f-603e51c7bfea
-Medium Level Algorithm Question,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/2b3416a8-5a91-4284-b9fa-e0cb6ee1768c
+Statistics from a 256-Bucket Frequency Array,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/citadel-statistics-from-a-256-bucket-frequency-array
+Medium Level Algorithm Question,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/citadel-medium-level-algorithm-question

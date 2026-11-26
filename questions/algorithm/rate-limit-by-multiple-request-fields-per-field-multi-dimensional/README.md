@@ -8,7 +8,7 @@
 | Algorithm | Medium | Roblox | Phone screen | hashing, sliding-window | Oct 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/roblox-rate-limit-by-multiple-request-fields-per-field-multi-dimensional)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -121,7 +121,7 @@ Ensure efficient cleanup of expired timestamps to keep memory usage bounded.
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/roblox-rate-limit-by-multiple-request-fields-per-field-multi-dimensional), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

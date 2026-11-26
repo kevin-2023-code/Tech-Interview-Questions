@@ -8,7 +8,7 @@
 | Algorithm | Hard | Hudson River Trading | Phone screen | — | Jul 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/hudson-river-trading-1d-players-and-watcher-with-direction-changes)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -79,7 +79,7 @@ Time complexity is O(N + T) where T is the total simulation time, and the tricki
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/hudson-river-trading-1d-players-and-watcher-with-direction-changes), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

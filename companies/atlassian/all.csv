@@ -18,10 +18,10 @@ Highlight the Shortest Unique Substring in Each Label,Algorithm,Hard,Phone scree
 Design an Immersive Virtual Workplace for Hybrid Team Collaboration and Office Coordination,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-08-01,https://trueinterview.io/questions/design-an-immersive-virtual-workplace-for-hybrid-team-collaboration-and-office-coordination
 Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,9,0,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
 URL Router Design,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,2,2026-08,https://trueinterview.io/questions/url-router-design
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,0,2026-08,https://trueinterview.io/questions/meta-merge-two-interval-lists
 Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
-Simple Moving Average over a Fixed-Size Sliding Window,Algorithm,Medium,Phone screen,Senior,4,0,2026-07,https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa
-Spiral Matrix,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-07,https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286
+Simple Moving Average over a Fixed-Size Sliding Window,Algorithm,Medium,Phone screen,Senior,4,0,2026-07,https://trueinterview.io/questions/chicago-trading-simple-moving-average-over-a-fixed-size-sliding-window
+Spiral Matrix,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-07,https://trueinterview.io/questions/atlassian-spiral-matrix
 Design Online Game Leaderboard,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,5,2026-05,https://trueinterview.io/questions/design-a-gaming-leaderboard-service
 Popular Content Counter,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-04-21,https://trueinterview.io/questions/popular-content-all-o-one
 Image Link Crawler Service,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-21,https://trueinterview.io/questions/image-link-crawler-service
@@ -33,24 +33,24 @@ Cross-Platform Logging Library,System Design,Medium,Onsite / virtual onsite,Seni
 RAG Search Augmentation and Internal Chatbot,System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-02-26,https://trueinterview.io/questions/rag-search-augmentation-internal-chatbot
 "Designing a Consumer Weight-Loss App: Target Users, Habit Features and Safe Metrics",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-25,https://trueinterview.io/questions/designing-a-consumer-weight-loss-app-target-users-habit-features-and-safe-metrics
 Expanding Tennis Club Court Assignment,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,4,2026-02-23,https://trueinterview.io/questions/expanding-tennis-club-court-assignment
-Org Tree Lowest Common Department,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,4,2026-02-15,https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0
+Org Tree Lowest Common Department,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,4,2026-02-15,https://trueinterview.io/questions/atlassian-org-tree-lowest-common-department
 Setting Atlassian's Multi-Year Growth Bets as Chief Product Officer,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-06,https://trueinterview.io/questions/setting-atlassians-multi-year-growth-bets-as-chief-product-officer
 Google Entering Restaurant Delivery: Recommend Whether to Launch Its Own App,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-02-06,https://trueinterview.io/questions/google-entering-restaurant-delivery-recommend-whether-to-launch-its-own-app
 Design a Jira+Confluence RAG assistant,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-02,https://trueinterview.io/questions/design-a-jiraplusconfluence-rag-assistant
 Customer Service Rating,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,2,2026-02,https://trueinterview.io/questions/customer-service-rating
-Trending (Moving) Average on Integer Stream,Algorithm,Medium,Phone screen,Senior,1,0,2026-02,https://trueinterview.io/questions/80ba1fe6-a6cd-4143-b4d5-c0b0744e4dea
-Calculate and Sort Customer Ratings,Algorithm,Easy,Online assessment,Senior,1,0,2026-02,https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904
-O(1) Data Structure Using Double Linked List,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-02,https://trueinterview.io/questions/03803768-eb29-4336-bf49-784383ae7338
+Trending (Moving) Average on Integer Stream,Algorithm,Medium,Phone screen,Senior,1,0,2026-02,https://trueinterview.io/questions/atlassian-trending-moving-average-on-integer-stream
+Calculate and Sort Customer Ratings,Algorithm,Easy,Online assessment,Senior,1,0,2026-02,https://trueinterview.io/questions/atlassian-calculate-and-sort-customer-ratings
+O(1) Data Structure Using Double Linked List,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-02,https://trueinterview.io/questions/atlassian-o-1-data-structure-using-double-linked-list
 Commodity Price Checkpoints,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02,https://trueinterview.io/questions/commodity-price-checkpoints
 "Sequential, Deduped, and Parallel URL Fetcher",Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-01-30,https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher
 Store a hierarchy and return all children,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-01-05,https://trueinterview.io/questions/store-a-hierarchy-and-return-all-children
 Compute top-N posts in a workspace,System Design,Hard,Onsite / virtual onsite,Senior,1,0,2026-01-05,https://trueinterview.io/questions/compute-top-n-posts-in-a-workspace
 Product Feed and Shopping Recommendation System,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,1,4,2026-01-05,https://trueinterview.io/questions/product-feed-and-shopping-recommendation-system
-Fetch a list of URLs sequentially and return responses,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,2,2026-01,https://trueinterview.io/questions/f070ed97-d100-4e7f-a139-8d6432f64b83
-Is one string a subsequence of another?,Algorithm,Easy,Online assessment,Senior,1,1,2026-01,https://trueinterview.io/questions/bc22cdd6-a42e-4871-9342-b3016bba9933
-OOD Release Notification Service,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,0,2026-01,https://trueinterview.io/questions/739ed936-8be9-4ea6-a5a3-58c71cfa16f1
+Fetch a list of URLs sequentially and return responses,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,2,2026-01,https://trueinterview.io/questions/atlassian-fetch-a-list-of-urls-sequentially-and-return-responses
+Is one string a subsequence of another?,Algorithm,Easy,Online assessment,Senior,1,1,2026-01,https://trueinterview.io/questions/atlassian-is-one-string-a-subsequence-of-another
+OOD Release Notification Service,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,0,2026-01,https://trueinterview.io/questions/atlassian-ood-release-notification-service
 Snowy Mountain Path with Melting,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2025-12-16,https://trueinterview.io/questions/snowy-mountain-path-with-melting
-LeetCode Problem 636,Algorithm,Medium,Phone screen,Senior,1,0,2025-12,https://trueinterview.io/questions/e232949d-8555-44bc-9410-40b2b8c91190
+LeetCode Problem 636,Algorithm,Medium,Phone screen,Senior,1,0,2025-12,https://trueinterview.io/questions/atlassian-leetcode-problem-636
 Full-Stack Craft: Login and Upload Flow,System Design,Easy,Phone screen,Junior / Mid; Senior,1,0,2025-11-19,https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow
 Robot Parts Assembly,Algorithm,Easy,Phone screen,Senior,1,0,2025-11-06,https://trueinterview.io/questions/robot-parts-assembly
 Cart Routes Origin Destinations,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-11-06,https://trueinterview.io/questions/cart-routes-origin-destinations
@@ -63,7 +63,7 @@ Subscription Billing Statement,Algorithm,Medium,Onsite / virtual onsite,New grad
 Hopscotch,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-10-02,https://trueinterview.io/questions/hopscotch
 Find Anagram in String,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2025-10-02,https://trueinterview.io/questions/find-anagram-in-string
 F1 Last Lap Improvement,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2025-10-02,https://trueinterview.io/questions/f1-last-lap-improvement
-Agent Vote API Design,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-09,https://trueinterview.io/questions/acb7f800-86e4-4960-8ef2-15336c0c5562
+Agent Vote API Design,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-09,https://trueinterview.io/questions/atlassian-agent-vote-api-design
 Minimize Shopping Department Visits,Algorithm,Easy,Phone screen,Junior / Mid,1,0,2025-07-03,https://trueinterview.io/questions/shopping-category-trip-difference
 Campground Carpool,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-07-03,https://trueinterview.io/questions/karat-carpool-linear-routes
 "Demonstrate motivation, feedback, and prioritization",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/demonstrate-motivation-feedback-and-prioritization
@@ -73,5 +73,5 @@ Count Singler Role Co-occurrences,Algorithm,Medium,Phone screen,New grad; Junior
 Build Transition Graph,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/build-transition-graph-2
 Design S3-like Object Storage System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,5,0,,https://trueinterview.io/questions/design-s3-like-object-storage-system-2
 Design A Color Picker Service,System Design,Easy,Onsite / virtual onsite,Senior; Staff+,1,0,,https://trueinterview.io/questions/design-a-color-picker-service
-File Directory Tree UI with Expand/Collapse Functionality,AI Coding,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/0e93c101-4680-4bdd-9fc6-779898a9e6ae
-Maximum Subarray,Algorithm,Easy,Online assessment,New grad; Junior / Mid,7,0,,https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9
+File Directory Tree UI with Expand/Collapse Functionality,AI Coding,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/atlassian-file-directory-tree-ui-with-expand-collapse-functionality
+Maximum Subarray,Algorithm,Easy,Online assessment,New grad; Junior / Mid,7,0,,https://trueinterview.io/questions/apple-maximum-subarray

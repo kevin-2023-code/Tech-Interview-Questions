@@ -8,7 +8,7 @@
 | Algorithm | Easy | Apple · Amazon · ByteDance · Google · LinkedIn · Microsoft · +4 | Phone screen | hashing, heap | Oct 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/apple-top-k-frequent-elements)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -80,7 +80,7 @@ Aim for better than O(n log n), such as O(n) with bucket sort or O(n log k) with
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/apple-top-k-frequent-elements), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

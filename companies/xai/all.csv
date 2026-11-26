@@ -1,6 +1,6 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
-Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
+Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/doordash-dasher-payment-model
 Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,5,2026-10,https://trueinterview.io/questions/design-chatgpt
 Design a Distributed URL Shortener for Very High Redirect Traffic,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-09-25,https://trueinterview.io/questions/design-a-distributed-url-shortener-for-very-high-redirect-traffic
 Present a Past Project with Slides to a Panel of Engineers and PMs,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-23,https://trueinterview.io/questions/present-a-past-project-with-slides-to-a-panel-of-engineers-and-pms
@@ -22,7 +22,7 @@ Multithreaded BankAccount Race-Condition Bug Hunt,Object-Oriented Programming,Me
 Data Parallel & FSDP Matrix Multiplication,AI Coding,Hard,Phone screen,Junior / Mid,1,0,2026-04-04,https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication
 Resumable Iterator with Save / Restore State,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Senior,1,1,2026-04-02,https://trueinterview.io/questions/resumable-iterator-design
 In-Memory Database — Levels 1–4 (TTL + Backup/Restore),Object-Oriented Programming,Hard,Online assessment; Take-home,New grad; Junior / Mid; Senior,1,0,2026-04-01,https://trueinterview.io/questions/in-memory-database-ttl-backup
-Design Token Limiter,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73
+Design Token Limiter,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/xai-design-token-limiter
 Design a Distributed KV Store,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/design-a-distributed-kv-store
 Distributed Rate Limiter,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,0,2026-04-01,https://trueinterview.io/questions/distributed-rate-limiter
 Design a RAG System,System Design,Easy,Onsite / virtual onsite,Senior,3,1,2026-03,https://trueinterview.io/questions/design-a-rag-system
@@ -38,7 +38,7 @@ Multithreaded Array Sort,Algorithm,Medium,Phone screen; Onsite / virtual onsite,
 Maximum Number of Distinct Elements After Operations,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-01-15,https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations
 K-th Element on a Streaming Time Window,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,0,2026-01-14,https://trueinterview.io/questions/kth-element-streaming-window
 In-Memory Key-Value Store with Transactions,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,0,2026-01,https://trueinterview.io/questions/in-memory-key-value-store-with-transactions
-Handwrite parallelized sort,Algorithm,Medium,Phone screen,Senior,1,0,2026-01,https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac
+Handwrite parallelized sort,Algorithm,Medium,Phone screen,Senior,1,0,2026-01,https://trueinterview.io/questions/xai-handwrite-parallelized-sort
 Dynamic Batch Inference,Object-Oriented Programming,Medium,Phone screen,Senior,1,0,2025-12-14,https://trueinterview.io/questions/dynamic-batch-inference
 Find Bad GPU Nodes,Algorithm,Hard,Phone screen,Senior,1,0,2025-12-14,https://trueinterview.io/questions/group-test-gpu-nodes
 How Would You Prevent Hallucinations in an LLM-Based System?,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2025-11-21,https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system

@@ -8,7 +8,7 @@
 | Object-Oriented Programming | Medium | Anthropic · MongoDB | Phone screen | graphs | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/anthropic-concurrent-web-crawler)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -116,7 +116,7 @@ The trickiest part is avoiding duplicate crawling and ensuring the hostname comp
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/anthropic-concurrent-web-crawler), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

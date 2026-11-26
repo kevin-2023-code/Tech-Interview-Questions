@@ -8,7 +8,7 @@
 | Algorithm | Medium | Google | Phone screen | sliding-window | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/7a3b6266-bc7c-4893-80a9-02a992ba2cc3)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/google-windowed-average-excluding-largest-k)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -80,7 +80,7 @@ Watch duplicates and the rebalancing when the outgoing element sits in the top-k
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/7a3b6266-bc7c-4893-80a9-02a992ba2cc3), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/google-windowed-average-excluding-largest-k), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -2,11 +2,11 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 "Background, AI use at work, misalignment with a company Stripe works with, why Stripe",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-10-06,https://trueinterview.io/questions/background-ai-use-at-work-misalignment-with-a-company-stripe-works-with-why-stripe
 Payment State Machine,Object-Oriented Programming,Medium,Online assessment,New grad,1,0,2026-10-04,https://trueinterview.io/questions/payment-state-machine-oa
 Stripe: choosing the next financial offering to build for SMB merchants,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-03,https://trueinterview.io/questions/stripe-choosing-the-next-financial-offering-to-build-for-smb-merchants
-Transaction Risk Rules with Boolean Expressions,Algorithm,Hard,Phone screen,Senior; Staff+,1,0,2026-10,https://trueinterview.io/questions/faff15a8-89a1-5476-9d42-5d7a4e1803c6
-"Split Tender: Gift Cards, Expiration, Surcharges, and Refunds",Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/3a47c1a0-fd3b-53f5-893c-89c8e19184eb
+Transaction Risk Rules with Boolean Expressions,Algorithm,Hard,Phone screen,Senior; Staff+,1,0,2026-10,https://trueinterview.io/questions/stripe-transaction-risk-rules-with-boolean-expressions
+"Split Tender: Gift Cards, Expiration, Surcharges, and Refunds",Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/stripe-split-tender-gift-cards-expiration-surcharges-and-refunds
 Deployment Window Scheduler II,Algorithm,Hard,Online assessment,New grad,1,0,2026-10,https://trueinterview.io/questions/deployment-window-scheduler-oa
 Design Feature Flag,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-10,https://trueinterview.io/questions/design-feature-flag-2
-Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/amazon-design-metrics-system
 Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,40,2026-10,https://trueinterview.io/questions/payment-platform-design
 AI-Assisted Coding Round (HackerRank + Claude),Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,1,0,2026-10,https://trueinterview.io/questions/ai-assisted-coding-round
 Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
@@ -29,20 +29,20 @@ Specify Proximity-Based Request Routing,System Design,Medium,Online assessment,N
 "Upgrading an Existing Stripe Payments Capability: Target Users, Redesign and Metrics",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/upgrading-an-existing-stripe-payments-capability-target-users-redesign-and-metrics
 Transaction Logs — Trigger / Resolve,Algorithm,Medium,Online assessment; Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09-07,https://trueinterview.io/questions/transaction-logs-trigger-resolve
 Subtract Blocked Periods from Allowed Deployment Windows,Algorithm,Medium,Online assessment,New grad,1,0,2026-09-04,https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows
-Match Payments to Invoices with a Forgiveness Range,Algorithm,Hard,Phone screen,Intern,1,0,2026-09,https://trueinterview.io/questions/fe8f4837-094e-509a-b993-8d9ff63eb4c8
-Deployment Window Scheduler,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/df27d016-b2c5-5794-9e64-f08fb60918d6
-Render a Task Hierarchy from Flat Records,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/74f0a23e-87e7-5cae-b6d5-cd172ce9ca2c
-Register Data Centers and Route to the Nearest Healthy Region,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid,1,4,2026-09,https://trueinterview.io/questions/3e1717c0-3f46-530e-867f-13b6cea2b132
-CSV Company Record Validation and Field Word Overlap,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/1259af1d-bc05-5772-8818-4e27bb40a1c2
-Verify Business Records by Required Fields,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/f8231511-f6ac-545f-b959-3920ee7eac6c
-Verify Business Name Overlap with Nickname,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/ebf98d3b-d473-5ce3-858d-a80947f240ce
-Validate a Length-Limited Field and Forbidden Description Terms,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/9baeb5c4-0679-5fda-aa74-bad3d7a9a5e4
-Find the Latest Bank Account Balance,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/74133864-60db-59b8-b4f9-663c0ff1ad00
-Reconcile Monthly Balances Between Two CSV Files,Algorithm,Easy,Online assessment,New grad; Junior / Mid,1,2,2026-09,https://trueinterview.io/questions/0cb1e3fc-02d4-53bc-9272-a8286f17e013
+Match Payments to Invoices with a Forgiveness Range,Algorithm,Hard,Phone screen,Intern,1,0,2026-09,https://trueinterview.io/questions/stripe-match-payments-to-invoices-with-a-forgiveness-range
+Deployment Window Scheduler,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/stripe-deployment-window-scheduler
+Render a Task Hierarchy from Flat Records,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/stripe-render-a-task-hierarchy-from-flat-records
+Register Data Centers and Route to the Nearest Healthy Region,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid,1,4,2026-09,https://trueinterview.io/questions/stripe-register-data-centers-and-route-to-the-nearest-healthy-region
+CSV Company Record Validation and Field Word Overlap,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/stripe-csv-company-record-validation-and-field-word-overlap
+Verify Business Records by Required Fields,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/stripe-verify-business-records-by-required-fields
+Verify Business Name Overlap with Nickname,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/stripe-verify-business-name-overlap-with-nickname
+Validate a Length-Limited Field and Forbidden Description Terms,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/stripe-validate-a-length-limited-field-and-forbidden-description-terms
+Find the Latest Bank Account Balance,Algorithm,Easy,Online assessment,New grad,1,0,2026-09,https://trueinterview.io/questions/stripe-find-the-latest-bank-account-balance
+Reconcile Monthly Balances Between Two CSV Files,Algorithm,Easy,Online assessment,New grad; Junior / Mid,1,2,2026-09,https://trueinterview.io/questions/stripe-reconcile-monthly-balances-between-two-csv-files
 Hiring Manager Behavioral,Behavioral / Knowledge,,Onsite / virtual onsite,Intern; Junior / Mid; Senior; Staff+,1,0,2026-09,https://trueinterview.io/questions/hiring-manager-behavioral-2
 Payment Reconciliation,AI Coding,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09,https://trueinterview.io/questions/payment-reconciliation-integration
-Implement a Rule Parser and Evaluator,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Staff+,1,0,2026-09,https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03
-Find Directly Linked Merchants by Shared Attributes,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3
+Implement a Rule Parser and Evaluator,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Staff+,1,0,2026-09,https://trueinterview.io/questions/stripe-implement-a-rule-parser-and-evaluator
+Find Directly Linked Merchants by Shared Attributes,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/stripe-find-directly-linked-merchants-by-shared-attributes
 Requests Library Debug (BugSquash),AI Coding,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/requests-library-debug
 Hotel Booking Reminder,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/subscription-email-scheduler
 Bike Map,AI Coding,Medium,Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/bike-map

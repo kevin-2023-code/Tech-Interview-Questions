@@ -8,7 +8,7 @@
 | Algorithm | Medium | Uber · Amazon · Apple · Databricks · Meta · OKX · +1 | Phone screen | hashing | Oct 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/uber-group-anagrams)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -96,7 +96,7 @@ For extremely large datasets, consider external sorting or map-reduce to group b
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/uber-group-anagrams), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

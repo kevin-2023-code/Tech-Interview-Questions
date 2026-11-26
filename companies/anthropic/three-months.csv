@@ -7,8 +7,8 @@ Resume Project Deep Dive and Prioritizing Too Many Tasks at Once,Behavioral / Kn
 Design a Parallel and Resumable Model Downloader,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-05,https://trueinterview.io/questions/design-a-parallel-and-resumable-model-downloader
 Design a Model Inference API and Optimize Its GPU Usage,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-05,https://trueinterview.io/questions/design-a-model-inference-api-and-optimize-its-gpu-usage
 Make a Web Crawler Concurrent with Thread-Safe Visited State,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-05,https://trueinterview.io/questions/make-a-web-crawler-concurrent-with-thread-safe-visited-state
-Function Cache Keys and Crash-Recoverable LRU Cache,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/1634ce25-e301-53d6-ae4c-af51fb820611
-Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Function Cache Keys and Crash-Recoverable LRU Cache,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/anthropic-function-cache-keys-and-crash-recoverable-lru-cache
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/anthropic-implement-an-lru-cache-hashmap-doubly-linked-list-and-debug-an
 Recruiter Screen — Why Anthropic Deep-Dive,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior; Staff+,1,16,2026-10,https://trueinterview.io/questions/recruiter-screen-why-anthropic
 Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,5,2026-10,https://trueinterview.io/questions/design-chatgpt
 Design a 1-to-1 Chat System,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10,https://trueinterview.io/questions/design-a-1-to-1-chat-system
@@ -31,12 +31,12 @@ Why Anthropic and its values?,Behavioral / Knowledge,,Phone screen,Senior,1,0,20
 Explain CPU-Bound vs I/O-Bound Work,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,3,2026-09,https://trueinterview.io/questions/explain-cpu-bound-vs-i-o-bound-work
 Explain AI Safety and Weigh Advanced AI Benefits and Risks,Behavioral / Knowledge,,Phone screen,Junior / Mid; Staff+,1,2,2026-09,https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks
 Design Telemetry Ingestion and Reconcile Metric Names,System Design,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names
-File Deduplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f
+File Deduplication,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/anthropic-file-deduplication
 Reason About Delaying an AI Breakthrough Under Uncertain Risk,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk
 "Estimate FFN Compute, Memory, and Sharding Communication",System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication
-Concurrent Web Crawler,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871
+Concurrent Web Crawler,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/anthropic-concurrent-web-crawler
 Onsite Design Doc Review,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Manager,1,0,2026-09,https://trueinterview.io/questions/onsite-design-doc-review
-Find Duplicate Files,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b
+Find Duplicate Files,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/anthropic-find-duplicate-files
 Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
 Culture & Behavioral Interview Questions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,2,0,2026-09,https://trueinterview.io/questions/culture-behavioral-interview-questions
 Distributed Mode and Median,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/distributed-mode-and-median

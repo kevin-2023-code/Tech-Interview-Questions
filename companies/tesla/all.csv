@@ -18,7 +18,7 @@ Spot US Market Gaps for a New Electric Vehicle Challenger to Tesla,Behavioral / 
 CV / Sensing ML Fundamentals Oral,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,1,2026-06-16,https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral
 Bulls and Cows with Per-Position Match Signal,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-06-03,https://trueinterview.io/questions/bulls-and-cows-position-signal
 Find Size of Largest Subset,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-06-01,https://trueinterview.io/questions/find-size-of-largest-subset
-Guess the Word (Master API),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc
+Guess the Word (Master API),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,0,2026-06,https://trueinterview.io/questions/tesla-guess-the-word-master-api
 Task Scheduler with Timed Execution and Dynamic Insertion,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-05-27,https://trueinterview.io/questions/task-scheduler-timed-execution
 Narrate the Passing Scenery for Blind Passengers in a Tesla: In-Car Feature Design,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-24,https://trueinterview.io/questions/narrate-the-passing-scenery-for-blind-passengers-in-a-tesla-in-car-feature-design
 "Tesla Product Sense: A Feature for Safer, Easier Turns Around Blind Spots",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-05-22,https://trueinterview.io/questions/tesla-product-sense-a-feature-for-safer-easier-turns-around-blind-spots
@@ -30,14 +30,14 @@ Minimum Absolute Difference Pairs,Algorithm,Medium,Onsite / virtual onsite,New g
 Fuel Station Queue Simulation,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-04-18,https://trueinterview.io/questions/fuel-station-queue-simulation
 Maximum Island Perimeter,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-04-17,https://trueinterview.io/questions/maximum-island-perimeter
 Discuss proudest project and conflict handling,Behavioral / Knowledge,,Phone screen,Junior / Mid,5,0,2026-04,https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling
-Cumulative Monthly Sales by Store with Month Reset,SQL,Medium,Online assessment,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b
-Daily Metrics by Order Status in a Single SQL Pass,SQL,Easy,Online assessment,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc
-Find All Reports Under a Manager (n-level) and Return Hierarchy Path,SQL,Medium,Online assessment,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61
+Cumulative Monthly Sales by Store with Month Reset,SQL,Medium,Online assessment,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/tesla-cumulative-monthly-sales-by-store-with-month-reset
+Daily Metrics by Order Status in a Single SQL Pass,SQL,Easy,Online assessment,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/tesla-daily-metrics-by-order-status-in-a-single-sql-pass
+Find All Reports Under a Manager (n-level) and Return Hierarchy Path,SQL,Medium,Online assessment,Junior / Mid,1,1,2026-04,https://trueinterview.io/questions/tesla-find-all-reports-under-a-manager-n-level-and-return-hierarchy-path
 Battery Cell Quality Statistical Case,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,1,2026-03-16,https://trueinterview.io/questions/battery-cell-quality-statistical-case
 Ticketmaster-Style Seat Booking Design,System Design,Hard,Phone screen,Senior,2,0,2026-03-11,https://trueinterview.io/questions/ticketmaster-double-booking-design
 Design a remittance-file processing system,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-03,https://trueinterview.io/questions/design-booking-and-settlement-systems-design-a-remittance-file-processing-system
 Design a transaction reconciliation system,System Design,Medium,Onsite / virtual onsite,Senior,1,1,2026-03,https://trueinterview.io/questions/design-booking-and-settlement-systems-design-a-transaction-reconciliation-system
-Burning a Binary Tree (Time to Burn Entire Tree),Algorithm,Medium,Phone screen,Senior,1,0,2026-03,https://trueinterview.io/questions/19d7abba-9f7c-4acd-ab07-797730cfba83
+Burning a Binary Tree (Time to Burn Entire Tree),Algorithm,Medium,Phone screen,Senior,1,0,2026-03,https://trueinterview.io/questions/tesla-burning-a-binary-tree-time-to-burn-entire-tree
 Model other agents in simulation,System Design,Hard,Phone screen,Intern,1,1,2026-02-12,https://trueinterview.io/questions/model-other-agents-in-simulation
 Compute suffix sums over waypoints,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-02-12,https://trueinterview.io/questions/compute-suffix-sums-over-waypoints
 Speed-Limit RL Reward from Trajectory Samples,Algorithm,Medium,Phone screen,Intern,1,0,2026-02-03,https://trueinterview.io/questions/speed-limit-rl-reward
@@ -58,4 +58,4 @@ Decode Ways / Alphanumeric Combination,Algorithm,Medium,Online assessment; Phone
 "Event Bus with Emit, Subscribe, and Unsubscribe",Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2025-07-04,https://trueinterview.io/questions/event-bus-emit-subscribe
 Iterator Over Arbitrarily Nested Integer Lists,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,0,,https://trueinterview.io/questions/flatten-nested-list-iterator
 Subarray with Most Target Element,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,0,,https://trueinterview.io/questions/subarray-with-most-target-element-2
-C++ Debugging: Doubly Linked List,AI Coding,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/7f05aa82-8ea2-4d37-a3bb-3fd8ff97c6c8
+C++ Debugging: Doubly Linked List,AI Coding,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/tesla-cpp-debugging-doubly-linked-list

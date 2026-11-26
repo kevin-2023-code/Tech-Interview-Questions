@@ -8,7 +8,7 @@
 | Object-Oriented Programming | Hard | StubHub | Onsite / virtual onsite | — | Jun 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/stubhub-composable-event-recommendation-campaign-engine-flexible-filters)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -92,7 +92,7 @@ Consider thread safety and extensibility: each component should be stateless or 
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/stubhub-composable-event-recommendation-campaign-engine-flexible-filters), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

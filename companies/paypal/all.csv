@@ -14,21 +14,21 @@ Design a Payment Fraud Detection Service,System Design,Hard,Onsite / virtual ons
 Design a Cross-Border Money Transfer Service,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-14,https://trueinterview.io/questions/design-a-cross-border-money-transfer-service
 Minimize a String Using Allowed Swaps,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-14,https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps
 "Strategy for a Connected Shoe: Target Market, Core Use Case and Phased Roadmap",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-03-24,https://trueinterview.io/questions/strategy-for-a-connected-shoe-target-market-core-use-case-and-phased-roadmap
-API Call and Data Processing,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039
+API Call and Data Processing,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,0,2026-03,https://trueinterview.io/questions/paypal-api-call-and-data-processing
 Product design: a tool for setting a spending plan and staying on it,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-04,https://trueinterview.io/questions/product-design-a-tool-for-setting-a-spending-plan-and-staying-on-it
 Diagnosing a 10% three-month decline in Uber Eats cart-to-order conversion,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-02-04,https://trueinterview.io/questions/diagnosing-a-10percent-three-month-decline-in-uber-eats-cart-to-order-conversion
 Interplanetary Data Delivery: Product Design for Bulk Transfers Under Extreme Delay,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-26,https://trueinterview.io/questions/interplanetary-data-delivery-product-design-for-bulk-transfers-under-extreme-delay
 Pick an Underserved User Need and Lay Out a Validation Plan for It,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-12-26,https://trueinterview.io/questions/pick-an-underserved-user-need-and-lay-out-a-validation-plan-for-it
-Binary Search Tree Pruning,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605
-Number of Unique Binary Trees,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0
-Minimum Steps to Move Balls to Respective Holes,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb
-Graph Traversal using BFS/DFS,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f
-Similar Password (Singapore),Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/f3594e7e-7600-472c-b414-1cd919d3e0a0
-K-Means Clustering Implementation with Manual Initialization,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca
-Modify Array,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525
-Minimum Time to Schedule Processes on Degrading Processors,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/599e3936-06f4-4c46-b61d-f155e3b6895f
-Word Search in 2D Grid with Diagonal Moves,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530
-Count User Logins (Singapore),Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/1ab60462-b812-470d-9ebc-0efde6eed6cf
-Find Reachable Good Endings in Choose Your Own Adventure Book,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/15808a55-af32-4748-a811-48bd2ef1f829
-Items Purchase (For Java Backend Engineer),Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/3c62d850-e8cd-4ef4-98c8-5402ad26e12e
-Maximum Subarray,Algorithm,Easy,Online assessment,New grad; Junior / Mid,7,0,,https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9
+Binary Search Tree Pruning,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/paypal-binary-search-tree-pruning
+Number of Unique Binary Trees,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-04,https://trueinterview.io/questions/paypal-number-of-unique-binary-trees
+Minimum Steps to Move Balls to Respective Holes,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/paypal-minimum-steps-to-move-balls-to-respective-holes
+Graph Traversal using BFS/DFS,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2025-03,https://trueinterview.io/questions/paypal-graph-traversal-using-bfs-dfs
+Similar Password (Singapore),Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/paypal-similar-password-singapore
+K-Means Clustering Implementation with Manual Initialization,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/paypal-k-means-clustering-implementation-with-manual-initialization
+Modify Array,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/paypal-modify-array
+Minimum Time to Schedule Processes on Degrading Processors,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/paypal-minimum-time-to-schedule-processes-on-degrading-processors
+Word Search in 2D Grid with Diagonal Moves,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/paypal-word-search-in-2d-grid-with-diagonal-moves
+Count User Logins (Singapore),Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/paypal-count-user-logins-singapore
+Find Reachable Good Endings in Choose Your Own Adventure Book,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/paypal-find-reachable-good-endings-in-choose-your-own-adventure-book
+Items Purchase (For Java Backend Engineer),Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/paypal-items-purchase-for-java-backend-engineer
+Maximum Subarray,Algorithm,Easy,Online assessment,New grad; Junior / Mid,7,0,,https://trueinterview.io/questions/apple-maximum-subarray

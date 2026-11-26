@@ -8,7 +8,7 @@
 | Algorithm | Medium | Point72 | Phone screen | binary-search | Aug 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/point72-find-minimum-in-rotated-sorted-array)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -79,7 +79,7 @@ Aim for O(log n) time and O(1) space, watch for the edge case where the array is
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/point72-find-minimum-in-rotated-sorted-array), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -8,7 +8,7 @@
 | Algorithm | Medium | Snowflake | Phone screen | tries | Mar 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/snowflake-implement-trie-with-non-standard-alphabet)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -115,7 +115,7 @@ Watch for words that are prefixes of others: ensure the end-of-word flag is set 
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/snowflake-implement-trie-with-non-standard-alphabet), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

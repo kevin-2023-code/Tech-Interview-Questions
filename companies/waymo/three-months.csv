@@ -25,17 +25,17 @@ Is the Segment From 0 to 50 Fully Contaminated After Each Landing Point?,Algorit
 "Find the N-th Positive Integer Whose Digits Are All 3, 5 or 6",Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-10,https://trueinterview.io/questions/find-the-n-th-positive-integer-whose-digits-are-all-3-5-or-6
 Does a Seven-Segment LED Digit Display Read the Same Rotated 180 Degrees?,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-10,https://trueinterview.io/questions/does-a-seven-segment-led-digit-display-read-the-same-rotated-180-degrees
 Compare Driving Algorithms Using Hard-Braking Rates,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026-09-06,https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates
-Count Islands and Compute Coastline Length,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/d3f92d42-3cee-5d76-bec0-10b3df78167e
-Random Access in Run-Length Encoded Data,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/6f2137c5-0639-5fd4-a800-365447eee0a6
-Match Dictionary Words After Collapsing Consecutive Duplicates,Algorithm,Easy,Online assessment,Senior,1,1,2026-09,https://trueinterview.io/questions/4b019575-ee7a-52d8-ac1f-f8de2d5033d8
-Vehicle Maintenance Event Validation,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/40bddb3c-0280-572b-a65b-ba31f5b9fba5
+Count Islands and Compute Coastline Length,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/waymo-count-islands-and-compute-coastline-length
+Random Access in Run-Length Encoded Data,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/waymo-random-access-in-run-length-encoded-data
+Match Dictionary Words After Collapsing Consecutive Duplicates,Algorithm,Easy,Online assessment,Senior,1,1,2026-09,https://trueinterview.io/questions/waymo-match-dictionary-words-after-collapsing-consecutive-duplicates
+Vehicle Maintenance Event Validation,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/waymo-vehicle-maintenance-event-validation
 Minimize Total Grid Distance to Every Building,Algorithm,Hard,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building
 Find Dictionary Words Represented by Repeated Letters,Algorithm,Medium,Onsite / virtual onsite,Senior,1,1,2026-09,https://trueinterview.io/questions/find-dictionary-words-represented-by-repeated-letters
 Find a Repeating Vehicle Program Under Fuel and Memory Limits,Algorithm,Hard,Onsite / virtual onsite,Senior,1,1,2026-09,https://trueinterview.io/questions/find-a-repeating-vehicle-program-under-fuel-and-memory-limits
 Design a Fleet That Collects Mapping Data,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/design-a-fleet-that-collects-mapping-data
-Maximum Area Rectangle From Given Points,Algorithm,Medium,Phone screen,Junior / Mid,2,3,2026-09,https://trueinterview.io/questions/587db02b-9437-5e6d-8a2a-cb2d0fbe4eeb
+Maximum Area Rectangle From Given Points,Algorithm,Medium,Phone screen,Junior / Mid,2,3,2026-09,https://trueinterview.io/questions/google-maximum-area-rectangle-from-given-points
 Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
-Filter an N-ary Tree and Render It with Indentation,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/4a42af98-55d6-5d1e-aa8b-01049a27f459
+Filter an N-ary Tree and Render It with Indentation,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/waymo-filter-an-n-ary-tree-and-render-it-with-indentation
 Sort a Quadratic-Transformed Sorted Array,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/sort-transformed-quadratic-array
 Streaming Interval Coverage on a Number Axis,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/interval-pollution-coverage
 Build an Arithmetic Expression to Reach a Target,Algorithm,Hard,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/arithmetic-expression-reach-target

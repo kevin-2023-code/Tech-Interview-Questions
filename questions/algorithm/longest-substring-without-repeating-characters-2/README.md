@@ -8,7 +8,7 @@
 | Algorithm | Medium | Verkada · Amazon · ByteDance | Phone screen | sliding-window | — |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/verkada-longest-substring-without-repeating-characters)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -77,7 +77,7 @@ The answer is the maximum window size encountered, handle the empty string case.
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/verkada-longest-substring-without-repeating-characters), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

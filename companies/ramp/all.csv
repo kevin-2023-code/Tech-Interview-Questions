@@ -1,15 +1,15 @@
 Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
-Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
 Spreadsheet String Concatenation with Dependent Cells,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-18,https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells
 "Build a Wordle Guess Checker with Green, Yellow and Red Letter Feedback",Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,0,2026-09-17,https://trueinterview.io/questions/build-a-wordle-guess-checker-with-green-yellow-and-red-letter-feedback
 Design Hotel Booking System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,0,2026-09,https://trueinterview.io/questions/booking-system-design
-Minimum Changes to Make a K-Periodic Palindromic Password,Algorithm,Medium,Phone screen,New grad,2,3,2026-09,https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03
-Maximum Earnings After Converting Days Off to Workdays,Algorithm,Medium,Phone screen,New grad,2,0,2026-09,https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb
-"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
-Minimum Changes to Make Every Block a Palindrome,Algorithm,Medium,Phone screen,New grad,2,0,2026-08,https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7
+Minimum Changes to Make a K-Periodic Palindromic Password,Algorithm,Medium,Phone screen,New grad,2,3,2026-09,https://trueinterview.io/questions/ramp-minimum-changes-to-make-a-k-periodic-palindromic-password
+Maximum Earnings After Converting Days Off to Workdays,Algorithm,Medium,Phone screen,New grad,2,0,2026-09,https://trueinterview.io/questions/ramp-maximum-earnings-after-converting-days-off-to-workdays
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/databricks-impactful-project-experience-goals-role-challenges-outcomes
+Minimum Changes to Make Every Block a Palindrome,Algorithm,Medium,Phone screen,New grad,2,0,2026-08,https://trueinterview.io/questions/citadel-minimum-changes-to-make-every-block-a-palindrome
 Task Management System II,Object-Oriented Programming,Medium,Online assessment,New grad,1,0,2026-08,https://trueinterview.io/questions/oa-task-management-system-2
 Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,0,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
-Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
+Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-07,https://trueinterview.io/questions/ramp-banking-system-with-payments-and-account-merging
 URL Maze Traversal,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-06,https://trueinterview.io/questions/url-maze-graph-traversal
 User Flight Location Tracker,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-06-01,https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history
 Recipe Manager,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,4,0,2026-06,https://trueinterview.io/questions/recipe-manager
@@ -26,12 +26,12 @@ Frontend Hidden URL and React Wordle,Object-Oriented Programming,Medium,Online a
 Multi-Level Warehouse Storage with Weighted Retrieval,Object-Oriented Programming,Hard,Online assessment,New grad; Junior / Mid; Senior,1,0,2026-02-11,https://trueinterview.io/questions/multi-level-warehouse-storage-with-weighted-retrieval
 Purchase Optimization,Algorithm,Easy,Online assessment,New grad,3,2,2026-02-11,https://trueinterview.io/questions/purchase-optimization
 Track Users From Flight History,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-17,https://trueinterview.io/questions/track-users-from-flight-history
-Fetch and Display Hidden Flag with React,AI Coding,Medium,Onsite / virtual onsite,New grad,1,0,2025-12,https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f
+Fetch and Display Hidden Flag with React,AI Coding,Medium,Onsite / virtual onsite,New grad,1,0,2025-12,https://trueinterview.io/questions/ramp-fetch-and-display-hidden-flag-with-react
 Convert Snake Case to Camel Case,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,1,2025-12,https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase
 Detect Recurring Transactions,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2025-11-22,https://trueinterview.io/questions/detect-recurring-transactions
 Async Video Behavioral Screen,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2025-11-10,https://trueinterview.io/questions/video-interview-behavioral
 Rate Limiter by IP Address,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,0,2025-09-29,https://trueinterview.io/questions/rate-limiter-by-ip-address
 Cloud Storage System,Algorithm,Medium,Online assessment,New grad,1,0,2025-08,https://trueinterview.io/questions/cloud-storage-system
 Tic Tac Toe,AI Coding,Easy,Phone screen,New grad; Junior / Mid,3,0,2025-06,https://trueinterview.io/questions/tic-tac-toe
-Maximum Profit from Unordered Stock Price Records,Algorithm,Medium,Phone screen,,1,0,,https://trueinterview.io/questions/522363cd-bdb8-5f9b-bfd8-86d74fb6f057
+Maximum Profit from Unordered Stock Price Records,Algorithm,Medium,Phone screen,,1,0,,https://trueinterview.io/questions/ramp-maximum-profit-from-unordered-stock-price-records
 Design In-memory Database with Backup,Object-Oriented Programming,Easy,Online assessment; Onsite / virtual onsite,Intern; New grad; Junior / Mid,5,0,,https://trueinterview.io/questions/design-in-memory-database-with-backup-2

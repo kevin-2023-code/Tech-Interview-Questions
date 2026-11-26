@@ -8,7 +8,7 @@
 | Algorithm | Hard | Lyft | Phone screen | graphs, backtracking | Mar 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/598ffed4-56aa-44e6-8efa-e18db21262d3)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/lyft-find-all-shortest-paths-in-word-ladder)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -71,7 +71,7 @@ Be careful to avoid cycles and duplicate sequences, a map from word to list of p
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/598ffed4-56aa-44e6-8efa-e18db21262d3), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/lyft-find-all-shortest-paths-in-word-ladder), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

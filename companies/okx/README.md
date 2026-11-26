@@ -15,8 +15,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Sort Colors](../../questions/algorithm/sort-colors/README.md) | Algorithm | Medium | Phone screen | Senior | 2 | 2 | 2026-10 |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | New grad, Senior | 7 | 10 | 2026-10 |
 | [Restore IP Addresses](../../questions/algorithm/restore-ip-addresses/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 3 | 0 | 2026-09-04 |
-| [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-07 |
-| [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 1 | 2026-01 |
+| [Implement a Doubly Linked List](https://trueinterview.io/questions/bytedance-implement-a-doubly-linked-list?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-07 |
+| [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/okx-basic-coding-to-validate-syntax-and-data-structure-familiarity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 1 | 2026-01 |
 
 ---
 

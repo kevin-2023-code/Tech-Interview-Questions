@@ -8,7 +8,7 @@
 | Algorithm | Medium | ByteDance · Apple · Microsoft · Pinduoduo | Phone screen | sliding-window | Jul 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/bytedance-longest-repeating-character-replacement)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -74,7 +74,7 @@ O(n) time by expanding the right end and shrinking left when invalid, edge case:
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/bytedance-longest-repeating-character-replacement), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

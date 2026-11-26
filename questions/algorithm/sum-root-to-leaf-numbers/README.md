@@ -8,7 +8,7 @@
 | Algorithm | Easy | Meta | Onsite / virtual onsite | trees, backtracking, graphs | Aug 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/meta-sum-root-to-leaf-numbers)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -79,7 +79,7 @@ At a leaf, add the accumulated number to a running total, watch for large number
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/meta-sum-root-to-leaf-numbers), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

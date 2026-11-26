@@ -8,7 +8,7 @@
 | Algorithm | Hard | Uber | Phone screen | graphs | Mar 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/bc80d805-47d7-4115-87c2-7e63eee789ec)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/uber-alien-dictionary-evaluation)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -80,7 +80,7 @@ Watch for disconnected components: if the two variables are not in the same conn
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/bc80d805-47d7-4115-87c2-7e63eee789ec), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/uber-alien-dictionary-evaluation), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

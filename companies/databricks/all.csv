@@ -5,7 +5,7 @@ Path Between Two Nodes in a Preorder-Numbered Fibonacci Tree,Algorithm,Hard,Onsi
 Tic-Tac-Toe Game Logic With a Random-Move Computer Player,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-14,https://trueinterview.io/questions/tic-tac-toe-game-logic-with-a-random-move-computer-player
 Joining a New Team Overwhelmed by On-Call Fires: What Do You Do?,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-14,https://trueinterview.io/questions/joining-a-new-team-overwhelmed-by-on-call-fires-what-do-you-do
 Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,3,4,2026-10,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
-Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,10,2026-10,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,10,2026-10,https://trueinterview.io/questions/uber-group-anagrams
 Design a Typeahead Search System,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-09-15,https://trueinterview.io/questions/design-a-typeahead-search-system
 "Forward Deployed Engineer Screen: Role Fit, Client Work and Databricks Projects",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/forward-deployed-engineer-screen-role-fit-client-work-and-databricks-projects
 "Single-Machine Cache with WAL Persistence, Sharded Locks and LRU",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-11,https://trueinterview.io/questions/single-machine-cache-with-wal-persistence-sharded-locks-and-lru
@@ -16,7 +16,7 @@ Design a Visa-Style Card Payment Processing System,System Design,Hard,Onsite / v
 First-Match CIDR Firewall: Status of an IP Address or a Whole CIDR Block,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/first-match-cidr-firewall-status-of-an-ip-address-or-a-whole-cidr-block
 Earliest Substring That Is a Rearrangement of a Pattern,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/earliest-substring-that-is-a-rearrangement-of-a-pattern
 "Design Retrieval for a Coding Agent: What to Index, Handling Noise, and Metrics",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-10,https://trueinterview.io/questions/design-retrieval-for-a-coding-agent-what-to-index-handling-noise-and-metrics
-Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,Intern; New grad,3,0,2026-09-10,https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e
+Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,Intern; New grad,3,0,2026-09-10,https://trueinterview.io/questions/bytedance-count-cyclic-rotation-pairs
 Motivation for joining Databricks as a product manager,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-07,https://trueinterview.io/questions/motivation-for-joining-databricks-as-a-product-manager
 Tic-Tac-Toe Against a Deterministic Automatic Opponent,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-06,https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent
 Referral Credit Tracker with Indirect Referrals,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,4,2026-09-06,https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals
@@ -25,10 +25,10 @@ Narrate your career history and job moves in a PM interview,Behavioral / Knowled
 Optimize least-k revenue queries for read/write load,System Design,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/optimize-least-k-revenue-queries-for-read-write-load
 Check if CIDR is fully canceled by rules,Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/check-if-cidr-is-fully-canceled-by-rules
 Compute last-5-minute QPS in memory,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/compute-last-5-minute-qps-in-memory
-String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
-Count Encrypted Files in a Directory Tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/09691fdc-0417-5cb5-ba45-91a19e04f104
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/salesforce-string-anagram-windows
+Count Encrypted Files in a Directory Tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/databricks-count-encrypted-files-in-a-directory-tree
 File Encryption Tree Optimization,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/file-encryption-tree-optimization
-Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/bytedance-design-slack-like-chat-system
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
 Design Hit Counter with Variable Time Windows,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/design-hit-counter-with-variable-time-windows
@@ -44,9 +44,9 @@ Tic-Tac-Toe II,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern
 Design In-Memory File System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,4,0,2026-08-31,https://trueinterview.io/questions/design-in-memory-file-system
 SWE / MLE Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,1,0,2026-08-13,https://trueinterview.io/questions/swe-behavioral-round
 "Design an online bookstore: DB insert succeeds but SQS publish fails, and duplicate messages",System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-08-09,https://trueinterview.io/questions/design-an-online-bookstore-db-insert-succeeds-but-sqs-publish-fails-and-duplicate-messages
-KV Store with Sliding-Window Average Latency,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior,1,0,2026-08,https://trueinterview.io/questions/908ac171-29c9-53ff-b6ad-26faa94d0b1c
-Circuit Breaker Based Database Replica Routing,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/4ce104e2-73c6-501b-8be8-92ced07f6431
-"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
+KV Store with Sliding-Window Average Latency,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior,1,0,2026-08,https://trueinterview.io/questions/databricks-kv-store-with-sliding-window-average-latency
+Circuit Breaker Based Database Replica Routing,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/databricks-circuit-breaker-based-database-replica-routing
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,14,8,2026-08,https://trueinterview.io/questions/databricks-impactful-project-experience-goals-role-challenges-outcomes
 Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,9,0,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
 Encode And Decode,Algorithm,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Staff+,1,0,2026-08,https://trueinterview.io/questions/integer-stream-encoder-decoder
 Implement Circuit Breaker Pattern,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-08,https://trueinterview.io/questions/implement-circuit-breaker-pattern
@@ -57,7 +57,7 @@ Senior FDE Recruiter Screen,Behavioral / Knowledge,,Phone screen,Senior,1,0,2026
 Maximal Square (LeetCode 221),Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-07-17,https://trueinterview.io/questions/maximal-square
 Design Messaging With Message Deletion,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-07,https://trueinterview.io/questions/design-messaging-with-message-deletion
 Check Whether Two Strings Are Anagrams,Algorithm,Easy,Onsite / virtual onsite,Senior,2,2,2026-07,https://trueinterview.io/questions/check-whether-two-strings-are-anagrams
-Implement SnapshotSet,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,0,2026-07,https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6
+Implement SnapshotSet,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,0,2026-07,https://trueinterview.io/questions/dropbox-implement-snapshotset
 Snapshot Set Iterator,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,0,2026-07,https://trueinterview.io/questions/snapshotset-with-iterator
 Design Book Price Aggregator,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-06-18,https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform
 Tetris Block Drop,Algorithm,Medium,Onsite / virtual onsite,Senior,1,0,2026-06,https://trueinterview.io/questions/tetris-block-drop
@@ -66,19 +66,19 @@ String Pattern Partition by Source Indices,Algorithm,Medium,Onsite / virtual ons
 In-Memory KV Cache with WAL Log,System Design,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,2,0,2026-05-22,https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log
 Uniform Random Edges to Connect Node Groups,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,2,2026-05-05,https://trueinterview.io/questions/uniform-random-edges-to-connect-node-groups
 Design Dropbox,System Design,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,5,0,2026-05-03,https://trueinterview.io/questions/design-dropbox
-Gradient Descent for Simple Linear Regression,AI Coding,Medium,Onsite / virtual onsite,Senior,1,0,2026-04-17,https://trueinterview.io/questions/274c024f-d789-4f9c-99cd-ad66381cfc31
+Gradient Descent for Simple Linear Regression,AI Coding,Medium,Onsite / virtual onsite,Senior,1,0,2026-04-17,https://trueinterview.io/questions/databricks-gradient-descent-for-simple-linear-regression
 Design A Harmful Content Detection System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,3,0,2026-04-13,https://trueinterview.io/questions/harmful-content-detection-system
 Design Lazy Array,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-04-13,https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution
 Implement Resilient Autocomplete Data Fetching,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-07,https://trueinterview.io/questions/implement-resilient-autocomplete-data-fetching
 Stock Trading Agent System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-04-06,https://trueinterview.io/questions/stock-trading-agent-system-design
 Describe project impact and critical feedback,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/describe-project-impact-and-critical-feedback
-Reconstruct a Binary Tree from Inorder Traversal (Follow-up),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/763b1a0b-3c17-478c-9efb-43a4e22d4e3d
-Grid pathfinding with time & cost optimality (BFS / shortest path variant),Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-04,https://trueinterview.io/questions/5ef47226-c611-4570-99aa-51ed22a3d12b
-Lazy Array (Delayed Evaluation Array),Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,3,2026-04,https://trueinterview.io/questions/240da66e-fee4-4897-a81e-75c7dad94bff
+Reconstruct a Binary Tree from Inorder Traversal (Follow-up),Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-04,https://trueinterview.io/questions/databricks-reconstruct-a-binary-tree-from-inorder-traversal-follow-up
+Grid pathfinding with time & cost optimality (BFS / shortest path variant),Algorithm,Medium,Phone screen,Junior / Mid,1,2,2026-04,https://trueinterview.io/questions/databricks-grid-pathfinding-with-time-and-cost-optimality-bfs-shortest-path
+Lazy Array (Delayed Evaluation Array),Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,3,2026-04,https://trueinterview.io/questions/databricks-lazy-array-delayed-evaluation-array
 Remove Covered Point,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-04,https://trueinterview.io/questions/delete-element-from-interval-array-by-index
 Find Path in Fibonacci Tree,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid,1,0,2026-04-01,https://trueinterview.io/questions/find-path-between-nodes-in-k-th-order-fibonacci-tree
 Run-Length Encoding (RLE),Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,3,2026-03,https://trueinterview.io/questions/implement-rle-and-bit-packing-compression-run-length-encoding-rle
-Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/44ee2fb4-e34e-431f-ad8d-61388d5ef87d
+Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/databricks-check-whether-a-binary-tree-is-a-fibonacci-tree-in-o-h-time
 Design a single-node persistent in-memory cache,Object-Oriented Programming,Hard,Phone screen,New grad; Senior,1,0,2026-01-22,https://trueinterview.io/questions/design-a-single-node-persistent-in-memory-cache
 SQL Query Plan Optimizer,Algorithm,Hard,Onsite / virtual onsite,New grad,1,1,2026-01-10,https://trueinterview.io/questions/sql-query-plan-optimizer
 Payment Gateway System,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-01,https://trueinterview.io/questions/payment-gateway-system
@@ -88,15 +88,15 @@ Maximal Square and Rectangle in Binary Matrix,Algorithm,Medium,Phone screen; Ons
 Network Throttling System Design,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2025-11-20,https://trueinterview.io/questions/network-throttling-system-design
 Design Tic-Tac-Toe and QPS data structures,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-11-13,https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures
 Ad Marketplace System Design,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2025-11-05,https://trueinterview.io/questions/ad-marketplace-system-design
-Max Area of Island,Algorithm,Medium,Phone screen,Senior,3,0,2025-11,https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f
+Max Area of Island,Algorithm,Medium,Phone screen,Senior,3,0,2025-11,https://trueinterview.io/questions/uber-max-area-of-island
 Multi-Threaded Chat System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2025-10-24,https://trueinterview.io/questions/multi-threaded-chat-system
 Autonomous Ride-Hailing App System Design (Waymo-like),System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2025-10-09,https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like
 Tic Tac Toe,AI Coding,Easy,Phone screen,New grad; Junior / Mid,3,0,2025-06,https://trueinterview.io/questions/tic-tac-toe
 Design A VM Bandwidth Rate Limiter,System Design,Hard,Onsite / virtual onsite,Senior,3,0,2025-01,https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2
-Space-Efficient Versioned Set Snapshot Design,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/7d84af64-a9ca-43ad-bef8-8a3725cf9d70
+Space-Efficient Versioned Set Snapshot Design,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/databricks-space-efficient-versioned-set-snapshot-design
 Design A Kafka-like Distributed Message Queue,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,4,0,,https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue
 Design S3-like Object Storage System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,5,0,,https://trueinterview.io/questions/design-s3-like-object-storage-system-2
-SQL for Data Analysis,SQL,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/fbafc874-d6f5-487f-988f-47f0b70c83c1
-Revenue Calculation,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/defc1881-3c2c-49ae-934b-39263ce423cf
-Top-5 Most Similar Rows Using MSE Across Multiple Features,SQL,Medium,Online assessment,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/a30e9f92-4754-47a1-a8c0-4a8bcf748e50
-IP CIDR Range Query,Algorithm,Easy,Online assessment,,1,0,,https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a
+SQL for Data Analysis,SQL,Easy,Online assessment,Intern; New grad; Junior / Mid,1,0,,https://trueinterview.io/questions/databricks-sql-for-data-analysis
+Revenue Calculation,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/databricks-revenue-calculation
+Top-5 Most Similar Rows Using MSE Across Multiple Features,SQL,Medium,Online assessment,Junior / Mid; Senior,1,0,,https://trueinterview.io/questions/databricks-top-5-most-similar-rows-using-mse-across-multiple-features
+IP CIDR Range Query,Algorithm,Easy,Online assessment,,1,0,,https://trueinterview.io/questions/databricks-ip-cidr-range-query

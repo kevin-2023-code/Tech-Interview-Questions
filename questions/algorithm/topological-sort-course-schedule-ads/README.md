@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Netflix · Amazon · ByteDance · Ebay | Phone screen, Onsite / virtual onsite | topological-sort | Oct 2026 |
+| Algorithm | Medium | Netflix · Amazon · ByteDance · eBay | Phone screen, Onsite / virtual onsite | topological-sort | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/topological-sort-course-schedule-ads)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -112,7 +112,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Netflix](../../../companies/netflix/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Ebay](../../../companies/ebay/README.md)
+[Netflix](../../../companies/netflix/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [eBay](../../../companies/ebay/README.md)
 
 ---
 

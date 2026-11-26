@@ -11,17 +11,17 @@ Combine Overlapping Closed Intervals Into a Sorted Disjoint List,Algorithm,Mediu
 Ticket Booking System Under Flash-Sale Traffic,System Design,Medium,Onsite / virtual onsite,Junior / Mid,3,0,2026-10-05,https://trueinterview.io/questions/ticket-booking-flash-sale-system
 Implement a binary min-heap and use it to order courses with prerequisites,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-10-04,https://trueinterview.io/questions/implement-a-binary-min-heap-and-use-it-to-order-courses-with-prerequisites
 TikTok Cold Start: Using AI to Personalize a Brand-New Viewer's First Feed,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-10-01,https://trueinterview.io/questions/tiktok-cold-start-using-ai-to-personalize-a-brand-new-viewers-first-feed
-Implement Multi-Head Self-Attention,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/a12a19f1-52e8-5ff6-94f8-2ea52400ab93
-Maximum Fish Caught with Decreasing Pond Yields,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/8c9da0a9-7316-5e5f-968c-1bdd1ce489a0
-Count of Smaller Numbers After Self,Algorithm,Hard,Phone screen,Senior,1,0,2026-10,https://trueinterview.io/questions/58826ffb-024c-5d30-8762-6025e225fb4a
+Implement Multi-Head Self-Attention,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/bytedance-implement-multi-head-self-attention
+Maximum Fish Caught with Decreasing Pond Yields,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/bytedance-maximum-fish-caught-with-decreasing-pond-yields
+Count of Smaller Numbers After Self,Algorithm,Hard,Phone screen,Senior,1,0,2026-10,https://trueinterview.io/questions/bytedance-count-of-smaller-numbers-after-self
 Describe proudest project and toughest challenge,Behavioral / Knowledge,,Phone screen,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge
-Sort Cyclic Shift Absolute-Difference Costs,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/4eae3ac8-e1a0-53a3-9a12-577db977b6df
+Sort Cyclic Shift Absolute-Difference Costs,Algorithm,Easy,Online assessment,New grad; Junior / Mid,2,0,2026-10,https://trueinterview.io/questions/bytedance-sort-cyclic-shift-absolute-difference-costs
 Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,13,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
-Number of Islands and Island Perimeter,Algorithm,Medium,Phone screen,Intern; Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/73ad9595-8e31-53b1-b6fa-e87b2565ff10
-Print Execution Order in a DAG and Detect Cycles,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a
+Number of Islands and Island Perimeter,Algorithm,Medium,Phone screen,Intern; Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/bytedance-number-of-islands-and-island-perimeter
+Print Execution Order in a DAG and Detect Cycles,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/bytedance-print-execution-order-in-a-dag-and-detect-cycles
 Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
-Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
-Queue and Priority Queue Implementation,Object-Oriented Programming,Easy,Onsite / virtual onsite,Intern,1,0,2026-10,https://trueinterview.io/questions/9813c1d6-ba63-4068-bf7c-d1f1953f5037
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,14,2026-10,https://trueinterview.io/questions/anthropic-implement-an-lru-cache-hashmap-doubly-linked-list-and-debug-an
+Queue and Priority Queue Implementation,Object-Oriented Programming,Easy,Onsite / virtual onsite,Intern,1,0,2026-10,https://trueinterview.io/questions/bytedance-queue-and-priority-queue-implementation
 Project Deep Dive (Resume Drill),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,4,82,2026-10,https://trueinterview.io/questions/project-deep-dive-round
 Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,40,2026-10,https://trueinterview.io/questions/payment-platform-design
 "Dropout, Overfitting, Normalization, Loss Functions",Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,0,2026-10,https://trueinterview.io/questions/ml-knowledge-oral-cluster
@@ -29,9 +29,9 @@ Course Schedule Cycle Detection,Algorithm,Medium,Phone screen,Junior / Mid; Seni
 Maximum Concurrent Processes / Meeting Rooms,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/maximum-concurrent-processes
 Hand-Code Self-Attention and Cross-Entropy,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-10,https://trueinterview.io/questions/self-attention-cross-entropy-pseudocode
 Kth Largest Element / Quick Select,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-10,https://trueinterview.io/questions/kth-largest-quick-select
-Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85
-Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
+Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
 Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,0,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
 LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,0,2026-10-01,https://trueinterview.io/questions/lru-cache
@@ -51,8 +51,8 @@ Predict Short-Video Engagement with Skewed Data,System Design,Medium,Phone scree
 Maximum total weight of graph nodes with no two adjacent,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/maximum-total-weight-of-graph-nodes-with-no-two-adjacent
 "Maximum score from removing every token in a row, scored by neighbor products",Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/maximum-score-from-removing-every-token-in-a-row-scored-by-neighbor-products
 Check whether every path from a source node ends at a destination,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09-11,https://trueinterview.io/questions/check-whether-every-path-from-a-source-node-ends-at-a-destination
-Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,Intern; New grad,3,0,2026-09-10,https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e
-Convert Identifier Naming in Docstrings,Algorithm,Medium,Online assessment,New grad,1,0,2026-09-10,https://trueinterview.io/questions/37898248-3c48-565c-8143-a54070171bf8
+Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,Intern; New grad,3,0,2026-09-10,https://trueinterview.io/questions/bytedance-count-cyclic-rotation-pairs
+Convert Identifier Naming in Docstrings,Algorithm,Medium,Online assessment,New grad,1,0,2026-09-10,https://trueinterview.io/questions/bytedance-convert-identifier-naming-in-docstrings
 AI Agent Intern Technical Questions,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-09-09,https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals
 TikTok Shop: Helping Shoppers Get Answers From Merchants Before and After Purchase,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-06,https://trueinterview.io/questions/tiktok-shop-helping-shoppers-get-answers-from-merchants-before-and-after-purchase
 "CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round",Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid; Senior,1,5,2026-09-06,https://trueinterview.io/questions/backend-fundamentals-oral-cluster
@@ -70,27 +70,27 @@ Explain Virtual Memory Beyond Physical RAM,Behavioral / Knowledge,,Phone screen,
 Design a C++ Shared-Ownership Pointer Library,Behavioral / Knowledge,,Phone screen,Intern,1,0,2026-09,https://trueinterview.io/questions/design-a-cplusplus-shared-ownership-pointer-library
 Describe career plan and teamwork approach,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/describe-career-plan-and-teamwork-approach
 How to triage slow service alerts,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/how-to-triage-slow-service-alerts
-Valid Parenthesis String,Algorithm,Hard,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463
-String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
-Enumerate All Simple Paths and Directed Cycles,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/da77d8f0-0d6f-5c7b-b2d3-7817a85ee644
-Meeting Rooms III,Algorithm,Hard,Phone screen,Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01
-Binary Tree Paths With Target Sum,Algorithm,Medium,Phone screen,Intern; Junior / Mid,3,3,2026-09,https://trueinterview.io/questions/7c3b95ff-ace7-5377-a58a-332635b2b2e7
-Iterative Digit String Group Summation,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/6c924cfb-290e-56c8-9599-9fe4c6ecf254
-Combination Sum II with Negative Numbers,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/53f00cae-70e4-5149-9957-793424d58f7c
+Valid Parenthesis String,Algorithm,Hard,Phone screen,Junior / Mid; Senior,2,0,2026-09,https://trueinterview.io/questions/oracle-valid-parenthesis-string
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/salesforce-string-anagram-windows
+Enumerate All Simple Paths and Directed Cycles,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/bytedance-enumerate-all-simple-paths-and-directed-cycles
+Meeting Rooms III,Algorithm,Hard,Phone screen,Junior / Mid; Senior,3,0,2026-09,https://trueinterview.io/questions/bytedance-meeting-rooms-iii
+Binary Tree Paths With Target Sum,Algorithm,Medium,Phone screen,Intern; Junior / Mid,3,3,2026-09,https://trueinterview.io/questions/bytedance-binary-tree-paths-with-target-sum
+Iterative Digit String Group Summation,Algorithm,Medium,Phone screen,New grad,1,0,2026-09,https://trueinterview.io/questions/bytedance-iterative-digit-string-group-summation
+Combination Sum II with Negative Numbers,Algorithm,Medium,Phone screen,Junior / Mid,1,1,2026-09,https://trueinterview.io/questions/bytedance-combination-sum-ii-with-negative-numbers
 Non-Overlapping Intervals (LeetCode 435),Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/non-overlapping-intervals
 Delete k Elements to Balance,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/delete-k-elements-to-balance
 Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,0,2026-09,https://trueinterview.io/questions/top-k-largest-elements
-Reverse a Linked List,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/e65902ca-ab54-4dcc-a633-e1d3b54d718c
-Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
-Find if a Path Exists in an Undirected Graph,Algorithm,Medium,Online assessment,Senior,1,0,2026-09,https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea
-Jump Game,Algorithm,Medium,Phone screen,Senior,4,0,2026-09,https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06
-Delete a length-k subarray to minimize the smallest valid index (sliding window variant),Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/04e6bf2b-2d81-4f31-98ff-546a37d51e34
-Dependency Resolution / Build Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,7,2026-09,https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e
+Reverse a Linked List,Algorithm,Easy,Online assessment,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/microsoft-reverse-a-linked-list
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,22,2026-09,https://trueinterview.io/questions/bytedance-design-slack-like-chat-system
+Find if a Path Exists in an Undirected Graph,Algorithm,Medium,Online assessment,Senior,1,0,2026-09,https://trueinterview.io/questions/bytedance-find-if-a-path-exists-in-an-undirected-graph
+Jump Game,Algorithm,Medium,Phone screen,Senior,4,0,2026-09,https://trueinterview.io/questions/bytedance-jump-game
+Delete a length-k subarray to minimize the smallest valid index (sliding window variant),Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/bytedance-delete-a-length-k-subarray-to-minimize-the-smallest-valid-index
+Dependency Resolution / Build Order,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,7,2026-09,https://trueinterview.io/questions/airbnb-dependency-resolution-build-order
 Hiring Manager / Final Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,10,2026-09,https://trueinterview.io/questions/hm-behavioral-final-round
-Multi-source BFS,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-09,https://trueinterview.io/questions/0289f26c-9a9e-4d2c-922c-6a418d200df2
+Multi-source BFS,Algorithm,Medium,Phone screen,Junior / Mid,2,0,2026-09,https://trueinterview.io/questions/amazon-multi-source-bfs
 Max Stack,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Senior; Staff+,2,0,2026-09,https://trueinterview.io/questions/coding-max-stack
 Merge K Sorted Price Streams,Object-Oriented Programming,Medium,Phone screen,Intern; Junior / Mid; Senior,2,3,2026-09,https://trueinterview.io/questions/merge-k-sorted-streams-ood
-Plus One,Algorithm,Easy,Online assessment,Senior,2,0,2026-09,https://trueinterview.io/questions/65c03f5a-0fe9-4f02-8d66-d34a3b8193fd
+Plus One,Algorithm,Easy,Online assessment,Senior,2,0,2026-09,https://trueinterview.io/questions/bytedance-plus-one
 Basic Calculator I / II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,0,2026-09,https://trueinterview.io/questions/basic-calculator-i-ii
 Time-Based Key-Value Store with Production Testing,AI Coding,Hard,Online assessment; Onsite / virtual onsite,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/time-based-kv-store
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design

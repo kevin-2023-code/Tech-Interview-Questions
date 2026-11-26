@@ -8,7 +8,7 @@
 | Algorithm | Hard | OpenAI | Phone screen, Onsite / virtual onsite | trees, backtracking | Sep 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/openai-design-cluster-message-aggregation)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -157,7 +157,7 @@ Watch the leaf nodes and the case where a child never replies, and aim for one m
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/openai-design-cluster-message-aggregation), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -8,7 +8,7 @@
 | Algorithm | Medium | Google · LinkedIn | Phone screen | intervals | — |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/ddc8534d-46e9-4b02-abec-60d33c956280)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/google-meeting-rooms-ii)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -90,7 +90,7 @@ The complexity is O(n log n) due to sorting and heap operations, and the key edg
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/ddc8534d-46e9-4b02-abec-60d33c956280), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/google-meeting-rooms-ii), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

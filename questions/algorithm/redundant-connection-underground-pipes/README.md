@@ -8,7 +8,7 @@
 | Algorithm | Medium | Two Sigma | Phone screen | graphs | Oct 2025 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/two-sigma-redundant-connection-underground-pipes)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -79,7 +79,7 @@ Return the first such edge, if none, return an empty result.
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/two-sigma-redundant-connection-underground-pipes), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

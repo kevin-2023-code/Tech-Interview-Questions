@@ -8,7 +8,7 @@
 | Algorithm | Medium | Meta · DoorDash | Phone screen | binary-search | Apr 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/meta-find-peak-element)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -127,7 +127,7 @@ The algorithm runs in O(log n) time and O(1) space, and works because the array 
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/meta-find-peak-element), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

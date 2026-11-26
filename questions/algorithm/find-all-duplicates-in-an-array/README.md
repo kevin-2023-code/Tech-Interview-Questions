@@ -8,7 +8,7 @@
 | Algorithm | Medium | Bloomberg | Phone screen | arrays | Oct 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b30bc310-9b19-5b87-93f3-f22efc18884a)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/bloomberg-find-all-duplicates-in-an-array)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -87,7 +87,7 @@ If the slot is already negative when you meet v, then v is a duplicate, this giv
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/b30bc310-9b19-5b87-93f3-f22efc18884a), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/bloomberg-find-all-duplicates-in-an-array), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -13,11 +13,11 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Design a Scheduler with Prerequisites and Target Execution Plans](https://trueinterview.io/questions/design-a-scheduler-with-prerequisites-and-target-execution-plans?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-28 |
-| [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2 | 2026-09 |
+| [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/brex-card-game-gem-affordability-and-discount-calculation-functions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2 | 2026-09 |
 | [Splendor-Style Card Purchases with Gem Costs, Color Discounts and Concurrent Buys](https://trueinterview.io/questions/splendor-style-card-purchases-with-gem-costs-color-discounts-and-concurrent-buys?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-21 |
 | [Design a Peer-to-Peer Money Transfer System](https://trueinterview.io/questions/design-a-peer-to-peer-money-transfer-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-05-08 |
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](../../questions/object-oriented-programming/react-ui-multi-select-color-dropdown-and-selected-properties-table/README.md) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid | 1 | 1 | 2026-03 |
-| [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/questions/72fc1b26-d7bc-4260-a442-36f08b50385c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
+| [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/questions/brex-credit-card-service-with-points-earning-and-redemption-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 
 ---
 

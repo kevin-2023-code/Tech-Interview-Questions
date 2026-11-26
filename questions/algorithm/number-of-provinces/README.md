@@ -8,7 +8,7 @@
 | Algorithm | Medium | Expedia | Phone screen | graphs | Jun 2026 |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/expedia-number-of-provinces)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -73,7 +73,7 @@ The graph is represented by an n×n adjacency matrix, so an O(n²) traversal is 
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/expedia-number-of-provinces), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 

@@ -8,7 +8,7 @@
 | Algorithm | Medium | GEICO | Phone screen | dynamic-programming | — |
 <!-- meta:end -->
 
-> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
+> **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/geico-best-time-to-buy-and-sell-stock-with-cooldown)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
@@ -78,7 +78,7 @@ The cooldown means that after selling, you must skip the next day before buying 
 
 ## Solution
 
-The reference solution is on [the question page](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
+The reference solution is on [the question page](https://trueinterview.io/questions/geico-best-time-to-buy-and-sell-stock-with-cooldown), beside an editor that runs your own attempt first. It is not reproduced here — try the problem before you read the answer.
 
 ## Asked at
 
