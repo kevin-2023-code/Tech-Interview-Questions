@@ -168,8 +168,8 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Find All Shortest Paths in Word Ladder](algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Hard | Lyft |
 | [Find duplicate files and apply image operations](algorithm/find-duplicate-files-and-apply-image-operations/README.md) | Hard | Anthropic |
 | [Find Median from Data Stream](algorithm/find-median-from-data-stream/README.md) | Hard | Snowflake · Amazon · ByteDance · Google · Meta |
-| [Find shortest path on infinite grid](algorithm/find-shortest-path-on-infinite-grid/README.md) | Hard | Ziphq |
-| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Hard | Ziphq |
+| [Find shortest path on infinite grid](algorithm/find-shortest-path-on-infinite-grid/README.md) | Hard | ZipHQ |
+| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Hard | ZipHQ |
 | [Firewall CIDR Rules](algorithm/firewall-cidr-rules/README.md) | Hard | Databricks |
 | [Flatten a Multilevel Doubly Linked List](algorithm/flatten-multilevel-doubly-linked-list/README.md) | Hard | Bloomberg |
 | [Hangman Optimal Strategy](algorithm/hangman-optimal-strategy/README.md) | Hard | Dropbox |

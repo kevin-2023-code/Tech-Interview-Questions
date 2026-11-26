@@ -207,7 +207,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [MongoDB](companies/mongodb/) | 22 | 6 | 2026-10-26 |
 | [Rubrik](companies/rubrik/) | 22 | 0 | 2026-06-26 |
 | [Spotify](companies/spotify/) | 22 | 8 | 2026-10-18 |
-| [Tradedesk](companies/tradedesk/) | 22 | 7 | 2026-09-15 |
+| [The Trade Desk](companies/the-trade-desk/) | 22 | 7 | 2026-09-15 |
 | [WeRide](companies/weride/) | 22 | 2 | 2026-09 |
 | [Whatnot](companies/whatnot/) | 22 | 3 | 2026-10-10 |
 | [CVS Health](companies/cvs-health/) | 21 | 0 | 2026-08 |
@@ -255,7 +255,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [GEICO](companies/geico/) | 7 | 0 | 2026-07 |
 | [Lead Bank](companies/lead-bank/) | 7 | 0 | 2026-07 |
 | [Nubank](companies/nubank/) | 7 | 0 | 2026-06-24 |
-| [Ziphq](companies/ziphq/) | 7 | 3 | 2026-09-17 |
+| [ZipHQ](companies/ziphq/) | 7 | 3 | 2026-09-17 |
 | [American Express](companies/american-express/) | 6 | 0 | 2026-08-27 |
 | [Brex](companies/brex/) | 6 | 2 | 2026-10-28 |
 | [Circle](companies/circle/) | 6 | 0 | 2026-05 |
@@ -283,7 +283,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Paytm](companies/paytm/) | 5 | 1 | 2026-08-29 |
 | [Remitly](companies/remitly/) | 5 | 5 | 2026-10-15 |
 | [Retell AI](companies/retell-ai/) | 5 | 5 | 2026-10-08 |
-| [Sigmacomputing](companies/sigmacomputing/) | 5 | 0 | 2026-07 |
+| [Sigma Computing](companies/sigma-computing/) | 5 | 0 | 2026-07 |
 | [Tower](companies/tower/) | 5 | 4 | 2026-10-24 |
 | [Wells Fargo](companies/wells-fargo/) | 5 | 4 | 2026-10-06 |
 | [Zoom](companies/zoom/) | 5 | 2 | 2026-10-16 |
@@ -368,7 +368,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Anyscale](companies/anyscale/) | 1 | 1 | 2026-09-11 |
 | [AQR](companies/aqr/) | 1 | 1 | 2026-10-17 |
 | [Archil](companies/archil/) | 1 | 0 | 2026-05-29 |
-| [Atandt](companies/atandt/) | 1 | 1 | 2026-10-19 |
+| [AT&T](companies/at-and-t/) | 1 | 1 | 2026-10-19 |
 | [Atlys](companies/atlys/) | 1 | 1 | 2026-10-18 |
 | [Autodesk](companies/autodesk/) | 1 | 1 | 2026-10-04 |
 | [Bitdeer](companies/bitdeer/) | 1 | 0 | 2026-07-20 |
@@ -387,8 +387,8 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Costco](companies/costco/) | 1 | 1 | 2026-10-06 |
 | [Coupa](companies/coupa/) | 1 | 0 | 2026-01-11 |
 | [Coursera](companies/coursera/) | 1 | 0 | 2026-08-20 |
+| [D. E. Shaw](companies/d-e-shaw/) | 1 | 0 | 2026-08-06 |
 | [Datavant](companies/datavant/) | 1 | 1 | 2026-08-30 |
-| [Deshaw](companies/deshaw/) | 1 | 0 | 2026-08-06 |
 | [Deutsche Bank](companies/deutsche-bank/) | 1 | 1 | 2026-09-04 |
 | [DocuSign](companies/docusign/) | 1 | 1 | 2026-10-02 |
 | [DoubleVerify](companies/doubleverify/) | 1 | 0 | 2026-01-09 |
@@ -403,7 +403,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Fluidstack](companies/fluidstack/) | 1 | 1 | 2026-09-26 |
 | [Freecharge](companies/freecharge/) | 1 | 0 | 2025-11-18 |
 | [Garmin](companies/garmin/) | 1 | 0 | 2026-04-14 |
-| [Generalmotors](companies/generalmotors/) | 1 | 1 | 2026-09-09 |
+| [General Motors](companies/general-motors/) | 1 | 1 | 2026-09-09 |
 | [GoFundMe](companies/gofundme/) | 1 | 1 | 2026-09-14 |
 | [Grab](companies/grab/) | 1 | 1 | 2026-09-02 |
 | [Grammarly](companies/grammarly/) | 1 | 0 | 2026-02-02 |

@@ -72,7 +72,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md) · [Meta](../../../companies/meta/README.md) · [Squarepoint](../../../companies/squarepoint/README.md) · [Tradedesk](../../../companies/tradedesk/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md) · [Meta](../../../companies/meta/README.md) · [Squarepoint](../../../companies/squarepoint/README.md) · [The Trade Desk](../../../companies/the-trade-desk/README.md)
 
 ---
 
