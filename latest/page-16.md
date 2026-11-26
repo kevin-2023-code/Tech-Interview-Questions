@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,266 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,259 questions reported in the 365 days to 2026-11-26, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -269,12 +269,5 @@
 | 2025-11-26 | [Microsoft](../companies/microsoft/) | [Accessible Multi-Factor Authenticator for Blind and Low-Vision Smartphone Users](https://trueinterview.io/questions/accessible-multi-factor-authenticator-for-blind-and-low-vision-smartphone-users?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2025-11-26 | [ByteDance](../companies/bytedance/) | [Contiguous Subarray with Largest Min + Max](https://trueinterview.io/questions/largest-min-max-subarray?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2025-11-26 | [Databricks](../companies/databricks/), [Salesforce](../companies/salesforce/) +1 | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Senior | 0 |
-| 2025-11-25 | [Amazon](../companies/amazon/) | [Investigate and Fix a Rise in E-commerce Cart Abandonment](https://trueinterview.io/questions/investigate-and-fix-a-rise-in-e-commerce-cart-abandonment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2025-11-25 | [Meta](../companies/meta/) | [Evaluating a Two-Tab Facebook Feed: Friend Posts vs. Everything Else](https://trueinterview.io/questions/evaluating-a-two-tab-facebook-feed-friend-posts-vs-everything-else?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
-| 2025-11-25 | [JPMorgan](../companies/jpmorgan/) | [Design a Feature to Get More Clients Integrating via J.P. Morgan's Payments API Portal](https://trueinterview.io/questions/design-a-feature-to-get-more-clients-integrating-via-j-p-morgans-payments-api-portal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
-| 2025-11-25 | [Amazon](../companies/amazon/) | [Closing the Gap Between a Two-Week Deadline and a Four-Week Engineering Estimate](https://trueinterview.io/questions/closing-the-gap-between-a-two-week-deadline-and-a-four-week-engineering-estimate?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
-| 2025-11-25 | [Optiver](../companies/optiver/) | [Implement a News Publishing System with Topic Subscriptions and Delivery Limits](https://trueinterview.io/questions/implement-a-news-publishing-system-with-topic-subscriptions-and-delivery-limits?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad | 0 |
-| 2025-11-25 | [Goldman Sachs](../companies/goldman-sachs/) | [Transaction Segments / Increasing Subarrays of Length K](https://trueinterview.io/questions/transaction-segments-increasing-subarrays?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 0 |
-| 2025-11-25 | [Goldman Sachs](../companies/goldman-sachs/) | [Efficient Tasks / Three-Server Difficulty Split](https://trueinterview.io/questions/efficient-tasks-three-server-difficulty?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad, Junior / Mid | 1 |
 
 [← Newer](page-15.md) · Page 16 of 16

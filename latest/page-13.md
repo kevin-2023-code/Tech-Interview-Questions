@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,266 questions reported in the 365 days to 2026-11-25, newest first. A month without a day means only the month was reported.
+6,259 questions reported in the 365 days to 2026-11-26, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 

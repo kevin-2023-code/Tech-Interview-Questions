@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**7,732 questions · 366 companies · +2,965 added in the last 30 days · 1,994 reported in the last 90 days · data as of 2026-11-25**
+**7,732 questions · 366 companies · +2,965 added in the last 30 days · 1,975 reported in the last 90 days · data as of 2026-11-26**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -13,7 +13,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## New this week
 
 <!-- gen:new:start -->
-2,692 questions added to the bank in the 7 days to 2026-11-25; the 15 most recent:
+2,692 questions added to the bank in the 7 days to 2026-11-26; the 15 most recent:
 
 | Added | Company | Question | Format | Round | Level | Last reported | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -37,7 +37,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 6,266 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 6,259 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -128,24 +128,24 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 
 | Company | Questions | Reported in last 90 days | Last reported |
 | :-- | --: | --: | :-- |
-| [Google](companies/google/) | 729 | 189 | 2026-10-29 |
-| [Meta](companies/meta/) | 605 | 105 | 2026-10-17 |
-| [Amazon](companies/amazon/) | 557 | 201 | 2026-10-24 |
-| [Microsoft](companies/microsoft/) | 340 | 93 | 2026-11-05 |
+| [Google](companies/google/) | 729 | 188 | 2026-10-29 |
+| [Meta](companies/meta/) | 605 | 104 | 2026-10-17 |
+| [Amazon](companies/amazon/) | 557 | 197 | 2026-10-24 |
+| [Microsoft](companies/microsoft/) | 340 | 92 | 2026-11-05 |
 | [ByteDance](companies/bytedance/) | 320 | 112 | 2026-10-16 |
 | [Uber](companies/uber/) | 282 | 58 | 2026-10-19 |
-| [OpenAI](companies/openai/) | 239 | 102 | 2026-10-31 |
+| [OpenAI](companies/openai/) | 239 | 100 | 2026-10-31 |
 | [Apple](companies/apple/) | 229 | 64 | 2026-10-23 |
 | [DoorDash](companies/doordash/) | 190 | 76 | 2026-11-04 |
-| [LinkedIn](companies/linkedin/) | 184 | 85 | 2026-10-23 |
+| [LinkedIn](companies/linkedin/) | 184 | 84 | 2026-10-23 |
 | [Snowflake](companies/snowflake/) | 169 | 34 | 2026-10-17 |
 | [Capital One](companies/capital-one/) | 165 | 48 | 2026-10-16 |
 | [Stripe](companies/stripe/) | 151 | 52 | 2026-10-06 |
 | [Pinterest](companies/pinterest/) | 143 | 45 | 2026-10-23 |
 | [Oracle](companies/oracle/) | 134 | 43 | 2026-10-28 |
 | [Netflix](companies/netflix/) | 127 | 30 | 2026-10-11 |
-| [Anthropic](companies/anthropic/) | 124 | 50 | 2026-10-18 |
-| [Salesforce](companies/salesforce/) | 123 | 17 | 2026-10-23 |
+| [Anthropic](companies/anthropic/) | 124 | 48 | 2026-10-18 |
+| [Salesforce](companies/salesforce/) | 123 | 16 | 2026-10-23 |
 | [Airbnb](companies/airbnb/) | 117 | 35 | 2026-10-14 |
 | [Waymo](companies/waymo/) | 110 | 42 | 2026-10-30 |
 | [Citadel](companies/citadel/) | 107 | 29 | 2026-10-19 |
@@ -154,7 +154,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Snapchat](companies/snapchat/) | 103 | 33 | 2026-10-28 |
 | [Databricks](companies/databricks/) | 101 | 43 | 2026-10-19 |
 | [Bloomberg](companies/bloomberg/) | 93 | 23 | 2026-10 |
-| [Goldman Sachs](companies/goldman-sachs/) | 77 | 26 | 2026-10-20 |
+| [Goldman Sachs](companies/goldman-sachs/) | 77 | 25 | 2026-10-20 |
 | [Atlassian](companies/atlassian/) | 76 | 14 | 2026-10-19 |
 | [NVIDIA](companies/nvidia/) | 74 | 14 | 2026-10-16 |
 | [Rippling](companies/rippling/) | 67 | 22 | 2026-11-03 |
@@ -171,14 +171,14 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Disney](companies/disney/) | 52 | 10 | 2026-10-13 |
 | [Reddit](companies/reddit/) | 52 | 12 | 2026-10-25 |
 | [Two Sigma](companies/two-sigma/) | 50 | 2 | 2026-10 |
-| [IBM](companies/ibm/) | 48 | 19 | 2026-10-17 |
+| [IBM](companies/ibm/) | 48 | 18 | 2026-10-17 |
 | [Intuit](companies/intuit/) | 47 | 5 | 2026-10 |
 | [Squarepoint](companies/squarepoint/) | 47 | 13 | 2026-10-25 |
 | [xAI](companies/xai/) | 47 | 11 | 2026-10 |
 | [Perplexity](companies/perplexity/) | 41 | 5 | 2026-10-02 |
 | [Expedia](companies/expedia/) | 40 | 4 | 2026-10 |
 | [Scale AI](companies/scale-ai/) | 38 | 6 | 2026-10-05 |
-| [Akuna Capital](companies/akuna-capital/) | 37 | 3 | 2026-08-30 |
+| [Akuna Capital](companies/akuna-capital/) | 37 | 2 | 2026-08-30 |
 | [Cisco](companies/cisco/) | 36 | 8 | 2026-09-19 |
 | [JPMorgan](companies/jpmorgan/) | 36 | 6 | 2026-10-14 |
 | [Optiver](companies/optiver/) | 36 | 2 | 2026-11-05 |
@@ -203,7 +203,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Hudson River Trading](companies/hudson-river-trading/) | 24 | 0 | 2026-08-08 |
 | [Boston Consulting Group](companies/boston-consulting-group/) | 23 | 3 | 2026-09-24 |
 | [Sig](companies/sig/) | 23 | 17 | 2026-10-15 |
-| [Yelp](companies/yelp/) | 23 | 8 | 2026-10 |
+| [Yelp](companies/yelp/) | 23 | 5 | 2026-10 |
 | [MongoDB](companies/mongodb/) | 22 | 6 | 2026-10-26 |
 | [Rubrik](companies/rubrik/) | 22 | 0 | 2026-06-26 |
 | [Spotify](companies/spotify/) | 22 | 8 | 2026-10-18 |
@@ -213,7 +213,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Cvs Health](companies/cvs-health/) | 21 | 0 | 2026-08 |
 | [Sierra](companies/sierra/) | 21 | 2 | 2026-10-06 |
 | [Airwallex](companies/airwallex/) | 20 | 13 | 2026-10-05 |
-| [Palantir](companies/palantir/) | 19 | 7 | 2026-10-30 |
+| [Palantir](companies/palantir/) | 19 | 3 | 2026-10-30 |
 | [Discord](companies/discord/) | 17 | 5 | 2026-09-26 |
 | [Jane Street](companies/jane-street/) | 17 | 2 | 2026-09 |
 | [Voleon](companies/voleon/) | 17 | 0 | 2026-08 |
@@ -256,7 +256,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Lead Bank](companies/lead-bank/) | 7 | 0 | 2026-07 |
 | [Nubank](companies/nubank/) | 7 | 0 | 2026-06-24 |
 | [Ziphq](companies/ziphq/) | 7 | 3 | 2026-09-17 |
-| [American Express](companies/american-express/) | 6 | 1 | 2026-08-27 |
+| [American Express](companies/american-express/) | 6 | 0 | 2026-08-27 |
 | [Brex](companies/brex/) | 6 | 2 | 2026-10-28 |
 | [Circle](companies/circle/) | 6 | 0 | 2026-05 |
 | [CrowdStrike](companies/crowdstrike/) | 6 | 2 | 2026-10-10 |

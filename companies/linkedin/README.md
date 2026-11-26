@@ -4,7 +4,7 @@
 
 184 questions reported at LinkedIn, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (85) · [last 6 months](six-months.csv) (111) · [all](all.csv) (184)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (84) · [last 6 months](six-months.csv) (111) · [all](all.csv) (184)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
