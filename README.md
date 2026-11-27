@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**7,732 questions · 366 companies · +2,695 added in the last 30 days · 1,955 reported in the last 90 days · data as of 2026-11-27**
+**7,732 questions · 366 companies · +2,695 added in the last 30 days · 1,956 reported in the last 90 days · data as of 2026-11-27**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -50,6 +50,7 @@ The 50 most recently reported of 6,253 from the past 12 months. [See all of them
 | 2026-11-03 | [Rippling](companies/rippling/) | [Design a Topic-Based News Aggregator with Fast Removal](https://trueinterview.io/questions/design-a-topic-based-news-aggregator-with-fast-removal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
 | 2026-11-02 | [Okta](companies/okta/) | [Design Photo Sharing with Followers and Location or Tag Search](https://trueinterview.io/questions/design-photo-sharing-with-followers-and-location-or-tag-search?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-11-02 | [Nutanix](companies/nutanix/) | [Design a Windowed Hit Counter with Fixed Buckets and Concurrency](https://trueinterview.io/questions/design-a-windowed-hit-counter-with-fixed-buckets-and-concurrency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
+| 2026-11 | [Nokia](companies/nokia/) | [Walk through a project you built and explain why you want to join this specific team](https://trueinterview.io/questions/walk-through-a-project-you-built-and-explain-why-you-want-to-join-this-specific-team?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid | 0 |
 | 2026-10-31 | [Xiaohongshu](companies/xiaohongshu/) | [Wake a Timed Job Scheduler When Its Earliest Task Changes](https://trueinterview.io/questions/wake-a-timed-job-scheduler-when-its-earliest-task-changes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-10-31 | [OpenAI](companies/openai/) | [Design a PC Game Store, Entitlements, and Large-File Launcher Distribution](https://trueinterview.io/questions/design-a-pc-game-store-entitlements-and-large-file-launcher-distribution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
 | 2026-10-31 | [Abridge](companies/abridge/) | [Return Word Frequencies in Alphabetical Word Order](https://trueinterview.io/questions/return-word-frequencies-in-alphabetical-word-order?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Intern, New grad | 0 |
@@ -90,7 +91,6 @@ The 50 most recently reported of 6,253 from the past 12 months. [See all of them
 | 2026-10-26 | [Rokt](companies/rokt/) | [A Time Your First Technical Approach Failed and How You Changed Course](https://trueinterview.io/questions/a-time-your-first-technical-approach-failed-and-how-you-changed-course?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | OA | Junior / Mid, Senior | 0 |
 | 2026-10-25 | [Oracle](companies/oracle/) | [Senior Storage Infrastructure Engineer: Career Walkthrough and a Difficult Problem Solved](https://trueinterview.io/questions/senior-storage-infrastructure-engineer-career-walkthrough-and-a-difficult-problem-solved?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior | 0 |
 | 2026-10-25 | [Lambda](companies/lambda/) | [Implement a Persistent Key-Value Store on Top of a Fixed-Size Block Device](https://trueinterview.io/questions/implement-a-persistent-key-value-store-on-top-of-a-fixed-size-block-device?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
-| 2026-10-25 | [Squarepoint](companies/squarepoint/) | [Find the Probability That Three Circle Points Fit in a Semicircle](https://trueinterview.io/questions/find-the-probability-that-three-circle-points-fit-in-a-semicircle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid | 0 |
 <!-- gen:recent:end -->
 
 ## AI coding rounds
@@ -435,7 +435,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Niantic](companies/niantic/) | 1 | 0 | 2026-01-24 |
 | [NinjaTrader](companies/ninjatrader/) | 1 | 1 | 2026-09-09 |
 | [Nintendo](companies/nintendo/) | 1 | 0 | 2026-07-31 |
-| [Nokia](companies/nokia/) | 1 | 0 | 2026-01-31 |
+| [Nokia](companies/nokia/) | 1 | 1 | 2026-11 |
 | [Nooks](companies/nooks/) | 1 | 1 | 2026-10-15 |
 | [Notion](companies/notion/) | 1 | 1 | 2026-10-07 |
 | [Ode](companies/ode/) | 1 | 1 | 2026-10-10 |

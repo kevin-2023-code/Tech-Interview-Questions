@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-08 | [Capital One](../companies/capital-one/) | [Deep-dive XGBoost handling and overfitting](https://trueinterview.io/questions/deep-dive-xgboost-handling-and-overfitting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 0 |
 | 2026-08 | [CVS Health](../companies/cvs-health/) | [Compute specialty spend share and top age band](https://trueinterview.io/questions/compute-specialty-spend-share-and-top-age-band?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-08 | [Amazon](../companies/amazon/) | [Compare Random Forests vs Gradient Boosting rigorously](https://trueinterview.io/questions/compare-random-forests-vs-gradient-boosting-rigorously?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 0 |
 | 2026-08 | [Rippling](../companies/rippling/) | [Clarify and Solve Currency Conversion Queries with a Maximum-Amount Follow-up](https://trueinterview.io/questions/clarify-and-solve-currency-conversion-queries-with-a-maximum-amount-follow-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
@@ -409,6 +410,5 @@
 | 2026-07-18 | [Meta](../companies/meta/) | [Product Design: What Should a Meta-Built Mapping App Be and Who Is It For?](https://trueinterview.io/questions/product-design-what-should-a-meta-built-mapping-app-be-and-who-is-it-for?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-07-18 | [Bloomberg](../companies/bloomberg/) | [Design a Fair Distributed Job Scheduler with Unknown Runtimes](https://trueinterview.io/questions/design-a-fair-distributed-job-scheduler-with-unknown-runtimes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-07-18 | [Meta](../companies/meta/) | [Evaluating a Proposal to Make the Facebook Stories Tray Twice as Tall](https://trueinterview.io/questions/evaluating-a-proposal-to-make-the-facebook-stories-tray-twice-as-tall?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-07-18 | [Oracle](../companies/oracle/) | [Evaluate Subjective, Nondeterministic Agent Outputs](https://trueinterview.io/questions/evaluate-subjective-agent-outputs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 0 |
 
 [← Newer](page-6.md) · Page 7 of 16 · [Older →](page-8.md)

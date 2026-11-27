@@ -4,7 +4,7 @@
 
 1 question reported at Nokia, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (1)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (1)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,7 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Walk through a project you built and explain why you want to join this specific team](https://trueinterview.io/questions/walk-through-a-project-you-built-and-explain-why-you-want-to-join-this-specific-team?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-01-31 |
+| [Walk through a project you built and explain why you want to join this specific team](https://trueinterview.io/questions/walk-through-a-project-you-built-and-explain-why-you-want-to-join-this-specific-team?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-11 |
 
 ---
 

@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-08-26 | [Google](../companies/google/) | [Diagnosing a YouTube Recommendation Engagement Drop: A Metrics Plan](https://trueinterview.io/questions/diagnosing-a-youtube-recommendation-engagement-drop-a-metrics-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-08-26 | [DoorDash](../companies/doordash/) | [Design More Accurate Live Order Tracking and Arrival Estimates for DoorDash](https://trueinterview.io/questions/design-more-accurate-live-order-tracking-and-arrival-estimates-for-doordash?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-08-26 | [Faire](../companies/faire/) | [Design a real-time model inference platform: deployment, scaling and monitoring](https://trueinterview.io/questions/design-a-real-time-model-inference-platform-deployment-scaling-and-monitoring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-08-26 | [Faire](../companies/faire/) | [Data quality, lineage, monitoring and backfill design for an ML feature store](https://trueinterview.io/questions/data-quality-lineage-monitoring-and-backfill-design-for-an-ml-feature-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
@@ -409,6 +410,5 @@
 | 2026-08 | [Meta](../companies/meta/) | [Describe conflict resolution and initiative](https://trueinterview.io/questions/describe-conflict-resolution-and-initiative?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior, Staff+ | 0 |
 | 2026-08 | [Stripe](../companies/stripe/) | [Describe a high-impact project via STAR](https://trueinterview.io/questions/describe-a-high-impact-project-via-star?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 8 |
 | 2026-08 | [Point72](../companies/point72/) | [Derive the Optimal Bid in a Two-Bidder Second-Price Auction](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 0 |
-| 2026-08 | [Capital One](../companies/capital-one/) | [Deep-dive XGBoost handling and overfitting](https://trueinterview.io/questions/deep-dive-xgboost-handling-and-overfitting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 0 |
 
 [← Newer](page-5.md) · Page 6 of 16 · [Older →](page-7.md)

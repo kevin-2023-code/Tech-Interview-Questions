@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-09 | [Google](../companies/google/) | [Answer core teamwork and conflict stories](https://trueinterview.io/questions/answer-core-teamwork-and-conflict-stories?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09 | [Meta](../companies/meta/) | [Answer common behavioral prompts](https://trueinterview.io/questions/answer-common-behavioral-prompts-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior, Staff+ | 4 |
 | 2026-09 | [Amazon](../companies/amazon/) | [Answer Amazon Behavioral Questions](https://trueinterview.io/questions/answer-amazon-behavioral-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Intern, New grad, Junior / Mid, Senior | 8 |
 | 2026-09 | [OpenAI](../companies/openai/) | [Implement follow graph with snapshots and recommendations](https://trueinterview.io/questions/implement-follow-graph-with-snapshots-and-recommendations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid, Senior | 0 |
@@ -409,6 +410,5 @@
 | 2026-08-26 | [LinkedIn](../companies/linkedin/) | [Tight-Deadline Launch, Disagreeing With a Manager, and Guiding a Junior Scientist](https://trueinterview.io/questions/tight-deadline-launch-disagreeing-with-a-manager-and-guiding-a-junior-scientist?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-08-26 | [Goldman Sachs](../companies/goldman-sachs/) | [Market Shifts Reshaping Corporate Cash and Liquidity Management Products](https://trueinterview.io/questions/market-shifts-reshaping-corporate-cash-and-liquidity-management-products?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-08-26 | [Apple](../companies/apple/) | [Distinguish Endpoint and Survival Probabilities in a 3D Diagonal Walk](https://trueinterview.io/questions/distinguish-endpoint-and-survival-probabilities-in-a-3d-diagonal-walk?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
-| 2026-08-26 | [Google](../companies/google/) | [Diagnosing a YouTube Recommendation Engagement Drop: A Metrics Plan](https://trueinterview.io/questions/diagnosing-a-youtube-recommendation-engagement-drop-a-metrics-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 
 [← Newer](page-4.md) · Page 5 of 16 · [Older →](page-6.md)

@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-05 | [Google](../companies/google/) | [Implement a Simplified Transformer Forward Pass](https://trueinterview.io/questions/google-implement-a-simplified-transformer-forward-pass?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-05 | [Google](../companies/google/), [Snowflake](../companies/snowflake/) | [Minimum Distance Between People and Cakes](https://trueinterview.io/questions/google-minimum-distance-between-people-and-cakes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 0 |
 | 2026-05 | [Google](../companies/google/) | [Detonate Bombs with Chain Reactions (Graph reachability)](https://trueinterview.io/questions/google-detonate-bombs-with-chain-reactions-graph-reachability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-05 | [Google](../companies/google/) | [Implement deleteDirectory with getChildrenPaths and deleteFile APIs](https://trueinterview.io/questions/google-implement-deletedirectory-with-getchildrenpaths-and-deletefile-apis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
@@ -409,6 +410,5 @@
 | 2026-04-06 | [Amazon](../companies/amazon/) | [Design a Low-Latency Ad Serving Backend With Targeting, Budgets and Tracking](https://trueinterview.io/questions/design-a-low-latency-ad-serving-backend-with-targeting-budgets-and-tracking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-04-06 | [Amazon](../companies/amazon/) | [Customer Focus: Going Above and Beyond and Shipping a Customer-Driven Change](https://trueinterview.io/questions/customer-focus-going-above-and-beyond-and-shipping-a-customer-driven-change?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior | 0 |
 | 2026-04-06 | [Amazon](../companies/amazon/) | [Calculated Risks and Tight Deadlines: Moving Fast With Good Judgment](https://trueinterview.io/questions/calculated-risks-and-tight-deadlines-moving-fast-with-good-judgment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
-| 2026-04-06 | [Microsoft](../companies/microsoft/) | [Design a Secure Copilot API](https://trueinterview.io/questions/design-a-secure-copilot-api?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 
 [← Newer](page-10.md) · Page 11 of 16 · [Older →](page-12.md)

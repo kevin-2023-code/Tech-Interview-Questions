@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-05-31 | [Mercor](../companies/mercor/) | [Design an API to Deep-Copy a Dataset with Its Tasks, Model Responses and Grades](https://trueinterview.io/questions/design-an-api-to-deep-copy-a-dataset-with-its-tasks-model-responses-and-grades?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-05-31 | [Amazon](../companies/amazon/) | [Amazon India festive clothing sale: engagement-led homepage redesign and metrics](https://trueinterview.io/questions/amazon-india-festive-clothing-sale-engagement-led-homepage-redesign-and-metrics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-05-31 | [Capital One](../companies/capital-one/) | [Longest Same-Character Run](https://trueinterview.io/questions/longest-same-character-run?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 0 |
 | 2026-05-31 | [Capital One](../companies/capital-one/), [ByteDance](../companies/bytedance/) | [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 0 |
@@ -409,6 +410,5 @@
 | 2026-05 | [Instacart](../companies/instacart/), [Airbnb](../companies/airbnb/) +4 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/instacart-design-a-personalized-search-ranking-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 3 |
 | 2026-05 | [Instacart](../companies/instacart/) | [Find Minimal Shoppers](https://trueinterview.io/questions/instacart-find-minimal-shoppers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid | 0 |
 | 2026-05 | [Google](../companies/google/) | [Multi-Elevator Controller: Scheduling and Dispatching](https://trueinterview.io/questions/google-multi-elevator-controller-scheduling-and-dispatching?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
-| 2026-05 | [Google](../companies/google/) | [Implement a Simplified Transformer Forward Pass](https://trueinterview.io/questions/google-implement-a-simplified-transformer-forward-pass?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 
 [← Newer](page-9.md) · Page 10 of 16 · [Older →](page-11.md)

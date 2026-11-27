@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-09-10 | [Intuit](../companies/intuit/) | [Choosing Between Retrieval-Augmented Generation and Fine-Tuning for an LLM Product](https://trueinterview.io/questions/choosing-between-retrieval-augmented-generation-and-fine-tuning-for-an-llm-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-10 | [DoorDash](../companies/doordash/) | [Build Two Interacting Services That Carry Out a Realistic Refund Flow](https://trueinterview.io/questions/build-two-interacting-services-that-carry-out-a-realistic-refund-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior, Staff+ | 0 |
 | 2026-09-10 | [Waymo](../companies/waymo/) | [Build an Autocomplete Search Bar With a Hand-Written Debounce](https://trueinterview.io/questions/build-an-autocomplete-search-bar-with-a-hand-written-debounce?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-10 | [Amazon](../companies/amazon/) | [A Problem That Needed Deep Analysis: Knowing You Focused on the Right Things](https://trueinterview.io/questions/a-problem-that-needed-deep-analysis-knowing-you-focused-on-the-right-things?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
@@ -409,6 +410,5 @@
 | 2026-09 | [Apple](../companies/apple/) | [Improve QA Benchmarks, Regression Tests, and HPC Resource Use](https://trueinterview.io/questions/improve-qa-benchmarks-regression-tests-and-hpc-resource-use?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid | 2 |
 | 2026-09 | [ByteDance](../companies/bytedance/) | [How to triage slow service alerts](https://trueinterview.io/questions/how-to-triage-slow-service-alerts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid | 0 |
 | 2026-09-01 | [DoorDash](../companies/doordash/) | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
-| 2026-09 | [Google](../companies/google/) | [Answer core teamwork and conflict stories](https://trueinterview.io/questions/answer-core-teamwork-and-conflict-stories?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 
 [← Newer](page-3.md) · Page 4 of 16 · [Older →](page-5.md)

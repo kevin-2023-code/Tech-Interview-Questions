@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-09-25 | [Oracle](../companies/oracle/) | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-09-25 | [Oracle](../companies/oracle/) | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09-25 | [ByteDance](../companies/bytedance/) | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-09-24 | [Lyft](../companies/lyft/) | [Wrapper Over a Paginated Page API That Fetches the Next N Words](https://trueinterview.io/questions/wrapper-over-a-paginated-page-api-that-fetches-the-next-n-words?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | New grad, Junior / Mid, Senior | 0 |
@@ -409,6 +410,5 @@
 | 2026-09-10 | [Google](../companies/google/) | [Design a pricing strategy for a hypothetical Google teleportation service](https://trueinterview.io/questions/design-a-pricing-strategy-for-a-hypothetical-google-teleportation-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-09-10 | [Waymo](../companies/waymo/) | [Design a Matchmaking Service With Join, Cancel, Matching, Notification and Expiry](https://trueinterview.io/questions/design-a-matchmaking-service-with-join-cancel-matching-notification-and-expiry?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-09-10 | [Waymo](../companies/waymo/) | [Deduplicate a 256 GB File on a Machine With 128 MB of Memory](https://trueinterview.io/questions/deduplicate-a-256-gb-file-on-a-machine-with-128-mb-of-memory?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
-| 2026-09-10 | [Intuit](../companies/intuit/) | [Choosing Between Retrieval-Augmented Generation and Fine-Tuning for an LLM Product](https://trueinterview.io/questions/choosing-between-retrieval-augmented-generation-and-fine-tuning-for-an-llm-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 
 [← Newer](page-2.md) · Page 3 of 16 · [Older →](page-4.md)
