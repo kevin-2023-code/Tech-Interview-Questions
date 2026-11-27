@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,259 questions reported in the 365 days to 2026-11-26, newest first. A month without a day means only the month was reported.
+6,253 questions reported in the 365 days to 2026-11-27, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -263,11 +263,5 @@
 | 2025-11-27 | [Google](../companies/google/) | [Find All Bad Pairs Using runTest Oracle](https://trueinterview.io/questions/find-bad-pairs-with-oracle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 0 |
 | 2025-11-27 | [Bloomberg](../companies/bloomberg/) | [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 1 |
 | 2025-11-27 | [Google](../companies/google/) | [Two-Day Log Intersection under Memory Limit](https://trueinterview.io/questions/two-logs-intersection-memory-limit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 1 |
-| 2025-11-26 | [Powerplay](../companies/powerplay/) | [Note-Taking App Design: Picking a Target User, MVP and Success Metrics](https://trueinterview.io/questions/note-taking-app-design-picking-a-target-user-mvp-and-success-metrics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2025-11-26 | [Netflix](../companies/netflix/) | [Netflix Game Tie-In for a Hit Unscripted Series: Product Design](https://trueinterview.io/questions/netflix-game-tie-in-for-a-hit-unscripted-series-product-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2025-11-26 | [Google](../companies/google/) | [Handling a Vague, Urgent Outage Complaint from a Senior Enterprise Client](https://trueinterview.io/questions/handling-a-vague-urgent-outage-complaint-from-a-senior-enterprise-client?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior | 0 |
-| 2025-11-26 | [Microsoft](../companies/microsoft/) | [Accessible Multi-Factor Authenticator for Blind and Low-Vision Smartphone Users](https://trueinterview.io/questions/accessible-multi-factor-authenticator-for-blind-and-low-vision-smartphone-users?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2025-11-26 | [ByteDance](../companies/bytedance/) | [Contiguous Subarray with Largest Min + Max](https://trueinterview.io/questions/largest-min-max-subarray?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
-| 2025-11-26 | [Databricks](../companies/databricks/), [Salesforce](../companies/salesforce/) +1 | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Senior | 0 |
 
 [← Newer](page-15.md) · Page 16 of 16

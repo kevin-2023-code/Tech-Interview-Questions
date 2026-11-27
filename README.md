@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**7,732 questions · 366 companies · +2,965 added in the last 30 days · 1,975 reported in the last 90 days · data as of 2026-11-26**
+**7,732 questions · 366 companies · +2,695 added in the last 30 days · 1,953 reported in the last 90 days · data as of 2026-11-27**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -13,7 +13,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## New this week
 
 <!-- gen:new:start -->
-2,692 questions added to the bank in the 7 days to 2026-11-26; 15 of the most recent, spread across companies and formats:
+2,692 questions added to the bank in the 7 days to 2026-11-27; 15 of the most recent, spread across companies and formats:
 
 | Added | Company | Question | Format | Round | Level | Last reported | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -37,7 +37,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 6,259 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 6,253 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -128,30 +128,30 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 
 | Company | Questions | Reported in last 90 days | Last reported |
 | :-- | --: | --: | :-- |
-| [Google](companies/google/) | 729 | 188 | 2026-10-29 |
-| [Meta](companies/meta/) | 605 | 104 | 2026-10-17 |
+| [Google](companies/google/) | 729 | 186 | 2026-10-29 |
+| [Meta](companies/meta/) | 605 | 102 | 2026-10-17 |
 | [Amazon](companies/amazon/) | 557 | 197 | 2026-10-24 |
 | [Microsoft](companies/microsoft/) | 340 | 92 | 2026-11-05 |
-| [ByteDance](companies/bytedance/) | 320 | 112 | 2026-10-16 |
+| [ByteDance](companies/bytedance/) | 320 | 109 | 2026-10-16 |
 | [Uber](companies/uber/) | 282 | 58 | 2026-10-19 |
 | [OpenAI](companies/openai/) | 239 | 100 | 2026-10-31 |
-| [Apple](companies/apple/) | 229 | 64 | 2026-10-23 |
+| [Apple](companies/apple/) | 229 | 60 | 2026-10-23 |
 | [DoorDash](companies/doordash/) | 190 | 76 | 2026-11-04 |
 | [LinkedIn](companies/linkedin/) | 184 | 84 | 2026-10-23 |
 | [Snowflake](companies/snowflake/) | 169 | 34 | 2026-10-17 |
-| [Capital One](companies/capital-one/) | 165 | 48 | 2026-10-16 |
+| [Capital One](companies/capital-one/) | 165 | 47 | 2026-10-16 |
 | [Stripe](companies/stripe/) | 151 | 52 | 2026-10-06 |
 | [Pinterest](companies/pinterest/) | 143 | 45 | 2026-10-23 |
-| [Oracle](companies/oracle/) | 134 | 43 | 2026-10-28 |
+| [Oracle](companies/oracle/) | 134 | 42 | 2026-10-28 |
 | [Netflix](companies/netflix/) | 127 | 30 | 2026-10-11 |
-| [Anthropic](companies/anthropic/) | 124 | 48 | 2026-10-18 |
+| [Anthropic](companies/anthropic/) | 124 | 46 | 2026-10-18 |
 | [Salesforce](companies/salesforce/) | 123 | 16 | 2026-10-23 |
-| [Airbnb](companies/airbnb/) | 117 | 35 | 2026-10-14 |
+| [Airbnb](companies/airbnb/) | 117 | 34 | 2026-10-14 |
 | [Waymo](companies/waymo/) | 110 | 42 | 2026-10-30 |
 | [Citadel](companies/citadel/) | 107 | 29 | 2026-10-19 |
 | [Roblox](companies/roblox/) | 106 | 28 | 2026-10-16 |
 | [Coinbase](companies/coinbase/) | 104 | 7 | 2026-10-26 |
-| [Snapchat](companies/snapchat/) | 103 | 33 | 2026-10-28 |
+| [Snapchat](companies/snapchat/) | 103 | 31 | 2026-10-28 |
 | [Databricks](companies/databricks/) | 101 | 43 | 2026-10-19 |
 | [Bloomberg](companies/bloomberg/) | 93 | 23 | 2026-10 |
 | [Goldman Sachs](companies/goldman-sachs/) | 77 | 25 | 2026-10-20 |
@@ -202,7 +202,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Glean](companies/glean/) | 24 | 14 | 2026-10-10 |
 | [Hudson River Trading](companies/hudson-river-trading/) | 24 | 0 | 2026-08-08 |
 | [Boston Consulting Group](companies/boston-consulting-group/) | 23 | 3 | 2026-09-24 |
-| [SIG](companies/sig/) | 23 | 17 | 2026-10-15 |
+| [SIG](companies/sig/) | 23 | 14 | 2026-10-15 |
 | [Yelp](companies/yelp/) | 23 | 5 | 2026-10 |
 | [MongoDB](companies/mongodb/) | 22 | 6 | 2026-10-26 |
 | [Rubrik](companies/rubrik/) | 22 | 0 | 2026-06-26 |
@@ -295,7 +295,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Rakuten](companies/rakuten/) | 4 | 1 | 2026-10-21 |
 | [Rocket Money](companies/rocket-money/) | 4 | 0 | 2026-08-17 |
 | [Siemens](companies/siemens/) | 4 | 4 | 2026-09-04 |
-| [Slack](companies/slack/) | 4 | 2 | 2026-09-28 |
+| [Slack](companies/slack/) | 4 | 1 | 2026-09-28 |
 | [UiPath](companies/uipath/) | 4 | 4 | 2026-09-28 |
 | [Aurora](companies/aurora/) | 3 | 2 | 2026-09-23 |
 | [AXQ Capital](companies/axq-capital/) | 3 | 2 | 2026-09-08 |
