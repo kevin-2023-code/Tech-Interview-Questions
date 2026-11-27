@@ -4,7 +4,7 @@
 
 2 questions reported at Cockroach Labs, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (2)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (2) · [all](all.csv) (2)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,8 +12,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Point-in-Time Reads from a Timestamped Key-Value Store](https://trueinterview.io/questions/point-in-time-reads-from-a-timestamped-key-value-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-07-07 |
-| [Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons](https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-01-20 |
+| [Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons](https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-09 |
+| [Point-in-Time Reads from a Timestamped Key-Value Store](https://trueinterview.io/questions/point-in-time-reads-from-a-timestamped-key-value-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-09 |
 
 ---
 

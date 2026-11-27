@@ -23,6 +23,7 @@ Render an Organization Chart and Find Skip-Level Pairs,Algorithm,Medium,Onsite /
 Explain Neural-Network Regularization and Dropout,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout
 Compare Batch Normalization and Layer Normalization,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Senior,1,0,2026-09-09,https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization
 Choose Labels and Losses for Multiple Engagement Outcomes,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-09,https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes
+"Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-09,https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons
 Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,0,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,0,2026-09,https://trueinterview.io/questions/basic-calculator-2
@@ -81,7 +82,6 @@ Service Dependency Shortest Latency Path,Algorithm,Medium,Onsite / virtual onsit
 Search Suggestion Service,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-01-30,https://trueinterview.io/questions/search-suggestion-service
 "Engineering Manager Scenarios: Promotion Cases, Team Conflict and Performance Plans",Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,0,2026-01-20,https://trueinterview.io/questions/engineering-manager-scenarios-promotion-cases-team-conflict-and-performance-plans
 "Engineering Manager Behavioral: Motivation, Taking Feedback and Leading a Reorganization",Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,0,2026-01-20,https://trueinterview.io/questions/engineering-manager-behavioral-motivation-taking-feedback-and-leading-a-reorganization
-"Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,0,2026-01-20,https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons
 iOS Scrollable Grid & Swift Concurrency,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-01-20,https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency
 Describe an innovation you drove end-to-end,Behavioral / Knowledge,,Phone screen,Junior / Mid,2,0,2026-01-10,https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end
 Top K Frequent Elements,Algorithm,Medium,Phone screen,Junior / Mid,6,0,2026-01-10,https://trueinterview.io/questions/top-k-frequent-elements-3

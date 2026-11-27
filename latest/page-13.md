@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-03-11 | [Meta](../companies/meta/) | [Design a location-based radius top-K search](https://trueinterview.io/questions/design-a-location-based-radius-top-k-search?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Staff+ | 0 |
 | 2026-03-11 | [Tesla](../companies/tesla/), [Meta](../companies/meta/) | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior | 0 |
 | 2026-03-10 | [Amazon](../companies/amazon/) | [PM Behavioral: Delivering Bad News to a Customer When a Technical Limit Blocks Them](https://trueinterview.io/questions/pm-behavioral-delivering-bad-news-to-a-customer-when-a-technical-limit-blocks-them?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-03-10 | [Amazon](../companies/amazon/) | [Launch Plan for Selling Whole Foods Market Groceries in Amazon's Online Catalog](https://trueinterview.io/questions/launch-plan-for-selling-whole-foods-market-groceries-in-amazons-online-catalog?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
@@ -409,6 +410,5 @@
 | 2026-02-13 | [Apple](../companies/apple/) | [Design CI/CD for AI Services](https://trueinterview.io/questions/design-ci-cd-for-ai-services?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-02-13 | [Coinbase](../companies/coinbase/) | [Maximize block fee with transaction selection](https://trueinterview.io/questions/maximize-block-fee-with-transaction-selection?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid | 0 |
 | 2026-02-13 | [Oracle](../companies/oracle/) | [Video Upload + Search with LLM](https://trueinterview.io/questions/system-design-video-upload-search?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior | 0 |
-| 2026-02-13 | [Capital One](../companies/capital-one/) | [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
 
 [← Newer](page-12.md) · Page 13 of 16 · [Older →](page-14.md)

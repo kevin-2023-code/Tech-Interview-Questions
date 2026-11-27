@@ -10,6 +10,7 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
+| 2026-04-06 | [DoorDash](../companies/doordash/) | [Code Craft: Basic Calculator (No Parentheses)](https://trueinterview.io/questions/code-craft-basic-calculator-no-parens?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-04-06 | [Walmart Labs](../companies/walmart-labs/) | [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Staff+ | 0 |
 | 2026-04-06 | [Databricks](../companies/databricks/), [Square](../companies/square/) | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 0 |
 | 2026-04-05 | [Nubank](../companies/nubank/) | [Uber Lite in One City: Success Metrics for a Low-Bandwidth Ride-Hailing App](https://trueinterview.io/questions/uber-lite-in-one-city-success-metrics-for-a-low-bandwidth-ride-hailing-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
@@ -409,6 +410,5 @@
 | 2026-03-11 | [ZipHQ](../companies/ziphq/) | [Find shortest path on infinite grid](https://trueinterview.io/questions/find-shortest-path-on-infinite-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-03-11 | [Google](../companies/google/) | [Check if all substrings are dictionary words](https://trueinterview.io/questions/check-if-all-substrings-are-dictionary-words?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-03-11 | [Google](../companies/google/) | [Check if all substrings are anagrams of words](https://trueinterview.io/questions/check-if-all-substrings-are-anagrams-of-words?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
-| 2026-03-11 | [Meta](../companies/meta/) | [Design a location-based radius top-K search](https://trueinterview.io/questions/design-a-location-based-radius-top-k-search?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Staff+ | 0 |
 
 [← Newer](page-11.md) · Page 12 of 16 · [Older →](page-13.md)

@@ -4,7 +4,7 @@
 
 103 questions reported at Snapchat, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (5) · [last 3 months](three-months.csv) (31) · [last 6 months](six-months.csv) (46) · [all](all.csv) (103)
+CSV: [last 30 days](thirty-days.csv) (5) · [last 3 months](three-months.csv) (32) · [last 6 months](six-months.csv) (47) · [all](all.csv) (103)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -36,6 +36,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
 | [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Senior | 1 | 0 | 2026-09-09 |
 | [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
+| [Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons](https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-09 |
 | [Count Islands and Water Boundary](../../questions/algorithm/count-islands-and-water-boundary/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 4 | 0 | 2026-09 |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 16 | 0 | 2026-09 |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 9 | 0 | 2026-09 |
@@ -94,7 +95,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Search Suggestion Service](https://trueinterview.io/questions/search-suggestion-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-01-30 |
 | [Engineering Manager Scenarios: Promotion Cases, Team Conflict and Performance Plans](https://trueinterview.io/questions/engineering-manager-scenarios-promotion-cases-team-conflict-and-performance-plans?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-01-20 |
 | [Engineering Manager Behavioral: Motivation, Taking Feedback and Leading a Reorganization](https://trueinterview.io/questions/engineering-manager-behavioral-motivation-taking-feedback-and-leading-a-reorganization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-01-20 |
-| [Architecture Deep Dive on a System You Built: Decisions, Trade-offs and Lessons](https://trueinterview.io/questions/architecture-deep-dive-on-a-system-you-built-decisions-trade-offs-and-lessons?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-01-20 |
 | [iOS Scrollable Grid & Swift Concurrency](https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-01-20 |
 | [Describe an innovation you drove end-to-end](https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 2 | 0 | 2026-01-10 |
 | [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements-3/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 6 | 0 | 2026-01-10 |

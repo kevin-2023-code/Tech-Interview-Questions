@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**7,732 questions · 366 companies · +2,695 added in the last 30 days · 1,953 reported in the last 90 days · data as of 2026-11-27**
+**7,732 questions · 366 companies · +2,695 added in the last 30 days · 1,955 reported in the last 90 days · data as of 2026-11-27**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -151,7 +151,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Citadel](companies/citadel/) | 107 | 29 | 2026-10-19 |
 | [Roblox](companies/roblox/) | 106 | 28 | 2026-10-16 |
 | [Coinbase](companies/coinbase/) | 104 | 7 | 2026-10-26 |
-| [Snapchat](companies/snapchat/) | 103 | 31 | 2026-10-28 |
+| [Snapchat](companies/snapchat/) | 103 | 32 | 2026-10-28 |
 | [Databricks](companies/databricks/) | 101 | 43 | 2026-10-19 |
 | [Bloomberg](companies/bloomberg/) | 93 | 23 | 2026-10 |
 | [Goldman Sachs](companies/goldman-sachs/) | 77 | 25 | 2026-10-20 |
@@ -328,7 +328,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Cars24](companies/cars24/) | 2 | 0 | 2026-06-12 |
 | [Carta](companies/carta/) | 2 | 0 | 2026-01-29 |
 | [ClickUp](companies/clickup/) | 2 | 0 | 2026-07-11 |
-| [Cockroach Labs](companies/cockroach-labs/) | 2 | 0 | 2026-07-07 |
+| [Cockroach Labs](companies/cockroach-labs/) | 2 | 2 | 2026-09 |
 | [CRED](companies/cred/) | 2 | 0 | 2026-05-29 |
 | [Deloitte](companies/deloitte/) | 2 | 0 | 2026-03-16 |
 | [Duolingo](companies/duolingo/) | 2 | 0 | 2026-07-20 |
