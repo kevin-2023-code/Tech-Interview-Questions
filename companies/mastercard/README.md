@@ -12,7 +12,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Mastercard PM Behavioral: Explaining Your Motivation for the Company and Role](https://trueinterview.io/questions/mastercard-pm-behavioral-explaining-your-motivation-for-the-company-and-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid | 1 | 0 | 2026-09-22 |
+| [Mastercard PM Behavioral: Explaining Your Motivation for the Company and Role](https://trueinterview.io/questions/mastercard-pm-behavioral-explaining-your-motivation-for-the-company-and-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid | 1 | 5 | 2026-09-22 |
 | [B2B Product Design: Specify an Elevator System Around a Building Client's Needs](https://trueinterview.io/questions/b2b-product-design-specify-an-elevator-system-around-a-building-clients-needs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-12 |
 | [Allocating an 18-Month Discretionary Investment Budget at a Payment Gateway](https://trueinterview.io/questions/allocating-an-18-month-discretionary-investment-budget-at-a-payment-gateway?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-11-21 |
 
