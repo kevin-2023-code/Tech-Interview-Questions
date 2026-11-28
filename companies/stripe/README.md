@@ -2,9 +2,9 @@
 
 # Stripe interview questions
 
-151 questions reported at Stripe, most recently reported first.
+150 questions reported at Stripe, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (52) · [last 6 months](six-months.csv) (77) · [all](all.csv) (151)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (51) · [last 6 months](six-months.csv) (77) · [all](all.csv) (150)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -115,7 +115,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design the partner API that lets Google Maps users order DoorDash delivery in-app](https://trueinterview.io/questions/design-the-partner-api-that-lets-google-maps-users-order-doordash-delivery-in-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-03-23 |
 | [Resolve conflicts and prioritize with stakeholders](https://trueinterview.io/questions/resolve-conflicts-and-prioritize-with-stakeholders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-03 |
 | [Theme Park GM Case: Cutting Attraction Wait Times at Disneyland](https://trueinterview.io/questions/theme-park-gm-case-cutting-attraction-wait-times-at-disneyland?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-02-28 |
-| [Analyze Two Flawed Products That Still Succeed Commercially and Why](https://trueinterview.io/questions/analyze-two-flawed-products-that-still-succeed-commercially-and-why?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-25 |
 | [Staff Behavioral: Deciding With Incomplete Info, Stakeholder Alignment, Mentoring](https://trueinterview.io/questions/staff-behavioral-deciding-with-incomplete-info-stakeholder-alignment-mentoring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-02-22 |
 | [Architecture Deep-Dive: 15–20 Minute Past-Project Talk and Retrospective Follow-ups](https://trueinterview.io/questions/architecture-deep-dive-15-20-minute-past-project-talk-and-retrospective-follow-ups?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-02-22 |
 | [Observability platform design: metric ingestion, alert rules and on-call notification](https://trueinterview.io/questions/observability-platform-design-metric-ingestion-alert-rules-and-on-call-notification?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-02-13 |

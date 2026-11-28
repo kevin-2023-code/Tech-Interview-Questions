@@ -2,7 +2,7 @@
 
 # SQL interview questions
 
-234 questions as of 2026-11-27, most recently reported first; questions with no reported date come last.
+233 questions as of 2026-11-28, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 
@@ -223,7 +223,6 @@
 | — | [Meta](../companies/meta/) | [Ads Impression SQL Query](https://trueinterview.io/questions/meta-ads-impression-sql-query?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | Intern, New grad | 0 |
 | — | [Meta](../companies/meta/) | [SQL Query for Data Processing](https://trueinterview.io/questions/meta-sql-query-for-data-processing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | Intern, New grad | 0 |
 | — | [Meta](../companies/meta/) | [Top 3 Customers by Book Purchases in Specific Categories](https://trueinterview.io/questions/meta-top-3-customers-by-book-purchases-in-specific-categories?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | New grad, Junior / Mid, Senior | 0 |
-| — | [Meta](../companies/meta/) | [Group Video Call Data Analysis Queries](https://trueinterview.io/questions/meta-group-video-call-data-analysis-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | Intern, New grad, Junior / Mid | 0 |
 | — | [Meta](../companies/meta/) | [Find Total Sales by Unique Customers](https://trueinterview.io/questions/meta-find-total-sales-by-unique-customers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | Intern, New grad, Junior / Mid | 0 |
 | — | [Intuit](../companies/intuit/) | [SQL Related Multiple Choice](https://trueinterview.io/questions/intuit-sql-related-multiple-choice?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | Intern, New grad | 0 |
 | — | [DoorDash](../companies/doordash/) | [Restaurant query (classic)](https://trueinterview.io/questions/doordash-restaurant-query-classic?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | OA | New grad, Junior / Mid, Senior | 0 |

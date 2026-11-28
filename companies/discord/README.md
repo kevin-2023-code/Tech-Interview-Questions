@@ -2,9 +2,9 @@
 
 # Discord interview questions
 
-17 questions reported at Discord, most recently reported first.
+16 questions reported at Discord, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (5) · [all](all.csv) (17)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (5) · [all](all.csv) (16)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -25,7 +25,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Making a Product-Grounded Case for Joining Discord as a Product Manager](https://trueinterview.io/questions/making-a-product-grounded-case-for-joining-discord-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-18 |
 | [Explaining Your Other Active Interview Processes With a Coherent Career Thesis](https://trueinterview.io/questions/explaining-your-other-active-interview-processes-with-a-coherent-career-thesis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-18 |
 | [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-16 |
-| [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2025-12-08 |
 | [Implement an asyncio-based chat server](../../questions/object-oriented-programming/implement-an-asyncio-based-chat-server/README.md) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-10-25 |
 | [Design leader election using Redis leases](../../questions/system-design/design-leader-election-using-redis-leases/README.md) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-10-25 |
 | [Debug and mitigate a CPU spike incident](../../questions/system-design/debug-and-mitigate-a-cpu-spike-incident/README.md) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-10-25 |

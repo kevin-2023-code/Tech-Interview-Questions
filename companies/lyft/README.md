@@ -2,9 +2,9 @@
 
 # Lyft interview questions
 
-60 questions reported at Lyft, most recently reported first.
+59 questions reported at Lyft, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (31) · [all](all.csv) (60)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (11) · [last 6 months](six-months.csv) (31) · [all](all.csv) (59)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -52,7 +52,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Reconstruct a BST from Preorder Traversal](https://trueinterview.io/questions/reconstruct-a-bst-from-preorder-traversal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-14 |
 | [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-03-21 |
 | [Lyft Airport Route Pricing: Trade Platform Take for Match Rate and Rider Retention](https://trueinterview.io/questions/lyft-airport-route-pricing-trade-platform-take-for-match-rate-and-rider-retention?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 2 | 0 | 2026-03-12 |
-| [Explain Transformer and Fine-Tuning Basics](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Intern, New grad | 1 | 0 | 2026-03-12 |
 | [Design an HR Document AI Platform](https://trueinterview.io/questions/design-an-hr-document-ai-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-03-12 |
 | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern, Junior / Mid | 2 | 0 | 2026-03 |
 | [Lyft Student Rider Experience: Product Design for College Campuses](https://trueinterview.io/questions/lyft-student-rider-experience-product-design-for-college-campuses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-28 |

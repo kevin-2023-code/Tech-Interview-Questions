@@ -2,9 +2,9 @@
 
 # Wells Fargo interview questions
 
-5 questions reported at Wells Fargo, most recently reported first.
+4 questions reported at Wells Fargo, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (4) · [all](all.csv) (5)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (3) · [all](all.csv) (4)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -15,7 +15,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Using, Evaluating and Adapting a Pretrained Large Language Model](https://trueinterview.io/questions/using-evaluating-and-adapting-a-pretrained-large-language-model?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-06 |
 | [Research Deep Dive: Model Details, Coding Habits and Diffusion Architecture](https://trueinterview.io/questions/research-deep-dive-model-details-coding-habits-and-diffusion-architecture?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Intern, New grad | 1 | 0 | 2026-10-06 |
 | [Organizing Code and Repositories: Functions, Classes, Comments, GitHub Files](https://trueinterview.io/questions/organizing-code-and-repositories-functions-classes-comments-github-files?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Intern, New grad | 1 | 0 | 2026-10-06 |
-| [Core Components of an LLM-Based AI Agent and How They Interact](https://trueinterview.io/questions/core-components-of-an-llm-based-ai-agent-and-how-they-interact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-10-06 |
 | [Behavioral: Show How You Ran Product Work With Kanban (WIP Limits, Flow, Results)](https://trueinterview.io/questions/behavioral-show-how-you-ran-product-work-with-kanban-wip-limits-flow-results?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-29 |
 
 ---

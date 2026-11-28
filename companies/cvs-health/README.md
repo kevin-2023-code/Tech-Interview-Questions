@@ -2,9 +2,9 @@
 
 # CVS Health interview questions
 
-21 questions reported at CVS Health, most recently reported first.
+20 questions reported at CVS Health, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (12) · [all](all.csv) (21)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (11) · [all](all.csv) (20)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -16,7 +16,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Create and query an e-commerce schema](https://trueinterview.io/questions/create-and-query-an-e-commerce-schema?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08 |
 | [Respond When a Senior Engineer Rejects Your Proposal](https://trueinterview.io/questions/respond-when-a-senior-engineer-rejects-your-proposal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-25 |
 | [Implement a Thread-Safe Singleton in Java](https://trueinterview.io/questions/implement-a-thread-safe-singleton-in-java?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-07-25 |
-| [Explain Your Interest in a Role and How Your Background Fits](https://trueinterview.io/questions/explain-your-interest-in-a-role-and-how-your-background-fits?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-25 |
 | [Explain UNION and UNION ALL in SQL](https://trueinterview.io/questions/explain-union-and-union-all-in-sql?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-25 |
 | [Discuss Your React or AngularJS Experience](https://trueinterview.io/questions/discuss-your-react-or-angularjs-experience?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-07-25 |
 | [Design and Implement Per-Client Rate Limiting](https://trueinterview.io/questions/design-and-implement-per-client-rate-limiting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-07-25 |

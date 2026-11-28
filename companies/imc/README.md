@@ -2,9 +2,9 @@
 
 # IMC interview questions
 
-10 questions reported at IMC, most recently reported first.
+8 questions reported at IMC, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (2) · [all](all.csv) (10)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (8)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,7 +12,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Demonstrate Self-Awareness and a Practical Mentoring Plan](https://trueinterview.io/questions/demonstrate-self-awareness-and-a-practical-mentoring-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Manager | 1 | 0 | 2026-08-24 |
 | [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-24 |
 | [Compute the Probability for Two Uniform Variables](https://trueinterview.io/questions/compute-the-probability-for-two-uniform-variables?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-05 |
 | [Find k-th recipient in command propagation order](https://trueinterview.io/questions/find-k-th-recipient-in-command-propagation-order?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-15 |
@@ -20,7 +19,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Choose and Defend a Betting Strategy Under Uncertain Odds](https://trueinterview.io/questions/choose-and-defend-a-betting-strategy-under-uncertain-odds?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-30 |
 | [Analyze Optimal Funding Allocations Across Election Districts](https://trueinterview.io/questions/analyze-optimal-funding-allocations-across-election-districts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-30 |
 | [Design an in-memory hotel booking system](https://trueinterview.io/questions/design-an-in-memory-hotel-booking-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-03 |
-| [Analyze time complexity and threading trade-offs](https://trueinterview.io/questions/analyze-time-complexity-and-threading-trade-offs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-03 |
 | [Choose container set to minimize waste](https://trueinterview.io/questions/choose-container-set-to-minimize-waste?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2025-10-06 |
 
 ---

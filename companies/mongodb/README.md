@@ -2,9 +2,9 @@
 
 # MongoDB interview questions
 
-22 questions reported at MongoDB, most recently reported first.
+21 questions reported at MongoDB, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (19) · [all](all.csv) (22)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (19) · [all](all.csv) (21)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -31,7 +31,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Behavioral: ownership, team play, and a deep dive on a project you led](https://trueinterview.io/questions/behavioral-ownership-team-play-and-a-deep-dive-on-a-project-you-led?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-07-12 |
 | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/mongodb-binary-decoder-simplified-bson-parser?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-06 |
 | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/mongodb-minimum-xor-sum-of-two-arrays?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 1 | 2026-06 |
-| [How do you answer common HR screen questions?](https://trueinterview.io/questions/how-do-you-answer-common-hr-screen-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Manager | 1 | 0 | 2026-01-05 |
 | [Explaining Your Motivation to Join MongoDB as a Product Manager](https://trueinterview.io/questions/explaining-your-motivation-to-join-mongodb-as-a-product-manager?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-07 |
 | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/mongodb-implement-a-bounded-concurrent-web-crawler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 

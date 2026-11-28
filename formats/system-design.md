@@ -2,7 +2,7 @@
 
 # System Design interview questions
 
-965 questions as of 2026-11-27, most recently reported first; questions with no reported date come last.
+965 questions as of 2026-11-28, most recently reported first; questions with no reported date come last.
 
 [Home](../README.md) · [Newest across all formats](../latest/README.md)
 

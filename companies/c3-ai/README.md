@@ -2,9 +2,9 @@
 
 # C3 AI interview questions
 
-63 questions reported at C3 AI, most recently reported first.
+61 questions reported at C3 AI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (12) · [last 6 months](six-months.csv) (20) · [all](all.csv) (63)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (12) · [last 6 months](six-months.csv) (18) · [all](all.csv) (61)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -26,10 +26,8 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 4 | 0 | 2026-09 |
 | [Evaluate a Retrieval-Augmented Generation System](https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-21 |
 | [Keep Gradient Descent from Stalling at Poor Solutions](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-21 |
-| [Connect Bias-Variance Trade-offs to Bagging and Boosting](https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-21 |
 | [Compare Transformers and RNNs and Derive Attention Complexity](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-21 |
 | [Forecast Food Stocking Needs Under Waste and Stockout Costs](../../questions/system-design/forecast-food-stocking-needs-under-waste-and-stockout-costs/README.md) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-21 |
-| [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-15 |
 | [Find the Intersection of Two Linked Chains](../../questions/algorithm/find-the-intersection-of-two-linked-chains/README.md) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-15 |
 | [Enumerate All Balanced Bracket Strings for N Pairs](../../questions/algorithm/generate-parentheses/README.md) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 1 | 2026-06 |
 | [Odd Even Linked List](https://trueinterview.io/questions/reddit-odd-even-linked-list?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 4 | 0 | 2026-03 |

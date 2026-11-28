@@ -2,9 +2,9 @@
 
 # LinkedIn interview questions
 
-184 questions reported at LinkedIn, most recently reported first.
+182 questions reported at LinkedIn, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (84) · [last 6 months](six-months.csv) (111) · [all](all.csv) (184)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (83) · [last 6 months](six-months.csv) (110) · [all](all.csv) (182)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -94,7 +94,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 6 | 0 | 2026-09 |
 | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 4 | 2026-09 |
 | [Intersection of Two Linked Lists](https://trueinterview.io/questions/intersection-of-two-linked-lists?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 2 | 3 | 2026-09 |
-| [Explain gradient descent, learning rate, backpropagation, overfitting and batch size](https://trueinterview.io/questions/explain-gradient-descent-learning-rate-backpropagation-overfitting-and-batch-size?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-31 |
 | [Sort the values of a quadratic function applied to a sorted array in linear time](https://trueinterview.io/questions/sort-the-values-of-a-quadratic-function-applied-to-a-sorted-array-in-linear-time?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-08-31 |
 | [Merge N-ary Trees by Node Key](../../questions/algorithm/coding-merge-nary-trees-by-key/README.md) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 5 | 2026-08-27 |
 | [Tight-Deadline Launch, Disagreeing With a Manager, and Guiding a Junior Scientist](https://trueinterview.io/questions/tight-deadline-launch-disagreeing-with-a-manager-and-guiding-a-junior-scientist?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-26 |
@@ -130,7 +129,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Your Hands-On AI Prototyping Work: Tools, a Concrete Build and Its Limits](https://trueinterview.io/questions/your-hands-on-ai-prototyping-work-tools-a-concrete-build-and-its-limits?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-27 |
 | [In-House Training vs Fine-Tuning vs Vendor Licensing for a Generative AI Feature](https://trueinterview.io/questions/in-house-training-vs-fine-tuning-vs-vendor-licensing-for-a-generative-ai-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-26 |
 | [Ranking AI safeguards that earn and keep user trust in LinkedIn's products](https://trueinterview.io/questions/ranking-ai-safeguards-that-earn-and-keep-user-trust-in-linkedins-products?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-25 |
-| [AI governance principles and the laws that regulate AI products](https://trueinterview.io/questions/ai-governance-principles-and-the-laws-that-regulate-ai-products?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-25 |
 | [Framework for picking rules, code, ML, generative AI or agents for a product problem](https://trueinterview.io/questions/framework-for-picking-rules-code-ml-generative-ai-or-agents-for-a-product-problem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-24 |
 | [Behavioral: Describe a Product Decision Driven by Data Analysis](https://trueinterview.io/questions/behavioral-describe-a-product-decision-driven-by-data-analysis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-17 |
 | [Distributed Job Scheduler / Calendar Service](https://trueinterview.io/questions/sd-job-scheduler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 1 | 4 | 2026-04-17 |

@@ -2,9 +2,9 @@
 
 # Microsoft interview questions
 
-340 questions reported at Microsoft, most recently reported first.
+338 questions reported at Microsoft, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (92) · [last 6 months](six-months.csv) (180) · [all](all.csv) (340)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (91) · [last 6 months](six-months.csv) (177) · [all](all.csv) (338)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -52,7 +52,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Intern, Junior / Mid, Senior | 10 | 0 | 2026-10-01 |
 | [Your View of AI and How You Use AI Tools in Software Engineering Work](https://trueinterview.io/questions/your-view-of-ai-and-how-you-use-ai-tools-in-software-engineering-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-30 |
 | [Why This Company and Role, Three Traits That Fit, Job Changes, and Project Ownership](https://trueinterview.io/questions/why-this-company-and-role-three-traits-that-fit-job-changes-and-project-ownership?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-30 |
-| [Rank the Criteria for Evaluating Eight Candidates Competing for One Role](https://trueinterview.io/questions/rank-the-criteria-for-evaluating-eight-candidates-competing-for-one-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-09-30 |
 | [Handling a Deadline You Will Miss, and Why Adding Engineers Late Backfires](https://trueinterview.io/questions/handling-a-deadline-you-will-miss-and-why-adding-engineers-late-backfires?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-30 |
 | [Collaborating With Teammates Across Regions and Working From Home](https://trueinterview.io/questions/collaborating-with-teammates-across-regions-and-working-from-home?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-30 |
 | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 1 | 2026-09-29 |
@@ -190,7 +189,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 5 | 0 | 2026-06 |
 | [Shortest Path in a Grid with at Most K Cells per Move](https://trueinterview.io/questions/microsoft-shortest-path-in-a-grid-with-at-most-k-cells-per-move?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Staff+ | 1 | 0 | 2026-06 |
 | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/microsoft-hash-map-counting-lookup-problem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 3 | 0 | 2026-06 |
-| [Pitch an Ambitious Moonshot Product and Walk It From Vision to First Release](https://trueinterview.io/questions/pitch-an-ambitious-moonshot-product-and-walk-it-from-vision-to-first-release?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-31 |
 | [Hands-On Critique of AI Prompt-to-App Builders Such as Lovable](https://trueinterview.io/questions/hands-on-critique-of-ai-prompt-to-app-builders-such-as-lovable?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-31 |
 | [Product Design From Your Own Resume: Turn a Past Project Into a New Product Proposal](https://trueinterview.io/questions/product-design-from-your-own-resume-turn-a-past-project-into-a-new-product-proposal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-30 |
 | [Improve Microsoft PowerPoint: Pick a User, Find the Biggest Gap and Design a Fix](https://trueinterview.io/questions/improve-microsoft-powerpoint-pick-a-user-find-the-biggest-gap-and-design-a-fix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-05-30 |

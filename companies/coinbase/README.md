@@ -2,9 +2,9 @@
 
 # Coinbase interview questions
 
-104 questions reported at Coinbase, most recently reported first.
+103 questions reported at Coinbase, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (21) · [all](all.csv) (104)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (21) · [all](all.csv) (103)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -79,7 +79,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Diagnose and Respond to a 50% Rise in Customer Support Tickets at Coinbase](https://trueinterview.io/questions/diagnose-and-respond-to-a-50percent-rise-in-customer-support-tickets-at-coinbase?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-24 |
 | [Leading a Product Team Through an Abrupt Change in Priorities](https://trueinterview.io/questions/leading-a-product-team-through-an-abrupt-change-in-priorities?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-20 |
 | [Past Experience Resolving Technical Debt That Was Slowing a Product Team](https://trueinterview.io/questions/past-experience-resolving-technical-debt-that-was-slowing-a-product-team?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-01-19 |
-| [PM technical concept: what technical debt is and how it accrues](https://trueinterview.io/questions/pm-technical-concept-what-technical-debt-is-and-how-it-accrues?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-18 |
 | [Building Technical Debt Work Into Roadmap, Quarterly and Sprint Planning](https://trueinterview.io/questions/building-technical-debt-work-into-roadmap-quarterly-and-sprint-planning?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-18 |
 | [Investigating a 10% Netflix Click-Through Decline: Diagnosis and Response](https://trueinterview.io/questions/investigating-a-10percent-netflix-click-through-decline-diagnosis-and-response?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-17 |
 | [Paginate forward and backward through results](https://trueinterview.io/questions/paginate-forward-and-backward-through-results?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2 | 2026-01 |

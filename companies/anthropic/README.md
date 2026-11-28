@@ -2,9 +2,9 @@
 
 # Anthropic interview questions
 
-124 questions reported at Anthropic, most recently reported first.
+123 questions reported at Anthropic, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (46) · [last 6 months](six-months.csv) (81) · [all](all.csv) (124)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (46) · [last 6 months](six-months.csv) (81) · [all](all.csv) (123)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -98,7 +98,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Implement a Banking System](https://trueinterview.io/questions/implement-a-banking-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-24 |
 | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Online assessment | Junior / Mid, Senior | 4 | 0 | 2026-05-21 |
 | [Weighted Data Batcher with Checkpointing](https://trueinterview.io/questions/anthropic-weighted-data-batcher-with-checkpointing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-14 |
-| [PM Motivation: What Draws You to Building Products at an AI-Native Company](https://trueinterview.io/questions/pm-motivation-what-draws-you-to-building-products-at-an-ai-native-company?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-07 |
 | [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/anthropic-debug-fix-an-extremely-randomized-trees-extratrees-implementation-in?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-05 |
 | [Task Management System](https://trueinterview.io/questions/task-management-system-online-assessment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad, Junior / Mid | 1 | 0 | 2026-05 |
 | [Dynamic Batching for Synchronous Model Inference on One GPU with a 100-Input Cap](https://trueinterview.io/questions/dynamic-batching-for-synchronous-model-inference-on-one-gpu-with-a-100-input-cap?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-30 |

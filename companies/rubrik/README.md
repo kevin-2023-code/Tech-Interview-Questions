@@ -2,9 +2,9 @@
 
 # Rubrik interview questions
 
-22 questions reported at Rubrik, most recently reported first.
+21 questions reported at Rubrik, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (3) · [all](all.csv) (22)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (3) · [all](all.csv) (21)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -26,7 +26,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Doing Smart Work](https://trueinterview.io/questions/rubrik-doing-smart-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Save the Universe](https://trueinterview.io/questions/rubrik-save-the-universe?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Energy Crisis](https://trueinterview.io/questions/rubrik-energy-crisis?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
-| [Key Sum Management](https://trueinterview.io/questions/rubrik-key-sum-management?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Maximize Happiness](https://trueinterview.io/questions/rubrik-maximize-happiness?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Friendship String](https://trueinterview.io/questions/rubrik-friendship-string?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Redistribute Megaseeds](https://trueinterview.io/questions/rubrik-redistribute-megaseeds?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |

@@ -2,9 +2,9 @@
 
 # Two Sigma interview questions
 
-50 questions reported at Two Sigma, most recently reported first.
+49 questions reported at Two Sigma, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (9) · [all](all.csv) (50)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (9) · [all](all.csv) (49)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -34,7 +34,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad, Junior / Mid | 2 | 0 | 2026-04 |
 | [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 2 | 2026-03-25 |
 | [Minimum Operations to Reduce to Zero](https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-21 |
-| [Explain why the t-statistic helps](https://trueinterview.io/questions/explain-why-the-t-statistic-helps?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-03-13 |
 | [Predict bike demand and avoid overfitting](https://trueinterview.io/questions/predict-bike-demand-and-avoid-overfitting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-03-13 |
 | [How detect duplicate card records?](https://trueinterview.io/questions/how-detect-duplicate-card-records?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-02-26 |
 | [Implement merge sort and largest 1-rectangle](https://trueinterview.io/questions/implement-merge-sort-and-largest-1-rectangle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-02-26 |

@@ -2,9 +2,9 @@
 
 # Salesforce interview questions
 
-123 questions reported at Salesforce, most recently reported first.
+121 questions reported at Salesforce, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (16) · [last 6 months](six-months.csv) (51) · [all](all.csv) (123)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (16) · [last 6 months](six-months.csv) (50) · [all](all.csv) (121)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -53,7 +53,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Leading Stakeholders Through a New Product's Go-to-Market Launch](https://trueinterview.io/questions/leading-stakeholders-through-a-new-products-go-to-market-launch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-12 |
 | [Setting a Launch Price for a Retailer's New Product: What Drives the Number](https://trueinterview.io/questions/setting-a-launch-price-for-a-retailers-new-product-what-drives-the-number?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-11 |
 | [Framing a Company-Wide Governance Approach as a Product Leader in Financial Services](https://trueinterview.io/questions/framing-a-company-wide-governance-approach-as-a-product-leader-in-financial-services?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-11 |
-| [Building a Visibility Plan So the Right Customers Learn About Your Product](https://trueinterview.io/questions/building-a-visibility-plan-so-the-right-customers-learn-about-your-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-11 |
 | [Protecting Roadmap Commitments After a 10% Engineering Budget Reduction](https://trueinterview.io/questions/protecting-roadmap-commitments-after-a-10percent-engineering-budget-reduction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-10 |
 | [Planning Data Integration and Governance After a Healthcare Acquisition](https://trueinterview.io/questions/planning-data-integration-and-governance-after-a-healthcare-acquisition?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-10 |
 | [Phasing an 18-Month Product Build to Stay Competitive in the Meantime](https://trueinterview.io/questions/phasing-an-18-month-product-build-to-stay-competitive-in-the-meantime?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-10 |
@@ -96,7 +95,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Answer ownership, conflict, and failure recovery questions](https://trueinterview.io/questions/answer-ownership-conflict-and-failure-recovery-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 0 | 2026-01-22 |
 | [Longest Subsequence of X That Is a Substring of Y](https://trueinterview.io/questions/longest-subsequence-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid, Senior | 3 | 0 | 2026-01-20 |
 | [Design a Concurrent Car Reservation Service](https://trueinterview.io/questions/design-a-concurrent-car-reservation-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-18 |
-| [Judging Whether a User Story Is Ready for Development: A PM Readiness Checklist](https://trueinterview.io/questions/judging-whether-a-user-story-is-ready-for-development-a-pm-readiness-checklist?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-14 |
 | [Flatten Nested JSON / HashMap to String](https://trueinterview.io/questions/flatten-nested-json?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-11 |
 | [Design a High-Throughput Distributed Cache](https://trueinterview.io/questions/high-throughput-cache-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 1 | 2026-01-09 |
 | [Design an Async Job / Task System](https://trueinterview.io/questions/async-job-task-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 1 | 2026-01-09 |

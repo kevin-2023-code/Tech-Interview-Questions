@@ -2,9 +2,9 @@
 
 # Indeed interview questions
 
-5 questions reported at Indeed, most recently reported first.
+4 questions reported at Indeed, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (3) · [all](all.csv) (5)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (2) · [all](all.csv) (4)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -12,7 +12,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
-| [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-16 |
 | [Indeed job marketplace critique: choose a user segment and design an upgrade](https://trueinterview.io/questions/indeed-job-marketplace-critique-choose-a-user-segment-and-design-an-upgrade?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-15 |
 | [Redesign a Spam Classifier for Production](../../questions/system-design/redesign-a-spam-classifier-for-production/README.md) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-08-20 |
 | [Paged results or endless scroll for job search listings: making the call](https://trueinterview.io/questions/paged-results-or-endless-scroll-for-job-search-listings-making-the-call?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-04 |

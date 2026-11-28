@@ -2,9 +2,9 @@
 
 # Capital One interview questions
 
-165 questions reported at Capital One, most recently reported first.
+162 questions reported at Capital One, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (47) · [last 6 months](six-months.csv) (65) · [all](all.csv) (165)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (46) · [last 6 months](six-months.csv) (62) · [all](all.csv) (162)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -14,7 +14,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Count Three-Digit Numbers With All-Distinct Digits in a Range](https://trueinterview.io/questions/count-three-digit-numbers-with-all-distinct-digits-in-a-range?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | 2026-10-16 |
 | [Count Pairs of Points Within 2 Units on Both Axes](https://trueinterview.io/questions/count-pairs-of-points-within-2-units-on-both-axes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | 2026-10-16 |
-| [Agile vs. Scrum Explained, and How a PM Runs the Backlog, Sprints and Ceremonies](https://trueinterview.io/questions/agile-vs-scrum-explained-and-how-a-pm-runs-the-backlog-sprints-and-ceremonies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-05 |
 | [Project Stories on Teamwork, Conflict and Failure for a New-Grad Behavioral Round](https://trueinterview.io/questions/project-stories-on-teamwork-conflict-and-failure-for-a-new-grad-behavioral-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad | 1 | 0 | 2026-10-02 |
 | [Benefits of a Customer-Facing Chatbot for a Bank and Its Customers](https://trueinterview.io/questions/benefits-of-a-customer-facing-chatbot-for-a-bank-and-its-customers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-02 |
 | [Number-Line Block Placement](https://trueinterview.io/questions/number-line-block-placement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad | 1 | 2 | 2026-10-02 |
@@ -167,7 +166,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Fix dash dates and aggregate watch time](https://trueinterview.io/questions/fix-dash-dates-and-aggregate-watch-time?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Find top category per region in Aug 2025](https://trueinterview.io/questions/find-top-category-per-region-in-aug-2025?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Design a reproducible data pipeline for modeling](https://trueinterview.io/questions/design-a-reproducible-data-pipeline-for-modeling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
-| [Maintain profit margin with new product line](https://trueinterview.io/questions/maintain-profit-margin-with-new-product-line?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Design A/B test for credit card offer](https://trueinterview.io/questions/design-a-b-test-for-credit-card-offer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Describe accomplishment, failure, and helping others](https://trueinterview.io/questions/describe-accomplishment-failure-and-helping-others?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 0 | — |
 | [Compute energy needed for 10% ROI](https://trueinterview.io/questions/compute-energy-needed-for-10percent-roi?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
@@ -176,7 +174,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Aggregate exam scores with NULL handling](https://trueinterview.io/questions/aggregate-exam-scores-with-null-handling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Articulate your most significant achievement](https://trueinterview.io/questions/articulate-your-most-significant-achievement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Find the First Dictionary Word Matchable as a Reusable-Character Subsequence](https://trueinterview.io/questions/capital-one-find-the-first-dictionary-word-matchable-as-a-reusable-character?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
-| [Fraud Detection Algorithm for Credit Card Transactions](https://trueinterview.io/questions/capital-one-fraud-detection-algorithm-for-credit-card-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | — |
 
 ---
 

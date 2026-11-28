@@ -2,7 +2,6 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 "Design a PC Game Store, Entitlements, and Large-File Launcher Distribution",System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-10-31,https://trueinterview.io/questions/design-a-pc-game-store-entitlements-and-large-file-launcher-distribution
 Tell Me About a Time You Gave Critical Feedback to Someone,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10-23,https://trueinterview.io/questions/tell-me-about-a-time-you-gave-critical-feedback-to-someone
 Chat event aggregator: sliding-window message counts and active chats per user,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-19,https://trueinterview.io/questions/chat-event-aggregator-sliding-window-message-counts-and-active-chats-per-user
-What Matters to You in Your Next Job?,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/what-matters-to-you-in-your-next-job
 Design a ChatGPT-style chat service with streaming model replies,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-10-18,https://trueinterview.io/questions/design-a-chatgpt-style-chat-service-with-streaming-model-replies
 Describe a Complex Cross-Functional Project,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/describe-a-complex-cross-functional-project
 "Code a poker game: model cards, rank five-card hands and pick the winners",Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/code-a-poker-game-model-cards-rank-five-card-hands-and-pick-the-winners
@@ -172,7 +171,6 @@ Implement an Async Message Bus for sendAsyncMessage (Simulation),Object-Oriented
 Dependency Version Check,Algorithm,Medium,Phone screen,Senior,1,5,2026-05,https://trueinterview.io/questions/dependency-version-check
 GPT-3 Playground - Full-Stack Architecture,System Design,Medium,Phone screen,Senior,1,0,2026-05,https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture
 Compute entropy and implement 1-NN,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-24,https://trueinterview.io/questions/compute-entropy-and-implement-1-nn
-Forecasting the Generative AI Skills Product Teams Will Need Most in the Coming Year,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-04-23,https://trueinterview.io/questions/forecasting-the-generative-ai-skills-product-teams-will-need-most-in-the-coming-year
 Convert IPv4 Ranges to CIDR Blocks,Algorithm,Hard,Phone screen,Senior,1,0,2026-04-22,https://trueinterview.io/questions/convert-ipv4-ranges-to-cidr-blocks
 Design a Real-Time Sensor Intelligence System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-13,https://trueinterview.io/questions/design-a-real-time-sensor-intelligence-system
 "How Context Window Length Shapes LLM Quality, Cost and Latency",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-12,https://trueinterview.io/questions/how-context-window-length-shapes-llm-quality-cost-and-latency
@@ -201,7 +199,6 @@ Derive Backpropagation for Matrix-Product Layers,Behavioral / Knowledge,,Phone s
 Merge Intervals,Algorithm,Medium,Phone screen,,16,0,2026-02-04,https://trueinterview.io/questions/merge-intervals
 Write SQL for repeat churn,SQL,Hard,Phone screen,Junior / Mid; Senior,1,0,2026-02-03,https://trueinterview.io/questions/write-sql-for-repeat-churn
 Design a free-month experiment,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-02-03,https://trueinterview.io/questions/design-a-free-month-experiment
-How to answer common recruiter screen questions,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,0,2026-02-02,https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions
 ML Coding with NP and NN Layers,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/openai-ml-coding-with-np-and-nn-layers
 Design A Nearby POI Service,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-02,https://trueinterview.io/questions/points-of-interest-yelp
 General Coding Interview,Algorithm,Easy,Online assessment,Junior / Mid,1,0,2026-02,https://trueinterview.io/questions/openai-general-coding-interview

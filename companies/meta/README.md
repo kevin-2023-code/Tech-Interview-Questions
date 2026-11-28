@@ -2,15 +2,15 @@
 
 # Meta interview questions
 
-605 questions reported at Meta, most recently reported first.
+603 questions reported at Meta, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (102) · [last 6 months](six-months.csv) (227) · [all](all.csv) (605)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (100) · [last 6 months](six-months.csv) (226) · [all](all.csv) (603)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-Showing the 500 most recently reported of 605. [all.csv](all.csv) has every row.
+Showing the 500 most recently reported of 603. [all.csv](all.csv) has every row.
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
@@ -502,7 +502,6 @@ Showing the 500 most recently reported of 605. [all.csv](all.csv) has every row.
 | [Success Metrics and Measurement Plan for Netflix's AI Investments](https://trueinterview.io/questions/success-metrics-and-measurement-plan-for-netflixs-ai-investments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-08 |
 | [Product Design for a Netflix-Like Streaming Service Aimed at Children](https://trueinterview.io/questions/product-design-for-a-netflix-like-streaming-service-aimed-at-children?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-08 |
 | [Implement string and basic ML algorithms](https://trueinterview.io/questions/implement-string-and-basic-ml-algorithms?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-08 |
-| [Explain key ML metrics and techniques](https://trueinterview.io/questions/explain-key-ml-metrics-and-techniques?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-08 |
 | [Design and evaluate a new group call feature](https://trueinterview.io/questions/design-and-evaluate-a-new-group-call-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 1 | 2025-12-08 |
 | [Meta Noise-Canceling Headphones: Strategic Rationale and Success Goals](https://trueinterview.io/questions/meta-noise-canceling-headphones-strategic-rationale-and-success-goals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-06 |
 | [Compute active ad revenue by creation source](https://trueinterview.io/questions/compute-active-ad-revenue-by-creation-source?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-06 |
@@ -514,6 +513,7 @@ Showing the 500 most recently reported of 605. [all.csv](all.csv) has every row.
 | [Rotate Array](https://trueinterview.io/questions/meta-rotate-array?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 1 | 2025-12 |
 | [Robot Room Cleaner: Find Target](https://trueinterview.io/questions/meta-robot-room-cleaner-find-target?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 2 | 0 | 2025-12 |
 | [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 6 | 0 | 2025-12 |
+| [Market Sizing: Daily Active WhatsApp Conversations Across India](https://trueinterview.io/questions/market-sizing-daily-active-whatsapp-conversations-across-india?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-29 |
 
 ---
 

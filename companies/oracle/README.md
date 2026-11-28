@@ -2,9 +2,9 @@
 
 # Oracle interview questions
 
-134 questions reported at Oracle, most recently reported first.
+133 questions reported at Oracle, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (42) · [last 6 months](six-months.csv) (84) · [all](all.csv) (134)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (42) · [last 6 months](six-months.csv) (84) · [all](all.csv) (133)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -107,7 +107,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Propose and Scope a New Enterprise AI Product for OpenAI](https://trueinterview.io/questions/propose-and-scope-a-new-enterprise-ai-product-for-openai?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-06 |
 | [Design a photo-sharing social network with follows, media uploads and a home feed](https://trueinterview.io/questions/design-a-photo-sharing-social-network-with-follows-media-uploads-and-a-home-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-03 |
 | [Design a like-count system for a large video platform with viral-video bursts](https://trueinterview.io/questions/design-a-like-count-system-for-a-large-video-platform-with-viral-video-bursts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-03 |
-| [Behavioral: simplifying a complicated product or system and proving it worked](https://trueinterview.io/questions/behavioral-simplifying-a-complicated-product-or-system-and-proving-it-worked?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-03 |
 | [Maximum Product Subarray in O(n) Time](https://trueinterview.io/questions/oracle-maximum-product-subarray-in-o-n-time?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-04 |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 6 | 0 | 2026-03-20 |
 | [Compute letter frequencies from encoded string](https://trueinterview.io/questions/compute-letter-frequencies-from-encoded-string?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-01 |

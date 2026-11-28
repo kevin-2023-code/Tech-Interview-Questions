@@ -2,9 +2,9 @@
 
 # Shopify interview questions
 
-57 questions reported at Shopify, most recently reported first.
+56 questions reported at Shopify, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (17) · [all](all.csv) (57)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (17) · [all](all.csv) (56)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -32,7 +32,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-05-12 |
 | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-05-10 |
 | [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/questions/ml-modeling-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-10 |
-| [Use AI Responsibly During SQL Pair Programming](https://trueinterview.io/questions/use-ai-responsibly-during-sql-pair-programming?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-05-05 |
 | [Choose Between Batch and Streaming for a Data Pipeline](https://trueinterview.io/questions/choose-between-batch-and-streaming-for-a-data-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-05-05 |
 | [Word Search](../../questions/algorithm/word-search/README.md) | Algorithm | Medium | Phone screen | Intern, Junior / Mid, Senior | 4 | 0 | 2026-05 |
 | [Linking a Shopify App's Support Team to Retention and Growth, Plus a Turnaround Plan](https://trueinterview.io/questions/linking-a-shopify-apps-support-team-to-retention-and-growth-plus-a-turnaround-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-30 |

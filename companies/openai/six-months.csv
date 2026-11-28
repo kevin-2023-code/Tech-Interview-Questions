@@ -2,7 +2,6 @@ Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Li
 "Design a PC Game Store, Entitlements, and Large-File Launcher Distribution",System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-10-31,https://trueinterview.io/questions/design-a-pc-game-store-entitlements-and-large-file-launcher-distribution
 Tell Me About a Time You Gave Critical Feedback to Someone,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,2,0,2026-10-23,https://trueinterview.io/questions/tell-me-about-a-time-you-gave-critical-feedback-to-someone
 Chat event aggregator: sliding-window message counts and active chats per user,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-19,https://trueinterview.io/questions/chat-event-aggregator-sliding-window-message-counts-and-active-chats-per-user
-What Matters to You in Your Next Job?,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/what-matters-to-you-in-your-next-job
 Design a ChatGPT-style chat service with streaming model replies,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-10-18,https://trueinterview.io/questions/design-a-chatgpt-style-chat-service-with-streaming-model-replies
 Describe a Complex Cross-Functional Project,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/describe-a-complex-cross-functional-project
 "Code a poker game: model cards, rank five-card hands and pick the winners",Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-10-18,https://trueinterview.io/questions/code-a-poker-game-model-cards-rank-five-card-hands-and-pick-the-winners
@@ -152,4 +151,3 @@ Explain motivation and mission alignment,Behavioral / Knowledge,,Onsite / virtua
 Monster Duel,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,2,2026-06,https://trueinterview.io/questions/openai-monster-duel
 GPU Credit Calculator,Algorithm,Easy,Online assessment,Senior,1,2,2026-06,https://trueinterview.io/questions/openai-gpu-credit-calculator
 Cell Simulation / Conway's Game of Life,Algorithm,Medium,Phone screen,Senior,1,0,2026-06,https://trueinterview.io/questions/openai-cell-simulation-conway-s-game-of-life
-LLM Inference Timeout and Restart Strategy,Algorithm,Hard,Phone screen,Senior,1,4,2026-05-31,https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy

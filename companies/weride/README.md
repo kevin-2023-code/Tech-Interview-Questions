@@ -2,9 +2,9 @@
 
 # WeRide interview questions
 
-22 questions reported at WeRide, most recently reported first.
+21 questions reported at WeRide, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (3) · [all](all.csv) (22)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (3) · [all](all.csv) (21)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -30,7 +30,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Graph Traversal Problem](https://trueinterview.io/questions/weride-graph-traversal-problem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 0 | 2025-03 |
 | [Implement Power Function](https://trueinterview.io/questions/bytedance-implement-power-function?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 4 | 0 | 2025-03 |
 | [Meetup Schedule](https://trueinterview.io/questions/weride-meetup-schedule?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
-| [Checking Your Route](https://trueinterview.io/questions/weride-checking-your-route?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior | 1 | 0 | — |
 | [Is Bipartite Graph](https://trueinterview.io/questions/weride-is-bipartite-graph?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Intern, New grad, Junior / Mid | 1 | 0 | — |
 | [Long Break](https://trueinterview.io/questions/weride-long-break?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
 | [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/weride-fibonacci-matrix-exponentiation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |

@@ -2,9 +2,9 @@
 
 # Expedia interview questions
 
-40 questions reported at Expedia, most recently reported first.
+39 questions reported at Expedia, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (14) · [all](all.csv) (40)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (14) · [all](all.csv) (39)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -51,7 +51,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Get Maximum Efficiency](https://trueinterview.io/questions/expedia-get-maximum-efficiency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 2 | 0 | — |
 | [Rank Songs by Popularity](https://trueinterview.io/questions/expedia-rank-songs-by-popularity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 2 | 0 | — |
 | [Count Groups with Maximum Language Relationships](https://trueinterview.io/questions/expedia-count-groups-with-maximum-language-relationships?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | — |
-| [Minimum Additional Capabilities to Equalize Team Work Hours](https://trueinterview.io/questions/expedia-minimum-additional-capabilities-to-equalize-team-work-hours?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
 
 ---
 

@@ -2,9 +2,9 @@
 
 # Roblox interview questions
 
-106 questions reported at Roblox, most recently reported first.
+105 questions reported at Roblox, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (28) · [last 6 months](six-months.csv) (48) · [all](all.csv) (106)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (27) · [last 6 months](six-months.csv) (48) · [all](all.csv) (105)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -94,7 +94,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Maximum Number of Balls in a Box](https://trueinterview.io/questions/maximum-number-of-balls-in-a-box?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-12-05 |
 | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/roblox-customized-programming-challenge-for-roblox-business?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 1 | 2025-12 |
 | [Measure Success for a New Chat System](https://trueinterview.io/questions/measure-success-for-a-new-chat-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-11 |
-| [Diagnose Why a Newly Launched Feature Has Almost No Users](https://trueinterview.io/questions/diagnose-why-a-newly-launched-feature-has-almost-no-users?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-11 |
 | [Compare ROW_NUMBER, RANK, and DENSE_RANK for Top-k Results](https://trueinterview.io/questions/compare-row-number-rank-and-dense-rank-for-top-k-results?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-11 |
 | [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Junior / Mid, Senior | 1 | 0 | 2025-10-18 |
 | [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](../../questions/algorithm/rate-limit-by-multiple-request-fields-per-field-multi-dimensional/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2025-10 |

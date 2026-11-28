@@ -2,9 +2,9 @@
 
 # OpenAI interview questions
 
-239 questions reported at OpenAI, most recently reported first.
+236 questions reported at OpenAI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (100) · [last 6 months](six-months.csv) (154) · [all](all.csv) (239)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (99) · [last 6 months](six-months.csv) (152) · [all](all.csv) (236)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -15,7 +15,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a PC Game Store, Entitlements, and Large-File Launcher Distribution](https://trueinterview.io/questions/design-a-pc-game-store-entitlements-and-large-file-launcher-distribution?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 0 | 2026-10-31 |
 | [Tell Me About a Time You Gave Critical Feedback to Someone](https://trueinterview.io/questions/tell-me-about-a-time-you-gave-critical-feedback-to-someone?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-10-23 |
 | [Chat event aggregator: sliding-window message counts and active chats per user](https://trueinterview.io/questions/chat-event-aggregator-sliding-window-message-counts-and-active-chats-per-user?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-19 |
-| [What Matters to You in Your Next Job?](https://trueinterview.io/questions/what-matters-to-you-in-your-next-job?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-18 |
 | [Design a ChatGPT-style chat service with streaming model replies](https://trueinterview.io/questions/design-a-chatgpt-style-chat-service-with-streaming-model-replies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-10-18 |
 | [Describe a Complex Cross-Functional Project](https://trueinterview.io/questions/describe-a-complex-cross-functional-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-10-18 |
 | [Code a poker game: model cards, rank five-card hands and pick the winners](https://trueinterview.io/questions/code-a-poker-game-model-cards-rank-five-card-hands-and-pick-the-winners?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-10-18 |
@@ -185,7 +184,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 5 | 2026-05 |
 | [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior | 1 | 0 | 2026-05 |
 | [Compute entropy and implement 1-NN](https://trueinterview.io/questions/compute-entropy-and-implement-1-nn?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-24 |
-| [Forecasting the Generative AI Skills Product Teams Will Need Most in the Coming Year](https://trueinterview.io/questions/forecasting-the-generative-ai-skills-product-teams-will-need-most-in-the-coming-year?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-04-23 |
 | [Convert IPv4 Ranges to CIDR Blocks](https://trueinterview.io/questions/convert-ipv4-ranges-to-cidr-blocks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior | 1 | 0 | 2026-04-22 |
 | [Design a Real-Time Sensor Intelligence System](https://trueinterview.io/questions/design-a-real-time-sensor-intelligence-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-13 |
 | [How Context Window Length Shapes LLM Quality, Cost and Latency](https://trueinterview.io/questions/how-context-window-length-shapes-llm-quality-cost-and-latency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-12 |
@@ -214,7 +212,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | — | 16 | 0 | 2026-02-04 |
 | [Write SQL for repeat churn](https://trueinterview.io/questions/write-sql-for-repeat-churn?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-02-03 |
 | [Design a free-month experiment](https://trueinterview.io/questions/design-a-free-month-experiment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-02-03 |
-| [How to answer common recruiter screen questions](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 0 | 2026-02-02 |
 | [ML Coding with NP and NN Layers](https://trueinterview.io/questions/openai-ml-coding-with-np-and-nn-layers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2026-02 |
 | [Design A Nearby POI Service](https://trueinterview.io/questions/points-of-interest-yelp?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-02 |
 | [General Coding Interview](https://trueinterview.io/questions/openai-general-coding-interview?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2026-02 |

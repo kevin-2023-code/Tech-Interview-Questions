@@ -2,9 +2,9 @@
 
 # Glean interview questions
 
-24 questions reported at Glean, most recently reported first.
+23 questions reported at Glean, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (14) · [last 6 months](six-months.csv) (16) · [all](all.csv) (24)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (14) · [last 6 months](six-months.csv) (16) · [all](all.csv) (23)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -33,7 +33,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Search Words in a Character Grid](https://trueinterview.io/questions/search-words-in-a-character-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 2 | 0 | 2026-04-15 |
 | [Find the Kth Largest in Two Sorted Arrays](https://trueinterview.io/questions/find-the-kth-largest-in-two-sorted-arrays?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-04-01 |
 | [Implement 2048 Game Logic](../../questions/object-oriented-programming/implement-2048-game-logic/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-03-01 |
-| [What are sum expectation and variance?](https://trueinterview.io/questions/what-are-sum-expectation-and-variance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-11 |
 | [Simulate document assignment to indexers](https://trueinterview.io/questions/simulate-document-assignment-to-indexers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-19 |
 | [Compute DAU and rolling MAU with zero days](../../questions/sql/compute-dau-and-rolling-mau-with-zero-days/README.md) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-10 |
 

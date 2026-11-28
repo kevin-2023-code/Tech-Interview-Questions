@@ -2,9 +2,9 @@
 
 # Scale AI interview questions
 
-38 questions reported at Scale AI, most recently reported first.
+35 questions reported at Scale AI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (14) · [all](all.csv) (38)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (14) · [all](all.csv) (35)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -34,7 +34,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-03-29 |
 | [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 2 | 2026-03-25 |
 | [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-25 |
-| [Answer common project leadership questions](https://trueinterview.io/questions/answer-common-project-leadership-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior, Manager | 1 | 0 | 2026-03-17 |
 | [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 9 | 0 | 2026-03 |
 | [Party Times / Peak Concurrent Parties (Time Range Overlap Counting)](https://trueinterview.io/questions/scale-ai-party-times-peak-concurrent-parties-time-range-overlap-counting?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-03 |
 | [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/scale-ai-task-scheduling-to-minimize-overall-completion-deadline-with?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-03 |
@@ -47,9 +46,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Find LCA in a N-ary tree via DFS](https://trueinterview.io/questions/find-lca-in-a-n-ary-tree-via-dfs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Minimum Distance in N-ary Tree](https://trueinterview.io/questions/minimum-distance-in-n-ary-tree-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 2 | 0 | — |
 | [Implement Adversarial Attack using Paper Method](https://trueinterview.io/questions/scale-ai-implement-adversarial-attack-using-paper-method?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
-| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/questions/scale-ai-generate-jailbreak-prompts-from-text-inputs-algorithm?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Create RESTful API with CSV and JSON Conversion](https://trueinterview.io/questions/scale-ai-create-restful-api-with-csv-and-json-conversion?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | — |
-| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/questions/scale-ai-designing-gpt-2-prompts-using-given-keywords?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Intern, New grad, Junior / Mid | 1 | 0 | — |
 
 ---
 

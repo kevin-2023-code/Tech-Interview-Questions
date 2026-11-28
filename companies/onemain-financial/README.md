@@ -2,9 +2,9 @@
 
 # OneMain Financial interview questions
 
-12 questions reported at OneMain Financial, most recently reported first.
+10 questions reported at OneMain Financial, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (2) · [all](all.csv) (12)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (2) · [all](all.csv) (10)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -15,8 +15,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Present an end-to-end project and defend decisions](https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 3 | 2 | 2026-08 |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 5 | 0 | 2026-06 |
 | [Present a project to non-technical leaders](https://trueinterview.io/questions/present-a-project-to-non-technical-leaders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-03 |
-| [Explain decision trees and tree ensembles](https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-01 |
-| [Detect and address multicollinearity](https://trueinterview.io/questions/detect-and-address-multicollinearity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-12-01 |
 | [Evaluate shift from branch to digital channel](https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2025-10-07 |
 | [Select and tune XGBoost hyperparameters](https://trueinterview.io/questions/select-and-tune-xgboost-hyperparameters?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 | [Optimize SaaS pricing and profit](https://trueinterview.io/questions/optimize-saas-pricing-and-profit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |

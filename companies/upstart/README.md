@@ -2,9 +2,9 @@
 
 # Upstart interview questions
 
-36 questions reported at Upstart, most recently reported first.
+35 questions reported at Upstart, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (13) · [all](all.csv) (36)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (13) · [all](all.csv) (35)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -39,7 +39,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Why This Company and Role](https://trueinterview.io/questions/why-this-company-and-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-15 |
 | [Professional Introduction for a Recruiter Screen](https://trueinterview.io/questions/professional-introduction-for-a-recruiter-screen?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-15 |
 | [Explain Technology to a Nontechnical Audience](https://trueinterview.io/questions/explain-technology-to-a-nontechnical-audience?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 0 | 2026-01-15 |
-| [Discuss Compensation Expectations](https://trueinterview.io/questions/discuss-compensation-expectations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 0 | 2026-01-15 |
 | [Decipher using two hashmaps](https://trueinterview.io/questions/upstart-decipher-using-two-hashmaps?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2 | 2026-01 |
 | [Explain L1 vs L2 and ridge vs lasso](https://trueinterview.io/questions/explain-l1-vs-l2-and-ridge-vs-lasso?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-09 |
 | [Solve core probability/statistics mini-problems](https://trueinterview.io/questions/solve-core-probability-statistics-mini-problems?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2025-11-29 |

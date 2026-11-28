@@ -2,9 +2,9 @@
 
 # Mistral AI interview questions
 
-13 questions reported at Mistral AI, most recently reported first.
+12 questions reported at Mistral AI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (11) · [all](all.csv) (13)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (10) · [all](all.csv) (12)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -13,7 +13,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-01 |
-| [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-01 |
 | [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-01 |
 | [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-01 |
 | [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09-01 |

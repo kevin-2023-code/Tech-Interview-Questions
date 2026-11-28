@@ -2,9 +2,9 @@
 
 # Rakuten interview questions
 
-4 questions reported at Rakuten, most recently reported first.
+3 questions reported at Rakuten, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (4) · [all](all.csv) (4)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (3) · [all](all.csv) (3)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -13,7 +13,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Enterprise data platform profit strategy: pricing, expansion, retention and cost to serve](https://trueinterview.io/questions/enterprise-data-platform-profit-strategy-pricing-expansion-retention-and-cost-to-serve?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-10-21 |
-| [What Product Managers Really Do and the Responsibility That Draws You to the Role](https://trueinterview.io/questions/what-product-managers-really-do-and-the-responsibility-that-draws-you-to-the-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid | 1 | 0 | 2026-08-08 |
 | [Balancing Hands-On Data Analysis and Intuition in Product Decisions](https://trueinterview.io/questions/balancing-hands-on-data-analysis-and-intuition-in-product-decisions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-08-06 |
 | [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 9 | 0 | 2026-08 |
 

@@ -2,9 +2,9 @@
 
 # EliseAI interview questions
 
-5 questions reported at EliseAI, most recently reported first.
+4 questions reported at EliseAI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (4) · [all](all.csv) (5)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (4) · [all](all.csv) (4)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -16,7 +16,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Read and Critique a Short Python Function That Randomly Swaps List Elements](https://trueinterview.io/questions/read-and-critique-a-short-python-function-that-randomly-swaps-list-elements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-07-05 |
 | [Introduce Yourself and Explain What You Want in Your Next Engineering Role](https://trueinterview.io/questions/introduce-yourself-and-explain-what-you-want-in-your-next-engineering-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-07-05 |
 | [Describe Something a Previous Engineering Team Did Not Do Well](https://trueinterview.io/questions/describe-something-a-previous-engineering-team-did-not-do-well?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-07-05 |
-| [Lease Renewal Prediction and Non-Renewal Reason Categorization Take-Home](https://trueinterview.io/questions/lease-renewal-prediction-and-non-renewal-reason-categorization-take-home?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2025-11-02 |
 
 ---
 

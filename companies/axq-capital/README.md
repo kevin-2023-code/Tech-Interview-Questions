@@ -2,9 +2,9 @@
 
 # AXQ Capital interview questions
 
-3 questions reported at AXQ Capital, most recently reported first.
+2 questions reported at AXQ Capital, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (3) · [all](all.csv) (3)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (2) · [all](all.csv) (2)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -13,7 +13,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Row-Wise vs Column-Wise Array Reads, L1/L2 Caches, and the TLB](https://trueinterview.io/questions/row-wise-vs-column-wise-array-reads-l1-l2-caches-and-the-tlb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-08 |
-| [Explain What a Neural Network Is and How It Learns](https://trueinterview.io/questions/explain-what-a-neural-network-is-and-how-it-learns?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-08 |
 | [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 9 | 0 | 2026-08 |
 
 ---

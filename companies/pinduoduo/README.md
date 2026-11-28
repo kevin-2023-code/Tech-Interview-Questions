@@ -2,9 +2,9 @@
 
 # Pinduoduo interview questions
 
-27 questions reported at Pinduoduo, most recently reported first.
+26 questions reported at Pinduoduo, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (20) · [all](all.csv) (27)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (20) · [all](all.csv) (26)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -32,7 +32,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Perfect Squares Decomposition](https://trueinterview.io/questions/pinduoduo-perfect-squares-decomposition?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-07 |
 | [Longest Repeating Character Replacement](../../questions/algorithm/longest-repeating-character-replacement/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 4 | 0 | 2026-07 |
 | [Spiral Matrix](../../questions/algorithm/spiral-matrix/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 0 | 2026-07 |
-| [Navigate a Senior Engineering HR Interview](https://trueinterview.io/questions/navigate-a-senior-engineering-hr-interview?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 0 | 2026-04-12 |
 | [Playing Cards: Straight Flush / Missing Card](https://trueinterview.io/questions/playing-card-straight-flush?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-03-27 |
 | [Next Greater Element I](../../questions/algorithm/next-greater-element-i/README.md) | Algorithm | Easy | Onsite / virtual onsite | Senior | 1 | 0 | 2026-03-24 |
 | [Logistics Variant](https://trueinterview.io/questions/pinduoduo-logistics-variant?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-03 |

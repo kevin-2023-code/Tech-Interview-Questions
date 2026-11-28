@@ -2,9 +2,9 @@
 
 # Mercor interview questions
 
-33 questions reported at Mercor, most recently reported first.
+29 questions reported at Mercor, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (20) · [last 6 months](six-months.csv) (24) · [all](all.csv) (33)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (20) · [last 6 months](six-months.csv) (22) · [all](all.csv) (29)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -40,10 +40,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design Candidate Search And LLM Evaluation Tasks](https://trueinterview.io/questions/design-candidate-search-and-llm-evaluation-tasks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 1 | 2026-05 |
 | [Code Review: Thread Safety of a Python Compute-and-Cache Function](../../questions/algorithm/code-review-thread-safety-of-a-python-compute-and-cache-function/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-05-01 |
 | [Explain what happens when opening a website](https://trueinterview.io/questions/explain-what-happens-when-opening-a-website?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-17 |
-| [Explain VPCs and private/public network connectivity](https://trueinterview.io/questions/explain-vpcs-and-private-public-network-connectivity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-01-17 |
-| [Explain Kubernetes autoscaling and traffic routing](https://trueinterview.io/questions/explain-kubernetes-autoscaling-and-traffic-routing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-01-17 |
-| [Define a one-way function and its uses](https://trueinterview.io/questions/define-a-one-way-function-and-its-uses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-17 |
-| [Compare streaming frameworks and delivery semantics](https://trueinterview.io/questions/compare-streaming-frameworks-and-delivery-semantics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-01-17 |
 | [Compare processes and threads in Linux and Python](https://trueinterview.io/questions/compare-processes-and-threads-in-linux-and-python?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-17 |
 
 ---

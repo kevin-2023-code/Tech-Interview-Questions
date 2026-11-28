@@ -2,9 +2,9 @@
 
 # Apple interview questions
 
-229 questions reported at Apple, most recently reported first.
+226 questions reported at Apple, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (60) · [last 6 months](six-months.csv) (142) · [all](all.csv) (229)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (60) · [last 6 months](six-months.csv) (142) · [all](all.csv) (226)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -182,10 +182,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a Concurrent Image Upload System](https://trueinterview.io/questions/design-a-concurrent-image-upload-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Online assessment | Junior / Mid, Senior | 1 | 0 | 2026-04 |
 | [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen, Onsite / virtual onsite | Senior | 1 | 2 | 2026-03-28 |
 | [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-03-25 |
-| [Explain Java Polymorphism, Overloading, and Overriding](https://trueinterview.io/questions/explain-java-polymorphism-overloading-and-overriding-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-14 |
-| [Explain Java Constructors and the super Keyword](https://trueinterview.io/questions/explain-java-constructors-and-the-super-keyword-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-14 |
 | [Explain Encapsulation through an Object Invariant](https://trueinterview.io/questions/explain-encapsulation-through-an-object-invariant-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-14 |
-| [Distinguish Checked and Unchecked Exceptions in Java](https://trueinterview.io/questions/distinguish-checked-and-unchecked-exceptions-in-java-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-14 |
 | [Compare String, StringBuilder, and StringBuffer in Java](https://trueinterview.io/questions/compare-string-stringbuilder-and-stringbuffer-in-java-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-03-14 |
 | [Choose between a Java Interface and an Abstract Class](https://trueinterview.io/questions/choose-between-a-java-interface-and-an-abstract-class-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-03-14 |
 | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/questions/systemverilog-dv-constraint-and-architecture-loop?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Intern | 1 | 0 | 2026-03-06 |

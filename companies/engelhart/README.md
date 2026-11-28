@@ -2,9 +2,9 @@
 
 # Engelhart interview questions
 
-8 questions reported at Engelhart, most recently reported first.
+5 questions reported at Engelhart, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (8) · [all](all.csv) (8)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (5) · [all](all.csv) (5)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -14,10 +14,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Threads vs Processes, the Python GIL, Multiprocessing and Async I/O](https://trueinterview.io/questions/threads-vs-processes-the-python-gil-multiprocessing-and-async-i-o?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-19 |
 | [Relational Database Indexes: Read/Write Trade-offs and Tuning a Slow SQL Query](https://trueinterview.io/questions/relational-database-indexes-read-write-trade-offs-and-tuning-a-slow-sql-query?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-09-19 |
-| [Python Virtual Environments, Conda and Poetry, and Everyday Linux Commands](https://trueinterview.io/questions/python-virtual-environments-conda-and-poetry-and-everyday-linux-commands?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-09-19 |
-| [Python Generators, yield, Lazy Evaluation and How Decorators Work](https://trueinterview.io/questions/python-generators-yield-lazy-evaluation-and-how-decorators-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-09-19 |
 | [Python Dictionary Internals: Hashing, Collisions, O(1) Lookup and Hashable Keys](https://trueinterview.io/questions/python-dictionary-internals-hashing-collisions-o-1-lookup-and-hashable-keys?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-19 |
-| [Python Abstract Classes and Instance, Class and Static Methods](https://trueinterview.io/questions/python-abstract-classes-and-instance-class-and-static-methods?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-09-19 |
 | [Exposing a Python Function as a REST Endpoint with FastAPI and Unit Testing It](https://trueinterview.io/questions/exposing-a-python-function-as-a-rest-endpoint-with-fastapi-and-unit-testing-it?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Easy | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-09-19 |
 | [Design a Daily Weather-Forecast Pipeline That Runs Power Models for Energy Traders](https://trueinterview.io/questions/design-a-daily-weather-forecast-pipeline-that-runs-power-models-for-energy-traders?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 0 | 2026-07-13 |
 

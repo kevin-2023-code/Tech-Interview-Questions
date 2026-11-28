@@ -2,9 +2,9 @@
 
 # Binance interview questions
 
-2 questions reported at Binance, most recently reported first.
+1 question reported at Binance, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (2)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (1)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -13,7 +13,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [Designing and Launching a Lending Product for a Crypto Exchange](https://trueinterview.io/questions/designing-and-launching-a-lending-product-for-a-crypto-exchange?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2025-12-22 |
-| [Deciding What to Work On First When There Is No Evidence to Rank By](https://trueinterview.io/questions/deciding-what-to-work-on-first-when-there-is-no-evidence-to-rank-by?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-12-17 |
 
 ---
 

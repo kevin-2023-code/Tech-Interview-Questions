@@ -2,9 +2,9 @@
 
 # Hudson River Trading interview questions
 
-24 questions reported at Hudson River Trading, most recently reported first.
+23 questions reported at Hudson River Trading, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (8) · [all](all.csv) (24)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (8) · [all](all.csv) (23)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -35,7 +35,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Black and White Chess Problem](https://trueinterview.io/questions/hudson-river-trading-black-and-white-chess-problem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Fancy Number](https://trueinterview.io/questions/hudson-river-trading-fancy-number?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Intern, New grad | 1 | 0 | — |
 | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/hudson-river-trading-travese-and-merge-two-n-ary-trees?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 0 | — |
-| [Max Harvested Crops](https://trueinterview.io/questions/hudson-river-trading-max-harvested-crops?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
 
 ---
 

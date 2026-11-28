@@ -2,9 +2,9 @@
 
 # AMD interview questions
 
-16 questions reported at AMD, most recently reported first.
+14 questions reported at AMD, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (16) · [last 6 months](six-months.csv) (16) · [all](all.csv) (16)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (14) · [last 6 months](six-months.csv) (14) · [all](all.csv) (14)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -22,8 +22,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-14 |
 | [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-14 |
 | [Find the Largest K Elements with Partitioning](../../questions/algorithm/find-the-largest-k-elements-with-partitioning/README.md) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-14 |
-| [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 1 | 0 | 2026-09-14 |
-| [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-14 |
 | [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Intern, New grad, Junior / Mid | 2 | 0 | 2026-09-14 |
 | [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-14 |
 | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-14 |

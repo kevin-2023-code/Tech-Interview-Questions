@@ -2,9 +2,9 @@
 
 # NVIDIA interview questions
 
-74 questions reported at NVIDIA, most recently reported first.
+73 questions reported at NVIDIA, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (14) · [last 6 months](six-months.csv) (37) · [all](all.csv) (74)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (14) · [last 6 months](six-months.csv) (37) · [all](all.csv) (73)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -59,7 +59,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Computation / Dependency Graph Validation and Pruning](https://trueinterview.io/questions/graph-validation-and-pruning?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 1 | 2026-02-12 |
 | [FP32 Tensor to Int8 Quantization](https://trueinterview.io/questions/fp32-to-int8-quantization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen | Senior | 1 | 0 | 2026-02-12 |
 | [Implement matrix transpose and KV store](https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-09 |
-| [Compare arrays, linked lists, hash tables, trees](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02-06 |
 | [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-02-05 |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | — | 16 | 0 | 2026-02-04 |
 | [Explain NVIDIA fit and role value](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-02 |

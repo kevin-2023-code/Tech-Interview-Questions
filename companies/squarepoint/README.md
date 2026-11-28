@@ -2,9 +2,9 @@
 
 # Squarepoint interview questions
 
-47 questions reported at Squarepoint, most recently reported first.
+45 questions reported at Squarepoint, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (13) · [last 6 months](six-months.csv) (20) · [all](all.csv) (47)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (19) · [all](all.csv) (45)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -19,7 +19,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
 | [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
 | [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
-| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-09-09 |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior, Staff+ | 8 | 13 | 2026-09 |
 | [Value a Die Game with Optional Continuation](https://trueinterview.io/questions/value-a-die-game-with-optional-continuation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-29 |
 | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08-29 |
@@ -55,7 +54,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Grasshopper Problem](https://trueinterview.io/questions/squarepoint-grasshopper-problem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 0 | 2025-03 |
 | [Generate Unique Usernames](https://trueinterview.io/questions/squarepoint-generate-unique-usernames?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 0 | 2025-03 |
 | [Parse payroll file and answer queries](https://trueinterview.io/questions/parse-payroll-file-and-answer-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad, Junior / Mid, Senior | 1 | 0 | — |
-| [OOP Concepts in Python: Classes, Inheritance, and Polymorphism](https://trueinterview.io/questions/squarepoint-oop-concepts-in-python-classes-inheritance-and-polymorphism?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | — |
 | [ATM Queue](https://trueinterview.io/questions/squarepoint-atm-queue?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 2 | 0 | — |
 | [Max Element at Position k with Adjacent Differences 1 and Sum m](https://trueinterview.io/questions/squarepoint-max-element-at-position-k-with-adjacent-differences-1-and-sum-m?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | — |
 | [Maximum Subarray](https://trueinterview.io/questions/apple-maximum-subarray?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad, Junior / Mid | 7 | 0 | — |

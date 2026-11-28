@@ -2,9 +2,9 @@
 
 # Perplexity interview questions
 
-41 questions reported at Perplexity, most recently reported first.
+40 questions reported at Perplexity, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (11) · [all](all.csv) (41)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (10) · [all](all.csv) (40)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -19,7 +19,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | New grad, Senior | 4 | 0 | 2026-08-31 |
 | [PM Collaboration with Engineering: Decision Rights, Trade-offs and Disagreements](https://trueinterview.io/questions/pm-collaboration-with-engineering-decision-rights-trade-offs-and-disagreements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-08-01 |
 | [Perplexity Answer Engine Architecture: Retrieval, Grounded Generation and Citations](https://trueinterview.io/questions/perplexity-answer-engine-architecture-retrieval-grounded-generation-and-citations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-31 |
-| [AI Product Teardown: Strengths, Trust Gaps and One Prioritized Improvement](https://trueinterview.io/questions/ai-product-teardown-strengths-trust-gaps-and-one-prioritized-improvement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-07-31 |
 | [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Senior, Staff+ | 1 | 1 | 2026-07 |
 | [Winning engineering buy-in for a direction you believe the team should take](https://trueinterview.io/questions/winning-engineering-buy-in-for-a-direction-you-believe-the-team-should-take?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-06-29 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 3 | 0 | 2026-06-15 |
