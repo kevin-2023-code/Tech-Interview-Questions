@@ -12,8 +12,6 @@
 
 ## Problem
 
-A typical structure for this case is a five-part plan: **define the decision problem**, **model censored demand**, **validate forecasts chronologically**, **convert forecasts into inventory decisions with asymmetric costs**, and **roll out safely while tracking waste and availability**.
-
 ## 1. Clarify the business problem
 
 Start by pinning down the operational question.

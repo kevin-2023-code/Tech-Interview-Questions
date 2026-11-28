@@ -12,9 +12,6 @@
 
 ## Problem
 
-Tom and Jerry's Graph Chase
-Medium · Graph, Game Theory, BFS, Minimax · ZipHQ · Hints: A state in the game consists of both players' positions and whose turn it is next. To guarantee capture, Tom must have a strategy that leads to capture regardless of Jerry's choices.
-
 You are given an undirected graph with `n` vertices labeled from `0` to `n-1` and a list of edges. Tom and Jerry start at vertices `tom` and `jerry` respectively. The game proceeds in seconds. At each second, Jerry moves first: he either stays at his current vertex or moves to an adjacent vertex (one connected by an edge). Then Tom moves: he also either stays or moves to an adjacent vertex. If at any moment Tom and Jerry occupy the same vertex, Jerry is caught and the game ends.
 
 Tom aims to minimize the time to capture, while Jerry aims to maximize it (or evade indefinitely). Both play optimally with full knowledge of the graph and each other's positions. We need to find the minimum number of seconds that Tom can guarantee capture, assuming Jerry plays to delay as much as possible. If Jerry can avoid capture forever, return `-1`.

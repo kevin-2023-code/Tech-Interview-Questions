@@ -59,15 +59,17 @@ limiter.allow("C", 1.0);   // true
 limiter.allow("B", 1.3);   // true
 limiter.allow("B", 2.1);   // true
 limiter.allow("B", 2.5);   // true
-limiter.allow("B", 2.6);   // false
+limiter.allow("B", 2.6);   // true
 limiter.allow("B", 3.0);   // true
 
-Output: [true, true, true, true, true, false, true]
+Output: [true, true, true, true, true, true, true]
 ```
 
 Explanation:
-- Client `B` starts with 5 tokens. After `t=1.0` (1 token used) and `t=1.3` (refill 0.6, consumes 1) the bucket stays comfortably positive. At `t=2.1` a refill of 1.6 brings it back to 5, then it drains quickly.  
-- At `t=2.6` the bucket is empty → rejected. By `t=3.0` enough tokens have been refilled to allow the next request.
+- Client `B` starts with 5 tokens; client `C` has its own bucket.
+- `t=1.0`: 5 → allowed, left 4.0. `t=1.3`: +0.6 → 4.6 → allowed, left 3.6.
+- `t=2.1`: +1.6 → 5.0 (capped) → allowed, left 4.0. `t=2.5`: +0.8 → 4.8 → allowed, left 3.8.
+- `t=2.6`: +0.2 → 4.0 → allowed, left 3.0. `t=3.0`: +0.8 → 3.8 → allowed. The bucket never runs dry, so every request passes.
 
 Example 3:
 

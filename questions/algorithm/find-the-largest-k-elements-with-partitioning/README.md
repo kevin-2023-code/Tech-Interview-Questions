@@ -12,9 +12,6 @@
 
 ## Problem
 
-Top k Occurrences with Multiplicity
-Medium · Array, Divide and Conquer, Sorting, Heap, Quickselect · AMD · Separate selection from ordering
-
 You are given an integer array `values` and an integer `k`. Return the `k` largest values, counting each occurrence of a duplicate as a separate entry. The output must be ordered in nonincreasing (descending) sequence.
 
 To avoid sorting the whole array, use a selection‑based technique: first isolate the `k` largest elements without ordering them, then sort only those selected `k` elements. This achieves expected time O(n + k log k) on average, where n = `values.length`.
