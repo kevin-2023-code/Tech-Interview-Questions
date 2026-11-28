@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-05 | [Uber](../companies/uber/), [ByteDance](../companies/bytedance/) | [Add/Sub Calculator with String Verification Follow-up](https://trueinterview.io/questions/uber-add-sub-calculator-with-string-verification-follow-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-05 | [Uber](../companies/uber/) | [Design an In-Memory Queue (Tradeoffs: Clearing, Background Cleanup, Stale Data)](https://trueinterview.io/questions/uber-design-an-in-memory-queue-tradeoffs-clearing-background-cleanup-stale-data?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
 | 2026-05 | [Uber](../companies/uber/) | [React Parking Lot System](https://trueinterview.io/questions/uber-react-parking-lot-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Onsite | Senior | 1 |
 | 2026-05 | [Uber](../companies/uber/) | [Design a TinyURL service (encode/decode)](https://trueinterview.io/questions/uber-design-a-tinyurl-service-encode-decode?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
@@ -90,7 +89,6 @@
 | 2026-04-28 | [Snowflake](../companies/snowflake/) | [Assign Each Person the Nearest Cake in a One-Dimensional Row](https://trueinterview.io/questions/assign-each-person-the-nearest-cake-in-a-one-dimensional-row?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-04-28 | [Airbnb](../companies/airbnb/) | [Design User Embedding Semantic Search](https://trueinterview.io/questions/design-user-embedding-semantic-search?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-04-28 | [Shopify](../companies/shopify/) | [Design a Product Photography Upload Service](https://trueinterview.io/questions/design-a-product-photography-upload-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
-| 2026-04-28 | [Amazon](../companies/amazon/) | [Find Valid IP Addresses in Files](https://trueinterview.io/questions/find-valid-ip-addresses-in-files?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-04-28 | [Optiver](../companies/optiver/) | [Count Ordered Sequences That Sum to a Target](https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid | 0 |
 | 2026-04-28 | [Shopify](../companies/shopify/) | [Compute Jaccard Similarity for Lists](https://trueinterview.io/questions/compute-jaccard-similarity-for-lists?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-04-28 | [Shopify](../companies/shopify/) | [Analyze Pirated Theme Usage Impact](https://trueinterview.io/questions/analyze-pirated-theme-usage-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Phone screen | Senior, Staff+ | 0 |
@@ -350,7 +348,6 @@
 | 2026-04-08 | [Capital One](../companies/capital-one/) | [Symmetric Triplets](https://trueinterview.io/questions/symmetric-triplets?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 0 |
 | 2026-04-08 | [Roblox](../companies/roblox/) | [Design Online Game Matching Service](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 0 |
 | 2026-04-08 | [Apple](../companies/apple/) | [Design App Store Search](https://trueinterview.io/questions/design-app-store-search?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 1 |
-| 2026-04-08 | [Apple](../companies/apple/) | [Container With Most Water II](https://trueinterview.io/questions/container-with-most-water?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior | 0 |
 | 2026-04-07 | [Walmart Labs](../companies/walmart-labs/) | [Product design: keeping a Mars landing crew connected to Earth and to each other](https://trueinterview.io/questions/product-design-keeping-a-mars-landing-crew-connected-to-earth-and-to-each-other?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-04-07 | [Meta](../companies/meta/) | [Engineering Manager Behavioral: Struggling Engineers and Sustained Underperformance](https://trueinterview.io/questions/engineering-manager-behavioral-struggling-engineers-and-sustained-underperformance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Manager | 0 |
 | 2026-04-07 | [Meta](../companies/meta/) | [Engineering Manager Behavioral: Spotting and Closing a Skill Gap on Your Team](https://trueinterview.io/questions/engineering-manager-behavioral-spotting-and-closing-a-skill-gap-on-your-team?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Manager | 0 |
@@ -410,5 +407,8 @@
 | 2026-04-03 | [Microsoft](../companies/microsoft/) | [Design a live sports score search feature with near-real-time score updates](https://trueinterview.io/questions/design-a-live-sports-score-search-feature-with-near-real-time-score-updates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-04-03 | [Oracle](../companies/oracle/) | [Design a like-count system for a large video platform with viral-video bursts](https://trueinterview.io/questions/design-a-like-count-system-for-a-large-video-platform-with-viral-video-bursts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-04-03 | [Amazon](../companies/amazon/) | [Behavioral: Walking Away from a Feature You Had Invested Real Work In](https://trueinterview.io/questions/behavioral-walking-away-from-a-feature-you-had-invested-real-work-in?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-04-03 | [Meta](../companies/meta/) | [Measure Forty-Five Minutes with Two Unevenly Burning Ropes](https://trueinterview.io/questions/measure-forty-five-minutes-with-two-unevenly-burning-ropes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 0 |
+| 2026-04-03 | [Shopify](../companies/shopify/) | [Diagnose Weekly Session Conversion Anomalies](https://trueinterview.io/questions/diagnose-weekly-session-conversion-anomalies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-04-03 | [OpenAI](../companies/openai/) | [Debug MiniGPT and Backpropagate Matmul](https://trueinterview.io/questions/debug-minigpt-and-backpropagate-matmul?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior, Staff+ | 0 |
 
 [← Newer](page-10.md) · Page 11 of 16 · [Older →](page-12.md)

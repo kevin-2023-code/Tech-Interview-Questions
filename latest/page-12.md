@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,9 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-04-03 | [Meta](../companies/meta/) | [Measure Forty-Five Minutes with Two Unevenly Burning Ropes](https://trueinterview.io/questions/measure-forty-five-minutes-with-two-unevenly-burning-ropes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 0 |
-| 2026-04-03 | [Shopify](../companies/shopify/) | [Diagnose Weekly Session Conversion Anomalies](https://trueinterview.io/questions/diagnose-weekly-session-conversion-anomalies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-04-03 | [OpenAI](../companies/openai/) | [Debug MiniGPT and Backpropagate Matmul](https://trueinterview.io/questions/debug-minigpt-and-backpropagate-matmul?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior, Staff+ | 0 |
 | 2026-04-03 | [Discord](../companies/discord/) | [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
 | 2026-04-03 | [Netflix](../companies/netflix/) | [Organization tree traversal](https://trueinterview.io/questions/implement-caches-undo-and-traversal-organization-tree-traversal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 0 |
 | 2026-04-03 | [Waymo](../companies/waymo/) | [Battleship Board (React, Frontend Onsite)](https://trueinterview.io/questions/battleship-react-frontend?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 1 |
@@ -226,7 +223,6 @@
 | 2026-03-27 | [Capital One](../companies/capital-one/) | [Growth Strategy for Capital One's Free Coupon and Price-Comparison Shopping Tool](https://trueinterview.io/questions/growth-strategy-for-capital-ones-free-coupon-and-price-comparison-shopping-tool?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-03-27 | [Meta](../companies/meta/) | [First product project after a hypothetical Meta purchase of The New York Times](https://trueinterview.io/questions/first-product-project-after-a-hypothetical-meta-purchase-of-the-new-york-times?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-03-27 | [Squarepoint](../companies/squarepoint/) | [How Does Removing Zeros Affect Sharpe?](https://trueinterview.io/questions/how-does-removing-zeros-affect-sharpe?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
-| 2026-03-27 | [Disney](../companies/disney/) | [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 0 |
 | 2026-03-27 | [Pinduoduo](../companies/pinduoduo/) | [Playing Cards: Straight Flush / Missing Card](https://trueinterview.io/questions/playing-card-straight-flush?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
 | 2026-03-27 | [Stripe](../companies/stripe/) | [Account Scheduler with LRU](https://trueinterview.io/questions/account-scheduler-lru?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid | 0 |
 | 2026-03-26 | [Google](../companies/google/) | [Music education PM case: taking aspiring musicians from zero to playing](https://trueinterview.io/questions/music-education-pm-case-taking-aspiring-musicians-from-zero-to-playing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
@@ -410,5 +406,9 @@
 | 2026-03-07 | [eBay](../companies/ebay/) | [Find top co-viewed products](https://trueinterview.io/questions/find-top-co-viewed-products?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-03-07 | [Anthropic](../companies/anthropic/) | [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen, Onsite | Senior | 1 |
 | 2026-03-06 | [Meta](../companies/meta/) | [Purpose, Goals and Success Metrics for the Notifications Bell in Meta's Mobile App](https://trueinterview.io/questions/purpose-goals-and-success-metrics-for-the-notifications-bell-in-metas-mobile-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-03-06 | [Paytm](../companies/paytm/) | [Go or No-Go Decision on Building In-App Search for Paytm](https://trueinterview.io/questions/go-or-no-go-decision-on-building-in-app-search-for-paytm?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-03-06 | [Intuit](../companies/intuit/) | [Getting More Small Businesses onto QuickBooks: Funnel and Product Plan](https://trueinterview.io/questions/getting-more-small-businesses-onto-quickbooks-funnel-and-product-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-03-06 | [Meta](../companies/meta/) | [Defining a North-Star and Guardrail Metrics for WhatsApp's Poll Feature](https://trueinterview.io/questions/defining-a-north-star-and-guardrail-metrics-for-whatsapps-poll-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
+| 2026-03-06 | [Google](../companies/google/) | [Handle two teams duplicating work](https://trueinterview.io/questions/handle-two-teams-duplicating-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+, Manager | 0 |
 
 [← Newer](page-11.md) · Page 12 of 16 · [Older →](page-13.md)

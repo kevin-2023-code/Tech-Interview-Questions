@@ -27,7 +27,7 @@ Behavioral / BQ Question Pack,Behavioral / Knowledge,,Phone screen; Onsite / vir
 Kth Largest Element / Quick Select,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-10,https://trueinterview.io/questions/kth-largest-quick-select
 Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix
 Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
 LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,0,2026-10-01,https://trueinterview.io/questions/lru-cache
 "Extend a Log-Processing Codebase: Priority Classification, Tests, Time-Window Query",Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-29,https://trueinterview.io/questions/extend-a-log-processing-codebase-priority-classification-tests-time-window-query
 Design a Distributed Key-Value Store for a Small Company's Internal Use,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-29,https://trueinterview.io/questions/design-a-distributed-key-value-store-for-a-small-companys-internal-use
@@ -58,7 +58,6 @@ Reduce Stale Listings in a Job Marketplace,System Design,Hard,Phone screen,Senio
 Merge and Serialize N-ary Trees,Object-Oriented Programming,Hard,Phone screen,Senior,1,1,2026-09-01,https://trueinterview.io/questions/merge-and-serialize-n-ary-trees
 Explain the Design of a Recent Feature,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/explain-the-design-of-a-recent-feature
 Collect and Query Recent User Activity,System Design,Medium,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/collect-and-query-recent-user-activity
-Minimum Length Substring,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-09,https://trueinterview.io/questions/linkedin-minimum-length-substring
 Minimum-Cost Path in a Hidden Weighted Grid,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/linkedin-minimum-cost-path-in-a-hidden-weighted-grid
 Can Place Flowers with O(1) Queries,Algorithm,Medium,Phone screen,Junior / Mid,1,0,2026-09,https://trueinterview.io/questions/linkedin-can-place-flowers-with-o-1-queries
 LRU Cache with Counters,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,0,2026-09,https://trueinterview.io/questions/linkedin-lru-cache-with-counters

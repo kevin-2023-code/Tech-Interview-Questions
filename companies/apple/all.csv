@@ -16,7 +16,7 @@ Number of Islands II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New 
 Distributed Rate Limiter with Lua Details,System Design,Medium,Onsite / virtual onsite,Senior,1,5,2026-10,https://trueinterview.io/questions/distributed-rate-limiter-with-lua
 Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix
 Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,10,2026-10,https://trueinterview.io/questions/uber-group-anagrams
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
 Log Processing System,System Design,Hard,Phone screen; Onsite / virtual onsite,Senior,1,0,2026-10,https://trueinterview.io/questions/log-processing-system
 Decode String,Algorithm,Medium,Phone screen,Junior / Mid,3,0,2026-10,https://trueinterview.io/questions/decode-string
 LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,0,2026-10-01,https://trueinterview.io/questions/lru-cache
@@ -157,7 +157,6 @@ Ads Click Aggregator,System Design,Medium,Phone screen; Onsite / virtual onsite,
 Convert BST to Sorted Doubly Linked List (LC 426),Algorithm,Medium,Onsite / virtual onsite,Staff+,2,0,2026-04-18,https://trueinterview.io/questions/bst-to-doubly-linked-list
 Three-Year Product Roadmap for Apple's Subscription Video Streaming Service,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-16,https://trueinterview.io/questions/three-year-product-roadmap-for-apples-subscription-video-streaming-service
 Design App Store Search,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,1,1,2026-04-08,https://trueinterview.io/questions/design-app-store-search
-Container With Most Water II,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-08,https://trueinterview.io/questions/container-with-most-water
 Discuss Challenges and Career Goals,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Manager,1,1,2026-04-02,https://trueinterview.io/questions/discuss-challenges-and-career-goals
 Optimize image filters on device,System Design,Hard,Onsite / virtual onsite,Senior,1,1,2026-04,https://trueinterview.io/questions/optimize-image-filters-on-device
 Find K Pairs with Smallest Sums,Algorithm,Medium,Phone screen,Senior,2,0,2026-04,https://trueinterview.io/questions/find-k-pairs-with-smallest-sums
@@ -197,6 +196,7 @@ Turning Around a Project With Repeatedly Missed Dates and Goals,Behavioral / Kno
 Solve 15 common interview problems,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-01-27,https://trueinterview.io/questions/solve-15-common-interview-problems
 Reconstruct Itinerary,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Senior,2,0,2026-01-09,https://trueinterview.io/questions/reconstruct-itinerary
 "Explain the End-to-End Flow of an In-Store Credit Card Payment, from Swipe to Payout",System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-07,https://trueinterview.io/questions/explain-the-end-to-end-flow-of-an-in-store-credit-card-payment-from-swipe-to-payout
+Container With Most Water,Algorithm,Medium,Phone screen,Senior,2,0,2026-01-06,https://trueinterview.io/questions/container-with-most-water-2
 Airplane Seat Reservation API,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,0,2026-01-06,https://trueinterview.io/questions/airplane-seat-reservation-api
 Design Siri-vs-GPT query routing,System Design,Medium,Phone screen,Senior; Staff+,1,0,2026-01-04,https://trueinterview.io/questions/design-siri-vs-gpt-query-routing
 Design a streaming embedding-based classifier,System Design,Hard,Phone screen,Senior; Staff+,1,0,2026-01-02,https://trueinterview.io/questions/design-a-streaming-embedding-based-classifier

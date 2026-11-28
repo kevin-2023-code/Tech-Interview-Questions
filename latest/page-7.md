@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-08 | [Oracle](../companies/oracle/) | [Partition Unique Cards into Consecutive Groups](https://trueinterview.io/questions/oracle-partition-unique-cards-into-consecutive-groups?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-08 | [Oracle](../companies/oracle/) | [Partition a String into Exactly Three Palindromic Substrings](https://trueinterview.io/questions/oracle-partition-a-string-into-exactly-three-palindromic-substrings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-08 | [Oracle](../companies/oracle/) | [Lexicographically Maximum Substring](https://trueinterview.io/questions/oracle-lexicographically-maximum-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-08 | [Oracle](../companies/oracle/) | [Add One to a Number Represented by Digits Without ArrayList](https://trueinterview.io/questions/oracle-add-one-to-a-number-represented-by-digits-without-arraylist?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 1 |
@@ -166,7 +165,7 @@
 | 2026-08 | [Meta](../companies/meta/), [Microsoft](../companies/microsoft/) +2 | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/meta-remove-duplicates-from-sorted-array?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad, Junior / Mid | 4 |
 | 2026-08 | [Waymo](../companies/waymo/) | [Randomly Populate Grid with Connected Equal-Size Token Regions](https://trueinterview.io/questions/random-grid-token-fill?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid, Senior | 0 |
 | 2026-08 | [Pinterest](../companies/pinterest/) | [Grant / Revoke / Check Access on Hierarchy](https://trueinterview.io/questions/grant-revoke-access-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | Junior / Mid, Senior | 0 |
-| 2026-08 | [Lyft](../companies/lyft/), [ByteDance](../companies/bytedance/) +1 | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior, Staff+ | 8 |
+| 2026-08 | [Lyft](../companies/lyft/), [ByteDance](../companies/bytedance/) +2 | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior, Staff+ | 8 |
 | 2026-08 | [Google](../companies/google/) | [Top-K Frequent in Large Logs](https://trueinterview.io/questions/top-k-frequent-from-logs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid | 0 |
 | 2026-08 | [Goldman Sachs](../companies/goldman-sachs/), [Citadel](../companies/citadel/) +1 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 2 |
 | 2026-08 | [DoorDash](../companies/doordash/) | [Code Craft: Batch with Capacity & Time Window](https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 2 |
@@ -410,5 +409,6 @@
 | 2026-07-15 | [Amazon](../companies/amazon/) | [Root-Causing and Recovering a Drop in Amazon Checkout Conversion](https://trueinterview.io/questions/root-causing-and-recovering-a-drop-in-amazon-checkout-conversion?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-07-15 | [Google](../companies/google/) | [LLM-Powered Smart Glasses: Use Cases Only a Head-Worn AI Assistant Can Deliver](https://trueinterview.io/questions/llm-powered-smart-glasses-use-cases-only-a-head-worn-ai-assistant-can-deliver?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-07-15 | [Meta](../companies/meta/) | [Flagging Underperforming Meta Ads and Quantifying Their Impact](https://trueinterview.io/questions/flagging-underperforming-meta-ads-and-quantifying-their-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
+| 2026-07-15 | [Google](../companies/google/) | [Designing AI Product UX for Model Latency and Multimodal Input and Output](https://trueinterview.io/questions/designing-ai-product-ux-for-model-latency-and-multimodal-input-and-output?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 
 [← Newer](page-6.md) · Page 7 of 16 · [Older →](page-8.md)

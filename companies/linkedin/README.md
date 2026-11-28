@@ -4,7 +4,7 @@
 
 182 questions reported at LinkedIn, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (83) · [last 6 months](six-months.csv) (110) · [all](all.csv) (182)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (82) · [last 6 months](six-months.csv) (110) · [all](all.csv) (182)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -40,7 +40,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Kth Largest Element / Quick Select](https://trueinterview.io/questions/kth-largest-quick-select?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-10 |
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern, Junior / Mid, Senior | 9 | 0 | 2026-10 |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 14 | 0 | 2026-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 10 | 0 | 2026-10 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Intern, Junior / Mid, Senior | 10 | 0 | 2026-10-01 |
 | [Extend a Log-Processing Codebase: Priority Classification, Tests, Time-Window Query](https://trueinterview.io/questions/extend-a-log-processing-codebase-priority-classification-tests-time-window-query?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-29 |
 | [Design a Distributed Key-Value Store for a Small Company's Internal Use](https://trueinterview.io/questions/design-a-distributed-key-value-store-for-a-small-companys-internal-use?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-29 |
@@ -71,7 +71,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Senior | 1 | 1 | 2026-09-01 |
 | [Explain the Design of a Recent Feature](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-09 |
 | [Collect and Query Recent User Activity](https://trueinterview.io/questions/collect-and-query-recent-user-activity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-09 |
-| [Minimum Length Substring](https://trueinterview.io/questions/linkedin-minimum-length-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09 |
 | [Minimum-Cost Path in a Hidden Weighted Grid](https://trueinterview.io/questions/linkedin-minimum-cost-path-in-a-hidden-weighted-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-09 |
 | [Can Place Flowers with O(1) Queries](https://trueinterview.io/questions/linkedin-can-place-flowers-with-o-1-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-09 |
 | [LRU Cache with Counters](https://trueinterview.io/questions/linkedin-lru-cache-with-counters?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-09 |
@@ -113,6 +112,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Split Array Largest Sum](https://trueinterview.io/questions/pinterest-split-array-largest-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 2 | 2 | 2026-08 |
 | [Degree of Connection Between LinkedIn Users](https://trueinterview.io/questions/linkedin-degree-of-connection-between-linkedin-users?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Senior | 1 | 0 | 2026-08 |
 | [Pow(x, n)](https://trueinterview.io/questions/pow-x-n?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 2 | 0 | 2026-08 |
+| [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior, Staff+ | 4 | 8 | 2026-08 |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 14 | 0 | 2026-08 |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 0 | 2026-08 |
 | [LinkedIn Growth PM: Winning and Expanding Business Customers](https://trueinterview.io/questions/linkedin-growth-pm-winning-and-expanding-business-customers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-07-30 |

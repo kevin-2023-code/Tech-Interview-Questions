@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,10 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-02-11 | [Meta](../companies/meta/) | [Extend cloud file system with copy and compression](https://trueinterview.io/questions/extend-cloud-file-system-with-copy-and-compression?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad | 0 |
-| 2026-02-11 | [Meta](../companies/meta/) | [Design an in-memory cloud file system](https://trueinterview.io/questions/design-an-in-memory-cloud-file-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad, Senior | 0 |
-| 2026-02-11 | [Uber](../companies/uber/) | [Check if each prefix forms 1..k permutation](https://trueinterview.io/questions/check-if-each-prefix-forms-1-k-permutation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 0 |
-| 2026-02-11 | [Pinterest](../companies/pinterest/) | [Personalized Chatbot Recommending Pins](https://trueinterview.io/questions/system-design-personalized-chat-recommend?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
 | 2026-02-11 | [Roblox](../companies/roblox/) | [Design Frontend Feed Status App](https://trueinterview.io/questions/design-frontend-feed-status-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-02-11 | [Uber](../companies/uber/), [Microsoft](../companies/microsoft/) +1 | [Purchase Optimization](https://trueinterview.io/questions/purchase-optimization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 2 |
 | 2026-02-10 | [Google](../companies/google/) | [YouTube Growth Bet for India: Launch Plan, North Star and Low-Uptake Playbook](https://trueinterview.io/questions/youtube-growth-bet-for-india-launch-plan-north-star-and-low-uptake-playbook?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
@@ -410,5 +406,9 @@
 | 2026-01-16 | [Shopify](../companies/shopify/) | [Six-Month Plan to Help New Shopify Sellers Decide What to Sell and Cut Early Churn](https://trueinterview.io/questions/six-month-plan-to-help-new-shopify-sellers-decide-what-to-sell-and-cut-early-churn?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-01-16 | [Meta](../companies/meta/) | [Root-Causing a Monthly Active User Decline on a Meta App](https://trueinterview.io/questions/root-causing-a-monthly-active-user-decline-on-a-meta-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-01-16 | [Google](../companies/google/) | [Pothole Detection Data Sources and Freshness Targets for a Navigation Product](https://trueinterview.io/questions/pothole-detection-data-sources-and-freshness-targets-for-a-navigation-product?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
+| 2026-01-16 | [Meta](../companies/meta/) | [Getting a Stakeholder With Different Priorities Behind a Shared Goal](https://trueinterview.io/questions/getting-a-stakeholder-with-different-priorities-behind-a-shared-goal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-01-16 | [Valon](../companies/valon/) | [Build a staged banking service: ATM cash, statements, transfers, fees, slow transfers](https://trueinterview.io/questions/build-a-staged-banking-service-atm-cash-statements-transfers-fees-slow-transfers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
+| 2026-01-16 | [Meta](../companies/meta/) | [How would you drive product growth?](https://trueinterview.io/questions/how-would-you-drive-product-growth?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
+| 2026-01-16 | [Citadel](../companies/citadel/) | [Estimate constant under absolute loss](https://trueinterview.io/questions/estimate-constant-under-absolute-loss?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 0 |
 
 [← Newer](page-13.md) · Page 14 of 16 · [Older →](page-15.md)

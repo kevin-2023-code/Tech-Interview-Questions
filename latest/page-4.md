@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -269,7 +269,7 @@
 | 2026-09 | [Airbnb](../companies/airbnb/) | [Median Home Price by City](https://trueinterview.io/questions/airbnb-median-home-price-by-city?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 0 |
 | 2026-09 | [LinkedIn](../companies/linkedin/) | [Unique Permutations](https://trueinterview.io/questions/coding-permutations-ii?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
 | 2026-09 | [C3 AI](../companies/c3-ai/), [Meta](../companies/meta/) | [Versioned Key-Value Store With Point-in-Time Reads](https://trueinterview.io/questions/time-based-key-value-store-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
-| 2026-09 | [C3 AI](../companies/c3-ai/), [Microsoft](../companies/microsoft/) +2 | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
+| 2026-09 | [C3 AI](../companies/c3-ai/), [Meta](../companies/meta/) +3 | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-09 | [Disney](../companies/disney/) | [Implement a Set from Scratch (Java)](https://trueinterview.io/questions/implement-set-without-hashing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen | Junior / Mid | 0 |
 | 2026-09 | [Bloomberg](../companies/bloomberg/), [Amazon](../companies/amazon/) +2 | [Minimum Steps to Make Two Strings Anagram](https://trueinterview.io/questions/minimum-steps-to-make-two-strings-anagram?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-09 | [Uber](../companies/uber/) | [Repeated Queries for a Strictly Increasing Path from the Top-Left Cell](https://trueinterview.io/questions/uber-repeated-queries-for-a-strictly-increasing-path-from-the-top-left-cell?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
@@ -407,8 +407,8 @@
 | 2026-09 | [Goldman Sachs](../companies/goldman-sachs/) | [Frequency of the Most Frequent Element](https://trueinterview.io/questions/goldman-sachs-frequency-of-the-most-frequent-element?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-09 | [Goldman Sachs](../companies/goldman-sachs/) | [Dungeon Health](https://trueinterview.io/questions/goldman-sachs-dungeon-health?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-09 | [Oracle](../companies/oracle/) | [Spiral Matrix (LC 54)](https://trueinterview.io/questions/spiral-matrix-lc54?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 0 |
-| 2026-09 | [LinkedIn](../companies/linkedin/) | [Minimum Length Substring](https://trueinterview.io/questions/linkedin-minimum-length-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-09 | [LinkedIn](../companies/linkedin/) | [Minimum-Cost Path in a Hidden Weighted Grid](https://trueinterview.io/questions/linkedin-minimum-cost-path-in-a-hidden-weighted-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-09 | [LinkedIn](../companies/linkedin/) | [Can Place Flowers with O(1) Queries](https://trueinterview.io/questions/linkedin-can-place-flowers-with-o-1-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-09 | [LinkedIn](../companies/linkedin/) | [LRU Cache with Counters](https://trueinterview.io/questions/linkedin-lru-cache-with-counters?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
 
 [← Newer](page-3.md) · Page 4 of 16 · [Older →](page-5.md)

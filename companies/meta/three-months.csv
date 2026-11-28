@@ -17,7 +17,7 @@ Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Ju
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
 Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,10,2026-10,https://trueinterview.io/questions/uber-group-anagrams
 Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
 LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,0,2026-10-01,https://trueinterview.io/questions/lru-cache
 Product Improvement Plan for WhatsApp's One-Way Broadcast Channels,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-30,https://trueinterview.io/questions/product-improvement-plan-for-whatsapps-one-way-broadcast-channels
 "Sizing daily shopping users across Facebook, Instagram, WhatsApp and Messenger",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-29,https://trueinterview.io/questions/sizing-daily-shopping-users-across-facebook-instagram-whatsapp-and-messenger
@@ -58,6 +58,7 @@ Find Values Owned Only by the Selected User,SQL,Medium,Phone screen,Junior / Mid
 Walking through the product you shaped most and the impact of your own decisions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-09-02,https://trueinterview.io/questions/walking-through-the-product-you-shaped-most-and-the-impact-of-your-own-decisions
 Diagnose why a social feature is losing users and plan its turnaround,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-09-02,https://trueinterview.io/questions/diagnose-why-a-social-feature-is-losing-users-and-plan-its-turnaround
 Versioned Key-Value Store With Point-in-Time Reads,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,0,2026-09,https://trueinterview.io/questions/time-based-key-value-store-3
+Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,0,2026-09,https://trueinterview.io/questions/three-sum
 Friend Recommendation System,Algorithm,Medium,Phone screen,Senior,1,0,2026-09,https://trueinterview.io/questions/meta-friend-recommendation-system
 Find Values Unique to the Current User,Algorithm,Easy,Online assessment,Staff+,1,0,2026-09,https://trueinterview.io/questions/meta-find-values-unique-to-the-current-user
 Select and prioritize metrics with guardrails,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,0,2026-09,https://trueinterview.io/questions/select-and-prioritize-metrics-with-guardrails
@@ -89,6 +90,7 @@ Valid Palindrome,Algorithm,Easy,Phone screen,Junior / Mid,4,0,2026-09,https://tr
 Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,0,2026-09,https://trueinterview.io/questions/job-scheduler-design
 Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,0,2026-09,https://trueinterview.io/questions/basic-calculator-2
 Token Bucket Rate Limiter II,Algorithm,Medium,Phone screen,Senior,3,0,2026-09,https://trueinterview.io/questions/uber-token-bucket-rate-limiter-ii
+Clone a Graph,Algorithm,Medium,Phone screen,Junior / Mid,3,0,2026-09,https://trueinterview.io/questions/robinhood-clone-a-graph
 Alien Dictionary,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/alien-dictionary
 Lowest Common Ancestor of a Binary Tree,Algorithm,Easy,Phone screen,Intern; Junior / Mid; Senior,8,0,2026-09,https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree
 Find Median from Data Stream,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,0,2026-09,https://trueinterview.io/questions/find-median-from-data-stream

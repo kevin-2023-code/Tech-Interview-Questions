@@ -2,9 +2,9 @@
 
 # Snapchat interview questions
 
-103 questions reported at Snapchat, most recently reported first.
+102 questions reported at Snapchat, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (32) · [last 6 months](six-months.csv) (47) · [all](all.csv) (103)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (32) · [last 6 months](six-months.csv) (47) · [all](all.csv) (102)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -25,7 +25,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/snowflake-shortest-path-in-a-binary-matrix-with-obstacles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 4 | 0 | 2026-10 |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern, Junior / Mid, Senior | 9 | 0 | 2026-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 10 | 0 | 2026-10 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | New grad, Junior / Mid, Senior, Staff+ | 10 | 0 | 2026-10 |
 | [What Happens When All Neural-Network Weights Start at Zero?](https://trueinterview.io/questions/what-happens-when-all-neural-network-weights-start-at-zero?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 0 | 2026-09-12 |
 | [Resume ML Project Deep Dive: Loss, Training Data, Features, Architecture, Cold Start](https://trueinterview.io/questions/resume-ml-project-deep-dive-loss-training-data-features-architecture-cold-start?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-09-12 |
@@ -97,7 +97,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Engineering Manager Behavioral: Motivation, Taking Feedback and Leading a Reorganization](https://trueinterview.io/questions/engineering-manager-behavioral-motivation-taking-feedback-and-leading-a-reorganization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Manager | 1 | 0 | 2026-01-20 |
 | [iOS Scrollable Grid & Swift Concurrency](https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-01-20 |
 | [Describe an innovation you drove end-to-end](https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 2 | 0 | 2026-01-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements-3/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 6 | 0 | 2026-01-10 |
 | [Compare WebSocket, SSE, and long polling](https://trueinterview.io/questions/compare-websocket-sse-and-long-polling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-04 |
 | [4Sum (Find all unique quadruplets)](https://trueinterview.io/questions/snapchat-4sum-find-all-unique-quadruplets?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-01 |
 | [DispatchQueue Code Analysis in Swift](https://trueinterview.io/questions/snapchat-dispatchqueue-code-analysis-in-swift?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 1 | 2026-01 |

@@ -31,7 +31,7 @@ Hand-Code Self-Attention and Cross-Entropy,Algorithm,Medium,Phone screen; Onsite
 Kth Largest Element / Quick Select,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,0,2026-10,https://trueinterview.io/questions/kth-largest-quick-select
 Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix
 Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
 Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,0,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
 LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,0,2026-10-01,https://trueinterview.io/questions/lru-cache
@@ -147,7 +147,7 @@ Validate Binary Search Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6
 Longest Palindromic Substring,Algorithm,Medium,Phone screen,New grad; Senior,4,0,2026-08,https://trueinterview.io/questions/longest-palindromic-substring
 In-Flight Movie Pair (Two Sum Variant),Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,7,0,2026-08,https://trueinterview.io/questions/in-flight-movie-pair-two-sum
 Search from the end in a sorted array (variant),Algorithm,Medium,Phone screen,Junior / Mid; Senior,7,0,2026-08,https://trueinterview.io/questions/snapchat-search-from-the-end-in-a-sorted-array-variant
-Minimum Window Substring,Algorithm,Medium,Phone screen,Junior / Mid; Senior; Staff+,3,8,2026-08,https://trueinterview.io/questions/minimum-window-substring
+Minimum Window Substring,Algorithm,Medium,Phone screen,Junior / Mid; Senior; Staff+,4,8,2026-08,https://trueinterview.io/questions/minimum-window-substring
 Even Digit Count,Algorithm,Easy,Online assessment,Junior / Mid,2,0,2026-08,https://trueinterview.io/questions/even-digit-count
 Reverse Nodes in K-Group (incomplete tail variant),Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,1,0,2026-08,https://trueinterview.io/questions/reverse-nodes-in-k-group
 Maximum Unique Character Subset,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,2,16,2026-08,https://trueinterview.io/questions/ai-coding-max-unique-character-subset

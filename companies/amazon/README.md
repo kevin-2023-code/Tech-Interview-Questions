@@ -2,15 +2,15 @@
 
 # Amazon interview questions
 
-553 questions reported at Amazon, most recently reported first.
+551 questions reported at Amazon, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (194) · [last 6 months](six-months.csv) (341) · [all](all.csv) (553)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (194) · [last 6 months](six-months.csv) (341) · [all](all.csv) (551)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-Showing the 500 most recently reported of 553. [all.csv](all.csv) has every row.
+Showing the 500 most recently reported of 551. [all.csv](all.csv) has every row.
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
@@ -94,7 +94,7 @@ Showing the 500 most recently reported of 553. [all.csv](all.csv) has every row.
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern, Junior / Mid, Senior | 9 | 0 | 2026-10 |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | New grad, Senior | 7 | 10 | 2026-10 |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 14 | 0 | 2026-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 10 | 0 | 2026-10 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | New grad, Junior / Mid, Senior, Staff+ | 10 | 0 | 2026-10 |
 | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Senior | 4 | 5 | 2026-10 |
 | [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 7 | 0 | 2026-10 |
@@ -384,7 +384,6 @@ Showing the 500 most recently reported of 553. [all.csv](all.csv) has every row.
 | [Search a 2D Matrix](../../questions/algorithm/search-a-2d-matrix/README.md) | Algorithm | Easy | Phone screen | Junior / Mid | 2 | 0 | 2026-05 |
 | [Science Application (Ambiguous Problem)](https://trueinterview.io/questions/science-application-ambiguous-problem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-04-29 |
 | [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 2 | 2 | 2026-04-29 |
-| [Find Valid IP Addresses in Files](https://trueinterview.io/questions/find-valid-ip-addresses-in-files?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 0 | 2026-04-28 |
 | [Bucket Batching DP (Applied Scientist Phone Screen)](https://trueinterview.io/questions/bucket-batching-dp-applied-scientist?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 0 | 2026-04-28 |
 | [Diagnose Falling Sales per User at Amazon While Monthly Active Users Keep Growing](https://trueinterview.io/questions/diagnose-falling-sales-per-user-at-amazon-while-monthly-active-users-keep-growing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-21 |
 | [Root-Cause a 10% Decline in Amazon Website Users and Plan the Response](https://trueinterview.io/questions/root-cause-a-10percent-decline-in-amazon-website-users-and-plan-the-response?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-04-20 |
@@ -463,7 +462,6 @@ Showing the 500 most recently reported of 553. [all.csv](all.csv) has every row.
 | [Minimize Branch Merge Conflicts](https://trueinterview.io/questions/minimize-branch-merge-conflicts?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Junior / Mid, Senior | 1 | 0 | 2026-01-12 |
 | [Present Your PM Operating Model From Customer Input to Engineering Delivery](https://trueinterview.io/questions/present-your-pm-operating-model-from-customer-input-to-engineering-delivery?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-10 |
 | [Control Robot Charging with Repeated Polling and Exclusive Station Assignments](https://trueinterview.io/questions/control-robot-charging-with-repeated-polling-and-exclusive-station-assignments?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-01-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements-3/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 6 | 0 | 2026-01-10 |
 | [Explain How You Collaborate With Engineering, Design and Cross-Functional Partners](https://trueinterview.io/questions/explain-how-you-collaborate-with-engineering-design-and-cross-functional-partners?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-09 |
 | [Amazon PM behavioral: stepping into another owner's project and the customer response](https://trueinterview.io/questions/amazon-pm-behavioral-stepping-into-another-owners-project-and-the-customer-response?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-09 |
 | [Amazon PM behavioral: a stakeholder disagreement where your position was overruled](https://trueinterview.io/questions/amazon-pm-behavioral-a-stakeholder-disagreement-where-your-position-was-overruled?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-09 |
@@ -514,6 +512,8 @@ Showing the 500 most recently reported of 553. [all.csv](all.csv) has every row.
 | [Write and explain gradient descent pseudocode](https://trueinterview.io/questions/write-and-explain-gradient-descent-pseudocode?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Intern | 1 | 0 | — |
 | [Root-cause an incident and drive consensus](https://trueinterview.io/questions/root-cause-an-incident-and-drive-consensus?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | — |
 | [Quantify build-vs-buy training decision](https://trueinterview.io/questions/quantify-build-vs-buy-training-decision?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Senior, Staff+ | 1 | 0 | — |
+| [Prove and apply statistical ML fundamentals](https://trueinterview.io/questions/prove-and-apply-statistical-ml-fundamentals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
+| [Prioritize a new warehouse proposal with data](https://trueinterview.io/questions/prioritize-a-new-warehouse-proposal-with-data?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | — |
 
 ---
 

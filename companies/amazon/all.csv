@@ -79,7 +79,7 @@ Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,
 Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix
 Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,10,2026-10,https://trueinterview.io/questions/uber-group-anagrams
 Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,0,2026-10,https://trueinterview.io/questions/ramp-minimum-meeting-rooms
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
 Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
 Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,4,5,2026-10,https://trueinterview.io/questions/design-chatgpt
 Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,0,2026-10,https://trueinterview.io/questions/word-search-ii
@@ -369,7 +369,6 @@ Nearest Exit in a 2D Grid (BFS),Algorithm,Medium,Phone screen,Senior,3,1,2026-05
 Search a 2D Matrix,Algorithm,Easy,Phone screen,Junior / Mid,2,0,2026-05,https://trueinterview.io/questions/search-a-2d-matrix
 Science Application (Ambiguous Problem),Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,0,2026-04-29,https://trueinterview.io/questions/science-application-ambiguous-problem
 Search / Ranking / Experimentation,System Design,Medium,Onsite / virtual onsite,Junior / Mid,2,2,2026-04-29,https://trueinterview.io/questions/as-ml-system-design-search-ranking
-Find Valid IP Addresses in Files,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,0,2026-04-28,https://trueinterview.io/questions/find-valid-ip-addresses-in-files
 Bucket Batching DP (Applied Scientist Phone Screen),Algorithm,Hard,Phone screen,Junior / Mid,1,0,2026-04-28,https://trueinterview.io/questions/bucket-batching-dp-applied-scientist
 Diagnose Falling Sales per User at Amazon While Monthly Active Users Keep Growing,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-21,https://trueinterview.io/questions/diagnose-falling-sales-per-user-at-amazon-while-monthly-active-users-keep-growing
 Root-Cause a 10% Decline in Amazon Website Users and Plan the Response,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-04-20,https://trueinterview.io/questions/root-cause-a-10percent-decline-in-amazon-website-users-and-plan-the-response
@@ -448,7 +447,6 @@ Prioritizing competing requests when team capacity is constrained,Behavioral / K
 Minimize Branch Merge Conflicts,Algorithm,Hard,Online assessment,Junior / Mid; Senior,1,0,2026-01-12,https://trueinterview.io/questions/minimize-branch-merge-conflicts
 Present Your PM Operating Model From Customer Input to Engineering Delivery,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-10,https://trueinterview.io/questions/present-your-pm-operating-model-from-customer-input-to-engineering-delivery
 Control Robot Charging with Repeated Polling and Exclusive Station Assignments,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,0,2026-01-10,https://trueinterview.io/questions/control-robot-charging-with-repeated-polling-and-exclusive-station-assignments
-Top K Frequent Elements,Algorithm,Medium,Phone screen,Junior / Mid,6,0,2026-01-10,https://trueinterview.io/questions/top-k-frequent-elements-3
 "Explain How You Collaborate With Engineering, Design and Cross-Functional Partners",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01-09,https://trueinterview.io/questions/explain-how-you-collaborate-with-engineering-design-and-cross-functional-partners
 Amazon PM behavioral: stepping into another owner's project and the customer response,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01-09,https://trueinterview.io/questions/amazon-pm-behavioral-stepping-into-another-owners-project-and-the-customer-response
 Amazon PM behavioral: a stakeholder disagreement where your position was overruled,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,0,2026-01-09,https://trueinterview.io/questions/amazon-pm-behavioral-a-stakeholder-disagreement-where-your-position-was-overruled

@@ -2,15 +2,15 @@
 
 # Meta interview questions
 
-603 questions reported at Meta, most recently reported first.
+602 questions reported at Meta, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (100) · [last 6 months](six-months.csv) (226) · [all](all.csv) (603)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (102) · [last 6 months](six-months.csv) (228) · [all](all.csv) (602)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
 [All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-Showing the 500 most recently reported of 603. [all.csv](all.csv) has every row.
+Showing the 500 most recently reported of 602. [all.csv](all.csv) has every row.
 
 | Question | Format | Difficulty | Round | Level | Companies | Reports | Last reported |
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
@@ -32,7 +32,7 @@ Showing the 500 most recently reported of 603. [all.csv](all.csv) has every row.
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | New grad, Senior | 7 | 10 | 2026-10 |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 14 | 0 | 2026-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 10 | 0 | 2026-10 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Intern, Junior / Mid, Senior | 10 | 0 | 2026-10-01 |
 | [Product Improvement Plan for WhatsApp's One-Way Broadcast Channels](https://trueinterview.io/questions/product-improvement-plan-for-whatsapps-one-way-broadcast-channels?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-30 |
 | [Sizing daily shopping users across Facebook, Instagram, WhatsApp and Messenger](https://trueinterview.io/questions/sizing-daily-shopping-users-across-facebook-instagram-whatsapp-and-messenger?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-29 |
@@ -73,6 +73,7 @@ Showing the 500 most recently reported of 603. [all.csv](all.csv) has every row.
 | [Walking through the product you shaped most and the impact of your own decisions](https://trueinterview.io/questions/walking-through-the-product-you-shaped-most-and-the-impact-of-your-own-decisions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-02 |
 | [Diagnose why a social feature is losing users and plan its turnaround](https://trueinterview.io/questions/diagnose-why-a-social-feature-is-losing-users-and-plan-its-turnaround?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-09-02 |
 | [Versioned Key-Value Store With Point-in-Time Reads](https://trueinterview.io/questions/time-based-key-value-store-3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 0 | 2026-09 |
+| [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 5 | 0 | 2026-09 |
 | [Friend Recommendation System](https://trueinterview.io/questions/meta-friend-recommendation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 0 | 2026-09 |
 | [Find Values Unique to the Current User](https://trueinterview.io/questions/meta-find-values-unique-to-the-current-user?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Staff+ | 1 | 0 | 2026-09 |
 | [Select and prioritize metrics with guardrails](https://trueinterview.io/questions/select-and-prioritize-metrics-with-guardrails?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 0 | 2026-09 |
@@ -104,6 +105,7 @@ Showing the 500 most recently reported of 603. [all.csv](all.csv) has every row.
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 16 | 0 | 2026-09 |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 9 | 0 | 2026-09 |
 | [Token Bucket Rate Limiter II](https://trueinterview.io/questions/uber-token-bucket-rate-limiter-ii?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 3 | 0 | 2026-09 |
+| [Clone a Graph](https://trueinterview.io/questions/robinhood-clone-a-graph?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 3 | 0 | 2026-09 |
 | [Alien Dictionary](../../questions/algorithm/alien-dictionary/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 6 | 0 | 2026-09 |
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | Intern, Junior / Mid, Senior | 8 | 0 | 2026-09 |
 | [Find Median from Data Stream](../../questions/algorithm/find-median-from-data-stream/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 6 | 0 | 2026-09 |
@@ -162,7 +164,7 @@ Showing the 500 most recently reported of 603. [all.csv](all.csv) has every row.
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/snapchat-search-from-the-end-in-a-sorted-array-variant?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 7 | 0 | 2026-08 |
 | [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/meta-find-a-local-minimum-valley-in-an-array?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 0 | 2026-08 |
 | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/meta-remove-duplicates-from-sorted-array?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad, Junior / Mid | 4 | 4 | 2026-08 |
-| [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior, Staff+ | 3 | 8 | 2026-08 |
+| [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior, Staff+ | 4 | 8 | 2026-08 |
 | [Random Pick with Weight](../../questions/algorithm/random-pick-with-weight/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 2 | 0 | 2026-08 |
 | [Valid Number](https://trueinterview.io/questions/lc-valid-number?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 2 | 2 | 2026-08 |
 | [Maximum Unique Character Subset](../../questions/algorithm/ai-coding-max-unique-character-subset/README.md) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 2 | 16 | 2026-08 |
@@ -456,7 +458,6 @@ Showing the 500 most recently reported of 603. [all.csv](all.csv) has every row.
 | [Instagram product case: helping people learn on the app, from segment to metrics](https://trueinterview.io/questions/instagram-product-case-helping-people-learn-on-the-app-from-segment-to-metrics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-12 |
 | [How to answer Staff (L6) behavioral interview questions](https://trueinterview.io/questions/how-to-answer-staff-l6-behavioral-interview-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Staff+ | 1 | 0 | 2026-01-12 |
 | [New Product for the Roofing Trade: Choose a Segment, Rank Pain Points, Define an MVP](https://trueinterview.io/questions/new-product-for-the-roofing-trade-choose-a-segment-rank-pain-points-define-an-mvp?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-11 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements-3/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 6 | 0 | 2026-01-10 |
 | [Senior Behavioral: Resume Walkthrough, a Consequential Decision and Measurable Impact](https://trueinterview.io/questions/senior-behavioral-resume-walkthrough-a-consequential-decision-and-measurable-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-08 |
 | [Design a Messenger-Style Chat Backend Without WebSockets or Persistent Connections](https://trueinterview.io/questions/design-a-messenger-style-chat-backend-without-websockets-or-persistent-connections?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-08 |
 | [Meta Payments in India and Southeast Asia: success metrics as average ticket size falls](https://trueinterview.io/questions/meta-payments-in-india-and-southeast-asia-success-metrics-as-average-ticket-size-falls?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-07 |
@@ -513,7 +514,6 @@ Showing the 500 most recently reported of 603. [all.csv](all.csv) has every row.
 | [Rotate Array](https://trueinterview.io/questions/meta-rotate-array?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 1 | 2025-12 |
 | [Robot Room Cleaner: Find Target](https://trueinterview.io/questions/meta-robot-room-cleaner-find-target?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 2 | 0 | 2025-12 |
 | [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 6 | 0 | 2025-12 |
-| [Market Sizing: Daily Active WhatsApp Conversations Across India](https://trueinterview.io/questions/market-sizing-daily-active-whatsapp-conversations-across-india?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2025-11-29 |
 
 ---
 

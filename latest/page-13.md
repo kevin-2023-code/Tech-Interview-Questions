@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,10 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-03-06 | [Paytm](../companies/paytm/) | [Go or No-Go Decision on Building In-App Search for Paytm](https://trueinterview.io/questions/go-or-no-go-decision-on-building-in-app-search-for-paytm?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-03-06 | [Intuit](../companies/intuit/) | [Getting More Small Businesses onto QuickBooks: Funnel and Product Plan](https://trueinterview.io/questions/getting-more-small-businesses-onto-quickbooks-funnel-and-product-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
-| 2026-03-06 | [Meta](../companies/meta/) | [Defining a North-Star and Guardrail Metrics for WhatsApp's Poll Feature](https://trueinterview.io/questions/defining-a-north-star-and-guardrail-metrics-for-whatsapps-poll-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
-| 2026-03-06 | [Google](../companies/google/) | [Handle two teams duplicating work](https://trueinterview.io/questions/handle-two-teams-duplicating-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+, Manager | 0 |
 | 2026-03-06 | [Point72](../companies/point72/) | [Explain Transformer Encoder and Decoder Behavior](https://trueinterview.io/questions/explain-transformer-encoder-and-decoder-behavior?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-03-06 | [SoFi](../companies/sofi/) | [Highway Sensor Journey Count](https://trueinterview.io/questions/sofi-highway-sensor-journey-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-03-06 | [Apple](../companies/apple/) | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/questions/systemverilog-dv-constraint-and-architecture-loop?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen, Onsite | Intern | 0 |
@@ -410,5 +406,9 @@
 | 2026-02-11 | [ByteDance](../companies/bytedance/) | [Group words that are anagrams](https://trueinterview.io/questions/solve-string-grouping-and-tree-right-view-problems-group-words-that-are-anagrams?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 1 |
 | 2026-02-11 | [Ramp](../companies/ramp/) | [Multi-Level Warehouse Storage with Weighted Retrieval](https://trueinterview.io/questions/multi-level-warehouse-storage-with-weighted-retrieval?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad, Junior / Mid, Senior | 0 |
 | 2026-02-11 | [Meta](../companies/meta/) | [Implement a versioned in-memory DB with CAS and history](https://trueinterview.io/questions/implement-a-versioned-in-memory-db-with-cas-and-history?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad, Junior / Mid, Senior | 0 |
+| 2026-02-11 | [Meta](../companies/meta/) | [Extend cloud file system with copy and compression](https://trueinterview.io/questions/extend-cloud-file-system-with-copy-and-compression?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad | 0 |
+| 2026-02-11 | [Meta](../companies/meta/) | [Design an in-memory cloud file system](https://trueinterview.io/questions/design-an-in-memory-cloud-file-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | OA | New grad, Senior | 0 |
+| 2026-02-11 | [Uber](../companies/uber/) | [Check if each prefix forms 1..k permutation](https://trueinterview.io/questions/check-if-each-prefix-forms-1-k-permutation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | New grad | 0 |
+| 2026-02-11 | [Pinterest](../companies/pinterest/) | [Personalized Chatbot Recommending Pins](https://trueinterview.io/questions/system-design-personalized-chat-recommend?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 0 |
 
 [← Newer](page-12.md) · Page 13 of 16 · [Older →](page-14.md)

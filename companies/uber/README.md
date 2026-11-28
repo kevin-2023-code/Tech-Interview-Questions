@@ -2,9 +2,9 @@
 
 # Uber interview questions
 
-282 questions reported at Uber, most recently reported first.
+281 questions reported at Uber, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (57) · [last 6 months](six-months.csv) (132) · [all](all.csv) (282)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (57) · [last 6 months](six-months.csv) (132) · [all](all.csv) (281)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -27,7 +27,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [The Earliest Moment When Everyone Become Friends](https://trueinterview.io/questions/uber-the-earliest-moment-when-everyone-become-friends?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 2 | 14 | 2026-10 |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | New grad, Senior | 7 | 10 | 2026-10 |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 14 | 0 | 2026-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 10 | 0 | 2026-10 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Design a Stock Price Alert Notification System](https://trueinterview.io/questions/design-a-stock-price-alert-notification-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 0 | 2026-10 |
 | [Design Meeting Scheduler](https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 5 | 2026-10 |
 | [Median of Two Sorted Arrays](../../questions/algorithm/median-of-two-sorted-arrays/README.md) | Algorithm | Hard | Onsite / virtual onsite | Senior | 5 | 0 | 2026-10 |
@@ -239,7 +239,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Uber Eats Product Sense: Choose a User Group and Design One New Feature](https://trueinterview.io/questions/uber-eats-product-sense-choose-a-user-group-and-design-one-new-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-13 |
 | [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-01-13 |
 | [Cut the Time Travelers Waste at Airports, From Home to Gate and Gate to Curb](https://trueinterview.io/questions/cut-the-time-travelers-waste-at-airports-from-home-to-gate-and-gate-to-curb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-12 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements-3/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 6 | 0 | 2026-01-10 |
 | [Interval List Intersections](https://trueinterview.io/questions/interval-list-intersections?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-09 |
 | [Design an Uber feature and analyze safety](https://trueinterview.io/questions/design-an-uber-feature-and-analyze-safety?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Intern, New grad | 1 | 0 | 2026-01-08 |
 | [Uber Product Design: Making Large City Airport Trips Smoother for Travelers](https://trueinterview.io/questions/uber-product-design-making-large-city-airport-trips-smoother-for-travelers?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-05 |

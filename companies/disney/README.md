@@ -4,7 +4,7 @@
 
 52 questions reported at Disney, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (14) · [all](all.csv) (52)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (15) · [all](all.csv) (52)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -26,9 +26,9 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [AI Product Intern: Product Sense for Parks & Disney+](https://trueinterview.io/questions/ai-product-intern-product-sense?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 1 | 2026-07-14 |
 | [Pair and Triplet Target Sums (LC 1, 167, 15)](https://trueinterview.io/questions/two-sum-variants-and-three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-06 |
 | [Reverse a String In Place (LC 344)](https://trueinterview.io/questions/reverse-string-in-place?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Senior | 3 | 0 | 2026-06 |
+| [Enumerate All Balanced Bracket Strings for N Pairs](../../questions/algorithm/generate-parentheses/README.md) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 2 | 1 | 2026-06 |
 | [Disney+ Metric Drop: Diagnosing a Sudden 10% Fall in Watch Time on a Recommendation Row](https://trueinterview.io/questions/disneyplus-metric-drop-diagnosing-a-sudden-10percent-fall-in-watch-time-on-a-recommendation-row?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-05-29 |
 | [Apple Growth Case: Pick a Product and Build a Plan for 2x Revenue in a Year](https://trueinterview.io/questions/apple-growth-case-pick-a-product-and-build-a-plan-for-2x-revenue-in-a-year?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-05-28 |
-| [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Senior | 1 | 0 | 2026-03-27 |
 | [Contrast Disney+ and Hulu on audience, content, business model and portfolio role](https://trueinterview.io/questions/contrast-disneyplus-and-hulu-on-audience-content-business-model-and-portfolio-role?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-09 |
 | [Which stakeholders you work best with as a PM, and how you handle the rest](https://trueinterview.io/questions/which-stakeholders-you-work-best-with-as-a-pm-and-how-you-handle-the-rest?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-02-08 |
 | [Single-Rule Ad Filter](https://trueinterview.io/questions/single-rule-ad-filter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Senior | 1 | 1 | 2026-01-12 |

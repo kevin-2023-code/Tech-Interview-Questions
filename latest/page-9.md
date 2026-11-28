@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-06-26 | [Rubrik](../companies/rubrik/) | [Engineering manager interview: a leadership call you owned and an engineer you grew](https://trueinterview.io/questions/engineering-manager-interview-a-leadership-call-you-owned-and-an-engineer-you-grew?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Manager | 0 |
 | 2026-06-26 | [Rubrik](../companies/rubrik/) | [Engineering manager behavioral: driving a cross-team outcome from an ambiguous goal](https://trueinterview.io/questions/engineering-manager-behavioral-driving-a-cross-team-outcome-from-an-ambiguous-goal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Manager | 0 |
 | 2026-06-26 | [Uber](../companies/uber/) | [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/questions/bar-raiser-architecture-and-values?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior | 0 |
 | 2026-06-26 | [Rippling](../companies/rippling/) | [Project Deep Dive / HM BQ](https://trueinterview.io/questions/project-deep-dive-and-bq?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 12 |
@@ -253,7 +252,7 @@
 | 2026-06-01 | [DoorDash](../companies/doordash/) | [Design what Ticketmaster buyers experience after checkout, from confirmation to event day](https://trueinterview.io/questions/design-what-ticketmaster-buyers-experience-after-checkout-from-confirmation-to-event-day?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-06 | [Disney](../companies/disney/) | [Pair and Triplet Target Sums (LC 1, 167, 15)](https://trueinterview.io/questions/two-sum-variants-and-three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 0 |
 | 2026-06 | [Disney](../companies/disney/), [LinkedIn](../companies/linkedin/) +1 | [Reverse a String In Place (LC 344)](https://trueinterview.io/questions/reverse-string-in-place?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
-| 2026-06 | [C3 AI](../companies/c3-ai/) | [Enumerate All Balanced Bracket Strings for N Pairs](https://trueinterview.io/questions/generate-parentheses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 1 |
+| 2026-06 | [C3 AI](../companies/c3-ai/), [Disney](../companies/disney/) | [Enumerate All Balanced Bracket Strings for N Pairs](https://trueinterview.io/questions/generate-parentheses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | New grad, Junior / Mid, Senior | 1 |
 | 2026-06 | [Boston Consulting Group](../companies/boston-consulting-group/) | [Summarize impact and lessons from your resume](https://trueinterview.io/questions/summarize-impact-and-lessons-from-your-resume?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Manager | 3 |
 | 2026-06 | [Anthropic](../companies/anthropic/) | [How do you lead under risk and uncertainty?](https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Manager | 0 |
 | 2026-06 | [Axon](../companies/axon/) | [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Manager | 1 |
@@ -410,5 +409,6 @@
 | 2026-05-29 | [Uber](../companies/uber/) | [Fill Dashes with Nearest Letter](https://trueinterview.io/questions/matrix-fill-nearest-letter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
 | 2026-05-29 | [Rippling](../companies/rippling/) | [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-05-28 | [Microsoft](../companies/microsoft/) | [Present a Self-Built AI Project and the Product Decisions It Required](https://trueinterview.io/questions/present-a-self-built-ai-project-and-the-product-decisions-it-required?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
+| 2026-05-28 | [Snowflake](../companies/snowflake/) | [Design a Photo Album Backend: Upload Consistency, Deduplication and Scaling](https://trueinterview.io/questions/design-a-photo-album-backend-upload-consistency-deduplication-and-scaling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | New grad, Junior / Mid | 0 |
 
 [← Newer](page-8.md) · Page 9 of 16 · [Older →](page-10.md)

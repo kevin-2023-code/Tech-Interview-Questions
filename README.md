@@ -5,7 +5,7 @@
 Interview and online-assessment questions that candidates reported at tech companies, newest first. Every title opens the question's page on [TrueInterview](https://trueinterview.io), where it can be practised.
 
 <!-- gen:snapshot:start -->
-**7,647 questions · 363 companies · +2,653 added in the last 30 days · 1,914 reported in the last 90 days · data as of 2026-11-28**
+**7,639 questions · 363 companies · +2,653 added in the last 30 days · 1,913 reported in the last 90 days · data as of 2026-11-28**
 <!-- gen:snapshot:end -->
 
 [New this week](#new-this-week) · [Recently reported](#recently-reported) · [AI coding rounds](#ai-coding-rounds) · [Formats](#formats) · [Companies](#companies) · [Data](#data)
@@ -37,7 +37,7 @@ Interview and online-assessment questions that candidates reported at tech compa
 ## Recently reported
 
 <!-- gen:recent:start -->
-The 50 most recently reported of 6,177 from the past 12 months. [See all of them](latest/README.md).
+The 50 most recently reported of 6,172 from the past 12 months. [See all of them](latest/README.md).
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
@@ -115,7 +115,7 @@ The 50 most recently reported of 6,177 from the past 12 months. [See all of them
 ## Formats
 
 <!-- gen:formats:start -->
-[Algorithm (2,776)](formats/algorithm.md) · [SQL (233)](formats/sql.md) · [System Design (965)](formats/system-design.md) · [Object-Oriented Programming (760)](formats/object-oriented-programming.md) · [AI Coding (147)](formats/ai-coding.md) · [Behavioral / Knowledge (2,766)](formats/blog.md)
+[Algorithm (2,768)](formats/algorithm.md) · [SQL (233)](formats/sql.md) · [System Design (965)](formats/system-design.md) · [Object-Oriented Programming (760)](formats/object-oriented-programming.md) · [AI Coding (147)](formats/ai-coding.md) · [Behavioral / Knowledge (2,766)](formats/blog.md)
 <!-- gen:formats:end -->
 
 ## Companies
@@ -129,15 +129,15 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | Company | Questions | Reported in last 90 days | Last reported |
 | :-- | --: | --: | :-- |
 | [Google](companies/google/) | 722 | 181 | 2026-10-29 |
-| [Meta](companies/meta/) | 603 | 100 | 2026-10-17 |
-| [Amazon](companies/amazon/) | 553 | 194 | 2026-10-24 |
-| [Microsoft](companies/microsoft/) | 338 | 91 | 2026-11-05 |
-| [ByteDance](companies/bytedance/) | 320 | 109 | 2026-10-16 |
-| [Uber](companies/uber/) | 282 | 57 | 2026-10-19 |
+| [Meta](companies/meta/) | 602 | 102 | 2026-10-17 |
+| [Amazon](companies/amazon/) | 551 | 194 | 2026-10-24 |
+| [Microsoft](companies/microsoft/) | 337 | 91 | 2026-11-05 |
+| [ByteDance](companies/bytedance/) | 319 | 109 | 2026-10-16 |
+| [Uber](companies/uber/) | 281 | 57 | 2026-10-19 |
 | [OpenAI](companies/openai/) | 236 | 99 | 2026-10-31 |
 | [Apple](companies/apple/) | 226 | 60 | 2026-10-23 |
 | [DoorDash](companies/doordash/) | 185 | 73 | 2026-11-04 |
-| [LinkedIn](companies/linkedin/) | 182 | 83 | 2026-10-23 |
+| [LinkedIn](companies/linkedin/) | 182 | 82 | 2026-10-23 |
 | [Snowflake](companies/snowflake/) | 169 | 34 | 2026-10-17 |
 | [Capital One](companies/capital-one/) | 162 | 46 | 2026-10-16 |
 | [Stripe](companies/stripe/) | 150 | 51 | 2026-10-06 |
@@ -151,7 +151,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Citadel](companies/citadel/) | 107 | 29 | 2026-10-19 |
 | [Roblox](companies/roblox/) | 105 | 27 | 2026-10-16 |
 | [Coinbase](companies/coinbase/) | 103 | 7 | 2026-10-26 |
-| [Snapchat](companies/snapchat/) | 103 | 32 | 2026-10-28 |
+| [Snapchat](companies/snapchat/) | 102 | 32 | 2026-10-28 |
 | [Databricks](companies/databricks/) | 101 | 43 | 2026-10-19 |
 | [Bloomberg](companies/bloomberg/) | 93 | 23 | 2026-10 |
 | [Goldman Sachs](companies/goldman-sachs/) | 77 | 25 | 2026-10-20 |
@@ -178,8 +178,8 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Perplexity](companies/perplexity/) | 40 | 5 | 2026-10-02 |
 | [Expedia](companies/expedia/) | 39 | 4 | 2026-10 |
 | [Akuna Capital](companies/akuna-capital/) | 37 | 2 | 2026-08-30 |
+| [JPMorgan](companies/jpmorgan/) | 37 | 7 | 2026-10-14 |
 | [Cisco](companies/cisco/) | 36 | 8 | 2026-09-19 |
-| [JPMorgan](companies/jpmorgan/) | 36 | 6 | 2026-10-14 |
 | [Optiver](companies/optiver/) | 36 | 2 | 2026-11-05 |
 | [Ramp](companies/ramp/) | 36 | 6 | 2026-10 |
 | [Confluent](companies/confluent/) | 35 | 6 | 2026-10-06 |
@@ -251,7 +251,7 @@ Each company has a folder under [`companies/`](companies) with its questions as 
 | [Bobyard](companies/bobyard/) | 7 | 0 | 2026-08-13 |
 | [Cresta](companies/cresta/) | 7 | 7 | 2026-10-06 |
 | [Cursor](companies/cursor/) | 7 | 0 | 2026-08-21 |
-| [GEICO](companies/geico/) | 7 | 0 | 2026-07 |
+| [GEICO](companies/geico/) | 7 | 1 | 2026-09 |
 | [Lead Bank](companies/lead-bank/) | 7 | 0 | 2026-07 |
 | [Nubank](companies/nubank/) | 7 | 0 | 2026-06-24 |
 | [ZipHQ](companies/ziphq/) | 7 | 3 | 2026-09-17 |

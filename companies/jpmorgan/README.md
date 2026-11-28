@@ -2,9 +2,9 @@
 
 # JPMorgan interview questions
 
-36 questions reported at JPMorgan, most recently reported first.
+37 questions reported at JPMorgan, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (13) · [all](all.csv) (36)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (14) · [all](all.csv) (37)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -14,6 +14,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | :-- | :-- | :-: | :-- | :-- | --: | --: | :-- |
 | [How You Handle a Project With Unclear Scope and High Ambiguity](https://trueinterview.io/questions/how-you-handle-a-project-with-unclear-scope-and-high-ambiguity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 6 | 0 | 2026-10-14 |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Market Sizing: How Many Travelers Arrive in India From Abroad](https://trueinterview.io/questions/market-sizing-how-many-travelers-arrive-in-india-from-abroad?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-18 |
 | [Minimum Steps to Make Two Strings Anagram](https://trueinterview.io/questions/minimum-steps-to-make-two-strings-anagram?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Junior / Mid | 4 | 0 | 2026-09 |
 | [Super Day Behavioral Round](https://trueinterview.io/questions/superday-behavioral-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09 |

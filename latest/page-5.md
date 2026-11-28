@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-09 | [LinkedIn](../companies/linkedin/) | [LRU Cache with Counters](https://trueinterview.io/questions/linkedin-lru-cache-with-counters?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Senior | 0 |
 | 2026-09 | [LinkedIn](../companies/linkedin/) | [Find the Second Minimum in a Tournament Tree](https://trueinterview.io/questions/linkedin-find-the-second-minimum-in-a-tournament-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-09 | [LinkedIn](../companies/linkedin/) | [Shortest Word Distance II](https://trueinterview.io/questions/linkedin-shortest-word-distance-ii?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Onsite | Junior / Mid, Senior | 0 |
 | 2026-09 | [LinkedIn](../companies/linkedin/) | [Largest Number (LC 179)](https://trueinterview.io/questions/coding-largest-number?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
@@ -63,7 +62,7 @@
 | 2026-09 | [Citadel](../companies/citadel/) | [Reconcile Unmatched Buy and Sell Trades](https://trueinterview.io/questions/citadel-reconcile-unmatched-buy-and-sell-trades?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-09 | [Apple](../companies/apple/) | [Merge Two Strings by Maximum Edge Overlap](https://trueinterview.io/questions/apple-merge-two-strings-by-maximum-edge-overlap?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 0 |
 | 2026-09 | [Apple](../companies/apple/) | [Check Whether a String Is a Palindrome](https://trueinterview.io/questions/apple-check-whether-a-string-is-a-palindrome?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid | 2 |
-| 2026-09 | [Pinterest](../companies/pinterest/) | [Coin Change (LC 322)](https://trueinterview.io/questions/coin-change?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid | 0 |
+| 2026-09 | [Pinterest](../companies/pinterest/), [GEICO](../companies/geico/) | [Coin Change (LC 322)](https://trueinterview.io/questions/coin-change?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Junior / Mid | 0 |
 | 2026-09 | [OpenAI](../companies/openai/) | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 3 |
 | 2026-09-01 | [DoorDash](../companies/doordash/) | [Hiring Manager Behavioral Round](https://trueinterview.io/questions/hm-behavioral-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | New grad, Junior / Mid, Senior | 0 |
 | 2026-09 | [Uber](../companies/uber/) | [Build a Directory Tree and Iteratively Find File Paths](https://trueinterview.io/questions/uber-build-a-directory-tree-and-iteratively-find-file-paths?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 1 |
@@ -215,7 +214,7 @@
 | 2026-09 | [Stripe](../companies/stripe/) | [Find Directly Linked Merchants by Shared Attributes](https://trueinterview.io/questions/stripe-find-directly-linked-merchants-by-shared-attributes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Junior / Mid, Senior | 0 |
 | 2026-09 | [Snowflake](../companies/snowflake/) | [Tree Height After Node Removal](https://trueinterview.io/questions/snowflake-tree-height-after-node-removal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-09 | [Roblox](../companies/roblox/), [Uber](../companies/uber/) | [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/roblox-number-of-ways-to-wear-different-hats-to-each-other?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Senior | 0 |
-| 2026-09 | [Robinhood](../companies/robinhood/), [Google](../companies/google/) | [Clone a Graph](https://trueinterview.io/questions/robinhood-clone-a-graph?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
+| 2026-09 | [Robinhood](../companies/robinhood/), [Google](../companies/google/) +1 | [Clone a Graph](https://trueinterview.io/questions/robinhood-clone-a-graph?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid | 0 |
 | 2026-09 | [Ramp](../companies/ramp/), [Citadel](../companies/citadel/) | [Minimum Changes to Make a K-Periodic Palindromic Password](https://trueinterview.io/questions/ramp-minimum-changes-to-make-a-k-periodic-palindromic-password?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad | 3 |
 | 2026-09 | [Ramp](../companies/ramp/), [Citadel](../companies/citadel/) | [Maximum Earnings After Converting Days Off to Workdays](https://trueinterview.io/questions/ramp-maximum-earnings-after-converting-days-off-to-workdays?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad | 0 |
 | 2026-09 | [Netflix](../companies/netflix/), [LinkedIn](../companies/linkedin/) | [Tree Depth Calculation](https://trueinterview.io/questions/netflix-tree-depth-calculation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 0 |
@@ -410,5 +409,6 @@
 | 2026-08-25 | [Google](../companies/google/) | [Google Flights Product Sense: Serving Travelers After They Buy a Ticket](https://trueinterview.io/questions/google-flights-product-sense-serving-travelers-after-they-buy-a-ticket?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-08-25 | [Gong](../companies/gong/) | [Design a Service That Finds Common Free Time Across Connected Calendars](https://trueinterview.io/questions/design-a-service-that-finds-common-free-time-across-connected-calendars?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
 | 2026-08-25 | [Gong](../companies/gong/) | [Design a Service That Captures Zoom Meeting Recordings and Processes Them at Scale](https://trueinterview.io/questions/design-a-service-that-captures-zoom-meeting-recordings-and-processes-them-at-scale?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior, Staff+ | 0 |
+| 2026-08-25 | [PayPal](../companies/paypal/) | [Design a PayPal Feature That Helps Groups Split and Settle Shared Costs](https://trueinterview.io/questions/design-a-paypal-feature-that-helps-groups-split-and-settle-shared-costs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 
 [← Newer](page-4.md) · Page 5 of 16 · [Older →](page-6.md)

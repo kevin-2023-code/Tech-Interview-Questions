@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Pinterest | Onsite / virtual onsite | dynamic-programming | Sep 2026 |
+| Algorithm | Medium | Pinterest · GEICO | Onsite / virtual onsite | dynamic-programming | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/coin-change)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -81,7 +81,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Pinterest](../../../companies/pinterest/README.md)
+[Pinterest](../../../companies/pinterest/README.md) · [GEICO](../../../companies/geico/README.md)
 
 ---
 

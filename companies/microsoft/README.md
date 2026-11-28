@@ -2,9 +2,9 @@
 
 # Microsoft interview questions
 
-338 questions reported at Microsoft, most recently reported first.
+337 questions reported at Microsoft, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (91) · [last 6 months](six-months.csv) (177) · [all](all.csv) (338)
+CSV: [last 30 days](thirty-days.csv) (1) · [last 3 months](three-months.csv) (91) · [last 6 months](six-months.csv) (177) · [all](all.csv) (337)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -47,7 +47,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Intern, New grad, Junior / Mid, Senior | 4 | 82 | 2026-10 |
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern, Junior / Mid, Senior | 9 | 0 | 2026-10 |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 14 | 0 | 2026-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 10 | 0 | 2026-10 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | New grad, Junior / Mid, Senior, Staff+ | 10 | 0 | 2026-10 |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Intern, Junior / Mid, Senior | 10 | 0 | 2026-10-01 |
 | [Your View of AI and How You Use AI Tools in Software Engineering Work](https://trueinterview.io/questions/your-view-of-ai-and-how-you-use-ai-tools-in-software-engineering-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-09-30 |
@@ -70,7 +70,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Design a Global One-to-One Voice Calling System](https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 1 | 2026-09-10 |
 | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 0 | 2026-09-10 |
 | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid | 1 | 0 | 2026-09-09 |
-| [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 4 | 0 | 2026-09 |
+| [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 5 | 0 | 2026-09 |
 | [Production-Ready atoi for an Arbitrary Base](https://trueinterview.io/questions/microsoft-production-ready-atoi-for-an-arbitrary-base?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-09 |
 | [Replace Non-Coprime Numbers in Array](https://trueinterview.io/questions/microsoft-replace-non-coprime-numbers-in-array?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-09 |
 | [Beam Search Decoding with Joint Probabilities](https://trueinterview.io/questions/microsoft-beam-search-decoding-with-joint-probabilities?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 0 | 2026-09 |
@@ -296,7 +296,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [ESPN.com Traffic Down 30%: Diagnose the Cause and Decide What to Do](https://trueinterview.io/questions/espn-com-traffic-down-30percent-diagnose-the-cause-and-decide-what-to-do?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-19 |
 | [Distance from Each Node to the Cycle in an Undirected Graph](https://trueinterview.io/questions/distance-to-cycle-in-undirected-graph?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 0 | 2026-01-16 |
 | [Describe an innovation you drove end-to-end](https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 2 | 0 | 2026-01-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements-3/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 6 | 0 | 2026-01-10 |
 | [Peer-to-Peer File Distribution: Discovery, Chunked Transfer and Integrity Checks](https://trueinterview.io/questions/peer-to-peer-file-distribution-discovery-chunked-transfer-and-integrity-checks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-08 |
 | [Behavioral: How You Collaborate With Teammates and Handle Disagreement](https://trueinterview.io/questions/behavioral-how-you-collaborate-with-teammates-and-handle-disagreement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 2 | 0 | 2026-01-08 |
 | [Resource Change Database Design](https://trueinterview.io/questions/microsoft-resource-change-database-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 0 | 2026-01 |

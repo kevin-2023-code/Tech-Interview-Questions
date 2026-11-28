@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,11 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2025-12-10 | [Pinterest](../companies/pinterest/) | [Top-K Ads from Log + Sliding-Window Ingest](https://trueinterview.io/questions/top-k-ads-from-log-sliding-window?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Onsite | Senior | 1 |
-| 2025-12-10 | [NVIDIA](../companies/nvidia/) | [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | Junior / Mid, Senior | 0 |
-| 2025-12-10 | [Snowflake](../companies/snowflake/) | [Serialize and Deserialize Dictionary Trie](https://trueinterview.io/questions/serialize-and-deserialize-dictionary-trie?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior | 0 |
-| 2025-12-10 | [Apple](../companies/apple/) | [Count Value Occurrences in a Binary Tree](https://trueinterview.io/questions/count-value-occurrences-in-a-binary-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
-| 2025-12-09 | [Meta](../companies/meta/) | [Neighborhood borrowing library product design: segments, MVP, trust and metrics](https://trueinterview.io/questions/neighborhood-borrowing-library-product-design-segments-mvp-trust-and-metrics?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2025-12-09 | [Uber](../companies/uber/) | [Investigating and Fixing Falling Satisfaction on Uber Airport Trips](https://trueinterview.io/questions/investigating-and-fixing-falling-satisfaction-on-uber-airport-trips?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2025-12-09 | [Meta](../companies/meta/) | [Deciding Where to Expand a Paid Social Gaming App](https://trueinterview.io/questions/deciding-where-to-expand-a-paid-social-gaming-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2025-12-09 | [Walmart Labs](../companies/walmart-labs/) | [Handle conflict and motivate engineering teams](https://trueinterview.io/questions/handle-conflict-and-motivate-engineering-teams?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior | 0 |

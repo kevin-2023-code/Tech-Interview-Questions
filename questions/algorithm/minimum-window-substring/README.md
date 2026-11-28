@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Lyft · ByteDance · Meta | Phone screen | strings, hashing, sliding-window | Aug 2026 |
+| Algorithm | Medium | Lyft · ByteDance · LinkedIn · Meta | Phone screen | strings, hashing, sliding-window | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/minimum-window-substring)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -93,7 +93,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Lyft](../../../companies/lyft/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Meta](../../../companies/meta/README.md)
+[Lyft](../../../companies/lyft/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md)
 
 ---
 

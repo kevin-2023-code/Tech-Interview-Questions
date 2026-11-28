@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple · Amazon · ByteDance · Google · LinkedIn · Microsoft · +4 | Phone screen | hashing, heap | Oct 2026 |
+| Algorithm | Easy | Apple · Amazon · ByteDance · Google · JPMorgan · LinkedIn · +5 | Phone screen | hashing, heap | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/apple-top-k-frequent-elements)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -84,7 +84,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Google](../../../companies/google/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Uber](../../../companies/uber/README.md) · [Meta](../../../companies/meta/README.md) · [Snapchat](../../../companies/snapchat/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Google](../../../companies/google/README.md) · [JPMorgan](../../../companies/jpmorgan/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Snapchat](../../../companies/snapchat/README.md) · [Uber](../../../companies/uber/README.md)
 
 ---
 

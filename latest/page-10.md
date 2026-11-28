@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-05-28 | [Snowflake](../companies/snowflake/) | [Design a Photo Album Backend: Upload Consistency, Deduplication and Scaling](https://trueinterview.io/questions/design-a-photo-album-backend-upload-consistency-deduplication-and-scaling?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | New grad, Junior / Mid | 0 |
 | 2026-05-28 | [Snowflake](../companies/snowflake/) | [Behavioral Stories on Ownership, Ambiguity, Deep Dives and Conflict](https://trueinterview.io/questions/behavioral-stories-on-ownership-ambiguity-deep-dives-and-conflict?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | New grad, Junior / Mid | 0 |
 | 2026-05-28 | [Disney](../companies/disney/) | [Apple Growth Case: Pick a Product and Build a Plan for 2x Revenue in a Year](https://trueinterview.io/questions/apple-growth-case-pick-a-product-and-build-a-plan-for-2x-revenue-in-a-year?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-05-28 | [Google](../companies/google/) | [Measure Bird Species Segregation](https://trueinterview.io/questions/measure-bird-species-segregation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+ | 0 |
@@ -410,5 +409,6 @@
 | 2026-05 | [Reddit](../companies/reddit/) | [ML Fundamentals](https://trueinterview.io/questions/ml-fundamentals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-05 | [Perplexity](../companies/perplexity/), [Datadog](../companies/datadog/) | [Design Mint.com](https://trueinterview.io/questions/mint-com?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Junior / Mid | 0 |
 | 2026-05 | [Uber](../companies/uber/), [Amazon](../companies/amazon/) +1 | [Nearest Exit in a 2D Grid (BFS)](https://trueinterview.io/questions/uber-nearest-exit-in-a-2d-grid-bfs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 1 |
+| 2026-05 | [Uber](../companies/uber/), [ByteDance](../companies/bytedance/) | [Add/Sub Calculator with String Verification Follow-up](https://trueinterview.io/questions/uber-add-sub-calculator-with-string-verification-follow-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 
 [← Newer](page-9.md) · Page 10 of 16 · [Older →](page-11.md)

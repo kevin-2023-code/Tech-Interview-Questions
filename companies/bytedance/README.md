@@ -2,9 +2,9 @@
 
 # ByteDance interview questions
 
-320 questions reported at ByteDance, most recently reported first.
+319 questions reported at ByteDance, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (109) · [last 6 months](six-months.csv) (195) · [all](all.csv) (320)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (109) · [last 6 months](six-months.csv) (195) · [all](all.csv) (319)
 
 Reports is the number of interview write-ups from the past 12 months that name the question, at any company; — where that is not known.
 
@@ -44,7 +44,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Kth Largest Element / Quick Select](https://trueinterview.io/questions/kth-largest-quick-select?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 0 | 2026-10 |
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Intern, Junior / Mid, Senior | 9 | 0 | 2026-10 |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 14 | 0 | 2026-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 10 | 0 | 2026-10 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Junior / Mid, Senior | 11 | 0 | 2026-10 |
 | [Median of Two Sorted Arrays](../../questions/algorithm/median-of-two-sorted-arrays/README.md) | Algorithm | Hard | Onsite / virtual onsite | Senior | 5 | 0 | 2026-10 |
 | [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 7 | 0 | 2026-10 |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Intern, Junior / Mid, Senior | 10 | 0 | 2026-10-01 |
@@ -160,7 +160,7 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Longest Palindromic Substring](../../questions/algorithm/longest-palindromic-substring/README.md) | Algorithm | Medium | Phone screen | New grad, Senior | 4 | 0 | 2026-08 |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 7 | 0 | 2026-08 |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/snapchat-search-from-the-end-in-a-sorted-array-variant?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 7 | 0 | 2026-08 |
-| [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior, Staff+ | 3 | 8 | 2026-08 |
+| [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior, Staff+ | 4 | 8 | 2026-08 |
 | [Even Digit Count](https://trueinterview.io/questions/even-digit-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 2 | 0 | 2026-08 |
 | [Reverse Nodes in K-Group (incomplete tail variant)](https://trueinterview.io/questions/reverse-nodes-in-k-group?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Intern, Junior / Mid | 1 | 0 | 2026-08 |
 | [Maximum Unique Character Subset](../../questions/algorithm/ai-coding-max-unique-character-subset/README.md) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 2 | 16 | 2026-08 |
@@ -275,7 +275,6 @@ Reports is the number of interview write-ups from the past 12 months that name t
 | [Dynamic K in Retrieval Stage](https://trueinterview.io/questions/dynamic-k-retrieval-ml-system-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 1 | 2026-01-28 |
 | [Explain deployment, retrieval, and regularization](https://trueinterview.io/questions/explain-deployment-retrieval-and-regularization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 0 | 2026-01-17 |
 | [How to deploy and tune multimodal models?](https://trueinterview.io/questions/how-to-deploy-and-tune-multimodal-models?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 0 | 2026-01-10 |
-| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements-3/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 6 | 0 | 2026-01-10 |
 | [TikTok product sense: unmet needs of viewers, creators and businesses that the app meets](https://trueinterview.io/questions/tiktok-product-sense-unmet-needs-of-viewers-creators-and-businesses-that-the-app-meets?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 0 | 2026-01-08 |
 | [k-Means from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-k-means-from-scratch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 1 | 2026-01-04 |
 | [Bagging from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-bagging-from-scratch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 0 | 2026-01-04 |

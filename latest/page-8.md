@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-07-15 | [Google](../companies/google/) | [Designing AI Product UX for Model Latency and Multimodal Input and Output](https://trueinterview.io/questions/designing-ai-product-ux-for-model-latency-and-multimodal-input-and-output?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-07-15 | [Instacart](../companies/instacart/) | [Design Delivery-Time Prediction with a Cold-Start Plan](https://trueinterview.io/questions/design-delivery-time-prediction-with-a-cold-start-plan?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
 | 2026-07-15 | [Instacart](../companies/instacart/) | [Design an Advertising Ranking Pipeline beyond Calibration](https://trueinterview.io/questions/design-an-advertising-ranking-pipeline-beyond-calibration?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Phone screen | Senior, Staff+ | 0 |
 | 2026-07-15 | [Coinbase](../companies/coinbase/) | [Defining Activation and Success Metrics for Coinbase's Sign-Up and Verification Flow](https://trueinterview.io/questions/defining-activation-and-success-metrics-for-coinbases-sign-up-and-verification-flow?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
@@ -410,5 +409,6 @@
 | 2026-06-26 | [Walmart Labs](../companies/walmart-labs/) | [Product ideas to grow average order size on Walmart's online store](https://trueinterview.io/questions/product-ideas-to-grow-average-order-size-on-walmarts-online-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Manager | 0 |
 | 2026-06-26 | [ByteDance](../companies/bytedance/) | [Improving TikTok's personalized recommendation feed for a chosen viewer segment](https://trueinterview.io/questions/improving-tiktoks-personalized-recommendation-feed-for-a-chosen-viewer-segment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-06-26 | [Rubrik](../companies/rubrik/) | [Engineering manager peer round: technical quality, ownership and long-term team health](https://trueinterview.io/questions/engineering-manager-peer-round-technical-quality-ownership-and-long-term-team-health?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Manager | 0 |
+| 2026-06-26 | [Rubrik](../companies/rubrik/) | [Engineering manager interview: a leadership call you owned and an engineer you grew](https://trueinterview.io/questions/engineering-manager-interview-a-leadership-call-you-owned-and-an-engineer-you-grew?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Manager | 0 |
 
 [← Newer](page-7.md) · Page 8 of 16 · [Older →](page-9.md)

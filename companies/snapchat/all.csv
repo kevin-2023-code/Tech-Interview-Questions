@@ -12,7 +12,7 @@ Course Schedule Cycle Detection,Algorithm,Medium,Phone screen,Junior / Mid; Seni
 Shortest Path in a Binary Matrix with Obstacles,Algorithm,Medium,Phone screen,Junior / Mid; Senior,4,0,2026-10,https://trueinterview.io/questions/snowflake-shortest-path-in-a-binary-matrix-with-obstacles
 Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/course-schedule
 Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,0,2026-10,https://trueinterview.io/questions/uber-number-of-islands-in-a-matrix
-Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,10,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
+Top K Frequent Elements,Algorithm,Easy,Phone screen,Junior / Mid; Senior,11,0,2026-10,https://trueinterview.io/questions/apple-top-k-frequent-elements
 Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,0,2026-10,https://trueinterview.io/questions/rate-limiter
 What Happens When All Neural-Network Weights Start at Zero?,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,0,2026-09-12,https://trueinterview.io/questions/what-happens-when-all-neural-network-weights-start-at-zero
 "Resume ML Project Deep Dive: Loss, Training Data, Features, Architecture, Cold Start",Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,0,2026-09-12,https://trueinterview.io/questions/resume-ml-project-deep-dive-loss-training-data-features-architecture-cold-start
@@ -84,7 +84,6 @@ Search Suggestion Service,Object-Oriented Programming,Medium,Onsite / virtual on
 "Engineering Manager Behavioral: Motivation, Taking Feedback and Leading a Reorganization",Behavioral / Knowledge,,Onsite / virtual onsite,Manager,1,0,2026-01-20,https://trueinterview.io/questions/engineering-manager-behavioral-motivation-taking-feedback-and-leading-a-reorganization
 iOS Scrollable Grid & Swift Concurrency,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,0,2026-01-20,https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency
 Describe an innovation you drove end-to-end,Behavioral / Knowledge,,Phone screen,Junior / Mid,2,0,2026-01-10,https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end
-Top K Frequent Elements,Algorithm,Medium,Phone screen,Junior / Mid,6,0,2026-01-10,https://trueinterview.io/questions/top-k-frequent-elements-3
 "Compare WebSocket, SSE, and long polling",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,0,2026-01-04,https://trueinterview.io/questions/compare-websocket-sse-and-long-polling
 4Sum (Find all unique quadruplets),Algorithm,Medium,Phone screen,Senior,1,0,2026-01,https://trueinterview.io/questions/snapchat-4sum-find-all-unique-quadruplets
 DispatchQueue Code Analysis in Swift,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,1,2026-01,https://trueinterview.io/questions/snapchat-dispatchqueue-code-analysis-in-swift

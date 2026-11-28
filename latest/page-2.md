@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -232,7 +232,7 @@
 | 2026-10 | [Ramp](../companies/ramp/), [Amazon](../companies/amazon/) +12 | [Minimum Meeting Rooms](https://trueinterview.io/questions/ramp-minimum-meeting-rooms?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | New grad, Junior / Mid, Senior, Staff+ | 0 |
 | 2026-10 | [OpenAI](../companies/openai/) | [Design a System for Remote Devbox](https://trueinterview.io/questions/openai-design-a-system-for-remote-devbox?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Onsite | Senior | 4 |
 | 2026-10 | [OpenAI](../companies/openai/) | [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/openai-debug-a-buggy-distributed-job-scheduler-concurrency-deadlocks-rate?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Onsite | Senior | 2 |
-| 2026-10 | [Apple](../companies/apple/), [Amazon](../companies/amazon/) +8 | [Top K Frequent Elements](https://trueinterview.io/questions/apple-top-k-frequent-elements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
+| 2026-10 | [Apple](../companies/apple/), [Amazon](../companies/amazon/) +9 | [Top K Frequent Elements](https://trueinterview.io/questions/apple-top-k-frequent-elements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
 | 2026-10 | [Figma](../companies/figma/) | [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-10 | [Stripe](../companies/stripe/) | [AI-Assisted Coding Round (HackerRank + Claude)](https://trueinterview.io/questions/ai-assisted-coding-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen, Onsite | New grad, Junior / Mid, Senior, Staff+ | 0 |
 | 2026-10 | [Robinhood](../companies/robinhood/), [OpenAI](../companies/openai/) | [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | New grad, Junior / Mid, Senior | 17 |

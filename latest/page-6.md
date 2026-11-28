@@ -2,7 +2,7 @@
 
 # Recently reported interview questions
 
-6,177 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
+6,172 questions reported in the 365 days to 2026-11-28, newest first. A month without a day means only the month was reported.
 
 [Home](../README.md) · [By company](../README.md#companies) · [By format](../README.md#formats)
 
@@ -10,7 +10,6 @@
 
 | Reported | Company | Question | Format | Round | Level | Reports |
 | :-- | :-- | :-- | :-- | :-- | :-- | --: |
-| 2026-08-25 | [PayPal](../companies/paypal/) | [Design a PayPal Feature That Helps Groups Split and Settle Shared Costs](https://trueinterview.io/questions/design-a-paypal-feature-that-helps-groups-split-and-settle-shared-costs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Senior, Staff+ | 0 |
 | 2026-08-25 | [OpenAI](../companies/openai/) | [ChatGPT Metric Diagnosis: Why Are More Responses Getting Negative Ratings?](https://trueinterview.io/questions/chatgpt-metric-diagnosis-why-are-more-responses-getting-negative-ratings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Onsite | Junior / Mid, Senior | 0 |
 | 2026-08-25 | [Figma](../companies/figma/) | [Clarify a BERT Keyphrase Span-Extraction Task](https://trueinterview.io/questions/clarify-a-bert-keyphrase-span-extraction-task?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | Phone screen | Senior, Staff+ | 0 |
 | 2026-08-25 | [Stripe](../companies/stripe/) | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Junior / Mid, Senior | 0 |
@@ -410,5 +409,6 @@
 | 2026-08 | [Oracle](../companies/oracle/) | [Enumerate All Valid Grid Paths](https://trueinterview.io/questions/oracle-enumerate-all-valid-grid-paths?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-08 | [Oracle](../companies/oracle/) | [Remove Duplicates from Sorted Array with At Most K Occurrences](https://trueinterview.io/questions/oracle-remove-duplicates-from-sorted-array-with-at-most-k-occurrences?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 | 2026-08 | [Oracle](../companies/oracle/) | [Remove Even-Positioned Nodes from a Singly Linked List](https://trueinterview.io/questions/oracle-remove-even-positioned-nodes-from-a-singly-linked-list?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | OA | Senior | 0 |
+| 2026-08 | [Oracle](../companies/oracle/) | [Partition Unique Cards into Consecutive Groups](https://trueinterview.io/questions/oracle-partition-unique-cards-into-consecutive-groups?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Phone screen | Senior | 0 |
 
 [← Newer](page-5.md) · Page 6 of 16 · [Older →](page-7.md)

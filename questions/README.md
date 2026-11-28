@@ -6,7 +6,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 
 [All companies](../README.md#companies)
 
-## Algorithm (183)
+## Algorithm (181)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -24,7 +24,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Search a 2D Matrix](algorithm/search-a-2d-matrix/README.md) | Easy | Apple · Amazon |
 | [Shortest Path in Unweighted Graph](algorithm/shortest-path-in-unweighted-graph/README.md) | Easy | Pinterest · ByteDance |
 | [Sum Root-to-Leaf Numbers](algorithm/sum-root-to-leaf-numbers/README.md) | Easy | Meta |
-| [Top K Frequent Elements](algorithm/top-k-frequent-elements/README.md) | Easy | Apple · Amazon · ByteDance · Google · LinkedIn |
+| [Top K Frequent Elements](algorithm/top-k-frequent-elements/README.md) | Easy | Apple · Amazon · ByteDance · Google · JPMorgan |
 | [Valid Palindrome](algorithm/valid-palindrome/README.md) | Easy | Apple · Amazon · Google · Meta |
 | [Valid Parentheses](algorithm/valid-parentheses/README.md) | Easy | Apple · Amazon · Bloomberg · Boston Consulting Group · ByteDance |
 | [Valid Sudoku](algorithm/valid-sudoku/README.md) | Easy | Apple · Meta · Verkada |
@@ -41,11 +41,10 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Cheapest Flights Within K Stops](algorithm/cheapest-flights-within-k-stops-3/README.md) | Medium | Uber · Apple · Snowflake |
 | [Check Vertical Reflection Symmetry with Duplicate Points](algorithm/check-vertical-reflection-symmetry-with-duplicate-points/README.md) | Medium | Nuro |
 | [Citation Highlighting](algorithm/citation-highlighting/README.md) | Medium | Harvey |
-| [Coin Change (LC 322)](algorithm/coin-change/README.md) | Medium | Pinterest |
+| [Coin Change (LC 322)](algorithm/coin-change/README.md) | Medium | Pinterest · GEICO |
 | [Combination Sum](algorithm/combination-sum/README.md) | Medium | — |
 | [Combination Sum IV](algorithm/combination-sum-iv/README.md) | Medium | — |
-| [Container With Most Water](algorithm/container-with-most-water-2/README.md) | Medium | Oracle |
-| [Container With Most Water II](algorithm/container-with-most-water/README.md) | Medium | Apple |
+| [Container With Most Water](algorithm/container-with-most-water-2/README.md) | Medium | Oracle · Apple |
 | [Contains Duplicate III](algorithm/contains-duplicate-iii/README.md) | Medium | Netflix |
 | [Continuous Subarray Sum](algorithm/continuous-subarray-sum/README.md) | Medium | Meta |
 | [Copy List with Random Pointer](algorithm/copy-list-with-random-pointer/README.md) | Medium | Snowflake |
@@ -58,7 +57,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Dojo Pythonic Coding Pair: Permutation Check and Pow](algorithm/dojo-permutation-and-pow/README.md) | Medium | Tesla |
 | [Dropped Requests (Rate Limiter)](algorithm/dropped-requests-rate-limiter/README.md) | Medium | Snowflake · Oracle |
 | [Encode and Decode Strings (LC 271)](algorithm/encode-and-decode-strings/README.md) | Medium | Snowflake |
-| [Enumerate All Balanced Bracket Strings for N Pairs](algorithm/generate-parentheses/README.md) | Medium | C3 AI |
+| [Enumerate All Balanced Bracket Strings for N Pairs](algorithm/generate-parentheses/README.md) | Medium | C3 AI · Disney |
 | [Evaluate Reverse Polish Notation](algorithm/evaluate-reverse-polish-notation/README.md) | Medium | Stripe · Bloomberg |
 | [Evaluate String Expression](algorithm/nested-function-expression-evaluator/README.md) | Medium | Google · Affirm · Uber |
 | [Exclusive Time of Functions](algorithm/exclusive-time-of-functions/README.md) | Medium | Uber · Meta |
@@ -105,7 +104,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Merge Two Binary Trees](algorithm/merge-two-binary-trees/README.md) | Medium | LinkedIn |
 | [Min Remove to Make Valid Parentheses](algorithm/min-remove-to-make-valid-parens/README.md) | Medium | Meta |
 | [Minimum Meeting Rooms](algorithm/minimum-meeting-rooms/README.md) | Medium | Ramp · Amazon · Bloomberg · ByteDance · eBay |
-| [Minimum Window Substring](algorithm/minimum-window-substring/README.md) | Medium | Lyft · ByteDance · Meta |
+| [Minimum Window Substring](algorithm/minimum-window-substring/README.md) | Medium | Lyft · ByteDance · LinkedIn · Meta |
 | [Modified Basic Calculator](algorithm/modified-basic-calculator/README.md) | Medium | Rokt · Instacart · WeRide |
 | [N-ary Tree Level Order Traversal](algorithm/n-ary-tree-level-order-traversal/README.md) | Medium | Uber |
 | [N-Queens](algorithm/n-queens/README.md) | Medium | Snowflake · ByteDance |
@@ -142,7 +141,6 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Sum of Two Integers](algorithm/sum-of-two-integers/README.md) | Medium | — |
 | [Time Based Key-Value Store](algorithm/time-based-key-value-store-2/README.md) | Medium | Uber · Amazon · ByteDance · Gusto · Microsoft |
 | [Top 10 Words](algorithm/top-10-frequent-words/README.md) | Medium | Robinhood |
-| [Top K Frequent Elements](algorithm/top-k-frequent-elements-3/README.md) | Medium | Uber · Amazon · ByteDance · Meta · Microsoft |
 | [Topological Sort / Course Schedule for Ads](algorithm/topological-sort-course-schedule-ads/README.md) | Medium | Netflix · Amazon · ByteDance · eBay |
 | [Trie Autocomplete / Prefix Search](algorithm/trie-autocomplete-prefix-search/README.md) | Medium | Pinterest · Google |
 | [Valid Palindrome II](algorithm/valid-palindrome-ii/README.md) | Medium | Meta · Microsoft |
